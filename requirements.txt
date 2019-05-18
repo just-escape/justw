@@ -1,0 +1,4 @@
+django
+phonenumbers
+django-phonenumber-field
+django_rest_framework

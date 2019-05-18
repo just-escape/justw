@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block h1 %}{% trans "Reaching our rooms" %}{% endblock %}
+
+{% block content %}
+
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12 col-lg-5 col-xl-4 mb-4 px-0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-12">
+                <div class="card deepdark border-jaffa mb-4">
+                  <div class="card-body">
+                    <div class="media">
+                      <span class="fill-mulberry-jaffa d-inline-block svg-64px mr-3 my-auto">
+                        {% include "svg/clock.svg" %}
+                      </span>
+                      <div>
+                        <h4 class="text-jaffa mb-1">Horaires d'ouverture</h4>
+                        <p class="lh-12 mb-0">
+                          <span class="text-jaffa">Lundi-vendredi :</span> 14h-23h<br>
+                          <span class="text-jaffa">Samedi-dimanche :</span> 10h-23h<br>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-12">
+                <div class="card deepdark border-jaffa mb-4">
+                  <div class="card-body">
+                    <div class="media">
+                      <div class="fill-mulberry-jaffa d-inline-block svg-64px mr-3 my-auto">
+                        {% include "svg/map-marker.svg" %}
+                      </div>
+                      <div>
+                        <h4 class="text-jaffa mb-1">Nous trouver</h4>
+                        <p class="lh-12 mb-0">
+                          17 rue négrier<br>
+                          59800 Lille
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12">
+                <div id="map"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-7 col-xl-8 px-0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-12 col-xl-6">
+                <div class="card deepdark border-jaffa mb-4">
+                  <div class="card-body">
+                    <h4 class="text-jaffa mb-1"><span class="fill-jaffa svg-20px">{% include "svg/walking.svg" %}</span>Venir à pied</h4>
+                    <p class="mb-0 text-justify">{% lorem 30 w %}</p>
+                  </div>
+                </div>
+                <div class="card deepdark border-jaffa mb-4">
+                  <div class="card-body">
+                    <h4 class="text-jaffa mb-1"><span class="fill-jaffa svg-20px mr-2">{% include "svg/bus.svg" %}</span><span class="fill-jaffa svg-20px mr-1">{% include "svg/subway.svg" %}</span>Venir en transports</h4>
+                    <p class="mb-0 text-justify">{% lorem 30 w %}</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-12 col-xl-6">
+                <div class="card deepdark border-jaffa mb-4">
+                  <div class="card-body">
+                    <h4 class="text-jaffa mb-1"><span class="fill-jaffa svg-20px mr-1">{% include "svg/car.svg" %}</span>Venir en voiture</h4>
+                    <p class="mb-0 text-justify">{% lorem 30 w %}</p>
+                  </div>
+                </div>
+                <div class="card deepdark border-jaffa mb-4">
+                  <div class="card-body">
+                    <h4 class="text-jaffa mb-1"><span class="fill-jaffa svg-20px mr-1">{% include "svg/bicycle.svg" %}</span>Venir à vélo</h4>
+                    <p class="mb-0 text-justify">{% lorem 30 w %}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rounded-borders p-3 no-border softdark">
+        <p class="mb-2">N'hésitez pas à passer sur <a class="text-jaffa font-weight-bold" href="/{{ lang }}/faq">notre FAQ</a>.</p>
+        <p class="mb-2">Retrouvez toutes les informations pour nous joindre directement sur notre <a class="text-jaffa font-weight-bold" href="/{{ lang }}/contact">page de contact</a>.</p>
+        <p class="mb-0">Il ne reste plus qu'à <a class="text-mulberry font-weight-bold" href="/{{ lang }}/reserver">réserver</a> si ce n'est pas déjà fait !</p>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+
+{% block post_base_js %}
+  <script>
+    function initMap() {
+        var coords = {lat: 50.6425341, lng: 3.0563218}
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: coords,
+            zoom: 18,
+            disableDefaultUI: true,
+            fullscreenControl: true,
+            scrollwheel: false
+        });
+    }
+  </script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKvLynIqSAA9loGKx2xgdqhDv89I5ww6k&callback=initMap" async defer></script>
+{% endblock %}

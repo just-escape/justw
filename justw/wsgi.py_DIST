@@ -1,0 +1,18 @@
+from os import environ
+from os.path import expanduser
+from sys import path
+from site import addsitedir
+
+addsitedir('/PATH/TO/justw/venv_justw/lib/python3.5/site-packages')  # NOQA
+
+path.append('/PATH/TO/justw/www')
+path.append('/PATH/TO/justw/www/justw')
+
+activate_env = expanduser('/PATH/TO/justw/venv_justw/bin/activate_this.py')  # NOQA
+exec(compile(open(activate_env, 'rb').read(), activate_env, 'exec'),
+     dict(__file__=activate_env))
+
+from django.core.wsgi import get_wsgi_application  # NOQA
+
+environ.setdefault('DJANGO_SETTINGS_MODULE', 'justw.settings')
+application = get_wsgi_application()

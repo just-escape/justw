@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Big Noodle";
+    src: url('https://draft.justescape.fr/static/font/big-noodle.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url('https://draft.justescape.fr/static/font/roboto-v19-latin-regular.woff2') format('woff2'), url('https://draft.justescape.fr/static/font/roboto-v19-latin-regular.woff') format('woff'), url('https://draft.justescape.fr/static/font/roboto-v19-latin-regular.ttf') format('truetype');
+}
+
+.bookeocss *{
+    font-family: "Big Noodle", "Roboto";
+    font-size: 16px;
+}
+
+:focus {
+    outline-color: rgba(171, 34, 121, 0.5);
+}
+
+.bookeocss ._rtinfoTab .htmledited *, .bookeocss .inputintro .htmledited *, .bookeocss .tipIdea *, .bookeocss .cb_confRules *, .bookeocss .cb_confRules, .bookeocss .inputintro, .bookeocss .cb_tip {
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.bookeocss .inputFieldFocused {
+    background-color: transparent;
+}
+
+.bookeocss #cbtce_eventsgrid th {
+    background-image: none;
+    background: #f5f5f5;
+}
+
+.axiom_n, .axiom_ne, .axiom_nw {
+    background: #3c3c3e;
+}
+
+.axiom_w, .axiom_e, .axiom_s, .axiom_sw, .axiom_sizer, .axiom_content {
+    background: #f8f9fa;
+}
+
+.bookeocss .gobutton .smallbLeft, .bookeocss .gobutton .smallbRight {
+    background-image: url('https://draft.justescape.fr/static/img/bookeo/small_go_button_just_escape.png');
+}
+
+.mobicss .gobutton .smallbLeft, .mobicss .gobutton .smallbRight {
+    background-image: url('https://draft.justescape.fr/static/img/bookeo/go_button_mobile_just_escape.png');
+}
+
+.bookeocss .smallbLeft, .bookeocss .smallbRight {
+    background-image: url('https://draft.justescape.fr/static/img/bookeo/small_button_just_escape.png');
+    font-size: 16px;
+}
+
+.mobicss .smallbLeft, .mobicss .smallbRight {
+    background-image: url('https://draft.justescape.fr/static/img/bookeo/small_button_mobile_just_escape.png');
+}
+
+.bookeocss .smallbLeft:hover, .bookeocss .smallbRight:hover {
+    background-image: url('https://draft.justescape.fr/static/img/bookeo/small_button_just_escape.png');
+    color: white;
+}
+
+.mobicss .smallbLeft, .mobicss .smallbRight {
+    background-image: url('https://draft.justescape.fr/static/img/bookeo/small_button_mobile_just_escape.png');
+    color: white;
+}
+
+.bookeocss .mediumb div:hover {
+    color: white;
+}
+
+.bookeocss .mediumbLeft, .bookeocss .mediumbRight {
+    background-image: url('https://draft.justescape.fr/static/img/bookeo/medium_button_just_escape.png');
+    font-size: 16px;
+}
+
+.mobicss .mediumbLeft, .mobicss .mediumbRight {
+    background-image: url('https://draft.justescape.fr/static/img/bookeo/medium_button_mobile_just_escape.png');
+}
+
+.bookeocss #cbtce_eventsgrid tr.hover {
+    background: linear-gradient(12deg, rgba(243, 141, 64, 0.3), rgba(171, 34, 121, 0.3) 90%);
+}
+
+.bookeocss .bigTabRow .tabRight {
+    font-size: 18px;
+}
+
+.bookeocss h3 {
+    font-size: 18px;
+}
+
+.bookeocss table.priceSummary ._netheader * {
+    font-size: 16px;
+}
+
+.bookeocss .cb_pageintro {
+    font-size: 18px;
+}
+
+.bookeocss .cb_bigDescription_title {
+    font-size: 16px;
+}

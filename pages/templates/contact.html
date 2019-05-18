@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block h1 %}{% trans "How to contact us" %}{% endblock %}
+
+{% block content %}
+  
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-xl-4 mb-4">
+          <div class="card deepdark border-jaffa">
+            <div class="card-body">
+              <div class="media">
+                <span class="fill-mulberry-jaffa d-inline-block svg-64px mr-3 my-auto">
+                  {% include "svg/clock.svg" %}
+                </span>
+                <div>
+                  <h4 class="text-jaffa mb-1">Horaires d'ouverture</h4>
+                  <p class="lh-12 mb-0">
+                    <span class="text-jaffa">Lundi-vendredi :</span> 14h-23h<br>
+                    <span class="text-jaffa">Samedi-dimanche :</span> 10h-23h<br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-xl-4 mb-4">
+          <div class="card deepdark border-jaffa">
+            <div class="card-body">
+              <div class="media">
+                <span class="fill-mulberry-jaffa d-inline-block svg-64px mr-3 my-auto">
+                  {% include "svg/address.svg" %}
+                </span>
+                <div>
+                  <h4 class="text-jaffa mb-1">Contact</h4>
+                  <p class="lh-12 mb-0">
+                    <span class="text-jaffa">Tel :</span> +33 1 23 45 67 89<br>
+                    <span class="text-jaffa">Mail :</span> contact@justescape.fr
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-xl-4 mb-4">
+          <div class="card deepdark border-jaffa">
+            <div class="card-body">
+              <div class="media">
+                <div class="fill-mulberry-jaffa d-inline-block svg-64px mr-3 my-auto">
+                  {% include "svg/map-marker.svg" %}
+                </div>
+                <div>
+                  <h4 class="text-jaffa mb-1">Nous trouver</h4>
+                  <p class="lh-12 mb-0">
+                    17 rue négrier<br>
+                    59800 Lille
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-12">
+          <div id="map"></div>
+        </div>
+      </div>
+
+      <div class="softdark no-background rounded-borders no-border p-3 mb-5">
+        <p class="mb-2">N'hésitez pas à passer sur <a class="text-jaffa font-weight-bold" href="/{{ lang }}/faq">notre FAQ</a>.</p>
+        <p class="mb-2">Vous organisez un <span class="font-weight-bold">séminaire</span> ? Retrouvez les informations sur notre <a class="text-jaffa font-weight-bold" href="/{{ lang }}/entreprises">page dédiée aux entreprises</a>.</p>
+        <p class="mb-2">Vous préparez un <span class="font-weight-bold">anniversaire</span>, <span class="font-weight-bold">EVJF</span> ou <span class="font-weight-bold">EVG</span> ? Vous devriez regarder nos <a class="text-jaffa font-weight-bold" href="/{{ lang }}/tarifs">tarifs avantageux</a>.</p>
+        <p class="mb-0">Vous pouvez acheter une <span class="font-weight-bold">carte cadeau</span> depuis <a class="text-mulberry font-weight-bold" href="/{{ lang }}/reserver">module de réservation</a>.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-sm-9 col-md-7 col-lg-5 col-xl-4">
+          <span id="newsletter" class="anchor">&nbsp;</span>
+          <h4 class="text-jaffa">{% trans "Newsletter" %}</h4>
+          <form action="/{{ lang }}/contact#newsletter" method="post">
+            {% csrf_token %}
+
+            {% if unexpected_error %}
+              <p class="text-red">An unexpected error happened. Please contact us directly.</p>
+            {% elif form.errors %}
+              {{ form.non_field_errors }}
+              {{ form.email.errors }}
+            {% endif %}
+
+            {% if subscription_success %}
+            <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="Merci et à bientôt !">
+            {% endif %}
+              <div class="input-group">
+                <input type="text" spellcheck="false" class="form-control" placeholder="marmitron@justescape.fr" name="{{ form.email.name }}" required>
+                <div class="input-group-append">
+                  <button class="btn btn-secondary" type="submit"><span>Je m'abonne</span></button>
+                </div>
+              </div>
+            {% if subscription_success %}
+            </a>
+            {% endif %}
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+
+{% block post_base_js %}
+  {% if subscription_success %}
+    <script type="text/javascript">
+      $('#newsletter-email-bar').popover('show');
+      $('#newsletter-email-bar').popover('disable');
+    </script>
+  {% endif %}
+  <script>
+    function initMap() {
+        var coords = {lat: 50.6425341, lng: 3.0563218}
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: coords,
+            zoom: 18,
+            disableDefaultUI: true,
+            fullscreenControl: true,
+            scrollwheel: false
+        });
+    }
+  </script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKvLynIqSAA9loGKx2xgdqhDv89I5ww6k&callback=initMap" async defer></script>
+{% endblock %}

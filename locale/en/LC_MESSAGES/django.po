@@ -1,0 +1,132 @@
+# Copyright (C) 2019
+# For licence information, see license.txt
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-08 06:14+0000\n"
+"PO-Revision-Date: 2019-03-12 12:15+0000\n"
+"Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
+"Language-Team: ENGLISH <contact@justescape.fr>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: justw/settings.py:110
+msgid "English"
+msgstr "English"
+
+#: justw/settings.py:111
+msgid "French"
+msgstr "French"
+
+#: pages/templates/404.html:17
+msgid "Erreur 404 - Vous ne naviguez pas sur la bonne page"
+msgstr ""
+
+#: pages/templates/access.html:17
+msgid "How to access our rooms"
+msgstr ""
+
+#: pages/templates/base.html:26 pages/templates/home.html:10
+#, fuzzy
+#| msgid "One of the best live escape game in Lille"
+msgid "One of the best live escape games in Lille"
+msgstr "One of the best live escape game in Lille"
+
+#: pages/templates/booking.html:10
+msgid "Book a room"
+msgstr ""
+
+#: pages/templates/conditions.html:12
+msgid "Conditions of use"
+msgstr ""
+
+#: pages/templates/contact.html:17
+msgid "How to contact us"
+msgstr ""
+
+#: pages/templates/contact.html:103 pages/templates/home.html:249
+msgid "Newsletter"
+msgstr ""
+
+#: pages/templates/faq.html:10
+msgid "Frequently asked questions"
+msgstr ""
+
+#: pages/templates/footer.html:8
+msgid "Follow us on social networks!"
+msgstr ""
+
+#: pages/templates/footer.html:45
+msgid "FAQ"
+msgstr ""
+
+#: pages/templates/footer.html:46
+msgid "Contact"
+msgstr ""
+
+#: pages/templates/footer.html:47
+msgid "Access"
+msgstr ""
+
+#: pages/templates/footer.html:48 pages/templates/news.html:10
+msgid "News"
+msgstr "News"
+
+#: pages/templates/footer.html:49
+msgid "Partenaires"
+msgstr ""
+
+#: pages/templates/footer.html:50
+msgid "Terms"
+msgstr ""
+
+#: pages/templates/footer.html:51
+msgid "Conditions"
+msgstr ""
+
+#: pages/templates/gift-voucher.html:10
+msgid "Offrir une carte cadeau"
+msgstr ""
+
+#: pages/templates/home.html:18 pages/templates/room.html:10
+msgid "Nos salles"
+msgstr "Our rooms"
+
+#: pages/templates/nav.html:56
+msgid "Rooms"
+msgstr "Rooms"
+
+#: pages/templates/nav.html:59
+msgid "Booking"
+msgstr "Booking"
+
+#: pages/templates/nav.html:71
+msgid "Pricing"
+msgstr "Pricing"
+
+#: pages/templates/nav.html:74
+msgid "Corporate"
+msgstr "Corporate"
+
+#: pages/templates/news1.html:16
+msgid "Some hype"
+msgstr ""
+
+#: pages/templates/partners.html:7
+msgid "Our partnerships"
+msgstr ""
+
+#: pages/templates/terms.html:12
+msgid "General terms of use"
+msgstr ""
+
+#~ msgid "Follow us!"
+#~ msgstr "Follow us!"
+
+#~ msgid "Subscribe to the newsletter"
+#~ msgstr "Subscribe to the newsletter"

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block content_header %}{% endblock %}
+
+{% block content %}
+
+  <div class="jumbotron">
+    <div class="container">
+      <div class="card border-jaffa deepdark">
+        <div class="card-body">
+
+          <h1 class="text-jaffa text-center">{% trans "General terms of use" %}</h1>
+
+          <h2 class="text-jaffa">Objet</h2>
+          <p class="size-09 text-justify">{% lorem %}</p>
+
+          <h2 class="text-jaffa">Mise à dispotion des salles</h2>
+          <p class="size-09 text-justify">{% lorem %}</p>
+
+          <h2 class="text-jaffa">Prix et paiement</h2>
+          <p class="size-09 text-justify">{% lorem %}</p>
+
+          <h2 class="text-jaffa">Confidentialité</h2>
+          <p class="size-09 text-justify">{% lorem %}</p>
+
+          <h2 class="text-jaffa">Données personnelles</h2>
+          <p class="size-09 text-justify">{% lorem %}</p>
+
+          <h2 class="text-jaffa">Tribunaux compétents</h2>
+          <p class="size-09 text-justify">Les présentes conditions générales et tout contrat conclu incorporant ces termes et conditions sont régis par le droit français et tous les litiges sont soumis à la compétence exclusive des tribunaux français.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

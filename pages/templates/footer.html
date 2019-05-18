@@ -1,0 +1,56 @@
+{% load i18n %}
+
+<footer id="my-footer">
+  <div class="jumbotron deepdark big-noodle size-12 pt-4">
+    <div class="container">
+      <div class="row justify-content-center mb-3">
+        <div class="col-12 col-sm-5 col-md-5 col-lg-4 col-xl-3 text-sm-center">
+          <h4 class="text-jaffa">{% trans "Follow us on social networks!" %}</h4>
+        </div>
+        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 text-sm-center">
+          <span class="social-media-icon d-inline-block svg-32px">
+            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="On est pas sur facebook mais on aime bien ce réseau !">
+              {% include "svg/facebook.svg" %}
+            </a>
+          </span>
+          <span class="social-media-icon d-inline-block svg-32px">
+            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="On est pas sur insta mais on aime bien ce réseau !">
+              {% include "svg/instagram.svg" %}
+            </a>
+          </span>
+          <span class="social-media-icon d-inline-block svg-32px">
+            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="On est pas sur twitter mais on aime bien ce réseau !">
+              {% include "svg/twitter.svg" %}
+            </a>
+          </span>
+          <span class="social-media-icon d-inline-block svg-32px">
+            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="On est pas sur linkedin mais on aime bien ce réseau !">
+              {% include "svg/linkedin.svg" %}
+            </a>
+          </span>
+          <span class="social-media-icon d-inline-block svg-32px">
+            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="On est pas sur tripadvisor mais on aime bien ce réseau !">
+              {% include "svg/tripadvisor.svg" %}
+            </a>
+          </span>
+          <span class="social-media-icon d-inline-block svg-32px">
+            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="On est pas sur yelp mais on aime bien ce réseau !">
+              {% include "svg/yelp.svg" %}
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="row justify-content-left justify-content-sm-center pl-3">
+        <ul class="d-flex flex-column flex-sm-row ul-no-style pl-0">
+          <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}/faq">{% trans "FAQ" %}</a></li>
+          <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}/contact">{% trans "Contact" %}</a></li>
+          <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}/acces">{% trans "Access" %}</a></li>
+          <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}/news">{% trans "News" %}</a></li>
+          <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}/partenaires">{% trans "Partenaires" %}</a></li>
+          <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}/cgv">{% trans "Terms" %}</a></li>
+          <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}/cgu">{% trans "Conditions" %}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

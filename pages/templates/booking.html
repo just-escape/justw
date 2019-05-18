@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block h1 %}{% trans "Book a room" %}{% endblock %}
+
+{% block content %}
+
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row d-flex justify-content-center flex-wrap">
+        <div class="col-12 col-sm-7 col-lg-3 mb-4">
+          <div class="card deepdark border-jaffa h-100">
+            <div class="card-body text-center mt-4 mb-5">
+              <h3 class="size-5 card-title text-jaffa">25€</h3>
+              <p class="card-text font-italic">Par personne</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-7 col-lg-3 mb-4">
+          <div class="card deepdark border-jaffa h-100">
+            <div class="card-body text-center mt-4 mb-5">
+              <h3 class="size-5 card-title text-jaffa">-20%</h3>
+              <p class="card-text font-italic">
+                Heures creuses
+                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="Du lundi au vendredi jusqu'à 16h (inclu)"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-7 col-lg-3 mb-4">
+          <div class="card deepdark border-jaffa h-100">
+            <div class="card-body text-center mt-4 mb-5">
+              <h3 class="size-5 card-title text-jaffa">-30%</h3>
+              <p class="card-text font-italic">
+                Pour les <span class="font-weight-bold text-mulberry">étudiants</span>
+                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="Les paiements en ligne se font au plein tarif. Remboursement de la différence sur place sur présentation de la carte."><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col text-center">
+          <a href="/{{ lang }}/carte-cadeau" class="size-09 text-underline text-hover-mulberry">Acheter une carte cadeau</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container px-0">
+      <div class="softdark mb-3 py-3 d-flex flex-row justify-content-center text-center rounded-borders">
+        <div class="d-flex flex-column flex-md-row">
+          <div class="mb-3 mx-2 mb-md-0">
+            <span class="d-block svg-36px fill-light mb-1">{% include "svg/discount.svg" %}</span>
+            <div class="size-09">J'utilise mon<br>code promo</div>
+          </div>
+          <div class="mb-3 mx-2 my-md-auto">
+            <span class="d-block svg-32px rotate-xl-sm-90 fill-light opacity-07">{% include "svg/arrow-right.svg" %}</span>
+          </div>
+          <div class="mb-3 mx-2 mb-md-0">
+            <span class="d-block svg-36px fill-light mb-1">{% include "svg/calendar-check.svg" %}</span>
+            <div class="size-09">Je choisis<br>un créneau</div>
+          </div>
+          <div class="mb-3 mx-2 my-md-auto">
+            <span class="d-block svg-32px rotate-xl-sm-90 fill-light opacity-07">{% include "svg/arrow-right.svg" %}</span>
+          </div>
+          <div class="mb-3 mx-2 mb-md-0">
+            <span class="d-block svg-36px fill-light mb-1">{% include "svg/credit-card.svg" %}</span>
+            <div class="size-09">Je paie au moins<br>une place <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-content="Vous pouvez régler la totalité dès la réservation si cela vous simplifie la vie. Les réductions étudiantes sont remboursées sur place sur présentation de la carte."><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/question-circle.svg" %}</span></a></div>
+          </div>
+          <div class="mb-3 mx-2 my-md-auto">
+            <span class="d-block svg-32px rotate-xl-sm-90 fill-light opacity-07">{% include "svg/arrow-right.svg" %}</span>
+          </div>
+          <div class="mx-2">
+            <span class="d-block svg-36px fill-light mb-1">{% include "svg/grin-beam.svg" %}</span>
+            <div class="size-09">C'est parti ! <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Rendez-vous à l'heure" data-content="Attention : Un retard de 15 minutes entraînera l'annulation de la session sans remboursement."><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/clock.svg" %}</span></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <script type="text/javascript" src="https://bookeo.com/widget.js?a=42555C9M33616A1270396B"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

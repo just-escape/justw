@@ -1,0 +1,356 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block h1 %}{% trans "One of the best live escape games in Lille" %}{% endblock %}
+
+{% block content %}
+
+  <div class="jumbotron">
+    <div class="container">
+
+      <span id="nos-salles" class="anchor">&nbsp;</span>
+      <h2 class="text-center">{% trans "Nos salles" %}</h2>
+
+      <div class="row d-flex justify-content-around flex-wrap">
+        <div class="col-12 col-lg-5 px-0">
+          <div class="card bg-transparent no-border h-100">
+            <div class="card-body pb-0 px-0">
+              <div class="row justify-content-center">
+                <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 pl-3 pl-sm-0">
+                  <a href="/{{ lang }}/salles?show=d1#le-digimiam">
+                    <img src="/static/img/door_robot.png" class="img-fluid mb-3" alt="Door robot">
+                  </a>
+                </div>
+                <div class="col-8 col-md-9 col-lg-7 col-xl-8">
+                  <span id="le-digimiam" class="anchor">&nbsp;</span>
+                  <h3 class="size-25 text-light-shadow mb-0"><a href="/{{ lang }}/salles?show=d1#le-digimiam">Le Digimiam</a></h3>
+                  <p class="text-justify">{% lorem 30 w %}</p>
+                  <div class="row d-flex flex-row justify-content-end">
+                    <div class="col-6 pr-1">
+                      <a href="/{{ lang }}/salles?show=d1#le-digimiam">
+                        <button type="button" class="btn btn-secondary btn-block"><span>Aperçu</span></button>
+                      </a>
+                    </div>
+                    <div class="col-6 pl-1">
+                      <a href="/{{ lang }}/reserver">
+                        <button type="button" class="btn btn-primary btn-block"><span>Réserver</span></button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer no-border bg-transparent px-0 mt-2 mt-sm-0">
+              <div class="d-flex flex-column flex-sm-row float-right">
+                <div class="mb-2 mr-sm-4">
+                  <div class="d-flex flex-row-reverse flex-sm-row">
+                    <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
+                    <span class="mr-2"></span>
+                    <span class="size-09 lh-24px">2 à 4 joueurs</span>
+                  </div>
+                </div>
+                <div class="mb-2 mr-sm-4">
+                  <div class="d-flex flex-row-reverse flex-sm-row">
+                    <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/chrono.svg" %}</span>
+                    <span class="mr-2"></span>
+                    <span class="size-09 lh-24px">60 minutes</span>
+                  </div>
+                </div>
+                <div class="mb-2">
+                  <div class="d-flex flex-row-reverse flex-sm-row">
+                    <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/lang.svg" %}</span>
+                    <span class="mr-2"></span>
+                    <span class="size-09 lh-24px">FR / EN</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-5 px-0">
+          <div class="card bg-transparent no-border h-100">
+            <div class="card-body pb-0 px-0">
+              <div class="row justify-content-center">
+                <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 pl-3 pl-sm-0">
+                  <a href="/{{ lang }}/salles?show=d2#le-digimiam2">
+                    <img src="/static/img/door_robot.png" class="img-fluid mb-3" alt="Door robot">
+                  </a>
+                </div>
+                <div class="col-8 col-md-9 col-lg-7 col-xl-8">
+                  <span id="le-digimiam2" class="anchor">&nbsp;</span>
+                  <h3 class="size-25 text-light-shadow mb-0"><a href="/{{ lang }}/salles?show=d2#le-digimiam2">Le Digimiam</a> <span class="d-inline-block svg-36px fill-light align-baseline">{% include "svg/minus-12.svg" %}</span></h3>
+                  <p class="text-justify">{% lorem 30 w %}</p>
+                  <div class="row d-flex flex-row justify-content-end">
+                    <div class="col-6 pr-1">
+                      <a href="/{{ lang }}/salles?show=d2#le-digimiam2">
+                        <button type="button" class="btn btn-secondary btn-block"><span>Aperçu</span></button>
+                      </a>
+                    </div>
+                    <div class="col-6 pl-1">
+                      <a href="/{{ lang }}/reserver">
+                        <button type="button" class="btn btn-primary btn-block"><span>Réserver</span></button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer no-border bg-transparent px-0 mt-2 mt-sm-0">
+              <div class="d-flex flex-column flex-sm-row float-right">
+                <div class="mb-2 mr-sm-4">
+                  <div class="d-flex flex-row-reverse flex-sm-row">
+                    <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
+                    <span class="mr-2"></span>
+                    <span class="size-09 lh-24px">2 à 4 joueurs</span>
+                  </div>
+                </div>
+                <div class="mb-2 mr-sm-4">
+                  <div class="d-flex flex-row-reverse flex-sm-row">
+                    <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/chrono.svg" %}</span>
+                    <span class="mr-2"></span>
+                    <span class="size-09 lh-24px">60 minutes</span>
+                  </div>
+                </div>
+                <div class="mb-2">
+                  <div class="d-flex flex-row-reverse flex-sm-row">
+                    <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/lang.svg" %}</span>
+                    <span class="mr-2"></span>
+                    <span class="size-09 lh-24px">FR / EN</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="jumbotron light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <span id="references" class="anchor">&nbsp;</span>
+          <h2>Ils disent qu'on est bien</h2>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-around flex-wrap">
+        <div class="col-7 col-md-4 col-lg-3 my-4">
+          <img src="/static/img/tripadvisor.png" class="img-fluid" style="background: grey" alt="Tripadvisor">
+        </div>
+        <div class="col-7 col-md-4 col-lg-3 my-4">
+          <img src="/static/img/tripadvisor.png" class="img-fluid" style="background: grey" alt="Tripadvisor">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-12 text-center">
+          <span id="promotions" class="anchor">&nbsp;</span>
+          <h2>Promotions</h2>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center flex-wrap mb-4">
+        <div class="col-12 col-sm-7 col-lg-3 mb-4">
+          <div class="card deepdark border-jaffa h-100">
+            <div class="card-body text-center mt-4 mb-5">
+              <h3 class="size-5 card-title text-jaffa">-20%</h3>
+              <p class="card-text font-italic">
+                Heures creuses
+                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="Du lundi au vendredi jusqu'à 16h (inclu)"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-7 col-lg-3 mb-4">
+          <div class="card deepdark border-jaffa h-100">
+            <div class="card-body text-center mt-4 mb-5">
+              <h3 class="size-5 card-title text-jaffa">-30%</h3>
+              <p class="card-text font-italic">
+                Pour les <span class="font-weight-bold text-mulberry">étudiants</span>
+                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="Les paiements en ligne se font au plein tarif. Remboursement de la différence sur place sur présentation de la carte."><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-7 col-lg-3 mb-4">
+          <div class="card deepdark border-jaffa h-100">
+            <div class="card-body text-center">
+              <h3 class="size-35 card-title text-jaffa">Offre spéciale</h3>
+              <p class="card-text font-italic small">Il n'y a pas d'offre spéciale en ce moment</p>
+              <a href="#newsletter">
+                <button type="button" class="btn btn-secondary float-right no-border"><span>Être averti</span></button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="d-flex flex-column text-center">
+          <a href="/{{ lang }}/reserver">
+            <button type="button" class="btn btn-primary px-5"><span>Réserver</span></button>
+          </a>
+          <a href="/{{ lang }}/entreprises#devis" class="size-09 text-underline text-hover-mulberry">Devis entreprise</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron light px-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <span id="quid" class="anchor">&nbsp;</span>
+          <h2>{% lorem 5 w %}</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-4 mb-4">
+          <h3 class="text-center">{% lorem 2 w %}</h3>
+          <p class="text-justify">{% lorem random %}</p>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+          <h3 class="text-center">{% lorem 2 w %}</h3>
+          <p class="text-justify">{% lorem random %}</p>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+          <h3 class="text-center">{% lorem 2 w %}</h3>
+          <p class="text-justify">{% lorem random %}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron px-0">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-xl-4 mb-4">
+          <div class="card deepdark border-jaffa">
+            <div class="card-body">
+              <div class="media">
+                <span class="fill-mulberry-jaffa d-inline-block svg-64px mr-3 my-auto">
+                  {% include "svg/clock.svg" %}
+                </span>
+                <div>
+                  <h4 class="text-jaffa mb-1">Horaires d'ouverture</h4>
+                  <p class="lh-12 mb-0">
+                    <span class="text-jaffa">Lundi-vendredi :</span> 14h-23h<br>
+                    <span class="text-jaffa">Samedi-dimanche :</span> 10h-23h<br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-xl-4 mb-4">
+          <div class="card deepdark border-jaffa">
+            <div class="card-body">
+              <div class="media">
+                <span class="fill-mulberry-jaffa d-inline-block svg-64px mr-3 my-auto">
+                  {% include "svg/address.svg" %}
+                </span>
+                <div>
+                  <h4 class="text-jaffa mb-1">Contact</h4>
+                  <p class="lh-12 mb-0">
+                    <span class="text-jaffa">Tel :</span> +33 1 23 45 67 89<br>
+                    <span class="text-jaffa">Mail :</span> contact@justescape.fr
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-xl-4 mb-4">
+          <div class="card deepdark border-jaffa">
+            <div class="card-body">
+              <div class="media">
+                <div class="fill-mulberry-jaffa d-inline-block svg-64px mr-3 my-auto">
+                  {% include "svg/map-marker.svg" %}
+                </div>
+                <div>
+                  <h4 class="text-jaffa mb-1">Nous trouver</h4>
+                  <p class="lh-12 mb-0">
+                    17 rue négrier<br>
+                    59800 Lille
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="map" class="jumbotron"></div>
+
+  <div class="jumbotron py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-9 col-md-7 col-lg-5 col-xl-4 ml-sm-5 ml-lg-0">
+          <span id="newsletter" class="anchor">&nbsp;</span>
+          <h4 class="text-jaffa">{% trans "Newsletter" %}</h4>
+          <form action="/{{ lang }}/#newsletter" method="post">
+            {% csrf_token %}
+
+            {% if unexpected_error %}
+              <p class="text-red">An unexpected error happened. Please contact us directly.</p>
+            {% elif form.errors %}
+              {{ form.non_field_errors }}
+              {{ form.email.errors }}
+            {% endif %}
+
+            {% if subscription_success %}
+            <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="Merci et à bientôt !">
+            {% endif %}
+              <div class="input-group">
+                <input type="text" spellcheck="false" class="form-control" placeholder="marmitron@justescape.fr" name="{{ form.email.name }}" required>
+                <div class="input-group-append">
+                  <button class="btn btn-secondary" type="submit"><span>Je m'abonne</span></button>
+                </div>
+              </div>
+            {% if subscription_success %}
+            </a>
+            {% endif %}
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+
+{% block post_base_js %}
+  {% if subscription_success %}
+    <script type="text/javascript">
+      $('#newsletter-email-bar').popover('show');
+      $('#newsletter-email-bar').popover('disable');
+    </script>
+  {% endif %}
+  <script>
+    function initMap() {
+        var coords = {lat: 50.6425341, lng: 3.0563218}
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: coords,
+            zoom: 18,
+            disableDefaultUI: true,
+            fullscreenControl: true,
+            scrollwheel: false
+        });
+    }
+  </script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKvLynIqSAA9loGKx2xgdqhDv89I5ww6k&callback=initMap" async defer></script>
+{% endblock %}
