@@ -220,34 +220,6 @@ a:hover {
     }
 }
 
-.translate-lg-logo {
-    transition: transform 0.5s ease-in-out;
-}
-
-@media (min-width: 992px) {
-    .translate-lg-logo {
-        /* logo height + title line height + margin top */
-        transform: translateY(calc(-100px - 24px - 1rem));
-    }
-
-    .reduced .translate-lg-logo {
-        /* logo height + title line height + margin top */
-        transform: translateY(calc(-85px - 24px - 1rem));
-    }
-}
-
-@media (min-width: 1200px) {
-    .translate-lg-logo {
-        /* logo height + title line height + margin top */
-        transform: translateY(calc(-115px - 24px - 1rem));
-    }
-
-    .reduced .translate-lg-logo {
-        /* logo height + title line height + margin top */
-        transform: translateY(calc(-90px - 24px - 1rem));
-    }
-}
-
 .space-for-logo {
     transition: height 0.5s ease-in-out;
 }
@@ -615,6 +587,20 @@ input.form-control::placeholder {
 /* form */
 
 /* misc */
+@media (min-width: 992px) {
+    .position-lg-absolute {
+        position: absolute!important;
+    }
+}
+
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
 .pointer:hover {
     cursor: pointer;
 }
