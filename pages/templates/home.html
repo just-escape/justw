@@ -28,13 +28,13 @@
                   <p class="text-justify">{% lorem 30 w %}</p>
                   <div class="row d-flex flex-row justify-content-end">
                     <div class="col-6 pr-1">
-                      <a href="/{{ lang }}/salles?show=d1#le-digimiam">
-                        <button type="button" class="btn btn-secondary btn-block"><span>Aperçu</span></button>
+                      <a href="/{{ lang }}/salles?show=d1#le-digimiam" class="btn btn-secondary btn-block">
+                        <span>Aperçu</span>
                       </a>
                     </div>
                     <div class="col-6 pl-1">
-                      <a href="/{{ lang }}/reserver">
-                        <button type="button" class="btn btn-primary btn-block"><span>Réserver</span></button>
+                      <a href="/{{ lang }}/reserver" class="btn btn-primary btn-block">
+                        <span>Réserver</span>
                       </a>
                     </div>
                   </div>
@@ -84,13 +84,13 @@
                   <p class="text-justify">{% lorem 30 w %}</p>
                   <div class="row d-flex flex-row justify-content-end">
                     <div class="col-6 pr-1">
-                      <a href="/{{ lang }}/salles?show=d2#le-digimiam2">
-                        <button type="button" class="btn btn-secondary btn-block"><span>Aperçu</span></button>
+                      <a href="/{{ lang }}/salles?show=d2#le-digimiam2" class="btn btn-secondary btn-block">
+                        <span>Aperçu</span>
                       </a>
                     </div>
                     <div class="col-6 pl-1">
-                      <a href="/{{ lang }}/reserver">
-                        <button type="button" class="btn btn-primary btn-block"><span>Réserver</span></button>
+                      <a href="/{{ lang }}/reserver" class="btn btn-primary btn-block">
+                        <span>Réserver</span>
                       </a>
                     </div>
                   </div>
@@ -186,8 +186,8 @@
             <div class="card-body text-center">
               <h3 class="size-35 card-title text-jaffa">Offre spéciale</h3>
               <p class="card-text font-italic small">Il n'y a pas d'offre spéciale en ce moment</p>
-              <a href="#newsletter">
-                <button type="button" class="btn btn-secondary float-right no-border"><span>Être averti</span></button>
+              <a class="btn btn-secondary float-right no-border" href="#newsletter">
+                <span>Être averti</span>
               </a>
             </div>
           </div>
@@ -196,8 +196,8 @@
 
       <div class="row justify-content-center">
         <div class="d-flex flex-column text-center">
-          <a href="/{{ lang }}/reserver">
-            <button type="button" class="btn btn-primary px-5"><span>Réserver</span></button>
+          <a href="/{{ lang }}/reserver" class="btn btn-primary px-5">
+            <span>Réserver</span>
           </a>
           <a href="/{{ lang }}/entreprises#devis" class="size-09 text-underline text-hover-mulberry">Devis entreprise</a>
         </div>
@@ -335,7 +335,7 @@
 
 {% block post_base_js %}
   {% if subscription_success %}
-    <script type="text/javascript">
+    <script>
       $('#newsletter-email-bar').popover('show');
       $('#newsletter-email-bar').popover('disable');
     </script>
@@ -352,5 +352,5 @@
         });
     }
   </script>
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKvLynIqSAA9loGKx2xgdqhDv89I5ww6k&callback=initMap" async defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKvLynIqSAA9loGKx2xgdqhDv89I5ww6k&callback=initMap" async defer></script>
 {% endblock %}

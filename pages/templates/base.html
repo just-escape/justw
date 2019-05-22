@@ -11,6 +11,10 @@
     <link rel="stylesheet" type="text/css" href="/static/css/custom.css">
     <link rel="icon" href="/static/img/favicon.ico">
 
+    <title>{% block title %}Just Escape{% endblock %}</title>
+  </head>
+
+  <body class="d-flex flex-column dark sans-serif pb-0">
     <svg id="svg-css" aria-hidden="true" focusable="false">
       <linearGradient id="mulberry-jaffa" x1="50%" y1="0%" x2="50%" y2="100%">
         <stop stop-color="#cb4299" offset="0"/>
@@ -18,10 +22,6 @@
       </linearGradient>
     </svg>
 
-    <title>{% block title %}Just Escape{% endblock %}</title>
-  </head>
-
-  <body class="d-flex flex-column dark sans-serif pb-0">
     {% include "nav.html" %}
 
     <div class="jumbotron-fluid light">
@@ -44,9 +44,9 @@
  
     {% include "footer.html" %}
 
-    <script type="text/javascript" src="/static/js/jquery.slim.min.js"></script>
-    <script type="text/javascript" src="/static/js/popper-1.12.9.min.js"></script>
-    <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery.slim.min.js"></script>
+    <script src="/static/js/popper-1.12.9.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
 
     <script>
       function navReductionOnScroll() {

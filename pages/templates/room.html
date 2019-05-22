@@ -50,8 +50,8 @@
                     </div>
                   </div>
                   <div class="my-lg-auto text-right">
-                    <a href="/{{ lang }}/reserver">
-                      <button type="button" class="btn btn-primary mb-3 mb-lg-0"><span class="px-3">Réserver</span></button>
+                    <a class="btn btn-primary mb-3 mb-lg-0" href="/{{ lang }}/reserver">
+                      <span class="px-3">Réserver</span>
                     </a>
                   </div>
                 </div>
@@ -142,8 +142,8 @@
                     </div>
                   </div>
                   <div class="my-lg-auto text-right">
-                    <a href="/{{ lang }}/reserver">
-                      <button type="button" class="btn btn-primary mb-3 mb-lg-0"><span class="px-3">Réserver</span></button>
+                    <a class="btn btn-primary mb-3 mb-lg-0" href="/{{ lang }}/reserver">
+                      <span class="px-3">Réserver</span>
                     </a>
                   </div>
                 </div>
@@ -193,7 +193,7 @@
 {% endblock %}
 
 {% block post_base_js %}
-  <script type="text/javascript">
+  <script>
     $("#collapse-room-1").on("show.bs.collapse", function() {$("#heading-room-1 span.svg-64px").addClass("rotate-90");})
     $("#collapse-room-1").on("hide.bs.collapse", function() {$("#heading-room-1 span.svg-64px").removeClass("rotate-90");})
     $("#collapse-room-2").on("show.bs.collapse", function() {$("#heading-room-2 span.svg-64px").addClass("rotate-90");})

@@ -118,7 +118,7 @@
 
 {% block post_base_js %}
   {% if subscription_success %}
-    <script type="text/javascript">
+    <script>
       $('#newsletter-email-bar').popover('show');
       $('#newsletter-email-bar').popover('disable');
     </script>
@@ -135,5 +135,5 @@
         });
     }
   </script>
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKvLynIqSAA9loGKx2xgdqhDv89I5ww6k&callback=initMap" async defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKvLynIqSAA9loGKx2xgdqhDv89I5ww6k&callback=initMap" async defer></script>
 {% endblock %}

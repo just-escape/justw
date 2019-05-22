@@ -44,8 +44,8 @@
             </div>
             <div class="card-body">
               <p class="card-text">{% lorem 15 w %}</p>
-              <a href="/{{ lang }}/carte-cadeau">
-                <button type="button" class="btn btn-primary float-right"><span>Offrir une carte</span></button>
+              <a class="btn btn-primary float-right" href="/{{ lang }}/carte-cadeau">
+                <span>Offrir une carte</span>
               </a>
             </div>
             <div class="card-footer text-center">
@@ -70,8 +70,8 @@
       </div>
 
       <div class="row justify-content-center">
-        <a href="/{{ lang }}/reserver">
-          <button type="button" class="btn btn-primary px-5"><span>Réserver</span></button>
+        <a class="btn btn-primary px-5" href="/{{ lang }}/reserver">
+          <span>Réserver</span>
         </a>
       </div>
     </div>
@@ -186,7 +186,7 @@
         <div class="form-group">
           <div class="row">
             <div class="px-0 px-sm-3 col-12 col-sm-4 col-md-3 col-lg-2">
-              <label class="col-form-label" for="{{ form.prestation_type.auto_id }}">{{ form.prestation_type.label }}</label>
+              <label class="col-form-label">{{ form.prestation_type.label }}</label>
               <span class="text-jaffa">*</span>
             </div>
             <div class="col-12 col-sm-8 col-md-6 col-lg-4">
@@ -312,10 +312,10 @@
   <link rel="stylesheet" type="text/css" href="/static/css/tempusdominus-bootstrap-4-5.1.2.min.css">
   <link rel="stylesheet" type="text/css" href="/static/css/tempusdominus-custom.css">
 
-  <script type="text/javascript" src="/static/js/moment-2.23.0.min.js"></script>
-  <script type="text/javascript" src="/static/js/tempusdominus-bootstrap-4-5.1.2.min.js"></script>
+  <script src="/static/js/moment-2.23.0.min.js"></script>
+  <script src="/static/js/tempusdominus-bootstrap-4-5.1.2.min.js"></script>
 
-  <script type="text/javascript">
+  <script>
     $.fn.datetimepicker.Constructor.Default = $.extend({}, $.fn.datetimepicker.Constructor.Default, {
       icons: {
         time: 'far fa-clock',
