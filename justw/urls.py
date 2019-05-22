@@ -23,7 +23,9 @@ urlpatterns = i18n_patterns(
     re_path(r'cgv$', views.terms, name='terms'),
     re_path(r'cgu$', views.conditions, name='conditions'),
 
-    path('admin/', admin.site.urls),
+    prefix_default_language=False,
 )
+
+urlpatterns += [path('admin/', admin.site.urls)]
 
 urlpatterns += staticfiles_urlpatterns()
