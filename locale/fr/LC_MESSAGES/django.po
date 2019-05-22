@@ -97,7 +97,7 @@ msgstr "Nos salles"
 
 #: pages/templates/nav.html:56
 msgid "Rooms"
-msgstr "Les salles"
+msgstr "Salles"
 
 #: pages/templates/nav.html:59
 msgid "Booking"
