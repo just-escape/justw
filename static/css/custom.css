@@ -18,7 +18,8 @@
 }
 
 @font-face {
-    font-family: "Big Noodle Oblique";
+    font-family: "Big Noodle";
+    font-style: oblique;
     src: url('/static/font/big-noodle-oblique.ttf');
 }
 
@@ -113,8 +114,8 @@ h1, h2, h3, h4, h5, h6, .big-noodle {
     font-family: "Big Noodle";
 }
 
-.big-noodle-obl {
-    font-family: "Big Noodle Oblique";
+.text-oblique {
+    font-style: oblique;
 }
 
 .sans-serif {
@@ -406,7 +407,8 @@ a:hover {
 .btn > span, .nav-button > span {
     z-index: 3;
     position: relative;
-    font-family: "Big Noodle Oblique";
+    font-family: "Big Noodle";
+    font-style: oblique;
 }
 
 .btn > span {
