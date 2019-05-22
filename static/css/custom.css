@@ -14,20 +14,37 @@
 /* document */
 @font-face {
     font-family: "Big Noodle";
-    src: url('/static/font/big-noodle.ttf');
+    font-style: normal;
+    src: url('/static/font/big-noodle.eot');
+    src: url('/static/font/big-noodle.eot?#iefix') format('embedded-opentype'),
+        url('/static/font/big-noodle.woff2') format('woff2'),
+        url('/static/font/big-noodle.woff') format('woff'),
+        url('/static/font/big-noodle.ttf') format('truetype');
+    unicode-range: U+000-5FF; /* Latin */
 }
 
 @font-face {
     font-family: "Big Noodle";
     font-style: oblique;
-    src: url('/static/font/big-noodle-oblique.ttf');
+    src: url('/static/font/big-noodle-oblique.eot');
+    src: url('/static/font/big-noodle-oblique.eot?#iefix') format('embedded-opentype'),
+        url('/static/font/big-noodle-oblique.woff2') format('woff2'),
+        url('/static/font/big-noodle-oblique.woff') format('woff'),
+        url('/static/font/big-noodle-oblique.ttf') format('truetype');
+    unicode-range: U+000-5FF; /* Latin */
 }
 
 @font-face {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    src: local('Roboto'), local('Roboto-Regular'), url('/static/font/roboto-v19-latin-regular.woff2') format('woff2'), url('/static/font/roboto-v19-latin-regular.woff') format('woff'), url('/static/font/roboto-v19-latin-regular.ttf') format('truetype');
+    src: url('/static/font/roboto-v19-latin-regular.eot');
+    src: local('Roboto'),
+         local('Roboto-Regular'),
+         url('/static/font/roboto-v19-latin-regular.woff2') format('woff2'),
+         url('/static/font/roboto-v19-latin-regular.woff') format('woff'),
+         url('/static/font/roboto-v19-latin-regular.ttf') format('truetype');
+    unicode-range: U+000-5FF; /* Latin */
 }
 
 body {
@@ -111,7 +128,7 @@ body {
 
 /* text */
 h1, h2, h3, h4, h5, h6, .big-noodle {
-    font-family: "Big Noodle";
+    font-family: "Big Noodle", "Arial Black", "sans-serif";
 }
 
 .text-oblique {
@@ -407,7 +424,7 @@ a:hover {
 .btn > span, .nav-button > span {
     z-index: 3;
     position: relative;
-    font-family: "Big Noodle";
+    font-family: "Big Noodle", "Arial Black", "sans-serif";
     font-style: oblique;
 }
 
@@ -607,7 +624,7 @@ input.form-control, select.form-control, textarea.form-control, .input-group > .
 }
 
 input.form-control, select.form-control {
-    font-family: "Big Noodle";
+    font-family: "Big Noodle", "Arial Black", "sans-serif";
     font-size: 1.4rem;
 }
 
@@ -619,7 +636,7 @@ input.form-control:focus, select.form-control:focus, textarea.form-control:focus
 }
 
 input.form-control::placeholder {
-    font-family: "Big Noodle";
+    font-family: "Big Noodle", "Arial Black", "sans-serif";
     font-size: 1.4rem;
     color: #545457;
 }
