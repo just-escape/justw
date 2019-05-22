@@ -12,6 +12,10 @@ from salesquote.forms import SalesQuoteForm
 from salesquote.models import SalesQuote
 
 
+def get_lang(request):
+    return '' if request.LANGUAGE_CODE == 'fr' else request.LANGUAGE_CODE
+
+
 def handle_subscription(request):
     if request.method != 'POST':
         return EmailForm(), False, False
@@ -175,7 +179,7 @@ def home(request):
 
     data = {
         'current_page': '',
-        'lang': request.LANGUAGE_CODE,
+        'lang': get_lang(request),
         'form': form,
         'unexpected_error': error,
         'subscription_success': success,
@@ -188,24 +192,24 @@ def room(request):
     show = request.GET.get('show', None)
     data = {
         'current_page': 'salles',
-        'lang': request.LANGUAGE_CODE,
+        'lang': get_lang(request),
         'show': show
     }
     return render(request, 'room.html', data)
 
 
 def booking(request):
-    data = {'current_page': 'reserver', 'lang': request.LANGUAGE_CODE}
+    data = {'current_page': 'reserver', 'lang': get_lang(request)}
     return render(request, 'booking.html', data)
 
 
 def gift_voucher(request):
-    data = {'current_page': 'carte-cadeau', 'lang': request.LANGUAGE_CODE}
+    data = {'current_page': 'carte-cadeau', 'lang': get_lang(request)}
     return render(request, 'gift-voucher.html', data)
 
 
 def pricing(request):
-    data = {'current_page': 'tarifs', 'lang': request.LANGUAGE_CODE}
+    data = {'current_page': 'tarifs', 'lang': get_lang(request)}
     return render(request, 'pricing.html', data)
 
 
@@ -214,7 +218,7 @@ def corporate(request):
 
     data = {
         'current_page': 'entreprises',
-        'lang': request.LANGUAGE_CODE,
+        'lang': get_lang(request),
         'form': form,
         'unexpected_error': error,
         'salesquote_success': success,
@@ -224,27 +228,27 @@ def corporate(request):
 
 
 def faq(request):
-    data = {'current_page': 'faq', 'lang': request.LANGUAGE_CODE}
+    data = {'current_page': 'faq', 'lang': get_lang(request)}
     return render(request, 'faq.html', data)
 
 
 def news(request):
-    data = {'current_page': 'news', 'lang': request.LANGUAGE_CODE}
+    data = {'current_page': 'news', 'lang': get_lang(request)}
     return render(request, 'news.html', data)
 
 
 def news1(request):
-    data = {'current_page': 'news1', 'lang': request.LANGUAGE_CODE}
+    data = {'current_page': 'news1', 'lang': get_lang(request)}
     return render(request, 'news1.html', data)
 
 
 def error404(request):
-    data = {'current_page': '404', 'lang': request.LANGUAGE_CODE}
+    data = {'current_page': '404', 'lang': get_lang(request)}
     return render(request, '404.html', data)
 
 
 def partners(request):
-    data = {'current_page': 'partenaires', 'lang': request.LANGUAGE_CODE}
+    data = {'current_page': 'partenaires', 'lang': get_lang(request)}
     return render(request, 'partners.html', data)
 
 
@@ -253,7 +257,7 @@ def contact(request):
 
     data = {
         'current_page': 'contact',
-        'lang': request.LANGUAGE_CODE,
+        'lang': get_lang(request),
         'form': form,
         'unexpected_error': error,
         'subscription_success': success,
@@ -267,7 +271,7 @@ def unsubscribe(request):
 
     data = {
         'current_page': 'desabonnement',
-        'lang': request.LANGUAGE_CODE,
+        'lang': get_lang(request),
         'form': form,
         'unexpected_error': error,
         'subscription_success': success,
@@ -277,15 +281,15 @@ def unsubscribe(request):
 
 
 def access(request):
-    data = {'current_page': 'acces', 'lang': request.LANGUAGE_CODE}
+    data = {'current_page': 'acces', 'lang': get_lang(request)}
     return render(request, 'access.html', data)
 
 
 def terms(request):
-    data = {'current_page': 'cgv', 'lang': request.LANGUAGE_CODE}
+    data = {'current_page': 'cgv', 'lang': get_lang(request)}
     return render(request, 'terms.html', data)
 
 
 def conditions(request):
-    data = {'current_page': 'cgu', 'lang': request.LANGUAGE_CODE}
+    data = {'current_page': 'cgu', 'lang': get_lang(request)}
     return render(request, 'conditions.html', data)

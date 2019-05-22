@@ -1,9 +1,9 @@
 {% load i18n %}
 
-<nav class="nav fixed-top p-0">
+<div class="nav fixed-top p-0" id="navheader">
 
   <div class="container-fluid d-flex flex-column flex-lg-column-reverse px-0">
-    <div class="position-relative position-lg-absolute light bg-lg-transparent box-light-shadow box-lg-no-shadow logo-row pt-2 pt-lg-0 mt-lg-2 z-1 z-lg-2">
+    <header class="position-relative position-lg-absolute light bg-lg-transparent box-light-shadow box-lg-no-shadow logo-row pt-2 pt-lg-0 mt-lg-2 z-1 z-lg-2">
       <button class="navbar-toggler z-3 d-lg-none" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -17,25 +17,25 @@
           </figcaption>
         </figure>
       </div>
-    </div>
+    </header>
 
-    <div class="collapse nav-collapse box-light-shadow light d-lg-flex flex-column-reverse z-2 z-lg-1" id="navbar">
+    <nav class="collapse nav-collapse box-light-shadow light d-lg-flex flex-column-reverse z-2 z-lg-1" id="navbar">
       <div class="big-noodle text-oblique my-3 my-lg-0">
         <div class="container">
           <ul class="row ul-no-style pl-0 mb-0 text-lg-center">
             <li class="z-4 col-12 col-sm-3 col-lg-2 my-auto text-left text-sm-center px-sm-0">
-              <a class="text-hover-mulberry size-reductible-2 py-2 px-3" href="/{{ lang }}/salles">{% trans "Rooms" %}</a>
+              <a class="text-hover-mulberry size-reductible-2 py-2 px-3" href="/{{ lang }}salles">{% trans "Rooms" %}</a>
             </li>
             <li class="z-4 col-12 col-sm-3 col-lg-2 my-auto text-left text-sm-center px-sm-0">
-              <a class="size-reductible-2 py-2 px-3 nav-button" href="/{{ lang }}/reserver"><span>{% trans "Booking" %}</span></a>
+              <a class="size-reductible-2 py-2 px-3 nav-button" href="/{{ lang }}reserver"><span>{% trans "Booking" %}</span></a>
             </li>
             <!-- Space left for the logo in lg+ -->
             <li class="col-0 col-lg-4 d-none d-lg-block space-for-logo"></li>
             <li class="z-4 col-12 col-sm-3 col-lg-2 my-auto text-left text-sm-center px-sm-0">
-              <a class="size-reductible-2 text-hover-mulberry py-2 px-3" href="/{{ lang }}/tarifs">{% trans "Pricing" %}</a>
+              <a class="size-reductible-2 text-hover-mulberry py-2 px-3" href="/{{ lang }}tarifs">{% trans "Pricing" %}</a>
             </li>
             <li class="z-4 col-12 col-sm-3 col-lg-2 my-auto text-left text-sm-center px-sm-0">
-              <a class="size-reductible-2 text-hover-mulberry py-2 px-3" href="/{{ lang }}/entreprises">{% trans "Corporate" %}</a>
+              <a class="size-reductible-2 text-hover-mulberry py-2 px-3" href="/{{ lang }}entreprises">{% trans "Corporate" %}</a>
             </li>
           </ul>
         </div>
@@ -48,16 +48,16 @@
               <div class="d-flex flex-column flex-sm-row justify-content-md-end justify-content-sm-between ml-3 ml-lg-0 my-1 my-lg-0">
                 <ul class="d-flex flex-column flex-sm-row ul-no-style pl-0 my-2 my-sm-0">
                   <li>
-                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}/faq">FAQ</a>
+                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}faq">FAQ</a>
                   </li>
                   <li>
-                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}/contact">Contact</a>
+                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}contact">Contact</a>
                   </li>
                   <li>
-                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}/acces">Accès</a>
+                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}acces">Accès</a>
                   </li>
                   <li>
-                    <a class="size-reductible-15 text-hover-mulberry mr-5" href="/{{ lang }}/news">Blog</a>
+                    <a class="size-reductible-15 text-hover-mulberry mr-5" href="/{{ lang }}news">Blog</a>
                   </li>
                 </ul>
                 <div class="mb-2 mb-sm-0">
@@ -65,7 +65,7 @@
                     {% include "svg/language.svg" %}
                   </span>
                   <span class="size-reductible-15">
-                    <a class="text-hover-mulberry" href="/en/{{ current_page }}">EN</a> | <a class="text-hover-mulberry" href="/fr/{{ current_page }}">FR</a>
+                    <a class="text-hover-mulberry" href="/en/{{ current_page }}">EN</a> | <a class="text-hover-mulberry" href="/{{ current_page }}">FR</a>
                   </span>
                 </div>
               </div>
@@ -73,7 +73,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </nav>
 
   </div>
-</nav>
+</div>

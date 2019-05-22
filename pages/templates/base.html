@@ -11,6 +11,19 @@
     <link rel="stylesheet" type="text/css" href="/static/css/custom.css">
     <link rel="icon" href="/static/img/favicon.ico">
 
+    <link rel="canonical" href="https://justescape.fr/{{ lang }}{{ current_page }}">
+    <link rel="alternate" hreflang="fr" href="https://justescape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="fr-be" href="https://justescape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="fr-ca" href="https://justescape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="fr-mc" href="https://justescape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="fr-ml" href="https://justescape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="fr-sn" href="https://justescape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="fr-ch" href="https://justescape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="en" href="https://justescape.fr/en/{{ current_page }}">
+    <link rel="alternate" hreflang="en-gb" href="https://justescape.fr/en/{{ current_page }}">
+    <link rel="alternate" hreflang="en-us" href="https://justescape.fr/en/{{ current_page }}">
+    <link rel="alternate" hreflang="x-default" href="https://justescape.fr/en/{{ current_page }}">
+
     <title>{% block title %}Just Escape{% endblock %}</title>
   </head>
 
@@ -22,25 +35,27 @@
       </linearGradient>
     </svg>
 
-    {% include "nav.html" %}
+    {% include "header.html" %}
 
-    <div class="jumbotron-fluid light">
-      <div class="pre-content"></div>
-    </div>
+    <main>
+      <div class="jumbotron-fluid light">
+        <div class="pre-content"></div>
+      </div>
  
-    {% block content_header %}
-    <div class="jumbotron-fluid light">
-      <div class="container py-3">
-        <div class="mx-auto text-center">
-          <h1>{% block h1 %}{% trans "One of the best live escape games in Lille" %}{% endblock %}</h1>
+      {% block main_header %}
+      <div class="jumbotron-fluid light">
+        <div class="container py-3">
+          <div class="mx-auto text-center">
+            <h1>{% block h1 %}{% trans "One of the best live escape games in Lille" %}{% endblock %}</h1>
+          </div>
         </div>
       </div>
-    </div>
-    {% endblock %}
+      {% endblock %}
 
-    <div id="content" class="flex-grow-1">
-      {% block content %}{% endblock %}
-    </div>
+      <div id="content" class="flex-grow-1">
+        {% block content %}{% endblock %}
+      </div>
+    </main>
  
     {% include "footer.html" %}
 
@@ -52,13 +67,13 @@
       function navReductionOnScroll() {
           if (this.oldScroll < this.scrollY) {
               if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-                  $("nav").addClass("reduced");
+                  $("#navheader").addClass("reduced");
                   $("#navbar").collapse('hide');
               }
           }
           else
           {
-              $("nav").removeClass("reduced");
+              $("#navheader").removeClass("reduced");
           }
           this.oldScroll = this.scrollY;
       }

@@ -44,7 +44,7 @@
             </div>
             <div class="card-body">
               <p class="card-text">{% lorem 15 w %}</p>
-              <a class="btn btn-primary float-right" href="/{{ lang }}/carte-cadeau">
+              <a class="btn btn-primary float-right" href="/{{ lang }}carte-cadeau">
                 <span>Offrir une carte</span>
               </a>
             </div>
@@ -70,7 +70,7 @@
       </div>
 
       <div class="row justify-content-center">
-        <a class="btn btn-primary px-5" href="/{{ lang }}/reserver">
+        <a class="btn btn-primary px-5" href="/{{ lang }}reserver">
           <span>Réserver</span>
         </a>
       </div>
@@ -86,7 +86,7 @@
         </div>
        </div>
 
-      <form action="/{{ lang }}/entreprises#devis" method="post">
+      <form action="/{{ lang }}entreprises#devis" method="post">
         {% csrf_token %}
 
         {% if unexpected_error %}

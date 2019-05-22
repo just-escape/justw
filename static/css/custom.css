@@ -20,7 +20,7 @@
         url('/static/font/big-noodle.woff2') format('woff2'),
         url('/static/font/big-noodle.woff') format('woff'),
         url('/static/font/big-noodle.ttf') format('truetype');
-    unicode-range: U+000-5FF; /* Latin */
+    unicode-range: U+000-5FF, U+20AC; /* Latin */
 }
 
 @font-face {
@@ -44,7 +44,7 @@
          url('/static/font/roboto-v19-latin-regular.woff2') format('woff2'),
          url('/static/font/roboto-v19-latin-regular.woff') format('woff'),
          url('/static/font/roboto-v19-latin-regular.ttf') format('truetype');
-    unicode-range: U+000-5FF; /* Latin */
+    unicode-range: U+000-5FF, U+20AC; /* Latin */
 }
 
 body {
@@ -202,13 +202,13 @@ a:hover {
 }
 /* text */
 
-/* nav */
+/* navheader */
 @media (max-width: 991.98px) {
-    nav {
+    #navheader {
         transition: all 0.7s ease-in-out;
     }
 
-    nav.reduced {
+    #navheader.reduced {
         transform: translateY(-110%);
     }
 }
@@ -418,7 +418,7 @@ a:hover {
         z-index: 2;
     }
 }
-/* nav */
+/* navheader */
 
 /* button */
 .btn > span, .nav-button > span {
