@@ -2,7 +2,7 @@
 
 {% load i18n %}
 
-{% block h1 %}{% trans "One of the best live escape games in Lille" %}{% endblock %}
+{% block h1 %}{% trans "Bientôt un nouvel Escape Game à Lille" %}{% endblock %}
 
 {% block content %}
 
@@ -17,9 +17,9 @@
           <div class="card bg-transparent no-border h-100">
             <div class="card-body pb-0 px-0">
               <div class="row justify-content-center">
-                <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 pl-3 pl-sm-0">
+                <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 pl-3 pl-sm-0 mb-3">
                   <a href="/{{ lang }}salles?show=d1#le-digimiam">
-                    <img src="/static/img/door_robot.png" class="img-fluid mb-3" alt="Door robot">
+                    {% include "svg/door-robot.svg" %}
                   </a>
                 </div>
                 <div class="col-8 col-md-9 col-lg-7 col-xl-8">
@@ -73,9 +73,9 @@
           <div class="card bg-transparent no-border h-100">
             <div class="card-body pb-0 px-0">
               <div class="row justify-content-center">
-                <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 pl-3 pl-sm-0">
+                <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 pl-3 pl-sm-0 mb-3">
                   <a href="/{{ lang }}salles?show=d2#le-digimiam2">
-                    <img src="/static/img/door_robot.png" class="img-fluid mb-3" alt="Door robot">
+                    {% include "svg/door-robot.svg" %}
                   </a>
                 </div>
                 <div class="col-8 col-md-9 col-lg-7 col-xl-8">
@@ -221,10 +221,10 @@
 
       <div class="row d-flex justify-content-around flex-wrap">
         <div class="col-7 col-md-4 col-lg-3 my-4">
-          <img src="/static/img/tripadvisor.png" class="img-fluid" style="background: grey" alt="Tripadvisor">
+          {% include "svg/tripadvisor-certificate.svg" %}
         </div>
         <div class="col-7 col-md-4 col-lg-3 my-4">
-          <img src="/static/img/tripadvisor.png" class="img-fluid" style="background: grey" alt="Tripadvisor">
+          {% include "svg/tripadvisor-certificate.svg" %}
         </div>
       </div>
     </div>
@@ -296,6 +296,20 @@
   </div>
 
   <div id="map" class="jumbotron"></div>
+  <script>
+    function initMap() {
+        var coords = {lat: 50.6425341, lng: 3.0563218}
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: coords,
+            zoom: 18,
+            disableDefaultUI: true,
+            fullscreenControl: true,
+            zoomControl: true,
+            scrollwheel: false
+        });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgt_fPFQBVVk5zCG9BOZr50LzmooCj-VI&callback=initMap" async></script>
 
   <div class="jumbotron py-5">
     <div class="container">
@@ -340,17 +354,4 @@
       $('#newsletter-email-bar').popover('disable');
     </script>
   {% endif %}
-  <script>
-    function initMap() {
-        var coords = {lat: 50.6425341, lng: 3.0563218}
-        var map = new google.maps.Map(document.getElementById('map'), {
-            center: coords,
-            zoom: 18,
-            disableDefaultUI: true,
-            fullscreenControl: true,
-            scrollwheel: false
-        });
-    }
-  </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKvLynIqSAA9loGKx2xgdqhDv89I5ww6k&callback=initMap" async></script>
 {% endblock %}

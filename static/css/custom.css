@@ -128,7 +128,7 @@ body {
 
 /* text */
 h1, h2, h3, h4, h5, h6, .big-noodle {
-    font-family: "Big Noodle", "Arial Black", "sans-serif";
+    font-family: "Big Noodle", "Helvetica", "Arial", "sans-serif";
 }
 
 .text-oblique {
@@ -541,6 +541,11 @@ a:hover {
 .svg-36px svg {
     width: 36px;
     height: 36px;
+}
+
+.svg-132x200px svg {
+    width: 132px;
+    height: 200px;
 }
 
 @media (min-width: 768px) {

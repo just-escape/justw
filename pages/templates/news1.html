@@ -9,7 +9,7 @@
   <div class="jumbotron pt-4">
     <div class="container">
       <div>
-        <ol class="breadcrumb py-2" style="background: #4d4d4f">
+        <ol class="breadcrumb softdark py-2">
           <li class="breadcrumb-item"><a href="/{{ lang }}news" class="text-jaffa">News</a></li>
           <li class="breadcrumb-item active" aria-current="page">{% lorem 2 w %}</li>
         </ol>
@@ -22,7 +22,9 @@
         <section>
           <h3>{% lorem 5 w %}</h3>
           <div class="media">
-            <img src="/static/img/door_robot.png" height="200px" class="mr-3">
+            <span class="svg-132x200px d-inline-block mr-3">
+              {% include "svg/door-robot.svg" %}
+            </span>
             <div class="media-body">
               <p class="text-justify">{% lorem %}</p>
               <p class="text-justify">{% lorem %}</p>
@@ -38,7 +40,9 @@
               <p class="text-justify">{% lorem %}</p>
               <p class="text-justify">{% lorem %}</p>
             </div>
-            <img src="/static/img/door_robot.png" height="200px" class="ml-3">
+            <span class="svg-132x200px d-inline-block ml-3">
+              {% include "svg/door-robot.svg" %}
+            </span>
           </div>
         </section>
       </section>
