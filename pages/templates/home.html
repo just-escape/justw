@@ -14,7 +14,7 @@
 
       <div class="row d-flex justify-content-around flex-wrap">
         <article class="col-12 col-lg-5 px-0">
-          <div class="card bg-transparent no-border h-100">
+          <div class="card bg-transparent border-0 h-100">
             <div class="card-body pb-0 px-0">
               <div class="row justify-content-center">
                 <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 pl-3 pl-sm-0 mb-3">
@@ -41,7 +41,7 @@
                 </div>
               </div>
             </div>
-            <div class="card-footer no-border bg-transparent px-0 mt-2 mt-sm-0">
+            <div class="card-footer border-0 bg-transparent px-0 mt-2 mt-sm-0">
               <div class="d-flex flex-column flex-sm-row float-right">
                 <div class="mb-2 mr-sm-4">
                   <div class="d-flex flex-row-reverse flex-sm-row">
@@ -70,7 +70,7 @@
         </article>
 
         <article class="col-12 col-lg-5 px-0">
-          <div class="card bg-transparent no-border h-100">
+          <div class="card bg-transparent border-0 h-100">
             <div class="card-body pb-0 px-0">
               <div class="row justify-content-center">
                 <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 pl-3 pl-sm-0 mb-3">
@@ -97,7 +97,7 @@
                 </div>
               </div>
             </div>
-            <div class="card-footer no-border bg-transparent px-0 mt-2 mt-sm-0">
+            <div class="card-footer border-0 bg-transparent px-0 mt-2 mt-sm-0">
               <div class="d-flex flex-column flex-sm-row float-right">
                 <div class="mb-2 mr-sm-4">
                   <div class="d-flex flex-row-reverse flex-sm-row">
@@ -191,7 +191,7 @@
             <div class="card-body text-center">
               <h3 class="size-35 card-title text-jaffa">Offre spéciale</h3>
               <p class="card-text font-italic small">Il n'y a pas d'offre spéciale en ce moment</p>
-              <a class="btn btn-secondary float-right no-border" href="#newsletter">
+              <a class="btn btn-secondary float-right border-0" href="#newsletter">
                 <span>Être averti</span>
               </a>
             </div>
@@ -295,7 +295,9 @@
     </div>
   </div>
 
-  <div id="map" class="jumbotron"></div>
+  <div class="jumbotron-fluid">
+    <div id="map"></div>
+  </div>
   <script>
     function initMap() {
         var coords = {lat: 50.6425341, lng: 3.0563218}
@@ -309,7 +311,7 @@
         });
     }
   </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgt_fPFQBVVk5zCG9BOZr50LzmooCj-VI&callback=initMap" async></script>
+  <script src="/static/js/gmaps.js" defer async></script>
 
   <div class="jumbotron py-5">
     <div class="container">
