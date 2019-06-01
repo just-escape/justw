@@ -244,7 +244,9 @@ def news1(request):
 
 def error404(request):
     data = {'current_page': '404', 'lang': get_lang(request)}
-    return render(request, '404.html', data)
+    r = render(request, '404.html', data)
+    r['X-Robots-Tag'] = 'noindex'
+    return r
 
 
 def partners(request):
@@ -277,7 +279,9 @@ def unsubscribe(request):
         'subscription_success': success,
     }
 
-    return render(request, 'unsubscribe.html', data)
+    r = render(request, 'unsubscribe.html', data)
+    r['X-Robots-Tag'] = 'noindex'
+    return r
 
 
 def access(request):
@@ -287,9 +291,13 @@ def access(request):
 
 def terms(request):
     data = {'current_page': 'cgv', 'lang': get_lang(request)}
-    return render(request, 'terms.html', data)
+    r = render(request, 'terms.html', data)
+    r['X-Robots-Tag'] = 'noindex'
+    return r
 
 
 def conditions(request):
     data = {'current_page': 'cgu', 'lang': get_lang(request)}
-    return render(request, 'conditions.html', data)
+    r = render(request, 'conditions.html', data)
+    r['X-Robots-Tag'] = 'noindex'
+    return r
