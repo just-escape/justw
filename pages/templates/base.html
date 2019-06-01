@@ -77,7 +77,7 @@
           this.oldScroll = this.scrollY;
       }
 
-      window.onscroll = function() {navReductionOnScroll()};
+      window.addEventListener('scroll', navReductionOnScroll);
     </script>
 
     <!-- Enable popovers -->

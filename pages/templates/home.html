@@ -298,20 +298,6 @@
   <div class="jumbotron-fluid">
     <div id="map"></div>
   </div>
-  <script>
-    function initMap() {
-        var coords = {lat: 50.6425341, lng: 3.0563218}
-        var map = new google.maps.Map(document.getElementById('map'), {
-            center: coords,
-            zoom: 18,
-            disableDefaultUI: true,
-            fullscreenControl: true,
-            zoomControl: true,
-            scrollwheel: false
-        });
-    }
-  </script>
-  <script src="/static/js/gmaps.js" defer async></script>
 
   <div class="jumbotron py-5">
     <div class="container">
@@ -350,6 +336,38 @@
 {% endblock %}
 
 {% block post_base_js %}
+  <script>
+    var isDisplayed = false;
+
+    function initMap() {
+        var coords = {lat: 50.6425341, lng: 3.0563218}
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: coords,
+            zoom: 18,
+            disableDefaultUI: true,
+            fullscreenControl: true,
+            zoomControl: true,
+            scrollwheel: false
+        });
+    }
+
+    function displayMap() {
+        if (isDisplayed === false) {
+            isDisplayed = true;
+            var gmaps = document.createElement('script');
+            gmaps.type = 'text/javascript';
+            gmaps.src = '/static/js/gmaps.js';
+            document.head.appendChild(gmaps);
+        }
+    }
+
+    if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+        displayMap();
+    } else {
+        window.addEventListener('scroll', displayMap);
+    }
+  </script>
+
   {% if subscription_success %}
     <script>
       $('#newsletter-email-bar').popover('show');
