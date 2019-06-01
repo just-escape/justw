@@ -717,6 +717,10 @@ input.form-control::placeholder {
     cursor: pointer;
 }
 
+.not-allowed:hover {
+    cursor: not-allowed;
+}
+
 .anchor {
     position: absolute;
     left: 0;
