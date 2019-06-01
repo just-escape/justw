@@ -243,7 +243,7 @@ def news1(request):
 
 
 def error404(request):
-    data = {'current_page': '404', 'lang': get_lang(request)}
+    data = {'current_page': '404', 'noindex': True, 'lang': get_lang(request)}
     r = render(request, '404.html', data)
     r['X-Robots-Tag'] = 'noindex'
     return r
@@ -273,6 +273,7 @@ def unsubscribe(request):
 
     data = {
         'current_page': 'desabonnement',
+        'noindex': True,
         'lang': get_lang(request),
         'form': form,
         'unexpected_error': error,
@@ -290,14 +291,14 @@ def access(request):
 
 
 def terms(request):
-    data = {'current_page': 'cgv', 'lang': get_lang(request)}
+    data = {'current_page': 'cgv', 'noindex': True, 'lang': get_lang(request)}
     r = render(request, 'terms.html', data)
     r['X-Robots-Tag'] = 'noindex'
     return r
 
 
 def conditions(request):
-    data = {'current_page': 'cgu', 'lang': get_lang(request)}
+    data = {'current_page': 'cgu', 'noindex': True, 'lang': get_lang(request)}
     r = render(request, 'conditions.html', data)
     r['X-Robots-Tag'] = 'noindex'
     return r
