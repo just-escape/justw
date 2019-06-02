@@ -1,6 +1,8 @@
 *.pyc
 justw/settings.py
 justw/wsgi.py
+static/js/analytics.js
+static/js/gmaps.js
 */migrations/*
 */__pycache__/*
 db.sqlite3
