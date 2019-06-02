@@ -6,6 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    {% if noindex %}
+    <meta name="robots" content="noindex">
+    {% endif %}
+
     <style type="text/css" rel="stylesheet">{% include "css/bootstrap.opti.css" %}</style>
     <style type="text/css" rel="stylesheet">{% include "css/custom.css" %}</style>
     <link rel="icon" href="/static/img/favicon.ico">
