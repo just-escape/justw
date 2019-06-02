@@ -2,7 +2,7 @@
     color: #d38f40;
 }
 
-.bootstrap-datetimepicker-widget .fa-arrow-up::before, .bootstrap-datetimepicker-widget .fa-arrow-down::before {
+.bootstrap-datetimepicker-widget .fa-angle-up::before, .bootstrap-datetimepicker-widget .fa-angle-down::before {
     color: #f8f9fa;
 }
 
@@ -56,4 +56,10 @@
 .bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active:hover {
     background-color: #d38f40;
     color: #f8f9fa;
+}
+
+.bootstrap-datetimepicker-widget .btn > span {
+    font-size: 1rem;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
 }
