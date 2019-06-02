@@ -18,3 +18,32 @@
   </div>
 
 {% endblock %}
+
+{% block post_base_js %}
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Just Escape",
+                "item": "https://just-escape.fr/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Réserver",
+                "item": "https://just-escape.fr/reserver"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Carte cadeau",
+                "item": "https://just-escape.fr/carte-cadeau"
+            }
+        ]
+    }
+  </script>
+{% endblock %}

@@ -330,4 +330,25 @@
       }});
     $(function(){$('#datetimepicker_desired_date').datetimepicker({format:'DD/MM/YYYY HH:mm', minDate: new Date()})});
   </script>
+
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Just Escape",
+                "item": "https://just-escape.fr/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Entreprises",
+                "item": "https://just-escape.fr/entreprises"
+            }
+        ]
+    }
+  </script>
 {% endblock %}

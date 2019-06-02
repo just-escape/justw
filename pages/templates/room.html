@@ -199,4 +199,25 @@
     $("#collapse-room-2").on("show.bs.collapse", function() {$("#heading-room-2 span.svg-64px").addClass("rotate-90");})
     $("#collapse-room-2").on("hide.bs.collapse", function() {$("#heading-room-2 span.svg-64px").removeClass("rotate-90");})
   </script>
+
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Just Escape",
+                "item": "https://just-escape.fr/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Salles",
+                "item": "https://just-escape.fr/salles"
+            }
+        ]
+    }
+  </script>
 {% endblock %}

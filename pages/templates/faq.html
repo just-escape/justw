@@ -181,4 +181,49 @@
     $("#answer-10").on("show.bs.collapse", function() {$("#question-10 span").addClass("rotate-90");})
     $("#answer-10").on("hide.bs.collapse", function() {$("#question-10 span").removeClass("rotate-90");})
   </script>
+
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Just Escape",
+                "item": "https://just-escape.fr/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Foire Aux Questions",
+                "item": "https://just-escape.fr/faq"
+            }
+        ]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Response"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Response"
+                }
+            }
+        ]
+    }
+  </script>
 {% endblock %}
