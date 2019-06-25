@@ -2,7 +2,10 @@
 
 {% load i18n %}
 
-{% block h1 %}{% trans "Nos salles" %}{% endblock %}
+{% block title %}Nos Escape Rooms ⭐ Escape Game Lille ⭐ Just Escape{% endblock %}
+{% block description %}{% endblock %}
+
+{% block h1 %}{% trans "Découvrez nos scénarios" %}{% endblock %}
 
 {% block content %}
 
@@ -31,7 +34,7 @@
                       <div class="d-flex flex-row-reverse flex-sm-row">
                         <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
                         <span class="mr-2"></span>
-                        <span class="size-09 lh-24px">2 à 4 joueurs</span>
+                        <span class="size-09 lh-24px">2 à 4 joueurs [x2]</span>
                       </div>
                     </div>
                     <div class="mb-2 mb-lg-0 mr-lg-4">
@@ -99,90 +102,44 @@
   </section>
 
   <section class="jumbotron-fluid py-4 softdark">
-    <div id="room-2" class="container">
-      <div id="heading-room-2">
-        <div class="d-flex flex-row justify-content-center flex-column-reverse flex-md-row">
-          <div class="col-12 col-md-2 my-auto text-center text-md-left pl-0">
-            <div class="text-hover-jaffa opacity-07 opacity-hover-1 pointer d-inline-block mb-3" role="button" data-toggle="collapse" data-target="#collapse-room-2" aria-expanded="false" aria-controls="collapse-room-2">
-              <span class="transition-03s svg-64px svg-sm-48px fill-light d-block text-center{% if show == "d2" %} rotate-90{% endif %}">{% include "svg/arrow-right.svg" %}</span>
-              <div class="size-09 text-underline">Plus d'infos</div>
-            </div>
-          </div>
+    <div class="container">
+      <div>
+        <div class="d-flex justify-content-end">
           <div class="col-12 col-md-10 mb-3">
             <div class="row">
               <div class="col-4 col-md-3 col-lg-2 pl-0">
                 {% include "svg/door-robot.svg" %}
               </div>
               <div class="col-8 col-md-9 col-lg-10 px-0">
-                <span id="le-digimiam2" class="anchor">&nbsp;</span>
-                <h2>Le Digimiam <span class="d-inline-block svg-30px fill-light align-baseline">{% include "svg/minus-12.svg" %}</span></h2>
-                <p class="text-justify">{% lorem 30 w %}</p>
+                <h2 class="opacity-05">Salle horreur <span class="d-inline-block svg-30px fill-light align-baseline">{% include "svg/minus-12.svg" %}</span></h2>
+                <p class="text-justify opacity-05">{% lorem 30 w %}</p>
                 <div class="d-flex flex-column-reverse flex-sm-row justify-content-sm-between">
                   <div class="d-flex flex-column flex-lg-row my-auto">
                     <div class="mb-2 mb-lg-0 mr-lg-4">
-                      <div class="d-flex flex-row-reverse flex-sm-row">
+                      <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
                         <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
                         <span class="mr-2"></span>
-                        <span class="size-09 lh-24px">2 à 4 joueurs</span>
+                        <span class="size-09 lh-24px">4 à 6 joueurs</span>
                       </div>
                     </div>
                     <div class="mb-2 mb-lg-0 mr-lg-4">
-                      <div class="d-flex flex-row-reverse flex-sm-row">
+                      <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
                         <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/chrono.svg" %}</span>
                         <span class="mr-2"></span>
                         <span class="size-09 lh-24px">60 minutes</span>
                       </div>
                     </div>
                     <div class="mb-2 mb-lg-0">
-                      <div class="d-flex flex-row-reverse flex-sm-row">
+                      <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
                         <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/lang.svg" %}</span>
                         <span class="mr-2"></span>
                         <span class="size-09 lh-24px">FR / EN</span>
                       </div>
                     </div>
                   </div>
-                  <div class="my-lg-auto text-right">
-                    <a class="btn btn-primary mb-3 mb-lg-0" href="/{{ lang }}reserver">
-                      <span class="px-3">Réserver</span>
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="collapse-room-2" class="row collapse{% if show == "d2" %} show{% endif %}" aria-labelledby="heading-room-2" data-parent="#room-2">
-        <div class="col-12 col-lg-5 my-auto">
-          <p class="text-justify">{% lorem %}</p>
-        </div>
-        <div class="deepdark rounded p-4 col-12 col-lg-7">
-          <div id="carousel-room-2" class="carousel slide" data-interval="0">
-            <ol class="carousel-indicators">
-              <li data-target="carousel-room-2" data-slide-to="0" class="active"></li>
-              <li data-target="carousel-room-2" data-slide-to="1"></li>
-              <li data-target="carousel-room-2" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <span class="d-inline-block w-100">{% include "svg/just-escape.svg" %}</span>
-              </div>
-              <div class="carousel-item">
-                <span class="d-inline-block w-100">{% include "svg/just-escape.svg" %}</span>
-              </div>
-              <div class="carousel-item">
-                <span class="d-inline-block w-100">{% include "svg/just-escape.svg" %}</span>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carousel-room-2" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-room-2" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
         </div>
       </div>

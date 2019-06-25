@@ -213,18 +213,18 @@ def pricing(request):
     return render(request, 'pricing.html', data)
 
 
-def corporate(request):
+def teambuilding(request):
     form, error, success = handle_salesquote(request)
 
     data = {
-        'current_page': 'entreprises',
+        'current_page': 'team-building',
         'lang': get_lang(request),
         'form': form,
         'unexpected_error': error,
         'salesquote_success': success,
     }
 
-    return render(request, 'corporate.html', data)
+    return render(request, 'teambuilding.html', data)
 
 
 def faq(request):

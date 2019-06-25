@@ -51,7 +51,6 @@ abbr[title] {
  cursor:help;
  border-bottom:0;
  -webkit-text-decoration-skip-ink:none;
- text-decoration-skip-ink:none
 }
 dl,
 ol,
@@ -3754,6 +3753,9 @@ input[type=submit].btn-block {
 }
 .font-italic {
  font-style:italic!important
+}
+.text-muted {
+ color:#6c757d!important
 }
 .visible {
  visibility:visible!important
