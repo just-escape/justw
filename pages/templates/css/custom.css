@@ -506,16 +506,6 @@ a:hover {
 /* button */
 
 /* icon */
-.svg-10x24px svg {
-    width: 10px;
-    height: 24px;
-}
-
-.svg-15x24px svg {
-    width: 15px;
-    height: 20px;
-}
-
 .svg-16px svg {
     width: 16px;
     height: 16px;
@@ -549,6 +539,11 @@ a:hover {
 .svg-132x200px svg {
     width: 132px;
     height: 200px;
+}
+
+.bottom-minus2px-right-minus6px {
+    bottom: -2px;
+    right: -6px;
 }
 
 @media (min-width: 768px) {
@@ -806,6 +801,73 @@ input.form-control::placeholder {
 
 .error-404-background {
     z-index: 2;
+}
+
+.ribbon {
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.ribbon::before, .ribbon::after {
+    position: absolute;
+    content: '';
+    display: block;
+    border: 5px solid;
+}
+
+.ribbon-mulberry-jaffa span {
+    background: linear-gradient(40deg, #f38d40, #cb4299 90%);
+}
+
+.ribbon-jaffa span {
+    background: #f38d40;
+}
+
+.ribbon-mulberry-jaffa::before {
+    border-color: #cb4299;
+}
+
+.ribbon-mulberry-jaffa::after, .ribbon-jaffa::before, .ribbon-jaffa::after {
+    border-color: #f38d40;
+}
+
+.ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 8px 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color: #f8f9fa;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-align: center;
+}
+
+.ribbon-top-left {
+    top: -10px;
+    left: -10px;
+}
+
+.ribbon-top-left::before, .ribbon-top-left::after {
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.ribbon-top-left::before {
+    top: 0;
+    right: 0;
+}
+
+.ribbon-top-left::after {
+    bottom: 0;
+    left: 0;
+}
+
+.ribbon-top-left span {
+    right: -33px;
+    top: 32px;
+    transform: rotate(-45deg);
 }
 /* misc */
 

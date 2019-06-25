@@ -13,14 +13,17 @@
     <div class="container">
 
       <span id="nos-salles" class="anchor">&nbsp;</span>
-      <h2 class="text-center">{% trans "Nos Escape Rooms" %}</h2>
+      <div class="row justify-content-center mb-4">
+        <h2>{% trans "Nos Escape Rooms" %}</h2>
+      </div>
 
       <div class="row d-flex justify-content-around flex-wrap">
-        <article class="col-12 col-lg-5 px-0">
+        <article class="col-12 col-lg-5 px-0 mb-4">
           <div class="card bg-transparent border-0 h-100">
-            <div class="card-body pb-0 px-0">
-              <div class="row justify-content-center">
-                <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 pl-3 pl-sm-0 mb-3">
+            <div class="card-body p-0">
+              <div class="row justify-content-center pl-3 pl-sm-0">
+                <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 mb-3">
+                  <div class="ribbon ribbon-top-left ribbon-mulberry-jaffa"><span>Nouveau</span></div>
                   <a href="/{{ lang }}salles?show=d1#le-digimiam">
                     {% include "svg/door-robot.svg" %}
                   </a>
@@ -49,9 +52,12 @@
               <div class="d-flex flex-column flex-sm-row float-right">
                 <div class="mb-2 mr-sm-4">
                   <div class="d-flex flex-row-reverse flex-sm-row">
-                    <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
-                    <span class="mr-2"></span>
-                    <span class="size-09 lh-24px">2 à 4 joueurs [x2]</span>
+                    <div class="position-relative">
+                      <span class="d-inline-block svg-24px fill-light align-top position-absolute bottom-minus2px-right-minus6px">{% include "svg/x2.svg" %}</span>
+                      <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
+                    </div>
+                    <span class="mr-3"></span>
+                    <span class="size-09 lh-24px">2 à 4 joueurs</span>
                   </div>
                 </div>
                 <div class="mb-2 mr-sm-4">
@@ -75,9 +81,10 @@
 
         <article class="col-12 col-lg-5 px-0">
           <div class="card bg-transparent border-0 h-100">
-            <div class="card-body pb-0 px-0">
-              <div class="row justify-content-center">
-                <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 pl-3 pl-sm-0 mb-3">
+            <div class="card-body p-0">
+              <div class="row justify-content-center pl-3 pl-sm-0">
+                <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 mb-3">
+                  <div class="ribbon ribbon-top-left ribbon-mulberry-jaffa"><span>À venir</span></div>
                   {% include "svg/door-robot.svg" %}
                 </div>
                 <div class="col-8 col-md-9 col-lg-7 col-xl-8">
@@ -189,9 +196,11 @@
         </div>
         <div class="col-12 col-sm-7 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
+            <div class="ribbon ribbon-top-left ribbon-jaffa"><span>Rupture de stock</span></div>
             <div class="card-body text-center">
               <h3 class="size-35 card-title text-jaffa">Offre spéciale</h3>
-              <p class="card-text font-italic small">Il n'y a pas d'offre spéciale en ce moment</p>
+              <p class="card-text font-italic small">La dernière offre spéciale est en rupture de stock</p>
+              <p class="card-text font-italic small">Nous vous invitons à patienter</p>
               <a class="btn btn-secondary float-right border-0" href="#newsletter">
                 <span>Être averti</span>
               </a>
@@ -205,7 +214,7 @@
           <a href="/{{ lang }}reserver" class="btn btn-primary mb-1 px-5">
             <span>Réserver</span>
           </a>
-          <a href="/{{ lang }}entreprises#devis" class="size-09 text-underline text-hover-mulberry">Devis entreprise</a>
+          <a href="/{{ lang }}team-building#devis" class="size-09 text-underline text-hover-mulberry">Devis entreprise</a>
         </div>
       </div>
     </div>

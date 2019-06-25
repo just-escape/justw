@@ -10,6 +10,12 @@
 
   <div class="jumbotron">
     <div class="container">
+      <div class="row">
+        <h2 class="text-jaffa">Quel est le prix d'un scénario ?</h2>
+      </div>
+      <div class="row">
+        <p>(On est pas cher)</p>
+      </div>
       <div class="row d-flex justify-content-center flex-wrap mb-4">
         <div class="col-12 col-sm-7 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
@@ -41,6 +47,19 @@
             </div>
           </div>
         </div>
+        <div class="col-12 col-sm-7 col-lg-3 mb-4">
+          <div class="card deepdark border-jaffa h-100">
+            <div class="ribbon ribbon-top-left ribbon-jaffa"><span>Rupture de stock</span></div>
+            <div class="card-body text-center">
+              <h3 class="size-35 card-title text-jaffa">Offre spéciale</h3>
+              <p class="card-text font-italic small">La dernière offre spéciale est en rupture de stock</p>
+              <p class="card-text font-italic small">Nous vous invitons à patienter</p>
+              <a class="btn btn-secondary float-right border-0" href="/{{ lang }}#newsletter">
+                <span>Être averti</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="row justify-content-center">
@@ -48,7 +67,7 @@
           <a class="btn btn-primary px-5 mb-1" href="/{{ lang }}reserver">
             <span>Réserver</span>
           </a>
-          <a href="/{{ lang }}entreprises#devis" class="size-09 text-underline text-hover-mulberry">Devis entreprise</a>
+          <a href="/{{ lang }}team-building#devis" class="size-09 text-underline text-hover-mulberry">Devis entreprise</a>
         </div>
       </div>
     </div>
@@ -56,17 +75,28 @@
 
   <div class="jumbotron softdark">
     <div class="container">
+      <div class="row">
+        <h2 class="text-jaffa">Venez fêter vos événements chez nous</h2>
+      </div>
+      <div class="row">
+        <p>Sauf si vous préférez passer pour des ringards</p>
+      </div>
       <div class="row d-flex justify-content-center flex-wrap mb-4">
         <div class="col-12 col-sm-6 col-lg-3 mb-4">
           <div class="card dark border-jaffa h-100">
             <div class="card-header">
-              <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/beer.svg" %}</span>Apéro building</h4>
+              <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/apple-alt.svg" %}</span>Menu Gourmand</h4>
             </div>
-            <div class="card-body">
-              <p class="card-text">{% lorem 15 w %}</p>
+            <div class="card-body d-flex align-items-center justify-content-center flex-column">
+              <p class="card-text text-center">
+                1 <span class="font-weight-bold">Photo imprimée</span> en&nbsp;HD<br>
+                +<br>
+                <span class="font-weight-bold">Collation sucrée</span> (boissons, madeleines, fruits, fromage&nbsp;blanc)
+              </p>
             </div>
             <div class="card-footer text-center">
-              <p class="card-text"><span class="text-mulberry">10€</span> {% lorem 2 w %}</p>
+              <p class="card-text"><span class="text-mulberry">+7€</span> par personne</p>
+              <p class="card-text size-09"><span class="text-jaffa">Suggéré pour :</span> Petit&nbsp;déj', Goûter, Anniversaire</p>
             </div>
           </div>
         </div>
@@ -74,13 +104,18 @@
         <div class="col-12 col-sm-6 col-lg-3 mb-4">
           <div class="card dark border-jaffa h-100">
             <div class="card-header">
-              <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/birthday-cake.svg" %}</span>Occasions</h4>
+              <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/beer.svg" %}</span>Menu Apéro</h4>
             </div>
-            <div class="card-body">
-              <p class="card-text">{% lorem 15 w %}</p>
+            <div class="card-body d-flex align-items-center justify-content-center flex-column">
+              <p class="card-text text-center">
+                1 <span class="font-weight-bold">Photo imprimée</span> en&nbsp;HD<br>
+                +<br>
+                <span class="font-weight-bold">Apéritif salé</span> (bière ou verre&nbsp;de&nbsp;vin, saucisson, biscuits&nbsp;apéritif)
+              </p>
             </div>
             <div class="card-footer text-center">
-              <p class="card-text"><span class="text-mulberry">20%</span> {% lorem 3 w %}</p>
+              <p class="card-text"><span class="text-mulberry">+10€</span> par personne</p>
+              <p class="card-text size-09"><span class="text-jaffa">Suggéré pour :</span> EVG, EVJF, Anniversaire</p>
             </div>
           </div>
         </div>
@@ -90,14 +125,12 @@
             <div class="card-header">
               <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/gift.svg" %}</span>Carte cadeau</h4>
             </div>
-            <div class="card-body">
-              <p class="card-text">{% lorem 15 w %}</p>
-              <a class="btn btn-primary float-right" href="/{{ lang }}carte-cadeau">
-                <span>Offrir une carte</span>
-              </a>
+            <div class="card-body d-flex align-items-center justify-content-center flex-column">
+              <p class="card-text text-center">Marre de ne pas quoi savoir offrir&nbsp;?</p>
+              <p class="card-text text-center">Votre famille et vos amis vont vous adorer avec ce <a class="text-underline" href="/{{ lang }}carte-cadeau">coffret&nbsp;cadeau</a>.</p>
             </div>
             <div class="card-footer text-center">
-              <p class="card-text">{% lorem 2 w %} <span class="text-mulberry">100€</span> {% lorem 1 w %}</p>
+              <p class="card-text size-09"><span class="text-jaffa">Suggéré pour :</span> Noël, Cagnotte, Tombola</p>
             </div>
           </div>
         </div>
@@ -105,21 +138,15 @@
         <div class="col-12 col-sm-6 col-lg-3 mb-4">
           <div class="card dark border-jaffa h-100">
             <div class="card-header">
-              <h4 class="card-title text-center text-jaffa mb-0">
-                <span class="font-size-0">
-                  <span class="d-inline-block svg-15x24px fill-jaffa align-text-bottom">{% include "svg/child.svg" %}</span>
-                  <span class="d-inline-block svg-10x24px fill-jaffa align-text-bottom">{% include "svg/adult.svg" %}</span>
-                  <span class="d-inline-block svg-10x24px fill-jaffa align-text-bottom">{% include "svg/adult.svg" %}</span>
-                  <span class="d-inline-block svg-15x24px fill-jaffa align-text-bottom mr-2">{% include "svg/child.svg" %}</span>
-                </span>
-                Famille
-              </h4>
+              <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/user-tie.svg" %}</span>Entreprises</h4>
             </div>
-            <div class="card-body">
-              <p class="card-text">{% lorem 15 w %}</p>
+            <div class="card-body d-flex align-items-center justify-content-center flex-column">
+              <p class="card-text text-center">C'est difficile d'être fun et disruptif en 2019.</p>
+              <p class="card-text text-center">Heureusement on a des <a class="text-underline" href="/{{ lang }}team-building">packs Team Building clé&nbsp;en&nbsp;main</a>.</p>
+              <p class="card-text text-center">Notre <span class="font-weight-bold">salle&nbsp;de&nbsp;réception</span> &nbsp;30&nbsp;m² est à vous.</p>
             </div>
             <div class="card-footer text-center">
-              <p class="card-text">{% lorem 3 w %} <span class="text-mulberry">40€</span></p>
+              <p class="card-text size-09"><span class="text-jaffa">Suggéré pour :</span> Séminaire, Workshop, Teambuilding</p>
             </div>
           </div>
         </div>

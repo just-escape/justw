@@ -10,23 +10,30 @@
   <style type="text/css" rel="stylesheet">{% include "css/tempusdominus-custom.css" %}</style>
 {% endblock %}
 
-{% block h1 %}{% trans "Nos packs entreprise" %}{% endblock %}
+{% block h1 %}{% trans "Nos solutions de team building" %}{% endblock %}
 
 {% block content %}
 
   <div class="jumbotron">
     <div class="container">
-      <div class="row d-flex justify-content-center flex-wrap mb-4">
+      <div class="row mb-3">
+        <h2 class="text-jaffa">Les packs les plus populaires après un bon escape game</h2>
+      </div>
+      <div class="row d-flex justify-content-center flex-wrap">
         <div class="col-12 col-sm-6 col-lg-3 mb-4">
           <div class="card dark border-jaffa h-100">
             <div class="card-header">
-              <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/beer.svg" %}</span>Apéro building</h4>
+              <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/coffee.svg" %}</span>Le petit déj'</h4>
             </div>
             <div class="card-body">
-              <p class="card-text">{% lorem 15 w %}</p>
+              <p class="card-text text-center">
+                <span class="font-weight-bold">Collation sucrée</span> (boissons, madeleines, fruits, fromage&nbsp;blanc)<br>
+                +<br>
+                Privatisation de la salle de réception (30&nbsp;m²) après la partie pour se restaurer
+              </p>
             </div>
             <div class="card-footer text-center">
-              <p class="card-text">{% lorem 2 w %} <span class="text-mulberry">10€</span></p>
+              <p class="card-text"><span class="text-mulberry">+10€</span> par participant*</p>
             </div>
           </div>
         </div>
@@ -34,13 +41,17 @@
         <div class="col-12 col-sm-6 col-lg-3 mb-4">
           <div class="card dark border-jaffa h-100">
             <div class="card-header">
-              <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/birthday-cake.svg" %}</span>Occasions</h4>
+              <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/cocktail.svg" %}</span>Le cocktail</h4>
             </div>
             <div class="card-body">
-              <p class="card-text">{% lorem 15 w %}</p>
+              <p class="card-text text-center">
+                <span class="font-weight-bold">Apéritif salé</span> (bière ou verre&nbsp;de&nbsp;vin, saucisson, biscuits&nbsp;apéritif)<br>
+                +<br>
+                Privatisation de la salle de réception (30&nbsp;m²) après la partie pour se restaurer
+              </p>
             </div>
             <div class="card-footer text-center">
-              <p class="card-text"><span class="text-mulberry">20%</span> {% lorem 2 w %}</p>
+              <p class="card-text"><span class="text-mulberry">+15€</span> par participant*</p>
             </div>
           </div>
         </div>
@@ -48,16 +59,17 @@
         <div class="col-12 col-sm-6 col-lg-3 mb-4">
           <div class="card dark border-jaffa h-100">
             <div class="card-header">
-              <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/gift.svg" %}</span>Carte cadeau</h4>
+              <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/glass-cheers.svg" %}</span>L'apéritif dinatoire</h4>
             </div>
             <div class="card-body">
-              <p class="card-text">{% lorem 15 w %}</p>
-              <a class="btn btn-primary float-right" href="/{{ lang }}carte-cadeau">
-                <span>Offrir une carte</span>
-              </a>
+              <p class="card-text text-center">
+                <span class="font-weight-bold">Apéritif dinatoire</span> (bière ou verre&nbsp;de&nbsp;vin, sélection&nbsp;traiteur)<br>
+                +<br>
+                Privatisation de la salle de réception (30&nbsp;m²) après la partie pour se restaurer
+              </p>
             </div>
             <div class="card-footer text-center">
-              <p class="card-text">{% lorem 2 w %} <span class="text-mulberry">100€</span> {% lorem 1 w %}</p>
+              <p class="card-text"><span class="text-mulberry">+35€</span> par participant*</p>
             </div>
           </div>
         </div>
@@ -65,16 +77,24 @@
         <div class="col-12 col-sm-6 col-lg-3 mb-4">
           <div class="card dark border-jaffa h-100">
             <div class="card-header">
-              <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/dice.svg" %}</span>Alea jacte est</h4>
+              <h4 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/presentation.svg" %}</span>Le workshop bien&nbsp;mérité</h4>
             </div>
-            <div class="card-body">
-              <p class="card-text">{% lorem 15 w %}</p>
+            <div class="card-body d-flex align-items-center justify-content-center flex-column">
+              <p class="card-text text-center">
+                Aménagement de la salle de réception (30&nbsp;m²) après la partie pour votre présentation<br>
+                +<br>
+                Privatisation entière des locaux
+              </p>
             </div>
             <div class="card-footer text-center">
-              <p class="card-text">{% lorem 3 w %} <span class="text-mulberry">40€</span></p>
+              <p class="card-text">À partir de <span class="text-mulberry">150€</span> (*)</p>
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="row mb-4">
+        <p class="small">(*) Les prix sont donnés HT. Ne comprend pas le prix d'une session de jeu. Le prix d'une heure de jeu est de 25€ TTC par personne, soit 20€ HT.</p>
       </div>
 
       <div class="row justify-content-center">
@@ -90,11 +110,11 @@
       <div class="row">
         <div class="col-12 px-0 px-sm-3">
           <span id="devis" class="anchor">&nbsp;</span>
-          <h2 class="text-jaffa mb-4">Vous voulez un devis ? Remplissez ce formulaire</h2>
+          <h2 class="text-jaffa mb-4">Formulaire de devis</h2>
         </div>
        </div>
 
-      <form action="/{{ lang }}entreprises#devis" method="post">
+      <form action="/{{ lang }}team-building#devis" method="post">
         {% csrf_token %}
 
         {% if unexpected_error %}
