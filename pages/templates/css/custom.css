@@ -432,7 +432,7 @@ a:hover {
 }
 
 .btn > span {
-    font-size: 1.4rem;
+    font-size: 1.42rem;
 }
 
 .btn-primary, .nav-button {
@@ -570,6 +570,11 @@ a:hover {
     fill: #f8f9fa;
 }
 
+
+.fill-dark svg {
+    fill: #3c3c3e;
+}
+
 #svg-css {
     width: 0;
     height: 0;
@@ -578,6 +583,10 @@ a:hover {
 
 .align-top svg {
     vertical-align: top;
+}
+
+.align-super svg {
+    vertical-align: super;
 }
 
 .align-text-bottom svg {
@@ -628,7 +637,7 @@ input.form-control, select.form-control, textarea.form-control, .input-group > .
 
 input.form-control, select.form-control {
     font-family: "Big Noodle", "Arial Black", "sans-serif";
-    font-size: 1.4rem;
+    font-size: 1.42rem;
 }
 
 input.form-control:focus, select.form-control:focus, textarea.form-control:focus {
@@ -650,6 +659,10 @@ input.form-control::placeholder {
 /* form */
 
 /* misc */
+.border-solid {
+    border: 1px solid #f8f9fa;
+}
+
 @media (min-width: 576px) {
     .d-sm-table {
         display: table!important;
@@ -803,11 +816,41 @@ input.form-control::placeholder {
     z-index: 2;
 }
 
+.table-team-building {
+    width: 100%;
+}
+
+.table-team-building thead {
+    background-color: #2e2e2e;
+}
+
+.table-team-building td, .table-team-building thead th {
+    text-align: center;
+    padding: 1rem;
+}
+
+.table-team-building tbody th {
+    padding: 1rem 0 1rem 1rem;
+}
+
+.table-team-building tr th {
+    font-weight: normal;
+}
+
+.table-team-building tbody tr:nth-child(even) {
+    background-color: #4d4d4f;
+}
+
 .ribbon {
     width: 130px;
     height: 130px;
     overflow: hidden;
     position: absolute;
+}
+
+.ribbon.ribbon-small {
+    width: 120px;
+    height: 120px;
 }
 
 .ribbon::before, .ribbon::after {
@@ -844,6 +887,11 @@ input.form-control::placeholder {
     text-align: center;
 }
 
+.ribbon.ribbon-small span {
+    padding: 6px 0;
+    font-size: 0.9rem;
+}
+
 .ribbon-top-left {
     top: -10px;
     left: -10px;
@@ -868,6 +916,11 @@ input.form-control::placeholder {
     right: -33px;
     top: 32px;
     transform: rotate(-45deg);
+}
+
+.ribbon-top-left.ribbon-small span {
+    right: -37px;
+    top: 36px;
 }
 /* misc */
 

@@ -5,155 +5,262 @@
 {% block title %}Foire Aux Questions ⭐ Escape Game Lille ⭐ Just Escape{% endblock %}
 {% block description %}{% endblock %}
 
-{% block h1 %}{% trans "Frequently asked questions" %}{% endblock %}
+{% block h1 %}{% trans "Ne perdez pas le Nord avec notre FAQ" %}{% endblock %}
 
 {% block content %}
 
-  <div class="jumbotron py-4">
-    <div id="qa-1" class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-9">
-          <h4 id="question-1" class="text-jaffa pointer" data-toggle="collapse" data-target="#answer-1" aria-expanded="false" aria-controls="answer-1"><span class="transition-03s fill-jaffa svg-16px d-inline-block">{% include "svg/arrow-right.svg" %}</span> {% lorem 5 w %} ?</h4>
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2>Général</h2>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-01">
+            <h3 id="question-01" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-01" aria-expanded="false" aria-controls="answer-01">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Qu'est-ce qu'un escape game&nbsp;?
+            </h3>
+            <div id="answer-01" class="collapse" aria-labelledby="question-01" data-parent="#qa-01">
+              <p class="mt-3">Les escape games est un jeu d'équipe consistant à enfermer un groupe dans une salle truffée de mystères. Vous avez 60 minutes pour résoudre des énigmes à l'aide d'indices cachés et comprendre.</p>
+              <p>Réussir à sortir dans les temps vous demandera de la logique, de la communication et un bon esprit d'équipe. Il faut faire preuve de ces qualités dans des situations de stress et pleine d'adrénaline.</p>
+              <p class="mb-0">C'est idéal pour se mesurer à d'autres groupes ou tout simplement pour le plaisir de l'immersion grandeur nature.</p>
+            </div>
+          </div>
+
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-02">
+            <h3 id="question-02" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-02" aria-expanded="false" aria-controls="answer-02">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Est-on vraiment enfermé&nbsp;?
+            </h3>
+            <div id="answer-02" class="collapse" aria-labelledby="question-02" data-parent="#qa-02">
+              <p class="mt-3">Le principe des jeux d'évasion est de compléter toutes les énigmes sans sortir.</p>
+              <p class="mb-0">En cas d'urgence ou de malaise, il est toujours possible d'évacuer. Un maître du jeu veille sur vous grâce à des caméras et des micros.</p>
+            </div>
+          </div>
+
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-03">
+            <h3 id="question-03" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-03" aria-expanded="false" aria-controls="answer-03">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Est-ce que vos escape rooms sont english friendly&nbsp;?
+            </h3>
+            <div id="answer-03" class="collapse" aria-labelledby="question-03" data-parent="#qa-03">
+              <p class="mt-3 mb-0">Oui. Nos scénarios peuvent être jouées en français comme en anglais. Prévenez-nous au moment de la réservation.</p>
+            </div>
+          </div>
+
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-04">
+            <h3 id="question-04" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-04" aria-expanded="false" aria-controls="answer-04">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Les femmes enceintes et personnes âgées peuvent-elles jouer&nbsp;?
+            </h3>
+            <div id="answer-04" class="collapse" aria-labelledby="question-04" data-parent="#qa-04">
+              <p class="mt-3">Oui. Le Digimiam ne contient pas d'éléments effrayants ni d'exercices physiques.</p>
+              <p>Il est possible de s'assoir dans nos salles de jeu en cas de besoin.</p>
+              <p class="mb-0">Vous pouvez nous prévenir au moment de la réservation pour que nous vous recevions dans les meilleures conditions possibles.</p>
+            </div>
+          </div>
+
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-05">
+            <h3 id="question-05" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-05" aria-expanded="false" aria-controls="answer-05">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Est-ce que je peux participer malgré mon handicap&nbsp;?
+            </h3>
+            <div id="answer-05" class="collapse" aria-labelledby="question-05" data-parent="#qa-05">
+              <p class="mt-3">Nous nous efforçons de rendre Le Digimiam accessible aux personnes à mobilité réduite, malentendantes, malvoyantes ou atteinte d'un autre handicap. Nous vous conseillons d'avoir au sein du groupe une personne n'ayant pas de handicap particulier pour certaines énigmes.</p>
+              <p class="mb-0">N'hésitez pas à porter certains éléments à notre connaissance pour que nous adaptions éventuellement l'expérience.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div id="answer-1" class="collapse row justify-content-center" aria-labelledby="question-1" data-parent="#qa-1">
-        <div class="col-12 col-md-9">
-          <p class="mb-0">{% lorem %}</p>
+
+        <div class="col-12 col-lg-6">
+          <h2>Pendant la réservation</h2>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-06">
+            <h3 id="question-06" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-06" aria-expanded="false" aria-controls="answer-06">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Quelle est la limite d'âge pour jouer&nbsp;?
+            </h3>
+            <div id="answer-06" class="collapse" aria-labelledby="question-06" data-parent="#qa-06">
+              <p class="mt-3">Nous vous conseillons de ne pas faire participer les enfants en dessous de 10 ans. Compléter une énigme demande de la concentration.</p>
+              <p class="mb-0">Les groupes constitués d'enfants de moins de 15 ans doivent être accompagnés par un adulte.</p>
+            </div>
+          </div>
+
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-07">
+            <h3 id="question-07" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-07" aria-expanded="false" aria-controls="answer-07">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Comment puis-je régler (chèques vacances)&nbsp;?
+            </h3>
+            <div id="answer-07" class="collapse" aria-labelledby="question-07" data-parent="#qa-07">
+              <p class="mt-3">Pour réserver, nous vous demandons de payer un acompte en ligne via notre module de paiement sécurisé.</p>
+              <p>Si vous n'aimez pas payer sur internet, vous pouvez le faire dans nos locaux, mais vous devrez vous déplacer pour valider la réservation. Sur place il vous est possible de payer avec des chèques vacances (nous ne rendons pas la monnaie).</p>
+              <p class="mb-0">Nous vous demandons de régler un acompte d'au moins une place (non remboursable). Vous pouvez également payer la totalité dès la réservation si c'est plus pratique pour faire vos comptes.</p>
+            </div>
+          </div>
+
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-08">
+            <h3 id="question-08" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-08" aria-expanded="false" aria-controls="answer-08">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Peut-on jouer à 2 personnes&nbsp;?
+            </h3>
+            <div id="answer-08" class="collapse" aria-labelledby="question-08" data-parent="#qa-08">
+              <p class="mt-3">Oui. Chez Just Escape, on vous offre un scénario spécialement conçu pour les couples ou les duos, tant au niveau des énigmes qu'au niveau du prix.</p>
+              <p>Deux joueurs est un nombre adapté pour notre escape room Le Digimiam. Cette salle peut accueillir jusqu'à 4 joueurs.</p>
+              <p class="mb-0">D'autres scénarios tolèrent 2 joueurs mais le déconseille.</p>
+            </div>
+          </div>
+
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-09">
+            <h3 id="question-09" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-09" aria-expanded="false" aria-controls="answer-09">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Peut-on changer la taille du groupe&nbsp;?
+            </h3>
+            <div id="answer-09" class="collapse" aria-labelledby="question-09" data-parent="#qa-09">
+              <p class="mt-3">Oui. Si vous n'avez pas réglé la totalité lors de la réservation, la taille du groupe peut changer jusqu'au début de la partie.</p>
+              <p>Si vous avez déjà tout payé, vous pouvez remplacer un joueur qui a un empêchement car la réservation n'est pas nominative.</p>
+              <p class="mb-0">Par contre, si vous avez acheté 4 places et que vous venez à 3, nous ne ferons aucun remboursement. Nous vous offrirons un chèque cadeau pour une place.</p>
+            </div>
+          </div>
+
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-10">
+            <h3 id="question-10" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-10" aria-expanded="false" aria-controls="answer-10">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Vendez-vous à boire et à manger&nbsp;?
+            </h3>
+            <div id="answer-10" class="collapse" aria-labelledby="question-10" data-parent="#qa-10">
+              <p class="mt-3">Oui. Vous pourrez trinquer et grignoter après la partie.</p>
+              <p>Si vous êtes des particuliers, nos menus gourmand et apéro pourraient vous intéresser.</p>
+              <p class="mb-0">Si vous êtes une entreprise, nous avons des packs clé en main.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="jumbotron softdark py-4">
-    <div id="qa-2" class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-9">
-          <h4 id="question-2" class="text-jaffa pointer" data-toggle="collapse" data-target="#answer-2" aria-expanded="false" aria-controls="answer-2"><span class="transition-03s fill-jaffa svg-16px d-inline-block">{% include "svg/arrow-right.svg" %}</span> {% lorem 5 w %} ?</h4>
-        </div>
-      </div>
-      <div id="answer-2" class="collapse row justify-content-center" aria-labelledby="question-2" data-parent="#qa-2">
-        <div class="col-12 col-md-9">
-          <p class="mb-0">{% lorem %}</p>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div class="jumbotron softdark">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2>Le jour de l'Escape Game</h2>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-11">
+            <h3 id="question-11" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-11" aria-expanded="false" aria-controls="answer-11">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              À quelle heure doit-on arriver&nbsp;?
+            </h3>
+            <div id="answer-11" class="collapse" aria-labelledby="question-11" data-parent="#qa-11">
+              <p class="mt-3">Par soucis de courtoisie envers les autres groupes, nous vous demandons d'être ponctuels.</p>
+              <p class="mb-0">En cas de retard nous nous réservons le droit de pénaliser la durée de votre escape game, voire d'annuler votre session. Aucune réclamation ne pourra être faite.</span>
+            </div>
+          </div>
 
-  <div class="jumbotron py-4">
-    <div id="qa-3" class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-9">
-          <h4 id="question-3" class="text-jaffa pointer" data-toggle="collapse" data-target="#answer-3" aria-expanded="false" aria-controls="answer-3"><span class="transition-03s fill-jaffa svg-16px d-inline-block">{% include "svg/arrow-right.svg" %}</span> {% lorem 5 w %} ?</h4>
-        </div>
-      </div>
-      <div id="answer-3" class="collapse row justify-content-center" aria-labelledby="question-3" data-parent="#qa-3">
-        <div class="col-12 col-md-9">
-          <p class="mb-0">{% lorem %}</p>
-        </div>
-      </div>
-    </div>
-  </div>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-12">
+            <h3 id="question-12" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-12" aria-expanded="false" aria-controls="answer-12">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Combien de temps dure réellement une session&nbsp;?
+            </h3>
+            <div id="answer-12" class="collapse" aria-labelledby="question-12" data-parent="#qa-12">
+              <p class="mt-3">Une partie dure une heure (moins si votre groupe est habile).</p>
+              <p class="mb-0">
+                Exemple d'une réservation à 18h30&nbsp;:
+                <ul>
+                  <li>18h15&nbsp;: arrivée</li>
+                  <li>18h30&nbsp;: briefing</li>
+                  <li>18h45&nbsp;: début de la mission</li>
+                  <li>19h45&nbsp;: sortez, débriefez, trinquez</li>
+                  <li>20h00&nbsp;: fin de l'expérience</li>
+                </ul>
+              </p>
+            </div>
+          </div>
 
-  <div class="jumbotron softdark py-4">
-    <div id="qa-4" class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-9">
-          <h4 id="question-4" class="text-jaffa pointer" data-toggle="collapse" data-target="#answer-4" aria-expanded="false" aria-controls="answer-4"><span class="transition-03s fill-jaffa svg-16px d-inline-block">{% include "svg/arrow-right.svg" %}</span> {% lorem 5 w %} ?</h4>
-        </div>
-      </div>
-      <div id="answer-4" class="collapse row justify-content-center" aria-labelledby="question-4" data-parent="#qa-4">
-        <div class="col-12 col-md-9">
-          <p class="mb-0">{% lorem %}</p>
-        </div>
-      </div>
-    </div>
-  </div>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-13">
+            <h3 id="question-13" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-13" aria-expanded="false" aria-controls="answer-13">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Est-ce vrai que nous sommes filmés&nbsp;?
+            </h3>
+            <div id="answer-13" class="collapse" aria-labelledby="question-13" data-parent="#qa-13">
+              <p class="mt-3 mb-0">Des caméras et micros disposés dans les salles vous suivront pendant toute la partie. Un game master veillera à votre sécurité et à votre progression. Il pourra vous donner des indices pour vous aider.</p>
+            </div>
+          </div>
 
-  <div class="jumbotron py-4">
-    <div id="qa-5" class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-9">
-          <h4 id="question-5" class="text-jaffa pointer" data-toggle="collapse" data-target="#answer-5" aria-expanded="false" aria-controls="answer-5"><span class="transition-03s fill-jaffa svg-16px d-inline-block">{% include "svg/arrow-right.svg" %}</span> {% lorem 5 w %} ?</h4>
-        </div>
-      </div>
-      <div id="answer-5" class="collapse row justify-content-center" aria-labelledby="question-5" data-parent="#qa-5">
-        <div class="col-12 col-md-9">
-          <p class="mb-0">{% lorem %}</p>
-        </div>
-      </div>
-    </div>
-  </div>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-14">
+            <h3 id="question-14" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-14" aria-expanded="false" aria-controls="answer-14">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Où se situe Just Escape&nbsp;?
+            </h3>
+            <div id="answer-14" class="collapse" aria-labelledby="question-14" data-parent="#qa-14">
+              <p class="mt-3 mb-0">Nous n'avons pas de local pour l'instant&nbsp;!</p>
+            </div>
+          </div>
 
-  <div class="jumbotron softdark py-4">
-    <div id="qa-6" class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-9">
-          <h4 id="question-6" class="text-jaffa pointer" data-toggle="collapse" data-target="#answer-6" aria-expanded="false" aria-controls="answer-6"><span class="transition-03s fill-jaffa svg-16px d-inline-block">{% include "svg/arrow-right.svg" %}</span> {% lorem 5 w %} ?</h4>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-15">
+            <h3 id="question-15" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-15" aria-expanded="false" aria-controls="answer-15">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Dois-je me préparer pour venir&nbsp;?
+            </h3>
+            <div id="answer-15" class="collapse" aria-labelledby="question-15" data-parent="#qa-15">
+              <p class="mt-3 mb-0">Venez comme vous êtes, chez Just Escape on est là pour s'amuser&nbsp;! Vous n'avez ni besoin de vous préparer, ni d'aucune connaissance préalable pour jouer.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div id="answer-6" class="collapse row justify-content-center" aria-labelledby="question-6" data-parent="#qa-6">
-        <div class="col-12 col-md-9">
-          <p class="mb-0">{% lorem %}</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="jumbotron py-4">
-    <div id="qa-7" class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-9">
-          <h4 id="question-7" class="text-jaffa pointer" data-toggle="collapse" data-target="#answer-7" aria-expanded="false" aria-controls="answer-7"><span class="transition-03s fill-jaffa svg-16px d-inline-block">{% include "svg/arrow-right.svg" %}</span> {% lorem 5 w %} ?</h4>
-        </div>
-      </div>
-      <div id="answer-7" class="collapse row justify-content-center" aria-labelledby="question-7" data-parent="#qa-7">
-        <div class="col-12 col-md-9">
-          <p class="mb-0">{% lorem %}</p>
-        </div>
-      </div>
-    </div>
-  </div>
+        <div class="col-12 col-lg-6">
+          <h2>Événements (Team Building)</h2>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-16">
+            <h3 id="question-16" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-16" aria-expanded="false" aria-controls="answer-16">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Est-ce que je peux organiser un anniversaire&nbsp;/ EVJF&nbsp;/ EVG&nbsp;?
+            </h3>
+            <div id="answer-16" class="collapse" aria-labelledby="question-16" data-parent="#qa-16">
+              <p class="mt-3">Nous serons ravi de vous accueillir pour vos enterrements de vie de jeune fille&nbsp;/ garçon et autres célébrations avec proches.</p>
+              <p>Après la partie, nous vous inviterons dans notre salle de réception pour passer un bon moment.</p>
+              <p class="mb-0">Il y a des chances que vous soyez intéressés par nos formules gourmand et apéro.</p>
+            </div>
+          </div>
 
-  <div class="jumbotron softdark py-4">
-    <div id="qa-8" class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-9">
-          <h4 id="question-8" class="text-jaffa pointer" data-toggle="collapse" data-target="#answer-8" aria-expanded="false" aria-controls="answer-8"><span class="transition-03s fill-jaffa svg-16px d-inline-block">{% include "svg/arrow-right.svg" %}</span> {% lorem 5 w %} ?</h4>
-        </div>
-      </div>
-      <div id="answer-8" class="collapse row justify-content-center" aria-labelledby="question-8" data-parent="#qa-8">
-        <div class="col-12 col-md-9">
-          <p class="mb-0">{% lorem %}</p>
-        </div>
-      </div>
-    </div>
-  </div>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-17">
+            <h3 id="question-17" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-17" aria-expanded="false" aria-controls="answer-17">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Avez-vous des tarifs pour les entreprises&nbsp;/ BDE&nbsp;?
+            </h3>
+            <div id="answer-17" class="collapse" aria-labelledby="question-17" data-parent="#qa-17">
+              <p class="mt-3">Oui. Nous offrons des prestations supplémentaires orientées pour vos événements Team Building.</p>
+              <p class="mb-0">Contactez-nous si vous souhaitez mettre à disposition des tarifications avantageuses à titre privé pour vos collaborateurs (CE, BDE).</p>
+            </div>
+          </div>
 
-  <div class="jumbotron py-4">
-    <div id="qa-9" class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-9">
-          <h4 id="question-9" class="text-jaffa pointer" data-toggle="collapse" data-target="#answer-9" aria-expanded="false" aria-controls="answer-9"><span class="transition-03s fill-jaffa svg-16px d-inline-block">{% include "svg/arrow-right.svg" %}</span> {% lorem 5 w %} ?</h4>
-        </div>
-      </div>
-      <div id="answer-9" class="collapse row justify-content-center" aria-labelledby="question-9" data-parent="#qa-9">
-        <div class="col-12 col-md-9">
-          <p class="mb-0">{% lorem %}</p>
-        </div>
-      </div>
-    </div>
-  </div>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-18">
+            <h3 id="question-18" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-18" aria-expanded="false" aria-controls="answer-18">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Jusqu'à combien peut-on jouer&nbsp;?
+            </h3>
+            <div id="answer-18" class="collapse" aria-labelledby="question-18" data-parent="#qa-18">
+              <p class="mt-3">Notre escape room Le Digimiam accueille jusqu'à 4 joueurs. Cette salle étant dupliquée, vous pouvez jouer jusqu'à 8 en simultané.</p>
+              <p>Si vous êtes plus nombreux (16 ou 24), nous faisons passer un groupe pendant que les autres se détendent dans notre espace de réception.</p>
+              <p class="mb-0">Pour les sociétés ou les BDE, nous vous invitons à remplir notre formulaire de devis.</p>
+            </div>
+          </div>
 
-  <div class="jumbotron softdark py-4">
-    <div id="qa-10" class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-9">
-          <h4 id="question-10" class="text-jaffa pointer" data-toggle="collapse" data-target="#answer-10" aria-expanded="false" aria-controls="answer-10"><span class="transition-03s fill-jaffa svg-16px d-inline-block">{% include "svg/arrow-right.svg" %}</span> {% lorem 5 w %} ?</h4>
-        </div>
-      </div>
-      <div id="answer-10" class="collapse row justify-content-center" aria-labelledby="question-10" data-parent="#qa-10">
-        <div class="col-12 col-md-9">
-          <p class="mb-0">{% lorem %}</p>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-19">
+            <h3 id="question-19" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-19" aria-expanded="false" aria-controls="answer-19">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Le début des parties est-il décalé pour les grands groupes&nbsp;?
+            </h3>
+            <div id="answer-19" class="collapse" aria-labelledby="question-19" data-parent="#qa-19">
+              <p class="mt-3">En temps normal nous démarrons nos sessions avec un décalage de 15 minutes.</p>
+              <p class="mb-0">Lorsque nous accueillons des groupes qui se connaissent les horaires sont bien entendu synchronisés.</p>
+            </div>
+          </div>
+
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-20">
+            <h3 id="question-20" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-20" aria-expanded="false" aria-controls="answer-20">
+              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Comment utiliser les cartes cadeau&nbsp;?
+            </h3>
+            <div id="answer-20" class="collapse" aria-labelledby="question-20" data-parent="#qa-20">
+              <p class="mt-3">La carte cadeau est utilisable durant la réservation en ligne.</p>
+              <p class="mb-0">Un bon cadeau n'est valable qu'un an. Dépêchez-vous de venir jouer&nbsp;!</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -163,26 +270,46 @@
 
 {% block post_base_js %}
   <script>
-    $("#answer-1").on("show.bs.collapse", function() {$("#question-1 span").addClass("rotate-90");})
-    $("#answer-1").on("hide.bs.collapse", function() {$("#question-1 span").removeClass("rotate-90");})
-    $("#answer-2").on("show.bs.collapse", function() {$("#question-2 span").addClass("rotate-90");})
-    $("#answer-2").on("hide.bs.collapse", function() {$("#question-2 span").removeClass("rotate-90");})
-    $("#answer-3").on("show.bs.collapse", function() {$("#question-3 span").addClass("rotate-90");})
-    $("#answer-3").on("hide.bs.collapse", function() {$("#question-3 span").removeClass("rotate-90");})
-    $("#answer-4").on("show.bs.collapse", function() {$("#question-4 span").addClass("rotate-90");})
-    $("#answer-4").on("hide.bs.collapse", function() {$("#question-4 span").removeClass("rotate-90");})
-    $("#answer-5").on("show.bs.collapse", function() {$("#question-5 span").addClass("rotate-90");})
-    $("#answer-5").on("hide.bs.collapse", function() {$("#question-5 span").removeClass("rotate-90");})
-    $("#answer-6").on("show.bs.collapse", function() {$("#question-6 span").addClass("rotate-90");})
-    $("#answer-6").on("hide.bs.collapse", function() {$("#question-6 span").removeClass("rotate-90");})
-    $("#answer-7").on("show.bs.collapse", function() {$("#question-7 span").addClass("rotate-90");})
-    $("#answer-7").on("hide.bs.collapse", function() {$("#question-7 span").removeClass("rotate-90");})
-    $("#answer-8").on("show.bs.collapse", function() {$("#question-8 span").addClass("rotate-90");})
-    $("#answer-8").on("hide.bs.collapse", function() {$("#question-8 span").removeClass("rotate-90");})
-    $("#answer-9").on("show.bs.collapse", function() {$("#question-9 span").addClass("rotate-90");})
-    $("#answer-9").on("hide.bs.collapse", function() {$("#question-9 span").removeClass("rotate-90");})
+    $("#answer-01").on("show.bs.collapse", function() {$("#question-01 span").addClass("rotate-90");})
+    $("#answer-01").on("hide.bs.collapse", function() {$("#question-01 span").removeClass("rotate-90");})
+    $("#answer-02").on("show.bs.collapse", function() {$("#question-02 span").addClass("rotate-90");})
+    $("#answer-02").on("hide.bs.collapse", function() {$("#question-02 span").removeClass("rotate-90");})
+    $("#answer-03").on("show.bs.collapse", function() {$("#question-03 span").addClass("rotate-90");})
+    $("#answer-03").on("hide.bs.collapse", function() {$("#question-03 span").removeClass("rotate-90");})
+    $("#answer-04").on("show.bs.collapse", function() {$("#question-04 span").addClass("rotate-90");})
+    $("#answer-04").on("hide.bs.collapse", function() {$("#question-04 span").removeClass("rotate-90");})
+    $("#answer-05").on("show.bs.collapse", function() {$("#question-05 span").addClass("rotate-90");})
+    $("#answer-05").on("hide.bs.collapse", function() {$("#question-05 span").removeClass("rotate-90");})
+    $("#answer-06").on("show.bs.collapse", function() {$("#question-06 span").addClass("rotate-90");})
+    $("#answer-06").on("hide.bs.collapse", function() {$("#question-06 span").removeClass("rotate-90");})
+    $("#answer-07").on("show.bs.collapse", function() {$("#question-07 span").addClass("rotate-90");})
+    $("#answer-07").on("hide.bs.collapse", function() {$("#question-07 span").removeClass("rotate-90");})
+    $("#answer-08").on("show.bs.collapse", function() {$("#question-08 span").addClass("rotate-90");})
+    $("#answer-08").on("hide.bs.collapse", function() {$("#question-08 span").removeClass("rotate-90");})
+    $("#answer-09").on("show.bs.collapse", function() {$("#question-09 span").addClass("rotate-90");})
+    $("#answer-09").on("hide.bs.collapse", function() {$("#question-09 span").removeClass("rotate-90");})
     $("#answer-10").on("show.bs.collapse", function() {$("#question-10 span").addClass("rotate-90");})
     $("#answer-10").on("hide.bs.collapse", function() {$("#question-10 span").removeClass("rotate-90");})
+    $("#answer-11").on("show.bs.collapse", function() {$("#question-11 span").addClass("rotate-90");})
+    $("#answer-11").on("hide.bs.collapse", function() {$("#question-11 span").removeClass("rotate-90");})
+    $("#answer-12").on("show.bs.collapse", function() {$("#question-12 span").addClass("rotate-90");})
+    $("#answer-12").on("hide.bs.collapse", function() {$("#question-12 span").removeClass("rotate-90");})
+    $("#answer-13").on("show.bs.collapse", function() {$("#question-13 span").addClass("rotate-90");})
+    $("#answer-13").on("hide.bs.collapse", function() {$("#question-13 span").removeClass("rotate-90");})
+    $("#answer-14").on("show.bs.collapse", function() {$("#question-14 span").addClass("rotate-90");})
+    $("#answer-14").on("hide.bs.collapse", function() {$("#question-14 span").removeClass("rotate-90");})
+    $("#answer-15").on("show.bs.collapse", function() {$("#question-15 span").addClass("rotate-90");})
+    $("#answer-15").on("hide.bs.collapse", function() {$("#question-15 span").removeClass("rotate-90");})
+    $("#answer-16").on("show.bs.collapse", function() {$("#question-16 span").addClass("rotate-90");})
+    $("#answer-16").on("hide.bs.collapse", function() {$("#question-16 span").removeClass("rotate-90");})
+    $("#answer-17").on("show.bs.collapse", function() {$("#question-17 span").addClass("rotate-90");})
+    $("#answer-17").on("hide.bs.collapse", function() {$("#question-17 span").removeClass("rotate-90");})
+    $("#answer-18").on("show.bs.collapse", function() {$("#question-18 span").addClass("rotate-90");})
+    $("#answer-18").on("hide.bs.collapse", function() {$("#question-18 span").removeClass("rotate-90");})
+    $("#answer-19").on("show.bs.collapse", function() {$("#question-19 span").addClass("rotate-90");})
+    $("#answer-19").on("hide.bs.collapse", function() {$("#question-19 span").removeClass("rotate-90");})
+    $("#answer-20").on("show.bs.collapse", function() {$("#question-20 span").addClass("rotate-90");})
+    $("#answer-20").on("hide.bs.collapse", function() {$("#question-20 span").removeClass("rotate-90");})
   </script>
 
   <script type="application/ld+json">

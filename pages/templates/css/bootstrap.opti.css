@@ -2139,6 +2139,9 @@ input[type=submit].btn-block {
 .rounded {
  border-radius:.25rem!important
 }
+.rounded-circle {
+ border-radius:50%!important
+}
 .rounded-0 {
  border-radius:0!important
 }

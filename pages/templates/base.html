@@ -1,6 +1,6 @@
 {% load i18n %}
 <!DOCTYPE html>
-<html lang="{{ lang }}" class="h-100">
+<html lang="{% if lang %}{{ lang }}{% else %}fr{% endif %}" class="h-100">
   <head>
 
     <meta charset="utf-8">
@@ -15,20 +15,21 @@
     {% block extra_css %}{% endblock %}
     <link rel="icon" href="/static/img/favicon.ico">
 
-    <link rel="canonical" href="https://justescape.fr/{{ lang }}{{ current_page }}">
-    <link rel="alternate" hreflang="fr" href="https://justescape.fr/{{ current_page }}">
-    <link rel="alternate" hreflang="fr-be" href="https://justescape.fr/{{ current_page }}">
-    <link rel="alternate" hreflang="fr-ca" href="https://justescape.fr/{{ current_page }}">
-    <link rel="alternate" hreflang="fr-mc" href="https://justescape.fr/{{ current_page }}">
-    <link rel="alternate" hreflang="fr-ml" href="https://justescape.fr/{{ current_page }}">
-    <link rel="alternate" hreflang="fr-sn" href="https://justescape.fr/{{ current_page }}">
-    <link rel="alternate" hreflang="fr-ch" href="https://justescape.fr/{{ current_page }}">
-    <link rel="alternate" hreflang="en" href="https://justescape.fr/en/{{ current_page }}">
-    <link rel="alternate" hreflang="en-gb" href="https://justescape.fr/en/{{ current_page }}">
-    <link rel="alternate" hreflang="en-us" href="https://justescape.fr/en/{{ current_page }}">
-    <link rel="alternate" hreflang="x-default" href="https://justescape.fr/en/{{ current_page }}">
+    <link rel="canonical" href="https://just-escape.fr/{{ lang }}{{ current_page }}">
+    <link rel="alternate" hreflang="fr" href="https://just-escape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="fr-be" href="https://just-escape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="fr-ca" href="https://just-escape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="fr-mc" href="https://just-escape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="fr-ml" href="https://just-escape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="fr-sn" href="https://just-escape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="fr-ch" href="https://just-escape.fr/{{ current_page }}">
+    <link rel="alternate" hreflang="en" href="https://just-escape.fr/en/{{ current_page }}">
+    <link rel="alternate" hreflang="en-gb" href="https://just-escape.fr/en/{{ current_page }}">
+    <link rel="alternate" hreflang="en-us" href="https://just-escape.fr/en/{{ current_page }}">
+    <link rel="alternate" hreflang="x-default" href="https://just-escape.fr/en/{{ current_page }}">
 
     <title>{% block title %}Just Escape{% endblock %}</title>
+    <meta name="description" content="{% block description %}{% endblock %}">
   </head>
 
   <body class="d-flex flex-column dark sans-serif pb-0">

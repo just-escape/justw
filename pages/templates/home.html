@@ -23,7 +23,7 @@
             <div class="card-body p-0">
               <div class="row justify-content-center pl-3 pl-sm-0">
                 <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 mb-3">
-                  <div class="ribbon ribbon-top-left ribbon-mulberry-jaffa"><span>Nouveau</span></div>
+                  <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>Nouveau</span></div>
                   <a href="/{{ lang }}salles?show=d1#le-digimiam">
                     {% include "svg/door-robot.svg" %}
                   </a>
@@ -56,21 +56,21 @@
                       <span class="d-inline-block svg-24px fill-light align-top position-absolute bottom-minus2px-right-minus6px">{% include "svg/x2.svg" %}</span>
                       <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
                     </div>
-                    <span class="mr-3"></span>
+                    <span class="mr-2 mr-sm-3"></span>
                     <span class="size-09 lh-24px">2 à 4 joueurs</span>
                   </div>
                 </div>
                 <div class="mb-2 mr-sm-4">
                   <div class="d-flex flex-row-reverse flex-sm-row">
                     <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/chrono.svg" %}</span>
-                    <span class="mr-2"></span>
+                    <span class="mr-2 mr-sm-3 mr-lg-2"></span>
                     <span class="size-09 lh-24px">60 minutes</span>
                   </div>
                 </div>
                 <div class="mb-2">
                   <div class="d-flex flex-row-reverse flex-sm-row">
                     <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/lang.svg" %}</span>
-                    <span class="mr-2"></span>
+                    <span class="mr-2 mr-sm-3 mr-lg-2"></span>
                     <span class="size-09 lh-24px">FR / EN</span>
                   </div>
                 </div>
@@ -79,12 +79,12 @@
           </div>
         </article>
 
-        <article class="col-12 col-lg-5 px-0">
+        <article class="col-12 col-lg-5 mb-4 px-0">
           <div class="card bg-transparent border-0 h-100">
             <div class="card-body p-0">
               <div class="row justify-content-center pl-3 pl-sm-0">
                 <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 mb-3">
-                  <div class="ribbon ribbon-top-left ribbon-mulberry-jaffa"><span>À venir</span></div>
+                  <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>À venir</span></div>
                   {% include "svg/door-robot.svg" %}
                 </div>
                 <div class="col-8 col-md-9 col-lg-7 col-xl-8">
@@ -225,22 +225,65 @@
       <div class="row mb-4">
         <div class="col-12 text-center">
           <span id="references" class="anchor">&nbsp;</span>
-          <h2>Ils disent qu'on est bien</h2>
+          <h2><span class="svg-24px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>Le meilleur escape game de Lille</span> —&nbsp;La&nbsp;maman&nbsp;du&nbsp;designer</h2>
         </div>
       </div>
 
-      <div class="row d-flex justify-content-around flex-wrap">
-        <div class="col-7 col-md-4 col-lg-3 my-4">
-          {% include "svg/tripadvisor-certificate.svg" %}
+      <div class="row d-flex justify-content-left">
+        <div class="col-12 col-md-10 col-lg-7 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="media flex-column flex-sm-row">
+                <img class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
+                <div class="media-body">
+                  <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>Un scénario riche en émotions que je recommande vivement&nbsp;! Si vous réservez chez eux, parlez m'en avant pour que je touche une prime de coopta[...]</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer text-right">
+              — Michel, actionnaire chez Just Escape
+            </div>
+          </div>
         </div>
-        <div class="col-7 col-md-4 col-lg-3 my-4">
-          {% include "svg/tripadvisor-certificate.svg" %}
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-10 col-lg-7 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="media flex-column flex-sm-row">
+                <img class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
+                <div class="media-body">
+                  <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>Un scénario riche en émotions que je recommande vivement&nbsp;! Si vous réservez chez eux, parlez m'en avant pour que je touche une prime de coopta[...]</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer text-right">
+              — Le Marmitron, Intelligence du Digimiam depuis 2053
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-end">
+        <div class="col-12 col-md-10 col-lg-7">
+          <div class="card">
+            <div class="card-body">
+              <div class="media flex-column flex-sm-row">
+                <img class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
+                <div class="media-body">
+                  <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>Un scénario riche en émotions que je recommande vivement&nbsp;! Si vous réservez chez eux, parlez m'en avant pour que je touche une prime de coopta[...]</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer text-right">
+              — Shirley, une descendante de la famille Holmes
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="jumbotron px-0">
+  <div class="jumbotron">
     <div class="container">
       <div class="row mb-4">
         <div class="col-12 text-center">
