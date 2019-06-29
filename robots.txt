@@ -1,2 +1,3 @@
+Sitemap: https://just-escape.fr/sitemap.xml
 User-agent: *
-Disallow: /
+Disallow: /admin*

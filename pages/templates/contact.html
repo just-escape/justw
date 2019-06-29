@@ -2,6 +2,9 @@
 
 {% load i18n %}
 
+{% block og_title %}Foire Aux Questions - Escape Game Lille - Just Escape{% endblock %}
+{% block og_description %}Les escapes games sont un jeu d'énigmes beaucoup trop fun à jouer vous devriez venir avec toute votre famille et le chat.{% endblock %}
+
 {% block h1 %}{% trans "How to contact us" %}{% endblock %}
 
 {% block content %}
@@ -18,7 +21,7 @@
                   {% include "svg/clock.svg" %}
                 </span>
                 <div>
-                  <h4 class="text-jaffa mb-1">Horaires d'ouverture</h4>
+                  <h2 class="text-jaffa size-15 mb-1">Horaires d'ouverture</h2>
                   <p class="lh-12 mb-0">
                     <span class="text-jaffa">Lundi-vendredi :</span> 14h-23h<br>
                     <span class="text-jaffa">Samedi-dimanche :</span> 10h-23h<br>
@@ -37,7 +40,7 @@
                   {% include "svg/address.svg" %}
                 </span>
                 <div>
-                  <h4 class="text-jaffa mb-1">Contact</h4>
+                  <h2 class="text-jaffa size-15 mb-1">Contact</h2>
                   <p class="lh-12 mb-0">
                     <span class="text-jaffa">Tel :</span> +33 1 23 45 67 89<br>
                     <span class="text-jaffa">Mail :</span> contact@justescape.fr
@@ -56,10 +59,10 @@
                   {% include "svg/map-marker.svg" %}
                 </div>
                 <div>
-                  <h4 class="text-jaffa mb-1">Nous trouver</h4>
+                  <h2 class="text-jaffa size-15 mb-1">Nous trouver</h2>
                   <p class="lh-12 mb-0">
-                    17 rue négrier<br>
-                    59800 Lille
+                    17 rue Négrier<br>
+                    59 800 Lille
                   </p>
                 </div>
               </div>
@@ -85,7 +88,7 @@
       <div class="row">
         <div class="col-12 col-sm-9 col-md-7 col-lg-5 col-xl-4">
           <span id="newsletter" class="anchor">&nbsp;</span>
-          <h4 class="text-jaffa">{% trans "Newsletter" %}</h4>
+          <h2 class="text-jaffa size-15">{% trans "Newsletter" %}</h2>
           <form action="/{{ lang }}contact#newsletter" method="post">
             {% csrf_token %}
 

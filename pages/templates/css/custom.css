@@ -176,6 +176,10 @@ a:hover {
     font-size: 1.5rem;
 }
 
+.size-175 {
+    font-size: 1.75rem;
+}
+
 .size-25 {
     font-size: 2.5rem;
 }
@@ -506,6 +510,10 @@ a:hover {
 /* button */
 
 /* icon */
+.width-170px svg {
+    width: 170px;
+}
+
 .svg-16px svg {
     width: 16px;
     height: 16px;
@@ -587,10 +595,6 @@ a:hover {
 
 .align-super svg {
     vertical-align: super;
-}
-
-.align-text-bottom svg {
-    vertical-align: text-bottom;
 }
 
 .align-sub svg {
@@ -849,8 +853,8 @@ input.form-control::placeholder {
 }
 
 .ribbon.ribbon-small {
-    width: 120px;
-    height: 120px;
+    width: 113px;
+    height: 113px;
 }
 
 .ribbon::before, .ribbon::after {
@@ -888,8 +892,8 @@ input.form-control::placeholder {
 }
 
 .ribbon.ribbon-small span {
-    padding: 6px 0;
-    font-size: 0.9rem;
+    padding: 2px 0;
+    font-size: 0.8rem;
 }
 
 .ribbon-top-left {
@@ -913,14 +917,14 @@ input.form-control::placeholder {
 }
 
 .ribbon-top-left span {
-    right: -33px;
-    top: 32px;
+    right: -34px;
+    top: 33px;
     transform: rotate(-45deg);
 }
 
 .ribbon-top-left.ribbon-small span {
-    right: -37px;
-    top: 36px;
+    right: -44px;
+    top: 42px;
 }
 /* misc */
 

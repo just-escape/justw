@@ -1,28 +1,47 @@
 {% load i18n %}
 <!DOCTYPE html>
-<html lang="{% if lang %}{{ lang }}{% else %}fr{% endif %}" class="h-100">
+<html lang="{% if lang %}{{ lang }}{% else %}fr{% endif %}" prefix="og: http://ogp.me/ns#" class="h-100">
   <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    {% if noindex %}
+    {% comment %}{% if noindex %}{% endcomment %}
     <meta name="robots" content="noindex">
-    {% endif %}
+    {% comment %}{% endif %}{% endcomment %}
 
     <style rel="stylesheet">{% include "css/bootstrap.opti.css" %}</style>
     <style rel="stylesheet">{% include "css/custom.css" %}</style>
     {% block extra_css %}{% endblock %}
-    <link rel="icon" href="/static/img/favicon.ico">
 
-    <link rel="canonical" href="https://just-escape.fr/{{ lang }}{{ current_page }}">
-    <link rel="alternate" hreflang="fr" href="https://just-escape.fr/{{ current_page }}">
-    <link rel="alternate" hreflang="fr-be" href="https://just-escape.fr/{{ current_page }}">
-    <link rel="alternate" hreflang="fr-ca" href="https://just-escape.fr/{{ current_page }}">
-    <link rel="alternate" hreflang="fr-mc" href="https://just-escape.fr/{{ current_page }}">
-    <link rel="alternate" hreflang="fr-ml" href="https://just-escape.fr/{{ current_page }}">
-    <link rel="alternate" hreflang="fr-sn" href="https://just-escape.fr/{{ current_page }}">
-    <link rel="alternate" hreflang="fr-ch" href="https://just-escape.fr/{{ current_page }}">
+    <!-- generics -->
+    <link rel="icon" href="/static/icon/favicon-32.png" sizes="32x32">
+    <link rel="icon" href="/static/icon/favicon-57.png" sizes="57x57">
+    <link rel="icon" href="/static/icon/favicon-76.png" sizes="76x76">
+    <link rel="icon" href="/static/icon/favicon-96.png" sizes="96x96">
+    <link rel="icon" href="/static/icon/favicon-128.png" sizes="128x128">
+    <link rel="icon" href="/static/icon/favicon-192.png" sizes="192x192">
+    <link rel="icon" href="/static/icon/favicon-228.png" sizes="228x228">
+    <!-- Android -->
+    <link rel="shortcut icon" sizes="196x196" href="/static/icon/favicon-196.png">
+    <!-- iOS -->
+    <link rel="apple-touch-icon" href="/static/icon/favicon-120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="/static/icon/favicon-152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="/static/icon/favicon-180.png" sizes="180x180">
+    <!-- Windows 8 IE 10-->
+    <meta name="msapplication-TileColor" content="#f8f9fa">
+    <meta name="msapplication-TileImage" content="/static/icon/favicon-144.png">
+    <!-- Windows 8.1 + IE11 and above -->
+    <meta name="msapplication-config" content="/static/xml/browserconfig.xml">
+
+    <link rel="canonical" href="https://just-escape.fr{% if current_page %}/{% endif %}{{ lang }}{{ current_page }}">
+    <link rel="alternate" hreflang="fr" href="https://just-escape.fr{% if current_page %}/{% endif %}{{ current_page }}">
+    <link rel="alternate" hreflang="fr-be" href="https://just-escape.fr{% if current_page %}/{% endif %}{{ current_page }}">
+    <link rel="alternate" hreflang="fr-ca" href="https://just-escape.fr{% if current_page %}/{% endif %}{{ current_page }}">
+    <link rel="alternate" hreflang="fr-mc" href="https://just-escape.fr{% if current_page %}/{% endif %}{{ current_page }}">
+    <link rel="alternate" hreflang="fr-ml" href="https://just-escape.fr{% if current_page %}/{% endif %}{{ current_page }}">
+    <link rel="alternate" hreflang="fr-sn" href="https://just-escape.fr{% if current_page %}/{% endif %}{{ current_page }}">
+    <link rel="alternate" hreflang="fr-ch" href="https://just-escape.fr{% if current_page %}/{% endif %}{{ current_page }}">
     <link rel="alternate" hreflang="en" href="https://just-escape.fr/en/{{ current_page }}">
     <link rel="alternate" hreflang="en-gb" href="https://just-escape.fr/en/{{ current_page }}">
     <link rel="alternate" hreflang="en-us" href="https://just-escape.fr/en/{{ current_page }}">
@@ -30,6 +49,21 @@
 
     <title>{% block title %}Just Escape{% endblock %}</title>
     <meta name="description" content="{% block description %}{% endblock %}">
+
+    <meta property="og:title" content="{% block og_title %}Escape Game à Lille ⭐⭐⭐⭐⭐ scénario jouable en duo{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}{% endblock %}">
+    <meta property="og:image" content="{% block og_image %}https://draft.just-escape.fr/static/img/logo-just-escape-1200x630.png{% endblock %}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="{% block og_image_alt %}Just Escape Lille Logo{% endblock %}">
+    <meta property="og:image:width" content="{% block og_image_width %}1200{% endblock %}">
+    <meta property="og:image:height" content="{% block og_image_height %}630{% endblock %}">
+    <meta property="og:type" content="{% if og_type %}{{ og_type }}{% else %}website{% endif %}">
+    <meta property="og:url" content="https://just-escape.fr{% if current_page %}/{% endif %}{{ lang }}{{ current_page }}">
+    <meta property="og:site_name" content="Just Escape">
+    <meta property="locale" content="{% if not lang %}fr_FR{% else %}en_US{% endif %}">
+    <meta property="locale:alternate" content="{% if not lang %}en_US{% else %}fr_FR{% endif %}">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@JustEscapeLille">
   </head>
 
   <body class="d-flex flex-column dark sans-serif pb-0">
@@ -67,6 +101,7 @@
     <script src="/static/js/jquery.slim.min.js"></script>
     <script src="/static/js/popper-1.12.9.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/anime.min.js"></script>
 
     <script>
       function navReductionOnScroll() {

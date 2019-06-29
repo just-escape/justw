@@ -5,6 +5,9 @@
 {% block title %}Just Escape ⭐ Escape Game Lille ⭐ 2 joueurs et plus{% endblock %}
 {% block description %}Nouvel escape game 2.0 ⚡ Idéal pour une sortie entre amis 😃 Des décors sensationnels 👌 Scénario Digimiam le restaurant du futur 🤖{% endblock %}
 
+{% block og_title %}Just Escape ⭐ Escape Game Lille ⭐ 2 joueurs et plus{% endblock %}
+{% block og_description %}Nouvel escape game 2.0 ⚡ Idéal pour une sortie entre amis 😃 Des décors sensationnels 👌 Scénario Digimiam le restaurant du futur 🤖{% endblock %}
+
 {% block h1 %}{% trans "Un des escape games les plus immersifs à&nbsp;Lille" %}{% endblock %}
 
 {% block content %}
@@ -18,20 +21,23 @@
       </div>
 
       <div class="row d-flex justify-content-around flex-wrap">
-        <article class="col-12 col-lg-5 px-0 mb-4">
+        <article class="col-12 col-lg-6 mb-4">
           <div class="card bg-transparent border-0 h-100">
             <div class="card-body p-0">
-              <div class="row justify-content-center pl-3 pl-sm-0">
-                <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 mb-3">
-                  <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>Nouveau</span></div>
-                  <a href="/{{ lang }}salles?show=d1#le-digimiam">
-                    {% include "svg/door-robot.svg" %}
-                  </a>
+              <div class="d-flex flex-column flex-sm-row">
+                <div class="d-flex justify-content-center mb-3 mr-sm-2">
+                  <div class="width-170px position-relative my-auto my-lg-0">
+                    <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>Nouveau</span></div>
+                    <a href="/{{ lang }}salles?show=d1#le-digimiam">
+                      {% include "svg/digimiam.svg" %}
+                    </a>
+                  </div>
                 </div>
-                <div class="col-8 col-md-9 col-lg-7 col-xl-8">
+
+                <div>
                   <span id="le-digimiam" class="anchor">&nbsp;</span>
                   <h3 class="size-25 text-light-shadow mb-0"><a href="/{{ lang }}salles?show=d1#le-digimiam">Le Digimiam</a></h3>
-                  <p class="text-justify">Vous êtes à Lille en 2080 dans un <span class="font-weight-bold">restaurant futuriste</span>. Les neurones de l'<span class="font-weight-bold">IA de cuisine</span> du Digimiam ont court-circuité ! À vous de vous infiltrer à travers un labyrinthe laser et de reprendre le contrôle des <span class="font-weight-bold">bras robotiques</span> ! Parviendrez-vous à résoudre toutes nos <span class="font-weight-bold">énigmes originales</span> dans des <span class="font-weight-bold">décors immersifs</span> ?</p>
+                  <p class="text-justify">Vous êtes à Lille en 2080 dans un <span class="font-weight-bold">restaurant futuriste</span>. Les neurones de l'<span class="font-weight-bold">IA de cuisine</span> du Digimiam ont court-circuité&nbsp;! À vous de vous infiltrer à travers un labyrinthe laser et de reprendre le contrôle des <span class="font-weight-bold">bras robotiques</span>&nbsp;! Parviendrez-vous à résoudre toutes nos <span class="font-weight-bold">énigmes originales</span> dans des <span class="font-weight-bold">décors immersifs</span>&nbsp;?</p>
                   <p class="text-justify size-09">Le scénario est jouable à partir de <span class="font-weight-bold">2 personnes</span> et <span class="font-weight-bold">jusqu'à 8</span> sur deux salles.</p>
                   <div class="row d-flex flex-row justify-content-end">
                     <div class="col-6 pr-1">
@@ -48,6 +54,7 @@
                 </div>
               </div>
             </div>
+
             <div class="card-footer border-0 bg-transparent px-0 mt-2 mt-sm-0">
               <div class="d-flex flex-column flex-sm-row float-right">
                 <div class="mb-2 mr-sm-4">
@@ -79,15 +86,18 @@
           </div>
         </article>
 
-        <article class="col-12 col-lg-5 mb-4 px-0">
+        <article class="col-12 col-lg-6 mb-4">
           <div class="card bg-transparent border-0 h-100">
             <div class="card-body p-0">
-              <div class="row justify-content-center pl-3 pl-sm-0">
-                <div class="col-4 col-md-3 col-lg-5 col-xl-4 p-0 mb-3">
-                  <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>À venir</span></div>
-                  {% include "svg/door-robot.svg" %}
+              <div class="d-flex flex-column flex-sm-row">
+                <div class="d-flex justify-content-center mb-3 mr-sm-2">
+                  <div class="width-170px position-relative my-auto my-lg-0">
+                    <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>À venir</span></div>
+                    {% include "svg/puppet.svg" %}
+                  </div>
                 </div>
-                <div class="col-8 col-md-9 col-lg-7 col-xl-8">
+
+                <div>
                   <span id="le-digimiam2" class="anchor">&nbsp;</span>
                   <h3 class="size-25 text-light-shadow opacity-05 mb-0">Salle horreur <span class="d-inline-block svg-36px fill-light align-baseline">{% include "svg/minus-12.svg" %}</span></h3>
                   <p class="text-justify opacity-05">Nous allons ouvrir un nouvel <strong>escape game d'horreur sur Lille</strong>. Plongés au milieu d'une forêt, vous découvrez le <strong>mystérieux manoir</strong> d'une marionnettiste. Échapperez-vous au spectable macabre des marionnettes&nbsp;? Êtes-vous prêts à mettre votre vie et celle de votre équipe en jeu&nbsp;? L'<strong>adrénaline</strong> monte... Scénario à jouer le soir&nbsp;!</p>
@@ -95,6 +105,7 @@
                 </div>
               </div>
             </div>
+
             <div class="card-footer border-0 bg-transparent px-0 mt-2 mt-sm-0">
               <div class="d-flex flex-column flex-sm-row float-right">
                 <div class="mb-2 mr-sm-4">
@@ -127,7 +138,7 @@
     </div>
   </section>
 
-  <section class="jumbotron light px-0">
+  <section class="jumbotron light">
     <div class="container">
       <div class="row mb-4">
         <div class="col-12 text-center">
@@ -211,7 +222,7 @@
 
       <div class="row justify-content-center">
         <div class="d-flex flex-column text-center">
-          <a href="/{{ lang }}reserver" class="btn btn-primary mb-1 px-5">
+          <a href="/{{ lang }}reserver" class="btn btn-primary mb-2 px-5">
             <span>Réserver</span>
           </a>
           <a href="/{{ lang }}team-building#devis" class="size-09 text-underline text-hover-mulberry">Devis entreprise</a>
@@ -225,7 +236,7 @@
       <div class="row mb-4">
         <div class="col-12 text-center">
           <span id="references" class="anchor">&nbsp;</span>
-          <h2><span class="svg-24px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>Le meilleur escape game de Lille</span> —&nbsp;La&nbsp;maman&nbsp;du&nbsp;designer</h2>
+          <h2><span class="svg-24px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>Le meilleur escape game de&nbsp;Lille —&nbsp;La&nbsp;maman&nbsp;du&nbsp;designer</h2>
         </div>
       </div>
 
@@ -234,7 +245,7 @@
           <div class="card">
             <div class="card-body">
               <div class="media flex-column flex-sm-row">
-                <img class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
+                <img alt="lalala" class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
                 <div class="media-body">
                   <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>Un scénario riche en émotions que je recommande vivement&nbsp;! Si vous réservez chez eux, parlez m'en avant pour que je touche une prime de coopta[...]</p>
                 </div>
@@ -251,7 +262,7 @@
           <div class="card">
             <div class="card-body">
               <div class="media flex-column flex-sm-row">
-                <img class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
+                <img alt="lalala" class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
                 <div class="media-body">
                   <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>Un scénario riche en émotions que je recommande vivement&nbsp;! Si vous réservez chez eux, parlez m'en avant pour que je touche une prime de coopta[...]</p>
                 </div>
@@ -268,7 +279,7 @@
           <div class="card">
             <div class="card-body">
               <div class="media flex-column flex-sm-row">
-                <img class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
+                <img alt="lalaal" class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
                 <div class="media-body">
                   <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>Un scénario riche en émotions que je recommande vivement&nbsp;! Si vous réservez chez eux, parlez m'en avant pour que je touche une prime de coopta[...]</p>
                 </div>

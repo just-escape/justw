@@ -9,8 +9,8 @@
 
 {% block content %}
 
-  <section class="jumbotron-fluid py-4">
-    <div id="room-1" class="container">
+  <section class="jumbotron py5">
+    <div id="room-1" class="container px-0">
       <div id="heading-room-1">
         <div class="d-flex flex-row justify-content-center flex-column-reverse flex-md-row">
           <div class="col-12 col-md-2 my-auto text-center text-md-left pl-0">
@@ -19,13 +19,16 @@
               <div class="size-09 text-underline">Plus d'infos</div>
             </div>
           </div>
-          <div class="col-12 col-md-10 mb-3">
-            <div class="row">
-              <div class="col-4 col-md-3 col-lg-2 pl-0">
-                <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>Nouveau</span></div>
-                {% include "svg/door-robot.svg" %}
+          <div class="col-12 col-md-10 px-sm-0 mb-4 mb-md-0">
+            <div class="d-flex flex-column flex-sm-row">
+              <div class="d-flex justify-content-center mb-3 mb-sm-0 mr-sm-3">
+                <div class="width-170px position-relative my-auto my-lg-2">
+                  <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>Nouveau</span></div>
+                  {% include "svg/digimiam.svg" %}
+                </div>
               </div>
-              <div class="col-8 col-md-9 col-lg-10 px-0">
+
+              <div>
                 <span id="le-digimiam" class="anchor">&nbsp;</span>
                 <h2>Le Digimiam</h2>
                 <p class="text-justify">{% lorem 30 w %}</p>
@@ -68,7 +71,7 @@
         </div>
       </div>
 
-      <div id="collapse-room-1" class="row collapse{% if show == "d1" %} show{% endif %}" aria-labelledby="heading-room-1" data-parent="#room-1">
+      <div id="collapse-room-1" class="row mt-4 collapse{% if show == "d1" %} show{% endif %}" aria-labelledby="heading-room-1" data-parent="#room-1">
         <div class="col-12 col-lg-5 my-auto">
           <p class="text-justify">{% lorem %}</p>
         </div>
@@ -105,17 +108,19 @@
     </div>
   </section>
 
-  <section class="jumbotron-fluid py-4 softdark">
-    <div class="container">
-      <div>
+  <section class="jumbotron py-5 softdark">
+    <div class="container px-0">
         <div class="d-flex justify-content-end">
-          <div class="col-12 col-md-10 mb-3">
-            <div class="row">
-              <div class="col-4 col-md-3 col-lg-2 pl-0">
-                <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>À venir</span></div>
-                {% include "svg/door-robot.svg" %}
+          <div class="col-12 col-md-10 px-sm-0">
+            <div class="d-flex flex-column flex-sm-row">
+              <div class="d-flex justify-content-center mb-3 mb-sm-0 mr-sm-3">
+                <div class="width-170px position-relative my-auto my-lg-2">
+                  <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>À venir</span></div>
+                  {% include "svg/puppet.svg" %}
+                </div>
               </div>
-              <div class="col-8 col-md-9 col-lg-10 px-0">
+
+              <div>
                 <h2 class="opacity-05">Salle horreur <span class="d-inline-block svg-30px fill-light align-baseline">{% include "svg/minus-12.svg" %}</span></h2>
                 <p class="text-justify opacity-05">{% lorem 30 w %}</p>
                 <div class="d-flex flex-column-reverse flex-sm-row justify-content-sm-between">

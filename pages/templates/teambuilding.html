@@ -2,12 +2,15 @@
 
 {% load i18n %}
 
+{% block og_title %}Escape Game à Lille ⭐⭐⭐⭐⭐ Bon plan Team Building 👌{% endblock %}
+{% block og_description %}Les escapes games sont un jeu d'énigmes beaucoup trop fun à jouer vous devriez venir avec toute votre famille et le chat.{% endblock %}
+
 {% block extra_css %}
-  <style type="text/css" rel="stylesheet">{% include "css/fa-solid-5.8.1.min.css" %}</style>
-  <style type="text/css" rel="stylesheet">{% include "css/fa-regular-5.8.1.min.css" %}</style>
-  <style type="text/css" rel="stylesheet">{% include "css/fontawesome-5.8.1.min.css" %}</style>
-  <style type="text/css" rel="stylesheet">{% include "css/tempusdominus-bootstrap-4-5.1.2.min.css" %}</style>
-  <style type="text/css" rel="stylesheet">{% include "css/tempusdominus-custom.css" %}</style>
+  <style rel="stylesheet">{% include "css/fa-solid-5.8.1.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/fa-regular-5.8.1.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/fontawesome-5.8.1.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/tempusdominus-bootstrap-4-5.1.2.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/tempusdominus-custom.css" %}</style>
 {% endblock %}
 
 {% block h1 %}{% trans "Nos solutions de team building" %}{% endblock %}
@@ -27,16 +30,16 @@
               <tr>
                 <th></th>
                 <th scope="col">
-                  <h3 class="text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/coffee.svg" %}</span>Petit déj'</h3>
+                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/coffee.svg" %}</span>Petit déj'</div>
                 </th>
                 <th scope="col">
-                  <h3 class="text-jaffa text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/cocktail.svg" %}</span>Cocktail</span></h3>
+                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/cocktail.svg" %}</span>Cocktail</div>
                 </th>
                 <th scope="col">
-                  <h3 class="text-jaffa text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/glass-cheers.svg" %}</span>Apéritif dinatoire</h3>
+                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/glass-cheers.svg" %}</span>Apéritif dinatoire</div>
                 </th>
                 <th scope="col">
-                  <h3 class="text-jaffa text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/presentation.svg" %}</span>Workshop bien mérité</h3>
+                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/presentation.svg" %}</span>Workshop bien mérité</div>
                 </th>
               </tr>
             </thead>

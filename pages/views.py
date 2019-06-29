@@ -13,7 +13,7 @@ from salesquote.models import SalesQuote
 
 
 def get_lang(request):
-    return '' if request.LANGUAGE_CODE == 'fr' else request.LANGUAGE_CODE
+    return '' if request.LANGUAGE_CODE == 'fr' else request.LANGUAGE_CODE + '/'
 
 
 def handle_subscription(request):
