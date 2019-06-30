@@ -9,32 +9,32 @@
         </div>
         <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 text-sm-center">
           <span class="social-media-icon d-inline-block svg-32px mr-1 pointer">
-            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="On est pas sur facebook mais on aime bien ce réseau !">
+            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "We are not on facebook but we like this platform!" %}">
               {% include "svg/facebook.svg" %}
             </a>
           </span>
           <span class="social-media-icon d-inline-block svg-32px mr-1 pointer">
-            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="On est pas sur insta mais on aime bien ce réseau !">
+            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "We are not on insta but we like this platform!" %}">
               {% include "svg/instagram.svg" %}
             </a>
           </span>
           <span class="social-media-icon d-inline-block svg-32px mr-1 pointer">
-            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="On est pas sur twitter mais on aime bien ce réseau !">
+            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "We are not on twitter but we like this platform!" %}">
               {% include "svg/twitter.svg" %}
             </a>
           </span>
           <span class="social-media-icon d-inline-block svg-32px mr-1 pointer">
-            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="On est pas sur linkedin mais on aime bien ce réseau !">
+            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "We are not on linkedin but we like this platform!" %}">
               {% include "svg/linkedin.svg" %}
             </a>
           </span>
           <span class="social-media-icon d-inline-block svg-32px mr-1 pointer">
-            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="On est pas sur tripadvisor mais on aime bien ce réseau !">
+            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "We are not on tripadvisor but we like this platform!" %}">
               {% include "svg/tripadvisor.svg" %}
             </a>
           </span>
           <span class="social-media-icon d-inline-block svg-32px mr-1 pointer">
-            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="On est pas sur yelp mais on aime bien ce réseau !">
+            <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "We are not on yelp but we like this platform!" %}">
               {% include "svg/yelp.svg" %}
             </a>
           </span>
@@ -45,8 +45,8 @@
           <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}faq">{% trans "FAQ" %}</a></li>
           <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}contact">{% trans "Contact" %}</a></li>
           <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}acces">{% trans "Access" %}</a></li>
-          <li class="mr-4"><span class="opacity-04 not-allowed" title="Prochainement" data-placement="bottom" data-toggle="tooltip">{% trans "News" %}</span></li>
-          <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}partenaires">{% trans "Partenaires" %}</a></li>
+          <li class="mr-4"><span class="opacity-04 not-allowed" title="{% trans "Soon" %}" data-placement="bottom" data-toggle="tooltip">{% trans "Blog" %}</span></li>
+          <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}partenaires">{% trans "Partners" %}</a></li>
           <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}cgv">{% trans "Terms" %}</a></li>
           <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}cgu">{% trans "Conditions" %}</a></li>
         </ul>

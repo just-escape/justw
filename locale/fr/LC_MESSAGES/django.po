@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-30 14:26+0200\n"
+"POT-Creation-Date: 2019-06-30 14:33+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -530,31 +530,59 @@ msgstr ""
 
 #: pages/templates/footer.html:8
 msgid "Follow us on social networks!"
-msgstr ""
+msgstr "Suivez-nous sur les réseaux sociaux&nbsp;!"
+
+#: pages/templates/footer.html:12
+msgid "We are not on facebook but we like this platform!"
+msgstr "On est pas sur facebook mais on aime bien ce réseau&nbsp;!"
+
+#: pages/templates/footer.html:17
+msgid "We are not on insta but we like this platform!"
+msgstr "On est pas sur insta mais on aime bien ce réseau&nbsp;!"
+
+#: pages/templates/footer.html:22
+msgid "We are not on twitter but we like this platform!"
+msgstr "On est pas sur twitter mais on aime bien ce réseau&nbsp;!"
+
+#: pages/templates/footer.html:27
+msgid "We are not on linkedin but we like this platform!"
+msgstr "On est pas sur linkedin mais on aime bien ce réseau&nbsp;!"
+
+#: pages/templates/footer.html:32
+msgid "We are not on tripadvisor but we like this platform!"
+msgstr "On est pas sur tripadvisor mais on aime bien ce réseau&nbsp;!"
+
+#: pages/templates/footer.html:37
+msgid "We are not on yelp but we like this platform!"
+msgstr "On est pas sur yelp mais on aime bien ce réseau&nbsp;!"
 
 #: pages/templates/footer.html:46
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: pages/templates/footer.html:47
 msgid "Access"
-msgstr ""
+msgstr "Accès"
 
-#: pages/templates/footer.html:48 pages/templates/news.html:5
-msgid "News"
-msgstr "Actualité"
+#: pages/templates/footer.html:48
+msgid "Soon"
+msgstr "Prochainement"
+
+#: pages/templates/footer.html:48
+msgid "Blog"
+msgstr "Blog"
 
 #: pages/templates/footer.html:49
-msgid "Partenaires"
-msgstr ""
+msgid "Partners"
+msgstr "Partenaires"
 
 #: pages/templates/footer.html:50
 msgid "Terms"
-msgstr ""
+msgstr "CGV"
 
 #: pages/templates/footer.html:51
 msgid "Conditions"
-msgstr ""
+msgstr "CGU"
 
 #: pages/templates/gift-voucher.html:5
 msgid "Offrir une carte cadeau"
@@ -585,6 +613,10 @@ msgstr ""
 #| msgid "Nos salles"
 msgid "Nos Escape Rooms"
 msgstr "Nos salles"
+
+#: pages/templates/news.html:5
+msgid "News"
+msgstr "Actualité"
 
 #: pages/templates/partners.html:5
 msgid "Our partnerships"

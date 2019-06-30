@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-30 14:20+0200\n"
+"POT-Creation-Date: 2019-06-30 14:33+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -438,6 +438,30 @@ msgstr ""
 msgid "Follow us on social networks!"
 msgstr ""
 
+#: pages/templates/footer.html:12
+msgid "We are not on facebook but we like this platform!"
+msgstr ""
+
+#: pages/templates/footer.html:17
+msgid "We are not on insta but we like this platform!"
+msgstr ""
+
+#: pages/templates/footer.html:22
+msgid "We are not on twitter but we like this platform!"
+msgstr ""
+
+#: pages/templates/footer.html:27
+msgid "We are not on linkedin but we like this platform!"
+msgstr ""
+
+#: pages/templates/footer.html:32
+msgid "We are not on tripadvisor but we like this platform!"
+msgstr ""
+
+#: pages/templates/footer.html:37
+msgid "We are not on yelp but we like this platform!"
+msgstr ""
+
 #: pages/templates/footer.html:46
 msgid "Contact"
 msgstr ""
@@ -446,12 +470,16 @@ msgstr ""
 msgid "Access"
 msgstr ""
 
-#: pages/templates/footer.html:48 pages/templates/news.html:5
-msgid "News"
+#: pages/templates/footer.html:48
+msgid "Soon"
+msgstr ""
+
+#: pages/templates/footer.html:48
+msgid "Blog"
 msgstr ""
 
 #: pages/templates/footer.html:49
-msgid "Partenaires"
+msgid "Partners"
 msgstr ""
 
 #: pages/templates/footer.html:50
@@ -488,6 +516,10 @@ msgstr ""
 
 #: pages/templates/home.html:20
 msgid "Nos Escape Rooms"
+msgstr ""
+
+#: pages/templates/news.html:5
+msgid "News"
 msgstr ""
 
 #: pages/templates/partners.html:5
