@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-30 14:33+0200\n"
+"POT-Creation-Date: 2019-06-30 14:38+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -56,6 +56,7 @@ msgid "FAQ ⭐ Live Escape Game Lille ⭐ Just Escape"
 msgstr ""
 
 #: pages/templates/faq.html:8 pages/templates/footer.html:45
+#: pages/templates/header.html:51
 msgid "FAQ"
 msgstr ""
 
@@ -462,19 +463,19 @@ msgstr ""
 msgid "We are not on yelp but we like this platform!"
 msgstr ""
 
-#: pages/templates/footer.html:46
+#: pages/templates/footer.html:46 pages/templates/header.html:54
 msgid "Contact"
 msgstr ""
 
-#: pages/templates/footer.html:47
+#: pages/templates/footer.html:47 pages/templates/header.html:57
 msgid "Access"
 msgstr ""
 
-#: pages/templates/footer.html:48
+#: pages/templates/footer.html:48 pages/templates/header.html:60
 msgid "Soon"
 msgstr ""
 
-#: pages/templates/footer.html:48
+#: pages/templates/footer.html:48 pages/templates/header.html:60
 msgid "Blog"
 msgstr ""
 
@@ -494,6 +495,10 @@ msgstr ""
 msgid "Offrir une carte cadeau"
 msgstr ""
 
+#: pages/templates/header.html:16
+msgid "Escape Game Lille"
+msgstr ""
+
 #: pages/templates/header.html:27
 msgid "Rooms"
 msgstr ""
@@ -508,6 +513,14 @@ msgstr ""
 
 #: pages/templates/header.html:38
 msgid "Team Building"
+msgstr ""
+
+#: pages/templates/header.html:68
+msgid "EN"
+msgstr ""
+
+#: pages/templates/header.html:68
+msgid "FR"
 msgstr ""
 
 #: pages/templates/home.html:11

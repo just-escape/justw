@@ -13,7 +13,7 @@
             <span class="d-block">{% include "svg/just-escape.svg" %}</span>
           </a>
           <figcaption class="d-table mx-auto mx-lg-0 d-lg-block text-lg-right pr-lg-3">
-            <h1><a href="/{{ lang }}">Escape Game Lille</a></h1>
+            <h1><a href="/{{ lang }}">{% trans "Escape Game Lille" %}</a></h1>
           </figcaption>
         </figure>
       </div>
@@ -48,16 +48,16 @@
               <div class="d-flex flex-column flex-sm-row justify-content-md-end justify-content-sm-between ml-3 ml-lg-0 my-1 my-lg-0">
                 <ul class="d-flex flex-column flex-sm-row ul-no-style pl-0 my-2 my-sm-0">
                   <li>
-                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}faq">FAQ</a>
+                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}faq">{% trans "FAQ" %}</a>
                   </li>
                   <li>
-                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}contact">Contact</a>
+                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}contact">{% trans "Contact" %}</a>
                   </li>
                   <li>
-                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}acces">Accès</a>
+                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}acces">{% trans "Access" %}</a>
                   </li>
                   <li>
-                    <span class="size-reductible-15 opacity-04 mr-5 not-allowed" title="Prochainement" data-placement="bottom" data-toggle="tooltip">Blog</span>
+                    <span class="size-reductible-15 opacity-04 mr-5 not-allowed" title="{% trans "Soon" %}" data-placement="bottom" data-toggle="tooltip">{% trans "Blog" %}</span>
                   </li>
                 </ul>
                 <div class="mb-2 mb-sm-0">
@@ -65,7 +65,7 @@
                     {% include "svg/language.svg" %}
                   </span>
                   <span class="size-reductible-15">
-                    <a class="text-hover-mulberry" href="/en/{{ current_page }}">EN</a> | <a class="text-hover-mulberry" href="/{{ current_page }}">FR</a>
+                    <a class="text-hover-mulberry" href="/en/{{ current_page }}">{% trans "EN" %}</a> | <a class="text-hover-mulberry" href="/{{ current_page }}">{% trans "FR" %}</a>
                   </span>
                 </div>
               </div>
