@@ -2,13 +2,15 @@
 
 {% load i18n %}
 
-{% block title %}Foire Aux Questions ⭐ Escape Game Lille ⭐ Just Escape{% endblock %}
-{% block description %}FAQ{% endblock %}
+{% block microdata %}itemscope itemtype="https://schema.org/FAQPage" {% endblock %}
 
-{% block og_title %}Foire Aux Questions - Escape Game Lille - Just Escape{% endblock %}
-{% block og_description %}Les escapes games sont un jeu d'énigmes beaucoup trop fun à jouer vous devriez venir avec toute votre famille et le chat.{% endblock %}
+{% block title %}{% trans "FAQ ⭐ Live Escape Game Lille ⭐ Just Escape" %}{% endblock %}
+{% block description %}{% trans "FAQ" %}{% endblock %}
 
-{% block h1 %}{% trans "Ne perdez pas le Nord avec notre FAQ" %}{% endblock %}
+{% block og_title %}{% trans "FAQ ⭐ Live Escape Game Lille ⭐ Just Escape" %}{% endblock %}
+{% block og_description %}{% trans "Live Escape Games are a fun game to play." %}{% endblock %}
+
+{% block h1 %}{% trans "Frequently Asked Questions" %}{% endblock %}
 
 {% block content %}
 
@@ -16,122 +18,192 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-6">
-          <h2>Général</h2>
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-01">
-            <h3 id="question-01" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-01" aria-expanded="false" aria-controls="answer-01">
+          <h2>{% trans "General" %}</h2>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-01" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-01" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-01" aria-expanded="false" aria-controls="answer-01" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Qu'est-ce qu'un escape game&nbsp;?
+              {% trans "What is a live escape game?" %}
             </h3>
-            <div id="answer-01" class="collapse" aria-labelledby="question-01" data-parent="#qa-01">
-              <p class="mt-3">Les escape games sont un jeu d'équipe consistant à enfermer un groupe dans une salle truffée de mystères. Vous avez 60 minutes pour résoudre des énigmes à l'aide d'indices cachés et comprendre.</p>
-              <p>Réussir à sortir dans les temps vous demandera de la logique, de la communication et un bon esprit d'équipe. Il faut faire preuve de ces qualités dans des situations de stress et pleine d'adrénaline.</p>
-              <p class="mb-0">C'est idéal pour se mesurer à d'autres groupes ou tout simplement pour le plaisir de l'immersion grandeur nature.</p>
+            <div id="answer-01" class="collapse" aria-labelledby="question-01" data-parent="#qa-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "Escape games are a team game that consists of locking a group in a room full of mysteries. You have 60 minutes to solve puzzles with hidden clues." %}
+                </p>
+                <p>
+                  {% trans "Getting out on time will require logic, communication and a good team spirit. These qualities must be demonstrated in stressful and adrenaline-filled situations." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "It is ideal to challenge yourself or simply for the pleasure of life-size immersion." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-02">
-            <h3 id="question-02" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-02" aria-expanded="false" aria-controls="answer-02">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-02" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-02" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-02" aria-expanded="false" aria-controls="answer-02" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Est-on vraiment enfermé&nbsp;?
+              {% trans "Are we really locked up?" %}
             </h3>
-            <div id="answer-02" class="collapse" aria-labelledby="question-02" data-parent="#qa-02">
-              <p class="mt-3">Le principe des jeux d'évasion est de compléter toutes les énigmes sans sortir.</p>
-              <p class="mb-0">En cas d'urgence ou de malaise, il est toujours possible d'évacuer. Un maître du jeu veille sur vous grâce à des caméras et des micros.</p>
+            <div id="answer-02" class="collapse" aria-labelledby="question-02" data-parent="#qa-02" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "The principle of escape games is to complete all the riddles without leaving the room." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "In case of emergency or uneasiness, it is always possible to evacuate. A game master monitors you with cameras and microphones." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-03">
-            <h3 id="question-03" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-03" aria-expanded="false" aria-controls="answer-03">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-03" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-03" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-03" aria-expanded="false" aria-controls="answer-03" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Est-ce que vos escape rooms sont english friendly&nbsp;?
+              {% trans "Are your escape rooms english friendly?" %}
             </h3>
-            <div id="answer-03" class="collapse" aria-labelledby="question-03" data-parent="#qa-03">
-              <p class="mt-3 mb-0">Oui. Nos scénarios peuvent être jouées en français comme en anglais. Prévenez-nous au moment de la réservation.</p>
+            <div id="answer-03" class="collapse" aria-labelledby="question-03" data-parent="#qa-03" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3 mb-0">
+                  {% trans "Yes, our scenarios can be played in both French and English. Let us know your preference during the booking process." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-04">
-            <h3 id="question-04" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-04" aria-expanded="false" aria-controls="answer-04">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-04" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-04" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-04" aria-expanded="false" aria-controls="answer-04" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Les femmes enceintes et personnes âgées peuvent-elles jouer&nbsp;?
+              {% trans "Can pregnant women and the elderly play?" %}
             </h3>
-            <div id="answer-04" class="collapse" aria-labelledby="question-04" data-parent="#qa-04">
-              <p class="mt-3">Oui. Le Digimiam ne contient pas d'éléments effrayants ni d'exercices physiques.</p>
-              <p>Il est possible de s'assoir dans nos salles de jeu en cas de besoin.</p>
-              <p class="mb-0">Vous pouvez nous prévenir au moment de la réservation pour que nous vous recevions dans les meilleures conditions possibles.</p>
+            <div id="answer-04" class="collapse" aria-labelledby="question-04" data-parent="#qa-04" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "Yes, <a href='/en/salles?show=d1#digimiam' class='text-underline'>our room <span class='font-italic'>The Digimiam</span></a> does not contain frightening elements nor physical exercises." %}
+                </p>
+                <p>
+                  {% trans "It is possible to sit in our escape rooms if necessary." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "You can inform us at the time of booking so that we can welcome you in the best conditions possible." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-05">
-            <h3 id="question-05" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-05" aria-expanded="false" aria-controls="answer-05">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-05" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-05" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-05" aria-expanded="false" aria-controls="answer-05" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Est-ce que je peux participer malgré mon handicap&nbsp;?
+              {% trans "Can I participate despite my disability?" %}
             </h3>
-            <div id="answer-05" class="collapse" aria-labelledby="question-05" data-parent="#qa-05">
-              <p class="mt-3">Nous nous efforçons de rendre Le Digimiam accessible aux personnes à mobilité réduite, malentendantes, malvoyantes ou atteinte d'un autre handicap. Nous vous conseillons d'avoir au sein du groupe une personne n'ayant pas de handicap particulier pour certaines énigmes.</p>
-              <p class="mb-0">N'hésitez pas à porter certains éléments à notre connaissance pour que nous adaptions éventuellement l'expérience.</p>
+            <div id="answer-05" class="collapse" aria-labelledby="question-05" data-parent="#qa-05" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "We do our best to keep <a href='/en/salles?show=d1#digimiam' class='text-underline font-italic'>The Digimiam</a> accessible to people with reduced mobility, hearing, sight or other disabilities. We recommend that you have someone in the group who does not have a particular disability for certain riddles." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "Feel free to let us know about your situation so that we can adapt the experience if possible." %}
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="col-12 col-lg-6">
-          <h2>Pendant la réservation</h2>
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-06">
-            <h3 id="question-06" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-06" aria-expanded="false" aria-controls="answer-06">
+          <h2>{% trans "The booking process" %}</h2>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-06" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-06" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-06" aria-expanded="false" aria-controls="answer-06" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Quelle est la limite d'âge pour jouer&nbsp;?
+              {% trans "Is there an age limit to play?" %}
             </h3>
-            <div id="answer-06" class="collapse" aria-labelledby="question-06" data-parent="#qa-06">
-              <p class="mt-3">Nous vous conseillons de ne pas faire participer les enfants en dessous de 10 ans. Compléter une énigme demande de la concentration.</p>
-              <p class="mb-0">Les groupes constitués d'enfants de moins de 15 ans doivent être accompagnés par un adulte.</p>
+            <div id="answer-06" class="collapse" aria-labelledby="question-06" data-parent="#qa-06" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "We advise you not to come with children under the age of 10. Completing a puzzle requires focus." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "Groups with children under the age of 15 are accepted with at least one adult in the team." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-07">
-            <h3 id="question-07" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-07" aria-expanded="false" aria-controls="answer-07">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-07" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-07" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-07" aria-expanded="false" aria-controls="answer-07" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Comment puis-je régler (chèques vacances)&nbsp;?
+              {% trans "How can I pay?" %}
             </h3>
-            <div id="answer-07" class="collapse" aria-labelledby="question-07" data-parent="#qa-07">
-              <p class="mt-3">Pour réserver, nous vous demandons de payer un acompte en ligne via notre module de paiement sécurisé.</p>
-              <p>Si vous n'aimez pas payer sur internet, vous pouvez le faire dans nos locaux, mais vous devrez vous déplacer pour valider la réservation. Sur place il vous est possible de payer avec des chèques vacances (nous ne rendons pas la monnaie).</p>
-              <p class="mb-0">Nous vous demandons de régler un acompte d'au moins une place (non remboursable). Vous pouvez également payer la totalité dès la réservation si c'est plus pratique pour faire vos comptes.</p>
+            <div id="answer-07" class="collapse" aria-labelledby="question-07" data-parent="#qa-07" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "We ask you to pay a deposit online via our secure payment module to finalize the <a href='/en/reserver' class='text-underline'>booking of your session</a>." %}
+                </p>
+                <p>
+                  {% trans "If you do not like to pay on the internet, you can do it in our premises, but you will have to come in advance to validate the reservation." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "We ask you to pay a deposit of at least one place (non-refundable). You can also pay the full amount at the time of booking if it is more convenient for you." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-08">
-            <h3 id="question-08" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-08" aria-expanded="false" aria-controls="answer-08">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-08" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-08" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-08" aria-expanded="false" aria-controls="answer-08" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Peut-on jouer à 2 personnes&nbsp;?
+              {% trans "Do you have 2-player suited escape rooms?" %}
             </h3>
-            <div id="answer-08" class="collapse" aria-labelledby="question-08" data-parent="#qa-08">
-              <p class="mt-3">Oui. Chez Just Escape, on vous offre un scénario spécialement conçu pour les couples ou les duos, tant au niveau des énigmes qu'au niveau du prix.</p>
-              <p>Deux joueurs est un nombre adapté pour notre escape room Le Digimiam. Cette salle peut accueillir jusqu'à 4 joueurs.</p>
-              <p class="mb-0">D'autres scénarios tolèrent 2 joueurs mais le déconseille.</p>
+            <div id="answer-08" class="collapse" aria-labelledby="question-08" data-parent="#qa-08" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "Yes, Just Escape offers you a scenario specially designed for couples or duos, both in terms of gameplay and price." %}
+                </p>
+                <p>
+                  {% trans "<a href='/en/salles?show=d1#digimiam' class='text-underline'>Our room <span class='font-italic'>The Digimiam</span></a> is adapted for two players. This room can accomodate up to 4 players." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "Other scenarios tolerate 2 players but do not recommend it." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-09">
-            <h3 id="question-09" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-09" aria-expanded="false" aria-controls="answer-09">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-09" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-09" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-09" aria-expanded="false" aria-controls="answer-09" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Peut-on changer la taille du groupe&nbsp;?
+              {% trans "Can we change the size of the group?" %}
             </h3>
-            <div id="answer-09" class="collapse" aria-labelledby="question-09" data-parent="#qa-09">
-              <p class="mt-3">Oui. Si vous n'avez pas réglé la totalité lors de la réservation, la taille du groupe peut changer jusqu'au début de la partie.</p>
-              <p>Si vous avez déjà tout payé, vous pouvez remplacer un joueur qui a un empêchement car la réservation n'est pas nominative.</p>
-              <p class="mb-0">Par contre, si vous avez acheté 4 places et que vous venez à 3, nous ne ferons aucun remboursement. Nous vous offrirons un chèque cadeau pour une place.</p>
+            <div id="answer-09" class="collapse" aria-labelledby="question-09" data-parent="#qa-09" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "Yes, if you did not pay the full amount when you booked, you may change your group until the game begins." %}
+                </p>
+                <p>
+                  {% trans "If you have already paid for everything, you can replace a player who canceled at the last minute because the reservation is not nominative." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "However, if you have purchased 4 tickets and you come to 3, we will not refund you. We will offer you a gift certificate for one place." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-10">
-            <h3 id="question-10" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-10" aria-expanded="false" aria-controls="answer-10">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-10" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-10" aria-expanded="false" aria-controls="answer-10" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Vendez-vous à boire et à manger&nbsp;?
+              {% trans "Do you sell drinks and snacks?" %}
             </h3>
-            <div id="answer-10" class="collapse" aria-labelledby="question-10" data-parent="#qa-10">
-              <p class="mt-3">Oui. Vous pourrez trinquer et grignoter après la partie.</p>
-              <p>Si vous êtes des particuliers, nos menus gourmand et apéro pourraient vous intéresser.</p>
-              <p class="mb-0">Si vous êtes une entreprise, nous avons des packs clé en main.</p>
+            <div id="answer-10" class="collapse" aria-labelledby="question-10" data-parent="#qa-10" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "Yes, you can drink and snack after the game." %}
+                </p>
+                <p>
+                {% trans "If you are a group of friends, our <a href='/en/tarifs' class='text-underline'>gourmet and aperitif menus</a> may interest you." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "If you are a company, we have <a href='/en/team-building' class='text-underline'>turnkey packages</a>." %}
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -143,124 +215,180 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-6">
-          <h2>Le jour de l'Escape Game</h2>
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-11">
-            <h3 id="question-11" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-11" aria-expanded="false" aria-controls="answer-11">
+          <h2>{% trans "The escape game session" %}</h2>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-11" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-11" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-11" aria-expanded="false" aria-controls="answer-11" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              À quelle heure doit-on arriver&nbsp;?
+              {% trans "At what time should we arrive?" %}
             </h3>
-            <div id="answer-11" class="collapse" aria-labelledby="question-11" data-parent="#qa-11">
-              <p class="mt-3">Par soucis de courtoisie envers les autres groupes, nous vous demandons d'être ponctuels.</p>
-              <p class="mb-0">En cas de retard nous nous réservons le droit de pénaliser la durée de votre escape game, voire d'annuler votre session. Aucune réclamation ne pourra être faite.</p>
+            <div id="answer-11" class="collapse" aria-labelledby="question-11" data-parent="#qa-11" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "As a courtesy to other groups, we ask you to be punctual." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "In case of delay we reserve the right to penalize the duration of your escape game, or even to cancel it. No claims can be made." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-12">
-            <h3 id="question-12" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-12" aria-expanded="false" aria-controls="answer-12">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-12" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-12" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-12" aria-expanded="false" aria-controls="answer-12" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Combien de temps dure réellement une session&nbsp;?
+              {% trans "How long a session really is?" %}
             </h3>
-            <div id="answer-12" class="collapse" aria-labelledby="question-12" data-parent="#qa-12">
-              <p class="mt-3">Une partie dure une heure (moins si votre groupe est habile).</p>
-              <p class="mb-0">
-                Exemple d'une réservation à 18h30&nbsp;:
-              </p>
+            <div id="answer-12" class="collapse" aria-labelledby="question-12" data-parent="#qa-12" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "A game lasts one hour (less if you have a skilled group)." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "Example of a reservation at 6:30 PM:" %}
+                </p>
                 <ul>
-                  <li>18h15&nbsp;: arrivée</li>
-                  <li>18h30&nbsp;: briefing</li>
-                  <li>18h45&nbsp;: début de la mission</li>
-                  <li>19h45&nbsp;: sortez, débriefez, trinquez</li>
+                  <li>{% trans "6:15 PM: arrival" %}</li>
+                  <li>{% trans "6:30 PM: briefing" %}</li>
+                  <li>{% trans "6:45 PM: start of the mission" %}</li>
+                  <li>{% trans "7:45 PM: get out, debrief and have a toast" %}</li>
                 </ul>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-13">
-            <h3 id="question-13" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-13" aria-expanded="false" aria-controls="answer-13">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-13" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-13" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-13" aria-expanded="false" aria-controls="answer-13" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Est-ce vrai que nous sommes filmés&nbsp;?
+              {% trans "Is it true that we are being filmed?" %}
             </h3>
-            <div id="answer-13" class="collapse" aria-labelledby="question-13" data-parent="#qa-13">
-              <p class="mt-3 mb-0">Des caméras et micros disposés dans les salles vous suivront pendant toute la partie. Un game master veillera à votre sécurité et à votre progression. Il pourra vous donner des indices pour vous aider.</p>
+            <div id="answer-13" class="collapse" aria-labelledby="question-13" data-parent="#qa-13" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3 mb-0">
+                  {% trans "Cameras and microphones placed in rooms will follow you throughout the game. A game master will ensure your safety and progress. He can give you clues to help you." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-14">
-            <h3 id="question-14" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-14" aria-expanded="false" aria-controls="answer-14">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-14" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-14" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-14" aria-expanded="false" aria-controls="answer-14" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Où se situe Just Escape&nbsp;?
+              {% trans "Where is located Just Escape?" %}
             </h3>
-            <div id="answer-14" class="collapse" aria-labelledby="question-14" data-parent="#qa-14">
-              <p class="mt-3 mb-0">Nous n'avons pas de local pour l'instant&nbsp;!</p>
+            <div id="answer-14" class="collapse" aria-labelledby="question-14" data-parent="#qa-14" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3 mb-0">
+                  {% trans "We don't have any premises at the moment!" %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-15">
-            <h3 id="question-15" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-15" aria-expanded="false" aria-controls="answer-15">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-15" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-15" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-15" aria-expanded="false" aria-controls="answer-15" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Dois-je me préparer pour venir&nbsp;?
+              {% trans "Do I have to prepare to come?" %}
             </h3>
-            <div id="answer-15" class="collapse" aria-labelledby="question-15" data-parent="#qa-15">
-              <p class="mt-3 mb-0">Venez comme vous êtes, chez Just Escape on est là pour s'amuser&nbsp;! Vous n'avez ni besoin de vous préparer, ni d'aucune connaissance préalable pour jouer.</p>
+            <div id="answer-15" class="collapse" aria-labelledby="question-15" data-parent="#qa-15" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3 mb-0">
+                  {% trans "Come as you are. At Just Escape we are here to have fun! You don't need to prepare yourself or nor to have prior knowledge to play." %}
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="col-12 col-lg-6">
-          <h2>Événements (Team Building)</h2>
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-16">
-            <h3 id="question-16" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-16" aria-expanded="false" aria-controls="answer-16">
+          <h2>{% trans "Occasions (Team Building)" %}</h2>
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-16" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-16" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-16" aria-expanded="false" aria-controls="answer-16" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Est-ce que je peux organiser un anniversaire&nbsp;/ EVJF&nbsp;/ EVG&nbsp;?
+              {% trans "Can I organize a birthday, stag&nbsp;/ hen&nbsp;/ bachelor party?" %}
             </h3>
-            <div id="answer-16" class="collapse" aria-labelledby="question-16" data-parent="#qa-16">
-              <p class="mt-3">Nous serons ravi de vous accueillir pour vos enterrements de vie de jeune fille&nbsp;/ garçon et autres célébrations avec proches.</p>
-              <p>Après la partie, nous vous inviterons dans notre salle de réception pour passer un bon moment.</p>
-              <p class="mb-0">Il y a des chances que vous soyez intéressés par nos formules gourmand et apéro.</p>
+            <div id="answer-16" class="collapse" aria-labelledby="question-16" data-parent="#qa-16" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "We will be happy to welcome you for <a href='/en/tarifs' class='text-underline'>your bachelor parties and other celebrations with family and friends</a>." %}
+                </p>
+                <p>
+                  {% trans "After the game, we will invite you to our reception room to have a good time." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "Chances are you're interested in our gourmet and aperitif formulas." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-17">
-            <h3 id="question-17" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-17" aria-expanded="false" aria-controls="answer-17">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-17" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-17" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-17" aria-expanded="false" aria-controls="answer-17" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Avez-vous des tarifs pour les entreprises&nbsp;/ BDE&nbsp;?
+              {% trans "Do you have special rates for companies?" %}
             </h3>
-            <div id="answer-17" class="collapse" aria-labelledby="question-17" data-parent="#qa-17">
-              <p class="mt-3">Oui. Nous offrons des prestations supplémentaires orientées pour vos événements Team Building.</p>
-              <p class="mb-0">Contactez-nous si vous souhaitez mettre à disposition des tarifications avantageuses à titre privé pour vos collaborateurs (CE, BDE).</p>
+            <div id="answer-17" class="collapse" aria-labelledby="question-17" data-parent="#qa-17" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "Yes, we offer additional services for <a href='/en/team-building' class='text-underline'>your team building events</a>." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "Contact us if you wish to make available advantageous rates for your employees." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-18">
-            <h3 id="question-18" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-18" aria-expanded="false" aria-controls="answer-18">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-18" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-18" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-18" aria-expanded="false" aria-controls="answer-18" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Jusqu'à combien peut-on jouer&nbsp;?
+              {% trans "How many players can play?" %}
             </h3>
-            <div id="answer-18" class="collapse" aria-labelledby="question-18" data-parent="#qa-18">
-              <p class="mt-3">Notre escape room Le Digimiam accueille jusqu'à 4 joueurs. Cette salle étant dupliquée, vous pouvez jouer jusqu'à 8 en simultané.</p>
-              <p>Si vous êtes plus nombreux (16 ou 24), nous faisons passer un groupe pendant que les autres se détendent dans notre espace de réception.</p>
-              <p class="mb-0">Pour les sociétés ou les BDE, nous vous invitons à remplir notre formulaire de devis.</p>
+            <div id="answer-18" class="collapse" aria-labelledby="question-18" data-parent="#qa-18" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "<a href='/en/salles?show=d1#digimiam' class='text-underline'>Our escape room <span class='font-italic'>The Digimiam</span></a> can accommodate up to 4 players. As this room is duplicated, you can play up to 8 simultaneously." %}
+                </p>
+                <p>
+                  {% trans "If there are more of you (16 or 24), one group will play while the others relax in our reception area." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "We invite companies to fill in <a href='/en/team-building#devis' class='text-underline'>our quote form</a>." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-19">
-            <h3 id="question-19" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-19" aria-expanded="false" aria-controls="answer-19">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-19" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-19" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-19" aria-expanded="false" aria-controls="answer-19" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Le début des parties est-il décalé pour les grands groupes&nbsp;?
+              {% trans "Do you start sessions with a time offset for large groups?" %}
             </h3>
-            <div id="answer-19" class="collapse" aria-labelledby="question-19" data-parent="#qa-19">
-              <p class="mt-3">En temps normal nous démarrons nos sessions avec un décalage de 15 minutes.</p>
-              <p class="mb-0">Lorsque nous accueillons des groupes qui se connaissent les horaires sont bien entendu synchronisés.</p>
+            <div id="answer-19" class="collapse" aria-labelledby="question-19" data-parent="#qa-19" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "Normally we start our sessions with a 15-minute offset" %}
+                </p>
+                <p class="mb-0">
+                  {% trans "When we welcome groups who know each other, schedules are of course synchronized." %}
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-20">
-            <h3 id="question-20" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-20" aria-expanded="false" aria-controls="answer-20">
+          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-20" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-20" class="text-jaffa pointer size-15 mb-0" data-toggle="collapse" data-target="#answer-20" aria-expanded="false" aria-controls="answer-20" itemprop="name">
               <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Comment utiliser les cartes cadeau&nbsp;?
+              {% trans "How to use gift cards?" %}
             </h3>
-            <div id="answer-20" class="collapse" aria-labelledby="question-20" data-parent="#qa-20">
-              <p class="mt-3">La carte cadeau est utilisable durant la réservation en ligne.</p>
-              <p class="mb-0">Un bon cadeau n'est valable qu'un an. Dépêchez-vous de venir jouer&nbsp;!</p>
+            <div id="answer-20" class="collapse" aria-labelledby="question-20" data-parent="#qa-20" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  {% trans "The <a href='/en/carte-cadeau' class='text-underline'>gift card</a> can be used during the <a href='/en/reserver' class='text-underline'>online booking</a>." %}
+                </p>
+                <p class="mb-0">
+                  {% trans "A gift voucher is only valid for one year. Hurry up and come and play!" %}
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -330,30 +458,6 @@
                 "position": 2,
                 "name": "Foire Aux Questions",
                 "item": "https://just-escape.fr/faq"
-            }
-        ]
-    }
-  </script>
-  <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Response"
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Response"
-                }
             }
         ]
     }

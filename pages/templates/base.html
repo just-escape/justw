@@ -1,6 +1,6 @@
 {% load i18n %}
 <!DOCTYPE html>
-<html lang="{% if lang %}{{ lang }}{% else %}fr{% endif %}" prefix="og: http://ogp.me/ns#" class="h-100">
+<html lang="{% if lang %}{{ lang }}{% else %}fr{% endif %}" prefix="og: http://ogp.me/ns#" {% block microdata %}{% endblock %}class="h-100">
   <head>
 
     <meta charset="utf-8">

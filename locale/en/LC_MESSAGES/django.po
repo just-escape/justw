@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-08 06:14+0000\n"
+"POT-Creation-Date: 2019-06-30 14:20+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -15,54 +15,427 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: justw/settings.py:110
+#: justw/settings.py:178
 msgid "English"
 msgstr "English"
 
-#: justw/settings.py:111
+#: justw/settings.py:179
 msgid "French"
 msgstr "French"
 
-#: pages/templates/404.html:17
+#: pages/templates/404.html:19
 msgid "Erreur 404 - Vous ne naviguez pas sur la bonne page"
 msgstr ""
 
-#: pages/templates/access.html:17
-msgid "How to access our rooms"
+#: pages/templates/access.html:8
+msgid "Comment rejoindre notre local à&nbsp;Lille&nbsp;?"
 msgstr ""
 
-#: pages/templates/base.html:26 pages/templates/home.html:10
-#, fuzzy
-#| msgid "One of the best live escape game in Lille"
+#: pages/templates/base.html:90
 msgid "One of the best live escape games in Lille"
-msgstr "One of the best live escape game in Lille"
-
-#: pages/templates/booking.html:10
-msgid "Book a room"
 msgstr ""
 
-#: pages/templates/conditions.html:12
+#: pages/templates/booking.html:8
+msgid "Réserver une salle"
+msgstr ""
+
+#: pages/templates/conditions.html:17
 msgid "Conditions of use"
 msgstr ""
 
-#: pages/templates/contact.html:17
+#: pages/templates/contact.html:8
 msgid "How to contact us"
 msgstr ""
 
-#: pages/templates/contact.html:103 pages/templates/home.html:249
+#: pages/templates/contact.html:91 pages/templates/home.html:377
 msgid "Newsletter"
 msgstr ""
 
-#: pages/templates/faq.html:10
-msgid "Frequently asked questions"
+#: pages/templates/faq.html:7 pages/templates/faq.html:10
+msgid "FAQ ⭐ Live Escape Game Lille ⭐ Just Escape"
+msgstr ""
+
+#: pages/templates/faq.html:8 pages/templates/footer.html:45
+msgid "FAQ"
+msgstr ""
+
+#: pages/templates/faq.html:11
+msgid "Live Escape Games are a fun game to play."
+msgstr ""
+
+#: pages/templates/faq.html:13
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: pages/templates/faq.html:21
+msgid "General"
+msgstr ""
+
+#: pages/templates/faq.html:25
+msgid "What is a live escape game?"
+msgstr ""
+
+#: pages/templates/faq.html:30
+msgid ""
+"Escape games are a team game that consists of locking a group in a room full "
+"of mysteries. You have 60 minutes to solve puzzles with hidden clues."
+msgstr ""
+
+#: pages/templates/faq.html:33
+msgid ""
+"Getting out on time will require logic, communication and a good team "
+"spirit. These qualities must be demonstrated in stressful and adrenaline-"
+"filled situations."
+msgstr ""
+
+#: pages/templates/faq.html:36
+msgid ""
+"It is ideal to challenge yourself or simply for the pleasure of life-size "
+"immersion."
+msgstr ""
+
+#: pages/templates/faq.html:45
+msgid "Are we really locked up?"
+msgstr ""
+
+#: pages/templates/faq.html:50
+msgid ""
+"The principle of escape games is to complete all the riddles without leaving "
+"the room."
+msgstr ""
+
+#: pages/templates/faq.html:53
+msgid ""
+"In case of emergency or uneasiness, it is always possible to evacuate. A "
+"game master monitors you with cameras and microphones."
+msgstr ""
+
+#: pages/templates/faq.html:62
+msgid "Are your escape rooms english friendly?"
+msgstr ""
+
+#: pages/templates/faq.html:67
+msgid ""
+"Yes, our scenarios can be played in both French and English. Let us know "
+"your preference during the booking process."
+msgstr ""
+
+#: pages/templates/faq.html:76
+msgid "Can pregnant women and the elderly play?"
+msgstr ""
+
+#: pages/templates/faq.html:81
+msgid ""
+"Yes, <a href='/en/salles?show=d1#digimiam' class='text-underline'>our room "
+"<span class='font-italic'>The Digimiam</span></a> does not contain "
+"frightening elements nor physical exercises."
+msgstr ""
+
+#: pages/templates/faq.html:84
+msgid "It is possible to sit in our escape rooms if necessary."
+msgstr ""
+
+#: pages/templates/faq.html:87
+msgid ""
+"You can inform us at the time of booking so that we can welcome you in the "
+"best conditions possible."
+msgstr ""
+
+#: pages/templates/faq.html:96
+msgid "Can I participate despite my disability?"
+msgstr ""
+
+#: pages/templates/faq.html:101
+msgid ""
+"We do our best to keep <a href='/en/salles?show=d1#digimiam' class='text-"
+"underline font-italic'>The Digimiam</a> accessible to people with reduced "
+"mobility, hearing, sight or other disabilities. We recommend that you have "
+"someone in the group who does not have a particular disability for certain "
+"riddles."
+msgstr ""
+
+#: pages/templates/faq.html:104
+msgid ""
+"Feel free to let us know about your situation so that we can adapt the "
+"experience if possible."
+msgstr ""
+
+#: pages/templates/faq.html:112
+msgid "The booking process"
+msgstr ""
+
+#: pages/templates/faq.html:116
+msgid "Is there an age limit to play?"
+msgstr ""
+
+#: pages/templates/faq.html:121
+msgid ""
+"We advise you not to come with children under the age of 10. Completing a "
+"puzzle requires focus."
+msgstr ""
+
+#: pages/templates/faq.html:124
+msgid ""
+"Groups with children under the age of 15 are accepted with at least one "
+"adult in the team."
+msgstr ""
+
+#: pages/templates/faq.html:133
+msgid "How can I pay?"
+msgstr ""
+
+#: pages/templates/faq.html:138
+msgid ""
+"We ask you to pay a deposit online via our secure payment module to finalize "
+"the <a href='/en/reserver' class='text-underline'>booking of your session</"
+"a>."
+msgstr ""
+
+#: pages/templates/faq.html:141
+msgid ""
+"If you do not like to pay on the internet, you can do it in our premises, "
+"but you will have to come in advance to validate the reservation."
+msgstr ""
+
+#: pages/templates/faq.html:144
+msgid ""
+"We ask you to pay a deposit of at least one place (non-refundable). You can "
+"also pay the full amount at the time of booking if it is more convenient for "
+"you."
+msgstr ""
+
+#: pages/templates/faq.html:153
+msgid "Do you have 2-player suited escape rooms?"
+msgstr ""
+
+#: pages/templates/faq.html:158
+msgid ""
+"Yes, Just Escape offers you a scenario specially designed for couples or "
+"duos, both in terms of gameplay and price."
+msgstr ""
+
+#: pages/templates/faq.html:161
+msgid ""
+"<a href='/en/salles?show=d1#digimiam' class='text-underline'>Our room <span "
+"class='font-italic'>The Digimiam</span></a> is adapted for two players. This "
+"room can accomodate up to 4 players."
+msgstr ""
+
+#: pages/templates/faq.html:164
+msgid "Other scenarios tolerate 2 players but do not recommend it."
+msgstr ""
+
+#: pages/templates/faq.html:173
+msgid "Can we change the size of the group?"
+msgstr ""
+
+#: pages/templates/faq.html:178
+msgid ""
+"Yes, if you did not pay the full amount when you booked, you may change your "
+"group until the game begins."
+msgstr ""
+
+#: pages/templates/faq.html:181
+msgid ""
+"If you have already paid for everything, you can replace a player who "
+"canceled at the last minute because the reservation is not nominative."
+msgstr ""
+
+#: pages/templates/faq.html:184
+msgid ""
+"However, if you have purchased 4 tickets and you come to 3, we will not "
+"refund you. We will offer you a gift certificate for one place."
+msgstr ""
+
+#: pages/templates/faq.html:193
+msgid "Do you sell drinks and snacks?"
+msgstr ""
+
+#: pages/templates/faq.html:198
+msgid "Yes, you can drink and snack after the game."
+msgstr ""
+
+#: pages/templates/faq.html:201
+msgid ""
+"If you are a group of friends, our <a href='/en/tarifs' class='text-"
+"underline'>gourmet and aperitif menus</a> may interest you."
+msgstr ""
+
+#: pages/templates/faq.html:204
+msgid ""
+"If you are a company, we have <a href='/en/team-building' class='text-"
+"underline'>turnkey packages</a>."
+msgstr ""
+
+#: pages/templates/faq.html:218
+msgid "The escape game session"
+msgstr ""
+
+#: pages/templates/faq.html:222
+msgid "At what time should we arrive?"
+msgstr ""
+
+#: pages/templates/faq.html:227
+msgid "As a courtesy to other groups, we ask you to be punctual."
+msgstr ""
+
+#: pages/templates/faq.html:230
+msgid ""
+"In case of delay we reserve the right to penalize the duration of your "
+"escape game, or even to cancel it. No claims can be made."
+msgstr ""
+
+#: pages/templates/faq.html:239
+msgid "How long a session really is?"
+msgstr ""
+
+#: pages/templates/faq.html:244
+msgid "A game lasts one hour (less if you have a skilled group)."
+msgstr ""
+
+#: pages/templates/faq.html:247
+msgid "Example of a reservation at 6:30 PM:"
+msgstr ""
+
+#: pages/templates/faq.html:250
+msgid "6:15 PM: arrival"
+msgstr ""
+
+#: pages/templates/faq.html:251
+msgid "6:30 PM: briefing"
+msgstr ""
+
+#: pages/templates/faq.html:252
+msgid "6:45 PM: start of the mission"
+msgstr ""
+
+#: pages/templates/faq.html:253
+msgid "7:45 PM: get out, debrief and have a toast"
+msgstr ""
+
+#: pages/templates/faq.html:262
+msgid "Is it true that we are being filmed?"
+msgstr ""
+
+#: pages/templates/faq.html:267
+msgid ""
+"Cameras and microphones placed in rooms will follow you throughout the game. "
+"A game master will ensure your safety and progress. He can give you clues to "
+"help you."
+msgstr ""
+
+#: pages/templates/faq.html:276
+msgid "Where is located Just Escape?"
+msgstr ""
+
+#: pages/templates/faq.html:281
+msgid "We don't have any premises at the moment!"
+msgstr ""
+
+#: pages/templates/faq.html:290
+msgid "Do I have to prepare to come?"
+msgstr ""
+
+#: pages/templates/faq.html:295
+msgid ""
+"Come as you are. At Just Escape we are here to have fun! You don't need to "
+"prepare yourself or nor to have prior knowledge to play."
+msgstr ""
+
+#: pages/templates/faq.html:303
+msgid "Occasions (Team Building)"
+msgstr ""
+
+#: pages/templates/faq.html:307
+msgid "Can I organize a birthday, stag&nbsp;/ hen&nbsp;/ bachelor party?"
+msgstr ""
+
+#: pages/templates/faq.html:312
+msgid ""
+"We will be happy to welcome you for <a href='/en/tarifs' class='text-"
+"underline'>your bachelor parties and other celebrations with family and "
+"friends</a>."
+msgstr ""
+
+#: pages/templates/faq.html:315
+msgid ""
+"After the game, we will invite you to our reception room to have a good time."
+msgstr ""
+
+#: pages/templates/faq.html:318
+msgid "Chances are you're interested in our gourmet and aperitif formulas."
+msgstr ""
+
+#: pages/templates/faq.html:327
+msgid "Do you have special rates for companies?"
+msgstr ""
+
+#: pages/templates/faq.html:332
+msgid ""
+"Yes, we offer additional services for <a href='/en/team-building' "
+"class='text-underline'>your team building events</a>."
+msgstr ""
+
+#: pages/templates/faq.html:335
+msgid ""
+"Contact us if you wish to make available advantageous rates for your "
+"employees."
+msgstr ""
+
+#: pages/templates/faq.html:344
+msgid "How many players can play?"
+msgstr ""
+
+#: pages/templates/faq.html:349
+msgid ""
+"<a href='/en/salles?show=d1#digimiam' class='text-underline'>Our escape room "
+"<span class='font-italic'>The Digimiam</span></a> can accommodate up to 4 "
+"players. As this room is duplicated, you can play up to 8 simultaneously."
+msgstr ""
+
+#: pages/templates/faq.html:352
+msgid ""
+"If there are more of you (16 or 24), one group will play while the others "
+"relax in our reception area."
+msgstr ""
+
+#: pages/templates/faq.html:355
+msgid ""
+"We invite companies to fill in <a href='/en/team-building#devis' class='text-"
+"underline'>our quote form</a>."
+msgstr ""
+
+#: pages/templates/faq.html:364
+msgid "Do you start sessions with a time offset for large groups?"
+msgstr ""
+
+#: pages/templates/faq.html:369
+msgid "Normally we start our sessions with a 15-minute offset"
+msgstr ""
+
+#: pages/templates/faq.html:372
+msgid ""
+"When we welcome groups who know each other, schedules are of course "
+"synchronized."
+msgstr ""
+
+#: pages/templates/faq.html:381
+msgid "How to use gift cards?"
+msgstr ""
+
+#: pages/templates/faq.html:386
+msgid ""
+"The <a href='/en/carte-cadeau' class='text-underline'>gift card</a> can be "
+"used during the <a href='/en/reserver' class='text-underline'>online "
+"booking</a>."
+msgstr ""
+
+#: pages/templates/faq.html:389
+msgid "A gift voucher is only valid for one year. Hurry up and come and play!"
 msgstr ""
 
 #: pages/templates/footer.html:8
 msgid "Follow us on social networks!"
-msgstr ""
-
-#: pages/templates/footer.html:45
-msgid "FAQ"
 msgstr ""
 
 #: pages/templates/footer.html:46
@@ -73,9 +446,9 @@ msgstr ""
 msgid "Access"
 msgstr ""
 
-#: pages/templates/footer.html:48 pages/templates/news.html:10
+#: pages/templates/footer.html:48 pages/templates/news.html:5
 msgid "News"
-msgstr "News"
+msgstr ""
 
 #: pages/templates/footer.html:49
 msgid "Partenaires"
@@ -89,44 +462,50 @@ msgstr ""
 msgid "Conditions"
 msgstr ""
 
-#: pages/templates/gift-voucher.html:10
+#: pages/templates/gift-voucher.html:5
 msgid "Offrir une carte cadeau"
 msgstr ""
 
-#: pages/templates/home.html:18 pages/templates/room.html:10
-msgid "Nos salles"
-msgstr "Our rooms"
-
-#: pages/templates/nav.html:56
+#: pages/templates/header.html:27
 msgid "Rooms"
-msgstr "Rooms"
-
-#: pages/templates/nav.html:59
-msgid "Booking"
-msgstr "Booking"
-
-#: pages/templates/nav.html:71
-msgid "Pricing"
-msgstr "Pricing"
-
-#: pages/templates/nav.html:74
-msgid "Corporate"
-msgstr "Corporate"
-
-#: pages/templates/news1.html:16
-msgid "Some hype"
 msgstr ""
 
-#: pages/templates/partners.html:7
+#: pages/templates/header.html:30
+msgid "Booking"
+msgstr ""
+
+#: pages/templates/header.html:35
+msgid "Pricing"
+msgstr ""
+
+#: pages/templates/header.html:38
+msgid "Team Building"
+msgstr ""
+
+#: pages/templates/home.html:11
+msgid "Un des escape games les plus immersifs à&nbsp;Lille"
+msgstr ""
+
+#: pages/templates/home.html:20
+msgid "Nos Escape Rooms"
+msgstr ""
+
+#: pages/templates/partners.html:5
 msgid "Our partnerships"
 msgstr ""
 
-#: pages/templates/terms.html:12
-msgid "General terms of use"
+#: pages/templates/pricing.html:7
+msgid "Quels sont nos Prix ?"
 msgstr ""
 
-#~ msgid "Follow us!"
-#~ msgstr "Follow us!"
+#: pages/templates/room.html:8
+msgid "Découvrez nos scénarios"
+msgstr ""
 
-#~ msgid "Subscribe to the newsletter"
-#~ msgstr "Subscribe to the newsletter"
+#: pages/templates/teambuilding.html:16
+msgid "Nos solutions de team building"
+msgstr ""
+
+#: pages/templates/terms.html:20
+msgid "General terms of use"
+msgstr ""
