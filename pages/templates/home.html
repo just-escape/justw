@@ -2,11 +2,11 @@
 
 {% load i18n %}
 
-{% block title %}Just Escape ⭐ Escape Game Lille ⭐ 2 joueurs et plus{% endblock %}
-{% block description %}Nouvel escape game 2.0 ⚡ Idéal pour une sortie entre amis 😃 Des décors sensationnels 👌 Scénario Digimiam le restaurant du futur 🤖{% endblock %}
+{% block title %}{% trans "Just Escape ⭐ Escape Game Lille ⭐ 2 joueurs et plus" %}{% endblock %}
+{% block description %}{% trans "Nouvel escape game 2.0 ⚡ Idéal pour une sortie entre amis 😃 Des décors sensationnels 👌 Scénario Digimiam le restaurant du futur 🤖" %}{% endblock %}
 
-{% block og_title %}Just Escape ⭐ Escape Game Lille ⭐ 2 joueurs et plus{% endblock %}
-{% block og_description %}Nouvel escape game 2.0 ⚡ Idéal pour une sortie entre amis 😃 Des décors sensationnels 👌 Scénario Digimiam le restaurant du futur 🤖{% endblock %}
+{% block og_title %}{% trans "Just Escape ⭐ Escape Game Lille ⭐ 2 joueurs et plus" %}{% endblock %}
+{% block og_description %}{% trans "Nouvel escape game 2.0 ⚡ Idéal pour une sortie entre amis 😃 Des décors sensationnels 👌 Scénario Digimiam le restaurant du futur 🤖" %}{% endblock %}
 
 {% block h1 %}{% trans "Un des escape games les plus immersifs à&nbsp;Lille" %}{% endblock %}
 
@@ -27,7 +27,7 @@
               <div class="d-flex flex-column flex-sm-row">
                 <div class="d-flex justify-content-center mb-3 mr-sm-2">
                   <div class="width-170px position-relative my-auto my-lg-0">
-                    <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>Nouveau</span></div>
+                    <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "Nouveau" %}</span></div>
                     <a href="/{{ lang }}salles?show=d1#digimiam">
                       {% include "svg/digimiam.svg" %}
                     </a>
@@ -36,18 +36,18 @@
 
                 <div>
                   <span id="digimiam" class="anchor">&nbsp;</span>
-                  <h3 class="size-25 text-light-shadow mb-0"><a href="/{{ lang }}salles?show=d1#digimiam">Le Digimiam</a></h3>
-                  <p class="text-justify">Vous êtes à Lille en 2080 dans un <span class="font-weight-bold">restaurant futuriste</span>. Les neurones de l'<span class="font-weight-bold">IA de cuisine</span> du Digimiam ont court-circuité&nbsp;! À vous de vous infiltrer à travers un labyrinthe laser et de reprendre le contrôle des <span class="font-weight-bold">bras robotiques</span>&nbsp;! Parviendrez-vous à résoudre toutes nos <span class="font-weight-bold">énigmes originales</span> dans des <span class="font-weight-bold">décors immersifs</span>&nbsp;?</p>
-                  <p class="text-justify size-09">Le scénario est jouable à partir de <span class="font-weight-bold">2 personnes</span> et <span class="font-weight-bold">jusqu'à 8</span> sur deux salles.</p>
+                  <h3 class="size-25 text-light-shadow mb-0"><a href="/{{ lang }}salles?show=d1#digimiam">{% trans "Le Digimiam" %}</a></h3>
+                  <p class="text-justify">{% trans "Vous êtes à Lille en 2080 dans un <span class='font-weight-bold'>restaurant futuriste</span>. Les neurones de l&#39;<span class='font-weight-bold'>IA de cuisine</span> du Digimiam ont court-circuité&nbsp;! À vous de vous infiltrer à travers un labyrinthe laser et de reprendre le contrôle des <span class='font-weight-bold'>bras robotiques</span>&nbsp;! Parviendrez-vous à résoudre toutes nos <span class='font-weight-bold'>énigmes originales</span> dans des <span class='font-weight-bold'>décors immersifs</span>&nbsp;?" %}</p>
+                  <p class="text-justify size-09">{% trans "Le scénario est jouable à partir de <span class='font-weight-bold'>2 personnes</span> et <span class='font-weight-bold'>jusqu&#39;à 8</span> sur deux salles." %}</p>
                   <div class="row d-flex flex-row justify-content-end">
                     <div class="col-6 pr-1">
                       <a href="/{{ lang }}salles?show=d1#digimiam" class="btn btn-secondary btn-block">
-                        <span>La salle</span>
+                        <span>{% trans "La salle" %}</span>
                       </a>
                     </div>
                     <div class="col-6 pl-1">
                       <a href="/{{ lang }}reserver" class="btn btn-primary btn-block">
-                        <span>Réserver</span>
+                        <span>{% trans "Réserver" %}</span>
                       </a>
                     </div>
                   </div>
@@ -64,21 +64,21 @@
                       <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
                     </div>
                     <span class="mr-2 mr-sm-3"></span>
-                    <span class="size-09 lh-24px">2 à 4 joueurs</span>
+                    <span class="size-09 lh-24px">{% trans "2 à 4 joueurs" %}</span>
                   </div>
                 </div>
                 <div class="mb-2 mr-sm-4">
                   <div class="d-flex flex-row-reverse flex-sm-row">
                     <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/chrono.svg" %}</span>
                     <span class="mr-2 mr-sm-3 mr-lg-2"></span>
-                    <span class="size-09 lh-24px">60 minutes</span>
+                    <span class="size-09 lh-24px">{% trans "60 minutes" %}</span>
                   </div>
                 </div>
                 <div class="mb-2">
                   <div class="d-flex flex-row-reverse flex-sm-row">
                     <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/lang.svg" %}</span>
                     <span class="mr-2 mr-sm-3 mr-lg-2"></span>
-                    <span class="size-09 lh-24px">FR / EN</span>
+                    <span class="size-09 lh-24px">{% trans "FR / EN" %}</span>
                   </div>
                 </div>
               </div>
@@ -92,16 +92,16 @@
               <div class="d-flex flex-column flex-sm-row">
                 <div class="d-flex justify-content-center mb-3 mr-sm-2">
                   <div class="width-170px position-relative my-auto my-lg-0">
-                    <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>À venir</span></div>
+                    <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "À venir" %}</span></div>
                     {% include "svg/puppet.svg" %}
                   </div>
                 </div>
 
                 <div>
                   <span id="room2" class="anchor">&nbsp;</span>
-                  <h3 class="size-25 text-light-shadow opacity-05 mb-0">Salle horreur <span class="d-inline-block svg-36px fill-light align-baseline">{% include "svg/minus-12.svg" %}</span></h3>
-                  <p class="text-justify opacity-05">Nous allons ouvrir un nouvel <strong>escape game d'horreur sur Lille</strong>. Plongés au milieu d'une forêt, vous découvrez le <strong>mystérieux manoir</strong> d'une marionnettiste. Échapperez-vous au spectable macabre des marionnettes&nbsp;? Êtes-vous prêts à mettre votre vie et celle de votre équipe en jeu&nbsp;? L'<strong>adrénaline</strong> monte... Scénario à jouer le soir&nbsp;!</p>
-                  <p class="text-justify size-09 opacity-05">La création des énigmes est encore en cours.</p>
+                  <h3 class="size-25 text-light-shadow opacity-05 mb-0">{% trans "Salle horreur" %} <span class="d-inline-block svg-36px fill-light align-baseline">{% include "svg/minus-12.svg" %}</span></h3>
+                  <p class="text-justify opacity-05">{% trans "Nous allons ouvrir un nouvel <strong>escape game d&#39;horreur sur Lille</strong>. Plongés au milieu d&#39;une forêt, vous découvrez le <strong>mystérieux manoir</strong> d&#39;une marionnettiste. Échapperez-vous au spectable macabre des marionnettes&nbsp;? Êtes-vous prêts à mettre votre vie et celle de votre équipe en jeu&nbsp;? L&#39;<strong>adrénaline</strong> monte... Scénario à jouer le soir&nbsp;!" %}</p>
+                  <p class="text-justify size-09 opacity-05">{% trans "La création des énigmes est encore en cours." %}</p>
                 </div>
               </div>
             </div>
@@ -112,21 +112,21 @@
                   <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
                     <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
                     <span class="mr-2"></span>
-                    <span class="size-09 lh-24px">4 à 6 joueurs</span>
+                    <span class="size-09 lh-24px">{% trans "4 à 6 joueurs" %}</span>
                   </div>
                 </div>
                 <div class="mb-2 mr-sm-4">
                   <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
                     <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/chrono.svg" %}</span>
                     <span class="mr-2"></span>
-                    <span class="size-09 lh-24px">60 minutes</span>
+                    <span class="size-09 lh-24px">{% trans "60 minutes" %}</span>
                   </div>
                 </div>
                 <div class="mb-2">
                   <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
                     <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/lang.svg" %}</span>
                     <span class="mr-2"></span>
-                    <span class="size-09 lh-24px">FR / EN</span>
+                    <span class="size-09 lh-24px">{% trans "FR / EN" %}</span>
                   </div>
                 </div>
               </div>
@@ -143,21 +143,21 @@
       <div class="row mb-4">
         <div class="col-12 text-center">
           <span id="quid" class="anchor">&nbsp;</span>
-          <h2>Le concept des Escapes Games</h2>
+          <h2>{% trans "Le concept des Escapes Games" %}</h2>
         </div>
       </div>
       <div class="row">
         <article class="col-12 col-lg-4 mb-4">
-          <h3 class="text-center">Jeu d'évasion</h3>
-          <p class="text-justify">Le principe des jeux d'évasions grandeur nature est d'enfermer un groupe de joueurs dans une salle à thème. Le challenge est de s'échapper en résolvant toutes les énigmes en moins d'une&nbsp;heure<span class="emoji">&nbsp;⏳</span>. Fun et immersif, le live escape game est un loisir qui combine le travail d'équipe, la communication et la logique. L'escape game est une sortie à faire en famille, entre amis ou en couple<span class="emoji">&nbsp;😃</span>.</p>
+          <h3 class="text-center">{% trans "Jeu d&#39;évasion" %}</h3>
+          <p class="text-justify">{% trans "Le principe des jeux d&#39;évasions grandeur nature est d&#39;enfermer un groupe de joueurs dans une salle à thème. Le challenge est de s&#39;échapper en résolvant toutes les énigmes en moins d&#39;une&nbsp;heure<span class='emoji'>&nbsp;⏳</span>. Fun et immersif, le live escape game est un loisir qui combine le travail d&#39;équipe, la communication et la logique. L&#39;escape game est une sortie à faire en famille, entre amis ou en couple<span class='emoji'>&nbsp;😃</span>." %}</p>
         </article>
         <article class="col-12 col-lg-4 mb-4">
-          <h3 class="text-center">L'originalité de Just Escape</h3>
-          <p class="text-justify">Just Escape est un jeu d'évasion 2.0 dans lequel on vous propose des énigmes originales sans cadenas<span class="emoji">&nbsp;🎯</span>. Nous mettons également l'accent sur la qualité de l'immersion en réalisant des décors dignes de cinéma<span class="emoji">&nbsp;🗿</span>. Nos énigmes 100% connectées influent sur l'ambiance de nos salles pour vous offrir une expérience la plus réaliste possible. Notre première salle peut être jouée à deux personnes à prix abordable.</p>
+          <h3 class="text-center">{% trans "L&#39;originalité de Just Escape" %}</h3>
+          <p class="text-justify">{% trans "Just Escape est un jeu d&#39;évasion 2.0 dans lequel on vous propose des énigmes originales sans cadenas<span class='emoji'>&nbsp;🎯</span>. Nous mettons également l&#39;accent sur la qualité de l&#39;immersion en réalisant des décors dignes de cinéma<span class='emoji'>&nbsp;🗿</span>. Nos énigmes 100% connectées influent sur l&#39;ambiance de nos salles pour vous offrir une expérience la plus réaliste possible. Notre première salle peut être jouée à deux personnes à prix abordable." %}</p>
         </article>
         <article class="col-12 col-lg-4 mb-4">
-          <h3 class="text-center">Teambuilding, EVG, EVJF</h3>
-          <p class="text-justify">Nous avons des prix attractifs pour des événements comme un anniversaire, un EVG ou un EVJF<span class="emoji">&nbsp;🎁</span>. Just Escape offre également des solutions clé en main pour team building et séminaire (espace détente, apéritif dinatoire, etc). C'est une excellente occasion de renforcer la cohésion d'équipe<span class="emoji">&nbsp;😄</span>. Cette activité convient aux débutants comme aux passionnés grâce à nos indices adaptatifs.</p>
+          <h3 class="text-center">{% trans "Teambuilding, EVG, EVJF" %}</h3>
+          <p class="text-justify">{% trans "Nous avons des prix attractifs pour des événements comme un anniversaire, un EVG ou un EVJF<span class='emoji'>&nbsp;🎁</span>. Just Escape offre également des solutions clé en main pour team building et séminaire (espace détente, apéritif dinatoire, etc). C&#39;est une excellente occasion de renforcer la cohésion d&#39;équipe<span class='emoji'>&nbsp;😄</span>. Cette activité convient aux débutants comme aux passionnés grâce à nos indices adaptatifs." %}</p>
         </article>
       </div>
     </div>
@@ -168,7 +168,7 @@
       <div class="row mb-4">
         <div class="col-12 text-center">
           <span id="promotions" class="anchor">&nbsp;</span>
-          <h2>Quel est le prix d'un scénario&nbsp;?</h2>
+          <h2>{% trans "Quel est le prix d&#39;un scénario&nbsp;?" %}</h2>
         </div>
       </div>
 
@@ -176,9 +176,9 @@
         <div class="col-12 col-sm-7 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-body text-center mt-4 mb-5">
-              <h3 class="size-5 card-title text-jaffa">25€</h3>
+              <h3 class="size-5 card-title text-jaffa">{% trans "25€" %}</h3>
               <p class="card-text font-italic">
-                Par personne
+                {% trans "Par personne" %}
               </p>
             </div>
           </div>
@@ -186,10 +186,10 @@
         <div class="col-12 col-sm-7 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-body text-center mt-4 mb-5">
-              <h3 class="size-5 card-title text-jaffa">-20%</h3>
+              <h3 class="size-5 card-title text-jaffa">{% trans "-20%" %}</h3>
               <p class="card-text font-italic">
-                Heures creuses
-                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="Du lundi au vendredi jusqu'à 16h (inclu)"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
+                {% trans "Heures creuses" %}
+                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "Du lundi au vendredi jusqu&#39;à 16h (inclu)" %}"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
               </p>
             </div>
           </div>
@@ -197,23 +197,23 @@
         <div class="col-12 col-sm-7 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-body text-center mt-4 mb-5">
-              <h3 class="size-5 card-title text-jaffa">-30%</h3>
+              <h3 class="size-5 card-title text-jaffa">{% trans "-30%" %}</h3>
               <p class="card-text font-italic">
-                Pour les <span class="font-weight-bold text-mulberry">étudiants</span>
-                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="Les paiements en ligne se font au plein tarif. Remboursement de la différence sur place sur présentation de la carte."><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
+                {% trans "Pour les <span class='font-weight-bold text-mulberry'>étudiants</span>" %}
+                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "Les paiements en ligne se font au plein tarif. Remboursement de la différence sur place sur présentation de la carte." %}"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
               </p>
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-7 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
-            <div class="ribbon ribbon-top-left ribbon-jaffa"><span>Rupture de stock</span></div>
+            <div class="ribbon ribbon-top-left ribbon-jaffa"><span>{% trans "Rupture de stock" %}</span></div>
             <div class="card-body text-center">
-              <h3 class="size-35 card-title text-jaffa">Offre spéciale</h3>
-              <p class="card-text font-italic small">La dernière offre spéciale est en rupture de stock</p>
-              <p class="card-text font-italic small">Nous vous invitons à patienter</p>
+              <h3 class="size-35 card-title text-jaffa">{% trans "Offre spéciale" %}</h3>
+              <p class="card-text font-italic small">{% trans "La dernière offre spéciale est en rupture de stock" %}</p>
+              <p class="card-text font-italic small">{% trans "Nous vous invitons à patienter" %}</p>
               <a class="btn btn-secondary float-right border-0" href="#newsletter">
-                <span>Être averti</span>
+                <span>{% trans "Être averti" %}</span>
               </a>
             </div>
           </div>
@@ -223,9 +223,9 @@
       <div class="row justify-content-center">
         <div class="d-flex flex-column text-center">
           <a href="/{{ lang }}reserver" class="btn btn-primary mb-2 px-5">
-            <span>Réserver</span>
+            <span>{% trans "Réserver" %}</span>
           </a>
-          <a href="/{{ lang }}team-building#devis" class="size-09 text-underline text-hover-mulberry">Devis entreprise</a>
+          <a href="/{{ lang }}team-building#devis" class="size-09 text-underline text-hover-mulberry">{% trans "Devis entreprise" %}</a>
         </div>
       </div>
     </div>
@@ -236,7 +236,7 @@
       <div class="row mb-4">
         <div class="col-12 text-center">
           <span id="references" class="anchor">&nbsp;</span>
-          <h2><span class="svg-24px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>Le meilleur escape game de&nbsp;Lille —&nbsp;La&nbsp;maman&nbsp;du&nbsp;designer</h2>
+          <h2><span class="svg-24px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>{% trans "Le meilleur escape game de&nbsp;Lille —&nbsp;La&nbsp;maman&nbsp;du&nbsp;designer" %}</h2>
         </div>
       </div>
 
@@ -245,14 +245,14 @@
           <div class="card">
             <div class="card-body">
               <div class="media flex-column flex-sm-row">
-                <img alt="lalala" class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
+                <img alt="{% trans "lalala" %}" class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
                 <div class="media-body">
-                  <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>Un scénario riche en émotions que je recommande vivement&nbsp;! Si vous réservez chez eux, parlez m'en avant pour que je touche une prime de coopta[...]</p>
+                  <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>{% trans "Un scénario riche en émotions que je recommande vivement&nbsp;! Si vous réservez chez eux, parlez m&#39;en avant pour que je touche une prime de coopta[...]" %}</p>
                 </div>
               </div>
             </div>
             <div class="card-footer text-right">
-              — Michel, actionnaire chez Just Escape
+              {% trans "— Michel, actionnaire chez Just Escape" %}
             </div>
           </div>
         </div>
@@ -262,14 +262,14 @@
           <div class="card">
             <div class="card-body">
               <div class="media flex-column flex-sm-row">
-                <img alt="lalala" class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
+                <img alt="{% trans "lalala" %}" class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
                 <div class="media-body">
-                  <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>Un scénario riche en émotions que je recommande vivement&nbsp;! Si vous réservez chez eux, parlez m'en avant pour que je touche une prime de coopta[...]</p>
+                  <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>{% trans "Un scénario riche en émotions que je recommande vivement&nbsp;! Si vous réservez chez eux, parlez m&#39;en avant pour que je touche une prime de coopta[...]" %}</p>
                 </div>
               </div>
             </div>
             <div class="card-footer text-right">
-              — Le Marmitron, Intelligence du Digimiam depuis 2053
+              {% trans "— Le Marmitron, Intelligence du Digimiam depuis 2053" %}
             </div>
           </div>
         </div>
@@ -279,14 +279,14 @@
           <div class="card">
             <div class="card-body">
               <div class="media flex-column flex-sm-row">
-                <img alt="lalaal" class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
+                <img alt="{% trans "lalala" %}" class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" style="height: 75px" src="/static/img/michel.png">
                 <div class="media-body">
-                  <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>Un scénario riche en émotions que je recommande vivement&nbsp;! Si vous réservez chez eux, parlez m'en avant pour que je touche une prime de coopta[...]</p>
+                  <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>{% trans "Un scénario riche en émotions que je recommande vivement&nbsp;! Si vous réservez chez eux, parlez m&#39;en avant pour que je touche une prime de coopta[...]" %}</p>
                 </div>
               </div>
             </div>
             <div class="card-footer text-right">
-              — Shirley, une descendante de la famille Holmes
+              {% trans "— Shirley, une descendante supposée de Sherlock Holmes" %}
             </div>
           </div>
         </div>
@@ -298,7 +298,7 @@
     <div class="container">
       <div class="row mb-4">
         <div class="col-12 text-center">
-          <h2>Comment rejoindre notre local à Lille&nbsp;?</h2>
+          <h2>{% trans "Comment rejoindre notre local à Lille&nbsp;?" %}</h2>
         </div>
       </div>
 
@@ -312,10 +312,10 @@
                   {% include "svg/clock.svg" %}
                 </span>
                 <div>
-                  <h3 class="text-jaffa mb-1">Horaires d'ouverture</h3>
+                  <h3 class="text-jaffa mb-1">{% trans "Horaires d&#39;ouverture" %}</h3>
                   <p class="lh-12 mb-0">
-                    <span class="text-jaffa">Lundi-vendredi :</span> 14h-23h<br>
-                    <span class="text-jaffa">Samedi-dimanche :</span> 10h-23h<br>
+                    {% trans "<span class='text-jaffa'>Lundi-vendredi : </span> 14h-23h<br>" %}
+                    {% trans "<span class='text-jaffa'>Samedi-dimanche :</span> 10h-23h" %}
                   </p>
                 </div>
               </div>
@@ -331,10 +331,10 @@
                   {% include "svg/address.svg" %}
                 </span>
                 <div>
-                  <h3 class="text-jaffa size-15 mb-1">Contact</h3>
+                  <h3 class="text-jaffa size-15 mb-1">{% trans "Contact" %}</h3>
                   <p class="lh-12 mb-0">
-                    <span class="text-jaffa">Tel :</span> +33 1 23 45 67 89<br>
-                    <span class="text-jaffa">Mail :</span> contact@justescape.fr
+                    {% trans "<span class='text-jaffa'>Tel :</span> +33 1 23 45 67 89<br>" %}
+                    {% trans "<span class='text-jaffa'>Mail :</span> contact@justescape.fr" %}
                   </p>
                 </div>
               </div>
@@ -350,10 +350,9 @@
                   {% include "svg/map-marker.svg" %}
                 </div>
                 <div>
-                  <h3 class="text-jaffa size-15 mb-1">Nous trouver</h3>
+                  <h3 class="text-jaffa size-15 mb-1">{% trans "Nous trouver" %}</h3>
                   <p class="lh-12 mb-0">
-                    17 rue négrier<br>
-                    59 800 Lille
+                    {% trans "17 rue négrier<br>59 800 Lille" %}
                   </p>
                 </div>
               </div>
@@ -379,19 +378,19 @@
             {% csrf_token %}
 
             {% if unexpected_error %}
-              <p class="text-red">An unexpected error happened. Please contact us directly.</p>
+              <p class="text-red">{% trans "An unexpected error happened. Please contact us directly." %}</p>
             {% elif form.errors %}
               {{ form.non_field_errors }}
               {{ form.email.errors }}
             {% endif %}
 
             {% if subscription_success %}
-            <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="Merci et à bientôt !">
+            <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="{% trans "Merci et à bientôt !" %}">
             {% endif %}
               <div class="input-group">
-                <input type="text" spellcheck="false" class="form-control" placeholder="marmitron@justescape.fr" name="{{ form.email.name }}" required>
+                <input type="text" spellcheck="false" class="form-control" placeholder="{% trans "marmitron@justescape.fr" %}" name="{{ form.email.name }}" required>
                 <div class="input-group-append">
-                  <button class="btn btn-secondary" type="submit"><span>Je m'abonne</span></button>
+                  <button class="btn btn-secondary" type="submit"><span>{% trans "Je m&#39;abonne" %}</span></button>
                 </div>
               </div>
             {% if subscription_success %}

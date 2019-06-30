@@ -2,8 +2,8 @@
 
 {% load i18n %}
 
-{% block og_title %}Foire Aux Questions - Escape Game Lille - Just Escape{% endblock %}
-{% block og_description %}Les escapes games sont un jeu d'énigmes beaucoup trop fun à jouer vous devriez venir avec toute votre famille et le chat.{% endblock %}
+{% block og_title %}{% trans "Foire Aux Questions - Escape Game Lille - Just Escape" %}{% endblock %}
+{% block og_description %}{% trans "Les escapes games sont un jeu d&#39;énigmes beaucoup trop fun à jouer vous devriez venir avec toute votre famille et le chat." %}{% endblock %}
 
 {% block h1 %}{% trans "How to contact us" %}{% endblock %}
 
@@ -21,10 +21,10 @@
                   {% include "svg/clock.svg" %}
                 </span>
                 <div>
-                  <h2 class="text-jaffa size-15 mb-1">Horaires d'ouverture</h2>
+                  <h2 class="text-jaffa size-15 mb-1">{% trans "Horaires d&#39;ouverture" %}</h2>
                   <p class="lh-12 mb-0">
-                    <span class="text-jaffa">Lundi-vendredi :</span> 14h-23h<br>
-                    <span class="text-jaffa">Samedi-dimanche :</span> 10h-23h<br>
+                    {% trans "<span class='text-jaffa'>Lundi-vendredi :</span> 14h-23h<br>" %}
+                    {% trans "<span class='text-jaffa'>Samedi-dimanche :</span> 10h-23h" %}
                   </p>
                 </div>
               </div>
@@ -40,10 +40,10 @@
                   {% include "svg/address.svg" %}
                 </span>
                 <div>
-                  <h2 class="text-jaffa size-15 mb-1">Contact</h2>
+                  <h2 class="text-jaffa size-15 mb-1">{% trans "Contact" %}</h2>
                   <p class="lh-12 mb-0">
-                    <span class="text-jaffa">Tel :</span> +33 1 23 45 67 89<br>
-                    <span class="text-jaffa">Mail :</span> contact@justescape.fr
+                    {% trans "<span class='text-jaffa'>Tel :</span> +33 1 23 45 67 89<br>" %}
+                    {% trans "<span class='text-jaffa'>Mail :</span> contact@justescape.fr" %}
                   </p>
                 </div>
               </div>
@@ -59,10 +59,9 @@
                   {% include "svg/map-marker.svg" %}
                 </div>
                 <div>
-                  <h2 class="text-jaffa size-15 mb-1">Nous trouver</h2>
+                  <h2 class="text-jaffa size-15 mb-1">{% trans "Nous trouver" %}</h2>
                   <p class="lh-12 mb-0">
-                    17 rue Négrier<br>
-                    59 800 Lille
+                    {% trans "17 rue Négrier<br>59 800 Lille" %} 
                   </p>
                 </div>
               </div>
@@ -79,10 +78,10 @@
       </div>
 
       <div class="softdark no-background rounded border-0 p-3 mb-5">
-        <p class="mb-2">N'hésitez pas à passer sur <a class="text-jaffa font-weight-bold" href="/{{ lang }}faq">notre FAQ</a>.</p>
-        <p class="mb-2">Vous organisez un <span class="font-weight-bold">séminaire</span> ? Retrouvez les informations sur notre <a class="text-jaffa font-weight-bold" href="/{{ lang }}team-building">page dédiée aux entreprises</a>.</p>
-        <p class="mb-2">Vous préparez un <span class="font-weight-bold">anniversaire</span>, <span class="font-weight-bold">EVJF</span> ou <span class="font-weight-bold">EVG</span> ? Vous devriez regarder nos <a class="text-jaffa font-weight-bold" href="/{{ lang }}tarifs">tarifs avantageux</a>.</p>
-        <p class="mb-0">Vous pouvez acheter une <span class="font-weight-bold">carte cadeau</span> depuis <a class="text-mulberry font-weight-bold" href="/{{ lang }}reserver">module de réservation</a>.</p>
+        <p class="mb-2">{% trans "N&#39;hésitez pas à passer sur <a class='text-jaffa font-weight-bold' href='/{{ lang }}faq'>notre FAQ</a>." %}</p>
+        <p class="mb-2">{% trans "Vous organisez un <span class='font-weight-bold'>séminaire</span> ? Retrouvez les informations sur notre <a class='text-jaffa font-weight-bold' href='/{{ lang }}team-building'>page dédiée aux entreprises</a>." %}</p>
+        <p class="mb-2">{% trans "Vous préparez un <span class='font-weight-bold'>anniversaire</span>, <span class='font-weight-bold'>EVJF</span> ou <span class='font-weight-bold'>EVG</span> ? Vous devriez regarder nos <a class='text-jaffa font-weight-bold' href='/{{ lang }}tarifs'>tarifs avantageux</a>." %}</p>
+        <p class="mb-0">{% trans "Vous pouvez acheter une <span class='font-weight-bold'>carte cadeau</span> depuis <a class='text-mulberry font-weight-bold' href='/{{ lang }}reserver'>module de réservation</a>." %}</p>
       </div>
 
       <div class="row">
@@ -93,19 +92,19 @@
             {% csrf_token %}
 
             {% if unexpected_error %}
-              <p class="text-red">An unexpected error happened. Please contact us directly.</p>
+              <p class="text-red">{% trans "An unexpected error happened. Please contact us directly." %}</p>
             {% elif form.errors %}
               {{ form.non_field_errors }}
               {{ form.email.errors }}
             {% endif %}
 
             {% if subscription_success %}
-            <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="Merci et à bientôt !">
+            <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="{% trans "Merci et à bientôt !" %}">
             {% endif %}
               <div class="input-group">
-                <input type="text" spellcheck="false" class="form-control" placeholder="marmitron@justescape.fr" name="{{ form.email.name }}" required>
+                <input type="text" spellcheck="false" class="form-control" placeholder="{% trans "marmitron@justescape.fr" %}" name="{{ form.email.name }}" required>
                 <div class="input-group-append">
-                  <button class="btn btn-secondary" type="submit"><span>Je m'abonne</span></button>
+                  <button class="btn btn-secondary" type="submit"><span>{% trans "Je m&#39;abonne" %}</span></button>
                 </div>
               </div>
             {% if subscription_success %}
@@ -151,13 +150,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Just Escape",
-                "item": "https://just-escape.fr/"
+                "item": "https://just-escape.fr/{{ lang }}"
             },
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Contact",
-                "item": "https://just-escape.fr/contact"
+                "name": "{% trans "Contact" %}",
+                "item": "https://just-escape.fr/{{ lang }}contact"
             }
         ]
     }

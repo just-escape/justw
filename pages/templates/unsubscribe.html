@@ -8,26 +8,26 @@
 
   <div class="jumbotron px-0">
     <div class="container">
-      <h1 class="text-jaffa mb-2">Se désabonner de la newsletter</h1>
+      <h1 class="text-jaffa mb-2">{% trans "Se désabonner de la newsletter" %}</h1>
       <div class="row">
         <div class="col-12 col-md-7 col-lg-6">
           <form action="/{{ lang }}desabonnement" method="post">
             {% csrf_token %}
 
             {% if unexpected_error %}
-              <p class="text-red">An unexpected error happened. Please contact us directly.</p>
+              <p class="text-red">{% trans "An unexpected error happened. Please contact us directly." %}</p>
             {% elif form.errors %}
               {{ form.non_field_errors }}
               {{ form.email.errors }}
             {% endif %}
 
             {% if subscription_success %}
-            <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="Au revoir et à bientôt !">
+            <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="{% trans "Au revoir et à bientôt !" %}">
             {% endif %}
               <div class="input-group">
-                <input type="text" spellcheck="false" class="form-control" placeholder="marmitron@justescape.fr" name="{{ form.email.name }}" required>
+                <input type="text" spellcheck="false" class="form-control" placeholder="{% trans "marmitron@justescape.fr" %}" name="{{ form.email.name }}" required>
                 <div class="input-group-append">
-                  <button class="btn btn-secondary" type="submit"><span>Je me désabonne</span></button>
+                  <button class="btn btn-secondary" type="submit"><span>{% trans "Je me désabonne" %}</span></button>
                 </div>
               </div>
             {% if subscription_success %}

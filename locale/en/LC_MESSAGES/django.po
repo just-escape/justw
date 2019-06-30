@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-30 14:38+0200\n"
+"POT-Creation-Date: 2019-06-30 17:49+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -27,28 +27,312 @@ msgstr "French"
 msgid "Erreur 404 - Vous ne naviguez pas sur la bonne page"
 msgstr ""
 
+#: pages/templates/404.html:20
+msgid "Voici un indice pour sortir d&#39;ici"
+msgstr ""
+
+#: pages/templates/access.html:5
+msgid "Comment Venir ? ⭐ Escape Game Lille ⭐ Just Escape"
+msgstr ""
+
 #: pages/templates/access.html:8
 msgid "Comment rejoindre notre local à&nbsp;Lille&nbsp;?"
 msgstr ""
 
+#: pages/templates/access.html:26 pages/templates/contact.html:24
+#: pages/templates/home.html:315
+msgid "Horaires d&#39;ouverture"
+msgstr ""
+
+#: pages/templates/access.html:28 pages/templates/contact.html:26
+msgid "<span class='text-jaffa'>Lundi-vendredi :</span> 14h-23h<br>"
+msgstr ""
+
+#: pages/templates/access.html:29 pages/templates/contact.html:27
+#: pages/templates/home.html:318
+msgid "<span class='text-jaffa'>Samedi-dimanche :</span> 10h-23h"
+msgstr ""
+
+#: pages/templates/access.html:45 pages/templates/contact.html:62
+#: pages/templates/home.html:353
+msgid "Nous trouver"
+msgstr ""
+
+#: pages/templates/access.html:47 pages/templates/contact.html:64
+msgid "17 rue Négrier<br>59 800 Lille"
+msgstr ""
+
+#: pages/templates/access.html:68
+msgid "Venir à pied"
+msgstr ""
+
+#: pages/templates/access.html:74
+msgid "Venir en transports"
+msgstr ""
+
+#: pages/templates/access.html:83
+msgid "Venir en voiture"
+msgstr ""
+
+#: pages/templates/access.html:89
+msgid "Venir à vélo"
+msgstr ""
+
+#: pages/templates/access.html:100 pages/templates/contact.html:81
+msgid ""
+"N&#39;hésitez pas à passer sur <a class='text-jaffa font-weight-bold' href='/"
+"{{ lang }}faq'>notre FAQ</a>."
+msgstr ""
+
+#: pages/templates/access.html:101
+msgid ""
+"Retrouvez toutes les informations pour nous joindre directement sur notre <a "
+"class='text-jaffa font-weight-bold' href='/{{ lang }}contact'>page de "
+"contact</a>."
+msgstr ""
+
+#: pages/templates/access.html:102
+msgid ""
+"Il ne reste plus qu&#39;à <a class='text-mulberry font-weight-bold' href='/"
+"{{ lang }}reserver'>réserver</a> si ce n&#39;est pas déjà fait !"
+msgstr ""
+
+#: pages/templates/access.html:139
+msgid "Accès"
+msgstr ""
+
+#: pages/templates/base.html:55
+msgid "Escape Game à Lille ⭐⭐⭐⭐⭐ scénario jouable en duo"
+msgstr ""
+
+#: pages/templates/base.html:59
+msgid "Just Escape Lille Logo"
+msgstr ""
+
+#: pages/templates/base.html:64 pages/templates/partners.html:18
+#: pages/templates/partners.html:26 pages/templates/partners.html:34
+#: pages/templates/partners.html:42 pages/templates/partners.html:59
+#: pages/templates/partners.html:67 pages/templates/partners.html:75
+#: pages/templates/partners.html:83
+msgid "Just Escape"
+msgstr ""
+
 #: pages/templates/base.html:90
-msgid "One of the best live escape games in Lille"
+msgid "One of the most immersive live escape games in&nbsp;Lille"
+msgstr ""
+
+#: pages/templates/booking.html:5
+msgid "Réservez Maintenant ⭐ Escape Game Lille ⭐ Just Escape"
 msgstr ""
 
 #: pages/templates/booking.html:8
 msgid "Réserver une salle"
 msgstr ""
 
+#: pages/templates/booking.html:15
+msgid "Bénéficiez de nos réductions"
+msgstr ""
+
+#: pages/templates/booking.html:22 pages/templates/home.html:179
+#: pages/templates/pricing.html:20
+msgid "25€"
+msgstr ""
+
+#: pages/templates/booking.html:23 pages/templates/home.html:181
+#: pages/templates/pricing.html:21
+msgid "Par personne"
+msgstr ""
+
+#: pages/templates/booking.html:30 pages/templates/home.html:189
+#: pages/templates/pricing.html:28
+#, python-format
+msgid "-20%%"
+msgstr ""
+
+#: pages/templates/booking.html:32 pages/templates/home.html:191
+#: pages/templates/pricing.html:30
+msgid "Heures creuses"
+msgstr ""
+
+#: pages/templates/booking.html:33 pages/templates/home.html:192
+#: pages/templates/pricing.html:31
+msgid "Du lundi au vendredi jusqu&#39;à 16h (inclu)"
+msgstr ""
+
+#: pages/templates/booking.html:41 pages/templates/home.html:200
+#: pages/templates/pricing.html:39
+#, python-format
+msgid "-30%%"
+msgstr ""
+
+#: pages/templates/booking.html:43 pages/templates/home.html:202
+msgid "Pour les <span class='font-weight-bold text-mulberry'>étudiants</span>"
+msgstr ""
+
+#: pages/templates/booking.html:44 pages/templates/home.html:203
+#: pages/templates/pricing.html:42
+msgid ""
+"Les paiements en ligne se font au plein tarif. Remboursement de la "
+"différence sur place sur présentation de la carte."
+msgstr ""
+
+#: pages/templates/booking.html:51 pages/templates/home.html:210
+#: pages/templates/pricing.html:49
+msgid "Rupture de stock"
+msgstr ""
+
+#: pages/templates/booking.html:53 pages/templates/home.html:212
+#: pages/templates/pricing.html:51
+msgid "Offre spéciale"
+msgstr ""
+
+#: pages/templates/booking.html:54 pages/templates/home.html:213
+#: pages/templates/pricing.html:52
+msgid "La dernière offre spéciale est en rupture de stock"
+msgstr ""
+
+#: pages/templates/booking.html:55 pages/templates/home.html:214
+#: pages/templates/pricing.html:53
+msgid "Nous vous invitons à patienter"
+msgstr ""
+
+#: pages/templates/booking.html:57 pages/templates/home.html:216
+#: pages/templates/pricing.html:55
+msgid "Être averti"
+msgstr ""
+
+#: pages/templates/booking.html:65
+msgid "Acheter une carte cadeau"
+msgstr ""
+
+#: pages/templates/booking.html:72
+msgid "Formulaire de réservation"
+msgstr ""
+
+#: pages/templates/booking.html:79
+msgid "J&#39;utilise mon<br>bon cadeau"
+msgstr ""
+
+#: pages/templates/booking.html:86
+msgid "Je choisis<br>une mission"
+msgstr ""
+
+#: pages/templates/booking.html:93
+msgid "Je paie au moins<br>une place"
+msgstr ""
+
+#: pages/templates/booking.html:93
+msgid ""
+"Vous pouvez régler la totalité dès la réservation si cela vous simplifie la "
+"vie. Les réductions étudiantes sont remboursées sur place sur présentation "
+"de la carte."
+msgstr ""
+
+#: pages/templates/booking.html:100
+msgid "C&#39;est parti !"
+msgstr ""
+
+#: pages/templates/booking.html:100
+msgid "Rendez-vous à l&#39;heure"
+msgstr ""
+
+#: pages/templates/booking.html:100
+msgid ""
+"Attention : Un retard de 15 minutes entraînera l&#39;annulation de la "
+"session sans remboursement."
+msgstr ""
+
+#: pages/templates/booking.html:129 pages/templates/home.html:50
+#: pages/templates/home.html:226 pages/templates/pricing.html:65
+#: pages/templates/room.html:64
+msgid "Réserver"
+msgstr ""
+
+#: pages/templates/conditions.html:5
+msgid "CGU ⭐ Escape Game Lille ⭐ Just Escape"
+msgstr ""
+
+#: pages/templates/conditions.html:6
+msgid ""
+"Consultez les conditions générales d&#39;utilisation de Just Escape. Just "
+"Escape est une SARL au capital social de 1000€."
+msgstr ""
+
 #: pages/templates/conditions.html:17
 msgid "Conditions of use"
+msgstr ""
+
+#: pages/templates/contact.html:5 pages/templates/terms.html:8
+msgid "Foire Aux Questions - Escape Game Lille - Just Escape"
+msgstr ""
+
+#: pages/templates/contact.html:6 pages/templates/teambuilding.html:6
+#: pages/templates/terms.html:9
+msgid ""
+"Les escapes games sont un jeu d&#39;énigmes beaucoup trop fun à jouer vous "
+"devriez venir avec toute votre famille et le chat."
 msgstr ""
 
 #: pages/templates/contact.html:8
 msgid "How to contact us"
 msgstr ""
 
-#: pages/templates/contact.html:91 pages/templates/home.html:377
+#: pages/templates/contact.html:43 pages/templates/contact.html:158
+#: pages/templates/footer.html:46 pages/templates/header.html:54
+#: pages/templates/home.html:334
+msgid "Contact"
+msgstr ""
+
+#: pages/templates/contact.html:45 pages/templates/home.html:336
+msgid "<span class='text-jaffa'>Tel :</span> +33 1 23 45 67 89<br>"
+msgstr ""
+
+#: pages/templates/contact.html:46 pages/templates/home.html:337
+msgid "<span class='text-jaffa'>Mail :</span> contact@justescape.fr"
+msgstr ""
+
+#: pages/templates/contact.html:82
+msgid ""
+"Vous organisez un <span class='font-weight-bold'>séminaire</span> ? "
+"Retrouvez les informations sur notre <a class='text-jaffa font-weight-bold' "
+"href='/{{ lang }}team-building'>page dédiée aux entreprises</a>."
+msgstr ""
+
+#: pages/templates/contact.html:83
+msgid ""
+"Vous préparez un <span class='font-weight-bold'>anniversaire</span>, <span "
+"class='font-weight-bold'>EVJF</span> ou <span class='font-weight-bold'>EVG</"
+"span> ? Vous devriez regarder nos <a class='text-jaffa font-weight-bold' "
+"href='/{{ lang }}tarifs'>tarifs avantageux</a>."
+msgstr ""
+
+#: pages/templates/contact.html:84
+msgid ""
+"Vous pouvez acheter une <span class='font-weight-bold'>carte cadeau</span> "
+"depuis <a class='text-mulberry font-weight-bold' href='/{{ lang }}"
+"reserver'>module de réservation</a>."
+msgstr ""
+
+#: pages/templates/contact.html:90 pages/templates/home.html:376
 msgid "Newsletter"
+msgstr ""
+
+#: pages/templates/contact.html:95 pages/templates/home.html:381
+#: pages/templates/teambuilding.html:129 pages/templates/unsubscribe.html:18
+msgid "An unexpected error happened. Please contact us directly."
+msgstr ""
+
+#: pages/templates/contact.html:102 pages/templates/home.html:388
+msgid "Merci et à bientôt !"
+msgstr ""
+
+#: pages/templates/contact.html:105 pages/templates/home.html:391
+#: pages/templates/unsubscribe.html:28
+msgid "marmitron@justescape.fr"
+msgstr ""
+
+#: pages/templates/contact.html:107 pages/templates/home.html:393
+msgid "Je m&#39;abonne"
 msgstr ""
 
 #: pages/templates/faq.html:7 pages/templates/faq.html:10
@@ -65,8 +349,8 @@ msgid "Live Escape Games are a fun game to play."
 msgstr ""
 
 #: pages/templates/faq.html:13
-msgid "Frequently Asked Questions"
-msgstr ""
+msgid "[title] Frequently Asked Questions"
+msgstr "Frequently Asked Questions"
 
 #: pages/templates/faq.html:21
 msgid "General"
@@ -330,7 +614,7 @@ msgid "Where is located Just Escape?"
 msgstr ""
 
 #: pages/templates/faq.html:281
-msgid "We don't have any premises at the moment!"
+msgid "We don&#39;t have any premises at the moment!"
 msgstr ""
 
 #: pages/templates/faq.html:290
@@ -339,8 +623,8 @@ msgstr ""
 
 #: pages/templates/faq.html:295
 msgid ""
-"Come as you are. At Just Escape we are here to have fun! You don't need to "
-"prepare yourself or nor to have prior knowledge to play."
+"Come as you are. At Just Escape we are here to have fun! You don&#39;t need "
+"to prepare yourself or nor to have prior knowledge to play."
 msgstr ""
 
 #: pages/templates/faq.html:303
@@ -364,7 +648,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/faq.html:318
-msgid "Chances are you're interested in our gourmet and aperitif formulas."
+msgid "Chances are you&#39;re interested in our gourmet and aperitif formulas."
 msgstr ""
 
 #: pages/templates/faq.html:327
@@ -435,6 +719,10 @@ msgstr ""
 msgid "A gift voucher is only valid for one year. Hurry up and come and play!"
 msgstr ""
 
+#: pages/templates/faq.html:459
+msgid "Frequently Asked Questions"
+msgstr ""
+
 #: pages/templates/footer.html:8
 msgid "Follow us on social networks!"
 msgstr ""
@@ -463,10 +751,6 @@ msgstr ""
 msgid "We are not on yelp but we like this platform!"
 msgstr ""
 
-#: pages/templates/footer.html:46 pages/templates/header.html:54
-msgid "Contact"
-msgstr ""
-
 #: pages/templates/footer.html:47 pages/templates/header.html:57
 msgid "Access"
 msgstr ""
@@ -479,7 +763,7 @@ msgstr ""
 msgid "Blog"
 msgstr ""
 
-#: pages/templates/footer.html:49
+#: pages/templates/footer.html:49 pages/templates/partners.html:108
 msgid "Partners"
 msgstr ""
 
@@ -495,6 +779,18 @@ msgstr ""
 msgid "Offrir une carte cadeau"
 msgstr ""
 
+#: pages/templates/gift-voucher.html:11
+msgid "Plaisir d&#39;offrir, joie de recevoir..."
+msgstr ""
+
+#: pages/templates/gift-voucher.html:37 pages/templates/header.html:30
+msgid "Booking"
+msgstr ""
+
+#: pages/templates/gift-voucher.html:43
+msgid "Gift voucher"
+msgstr ""
+
 #: pages/templates/header.html:16
 msgid "Escape Game Lille"
 msgstr ""
@@ -503,15 +799,11 @@ msgstr ""
 msgid "Rooms"
 msgstr ""
 
-#: pages/templates/header.html:30
-msgid "Booking"
-msgstr ""
-
-#: pages/templates/header.html:35
+#: pages/templates/header.html:35 pages/templates/pricing.html:166
 msgid "Pricing"
 msgstr ""
 
-#: pages/templates/header.html:38
+#: pages/templates/header.html:38 pages/templates/teambuilding.html:378
 msgid "Team Building"
 msgstr ""
 
@@ -523,12 +815,194 @@ msgstr ""
 msgid "FR"
 msgstr ""
 
+#: pages/templates/home.html:5 pages/templates/home.html:8
+msgid "Just Escape ⭐ Escape Game Lille ⭐ 2 joueurs et plus"
+msgstr ""
+
+#: pages/templates/home.html:6 pages/templates/home.html:9
+msgid ""
+"Nouvel escape game 2.0 ⚡ Idéal pour une sortie entre amis 😃 Des décors "
+"sensationnels 👌 Scénario Digimiam le restaurant du futur 🤖"
+msgstr ""
+
 #: pages/templates/home.html:11
 msgid "Un des escape games les plus immersifs à&nbsp;Lille"
 msgstr ""
 
 #: pages/templates/home.html:20
 msgid "Nos Escape Rooms"
+msgstr ""
+
+#: pages/templates/home.html:30 pages/templates/room.html:26
+msgid "Nouveau"
+msgstr ""
+
+#: pages/templates/home.html:39 pages/templates/room.html:33
+msgid "Le Digimiam"
+msgstr ""
+
+#: pages/templates/home.html:40
+msgid ""
+"Vous êtes à Lille en 2080 dans un <span class='font-weight-bold'>restaurant "
+"futuriste</span>. Les neurones de l&#39;<span class='font-weight-bold'>IA de "
+"cuisine</span> du Digimiam ont court-circuité&nbsp;! À vous de vous "
+"infiltrer à travers un labyrinthe laser et de reprendre le contrôle des "
+"<span class='font-weight-bold'>bras robotiques</span>&nbsp;! Parviendrez-"
+"vous à résoudre toutes nos <span class='font-weight-bold'>énigmes "
+"originales</span> dans des <span class='font-weight-bold'>décors immersifs</"
+"span>&nbsp;?"
+msgstr ""
+
+#: pages/templates/home.html:41
+msgid ""
+"Le scénario est jouable à partir de <span class='font-weight-bold'>2 "
+"personnes</span> et <span class='font-weight-bold'>jusqu&#39;à 8</span> sur "
+"deux salles."
+msgstr ""
+
+#: pages/templates/home.html:45
+msgid "La salle"
+msgstr ""
+
+#: pages/templates/home.html:67 pages/templates/room.html:44
+msgid "2 à 4 joueurs"
+msgstr ""
+
+#: pages/templates/home.html:74 pages/templates/home.html:122
+#: pages/templates/room.html:51 pages/templates/room.html:139
+msgid "60 minutes"
+msgstr ""
+
+#: pages/templates/home.html:81 pages/templates/home.html:129
+#: pages/templates/room.html:58 pages/templates/room.html:146
+msgid "FR / EN"
+msgstr ""
+
+#: pages/templates/home.html:95 pages/templates/room.html:118
+msgid "À venir"
+msgstr ""
+
+#: pages/templates/home.html:102 pages/templates/room.html:124
+msgid "Salle horreur"
+msgstr ""
+
+#: pages/templates/home.html:103
+msgid ""
+"Nous allons ouvrir un nouvel <strong>escape game d&#39;horreur sur Lille</"
+"strong>. Plongés au milieu d&#39;une forêt, vous découvrez le "
+"<strong>mystérieux manoir</strong> d&#39;une marionnettiste. Échapperez-vous "
+"au spectable macabre des marionnettes&nbsp;? Êtes-vous prêts à mettre votre "
+"vie et celle de votre équipe en jeu&nbsp;? L&#39;<strong>adrénaline</strong> "
+"monte... Scénario à jouer le soir&nbsp;!"
+msgstr ""
+
+#: pages/templates/home.html:104
+msgid "La création des énigmes est encore en cours."
+msgstr ""
+
+#: pages/templates/home.html:115 pages/templates/room.html:132
+msgid "4 à 6 joueurs"
+msgstr ""
+
+#: pages/templates/home.html:146
+msgid "Le concept des Escapes Games"
+msgstr ""
+
+#: pages/templates/home.html:151
+msgid "Jeu d&#39;évasion"
+msgstr ""
+
+#: pages/templates/home.html:152
+msgid ""
+"Le principe des jeux d&#39;évasions grandeur nature est d&#39;enfermer un "
+"groupe de joueurs dans une salle à thème. Le challenge est de s&#39;échapper "
+"en résolvant toutes les énigmes en moins d&#39;une&nbsp;heure<span "
+"class='emoji'>&nbsp;⏳</span>. Fun et immersif, le live escape game est un "
+"loisir qui combine le travail d&#39;équipe, la communication et la logique. "
+"L&#39;escape game est une sortie à faire en famille, entre amis ou en "
+"couple<span class='emoji'>&nbsp;😃</span>."
+msgstr ""
+
+#: pages/templates/home.html:155
+msgid "L&#39;originalité de Just Escape"
+msgstr ""
+
+#: pages/templates/home.html:156
+#, python-format
+msgid ""
+"Just Escape est un jeu d&#39;évasion 2.0 dans lequel on vous propose des "
+"énigmes originales sans cadenas<span class='emoji'>&nbsp;🎯</span>. Nous "
+"mettons également l&#39;accent sur la qualité de l&#39;immersion en "
+"réalisant des décors dignes de cinéma<span class='emoji'>&nbsp;🗿</span>. Nos "
+"énigmes 100%% connectées influent sur l&#39;ambiance de nos salles pour vous "
+"offrir une expérience la plus réaliste possible. Notre première salle peut "
+"être jouée à deux personnes à prix abordable."
+msgstr ""
+
+#: pages/templates/home.html:159
+msgid "Teambuilding, EVG, EVJF"
+msgstr ""
+
+#: pages/templates/home.html:160
+msgid ""
+"Nous avons des prix attractifs pour des événements comme un anniversaire, un "
+"EVG ou un EVJF<span class='emoji'>&nbsp;🎁</span>. Just Escape offre "
+"également des solutions clé en main pour team building et séminaire (espace "
+"détente, apéritif dinatoire, etc). C&#39;est une excellente occasion de "
+"renforcer la cohésion d&#39;équipe<span class='emoji'>&nbsp;😄</span>. Cette "
+"activité convient aux débutants comme aux passionnés grâce à nos indices "
+"adaptatifs."
+msgstr ""
+
+#: pages/templates/home.html:171 pages/templates/pricing.html:14
+msgid "Quel est le prix d&#39;un scénario&nbsp;?"
+msgstr ""
+
+#: pages/templates/home.html:228 pages/templates/pricing.html:67
+msgid "Devis entreprise"
+msgstr ""
+
+#: pages/templates/home.html:239
+msgid ""
+"Le meilleur escape game de&nbsp;Lille —&nbsp;La&nbsp;maman&nbsp;du&nbsp;"
+"designer"
+msgstr ""
+
+#: pages/templates/home.html:248 pages/templates/home.html:265
+#: pages/templates/home.html:282
+msgid "lalala"
+msgstr ""
+
+#: pages/templates/home.html:250 pages/templates/home.html:267
+#: pages/templates/home.html:284
+msgid ""
+"Un scénario riche en émotions que je recommande vivement&nbsp;! Si vous "
+"réservez chez eux, parlez m&#39;en avant pour que je touche une prime de "
+"coopta[...]"
+msgstr ""
+
+#: pages/templates/home.html:255
+msgid "— Michel, actionnaire chez Just Escape"
+msgstr ""
+
+#: pages/templates/home.html:272
+msgid "— Le Marmitron, Intelligence du Digimiam depuis 2053"
+msgstr ""
+
+#: pages/templates/home.html:289
+msgid "— Shirley, une descendante supposée de Sherlock Holmes"
+msgstr ""
+
+#: pages/templates/home.html:301
+msgid "Comment rejoindre notre local à Lille&nbsp;?"
+msgstr ""
+
+#: pages/templates/home.html:317
+msgid "<span class='text-jaffa'>Lundi-vendredi : </span> 14h-23h<br>"
+msgstr ""
+
+#: pages/templates/home.html:355
+msgid "17 rue négrier<br>59 800 Lille"
 msgstr ""
 
 #: pages/templates/news.html:5
@@ -539,18 +1013,270 @@ msgstr ""
 msgid "Our partnerships"
 msgstr ""
 
+#: pages/templates/pricing.html:5
+msgid "Quels sont nos Prix ? Escape Game Lille — Just Escape"
+msgstr ""
+
 #: pages/templates/pricing.html:7
 msgid "Quels sont nos Prix ?"
+msgstr ""
+
+#: pages/templates/pricing.html:41
+msgid "Pour les <span class="
+msgstr ""
+
+#: pages/templates/pricing.html:76
+msgid "Venez fêter vos événements chez nous"
+msgstr ""
+
+#: pages/templates/pricing.html:82
+msgid "Menu Gourmand"
+msgstr ""
+
+#: pages/templates/pricing.html:86
+msgid ""
+"Collation sucrée</span> (boissons, madeleines, fruits, fromage&nbsp;"
+"blanc)<br>"
+msgstr ""
+
+#: pages/templates/pricing.html:88 pages/templates/pricing.html:107
+msgid "1 <span class='font-weight-bold'>Photo imprimée</span> en&nbsp;HD"
+msgstr ""
+
+#: pages/templates/pricing.html:92
+msgid "<span class='text-mulberry'>+7€</span> par personne"
+msgstr ""
+
+#: pages/templates/pricing.html:93 pages/templates/pricing.html:112
+#: pages/templates/pricing.html:126 pages/templates/pricing.html:141
+msgid "<span class='text-jaffa'>Suggéré pour :</span>"
+msgstr ""
+
+#: pages/templates/pricing.html:93
+msgid "Petit&nbsp;déj&#39;, Goûter, Anniversaire"
+msgstr ""
+
+#: pages/templates/pricing.html:101
+msgid "Menu Apéro"
+msgstr ""
+
+#: pages/templates/pricing.html:105
+msgid ""
+"Apéritif salé</span> (bière ou verre&nbsp;de&nbsp;vin, saucisson, "
+"biscuits&nbsp;apéritif)"
+msgstr ""
+
+#: pages/templates/pricing.html:111
+msgid "<span class='text-mulberry'>+10€</span> par personne</p>"
+msgstr ""
+
+#: pages/templates/pricing.html:112
+msgid "EVG, EVJF, Anniversaire"
+msgstr ""
+
+#: pages/templates/pricing.html:120
+msgid "Carte cadeau"
+msgstr ""
+
+#: pages/templates/pricing.html:123
+msgid ""
+"Vos proches vont vous adorer avec ce <a class='text-underline' href='/"
+"{{ lang }}carte-cadeau'>coffret&nbsp;cadeau</a>."
+msgstr ""
+
+#: pages/templates/pricing.html:126
+msgid "Noël, Cagnotte, Tombola"
+msgstr ""
+
+#: pages/templates/pricing.html:134
+msgid "Entreprises"
+msgstr ""
+
+#: pages/templates/pricing.html:137
+msgid "C&#39;est difficile de motiver ses équipes en&nbsp;2019."
+msgstr ""
+
+#: pages/templates/pricing.html:138
+msgid ""
+"Heureusement on a des <a class='text-underline' href='/{{ lang }}team-"
+"building'>packs Team Building clé&nbsp;en&nbsp;main</a>."
+msgstr ""
+
+#: pages/templates/pricing.html:141
+msgid "Séminaire, Workshop, Teambuilding"
+msgstr ""
+
+#: pages/templates/room.html:5
+msgid "Nos Escape Rooms ⭐ Escape Game Lille ⭐ Just Escape"
 msgstr ""
 
 #: pages/templates/room.html:8
 msgid "Découvrez nos scénarios"
 msgstr ""
 
+#: pages/templates/room.html:19
+msgid "Plus d&#39;infos"
+msgstr ""
+
+#: pages/templates/room.html:98
+msgid "Previous"
+msgstr ""
+
+#: pages/templates/room.html:102
+msgid "Next"
+msgstr ""
+
+#: pages/templates/room.html:184
+msgid "Salles"
+msgstr ""
+
+#: pages/templates/teambuilding.html:5
+msgid "Escape Game à Lille ⭐⭐⭐⭐⭐ Bon plan Team Building 👌"
+msgstr ""
+
 #: pages/templates/teambuilding.html:16
 msgid "Nos solutions de team building"
 msgstr ""
 
+#: pages/templates/teambuilding.html:23
+msgid "Les packs les plus populaires après un bon escape game"
+msgstr ""
+
+#: pages/templates/teambuilding.html:33
+msgid "Petit déj&#39;"
+msgstr ""
+
+#: pages/templates/teambuilding.html:36
+msgid "Cocktail"
+msgstr ""
+
+#: pages/templates/teambuilding.html:39
+msgid "Apéritif dinatoire"
+msgstr ""
+
+#: pages/templates/teambuilding.html:42
+msgid "Workshop bien mérité"
+msgstr ""
+
+#: pages/templates/teambuilding.html:48
+msgid "Photos imprimées en&nbsp;HD"
+msgstr ""
+
+#: pages/templates/teambuilding.html:55
+msgid "Boissons"
+msgstr ""
+
+#: pages/templates/teambuilding.html:56 pages/templates/teambuilding.html:59
+msgid "Sans alcool"
+msgstr ""
+
+#: pages/templates/teambuilding.html:57 pages/templates/teambuilding.html:58
+msgid "Bière ou verre&nbsp;de&nbsp;vin"
+msgstr ""
+
+#: pages/templates/teambuilding.html:62
+msgid "Menu"
+msgstr ""
+
+#: pages/templates/teambuilding.html:64
+msgid ""
+"<span class='font-weight-bold'>Collation sucrée</span> (madeleines, fruits, "
+"produit&nbsp;laitier)"
+msgstr ""
+
+#: pages/templates/teambuilding.html:67
+msgid ""
+"<span class='font-weight-bold'>Apéritif salé</span> (saucisson, "
+"biscuits&nbsp;apéritif)"
+msgstr ""
+
+#: pages/templates/teambuilding.html:70
+msgid "<span class='font-weight-bold'>Traiteur</span>"
+msgstr ""
+
+#: pages/templates/teambuilding.html:77
+msgid "Privatisation de la salle de réception (30&nbsp;m²) après la partie"
+msgstr ""
+
+#: pages/templates/teambuilding.html:84
+msgid "Privatisation entière des locaux"
+msgstr ""
+
+#: pages/templates/teambuilding.html:85 pages/templates/teambuilding.html:86
+#: pages/templates/teambuilding.html:87
+msgid "En option"
+msgstr ""
+
+#: pages/templates/teambuilding.html:91
+msgid "Prix"
+msgstr ""
+
+#: pages/templates/teambuilding.html:92
+msgid "<span class='text-mulberry'>+15€</span> par participant*"
+msgstr ""
+
+#: pages/templates/teambuilding.html:93
+msgid "<span class='text-mulberry'>+20€</span> par participant*"
+msgstr ""
+
+#: pages/templates/teambuilding.html:94
+msgid "<span class='text-mulberry'>+35€</span> par participant*"
+msgstr ""
+
+#: pages/templates/teambuilding.html:95
+msgid "À partir de <span class='text-mulberry'>150€</span>*"
+msgstr ""
+
+#: pages/templates/teambuilding.html:103
+msgid ""
+"(*) Prix HT. Ne comprend pas le prix d&#39;une session de jeu. Le prix d&#39;"
+"une heure de jeu est de 25€ TTC par personne, soit 20€ HT."
+msgstr ""
+
+#: pages/templates/teambuilding.html:108
+msgid "Book now"
+msgstr ""
+
+#: pages/templates/teambuilding.html:119
+msgid "Formulaire de devis"
+msgstr ""
+
+#: pages/templates/teambuilding.html:137
+msgid ""
+"Your application has been transmitted. We will provide an answer as soon as "
+"possible."
+msgstr ""
+
+#: pages/templates/teambuilding.html:248
+msgid "Options"
+msgstr ""
+
+#: pages/templates/teambuilding.html:335
+msgid "Envoyer"
+msgstr ""
+
+#: pages/templates/terms.html:5
+msgid "CGV ⭐ Escape Game Lille ⭐ Just Escape"
+msgstr ""
+
+#: pages/templates/terms.html:6
+msgid ""
+"Consultez les conditions générales de vente de Just Escape. Just Escape est "
+"une SARL au capital social de 1000€."
+msgstr ""
+
 #: pages/templates/terms.html:20
 msgid "General terms of use"
+msgstr ""
+
+#: pages/templates/unsubscribe.html:11
+msgid "Se désabonner de la newsletter"
+msgstr ""
+
+#: pages/templates/unsubscribe.html:25
+msgid "Au revoir et à bientôt !"
+msgstr ""
+
+#: pages/templates/unsubscribe.html:30
+msgid "Je me désabonne"
 msgstr ""

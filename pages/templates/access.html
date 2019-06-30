@@ -2,7 +2,7 @@
 
 {% load i18n %}
 
-{% block title %}Comment Venir ? ⭐ Escape Game Lille ⭐ Just Escape{% endblock %}
+{% block title %}{% trans "Comment Venir ? ⭐ Escape Game Lille ⭐ Just Escape" %}{% endblock %}
 {% block description %}{% endblock %}
 
 {% block h1 %}{% trans "Comment rejoindre notre local à&nbsp;Lille&nbsp;?" %}{% endblock %}
@@ -23,10 +23,10 @@
                         {% include "svg/clock.svg" %}
                       </span>
                       <div>
-                        <h2 class="text-jaffa size-15 mb-1">Horaires d'ouverture</h2>
+                        <h2 class="text-jaffa size-15 mb-1">{% trans "Horaires d&#39;ouverture" %}</h2>
                         <p class="lh-12 mb-0">
-                          <span class="text-jaffa">Lundi-vendredi :</span> 14h-23h<br>
-                          <span class="text-jaffa">Samedi-dimanche :</span> 10h-23h<br>
+                          {% trans "<span class='text-jaffa'>Lundi-vendredi :</span> 14h-23h<br>" %}
+                          {% trans "<span class='text-jaffa'>Samedi-dimanche :</span> 10h-23h" %}
                         </p>
                       </div>
                     </div>
@@ -42,10 +42,9 @@
                         {% include "svg/map-marker.svg" %}
                       </div>
                       <div>
-                        <h2 class="text-jaffa size-15 mb-1">Nous trouver</h2>
+                        <h2 class="text-jaffa size-15 mb-1">{% trans "Nous trouver" %}</h2>
                         <p class="lh-12 mb-0">
-                          17 rue négrier<br>
-                          59 800 Lille
+                          {% trans "17 rue Négrier<br>59 800 Lille" %}
                         </p>
                       </div>
                     </div>
@@ -66,13 +65,13 @@
               <div class="col-12 col-md-6 col-lg-12 col-xl-6">
                 <div class="card deepdark border-jaffa mb-4">
                   <div class="card-body">
-                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px">{% include "svg/walking.svg" %}</span>Venir à pied</h2>
+                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px">{% include "svg/walking.svg" %}</span>{% trans "Venir à pied" %}</h2>
                     <p class="mb-0 text-justify">{% lorem 30 w %}</p>
                   </div>
                 </div>
                 <div class="card deepdark border-jaffa mb-4">
                   <div class="card-body">
-                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-2">{% include "svg/bus.svg" %}</span><span class="fill-jaffa svg-20px mr-1">{% include "svg/subway.svg" %}</span>Venir en transports</h2>
+                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-2">{% include "svg/bus.svg" %}</span><span class="fill-jaffa svg-20px mr-1">{% include "svg/subway.svg" %}</span>{% trans "Venir en transports" %}</h2>
                     <p class="mb-0 text-justify">{% lorem 30 w %}</p>
                   </div>
                 </div>
@@ -81,13 +80,13 @@
               <div class="col-12 col-md-6 col-lg-12 col-xl-6">
                 <div class="card deepdark border-jaffa mb-4">
                   <div class="card-body">
-                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-1">{% include "svg/car.svg" %}</span>Venir en voiture</h2>
+                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-1">{% include "svg/car.svg" %}</span>{% trans "Venir en voiture" %}</h2>
                     <p class="mb-0 text-justify">{% lorem 30 w %}</p>
                   </div>
                 </div>
                 <div class="card deepdark border-jaffa mb-4">
                   <div class="card-body">
-                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-1">{% include "svg/bicycle.svg" %}</span>Venir à vélo</h2>
+                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-1">{% include "svg/bicycle.svg" %}</span>{% trans "Venir à vélo" %}</h2>
                     <p class="mb-0 text-justify">{% lorem 30 w %}</p>
                   </div>
                 </div>
@@ -98,9 +97,9 @@
       </div>
 
       <div class="rounded p-3 border-0 softdark">
-        <p class="mb-2">N'hésitez pas à passer sur <a class="text-jaffa font-weight-bold" href="/{{ lang }}faq">notre FAQ</a>.</p>
-        <p class="mb-2">Retrouvez toutes les informations pour nous joindre directement sur notre <a class="text-jaffa font-weight-bold" href="/{{ lang }}contact">page de contact</a>.</p>
-        <p class="mb-0">Il ne reste plus qu'à <a class="text-mulberry font-weight-bold" href="/{{ lang }}reserver">réserver</a> si ce n'est pas déjà fait !</p>
+        <p class="mb-2">{% trans "N&#39;hésitez pas à passer sur <a class='text-jaffa font-weight-bold' href='/{{ lang }}faq'>notre FAQ</a>." %}</p>
+        <p class="mb-2">{% trans "Retrouvez toutes les informations pour nous joindre directement sur notre <a class='text-jaffa font-weight-bold' href='/{{ lang }}contact'>page de contact</a>." %}</p>
+        <p class="mb-0">{% trans "Il ne reste plus qu&#39;à <a class='text-mulberry font-weight-bold' href='/{{ lang }}reserver'>réserver</a> si ce n&#39;est pas déjà fait !" %}</p>
       </div>
     </div>
   </div>
@@ -132,13 +131,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Just Escape",
-                "item": "https://just-escape.fr/"
+                "item": "https://just-escape.fr/{{ lang }}"
             },
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Accès",
-                "item": "https://just-escape.fr/acces"
+                "name": "{% trans "Accès" %}",
+                "item": "https://just-escape.fr/{{ lang }}acces"
             }
         ]
     }
