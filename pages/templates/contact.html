@@ -21,10 +21,10 @@
                   {% include "svg/clock.svg" %}
                 </span>
                 <div>
-                  <h2 class="text-jaffa size-15 mb-1">{% trans "Horaires d&#39;ouverture" %}</h2>
+                  <h2 class="text-jaffa size-15 mb-1">{% trans "Opening hours" %}</h2>
                   <p class="lh-12 mb-0">
-                    {% trans "<span class='text-jaffa'>Lundi-vendredi :</span> 14h-23h<br>" %}
-                    {% trans "<span class='text-jaffa'>Samedi-dimanche :</span> 10h-23h" %}
+                    {% trans "<span class='text-jaffa'>Monday-friday:</span> 2PM-11PM<br>" %}
+                    {% trans "<span class='text-jaffa'>Saturday-sunday:</span> 10AM-11PM" %}
                   </p>
                 </div>
               </div>
@@ -42,8 +42,8 @@
                 <div>
                   <h2 class="text-jaffa size-15 mb-1">{% trans "Contact" %}</h2>
                   <p class="lh-12 mb-0">
-                    {% trans "<span class='text-jaffa'>Tel :</span> +33 1 23 45 67 89<br>" %}
-                    {% trans "<span class='text-jaffa'>Mail :</span> contact@justescape.fr" %}
+                    {% trans "<span class='text-jaffa'>Tel:</span> +33 1 23 45 67 89<br>" %}
+                    {% trans "<span class='text-jaffa'>Mail:</span> c<span hidden></span>ontac<span hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span hidden></span>.fr" %}
                   </p>
                 </div>
               </div>
@@ -59,9 +59,9 @@
                   {% include "svg/map-marker.svg" %}
                 </div>
                 <div>
-                  <h2 class="text-jaffa size-15 mb-1">{% trans "Nous trouver" %}</h2>
+                  <h2 class="text-jaffa size-15 mb-1">{% trans "Address" %}</h2>
                   <p class="lh-12 mb-0">
-                    {% trans "17 rue Négrier<br>59 800 Lille" %} 
+                    {% trans "17 rue Négrier<br>59 800 Lille, France" %} 
                   </p>
                 </div>
               </div>
@@ -99,12 +99,12 @@
             {% endif %}
 
             {% if subscription_success %}
-            <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="{% trans "Merci et à bientôt !" %}">
+            <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="{% trans "Thank you and see you soon!" %}">
             {% endif %}
               <div class="input-group">
                 <input type="text" spellcheck="false" class="form-control" placeholder="{% trans "marmitron@justescape.fr" %}" name="{{ form.email.name }}" required>
                 <div class="input-group-append">
-                  <button class="btn btn-secondary" type="submit"><span>{% trans "Je m&#39;abonne" %}</span></button>
+                  <button class="btn btn-secondary" type="submit"><span>{% trans "Subscribe" %}</span></button>
                 </div>
               </div>
             {% if subscription_success %}

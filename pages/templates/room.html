@@ -5,7 +5,7 @@
 {% block title %}{% trans "Nos Escape Rooms ⭐ Escape Game Lille ⭐ Just Escape" %}{% endblock %}
 {% block description %}{% endblock %}
 
-{% block h1 %}{% trans "Découvrez nos scénarios" %}{% endblock %}
+{% block h1 %}{% trans "Discover our scenarios" %}{% endblock %}
 
 {% block content %}
 
@@ -16,21 +16,21 @@
           <div class="col-12 col-md-2 my-auto text-center text-md-left pl-0">
             <div class="text-hover-jaffa pointer opacity-07 opacity-hover-1 d-inline-block mb-3" role="button" data-toggle="collapse" data-target="#collapse-room-1" aria-expanded="false" aria-controls="collapse-room-1">
               <span class="transition-03s svg-64px svg-sm-48px fill-light d-block text-center{% if show == "d1" %} rotate-90{% endif %}">{% include "svg/arrow-right.svg" %}</span>
-              <div class="size-09 text-underline">{% trans "Plus d&#39;infos" %}</div>
+              <div class="size-09 text-underline">{% trans "More info" %}</div>
             </div>
           </div>
           <div class="col-12 col-md-10 px-sm-0 mb-4 mb-md-0">
             <div class="d-flex flex-column flex-sm-row">
               <div class="d-flex justify-content-center mb-3 mb-sm-0 mr-sm-3">
                 <div class="width-170px position-relative my-auto my-lg-2">
-                  <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "Nouveau" %}</span></div>
+                  <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "New" %}</span></div>
                   {% include "svg/digimiam.svg" %}
                 </div>
               </div>
 
               <div>
                 <span id="digimiam" class="anchor">&nbsp;</span>
-                <h2>{% trans "Le Digimiam" %}</h2>
+                <h2>{% trans "The Digimiam" %}</h2>
                 <p class="text-justify">{% lorem 30 w %}</p>
                 <div class="d-flex flex-column-reverse flex-sm-row justify-content-sm-between">
                   <div class="d-flex flex-column flex-lg-row my-auto">
@@ -41,7 +41,7 @@
                           <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
                         </div>
                         <span class="mr-2 mr-sm-3"></span>
-                        <span class="size-09 lh-24px">{% trans "2 à 4 joueurs" %}</span>
+                        <span class="size-09 lh-24px">{% trans "2 - 4 players" %}</span>
                       </div>
                     </div>
                     <div class="mb-2 mb-lg-0 mr-lg-4">
@@ -61,7 +61,7 @@
                   </div>
                   <div class="my-lg-auto text-right">
                     <a class="btn btn-primary mb-3 mb-lg-0" href="/{{ lang }}reserver">
-                      <span class="px-3">{% trans "Réserver" %}</span>
+                      <span class="px-3">{% trans "Book now" %}</span>
                     </a>
                   </div>
                 </div>
@@ -115,13 +115,13 @@
             <div class="d-flex flex-column flex-sm-row">
               <div class="d-flex justify-content-center mb-3 mb-sm-0 mr-sm-3">
                 <div class="width-170px position-relative my-auto my-lg-2">
-                  <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "À venir" %}</span></div>
+                  <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "[room]Soon" %}</span></div>
                   {% include "svg/puppet.svg" %}
                 </div>
               </div>
 
               <div>
-                <h2 class="opacity-05">{% trans "Salle horreur" %} <span class="d-inline-block svg-30px fill-light align-baseline">{% include "svg/minus-12.svg" %}</span></h2>
+                <h2 class="opacity-05">{% trans "Horror room" %} <span class="d-inline-block svg-30px fill-light align-baseline">{% include "svg/minus-12.svg" %}</span></h2>
                 <p class="text-justify opacity-05">{% lorem 30 w %}</p>
                 <div class="d-flex flex-column-reverse flex-sm-row justify-content-sm-between">
                   <div class="d-flex flex-column flex-lg-row my-auto">
@@ -129,7 +129,7 @@
                       <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
                         <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
                         <span class="mr-2"></span>
-                        <span class="size-09 lh-24px">{% trans "4 à 6 joueurs" %}</span>
+                        <span class="size-09 lh-24px">{% trans "4 - 6 players" %}</span>
                       </div>
                     </div>
                     <div class="mb-2 mb-lg-0 mr-lg-4">
@@ -181,7 +181,7 @@
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "{% trans "Salles" %}",
+                "name": "{% trans "Rooms" %}",
                 "item": "https://just-escape.fr/{{ lang }}salles"
             }
         ]

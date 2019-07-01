@@ -13,14 +13,14 @@
   <style rel="stylesheet">{% include "css/tempusdominus-custom.css" %}</style>
 {% endblock %}
 
-{% block h1 %}{% trans "Nos solutions de team building" %}{% endblock %}
+{% block h1 %}{% trans "Turnkey team building" %}{% endblock %}
 
 {% block content %}
 
   <div class="jumbotron">
     <div class="container">
       <div class="row mb-3">
-        <h2 class="text-jaffa">{% trans "Les packs les plus populaires après un bon escape game" %}</h2>
+        <h2 class="text-jaffa">{% trans "Most popular packs after a good escape game" %}</h2>
       </div>
 
       <div class="row mb-3">
@@ -30,69 +30,69 @@
               <tr>
                 <th></th>
                 <th scope="col">
-                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/coffee.svg" %}</span>{% trans "Petit déj&#39;" %}</div>
+                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/coffee.svg" %}</span>{% trans "Breakfast" %}</div>
                 </th>
                 <th scope="col">
                   <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/cocktail.svg" %}</span>{% trans "Cocktail" %}</div>
                 </th>
                 <th scope="col">
-                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/glass-cheers.svg" %}</span>{% trans "Apéritif dinatoire" %}</div>
+                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/glass-cheers.svg" %}</span>{% trans "Dinner aperitif" %}</div>
                 </th>
                 <th scope="col">
-                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/presentation.svg" %}</span>{% trans "Workshop bien mérité" %}</div>
+                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/presentation.svg" %}</span>{% trans "Well deserved workshop" %}</div>
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th scope="row">{% trans "Photos imprimées en&nbsp;HD" %}</th>
-                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
-                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
-                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
-                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
-              </tr>
-              <tr>
-                <th scope="row">{% trans "Boissons" %}</th>
-                <td>{% trans "Sans alcool" %}</td>
-                <td>{% trans "Bière ou verre&nbsp;de&nbsp;vin" %}</td>
-                <td>{% trans "Bière ou verre&nbsp;de&nbsp;vin" %}</td>
-                <td>{% trans "Sans alcool" %}</td>
+                <th scope="row">{% trans "Drinks" %}</th>
+                <td>{% trans "Softs" %}</td>
+                <td>{% trans "Beer or glass&nbsp;of&nbsp;wine" %}</td>
+                <td>{% trans "Beer or glass&nbsp;of&nbsp;wine" %}</td>
+                <td>{% trans "Softs" %}</td>
               </tr>
               <tr>
                 <th scope="row">{% trans "Menu" %}</th>
                 <td>
-                  {% trans "<span class='font-weight-bold'>Collation sucrée</span> (madeleines, fruits, produit&nbsp;laitier)" %}
+                  {% trans "<span class='font-weight-bold'>Sweet snack</span> (madeleines, fruits, dairy&nbsp;product)" %}
                 </td>
                 <td>
-                  {% trans "<span class='font-weight-bold'>Apéritif salé</span> (saucisson, biscuits&nbsp;apéritif)" %}
+                  {% trans "<span class='font-weight-bold'>Salted aperitif</span> (dry&nbsp;sausage, appetizers)" %}
                 </td>
                 <td>
-                  {% trans "<span class='font-weight-bold'>Traiteur</span>" %}
+                  {% trans "<span class='font-weight-bold'>Caterer</span>" %}
                 </td>
                 <td>
                   <span class="d-inline-block svg-24px fill-light">{% include "svg/times.svg" %}</span>
                 </td>
               </tr>
               <tr>
-                <th scope="row">{% trans "Privatisation de la salle de réception (30&nbsp;m²) après la partie" %}</th>
+                <th scope="row">{% trans "Privatization of the reception room (30&nbsp;m²) after the game" %}</th>
                 <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
                 <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
                 <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
                 <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
               </tr>
               <tr>
-                <th scope="row">{% trans "Privatisation entière des locaux" %}</th>
-                <td>{% trans "En option" %}</td>
-                <td>{% trans "En option" %}</td>
-                <td>{% trans "En option" %}</td>
+                <th scope="row">{% trans "Full privatization of the estate" %}</th>
+                <td>{% trans "Optional" %}</td>
+                <td>{% trans "Optional" %}</td>
+                <td>{% trans "Optional" %}</td>
                 <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
               </tr>
               <tr>
-                <th scope="row">{% trans "Prix" %}</th>
-                <td>{% trans "<span class='text-mulberry'>+15€</span> par participant*" %}</td>
-                <td>{% trans "<span class='text-mulberry'>+20€</span> par participant*" %}</td>
-                <td>{% trans "<span class='text-mulberry'>+35€</span> par participant*" %}</td>
-                <td>{% trans "À partir de <span class='text-mulberry'>150€</span>*" %}</td>
+                <th scope="row">{% trans "HD printed photos" %}</th>
+                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
+                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
+                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
+                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
+              </tr>
+              <tr>
+                <th scope="row">{% trans "Price" %}</th>
+                <td>{% trans "<span class='text-mulberry'>+15€</span> per participant*" %}</td>
+                <td>{% trans "<span class='text-mulberry'>+20€</span> per participant*" %}</td>
+                <td>{% trans "<span class='text-mulberry'>+35€</span> per participant*" %}</td>
+                <td>{% trans "From <span class='text-mulberry'>150€</span>*" %}</td>
               </tr>
             </tbody>
           </table>
@@ -100,7 +100,7 @@
       </div>
 
       <div class="row mb-3">
-        <p class="small">{% trans "(*) Prix HT. Ne comprend pas le prix d&#39;une session de jeu. Le prix d&#39;une heure de jeu est de 25€ TTC par personne, soit 20€ HT." %}</p>
+        <p class="small">{% trans "(*) Price excluding tax. Does not include the price of a game session. The price of one hour of play is 25€ all taxes included per person, or 20€ excluding tax." %}</p>
       </div>
 
       <div class="row justify-content-center">
@@ -116,7 +116,7 @@
       <div class="row">
         <div class="col-12 px-0 px-sm-3">
           <span id="devis" class="anchor">&nbsp;</span>
-          <h2 class="text-jaffa mb-4">{% trans "Formulaire de devis" %}</h2>
+          <h2 class="text-jaffa mb-4">{% trans "Quote form" %}</h2>
         </div>
        </div>
 
@@ -332,7 +332,7 @@
 
         <div class="row">
           <div class="px-0 px-sm-3 col-12 col-sm-4 col-md-3 col-lg-2">
-            <button type="submit" class="btn btn-secondary btn-block"><span>{% trans "Envoyer" %}</span></button>
+            <button type="submit" class="btn btn-secondary btn-block"><span>{% trans "Submit" %}</span></button>
           </div>
         </div>
       </form>
@@ -376,7 +376,7 @@
                 "@type": "ListItem",
                 "position": 2,
                 "name": "{% trans "Team Building" %}",
-                "item": "https://just-escape.fr/{{ lang }}entreprises"
+                "item": "https://just-escape.fr/{{ lang }}team-building"
             }
         ]
     }

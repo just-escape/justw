@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-30 17:49+0200\n"
+"POT-Creation-Date: 2019-07-01 17:08+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -24,11 +24,11 @@ msgid "French"
 msgstr "French"
 
 #: pages/templates/404.html:19
-msgid "Erreur 404 - Vous ne naviguez pas sur la bonne page"
+msgid "Error 404 — You are not browsing on the good page"
 msgstr ""
 
 #: pages/templates/404.html:20
-msgid "Voici un indice pour sortir d&#39;ici"
+msgid "Go through the door to retrace your steps"
 msgstr ""
 
 #: pages/templates/access.html:5
@@ -41,25 +41,27 @@ msgstr ""
 
 #: pages/templates/access.html:26 pages/templates/contact.html:24
 #: pages/templates/home.html:315
-msgid "Horaires d&#39;ouverture"
+msgid "Opening hours"
 msgstr ""
 
 #: pages/templates/access.html:28 pages/templates/contact.html:26
-msgid "<span class='text-jaffa'>Lundi-vendredi :</span> 14h-23h<br>"
+#: pages/templates/home.html:317
+msgid "<span class='text-jaffa'>Monday-friday:</span> 2PM-11PM<br>"
 msgstr ""
 
 #: pages/templates/access.html:29 pages/templates/contact.html:27
 #: pages/templates/home.html:318
-msgid "<span class='text-jaffa'>Samedi-dimanche :</span> 10h-23h"
+msgid "<span class='text-jaffa'>Saturday-sunday:</span> 10AM-11PM"
 msgstr ""
 
 #: pages/templates/access.html:45 pages/templates/contact.html:62
 #: pages/templates/home.html:353
-msgid "Nous trouver"
+msgid "Address"
 msgstr ""
 
 #: pages/templates/access.html:47 pages/templates/contact.html:64
-msgid "17 rue Négrier<br>59 800 Lille"
+#: pages/templates/home.html:355
+msgid "17 rue Négrier<br>59 800 Lille, France"
 msgstr ""
 
 #: pages/templates/access.html:68
@@ -97,8 +99,9 @@ msgid ""
 "{{ lang }}reserver'>réserver</a> si ce n&#39;est pas déjà fait !"
 msgstr ""
 
-#: pages/templates/access.html:139
-msgid "Accès"
+#: pages/templates/access.html:139 pages/templates/footer.html:47
+#: pages/templates/header.html:57
+msgid "Access"
 msgstr ""
 
 #: pages/templates/base.html:55
@@ -117,7 +120,7 @@ msgstr ""
 msgid "Just Escape"
 msgstr ""
 
-#: pages/templates/base.html:90
+#: pages/templates/base.html:90 pages/templates/home.html:11
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr ""
 
@@ -126,11 +129,11 @@ msgid "Réservez Maintenant ⭐ Escape Game Lille ⭐ Just Escape"
 msgstr ""
 
 #: pages/templates/booking.html:8
-msgid "Réserver une salle"
+msgid "Book an escape room"
 msgstr ""
 
 #: pages/templates/booking.html:15
-msgid "Bénéficiez de nos réductions"
+msgid "Benefit from a discount"
 msgstr ""
 
 #: pages/templates/booking.html:22 pages/templates/home.html:179
@@ -140,112 +143,109 @@ msgstr ""
 
 #: pages/templates/booking.html:23 pages/templates/home.html:181
 #: pages/templates/pricing.html:21
-msgid "Par personne"
+msgid "Per person"
 msgstr ""
 
 #: pages/templates/booking.html:30 pages/templates/home.html:189
 #: pages/templates/pricing.html:28
-#, python-format
-msgid "-20%%"
+msgid "-20&#37;"
 msgstr ""
 
 #: pages/templates/booking.html:32 pages/templates/home.html:191
 #: pages/templates/pricing.html:30
-msgid "Heures creuses"
+msgid "Off-peak hours"
 msgstr ""
 
 #: pages/templates/booking.html:33 pages/templates/home.html:192
 #: pages/templates/pricing.html:31
-msgid "Du lundi au vendredi jusqu&#39;à 16h (inclu)"
+msgid "From monday to friday until 4PM (included)"
 msgstr ""
 
 #: pages/templates/booking.html:41 pages/templates/home.html:200
 #: pages/templates/pricing.html:39
-#, python-format
-msgid "-30%%"
+msgid "-30&#37;"
 msgstr ""
 
 #: pages/templates/booking.html:43 pages/templates/home.html:202
-msgid "Pour les <span class='font-weight-bold text-mulberry'>étudiants</span>"
+#: pages/templates/pricing.html:41
+msgid "For <span class='font-weight-bold text-mulberry'>students</span>"
 msgstr ""
 
 #: pages/templates/booking.html:44 pages/templates/home.html:203
 #: pages/templates/pricing.html:42
 msgid ""
-"Les paiements en ligne se font au plein tarif. Remboursement de la "
-"différence sur place sur présentation de la carte."
+"Online payments are made at full price. Refund of the difference on site "
+"upon presentation of the card."
 msgstr ""
 
 #: pages/templates/booking.html:51 pages/templates/home.html:210
 #: pages/templates/pricing.html:49
-msgid "Rupture de stock"
+msgid "Out of stock"
 msgstr ""
 
 #: pages/templates/booking.html:53 pages/templates/home.html:212
 #: pages/templates/pricing.html:51
-msgid "Offre spéciale"
+msgid "Special offer"
 msgstr ""
 
 #: pages/templates/booking.html:54 pages/templates/home.html:213
 #: pages/templates/pricing.html:52
-msgid "La dernière offre spéciale est en rupture de stock"
+msgid "The last special offer is out of stock"
 msgstr ""
 
 #: pages/templates/booking.html:55 pages/templates/home.html:214
 #: pages/templates/pricing.html:53
-msgid "Nous vous invitons à patienter"
+msgid "We invite you to wait"
 msgstr ""
 
 #: pages/templates/booking.html:57 pages/templates/home.html:216
 #: pages/templates/pricing.html:55
-msgid "Être averti"
+msgid "Get notified"
 msgstr ""
 
 #: pages/templates/booking.html:65
-msgid "Acheter une carte cadeau"
+msgid "Purchase a gift card"
 msgstr ""
 
 #: pages/templates/booking.html:72
-msgid "Formulaire de réservation"
+msgid "Booking form"
 msgstr ""
 
 #: pages/templates/booking.html:79
-msgid "J&#39;utilise mon<br>bon cadeau"
+msgid "I use my<br>gift voucher"
 msgstr ""
 
 #: pages/templates/booking.html:86
-msgid "Je choisis<br>une mission"
+msgid "I choose<br>a mission"
 msgstr ""
 
 #: pages/templates/booking.html:93
-msgid "Je paie au moins<br>une place"
+msgid "I pay at least<br>one place"
 msgstr ""
 
 #: pages/templates/booking.html:93
 msgid ""
-"Vous pouvez régler la totalité dès la réservation si cela vous simplifie la "
-"vie. Les réductions étudiantes sont remboursées sur place sur présentation "
-"de la carte."
+"You can pay the full amount at the time of booking if it makes your life "
+"easier. Student discounts are refunded on site upon presentation of the card."
 msgstr ""
 
 #: pages/templates/booking.html:100
-msgid "C&#39;est parti !"
+msgid "Let&#39; go!"
 msgstr ""
 
 #: pages/templates/booking.html:100
-msgid "Rendez-vous à l&#39;heure"
+msgid "Be on time"
 msgstr ""
 
 #: pages/templates/booking.html:100
 msgid ""
-"Attention : Un retard de 15 minutes entraînera l&#39;annulation de la "
-"session sans remboursement."
+"Attention: A delay of 15 minutes will result in the cancellation of the "
+"session without refund."
 msgstr ""
 
-#: pages/templates/booking.html:129 pages/templates/home.html:50
-#: pages/templates/home.html:226 pages/templates/pricing.html:65
-#: pages/templates/room.html:64
-msgid "Réserver"
+#: pages/templates/booking.html:129 pages/templates/gift-voucher.html:37
+#: pages/templates/header.html:30
+msgid "Booking"
 msgstr ""
 
 #: pages/templates/conditions.html:5
@@ -284,11 +284,14 @@ msgid "Contact"
 msgstr ""
 
 #: pages/templates/contact.html:45 pages/templates/home.html:336
-msgid "<span class='text-jaffa'>Tel :</span> +33 1 23 45 67 89<br>"
+msgid "<span class='text-jaffa'>Tel:</span> +33 1 23 45 67 89<br>"
 msgstr ""
 
 #: pages/templates/contact.html:46 pages/templates/home.html:337
-msgid "<span class='text-jaffa'>Mail :</span> contact@justescape.fr"
+msgid ""
+"<span class='text-jaffa'>Mail:</span> c<span hidden></span>ontac<span "
+"hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
+"hidden></span>.fr"
 msgstr ""
 
 #: pages/templates/contact.html:82
@@ -323,7 +326,8 @@ msgid "An unexpected error happened. Please contact us directly."
 msgstr ""
 
 #: pages/templates/contact.html:102 pages/templates/home.html:388
-msgid "Merci et à bientôt !"
+#: pages/templates/unsubscribe.html:25
+msgid "Thank you and see you soon!"
 msgstr ""
 
 #: pages/templates/contact.html:105 pages/templates/home.html:391
@@ -332,7 +336,7 @@ msgid "marmitron@justescape.fr"
 msgstr ""
 
 #: pages/templates/contact.html:107 pages/templates/home.html:393
-msgid "Je m&#39;abonne"
+msgid "Subscribe"
 msgstr ""
 
 #: pages/templates/faq.html:7 pages/templates/faq.html:10
@@ -478,8 +482,8 @@ msgstr ""
 
 #: pages/templates/faq.html:141
 msgid ""
-"If you do not like to pay on the internet, you can do it in our premises, "
-"but you will have to come in advance to validate the reservation."
+"If you do not like to pay on the internet, you can do it in our estate, but "
+"you will have to come in advance to validate the reservation."
 msgstr ""
 
 #: pages/templates/faq.html:144
@@ -614,7 +618,7 @@ msgid "Where is located Just Escape?"
 msgstr ""
 
 #: pages/templates/faq.html:281
-msgid "We don&#39;t have any premises at the moment!"
+msgid "We don&#39;t have any estate at the moment!"
 msgstr ""
 
 #: pages/templates/faq.html:290
@@ -751,10 +755,6 @@ msgstr ""
 msgid "We are not on yelp but we like this platform!"
 msgstr ""
 
-#: pages/templates/footer.html:47 pages/templates/header.html:57
-msgid "Access"
-msgstr ""
-
 #: pages/templates/footer.html:48 pages/templates/header.html:60
 msgid "Soon"
 msgstr ""
@@ -783,10 +783,6 @@ msgstr ""
 msgid "Plaisir d&#39;offrir, joie de recevoir..."
 msgstr ""
 
-#: pages/templates/gift-voucher.html:37 pages/templates/header.html:30
-msgid "Booking"
-msgstr ""
-
 #: pages/templates/gift-voucher.html:43
 msgid "Gift voucher"
 msgstr ""
@@ -795,7 +791,7 @@ msgstr ""
 msgid "Escape Game Lille"
 msgstr ""
 
-#: pages/templates/header.html:27
+#: pages/templates/header.html:27 pages/templates/room.html:184
 msgid "Rooms"
 msgstr ""
 
@@ -825,20 +821,16 @@ msgid ""
 "sensationnels 👌 Scénario Digimiam le restaurant du futur 🤖"
 msgstr ""
 
-#: pages/templates/home.html:11
-msgid "Un des escape games les plus immersifs à&nbsp;Lille"
-msgstr ""
-
 #: pages/templates/home.html:20
-msgid "Nos Escape Rooms"
+msgid "Our escape rooms"
 msgstr ""
 
 #: pages/templates/home.html:30 pages/templates/room.html:26
-msgid "Nouveau"
+msgid "New"
 msgstr ""
 
 #: pages/templates/home.html:39 pages/templates/room.html:33
-msgid "Le Digimiam"
+msgid "The Digimiam"
 msgstr ""
 
 #: pages/templates/home.html:40
@@ -861,11 +853,17 @@ msgid ""
 msgstr ""
 
 #: pages/templates/home.html:45
-msgid "La salle"
+msgid "The room"
+msgstr ""
+
+#: pages/templates/home.html:50 pages/templates/home.html:226
+#: pages/templates/pricing.html:65 pages/templates/room.html:64
+#: pages/templates/teambuilding.html:108
+msgid "Book now"
 msgstr ""
 
 #: pages/templates/home.html:67 pages/templates/room.html:44
-msgid "2 à 4 joueurs"
+msgid "2 - 4 players"
 msgstr ""
 
 #: pages/templates/home.html:74 pages/templates/home.html:122
@@ -879,10 +877,10 @@ msgid "FR / EN"
 msgstr ""
 
 #: pages/templates/home.html:95 pages/templates/room.html:118
-msgid "À venir"
+msgid "[room]Soon"
 msgstr ""
 
-#: pages/templates/home.html:102 pages/templates/room.html:124
+#: pages/templates/home.html:102
 msgid "Salle horreur"
 msgstr ""
 
@@ -901,7 +899,7 @@ msgid "La création des énigmes est encore en cours."
 msgstr ""
 
 #: pages/templates/home.html:115 pages/templates/room.html:132
-msgid "4 à 6 joueurs"
+msgid "4 - 6 players"
 msgstr ""
 
 #: pages/templates/home.html:146
@@ -909,7 +907,7 @@ msgid "Le concept des Escapes Games"
 msgstr ""
 
 #: pages/templates/home.html:151
-msgid "Jeu d&#39;évasion"
+msgid "Escape the Room"
 msgstr ""
 
 #: pages/templates/home.html:152
@@ -924,23 +922,22 @@ msgid ""
 msgstr ""
 
 #: pages/templates/home.html:155
-msgid "L&#39;originalité de Just Escape"
+msgid "The originality of Just Escape"
 msgstr ""
 
 #: pages/templates/home.html:156
-#, python-format
 msgid ""
 "Just Escape est un jeu d&#39;évasion 2.0 dans lequel on vous propose des "
 "énigmes originales sans cadenas<span class='emoji'>&nbsp;🎯</span>. Nous "
 "mettons également l&#39;accent sur la qualité de l&#39;immersion en "
 "réalisant des décors dignes de cinéma<span class='emoji'>&nbsp;🗿</span>. Nos "
-"énigmes 100%% connectées influent sur l&#39;ambiance de nos salles pour vous "
-"offrir une expérience la plus réaliste possible. Notre première salle peut "
-"être jouée à deux personnes à prix abordable."
+"énigmes 100&#37; connectées influent sur l&#39;ambiance de nos salles pour "
+"vous offrir une expérience la plus réaliste possible. Notre première salle "
+"peut être jouée à deux personnes à prix abordable."
 msgstr ""
 
 #: pages/templates/home.html:159
-msgid "Teambuilding, EVG, EVJF"
+msgid "Teambuilding, Bachelor party"
 msgstr ""
 
 #: pages/templates/home.html:160
@@ -954,18 +951,17 @@ msgid ""
 "adaptatifs."
 msgstr ""
 
-#: pages/templates/home.html:171 pages/templates/pricing.html:14
-msgid "Quel est le prix d&#39;un scénario&nbsp;?"
+#: pages/templates/home.html:171
+msgid "What is the price of a scenario?"
 msgstr ""
 
 #: pages/templates/home.html:228 pages/templates/pricing.html:67
-msgid "Devis entreprise"
+msgid "Company quote"
 msgstr ""
 
 #: pages/templates/home.html:239
 msgid ""
-"Le meilleur escape game de&nbsp;Lille —&nbsp;La&nbsp;maman&nbsp;du&nbsp;"
-"designer"
+"The best live escape game in&nbsp;Lille —&nbsp;The designer&#39;s&nbsp;mom"
 msgstr ""
 
 #: pages/templates/home.html:248 pages/templates/home.html:265
@@ -994,15 +990,7 @@ msgid "— Shirley, une descendante supposée de Sherlock Holmes"
 msgstr ""
 
 #: pages/templates/home.html:301
-msgid "Comment rejoindre notre local à Lille&nbsp;?"
-msgstr ""
-
-#: pages/templates/home.html:317
-msgid "<span class='text-jaffa'>Lundi-vendredi : </span> 14h-23h<br>"
-msgstr ""
-
-#: pages/templates/home.html:355
-msgid "17 rue négrier<br>59 800 Lille"
+msgid "How to get to our estate in&nbsp;Lille?"
 msgstr ""
 
 #: pages/templates/news.html:5
@@ -1018,92 +1006,92 @@ msgid "Quels sont nos Prix ? Escape Game Lille — Just Escape"
 msgstr ""
 
 #: pages/templates/pricing.html:7
-msgid "Quels sont nos Prix ?"
+msgid "What is our price?"
 msgstr ""
 
-#: pages/templates/pricing.html:41
-msgid "Pour les <span class="
+#: pages/templates/pricing.html:14
+msgid "Price of a scenario"
 msgstr ""
 
 #: pages/templates/pricing.html:76
-msgid "Venez fêter vos événements chez nous"
+msgid "Come and celebrate your events with us"
 msgstr ""
 
 #: pages/templates/pricing.html:82
-msgid "Menu Gourmand"
+msgid "Gourmet menu"
 msgstr ""
 
 #: pages/templates/pricing.html:86
 msgid ""
-"Collation sucrée</span> (boissons, madeleines, fruits, fromage&nbsp;"
-"blanc)<br>"
+"<span class='font-weight-bold'>Sweet snack</span> (soft drinks, madeleines, "
+"fruits, dairy&nbsp;product)"
 msgstr ""
 
 #: pages/templates/pricing.html:88 pages/templates/pricing.html:107
-msgid "1 <span class='font-weight-bold'>Photo imprimée</span> en&nbsp;HD"
+msgid "1 HD <span class='font-weight-bold'>printed photo</span>"
 msgstr ""
 
 #: pages/templates/pricing.html:92
-msgid "<span class='text-mulberry'>+7€</span> par personne"
+msgid "<span class='text-mulberry'>+7€</span> per person"
 msgstr ""
 
 #: pages/templates/pricing.html:93 pages/templates/pricing.html:112
 #: pages/templates/pricing.html:126 pages/templates/pricing.html:141
-msgid "<span class='text-jaffa'>Suggéré pour :</span>"
+msgid "<span class='text-jaffa'>Suggested for:</span>"
 msgstr ""
 
 #: pages/templates/pricing.html:93
-msgid "Petit&nbsp;déj&#39;, Goûter, Anniversaire"
+msgid "Breakfast, Snack, Birthday"
 msgstr ""
 
 #: pages/templates/pricing.html:101
-msgid "Menu Apéro"
+msgid "Aperitif menu"
 msgstr ""
 
 #: pages/templates/pricing.html:105
 msgid ""
-"Apéritif salé</span> (bière ou verre&nbsp;de&nbsp;vin, saucisson, "
-"biscuits&nbsp;apéritif)"
+"<span class='font-weight-bold'>Salted aperitif</span> (beer or glass&nbsp;"
+"of&nbsp;wine, dry sausage, appetizers)"
 msgstr ""
 
 #: pages/templates/pricing.html:111
-msgid "<span class='text-mulberry'>+10€</span> par personne</p>"
+msgid "<span class='text-mulberry'>+10€</span> per person"
 msgstr ""
 
 #: pages/templates/pricing.html:112
-msgid "EVG, EVJF, Anniversaire"
+msgid "Stag&nbsp;/ Hen&nbsp;/ Bachelor party, Birthday"
 msgstr ""
 
 #: pages/templates/pricing.html:120
-msgid "Carte cadeau"
+msgid "Gift card"
 msgstr ""
 
 #: pages/templates/pricing.html:123
 msgid ""
-"Vos proches vont vous adorer avec ce <a class='text-underline' href='/"
-"{{ lang }}carte-cadeau'>coffret&nbsp;cadeau</a>."
+"Your friends and family will love you with this <a href='/en/carte-cadeau' "
+"class='text-underline'>gift&nbsp;box</a>."
 msgstr ""
 
 #: pages/templates/pricing.html:126
-msgid "Noël, Cagnotte, Tombola"
+msgid "Christmas, Money&nbsp;pot, Lottery"
 msgstr ""
 
 #: pages/templates/pricing.html:134
-msgid "Entreprises"
+msgid "Corporate"
 msgstr ""
 
 #: pages/templates/pricing.html:137
-msgid "C&#39;est difficile de motiver ses équipes en&nbsp;2019."
+msgid "It&#39;s tough to motivate your teams in&nbsp;2019."
 msgstr ""
 
 #: pages/templates/pricing.html:138
 msgid ""
-"Heureusement on a des <a class='text-underline' href='/{{ lang }}team-"
-"building'>packs Team Building clé&nbsp;en&nbsp;main</a>."
+"Fortunately, we have <a class='text-underline' href='/en/team-"
+"building'>turnkey Team&nbsp;Building packages</a>."
 msgstr ""
 
 #: pages/templates/pricing.html:141
-msgid "Séminaire, Workshop, Teambuilding"
+msgid "Seminar, Workshop, Teambuilding"
 msgstr ""
 
 #: pages/templates/room.html:5
@@ -1111,11 +1099,11 @@ msgid "Nos Escape Rooms ⭐ Escape Game Lille ⭐ Just Escape"
 msgstr ""
 
 #: pages/templates/room.html:8
-msgid "Découvrez nos scénarios"
+msgid "Discover our scenarios"
 msgstr ""
 
 #: pages/templates/room.html:19
-msgid "Plus d&#39;infos"
+msgid "More info"
 msgstr ""
 
 #: pages/templates/room.html:98
@@ -1126,8 +1114,8 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: pages/templates/room.html:184
-msgid "Salles"
+#: pages/templates/room.html:124
+msgid "Horror room"
 msgstr ""
 
 #: pages/templates/teambuilding.html:5
@@ -1135,15 +1123,15 @@ msgid "Escape Game à Lille ⭐⭐⭐⭐⭐ Bon plan Team Building 👌"
 msgstr ""
 
 #: pages/templates/teambuilding.html:16
-msgid "Nos solutions de team building"
+msgid "Turnkey team building"
 msgstr ""
 
 #: pages/templates/teambuilding.html:23
-msgid "Les packs les plus populaires après un bon escape game"
+msgid "Most popular packs after a good escape game"
 msgstr ""
 
 #: pages/templates/teambuilding.html:33
-msgid "Petit déj&#39;"
+msgid "Breakfast"
 msgstr ""
 
 #: pages/templates/teambuilding.html:36
@@ -1151,94 +1139,91 @@ msgid "Cocktail"
 msgstr ""
 
 #: pages/templates/teambuilding.html:39
-msgid "Apéritif dinatoire"
+msgid "Dinner aperitif"
 msgstr ""
 
 #: pages/templates/teambuilding.html:42
-msgid "Workshop bien mérité"
+msgid "Well deserved workshop"
 msgstr ""
 
 #: pages/templates/teambuilding.html:48
-msgid "Photos imprimées en&nbsp;HD"
+msgid "Drinks"
+msgstr ""
+
+#: pages/templates/teambuilding.html:49 pages/templates/teambuilding.html:52
+msgid "Softs"
+msgstr ""
+
+#: pages/templates/teambuilding.html:50 pages/templates/teambuilding.html:51
+msgid "Beer or glass&nbsp;of&nbsp;wine"
 msgstr ""
 
 #: pages/templates/teambuilding.html:55
-msgid "Boissons"
-msgstr ""
-
-#: pages/templates/teambuilding.html:56 pages/templates/teambuilding.html:59
-msgid "Sans alcool"
-msgstr ""
-
-#: pages/templates/teambuilding.html:57 pages/templates/teambuilding.html:58
-msgid "Bière ou verre&nbsp;de&nbsp;vin"
-msgstr ""
-
-#: pages/templates/teambuilding.html:62
 msgid "Menu"
 msgstr ""
 
-#: pages/templates/teambuilding.html:64
+#: pages/templates/teambuilding.html:57
 msgid ""
-"<span class='font-weight-bold'>Collation sucrée</span> (madeleines, fruits, "
-"produit&nbsp;laitier)"
+"<span class='font-weight-bold'>Sweet snack</span> (madeleines, fruits, "
+"dairy&nbsp;product)"
 msgstr ""
 
-#: pages/templates/teambuilding.html:67
+#: pages/templates/teambuilding.html:60
 msgid ""
-"<span class='font-weight-bold'>Apéritif salé</span> (saucisson, "
-"biscuits&nbsp;apéritif)"
+"<span class='font-weight-bold'>Salted aperitif</span> (dry&nbsp;sausage, "
+"appetizers)"
+msgstr ""
+
+#: pages/templates/teambuilding.html:63
+msgid "<span class='font-weight-bold'>Caterer</span>"
 msgstr ""
 
 #: pages/templates/teambuilding.html:70
-msgid "<span class='font-weight-bold'>Traiteur</span>"
+msgid "Privatization of the reception room (30&nbsp;m²) after the game"
 msgstr ""
 
 #: pages/templates/teambuilding.html:77
-msgid "Privatisation de la salle de réception (30&nbsp;m²) après la partie"
+msgid "Full privatization of the estate"
+msgstr ""
+
+#: pages/templates/teambuilding.html:78 pages/templates/teambuilding.html:79
+#: pages/templates/teambuilding.html:80
+msgid "Optional"
 msgstr ""
 
 #: pages/templates/teambuilding.html:84
-msgid "Privatisation entière des locaux"
-msgstr ""
-
-#: pages/templates/teambuilding.html:85 pages/templates/teambuilding.html:86
-#: pages/templates/teambuilding.html:87
-msgid "En option"
+msgid "HD printed photos"
 msgstr ""
 
 #: pages/templates/teambuilding.html:91
-msgid "Prix"
+msgid "Price"
 msgstr ""
 
 #: pages/templates/teambuilding.html:92
-msgid "<span class='text-mulberry'>+15€</span> par participant*"
+msgid "<span class='text-mulberry'>+15€</span> per participant*"
 msgstr ""
 
 #: pages/templates/teambuilding.html:93
-msgid "<span class='text-mulberry'>+20€</span> par participant*"
+msgid "<span class='text-mulberry'>+20€</span> per participant*"
 msgstr ""
 
 #: pages/templates/teambuilding.html:94
-msgid "<span class='text-mulberry'>+35€</span> par participant*"
+msgid "<span class='text-mulberry'>+35€</span> per participant*"
 msgstr ""
 
 #: pages/templates/teambuilding.html:95
-msgid "À partir de <span class='text-mulberry'>150€</span>*"
+msgid "From <span class='text-mulberry'>150€</span>*"
 msgstr ""
 
 #: pages/templates/teambuilding.html:103
 msgid ""
-"(*) Prix HT. Ne comprend pas le prix d&#39;une session de jeu. Le prix d&#39;"
-"une heure de jeu est de 25€ TTC par personne, soit 20€ HT."
-msgstr ""
-
-#: pages/templates/teambuilding.html:108
-msgid "Book now"
+"(*) Price excluding tax. Does not include the price of a game session. The "
+"price of one hour of play is 25€ all taxes included per person, or 20€ "
+"excluding tax."
 msgstr ""
 
 #: pages/templates/teambuilding.html:119
-msgid "Formulaire de devis"
+msgid "Quote form"
 msgstr ""
 
 #: pages/templates/teambuilding.html:137
@@ -1252,7 +1237,7 @@ msgid "Options"
 msgstr ""
 
 #: pages/templates/teambuilding.html:335
-msgid "Envoyer"
+msgid "Submit"
 msgstr ""
 
 #: pages/templates/terms.html:5
@@ -1270,13 +1255,9 @@ msgid "General terms of use"
 msgstr ""
 
 #: pages/templates/unsubscribe.html:11
-msgid "Se désabonner de la newsletter"
-msgstr ""
-
-#: pages/templates/unsubscribe.html:25
-msgid "Au revoir et à bientôt !"
+msgid "Unsubscribe from the newsletter"
 msgstr ""
 
 #: pages/templates/unsubscribe.html:30
-msgid "Je me désabonne"
+msgid "Unsubscribe"
 msgstr ""

@@ -5,14 +5,14 @@
 {% block title %}{% trans "Réservez Maintenant ⭐ Escape Game Lille ⭐ Just Escape" %}{% endblock %}
 {% block description %}{% endblock %}
 
-{% block h1 %}{% trans "Réserver une salle" %}{% endblock %}
+{% block h1 %}{% trans "Book an escape room" %}{% endblock %}
 
 {% block content %}
 
   <div class="jumbotron">
     <div class="container">
       <div class="row mb-3">
-        <h2 class="text-jaffa">{% trans "Bénéficiez de nos réductions" %}</h2>
+        <h2 class="text-jaffa">{% trans "Benefit from a discount" %}</h2>
       </div>
 
       <div class="row d-flex justify-content-center flex-wrap">
@@ -20,17 +20,17 @@
           <div class="card deepdark border-jaffa h-100">
             <div class="card-body text-center mt-4 mb-5">
               <h3 class="size-5 card-title text-jaffa">{% trans "25€" %}</h3>
-              <p class="card-text font-italic">{% trans "Par personne" %}</p>
+              <p class="card-text font-italic">{% trans "Per person" %}</p>
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-7 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-body text-center mt-4 mb-5">
-              <h3 class="size-5 card-title text-jaffa">{% trans "-20%" %}</h3>
+              <h3 class="size-5 card-title text-jaffa">{% trans "-20&#37;" %}</h3>
               <p class="card-text font-italic">
-              {% trans "Heures creuses" %}
-                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "Du lundi au vendredi jusqu&#39;à 16h (inclu)" %}"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
+              {% trans "Off-peak hours" %}
+                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "From monday to friday until 4PM (included)" %}"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
               </p>
             </div>
           </div>
@@ -38,23 +38,23 @@
         <div class="col-12 col-sm-7 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-body text-center mt-4 mb-5">
-              <h3 class="size-5 card-title text-jaffa">{% trans "-30%" %}</h3>
+              <h3 class="size-5 card-title text-jaffa">{% trans "-30&#37;" %}</h3>
               <p class="card-text font-italic">
-                {% trans "Pour les <span class='font-weight-bold text-mulberry'>étudiants</span>" %}
-                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "Les paiements en ligne se font au plein tarif. Remboursement de la différence sur place sur présentation de la carte." %}"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
+                {% trans "For <span class='font-weight-bold text-mulberry'>students</span>" %}
+                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "Online payments are made at full price. Refund of the difference on site upon presentation of the card." %}"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
               </p>
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-7 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
-            <div class="ribbon ribbon-top-left ribbon-jaffa"><span>{% trans "Rupture de stock" %}</span></div>
+            <div class="ribbon ribbon-top-left ribbon-jaffa"><span>{% trans "Out of stock" %}</span></div>
             <div class="card-body text-center">
-              <h3 class="size-35 card-title text-jaffa">{% trans "Offre spéciale" %}</h3>
-              <p class="card-text font-italic small">{% trans "La dernière offre spéciale est en rupture de stock" %}</p>
-              <p class="card-text font-italic small">{% trans "Nous vous invitons à patienter" %}</p>
+              <h3 class="size-35 card-title text-jaffa">{% trans "Special offer" %}</h3>
+              <p class="card-text font-italic small">{% trans "The last special offer is out of stock" %}</p>
+              <p class="card-text font-italic small">{% trans "We invite you to wait" %}</p>
               <a class="btn btn-secondary float-right border-0" href="/{{ lang }}#newsletter">
-                <span>{% trans "Être averti" %}</span>
+                <span>{% trans "Get notified" %}</span>
               </a>
             </div>
           </div>
@@ -62,42 +62,42 @@
       </div>
       <div class="row mb-5">
         <div class="col text-center">
-          <a href="/{{ lang }}carte-cadeau" class="size-09 text-underline text-hover-mulberry">{% trans "Acheter une carte cadeau" %}</a>
+          <a href="/{{ lang }}carte-cadeau" class="size-09 text-underline text-hover-mulberry">{% trans "Purchase a gift card" %}</a>
         </div>
       </div>
     </div>
 
     <div class="container px-0">
       <div class="row mb-3">
-        <h2 class="text-jaffa">{% trans "Formulaire de réservation" %}</h2>
+        <h2 class="text-jaffa">{% trans "Booking form" %}</h2>
       </div>
 
       <div class="softdark mb-3 py-3 d-flex flex-row justify-content-center text-center rounded">
         <div class="d-flex flex-column flex-md-row">
           <div class="mb-3 mx-2 mb-md-0">
             <span class="d-block svg-36px fill-light mb-1">{% include "svg/discount.svg" %}</span>
-            <div class="size-09">{% trans "J&#39;utilise mon<br>bon cadeau" %}</div>
+            <div class="size-09">{% trans "I use my<br>gift voucher" %}</div>
           </div>
           <div class="mb-3 mx-2 my-md-auto">
             <span class="d-block svg-32px rotate-xl-sm-90 fill-light opacity-07">{% include "svg/arrow-right.svg" %}</span>
           </div>
           <div class="mb-3 mx-2 mb-md-0">
             <span class="d-block svg-36px fill-light mb-1">{% include "svg/calendar-check.svg" %}</span>
-            <div class="size-09">{% trans "Je choisis<br>une mission" %}</div>
+            <div class="size-09">{% trans "I choose<br>a mission" %}</div>
           </div>
           <div class="mb-3 mx-2 my-md-auto">
             <span class="d-block svg-32px rotate-xl-sm-90 fill-light opacity-07">{% include "svg/arrow-right.svg" %}</span>
           </div>
           <div class="mb-3 mx-2 mb-md-0">
             <span class="d-block svg-36px fill-light mb-1">{% include "svg/credit-card.svg" %}</span>
-            <div class="size-09">{% trans "Je paie au moins<br>une place" %} <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-content="{% trans "Vous pouvez régler la totalité dès la réservation si cela vous simplifie la vie. Les réductions étudiantes sont remboursées sur place sur présentation de la carte." %}"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/question-circle.svg" %}</span></a></div>
+            <div class="size-09">{% trans "I pay at least<br>one place" %} <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-content="{% trans "You can pay the full amount at the time of booking if it makes your life easier. Student discounts are refunded on site upon presentation of the card." %}"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/question-circle.svg" %}</span></a></div>
           </div>
           <div class="mb-3 mx-2 my-md-auto">
             <span class="d-block svg-32px rotate-xl-sm-90 fill-light opacity-07">{% include "svg/arrow-right.svg" %}</span>
           </div>
           <div class="mx-2">
             <span class="d-block svg-36px fill-light mb-1">{% include "svg/grin-beam.svg" %}</span>
-            <div class="size-09">{% trans "C&#39;est parti !" %} <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="{% trans "Rendez-vous à l&#39;heure" %}" data-content="{% trans "Attention : Un retard de 15 minutes entraînera l&#39;annulation de la session sans remboursement." %}"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/clock.svg" %}</span></a></div>
+            <div class="size-09">{% trans "Let&#39; go!" %} <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="{% trans "Be on time" %}" data-content="{% trans "Attention: A delay of 15 minutes will result in the cancellation of the session without refund." %}"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/clock.svg" %}</span></a></div>
           </div>
         </div>
       </div>
@@ -126,7 +126,7 @@
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "{% trans "Réserver" %}",
+                "name": "{% trans "Booking" %}",
                 "item": "https://just-escape.fr/{{ lang }}reserver"
             }
         ]

@@ -8,7 +8,7 @@
 
   <div class="jumbotron px-0">
     <div class="container">
-      <h1 class="text-jaffa mb-2">{% trans "Se désabonner de la newsletter" %}</h1>
+      <h1 class="text-jaffa mb-2">{% trans "Unsubscribe from the newsletter" %}</h1>
       <div class="row">
         <div class="col-12 col-md-7 col-lg-6">
           <form action="/{{ lang }}desabonnement" method="post">
@@ -22,12 +22,12 @@
             {% endif %}
 
             {% if subscription_success %}
-            <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="{% trans "Au revoir et à bientôt !" %}">
+            <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="{% trans "Thank you and see you soon!" %}">
             {% endif %}
               <div class="input-group">
                 <input type="text" spellcheck="false" class="form-control" placeholder="{% trans "marmitron@justescape.fr" %}" name="{{ form.email.name }}" required>
                 <div class="input-group-append">
-                  <button class="btn btn-secondary" type="submit"><span>{% trans "Je me désabonne" %}</span></button>
+                  <button class="btn btn-secondary" type="submit"><span>{% trans "Unsubscribe" %}</span></button>
                 </div>
               </div>
             {% if subscription_success %}
