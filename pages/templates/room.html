@@ -2,8 +2,11 @@
 
 {% load i18n %}
 
-{% block title %}{% trans "Nos Escape Rooms ⭐ Escape Game Lille ⭐ Just Escape" %}{% endblock %}
-{% block description %}{% endblock %}
+{% block title %}{% trans "Escape Rooms ⭐ Escape Game Lille ⭐ Just Escape" %}{% endblock %}
+{% block description %}{% trans "Discover The Digimiam, a futuristic restaurant 🍽 🤖 Ideal for an outing with friends 😃" %}{% endblock %}
+
+{% block og_title %}{% trans "Our Escape Rooms" %}{% endblock %}
+{% block og_description %}{% trans "Discover The Digimiam, a futuristic restaurant 🍽 🤖 Ideal for an outing with friends 😃" %}{% endblock %}
 
 {% block h1 %}{% trans "Discover our scenarios" %}{% endblock %}
 
@@ -115,7 +118,7 @@
             <div class="d-flex flex-column flex-sm-row">
               <div class="d-flex justify-content-center mb-3 mb-sm-0 mr-sm-3">
                 <div class="width-170px position-relative my-auto my-lg-2">
-                  <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "[room]Soon" %}</span></div>
+                  <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "[room] Soon" %}</span></div>
                   {% include "svg/puppet.svg" %}
                 </div>
               </div>
