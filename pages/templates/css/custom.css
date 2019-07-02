@@ -514,6 +514,10 @@ a:hover {
     width: 170px;
 }
 
+.width-100px svg {
+    width: 100px;
+}
+
 .ri-door {
     transform-origin: 0 50%;
 }
@@ -568,6 +572,10 @@ a:hover {
 .svg-64px svg {
     width: 64px;
     height: 64px;
+}
+
+.fill-mulberry svg {
+    fill: #cb4299;
 }
 
 .fill-jaffa svg {
@@ -667,6 +675,14 @@ input.form-control::placeholder {
 /* form */
 
 /* misc */
+.height-400px {
+    height: 400px;
+}
+
+.height-200px {
+    height: 200px;
+}
+
 .border-solid {
     border: 1px solid #f8f9fa;
 }

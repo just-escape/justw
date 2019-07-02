@@ -37,8 +37,8 @@
                 <div>
                   <span id="digimiam" class="anchor">&nbsp;</span>
                   <h3 class="size-25 text-light-shadow mb-0"><a href="/{{ lang }}salles?show=d1#digimiam">{% trans "The Digimiam" %}</a></h3>
-                  <p class="text-justify">{% trans "Vous êtes à Lille en 2080 dans un <span class='font-weight-bold'>restaurant futuriste</span>. Les neurones de l&#39;<span class='font-weight-bold'>IA de cuisine</span> du Digimiam ont court-circuité&nbsp;! À vous de vous infiltrer à travers un labyrinthe laser et de reprendre le contrôle des <span class='font-weight-bold'>bras robotiques</span>&nbsp;! Parviendrez-vous à résoudre toutes nos <span class='font-weight-bold'>énigmes originales</span> dans des <span class='font-weight-bold'>décors immersifs</span>&nbsp;?" %}</p>
-                  <p class="text-justify size-09">{% trans "Le scénario est jouable à partir de <span class='font-weight-bold'>2 personnes</span> et <span class='font-weight-bold'>jusqu&#39;à 8</span> sur deux salles." %}</p>
+                  <p>{% trans "Vous êtes à Lille en 2080 dans un <span class='font-weight-bold'>restaurant futuriste</span>. Les neurones de l&#39;<span class='font-weight-bold'>IA de cuisine</span> du Digimiam ont court-circuité&nbsp;! À vous de vous infiltrer à travers un labyrinthe laser et de reprendre le contrôle des <span class='font-weight-bold'>bras robotiques</span>&nbsp;! Parviendrez-vous à résoudre toutes nos <span class='font-weight-bold'>énigmes originales</span> dans des <span class='font-weight-bold'>décors immersifs</span>&nbsp;?" %}</p>
+                  <p class="size-09">{% trans "Le scénario est jouable à partir de <span class='font-weight-bold'>2 personnes</span> et <span class='font-weight-bold'>jusqu&#39;à 8</span> sur deux salles." %}</p>
                   <div class="row d-flex flex-row justify-content-end">
                     <div class="col-6 pr-1">
                       <a href="/{{ lang }}salles?show=d1#digimiam" class="btn btn-secondary btn-block">
@@ -91,7 +91,7 @@
             <div class="card-body p-0">
               <div class="d-flex flex-column flex-sm-row">
                 <div class="d-flex justify-content-center mb-3 mr-sm-2">
-                  <div class="width-170px position-relative my-auto my-lg-0">
+                  <div class="width-170px position-relative my-auto my-lg-0 opacity-05">
                     <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "[room] Soon" %}</span></div>
                     {% include "svg/puppet.svg" %}
                   </div>
@@ -100,8 +100,8 @@
                 <div>
                   <span id="room2" class="anchor">&nbsp;</span>
                   <h3 class="size-25 text-light-shadow opacity-05 mb-0">{% trans "Salle horreur" %} <span class="d-inline-block svg-36px fill-light align-baseline">{% include "svg/minus-12.svg" %}</span></h3>
-                  <p class="text-justify opacity-05">{% trans "Nous allons ouvrir un nouvel <strong>escape game d&#39;horreur sur Lille</strong>. Plongés au milieu d&#39;une forêt, vous découvrez le <strong>mystérieux manoir</strong> d&#39;une marionnettiste. Échapperez-vous au spectable macabre des marionnettes&nbsp;? Êtes-vous prêts à mettre votre vie et celle de votre équipe en jeu&nbsp;? L&#39;<strong>adrénaline</strong> monte... Scénario à jouer le soir&nbsp;!" %}</p>
-                  <p class="text-justify size-09 opacity-05">{% trans "La création des énigmes est encore en cours." %}</p>
+                  <p class="opacity-05">{% trans "Nous allons ouvrir un nouvel <strong>escape game d&#39;horreur sur Lille</strong>. Plongés au milieu d&#39;une forêt, vous découvrez le <strong>mystérieux manoir</strong> d&#39;une marionnettiste. Échapperez-vous au spectable macabre des marionnettes&nbsp;? Êtes-vous prêts à mettre votre vie et celle de votre équipe en jeu&nbsp;? L&#39;<strong>adrénaline</strong> monte... Scénario à jouer le soir&nbsp;!" %}</p>
+                  <p class="size-09 opacity-05">{% trans "La création des énigmes est encore en cours." %}</p>
                 </div>
               </div>
             </div>
@@ -352,7 +352,7 @@
                 <div>
                   <h3 class="text-jaffa size-15 mb-1">{% trans "Address" %}</h3>
                   <p class="lh-12 mb-0">
-                    {% trans "17 rue Négrier<br>59 800 Lille, France" %}
+                    {% trans "24 rue d&#39;Arras<br>59 800 Lille, France" %}
                   </p>
                 </div>
               </div>
@@ -409,15 +409,23 @@
     var isDisplayed = false;
 
     function initMap() {
-        var coords = {lat: 50.6425341, lng: 3.0563218}
+        var coords = {lat: 50.6235063, lng: 3.0677556};
+
         var map = new google.maps.Map(document.getElementById('map'), {
             center: coords,
-            zoom: 18,
+            zoom: 15,
             disableDefaultUI: true,
             fullscreenControl: true,
             zoomControl: true,
             scrollwheel: false
         });
+
+        var marker = new google.maps.Marker({
+            position: coords,
+            title: "Just Escape"
+        });
+
+        marker.setMap(map);
     }
 
     function displayMap() {

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-02 17:02+0200\n"
+"POT-Creation-Date: 2019-07-02 23:05+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -50,13 +50,13 @@ msgstr "Accès ⭐ Escape Game Lille ⭐ Just Escape"
 #: pages/templates/access.html:6 pages/templates/access.html:9
 #: pages/templates/contact.html:6 pages/templates/contact.html:9
 msgid ""
-"24 rue d'Arras 59 800 Lille — How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 — +33 1 23 45 "
-"67 89"
-msgstr ""
-"24 rue d'Arras 59 800 Lille — Comment s'y rendre ? 🚶 🚲  🚗 🚉 ✈ 🚀 — +33 1 23 "
+"24 rue d&#39;Arras 59 800 Lille — How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 — +33 1 23 "
 "45 67 89"
+msgstr ""
+"24 rue d&#39;Arras 59 800 Lille — Comment s'y rendre ? 🚶 🚲  🚗 🚉 ✈ 🚀 — +33 1 "
+"23 45 67 89"
 
-#: pages/templates/access.html:8 pages/templates/access.html:142
+#: pages/templates/access.html:8 pages/templates/access.html:144
 #: pages/templates/footer.html:47 pages/templates/header.html:57
 msgid "Access"
 msgstr "Accès"
@@ -87,43 +87,24 @@ msgstr "Adresse"
 
 #: pages/templates/access.html:50 pages/templates/contact.html:67
 #: pages/templates/home.html:355
-msgid "17 rue Négrier<br>59 800 Lille, France"
-msgstr "17 rue Négrier<br>59 800 Lille"
+msgid "24 rue d&#39;Arras<br>59 800 Lille, France"
+msgstr "24 rue d&#39;Arras<br>59 800 Lille"
 
-#: pages/templates/access.html:71
-msgid "Venir à pied"
-msgstr ""
+#: pages/templates/access.html:71 pages/templates/access.html:86
+msgid "Here are some explanations"
+msgstr "Voici des explications"
 
-#: pages/templates/access.html:77
-msgid "Venir en transports"
-msgstr ""
+#: pages/templates/access.html:72 pages/templates/access.html:87
+msgid "On how to come"
+msgstr "Sur comment venir"
 
-#: pages/templates/access.html:86
-msgid "Venir en voiture"
-msgstr ""
+#: pages/templates/access.html:77 pages/templates/access.html:92
+msgid "We don&#39;t have a local yet"
+msgstr "Nous n&#39;avons pas de local pour l&#39;instant"
 
-#: pages/templates/access.html:92
-msgid "Venir à vélo"
-msgstr ""
-
-#: pages/templates/access.html:103 pages/templates/contact.html:84
-msgid ""
-"N&#39;hésitez pas à passer sur <a class='text-jaffa font-weight-bold' href='/"
-"{{ lang }}faq'>notre FAQ</a>."
-msgstr ""
-
-#: pages/templates/access.html:104
-msgid ""
-"Retrouvez toutes les informations pour nous joindre directement sur notre <a "
-"class='text-jaffa font-weight-bold' href='/{{ lang }}contact'>page de "
-"contact</a>."
-msgstr ""
-
-#: pages/templates/access.html:105
-msgid ""
-"Il ne reste plus qu&#39;à <a class='text-mulberry font-weight-bold' href='/"
-"{{ lang }}reserver'>réserver</a> si ce n&#39;est pas déjà fait !"
-msgstr ""
+#: pages/templates/access.html:78 pages/templates/access.html:93
+msgid "So we won&#39;t go into the details"
+msgstr "Donc on a pas de détails"
 
 #: pages/templates/base.html:55
 msgid "Just Escape — From 2 Players"
@@ -275,7 +256,11 @@ msgstr ""
 "Attention : Un retard de 15 minutes entraînera l&#39;annulation de la "
 "session sans remboursement."
 
-#: pages/templates/booking.html:132 pages/templates/gift-voucher.html:43
+#: pages/templates/booking.html:108
+msgid "The booking module is not opened yet"
+msgstr "Le module de paiement n&#39;est pas encore disponible"
+
+#: pages/templates/booking.html:130 pages/templates/gift-voucher.html:40
 #: pages/templates/header.html:30
 msgid "Booking"
 msgstr "Réserver"
@@ -298,14 +283,23 @@ msgstr "Conditions Générales d'Utilisation"
 
 #: pages/templates/conditions.html:20
 msgid "Conditions of use"
-msgstr "Conditions générales d'utilisation"
+msgstr "Conditions générales d&#39;utilisation"
+
+#: pages/templates/conditions.html:22
+msgid "This is supposed to be our conditions of use"
+msgstr ""
+"Ci-dessous sont censées êtres nos conditions générales d&#39;utilisation"
+
+#: pages/templates/conditions.html:23 pages/templates/terms.html:23
+msgid "But we have not written it yet"
+msgstr "Mais on ne les a pas encore écrites"
 
 #: pages/templates/contact.html:5
 msgid "Contact ⭐ Escape Game Lille ⭐ Just Escape"
 msgstr "Contact ⭐ Escape Game Lille ⭐ Just Escape"
 
 #: pages/templates/contact.html:8 pages/templates/contact.html:46
-#: pages/templates/contact.html:161 pages/templates/footer.html:46
+#: pages/templates/contact.html:162 pages/templates/footer.html:46
 #: pages/templates/header.html:54 pages/templates/home.html:334
 msgid "Contact"
 msgstr "Contact"
@@ -328,49 +322,28 @@ msgstr ""
 "hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
 "hidden></span>.fr"
 
-#: pages/templates/contact.html:85
-msgid ""
-"Vous organisez un <span class='font-weight-bold'>séminaire</span> ? "
-"Retrouvez les informations sur notre <a class='text-jaffa font-weight-bold' "
-"href='/{{ lang }}team-building'>page dédiée aux entreprises</a>."
-msgstr ""
-
-#: pages/templates/contact.html:86
-msgid ""
-"Vous préparez un <span class='font-weight-bold'>anniversaire</span>, <span "
-"class='font-weight-bold'>EVJF</span> ou <span class='font-weight-bold'>EVG</"
-"span> ? Vous devriez regarder nos <a class='text-jaffa font-weight-bold' "
-"href='/{{ lang }}tarifs'>tarifs avantageux</a>."
-msgstr ""
-
-#: pages/templates/contact.html:87
-msgid ""
-"Vous pouvez acheter une <span class='font-weight-bold'>carte cadeau</span> "
-"depuis <a class='text-mulberry font-weight-bold' href='/{{ lang }}"
-"reserver'>module de réservation</a>."
-msgstr ""
-
-#: pages/templates/contact.html:93 pages/templates/home.html:376
+#: pages/templates/contact.html:86 pages/templates/home.html:376
 msgid "Newsletter"
 msgstr "Newsletter"
 
-#: pages/templates/contact.html:98 pages/templates/home.html:381
+#: pages/templates/contact.html:91 pages/templates/home.html:381
 #: pages/templates/teambuilding.html:132 pages/templates/unsubscribe.html:24
 msgid "An unexpected error happened. Please contact us directly."
 msgstr ""
-"Une erreur inattendue s'est produite. Merci de nous contacter directement."
+"Une erreur inattendue s&#39;est produite. Merci de nous contacter "
+"directement."
 
-#: pages/templates/contact.html:105 pages/templates/home.html:388
+#: pages/templates/contact.html:98 pages/templates/home.html:388
 #: pages/templates/unsubscribe.html:31
 msgid "Thank you and see you soon!"
 msgstr "Au revoir et à bientôt !"
 
-#: pages/templates/contact.html:108 pages/templates/home.html:391
+#: pages/templates/contact.html:101 pages/templates/home.html:391
 #: pages/templates/unsubscribe.html:34
 msgid "marmitron@justescape.fr"
 msgstr "marmitron@justescape.fr"
 
-#: pages/templates/contact.html:110 pages/templates/home.html:393
+#: pages/templates/contact.html:103 pages/templates/home.html:393
 msgid "Subscribe"
 msgstr "Je m&#39;abonne"
 
@@ -870,14 +843,6 @@ msgstr "On est pas sur facebook mais on aime bien ce réseau&nbsp;!"
 msgid "We are not on insta but we like this platform!"
 msgstr "On est pas sur insta mais on aime bien ce réseau&nbsp;!"
 
-#: pages/templates/footer.html:22
-msgid "We are not on twitter but we like this platform!"
-msgstr "On est pas sur twitter mais on aime bien ce réseau&nbsp;!"
-
-#: pages/templates/footer.html:27
-msgid "We are not on linkedin but we like this platform!"
-msgstr "On est pas sur linkedin mais on aime bien ce réseau&nbsp;!"
-
 #: pages/templates/footer.html:32
 msgid "We are not on tripadvisor but we like this platform!"
 msgstr "On est pas sur tripadvisor mais on aime bien ce réseau&nbsp;!"
@@ -898,7 +863,7 @@ msgstr "Prochainement"
 msgid "Blog"
 msgstr "Blog"
 
-#: pages/templates/footer.html:49 pages/templates/partners.html:114
+#: pages/templates/footer.html:49 pages/templates/partners.html:130
 msgid "Partners"
 msgstr "Partenaires"
 
@@ -930,11 +895,11 @@ msgstr "Your friends and family will love you with this gift box 😍"
 msgid "Offrir une carte cadeau"
 msgstr ""
 
-#: pages/templates/gift-voucher.html:17
-msgid "Plaisir d&#39;offrir, joie de recevoir..."
-msgstr ""
+#: pages/templates/gift-voucher.html:18
+msgid "The gift voucher module is not opened yet"
+msgstr "Le module de carte cadeau pas encore disponible"
 
-#: pages/templates/gift-voucher.html:49
+#: pages/templates/gift-voucher.html:46
 msgid "Gift voucher"
 msgstr "Carte cadeau"
 
@@ -1173,22 +1138,27 @@ msgstr "Nos Partenaires"
 msgid "Our partnerships"
 msgstr "Nos partenariats"
 
-#: pages/templates/partners.html:24 pages/templates/partners.html:32
-#: pages/templates/partners.html:40 pages/templates/partners.html:48
-#: pages/templates/partners.html:65 pages/templates/partners.html:73
-#: pages/templates/partners.html:81 pages/templates/partners.html:89
-msgid "Just Escape"
-msgstr "Just Escape"
+#: pages/templates/partners.html:17
+msgid "We don&#39;t have partners yet"
+msgstr "Nous n&#39;avons pas de partenaires pour l&#39;instant"
+
+#: pages/templates/partners.html:18
+msgid "But we will soon"
+msgstr "Mais nous en aurons bientôt"
+
+#: pages/templates/partners.html:66
+msgid "Meanwhile"
+msgstr "En attendant"
+
+#: pages/templates/partners.html:67
+msgid "We&#39;re having fun with those icons"
+msgstr "On s&#39;amuse avec ces icones"
 
 #: pages/templates/pricing.html:5
 msgid "Price ⭐ Escape Game Lille ⭐ Just Escape"
 msgstr "Prix ⭐ Escape Game Lille ⭐ Just Escape"
 
 #: pages/templates/pricing.html:6
-#, fuzzy
-#| msgid ""
-#| "Discounts: -20&#37; for students 🎓 -30&#37; off-peak hours 🕓 special "
-#| "offers ✨ Gourmet menus 🍪 Aperitif menus 🍻"
 msgid ""
 "Discounts: -20&#37; for students 👨🎓 -30&#37; off-peak hours 🕓 special offers "
 "✨ Gourmet menus 🍪 Aperitif menus 🍻"
@@ -1324,6 +1294,10 @@ msgstr "Découvrez nos scénario"
 #: pages/templates/room.html:22
 msgid "More info"
 msgstr "Plus d'infos"
+
+#: pages/templates/room.html:79
+msgid "A better description and awesome photos are to come!"
+msgstr ""
 
 #: pages/templates/room.html:101
 msgid "Previous"
@@ -1498,6 +1472,10 @@ msgstr "Conditions générales de vente"
 #: pages/templates/terms.html:20
 msgid "General terms of use"
 msgstr "Conditions générales de vente"
+
+#: pages/templates/terms.html:22
+msgid "This is supposed to be our general terms of use"
+msgstr "Ci-dessous devraient être nos conditions générales de vente"
 
 #: pages/templates/unsubscribe.html:5
 msgid "Unsubscribe ⭐ Escape Game Lille ⭐ Just Escape"

@@ -3,10 +3,10 @@
 {% load i18n %}
 
 {% block title %}{% trans "Access ⭐ Escape Game Lille ⭐ Just Escape" %}{% endblock %}
-{% block description %}{% trans "24 rue d'Arras 59 800 Lille — How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 — +33 1 23 45 67 89" %}{% endblock %}
+{% block description %}{% trans "24 rue d&#39;Arras 59 800 Lille — How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 — +33 1 23 45 67 89" %}{% endblock %}
 
 {% block og_title %}{% trans "Access" %}{% endblock %}
-{% block og_description %}{% trans "24 rue d'Arras 59 800 Lille — How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 — +33 1 23 45 67 89" %}{% endblock %}
+{% block og_description %}{% trans "24 rue d&#39;Arras 59 800 Lille — How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 — +33 1 23 45 67 89" %}{% endblock %}
 
 {% block h1 %}{% trans "How to get to our estate in Lille?" %}{% endblock %}
 
@@ -47,7 +47,7 @@
                       <div>
                         <h2 class="text-jaffa size-15 mb-1">{% trans "Address" %}</h2>
                         <p class="lh-12 mb-0">
-                          {% trans "17 rue Négrier<br>59 800 Lille, France" %}
+                          {% trans "24 rue d&#39;Arras<br>59 800 Lille, France" %}
                         </p>
                       </div>
                     </div>
@@ -67,42 +67,36 @@
             <div class="row">
               <div class="col-12 col-md-6 col-lg-12 col-xl-6">
                 <div class="card deepdark border-jaffa mb-4">
-                  <div class="card-body">
-                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px">{% include "svg/walking.svg" %}</span>{% trans "Venir à pied" %}</h2>
-                    <p class="mb-0 text-justify">{% lorem 30 w %}</p>
+                  <div class="card-body height-200px">
+                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px">{% include "svg/walking.svg" %}</span>{% trans "Here are some explanations" %}</h2>
+                    <p class="mb-0 text-justify">{% trans "On how to come" %}</p>
                   </div>
                 </div>
                 <div class="card deepdark border-jaffa mb-4">
-                  <div class="card-body">
-                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-2">{% include "svg/bus.svg" %}</span><span class="fill-jaffa svg-20px mr-1">{% include "svg/subway.svg" %}</span>{% trans "Venir en transports" %}</h2>
-                    <p class="mb-0 text-justify">{% lorem 30 w %}</p>
+                  <div class="card-body height-200px">
+                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-2">{% include "svg/bus.svg" %}</span><span class="fill-jaffa svg-20px mr-1">{% include "svg/subway.svg" %}</span>{% trans "We don&#39;t have a local yet" %}</h2>
+                    <p class="mb-0 text-justify">{% trans "So we won&#39;t go into the details" %}</p>
                   </div>
                 </div>
               </div>
 
               <div class="col-12 col-md-6 col-lg-12 col-xl-6">
                 <div class="card deepdark border-jaffa mb-4">
-                  <div class="card-body">
-                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-1">{% include "svg/car.svg" %}</span>{% trans "Venir en voiture" %}</h2>
-                    <p class="mb-0 text-justify">{% lorem 30 w %}</p>
+                  <div class="card-body height-200px">
+                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-2">{% include "svg/car.svg" %}</span>{% trans "Here are some explanations" %}</h2>
+                    <p class="mb-0 text-justify">{% trans "On how to come" %}</p>
                   </div>
                 </div>
                 <div class="card deepdark border-jaffa mb-4">
-                  <div class="card-body">
-                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-1">{% include "svg/bicycle.svg" %}</span>{% trans "Venir à vélo" %}</h2>
-                    <p class="mb-0 text-justify">{% lorem 30 w %}</p>
+                  <div class="card-body height-200px">
+                    <h2 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-2">{% include "svg/bicycle.svg" %}</span>{% trans "We don&#39;t have a local yet" %}</h2>
+                    <p class="mb-0 text-justify">{% trans "So we won&#39;t go into the details" %}</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="rounded p-3 border-0 softdark">
-        <p class="mb-2">{% trans "N&#39;hésitez pas à passer sur <a class='text-jaffa font-weight-bold' href='/{{ lang }}faq'>notre FAQ</a>." %}</p>
-        <p class="mb-2">{% trans "Retrouvez toutes les informations pour nous joindre directement sur notre <a class='text-jaffa font-weight-bold' href='/{{ lang }}contact'>page de contact</a>." %}</p>
-        <p class="mb-0">{% trans "Il ne reste plus qu&#39;à <a class='text-mulberry font-weight-bold' href='/{{ lang }}reserver'>réserver</a> si ce n&#39;est pas déjà fait !" %}</p>
       </div>
     </div>
   </div>
@@ -112,15 +106,23 @@
 {% block post_base_js %}
   <script>
     function initMap() {
-        var coords = {lat: 50.6425341, lng: 3.0563218}
+        var coords = {lat: 50.6235063, lng: 3.0677556};
+
         var map = new google.maps.Map(document.getElementById('map'), {
             center: coords,
-            zoom: 18,
+            zoom: 15,
             disableDefaultUI: true,
             fullscreenControl: true,
             zoomControl: true,
             scrollwheel: false
         });
+
+        var marker = new google.maps.Marker({
+            position: coords,
+            title: "Just Escape"
+        });
+
+        marker.setMap(map);
     }
   </script>
   <script src="/static/js/gmaps.js" defer async></script>
