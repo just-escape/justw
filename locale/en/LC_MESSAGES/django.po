@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-04 13:54+0200\n"
+"POT-Creation-Date: 2019-07-04 14:38+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -411,9 +411,9 @@ msgstr ""
 
 #: pages/templates/faq.html:81
 msgid ""
-"Yes, <a href='/en/salles?show=d1#digimiam' class='text-underline'>our room "
-"<span class='font-italic'>The Digimiam</span></a> does not contain "
-"frightening elements nor physical exercises."
+"Yes, <a href='/en/salles?show=d1#digimiam' class='text-underline text-hover-"
+"mulberry'>our room <span class='font-italic'>The Digimiam</span></a> does "
+"not contain frightening elements nor physical exercises."
 msgstr ""
 
 #: pages/templates/faq.html:84
@@ -433,10 +433,10 @@ msgstr ""
 #: pages/templates/faq.html:101
 msgid ""
 "We do our best to keep <a href='/en/salles?show=d1#digimiam' class='text-"
-"underline font-italic'>The Digimiam</a> accessible to people with reduced "
-"mobility, hearing, sight or other disabilities. We recommend that you have "
-"someone in the group who does not have a particular disability for certain "
-"riddles."
+"underline text-hover-mulberry font-italic'>The Digimiam</a> accessible to "
+"people with reduced mobility, hearing, sight or other disabilities. We "
+"recommend that you have someone in the group who does not have a particular "
+"disability for certain riddles."
 msgstr ""
 
 #: pages/templates/faq.html:104
@@ -472,8 +472,8 @@ msgstr ""
 #: pages/templates/faq.html:138
 msgid ""
 "We ask you to pay a deposit online via our secure payment module to finalize "
-"the <a href='/en/reserver' class='text-underline'>booking of your session</"
-"a>."
+"the <a href='/en/reserver' class='text-underline text-hover-"
+"mulberry'>booking of your session</a>."
 msgstr ""
 
 #: pages/templates/faq.html:141
@@ -501,9 +501,9 @@ msgstr ""
 
 #: pages/templates/faq.html:161
 msgid ""
-"<a href='/en/salles?show=d1#digimiam' class='text-underline'>Our room <span "
-"class='font-italic'>The Digimiam</span></a> is adapted for two players. This "
-"room can accomodate up to 4 players."
+"<a href='/en/salles?show=d1#digimiam' class='text-underline text-hover-"
+"mulberry'>Our room <span class='font-italic'>The Digimiam</span></a> is "
+"adapted for two players. This room can accomodate up to 4 players."
 msgstr ""
 
 #: pages/templates/faq.html:164
@@ -543,13 +543,14 @@ msgstr ""
 #: pages/templates/faq.html:201
 msgid ""
 "If you are a group of friends, our <a href='/en/tarifs' class='text-"
-"underline'>gourmet and aperitif menus</a> may interest you."
+"underline text-hover-mulberry'>gourmet and aperitif menus</a> may interest "
+"you."
 msgstr ""
 
 #: pages/templates/faq.html:204
 msgid ""
 "If you are a company, we have <a href='/en/team-building' class='text-"
-"underline'>turnkey packages</a>."
+"underline text-hover-mulberry'>turnkey packages</a>."
 msgstr ""
 
 #: pages/templates/faq.html:218
@@ -638,8 +639,8 @@ msgstr ""
 #: pages/templates/faq.html:312
 msgid ""
 "We will be happy to welcome you for <a href='/en/tarifs' class='text-"
-"underline'>your bachelor parties and other celebrations with family and "
-"friends</a>."
+"underline text-hover-mulberry'>your bachelor parties and other celebrations "
+"with family and friends</a>."
 msgstr ""
 
 #: pages/templates/faq.html:315
@@ -658,7 +659,7 @@ msgstr ""
 #: pages/templates/faq.html:332
 msgid ""
 "Yes, we offer additional services for <a href='/en/team-building' "
-"class='text-underline'>your team building events</a>."
+"class='text-underline text-hover-mulberry'>your team building events</a>."
 msgstr ""
 
 #: pages/templates/faq.html:335
@@ -673,9 +674,10 @@ msgstr ""
 
 #: pages/templates/faq.html:349
 msgid ""
-"<a href='/en/salles?show=d1#digimiam' class='text-underline'>Our escape room "
-"<span class='font-italic'>The Digimiam</span></a> can accommodate up to 4 "
-"players. As this room is duplicated, you can play up to 8 simultaneously."
+"<a href='/en/salles?show=d1#digimiam' class='text-underline text-hover-"
+"mulberry'>Our escape room <span class='font-italic'>The Digimiam</span></a> "
+"can accommodate up to 4 players. As this room is duplicated, you can play up "
+"to 8 simultaneously."
 msgstr ""
 
 #: pages/templates/faq.html:352
@@ -687,7 +689,7 @@ msgstr ""
 #: pages/templates/faq.html:355
 msgid ""
 "We invite companies to fill in <a href='/en/team-building#devis' class='text-"
-"underline'>our quote form</a>."
+"underline text-hover-mulberry'>our quote form</a>."
 msgstr ""
 
 #: pages/templates/faq.html:364
@@ -710,9 +712,9 @@ msgstr ""
 
 #: pages/templates/faq.html:386
 msgid ""
-"The <a href='/en/carte-cadeau' class='text-underline'>gift card</a> can be "
-"used during the <a href='/en/reserver' class='text-underline'>online "
-"booking</a>."
+"The <a href='/en/carte-cadeau' class='text-underline text-hover-"
+"mulberry'>gift card</a> can be used during the <a href='/en/reserver' "
+"class='text-underline text-hover-mulberry'>online booking</a>."
 msgstr ""
 
 #: pages/templates/faq.html:389
@@ -1118,7 +1120,7 @@ msgstr ""
 #: pages/templates/pricing.html:127
 msgid ""
 "Your friends and family will love you with this <a href='/en/carte-cadeau' "
-"class='text-underline'>gift&nbsp;box</a>."
+"class='text-underline text-hover-mulberry'>gift&nbsp;box</a>."
 msgstr ""
 
 #: pages/templates/pricing.html:130
@@ -1135,8 +1137,8 @@ msgstr ""
 
 #: pages/templates/pricing.html:142
 msgid ""
-"Fortunately, we have <a class='text-underline' href='/en/team-"
-"building'>turnkey Team&nbsp;Building packages</a>."
+"Fortunately, we have <a class='text-underline text-hover-mulberry' href='/en/"
+"team-building'>turnkey Team&nbsp;Building packages</a>."
 msgstr ""
 
 #: pages/templates/pricing.html:145
