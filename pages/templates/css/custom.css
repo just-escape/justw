@@ -675,6 +675,15 @@ input.form-control::placeholder {
 /* form */
 
 /* misc */
+.disclaimer {
+    position: fixed;
+    bottom: 50px;
+    padding: 1rem 1rem 1rem 2rem;
+    background: #cb4299;
+    border-radius: 0 0.25rem 0.25rem 0;
+    z-index: 1000;
+}
+
 .height-400px {
     height: 400px;
 }

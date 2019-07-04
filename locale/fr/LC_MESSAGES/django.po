@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-02 23:05+0200\n"
+"POT-Creation-Date: 2019-07-04 10:13+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -118,7 +118,15 @@ msgstr "Just Escape Lille Logo"
 msgid "Just Escape ⭐⭐⭐⭐⭐"
 msgstr "Just Escape ⭐⭐⭐⭐⭐"
 
-#: pages/templates/base.html:90 pages/templates/home.html:11
+#: pages/templates/base.html:83
+msgid "Notice"
+msgstr "Note"
+
+#: pages/templates/base.html:84
+msgid "Just Escape is being created and should open at the end of 2019"
+msgstr "Just Escape est en cours de création et devrait ouvrir fin 2019"
+
+#: pages/templates/base.html:95 pages/templates/home.html:11
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr "Un des escape games les plus immersifs de&nbsp;Lille"
 
