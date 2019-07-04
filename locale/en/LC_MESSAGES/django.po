@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-04 10:13+0200\n"
+"POT-Creation-Date: 2019-07-04 13:54+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -232,13 +232,13 @@ msgid "I choose<br>a mission"
 msgstr ""
 
 #: pages/templates/booking.html:96
-msgid "I pay at least<br>one place"
+msgid "I pay at least<br>one entry"
 msgstr ""
 
 #: pages/templates/booking.html:96
 msgid ""
-"You can pay the full amount at the time of booking if it makes your life "
-"easier. Student discounts are refunded on site upon presentation of the card."
+"You can pay the full amount during the booking if it makes your life easier. "
+"Student discounts are refunded on site upon presentation of the card."
 msgstr ""
 
 #: pages/templates/booking.html:103
@@ -251,7 +251,7 @@ msgstr ""
 
 #: pages/templates/booking.html:103
 msgid ""
-"Attention: A delay of 15 minutes will result in the cancellation of the "
+"Warning: A delay of 15 minutes will result in the cancellation of the "
 "session without refund."
 msgstr ""
 
@@ -725,10 +725,6 @@ msgstr ""
 
 #: pages/templates/footer.html:8
 msgid "Follow us on social networks!"
-msgstr ""
-
-#: pages/templates/footer.html:12
-msgid "We are not on facebook but we like this platform!"
 msgstr ""
 
 #: pages/templates/footer.html:17

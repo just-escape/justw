@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-04 10:13+0200\n"
+"POT-Creation-Date: 2019-07-04 13:54+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -236,13 +236,13 @@ msgid "I choose<br>a mission"
 msgstr "Je choisis<br>une mission"
 
 #: pages/templates/booking.html:96
-msgid "I pay at least<br>one place"
+msgid "I pay at least<br>one entry"
 msgstr "Je paie au moins<br>une place"
 
 #: pages/templates/booking.html:96
 msgid ""
-"You can pay the full amount at the time of booking if it makes your life "
-"easier. Student discounts are refunded on site upon presentation of the card."
+"You can pay the full amount during the booking if it makes your life easier. "
+"Student discounts are refunded on site upon presentation of the card."
 msgstr ""
 "Vous pouvez régler la totalité dès la réservation si cela vous simplifie la "
 "vie. Les réductions étudiantes sont remboursées sur place sur présentation "
@@ -258,7 +258,7 @@ msgstr "Rendez-vous à l&#39;heure"
 
 #: pages/templates/booking.html:103
 msgid ""
-"Attention: A delay of 15 minutes will result in the cancellation of the "
+"Warning: A delay of 15 minutes will result in the cancellation of the "
 "session without refund."
 msgstr ""
 "Attention : Un retard de 15 minutes entraînera l&#39;annulation de la "
@@ -842,10 +842,6 @@ msgstr "Foire Aux Questions"
 #: pages/templates/footer.html:8
 msgid "Follow us on social networks!"
 msgstr "Suivez-nous sur les réseaux sociaux&nbsp;!"
-
-#: pages/templates/footer.html:12
-msgid "We are not on facebook but we like this platform!"
-msgstr "On est pas sur facebook mais on aime bien ce réseau&nbsp;!"
 
 #: pages/templates/footer.html:17
 msgid "We are not on insta but we like this platform!"
@@ -1508,3 +1504,6 @@ msgstr "Se désabonner de la newsletter"
 #: pages/templates/unsubscribe.html:36
 msgid "Unsubscribe"
 msgstr "Je me désabonne"
+
+#~ msgid "We are not on facebook but we like this platform!"
+#~ msgstr "On est pas sur facebook mais on aime bien ce réseau&nbsp;!"
