@@ -3,6 +3,7 @@ import pytz
 from datetime import datetime, timedelta
 
 from django import forms
+from django.utils.translation import gettext_lazy as _
 from justw import settings
 from salesquote.models import SalesQuote
 
@@ -12,8 +13,7 @@ def ensure_at_least_tomorrow(value):
     tomorrow = datetime.now(tz) + timedelta(days=1)
     if tomorrow > value:
         raise forms.ValidationError(
-            "Vous ne pouvez pas demander cette prestation avant demain "
-            "minimum.")
+            _("You can ask for this service tomorrow at least."))
 
 
 class BootstrapDateTimePickerInput(forms.DateTimeInput):
@@ -36,22 +36,22 @@ class PhoneNumberField(forms.CharField):
         try:
             p = phonenumbers.parse(value, 'FR')
         except Exception:
-            raise forms.ValidationError('Enter a valid phone number.')
+            raise forms.ValidationError(_('Enter a valid phone number.'))
         else:
             if not phonenumbers.is_possible_number(p):
-                raise forms.ValidationError('Enter a valid phone number.')
+                raise forms.ValidationError(_('Enter a valid phone number.'))
 
             if not phonenumbers.is_valid_number(p):
-                raise forms.ValidationError('Enter a valid phone number.')
+                raise forms.ValidationError(_('Enter a valid phone number.'))
 
 
 class SalesQuoteForm(forms.Form):
     contact_name = forms.CharField(
         max_length=128,
-        label='Your name',
+        label=_('Your name'),
         widget=forms.TextInput(
             attrs={
-                'placeholder': 'Gérard Manvussa',
+                'placeholder': _('Marmitron'),
                 'class': 'form-control',
                 'spellcheck': 'false',
             }
@@ -60,10 +60,10 @@ class SalesQuoteForm(forms.Form):
     )
     company_name = forms.CharField(
         max_length=128,
-        label='Company name',
+        label=_('Company name'),
         widget=forms.TextInput(
             attrs={
-                'placeholder': 'Just Escape inc.',
+                'placeholder': _('Just Escape'),
                 'class': 'form-control',
                 'spellcheck': 'false',
             }
@@ -72,10 +72,10 @@ class SalesQuoteForm(forms.Form):
     )
     contact_email = forms.EmailField(
         max_length=128,
-        label='Contact email',
+        label=_('Contact email'),
         widget=forms.TextInput(
             attrs={
-                'placeholder': 'marmitron@justescape.fr',
+                'placeholder': _('marmitron@justescape.fr'),
                 'class': 'form-control',
                 'spellcheck': 'false',
             }
@@ -84,10 +84,22 @@ class SalesQuoteForm(forms.Form):
     )
     contact_number = PhoneNumberField(
         max_length=16,
-        label='Contact number',
+        label=_('Contact number'),
         widget=forms.TextInput(
             attrs={
-                'placeholder': '06 12 34 56 78',
+                'placeholder': _('06 12 34 56 78'),
+                'class': 'form-control',
+                'spellcheck': 'false',
+            }
+        ),
+        required=True,
+    )
+    group_size = forms.CharField(
+        max_length=128,
+        label=_('Group size'),
+        widget=forms.TextInput(
+            attrs={
+                'placeholder': _('Approx. if you don\'t know'),
                 'class': 'form-control',
                 'spellcheck': 'false',
             }
@@ -96,42 +108,46 @@ class SalesQuoteForm(forms.Form):
     )
     prestation_type = forms.ChoiceField(
         choices=SalesQuote.PTYPES,
+        label=_('Prestation type'),
         widget=forms.RadioSelect(attrs={'class': 'form-control'}),
         required=True,
     )
-    option_cocktail_with_alcool = forms.BooleanField(
-        label='Cocktail with alcool',
-        initial=False,
-        widget=forms.CheckboxInput(attrs={'class': 'form-input'}),
-        required=False,
-    )
-    option_cocktail_without_alcool = forms.BooleanField(
-        label='Cocktail without alcool',
-        initial=False,
-        widget=forms.CheckboxInput(attrs={'class': 'form-input'}),
-        required=False,
-    )
     option_privatisation = forms.BooleanField(
-        label='Privatisation',
+        label=_('Full privatization of the estate'),
         initial=False,
         widget=forms.CheckboxInput(attrs={'class': 'form-input'}),
         required=False,
     )
     desired_date = forms.DateTimeField(
         input_formats=['%d/%m/%Y %H:%M'],
+        label=_('Desired date'),
         widget=BootstrapDateTimePickerInput(
-            attrs={'placeholder': 'DD/MM/YYYY hh:mm'}
+            attrs={'placeholder': _('DD/MM/YYYY hh:mm')}
         ),
         initial=None,
         validators=[ensure_at_least_tomorrow],
         required=False,
     )
+    discount_code = forms.CharField(
+        max_length=128,
+        label=_('Discount code'),
+        widget=forms.TextInput(
+            attrs={
+                'class': 'form-control',
+                'spellcheck': 'false',
+            }
+        ),
+        required=False,
+    )
     comment = forms.CharField(
         max_length=512,
-        label='Comment',
+        label=_('Comment'),
         widget=forms.Textarea(
             attrs={
-                'placeholder': 'Lorem ipsum',
+                'placeholder': _(
+                    'If you have any request or if there is anything that can '
+                    'help us improve your experience'
+                ),
                 'rows': 4,
                 'class': 'form-control'
             }

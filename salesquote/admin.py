@@ -12,11 +12,11 @@ class SalesQuoteAdmin(admin.ModelAdmin):
         'company_name',
         'contact_email',
         'contact_number',
+        'group_size',
         'prestation_type',
-        'option_cocktail_with_alcool',
-        'option_cocktail_without_alcool',
         'option_privatisation',
         'desired_date',
+        'discount_code',
         'comment',
     )
     search_fields = (
@@ -26,5 +26,6 @@ class SalesQuoteAdmin(admin.ModelAdmin):
         'contact_number',
         'comment',
     )
+
 
 admin.site.register(SalesQuote, SalesQuoteAdmin)

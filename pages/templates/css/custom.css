@@ -552,6 +552,11 @@ a:hover {
     height: 36px;
 }
 
+.svg-75px svg {
+    width: 75px;
+    height: 75px;
+}
+
 .svg-132x200px svg {
     width: 132px;
     height: 200px;
@@ -669,7 +674,7 @@ input.form-control::placeholder {
     color: #545457;
 }
 
-.softdark input.form-control::placeholder {
+.softdark input.form-control::placeholder, .softdark textarea.form-control::placeholder {
     color: #656568;
 }
 /* form */

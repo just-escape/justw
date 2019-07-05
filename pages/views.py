@@ -120,14 +120,14 @@ def handle_salesquote(request):
         company = form.cleaned_data['company_name']
         email = form.cleaned_data['contact_email']
         number = form.cleaned_data['contact_number']
+        group_size = form.cleaned_data['group_size']
         for key, value in SalesQuote.PTYPES:
             if key == form.cleaned_data['prestation_type']:
                 prestation = value
                 break
-        alcool = form.cleaned_data['option_cocktail_with_alcool']
-        soft = form.cleaned_data['option_cocktail_without_alcool']
-        privatisation = form.cleaned_data['option_privatisation']
+        priv = form.cleaned_data['option_privatisation']
         date = form.cleaned_data['desired_date']
+        discount_code = form.cleaned_data['discount_code']
         comment = form.cleaned_data['comment']
 
         salesquote = SalesQuote(
@@ -135,11 +135,11 @@ def handle_salesquote(request):
             company_name=company,
             contact_email=email,
             contact_number=number,
+            group_size=group_size,
             prestation_type=form.cleaned_data['prestation_type'],
-            option_cocktail_with_alcool=alcool,
-            option_cocktail_without_alcool=soft,
-            option_privatisation=privatisation,
+            option_privatisation=priv,
             desired_date=date,
+            discount_code=discount_code,
             comment=comment,
         )
         salesquote.save()
@@ -154,22 +154,23 @@ def handle_salesquote(request):
         "Email : {}".format(email),
         "Tel : {}".format(number),
         "",
+        "Taille du groupe : ".format(group_size),
         "Prestation : {}".format(prestation),
-        "Cocktail alcoolisé : {}".format("oui" if alcool else "non"),
-        "Cocktail non alcoolisé : {}".format("oui" if soft else "non"),
-        "Privatisation : {}".format("oui" if privatisation else "non"),
+        "Privatisation des locaux : {}".format("oui" if priv else "non"),
         "Date : {}".format(date if date else 'N/A'),
+        "",
+        "Code promo : {}".format(discount_code if discount_code else 'N/A'),
         "",
         "Commentaire : {}".format(comment if comment else 'N/A'),
     ]
     send_mail(
-        'Nouvelle demande de devis de {}'.format(name),
+        "Nouvelle demande de devis de {}".format(name),
         "\n".join(body_lines),
-        'devis@justescape.fr',
+        "devis@justescape.fr",
         settings.ADMINS,
         fail_silently=True,
     )
-    logger.debug('Salesquote recorded')
+    logger.debug("Salesquote recorded")
 
     return SalesQuoteForm(), False, True
 

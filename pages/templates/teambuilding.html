@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% load i18n %}
+{% load l10n %}
 
 {% block title %}{% trans "Team Building ⭐ Escape Game Lille ⭐ Just Escape" %}{% endblock %}
 {% block description %}{% trans "Turnkey packages: Breakfast ☕ Cocktail 🍸 Dinner Aperitif 🍻 Workshop 📈 Privatization 🤵" %}{% endblock %}
@@ -146,11 +147,11 @@
 
         <div class="form-group">
           <div class="row">
-            <div class="px-0 px-sm-3 col-12 col-sm-4 col-md-3 col-lg-2">
-              <label class="col-form-label" for="{{ form.contact_name.auto_id }}">{{ form.contact_name.label }}</label>
+            <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+              <label class="col-form-label" for="{{ form.contact_name.auto_id }}">{{ form.contact_name.label|localize }}</label>
               <span class="text-jaffa">*</span>
             </div>
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+            <div class="col-12 col-sm-7 col-md-6 col-lg-4">
               <div class="row">
                 {{ form.contact_name }}
               </div>
@@ -165,11 +166,11 @@
 
         <div class="form-group">
           <div class="row">
-            <div class="px-0 px-sm-3 col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
               <label class="col-form-label" for="{{ form.company_name.auto_id }}">{{ form.company_name.label }}</label>
               <span class="text-jaffa">*</span>
             </div>
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+            <div class="col-12 col-sm-7 col-md-6 col-lg-4">
               <div class="row">
                 {{ form.company_name }}
               </div>
@@ -184,11 +185,11 @@
 
         <div class="form-group">
           <div class="row">
-            <div class="px-0 px-sm-3 col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
               <label class="col-form-label" for="{{ form.contact_email.auto_id }}">{{ form.contact_email.label }}</label>
               <span class="text-jaffa">*</span>
             </div>
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+            <div class="col-12 col-sm-7 col-md-6 col-lg-4">
               <div class="row">
                 {{ form.contact_email }}
               </div>
@@ -203,11 +204,11 @@
 
         <div class="form-group">
           <div class="row">
-            <div class="px-0 px-sm-3 col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
               <label class="col-form-label" for="{{ form.contact_number.auto_id }}">{{ form.contact_number.label }}</label>
               <span class="text-jaffa">*</span>
             </div>
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+            <div class="col-12 col-sm-7 col-md-6 col-lg-4">
               <div class="row">
                 {{ form.contact_number }}
               </div>
@@ -222,11 +223,30 @@
 
         <div class="form-group">
           <div class="row">
-            <div class="px-0 px-sm-3 col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+              <label class="col-form-label" for="{{ form.group_size.auto_id }}">{{ form.group_size.label }}</label>
+              <span class="text-jaffa">*</span>
+            </div>
+            <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+              <div class="row">
+                {{ form.group_size }}
+              </div>
+              {% if form.group_size.errors %}
+                <div class="row">
+                  {{ form.group_size.errors }}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="row">
+            <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
               <label class="col-form-label">{{ form.prestation_type.label }}</label>
               <span class="text-jaffa">*</span>
             </div>
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+            <div class="col-12 col-sm-7 col-md-6 col-lg-4">
               {% for choice in form.prestation_type %}
                 <div class="row">
                   <label class="jaffa-mark">
@@ -247,38 +267,10 @@
 
         <div class="form-group">
           <div class="row">
-            <div class="px-0 px-sm-3 col-12 col-sm-4 col-md-3 col-lg-2">
-              <label>{% trans "Options" %}</label>
+            <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+              <label>{% trans "Option" %}</label>
             </div>
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-              <div class="row">
-                <div class="form-check jaffa-mark">
-                  <label class="mb-0" for="{{ form.option_cocktail_with_alcool.auto_id }}">
-                    {{ form.option_cocktail_with_alcool.label }}
-                    {{ form.option_cocktail_with_alcool }}
-                    <span class="checkmark"></span>
-                  </label>
-                </div>
-              </div>
-              {% if form.option_cocktail_with_alcool.errors %}
-                <div class="row">
-                  {{ form.option_cocktail_with_alcool.errors }}
-                </div>
-              {% endif %}
-              <div class="row">
-                <div class="form-check jaffa-mark">
-                  <label class="mb-0" for="{{ form.option_cocktail_without_alcool.auto_id }}">
-                    {{ form.option_cocktail_without_alcool.label }}
-                    {{ form.option_cocktail_without_alcool }}
-                    <span class="checkmark"></span>
-                  </label>
-                </div>
-              </div>
-              {% if form.option_cocktail_without_alcool.errors %}
-                <div class="row">
-                  {{ form.option_cocktail_without_alcool.errors }}
-                </div>
-              {% endif %}
+            <div class="col-12 col-sm-7 col-md-6 col-lg-4 col-xl-2">
               <div class="row">
                 <div class="form-check jaffa-mark">
                   <label class="mb-0" for="{{ form.option_privatisation.auto_id }}">
@@ -299,10 +291,10 @@
 
         <div class="form-group">
           <div class="row">
-            <div class="px-0 px-sm-3 col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
               <label class="col-form-label" for="{{ form.desired_date.auto_id }}">{{ form.desired_date.label }}</label>
             </div>
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+            <div class="col-12 col-sm-7 col-md-6 col-lg-4">
               <div class="row">
               {{ form.desired_date }}
               </div>
@@ -317,10 +309,28 @@
 
         <div class="form-group">
           <div class="row">
-            <div class="px-0 px-sm-3 col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+              <label class="col-form-label" for="{{ form.discount_code.auto_id }}">{{ form.discount_code.label }}</label>
+            </div>
+            <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+              <div class="row">
+                {{ form.discount_code }}
+              </div>
+              {% if form.discount_code.errors %}
+                <div class="row">
+                  {{ form.discount_code.errors }}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="row">
+            <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
               <label class="col-form-label" for="{{ form.comment.auto_id }}">{{ form.comment.label }}</label>
             </div>
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+            <div class="col-12 col-sm-7 col-md-6 col-lg-4">
               <div class="row">
                 {{ form.comment }}
               </div>
@@ -334,7 +344,7 @@
         </div>
 
         <div class="row">
-          <div class="px-0 px-sm-3 col-12 col-sm-4 col-md-3 col-lg-2">
+          <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
             <button type="submit" class="btn btn-secondary btn-block"><span>{% trans "Submit" %}</span></button>
           </div>
         </div>
@@ -346,10 +356,17 @@
 
 {% block post_base_js %}
   <script src="/static/js/moment-2.23.0.min.js"></script>
+  {% if lang == 'en/' %}
+  <script src="/static/js/moment-en-gb-locale.js"></script>
+  {% else %}
+  <script src="/static/js/moment-fr-locale.js"></script>
+  {% endif %}
+
   <script src="/static/js/tempusdominus-bootstrap-4-5.1.2.min.js"></script>
 
   <script>
     $.fn.datetimepicker.Constructor.Default = $.extend({}, $.fn.datetimepicker.Constructor.Default, {
+      locale: moment.locale({% if lang == 'en/' %}'en-gb'{% else %}'fr'{% endif %}),
       icons: {
         time: 'far fa-clock',
         date: 'far fa-calendar-alt',
