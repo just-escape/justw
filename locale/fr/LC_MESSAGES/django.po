@@ -1389,7 +1389,7 @@ msgstr "Plus d'infos"
 
 #: pages/templates/room.html:79
 msgid "A better description and awesome photos are to come!"
-msgstr ""
+msgstr "Une meilleure description et des super photos suivront&nbsp;!"
 
 #: pages/templates/room.html:101
 msgid "Previous"
