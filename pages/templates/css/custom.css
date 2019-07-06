@@ -90,17 +90,9 @@ body {
     color: #f8f9fa;
 }
 
-.dark svg .bg {
-    fill: #3c3c3e;
-}
-
 .softdark {
     background-color: #4d4d4f;
     color: #f8f9fa;
-}
-
-.softdark svg .bg {
-    fill: #4d4d4f;
 }
 
 .deepdark {

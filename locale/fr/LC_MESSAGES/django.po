@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-05 22:08+0200\n"
+"POT-Creation-Date: 2019-07-06 11:15+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -917,7 +917,7 @@ msgstr "Carte cadeau"
 msgid "Escape Game Lille"
 msgstr "Escape Game Lille"
 
-#: pages/templates/header.html:27 pages/templates/room.html:189
+#: pages/templates/header.html:27 pages/templates/room.html:187
 msgid "Rooms"
 msgstr "Salles"
 
@@ -1099,8 +1099,9 @@ msgstr ""
 "Le meilleur escape game de&nbsp;Lille —&nbsp;La&nbsp;maman&nbsp;du&nbsp;"
 "designer"
 
-#: pages/templates/home.html:248 pages/templates/home.html:284
-msgid "lalala"
+#: pages/templates/home.html:248
+msgid ""
+"Half shadowed close-up of a puzzling man wearing a hat and smoking a pipe"
 msgstr ""
 
 #: pages/templates/home.html:250
@@ -1128,6 +1129,12 @@ msgstr ""
 #: pages/templates/home.html:274
 msgid "— Marmitron, Digimiam's Intelligence since 2053"
 msgstr "— Le Marmitron, Intelligence au Digimiam depuis 2053"
+
+#: pages/templates/home.html:284
+msgid ""
+"Scenery in the background and in the foreground a close-up of an enigmatic "
+"smiling woman wearing a large hat and big sunglasses"
+msgstr ""
 
 #: pages/templates/home.html:286
 msgid ""
@@ -1341,6 +1348,217 @@ msgstr "Suivant"
 #: pages/templates/room.html:127
 msgid "Horror room"
 msgstr "Salle horreur"
+
+#: pages/templates/svg/address.svg:2
+msgid "Visit card displaying a person and lines of text"
+msgstr "Carte de visite affichant une personne et des lignes de texte"
+
+#: pages/templates/svg/apple-alt.svg:2
+msgid "Delicious apple with a leaf"
+msgstr "Délicieuse pomme avec une feuille"
+
+#: pages/templates/svg/arrow-right.svg:2
+msgid "Directional arrow"
+msgstr "Flèche directionnelle"
+
+#: pages/templates/svg/beer.svg:2
+msgid "Mug filled with Northern beer"
+msgstr "Chope remplie de bière du Nord"
+
+#: pages/templates/svg/bicycle.svg:2
+msgid "Bicycle pointing to the right"
+msgstr "Vélo digiré vers la droite"
+
+#: pages/templates/svg/bus.svg:2
+msgid "Old school bus facing the screen"
+msgstr "Bus démodé faisant face à l'écran"
+
+#: pages/templates/svg/calendar-check.svg:2
+msgid "A daily calendar with a check mark as if an event has been booked"
+msgstr ""
+"Un calendrier quotidien avec une case cochée comme si un événement avait été "
+"reservé"
+
+#: pages/templates/svg/car.svg:2
+msgid "City car facing the screen"
+msgstr "Voiture de ville faisant face à l'écran"
+
+#: pages/templates/svg/check.svg:2
+msgid "Check mark"
+msgstr "Case cochée"
+
+#: pages/templates/svg/chrono.svg:2
+msgid "Time to solve puzzles"
+msgstr "Temps pour résoudre les énigmes"
+
+#: pages/templates/svg/clock.svg:2
+msgid "Kitchen clock indicating four o&#39;clock"
+msgstr "Horloge de cuisine indiquant quatre heures"
+
+#: pages/templates/svg/cocktail.svg:2
+msgid "Triangular shaped cocktail glass with a slice of lemon attached"
+msgstr "Verre de cocktail de forme triangulaire avec une tranche de citron"
+
+#: pages/templates/svg/coffee.svg:2
+msgid "Cup of coffee lying on an undercup"
+msgstr "Tasse de café posée sur une soucoupe"
+
+#: pages/templates/svg/credit-card.svg:2
+msgid "Credit card with undistinguishable information"
+msgstr "Carte de crédit avec des informations indiscernables"
+
+#: pages/templates/svg/digimiam.svg:2
+msgid ""
+"An escape room door with the Digimiam's cooking robot inside, wearing a "
+"chef&#39;s hat and moving in a weird way in the gap"
+msgstr ""
+"Une porte d'escape room avec le robot cuisinier du Digimiam à l'intérieur, "
+"portant une toque de chef et gesticulant bizarrement dans l'entrebâillement"
+
+#: pages/templates/svg/discount.svg:2
+msgid ""
+"Cheap price discount voucher with a minus followed by a percent sign written "
+"on it"
+msgstr ""
+"Coupon de réduction pas cher avec un signe moins suivi par un signe de "
+"pourcentage écrit dessus"
+
+#: pages/templates/svg/door-background.svg:2
+msgid ""
+"Border of Just Escape&#39;s logo with a miniature of the website&#39;s index "
+"page in the background"
+msgstr ""
+"Bordure du logo de Just Escape avec une miniature de la page d'index du site "
+"web à l'arrière plan"
+
+#: pages/templates/svg/door-door.svg:2
+msgid "Only the door of Just Escape&#39;s logo"
+msgstr "Uniquement la porte du logo de Just Escape"
+
+#: pages/templates/svg/facebook.svg:2
+msgid "Facebook"
+msgstr "Facebook"
+
+#: pages/templates/svg/gift.svg:2
+msgid "Birthday gift box with curly ribbons that is not opened yet"
+msgstr ""
+"Boîte cadeau d'anniversaire avec des bandeaux bouclés qui n'est pas encore "
+"ouvert"
+
+#: pages/templates/svg/glass-cheers.svg:2
+msgid "Two filled wine glasses having a toast"
+msgstr "Deux verres de vin en train de trinquer"
+
+#: pages/templates/svg/grin-beam.svg:2
+msgid "Grin face with smiling eyes emoji"
+msgstr "Emoji d'un visage souriant aux yeux souriants"
+
+#: pages/templates/svg/info-circle.svg:2
+msgid "Lowercase i inside a circle inviting you to click for more info"
+msgstr "i minuscule dans un cercle vous invitant à cliquer pour plus d'infos"
+
+#: pages/templates/svg/instagram.svg:2
+msgid "Instagram"
+msgstr "Instagram"
+
+#: pages/templates/svg/just-escape-door.svg:2
+msgid "Just Escape logo with no text: an escape room door"
+msgstr "Logo de Just Escape sans texte : une porte d'escape room"
+
+#: pages/templates/svg/just-escape.svg:2
+msgid "Just Escape Lille logo"
+msgstr "Just Escape Lille Logo"
+
+#: pages/templates/svg/lang.svg:2
+msgid "Available languages for the scenario"
+msgstr "Langages disponibles pour le scénario"
+
+#: pages/templates/svg/language.svg:2
+msgid "Change language"
+msgstr "Changer la langue"
+
+#: pages/templates/svg/linkedin.svg:2
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: pages/templates/svg/map-marker.svg:2
+msgid "Map marker"
+msgstr "Repère cartographique"
+
+#: pages/templates/svg/marmitron-head.svg:2
+msgid "The angled head of Marmitron, the Digimiam's chef robot"
+msgstr "La tête inclinée du Marmitron, le robot chef du Digimiam"
+
+#: pages/templates/svg/minus-16.svg:2
+msgid "Not recommended for children under the age of 16"
+msgstr "Déconseillé aux enfants de moins de 16 ans"
+
+#: pages/templates/svg/presentation.svg:2
+msgid ""
+"An animator pointing something on a whiteboard with their finger in the "
+"background to a team of 3 persons in the foreground"
+msgstr ""
+"Un animateur pointant quelque chose avec son doigt sur un tableau blanc à "
+"l'arrière plan face à une team de 3 personnes au premier plan"
+
+#: pages/templates/svg/puppet.svg:2
+msgid ""
+"An escape room door with an horror puppet escaping through the gap, rolling "
+"its eyes to face the screen and pulling a knife out of its sleeve"
+msgstr ""
+"Une porte d'escape room avec une marionnette d'horreur s'échappant à travers "
+"l'entrebâillement, roulant ses yeux pour faire face à l'écran et sortant un "
+"couteau de sa manche"
+
+#: pages/templates/svg/question-circle.svg:2
+msgid "Question mark inside a circle inviting you to click if you're wondering"
+msgstr ""
+"Point d'interrogation dans un cercle vous invitant à cliquer si vous vous "
+"posez une question"
+
+#: pages/templates/svg/quote-left.svg:2
+msgid "Opening quote mark"
+msgstr "Guillemets ouvrants"
+
+#: pages/templates/svg/subway.svg:2
+msgid "Subway facing the screen"
+msgstr "Métro faisant face à l'écran"
+
+#: pages/templates/svg/times.svg:2
+msgid "X shaped cross"
+msgstr "Croix en forme de X"
+
+#: pages/templates/svg/tripadvisor.svg:2
+msgid "Tripadvisor"
+msgstr "Tripadvisor"
+
+#: pages/templates/svg/twitter.svg:2
+msgid "Twitter"
+msgstr "Twitter"
+
+#: pages/templates/svg/user-tie.svg:2
+msgid ""
+"Chest plan of a person wearing a costume and a tie getting prepared for team "
+"building"
+msgstr ""
+"Plan de poitrine d'une personne portant un costume et une cravate se "
+"préparant pour du team building"
+
+#: pages/templates/svg/users.svg:2
+msgid "Group of 3 persons"
+msgstr "Groupe de 3 personnes"
+
+#: pages/templates/svg/walking.svg:2
+msgid "A person walking, seen from the side"
+msgstr "Une personne marchant, vue de profil"
+
+#: pages/templates/svg/x2.svg:2
+msgid "Times 2 multiplier"
+msgstr "Multiplicateur par 2"
+
+#: pages/templates/svg/yelp.svg:2
+msgid "Yelp"
+msgstr "Yelp"
 
 #: pages/templates/teambuilding.html:6
 msgid "Team Building ⭐ Escape Game Lille ⭐ Just Escape"

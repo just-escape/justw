@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-05 22:07+0200\n"
+"POT-Creation-Date: 2019-07-06 11:15+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -797,7 +797,7 @@ msgstr ""
 msgid "Escape Game Lille"
 msgstr ""
 
-#: pages/templates/header.html:27 pages/templates/room.html:189
+#: pages/templates/header.html:27 pages/templates/room.html:187
 msgid "Rooms"
 msgstr ""
 
@@ -975,8 +975,9 @@ msgid ""
 "The best live escape game in&nbsp;Lille —&nbsp;The designer&#39;s&nbsp;mom"
 msgstr ""
 
-#: pages/templates/home.html:248 pages/templates/home.html:284
-msgid "lalala"
+#: pages/templates/home.html:248
+msgid ""
+"Half shadowed close-up of a puzzling man wearing a hat and smoking a pipe"
 msgstr ""
 
 #: pages/templates/home.html:250
@@ -998,6 +999,12 @@ msgstr ""
 
 #: pages/templates/home.html:274
 msgid "— Marmitron, Digimiam's Intelligence since 2053"
+msgstr ""
+
+#: pages/templates/home.html:284
+msgid ""
+"Scenery in the background and in the foreground a close-up of an enigmatic "
+"smiling woman wearing a large hat and big sunglasses"
 msgstr ""
 
 #: pages/templates/home.html:286
@@ -1193,6 +1200,198 @@ msgstr ""
 
 #: pages/templates/room.html:127
 msgid "Horror room"
+msgstr ""
+
+#: pages/templates/svg/address.svg:2
+msgid "Visit card displaying a person and lines of text"
+msgstr ""
+
+#: pages/templates/svg/apple-alt.svg:2
+msgid "Delicious apple with a leaf"
+msgstr ""
+
+#: pages/templates/svg/arrow-right.svg:2
+msgid "Directional arrow"
+msgstr ""
+
+#: pages/templates/svg/beer.svg:2
+msgid "Mug filled with Northern beer"
+msgstr ""
+
+#: pages/templates/svg/bicycle.svg:2
+msgid "Bicycle pointing to the right"
+msgstr ""
+
+#: pages/templates/svg/bus.svg:2
+msgid "Old school bus facing the screen"
+msgstr ""
+
+#: pages/templates/svg/calendar-check.svg:2
+msgid "A daily calendar with a check mark as if an event has been booked"
+msgstr ""
+
+#: pages/templates/svg/car.svg:2
+msgid "City car facing the screen"
+msgstr ""
+
+#: pages/templates/svg/check.svg:2
+msgid "Check mark"
+msgstr ""
+
+#: pages/templates/svg/chrono.svg:2
+msgid "Time to solve puzzles"
+msgstr ""
+
+#: pages/templates/svg/clock.svg:2
+msgid "Kitchen clock indicating four o&#39;clock"
+msgstr ""
+
+#: pages/templates/svg/cocktail.svg:2
+msgid "Triangular shaped cocktail glass with a slice of lemon attached"
+msgstr ""
+
+#: pages/templates/svg/coffee.svg:2
+msgid "Cup of coffee lying on an undercup"
+msgstr ""
+
+#: pages/templates/svg/credit-card.svg:2
+msgid "Credit card with undistinguishable information"
+msgstr ""
+
+#: pages/templates/svg/digimiam.svg:2
+msgid ""
+"An escape room door with the Digimiam's cooking robot inside, wearing a "
+"chef&#39;s hat and moving in a weird way in the gap"
+msgstr ""
+
+#: pages/templates/svg/discount.svg:2
+msgid ""
+"Cheap price discount voucher with a minus followed by a percent sign written "
+"on it"
+msgstr ""
+
+#: pages/templates/svg/door-background.svg:2
+msgid ""
+"Border of Just Escape&#39;s logo with a miniature of the website&#39;s index "
+"page in the background"
+msgstr ""
+
+#: pages/templates/svg/door-door.svg:2
+msgid "Only the door of Just Escape&#39;s logo"
+msgstr ""
+
+#: pages/templates/svg/facebook.svg:2
+msgid "Facebook"
+msgstr ""
+
+#: pages/templates/svg/gift.svg:2
+msgid "Birthday gift box with curly ribbons that is not opened yet"
+msgstr ""
+
+#: pages/templates/svg/glass-cheers.svg:2
+msgid "Two filled wine glasses having a toast"
+msgstr ""
+
+#: pages/templates/svg/grin-beam.svg:2
+msgid "Grin face with smiling eyes emoji"
+msgstr ""
+
+#: pages/templates/svg/info-circle.svg:2
+msgid "Lowercase i inside a circle inviting you to click for more info"
+msgstr ""
+
+#: pages/templates/svg/instagram.svg:2
+msgid "Instagram"
+msgstr ""
+
+#: pages/templates/svg/just-escape-door.svg:2
+msgid "Just Escape logo with no text: an escape room door"
+msgstr ""
+
+#: pages/templates/svg/just-escape.svg:2
+msgid "Just Escape Lille logo"
+msgstr ""
+
+#: pages/templates/svg/lang.svg:2
+msgid "Available languages for the scenario"
+msgstr ""
+
+#: pages/templates/svg/language.svg:2
+msgid "Change language"
+msgstr ""
+
+#: pages/templates/svg/linkedin.svg:2
+msgid "Linkedin"
+msgstr ""
+
+#: pages/templates/svg/map-marker.svg:2
+msgid "Map marker"
+msgstr ""
+
+#: pages/templates/svg/marmitron-head.svg:2
+msgid "The angled head of Marmitron, the Digimiam's chef robot"
+msgstr ""
+
+#: pages/templates/svg/minus-16.svg:2
+msgid "Not recommended for children under the age of 16"
+msgstr ""
+
+#: pages/templates/svg/presentation.svg:2
+msgid ""
+"An animator pointing something on a whiteboard with their finger in the "
+"background to a team of 3 persons in the foreground"
+msgstr ""
+
+#: pages/templates/svg/puppet.svg:2
+msgid ""
+"An escape room door with an horror puppet escaping through the gap, rolling "
+"its eyes to face the screen and pulling a knife out of its sleeve"
+msgstr ""
+
+#: pages/templates/svg/question-circle.svg:2
+msgid "Question mark inside a circle inviting you to click if you're wondering"
+msgstr ""
+
+#: pages/templates/svg/quote-left.svg:2
+msgid "Opening quote mark"
+msgstr ""
+
+#: pages/templates/svg/subway.svg:2
+msgid "Subway facing the screen"
+msgstr ""
+
+#: pages/templates/svg/times.svg:2
+msgid "X shaped cross"
+msgstr ""
+
+#: pages/templates/svg/tripadvisor.svg:2
+msgid "Tripadvisor"
+msgstr ""
+
+#: pages/templates/svg/twitter.svg:2
+msgid "Twitter"
+msgstr ""
+
+#: pages/templates/svg/user-tie.svg:2
+msgid ""
+"Chest plan of a person wearing a costume and a tie getting prepared for team "
+"building"
+msgstr ""
+
+#: pages/templates/svg/users.svg:2
+msgid "Group of 3 persons"
+msgstr ""
+
+#: pages/templates/svg/walking.svg:2
+msgid "A person walking, seen from the side"
+msgstr ""
+
+#: pages/templates/svg/x2.svg:2
+msgid "Times 2 multiplier"
+msgstr ""
+
+#: pages/templates/svg/yelp.svg:2
+msgid "Yelp"
 msgstr ""
 
 #: pages/templates/teambuilding.html:6
