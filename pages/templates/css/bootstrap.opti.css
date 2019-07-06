@@ -4371,6 +4371,9 @@ input[type=submit].btn-block {
   text-align:center!important
  }
 }
+.font-weight-normal {
+ font-weight:400!important
+}
 .font-weight-bold {
  font-weight:700!important
 }
