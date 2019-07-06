@@ -286,11 +286,6 @@ def unsubscribe(request):
     return r
 
 
-def access(request):
-    data = {'current_page': 'acces', 'lang': get_lang(request)}
-    return render(request, 'access.html', data)
-
-
 def terms(request):
     data = {'current_page': 'cgv', 'noindex': True, 'lang': get_lang(request)}
     r = render(request, 'terms.html', data)

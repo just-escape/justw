@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-06 12:29+0200\n"
+"POT-Creation-Date: 2019-07-06 16:05+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -42,69 +42,6 @@ msgstr "Erreur 404 — Vous ne naviguez pas sur la bonne page"
 #: pages/templates/404.html:26
 msgid "Go through the door to retrace your steps"
 msgstr "Passez par la porte pour revenir sur vos pas"
-
-#: pages/templates/access.html:5
-msgid "Access ⭐ Escape Game Lille ⭐ Just Escape"
-msgstr "Accès ⭐ Escape Game Lille ⭐ Just Escape"
-
-#: pages/templates/access.html:6 pages/templates/access.html:9
-#: pages/templates/contact.html:6 pages/templates/contact.html:9
-msgid ""
-"24 rue d&#39;Arras 59 800 Lille — How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 — +33 1 23 "
-"45 67 89"
-msgstr ""
-"24 rue d&#39;Arras 59 800 Lille — Comment s'y rendre ? 🚶 🚲  🚗 🚉 ✈ 🚀 — +33 1 "
-"23 45 67 89"
-
-#: pages/templates/access.html:8 pages/templates/access.html:144
-#: pages/templates/footer.html:47 pages/templates/header.html:57
-msgid "Access"
-msgstr "Accès"
-
-#: pages/templates/access.html:11
-msgid "How to get to our estate in Lille?"
-msgstr "Comment rejoindre notre local à&nbsp;Lille&nbsp;?"
-
-#: pages/templates/access.html:29 pages/templates/contact.html:27
-#: pages/templates/home.html:317
-msgid "Opening hours"
-msgstr "Horaires d&#39;ouverture"
-
-#: pages/templates/access.html:31 pages/templates/contact.html:29
-#: pages/templates/home.html:319
-msgid "<span class='text-jaffa'>Monday-friday:</span> 2PM-11PM<br>"
-msgstr "<span class='text-jaffa'>Lundi-vendredi :</span> 14h-23h<br>"
-
-#: pages/templates/access.html:32 pages/templates/contact.html:30
-#: pages/templates/home.html:320
-msgid "<span class='text-jaffa'>Saturday-sunday:</span> 10AM-11PM"
-msgstr "<span class='text-jaffa'>Samedi-dimanche :</span> 10h-23h"
-
-#: pages/templates/access.html:48 pages/templates/contact.html:65
-#: pages/templates/home.html:355
-msgid "Address"
-msgstr "Adresse"
-
-#: pages/templates/access.html:50 pages/templates/contact.html:67
-#: pages/templates/home.html:357
-msgid "24 rue d&#39;Arras<br>59 800 Lille, France"
-msgstr "24 rue d&#39;Arras<br>59 800 Lille"
-
-#: pages/templates/access.html:71 pages/templates/access.html:86
-msgid "Here are some explanations"
-msgstr "Voici des explications"
-
-#: pages/templates/access.html:72 pages/templates/access.html:87
-msgid "On how to come"
-msgstr "Sur comment venir"
-
-#: pages/templates/access.html:77 pages/templates/access.html:92
-msgid "We don&#39;t have a local yet"
-msgstr "Nous n&#39;avons pas de local pour l&#39;instant"
-
-#: pages/templates/access.html:78 pages/templates/access.html:93
-msgid "So we won&#39;t go into the details"
-msgstr "Donc on a pas de détails"
 
 #: pages/templates/base.html:55
 msgid "Just Escape — From 2 Players"
@@ -306,8 +243,16 @@ msgstr "Mais on ne les a pas encore écrites"
 msgid "Contact ⭐ Escape Game Lille ⭐ Just Escape"
 msgstr "Contact ⭐ Escape Game Lille ⭐ Just Escape"
 
+#: pages/templates/contact.html:6 pages/templates/contact.html:9
+msgid ""
+"26 rue d&#39;Arras 59 800 Lille — How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 — +33 1 23 "
+"45 67 89"
+msgstr ""
+"26 rue d&#39;Arras 59 800 Lille — Comment s'y rendre ? 🚶 🚲  🚗 🚉 ✈ 🚀 — +33 1 "
+"23 45 67 89"
+
 #: pages/templates/contact.html:8 pages/templates/contact.html:46
-#: pages/templates/contact.html:162 pages/templates/footer.html:46
+#: pages/templates/contact.html:208 pages/templates/footer.html:46
 #: pages/templates/header.html:54 pages/templates/home.html:336
 msgid "Contact"
 msgstr "Contact"
@@ -315,6 +260,18 @@ msgstr "Contact"
 #: pages/templates/contact.html:11
 msgid "How to contact us"
 msgstr "Contactez-nous"
+
+#: pages/templates/contact.html:27 pages/templates/home.html:317
+msgid "Opening hours"
+msgstr "Horaires d&#39;ouverture"
+
+#: pages/templates/contact.html:29 pages/templates/home.html:319
+msgid "<span class='text-jaffa'>Monday-friday:</span> 2PM-11PM<br>"
+msgstr "<span class='text-jaffa'>Lundi-vendredi :</span> 14h-23h<br>"
+
+#: pages/templates/contact.html:30 pages/templates/home.html:320
+msgid "<span class='text-jaffa'>Saturday-sunday:</span> 10AM-11PM"
+msgstr "<span class='text-jaffa'>Samedi-dimanche :</span> 10h-23h"
 
 #: pages/templates/contact.html:48 pages/templates/home.html:338
 msgid "<span class='text-jaffa'>Tel:</span> +33 1 23 45 67 89<br>"
@@ -330,28 +287,56 @@ msgstr ""
 "hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
 "hidden></span>.fr"
 
-#: pages/templates/contact.html:86 pages/templates/home.html:378
+#: pages/templates/contact.html:65 pages/templates/home.html:355
+msgid "Address"
+msgstr "Adresse"
+
+#: pages/templates/contact.html:67 pages/templates/home.html:357
+msgid "26 rue d&#39;Arras<br>59 800 Lille, France"
+msgstr "26 rue d&#39;Arras<br>59 800 Lille"
+
+#: pages/templates/contact.html:88
+msgid "How to get to our estate in Lille?"
+msgstr "Comment rejoindre notre local à&nbsp;Lille&nbsp;?"
+
+#: pages/templates/contact.html:93 pages/templates/contact.html:110
+msgid "Here are some explanations"
+msgstr "Voici des explications"
+
+#: pages/templates/contact.html:94 pages/templates/contact.html:111
+msgid "On how to come"
+msgstr "Sur comment venir"
+
+#: pages/templates/contact.html:101 pages/templates/contact.html:118
+msgid "We don&#39;t have a local yet"
+msgstr "Nous n&#39;avons pas de local pour l&#39;instant"
+
+#: pages/templates/contact.html:102 pages/templates/contact.html:119
+msgid "So we won&#39;t go into the details"
+msgstr "Donc on a pas de détails"
+
+#: pages/templates/contact.html:132 pages/templates/home.html:378
 msgid "Newsletter"
 msgstr "Newsletter"
 
-#: pages/templates/contact.html:91 pages/templates/home.html:383
+#: pages/templates/contact.html:137 pages/templates/home.html:383
 #: pages/templates/teambuilding.html:133 pages/templates/unsubscribe.html:24
 msgid "An unexpected error happened. Please contact us directly."
 msgstr ""
 "Une erreur inattendue s&#39;est produite. Merci de nous contacter "
 "directement."
 
-#: pages/templates/contact.html:98 pages/templates/home.html:390
+#: pages/templates/contact.html:144 pages/templates/home.html:390
 #: pages/templates/unsubscribe.html:31
 msgid "Thank you and see you soon!"
 msgstr "Au revoir et à bientôt !"
 
-#: pages/templates/contact.html:101 pages/templates/home.html:393
+#: pages/templates/contact.html:147 pages/templates/home.html:393
 #: pages/templates/unsubscribe.html:34 salesquote/forms.py:78
 msgid "marmitron@justescape.fr"
 msgstr "marmitron@justescape.fr"
 
-#: pages/templates/contact.html:103 pages/templates/home.html:395
+#: pages/templates/contact.html:149 pages/templates/home.html:395
 msgid "Subscribe"
 msgstr "Je m&#39;abonne"
 
@@ -865,23 +850,23 @@ msgstr "On est pas sur yelp mais on aime bien ce réseau&nbsp;!"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: pages/templates/footer.html:48 pages/templates/header.html:60
+#: pages/templates/footer.html:47 pages/templates/header.html:57
 msgid "Soon"
 msgstr "Prochainement"
 
-#: pages/templates/footer.html:48 pages/templates/header.html:60
+#: pages/templates/footer.html:47 pages/templates/header.html:57
 msgid "Blog"
 msgstr "Blog"
 
-#: pages/templates/footer.html:49 pages/templates/partners.html:130
+#: pages/templates/footer.html:48 pages/templates/partners.html:130
 msgid "Partners"
 msgstr "Partenaires"
 
-#: pages/templates/footer.html:50
+#: pages/templates/footer.html:49
 msgid "Terms"
 msgstr "CGV"
 
-#: pages/templates/footer.html:51
+#: pages/templates/footer.html:50
 msgid "Conditions"
 msgstr "CGU"
 
@@ -917,7 +902,7 @@ msgstr "Carte cadeau"
 msgid "Escape Game Lille"
 msgstr "Escape Game Lille"
 
-#: pages/templates/header.html:27 pages/templates/room.html:187
+#: pages/templates/header.html:27 pages/templates/room.html:191
 msgid "Rooms"
 msgstr "Salles"
 
@@ -930,11 +915,11 @@ msgstr "Tarifs"
 msgid "Team Building"
 msgstr "Team Building"
 
-#: pages/templates/header.html:68
+#: pages/templates/header.html:65
 msgid "EN"
 msgstr "EN"
 
-#: pages/templates/header.html:68
+#: pages/templates/header.html:65
 msgid "FR"
 msgstr "FR"
 
@@ -998,30 +983,30 @@ msgid "The room"
 msgstr "La salle"
 
 #: pages/templates/home.html:50 pages/templates/home.html:226
-#: pages/templates/pricing.html:69 pages/templates/room.html:67
+#: pages/templates/pricing.html:69 pages/templates/room.html:69
 #: pages/templates/teambuilding.html:112
 msgid "Book now"
 msgstr "Réserver"
 
-#: pages/templates/home.html:67 pages/templates/room.html:47
+#: pages/templates/home.html:67 pages/templates/room.html:49
 msgid "2 - 4 players"
 msgstr "2 à 4 joueurs"
 
 #: pages/templates/home.html:74 pages/templates/home.html:122
-#: pages/templates/room.html:54 pages/templates/room.html:142
+#: pages/templates/room.html:56 pages/templates/room.html:146
 msgid "60 minutes"
 msgstr "60 minutes"
 
 #: pages/templates/home.html:81 pages/templates/home.html:129
-#: pages/templates/room.html:61 pages/templates/room.html:149
+#: pages/templates/room.html:63 pages/templates/room.html:153
 msgid "FR / EN"
 msgstr "FR / EN"
 
-#: pages/templates/home.html:95 pages/templates/room.html:121
+#: pages/templates/home.html:95 pages/templates/room.html:123
 msgid "[room] Soon"
 msgstr "À venir"
 
-#: pages/templates/home.html:102 pages/templates/room.html:127
+#: pages/templates/home.html:102 pages/templates/room.html:129
 msgid "Horror room"
 msgstr "Salle horreur"
 
@@ -1046,7 +1031,7 @@ msgstr ""
 msgid "The design of the puzzles is still in progress."
 msgstr "La création des énigmes est encore en cours."
 
-#: pages/templates/home.html:115 pages/templates/room.html:135
+#: pages/templates/home.html:115 pages/templates/room.html:139
 msgid "4 - 6 players"
 msgstr "4 à 6 joueurs"
 
@@ -1387,17 +1372,58 @@ msgstr "Découvrez nos scénario"
 msgid "More info"
 msgstr "Plus d'infos"
 
-#: pages/templates/room.html:79
+#: pages/templates/room.html:37
+msgid ""
+"À quoi pourrait ressembler un restaurant futuriste entièrement géré par une "
+"Intelligence Artificielle&nbsp;? C&#39;est ce que vous allez découvrir dans "
+"le Digimiam (célèbre adresse que tous les habitants de Lille s&#39;"
+"échangeront en 2080)."
+msgstr ""
+
+#: pages/templates/room.html:38
+msgid ""
+"Mais aujourd&#39;hui le Digimiam a besoin de vous. Le rapport indique que "
+"l&#39;IA de cuisine, le <span class='font-italic'>Marmitron</span>, ne "
+"répondrait plus aux ordres. Le client vous presse, vous et votre groupe de "
+"maintenance spécialisé en IA."
+msgstr ""
+
+#: pages/templates/room.html:39
+msgid ""
+"Cette intervention de routine pourrait bien devenir plus amusante que prévue "
+"lorsque vous vous traverserez le labyrinthe laser, que vous recalibrerez les "
+"bras robotiques et que vous restaurerez les autres modules."
+msgstr ""
+
+#: pages/templates/room.html:81
 msgid "A better description and awesome photos are to come!"
 msgstr "Une meilleure description et des super photos suivront&nbsp;!"
 
-#: pages/templates/room.html:101
+#: pages/templates/room.html:103
 msgid "Previous"
 msgstr "Précédent"
 
-#: pages/templates/room.html:105
+#: pages/templates/room.html:107
 msgid "Next"
 msgstr "Suivant"
+
+#: pages/templates/room.html:130
+msgid ""
+"Vous allez bientôt pouvoir profiter d&#39;une nouvelle salle d&#39;horreur "
+"sur Lille."
+msgstr ""
+
+#: pages/templates/room.html:131
+msgid ""
+"Tout ce qu&#39;on peut révéler pour l&#39;instant c&#39;est qu&#39;il y aura "
+"une forêt, un manoir, du lugubre, une marionnettiste, ses enfants (petit "
+"mais pas si mignons que ça), des montées d&#39;adrénaline, du sang et peut "
+"être même des morts."
+msgstr ""
+
+#: pages/templates/room.html:132
+msgid "Expected release date: soon™."
+msgstr ""
 
 #: pages/templates/svg/address.svg:2
 msgid "Visit card displaying a person and lines of text"

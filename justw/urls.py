@@ -19,7 +19,6 @@ urlpatterns = i18n_patterns(
     path('partenaires', views.partners, name='partners'),
     path('contact', views.contact, name='contact'),
     path('desabonnement', views.unsubscribe, name='unsubscribe'),
-    path('acces', views.access, name='access'),
     path('cgv', views.terms, name='terms'),
     path('cgu', views.conditions, name='conditions'),
 
