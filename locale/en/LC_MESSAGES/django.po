@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-06 17:09+0200\n"
+"POT-Creation-Date: 2019-07-07 18:29+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -24,7 +24,7 @@ msgid "French"
 msgstr "French"
 
 #: pages/templates/404.html:5
-msgid "404 Error ⭐ Escape Game Lille ⭐ Just Escape"
+msgid "404 Error – Escape Game Lille – Just Escape"
 msgstr ""
 
 #: pages/templates/404.html:6 pages/templates/404.html:9
@@ -36,39 +36,39 @@ msgid "404 Error"
 msgstr ""
 
 #: pages/templates/404.html:25
-msgid "Error 404 — You are not browsing on the good page"
+msgid "Error 404 – You are not browsing on the good page"
 msgstr ""
 
 #: pages/templates/404.html:26
 msgid "Go through the door to retrace your steps"
 msgstr ""
 
-#: pages/templates/base.html:55
-msgid "Just Escape — From 2 Players"
+#: pages/templates/base.html:53 pages/templates/home.html:8
+msgid "Escape Game Lille – From 2 Players"
 msgstr ""
 
-#: pages/templates/base.html:59
+#: pages/templates/base.html:57
 msgid "Just Escape Lille Logo"
 msgstr ""
 
-#: pages/templates/base.html:64
+#: pages/templates/base.html:62
 msgid "Just Escape ⭐⭐⭐⭐⭐"
 msgstr ""
 
-#: pages/templates/base.html:83
+#: pages/templates/base.html:81
 msgid "Notice"
 msgstr ""
 
-#: pages/templates/base.html:84
+#: pages/templates/base.html:82
 msgid "Just Escape is being created and should open at the end of 2019"
 msgstr ""
 
-#: pages/templates/base.html:95 pages/templates/home.html:11
+#: pages/templates/base.html:93 pages/templates/home.html:11
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr ""
 
 #: pages/templates/booking.html:5
-msgid "Booking ⭐ Escape Game Lille ⭐ Just Escape"
+msgid "Booking – Escape Game Lille – Just Escape"
 msgstr ""
 
 #: pages/templates/booking.html:6 pages/templates/booking.html:9
@@ -204,7 +204,7 @@ msgid "Booking"
 msgstr ""
 
 #: pages/templates/conditions.html:5
-msgid "Conditions of Use ⭐ Escape Game Lille ⭐ Just Escape"
+msgid "Conditions of Use – Escape Game Lille – Just Escape"
 msgstr ""
 
 #: pages/templates/conditions.html:6 pages/templates/conditions.html:9
@@ -230,12 +230,12 @@ msgid "But we have not written it yet"
 msgstr ""
 
 #: pages/templates/contact.html:5
-msgid "Contact ⭐ Escape Game Lille ⭐ Just Escape"
+msgid "Contact – Escape Game Lille – Just Escape"
 msgstr ""
 
 #: pages/templates/contact.html:6 pages/templates/contact.html:9
 msgid ""
-"26 rue d&#39;Arras 59 800 Lille — How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 — +33 1 23 "
+"26 rue d&#39;Arras 59 800 Lille – How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 – +33 1 23 "
 "45 67 89"
 msgstr ""
 
@@ -324,7 +324,7 @@ msgid "Subscribe"
 msgstr ""
 
 #: pages/templates/faq.html:7
-msgid "FAQ ⭐ Escape Game Lille ⭐ Just Escape"
+msgid "FAQ – Escape Game Lille – Just Escape"
 msgstr ""
 
 #: pages/templates/faq.html:8 pages/templates/faq.html:11
@@ -751,7 +751,7 @@ msgid "Conditions"
 msgstr ""
 
 #: pages/templates/gift-voucher.html:5
-msgid "Gift Voucher ⭐ Escape Game Lille ⭐ Just Escape"
+msgid "Gift Voucher – Escape Game Lille – Just Escape"
 msgstr ""
 
 #: pages/templates/gift-voucher.html:6
@@ -804,17 +804,19 @@ msgid "FR"
 msgstr ""
 
 #: pages/templates/home.html:5
-msgid "Just Escape ⭐ Escape Game Lille ⭐ From 2 Players"
+msgid "Just Escape – Escape Game Lille – From 2 Players"
 msgstr ""
 
-#: pages/templates/home.html:6 pages/templates/home.html:9
+#: pages/templates/home.html:6
 msgid ""
-"New escape game 2.0 in Lille ⚡ Ideal for an outing with friends 😃 Amazing "
+"New escape game 2.0 in Lille ⭐ Ideal for an outing with friends 😃 Amazing "
 "scenery 👌 Scenario Digimiam the futuristic restaurant 🤖"
 msgstr ""
 
-#: pages/templates/home.html:8
-msgid "Escape Game Lille — From 2 Players"
+#: pages/templates/home.html:9
+msgid ""
+"New escape game 2.0 in Lille ⚡ Ideal for an outing with friends 😃 Amazing "
+"scenery 👌 Scenario Digimiam the futuristic restaurant 🤖"
 msgstr ""
 
 #: pages/templates/home.html:20
@@ -961,7 +963,7 @@ msgstr ""
 
 #: pages/templates/home.html:239
 msgid ""
-"The best live escape game in&nbsp;Lille —&nbsp;The designer&#39;s&nbsp;mom"
+"The best live escape game in&nbsp;Lille –&nbsp;The designer&#39;s&nbsp;mom"
 msgstr ""
 
 #: pages/templates/home.html:248
@@ -977,7 +979,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/home.html:255
-msgid "— An anonymous shareholder of Just Escape"
+msgid "– An anonymous shareholder of Just Escape"
 msgstr ""
 
 #: pages/templates/home.html:269
@@ -988,7 +990,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/home.html:274
-msgid "— Marmitron, Digimiam's Intelligence since 2053"
+msgid "– Marmitron, Digimiam's Intelligence since 2053"
 msgstr ""
 
 #: pages/templates/home.html:284
@@ -1006,7 +1008,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/home.html:291
-msgid "— Shirley, a supposed descendant of Sherlock Holmes"
+msgid "– Shirley, a supposed descendant of Sherlock Holmes"
 msgstr ""
 
 #: pages/templates/home.html:303
@@ -1018,7 +1020,7 @@ msgid "News"
 msgstr ""
 
 #: pages/templates/partners.html:5
-msgid "Our Partners ⭐ Escape Game Lille ⭐ Just Escape"
+msgid "Our Partners – Escape Game Lille – Just Escape"
 msgstr ""
 
 #: pages/templates/partners.html:6 pages/templates/partners.html:9
@@ -1050,7 +1052,7 @@ msgid "We&#39;re having fun with those icons"
 msgstr ""
 
 #: pages/templates/pricing.html:5
-msgid "Price ⭐ Escape Game Lille ⭐ Just Escape"
+msgid "Price – Escape Game Lille – Just Escape"
 msgstr ""
 
 #: pages/templates/pricing.html:6
@@ -1155,7 +1157,7 @@ msgid "Seminar, Workshop, Teambuilding"
 msgstr ""
 
 #: pages/templates/room.html:5
-msgid "Escape Rooms ⭐ Escape Game Lille ⭐ Just Escape"
+msgid "Escape Rooms – Escape Game Lille – Just Escape"
 msgstr ""
 
 #: pages/templates/room.html:6 pages/templates/room.html:9
@@ -1428,7 +1430,7 @@ msgid "Yelp"
 msgstr ""
 
 #: pages/templates/teambuilding.html:6
-msgid "Team Building ⭐ Escape Game Lille ⭐ Just Escape"
+msgid "Team Building – Escape Game Lille – Just Escape"
 msgstr ""
 
 #: pages/templates/teambuilding.html:7 pages/templates/teambuilding.html:10
@@ -1438,7 +1440,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/teambuilding.html:9
-msgid "Team Building — Turnkey Packages"
+msgid "Team Building – Turnkey Packages"
 msgstr ""
 
 #: pages/templates/teambuilding.html:20
@@ -1560,7 +1562,7 @@ msgid "Submit"
 msgstr ""
 
 #: pages/templates/terms.html:5
-msgid "General Terms of Use ⭐ Escape Game Lille ⭐ Just Escape"
+msgid "General Terms of Use – Escape Game Lille – Just Escape"
 msgstr ""
 
 #: pages/templates/terms.html:6 pages/templates/terms.html:9
@@ -1582,7 +1584,7 @@ msgid "This is supposed to be our general terms of use"
 msgstr ""
 
 #: pages/templates/unsubscribe.html:5
-msgid "Unsubscribe ⭐ Escape Game Lille ⭐ Just Escape"
+msgid "Unsubscribe – Escape Game Lille – Just Escape"
 msgstr ""
 
 #: pages/templates/unsubscribe.html:6
