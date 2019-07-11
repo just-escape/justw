@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-07 18:30+0200\n"
+"POT-Creation-Date: 2019-07-11 17:19+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -43,27 +43,27 @@ msgstr "Erreur 404 – Vous ne naviguez pas sur la bonne page"
 msgid "Go through the door to retrace your steps"
 msgstr "Passez par la porte pour revenir sur vos pas"
 
-#: pages/templates/base.html:53 pages/templates/home.html:8
+#: pages/templates/base.html:55 pages/templates/home.html:8
 msgid "Escape Game Lille – From 2 Players"
 msgstr "Escape Game Lille – 2 Joueurs et Plus"
 
-#: pages/templates/base.html:57
+#: pages/templates/base.html:59
 msgid "Just Escape Lille Logo"
 msgstr "Just Escape Lille Logo"
 
-#: pages/templates/base.html:62
+#: pages/templates/base.html:64
 msgid "Just Escape ⭐⭐⭐⭐⭐"
 msgstr "Just Escape ⭐⭐⭐⭐⭐"
 
-#: pages/templates/base.html:81
+#: pages/templates/base.html:83
 msgid "Notice"
 msgstr "Note"
 
-#: pages/templates/base.html:82
+#: pages/templates/base.html:84
 msgid "Just Escape is being created and should open at the end of 2019"
 msgstr "Just Escape est en cours de création et devrait ouvrir fin 2019"
 
-#: pages/templates/base.html:93 pages/templates/home.html:11
+#: pages/templates/base.html:95 pages/templates/home.html:11
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr "Un des escape games les plus immersifs de&nbsp;Lille"
 
@@ -929,11 +929,11 @@ msgstr "Just Escape – Escape Game Lille – 2 Joueurs et Plus"
 
 #: pages/templates/home.html:6
 msgid ""
-"New escape game 2.0 in Lille ⭐ Ideal for an outing with friends 😃 Amazing "
-"scenery 👌 Scenario Digimiam the futuristic restaurant 🤖"
+"New escape game 2.0 in Lille ⭐ Ideal for an outing with friends. Amazing "
+"scenery. Scenario Digimiam the futuristic restaurant 🤖"
 msgstr ""
-"Nouvel escape game 2.0 à Lille ⭐ Idéal pour une sortie entre amis 😃 Des "
-"décors sensationnels 👌 Scénario Digimiam le restaurant futuriste 🤖"
+"Nouvel escape game 2.0 à Lille ⭐ Idéal pour une sortie entre amis. Des "
+"décors sensationnels. Scénario Digimiam le restaurant futuriste 🤖"
 
 #: pages/templates/home.html:9
 msgid ""
@@ -1396,8 +1396,8 @@ msgid ""
 "But today <span class='font-weight-bold'>the Digimiam needs you</span>. The "
 "report indicates that <span class='font-weight-bold'>the cooking AI, <span "
 "class='font-italic'>Marmitron</span></span>, would no longer respond to "
-"orders. The customer is urging you, and you maintenance group specialized in "
-"IA."
+"orders. The customer is urging you and your maintenance group specialized in "
+"AI."
 msgstr ""
 "Mais aujourd&#39;hui <span class='font-weight-bold'>le Digimiam a besoin de "
 "vous</span>. Le rapport indique que <span class='font-weight-bold'>l&#39;IA "
