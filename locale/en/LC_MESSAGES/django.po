@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-11 17:21+0200\n"
+"POT-Creation-Date: 2019-07-28 18:22+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -43,27 +43,27 @@ msgstr ""
 msgid "Go through the door to retrace your steps"
 msgstr ""
 
-#: pages/templates/base.html:55 pages/templates/home.html:8
+#: pages/templates/base.html:53 pages/templates/home.html:8
 msgid "Escape Game Lille – From 2 Players"
 msgstr ""
 
-#: pages/templates/base.html:59
+#: pages/templates/base.html:57
 msgid "Just Escape Lille Logo"
 msgstr ""
 
-#: pages/templates/base.html:64
+#: pages/templates/base.html:62
 msgid "Just Escape ⭐⭐⭐⭐⭐"
 msgstr ""
 
-#: pages/templates/base.html:83
+#: pages/templates/base.html:81
 msgid "Notice"
 msgstr ""
 
-#: pages/templates/base.html:84
+#: pages/templates/base.html:82
 msgid "Just Escape is being created and should open at the end of 2019"
 msgstr ""
 
-#: pages/templates/base.html:95 pages/templates/home.html:11
+#: pages/templates/base.html:93 pages/templates/home.html:11
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr ""
 
@@ -714,10 +714,6 @@ msgstr ""
 msgid "Follow us on social networks!"
 msgstr ""
 
-#: pages/templates/footer.html:17
-msgid "We are not on insta but we like this platform!"
-msgstr ""
-
 #: pages/templates/footer.html:32
 msgid "We are not on tripadvisor but we like this platform!"
 msgstr ""
@@ -833,19 +829,21 @@ msgstr ""
 
 #: pages/templates/home.html:40
 msgid ""
-"You are in <strong>Lille in 2080</strong> in a <span class='font-weight-"
-"bold'>futuristic restaurant</span>. The neurons of the Digimiam&#39;s <span "
-"class='font-weight-bold'>cooking AI</span> have short-circuited! It&#39;s "
-"now up to you to infiltrate through a <strong>laser labyrinth</strong> and "
-"regain control of the <span class='font-weight-bold'>robotic arms</span>! "
-"Will you be able to solve all our <span class='font-weight-bold'>original "
-"enigmas</span> in <span class='font-weight-bold'>immersive sceneries</span>?"
+"You are in <strong class='font-weight-normal'>Lille in 2080</strong> in a "
+"<span class='font-weight-bold text-jaffa'>futuristic restaurant</span>. The "
+"neurons of the Digimiam&#39;s <span class='font-weight-bold text-"
+"jaffa'>cooking AI</span> have short-circuited! It&#39;s now up to you to "
+"infiltrate through a <strong class='text-jaffa'>laser labyrinth</strong> and "
+"regain control of the <span class='font-weight-bold text-jaffa'>robotic "
+"arms</span>! Will you be able to solve all our original enigmas in immersive "
+"sceneries?"
 msgstr ""
 
 #: pages/templates/home.html:41
 msgid ""
-"This is a <strong>2-player scenario</strong> that can welcome up to <span "
-"class='font-weight-bold'>8 players</span> on two rooms."
+"This is a <strong class='text-jaffa'>2-player scenario</strong> that can "
+"welcome up to <span class='font-weight-bold text-jaffa'>8 players</span> on "
+"two rooms."
 msgstr ""
 
 #: pages/templates/home.html:45
@@ -882,12 +880,12 @@ msgstr ""
 
 #: pages/templates/home.html:103
 msgid ""
-"We are going to open a new <strong>horror escape game in Lille</strong>. "
-"Immersed in the middle of a forest, you discover the <span class='font-"
-"weight-bold'>mysterious mansion</span> of a puppeterr. Will you escape the "
-"<span class='font-weight-bold'>macabre valse of the puppets</span>? Are you "
-"ready to put your life and that of your team at risk? The "
-"<strong>adrenaline</strong> rises... Scenario to be played at dusk!"
+"We are going to open a new <strong class='text-jaffa'>horror escape game in "
+"Lille</strong>. Immersed in the middle of a forest, you discover the "
+"mysterious mansion of <span class='font-weight-bold text-jaffa'>a puppeteer</"
+"span>. Will you escape the <span class='font-weight-bold text-jaffa'>macabre "
+"valse of the puppets</span>? Are you ready to put your life and that of your "
+"team at risk? The adrenaline rises... Scenario to be played at dusk!"
 msgstr ""
 
 #: pages/templates/home.html:104
@@ -909,10 +907,11 @@ msgstr ""
 #: pages/templates/home.html:152
 msgid ""
 "The principle of <strong>live escape games</strong> is to lock a group of "
-"players in a theme room. The challenge is to <strong>escape by solving all "
-"the puzzles</strong> in less than one hour<span class='emoji'>&nbsp;⏳</"
-"span>. Fun and immersive, the <strong class='font-weight-normal'>live escape "
-"game</strong> is a hobby that combines <strong>team work</strong>, <span "
+"players in a theme room. The challenge is to <strong class='font-weight-"
+"normal'>escape by solving all the puzzles</strong> in <span class='font-"
+"weight-bold'>less than one hour</span><span class='emoji'>&nbsp;⏳</span>. "
+"Fun and immersive, the <strong class='font-weight-normal'>live escape game</"
+"strong> is a hobby that combines <strong>team work</strong>, <span "
 "class='font-weight-bold'>communication</span> and <span class='font-weight-"
 "bold'>logic</span>. Escape games are an outing to do in <strong>family</"
 "strong>, between <strong>friends</strong> or in <strong>couple</strong><span "
@@ -926,13 +925,13 @@ msgstr ""
 #: pages/templates/home.html:156
 msgid ""
 "Just Escape is a <strong>2.0 escape game</strong> in which you are offered "
-"original puzzles without any lockers<span class='emoji'>&nbsp;🎯</span>. We "
-"also focus on the <span class='font-weight-bold'>quality of immersion</span> "
-"by creating film-like sceneries<span class='emoji'>&nbsp;🗿</span>. Our "
-"100&#37; connected puzzles affect the atmosphere of our rooms to offer you "
-"<span class='font-weight-bold'>the most realistic experience possible</"
-"span>. Our first room can be played by <strong>two people at an affordable "
-"price</strong>."
+"original puzzles <span class='font-weight-bold'>without any lockers</"
+"span><span class='emoji'>&nbsp;🎯</span>. We also focus on the quality of "
+"immersion by creating film-like sceneries<span class='emoji'>&nbsp;🗿</span>. "
+"Our <span class='font-weight-bold'>100&#37; connected</span> puzzles affect "
+"the atmosphere of our rooms to offer you <span class='font-weight-bold'>the "
+"most realistic experience possible</span>. Our first room can be played by "
+"<strong>two people at an affordable price</strong>."
 msgstr ""
 
 #: pages/templates/home.html:159
@@ -943,14 +942,13 @@ msgstr ""
 msgid ""
 "We have attractive prices for events like <strong>birthdays</strong>, "
 "<strong>stag or hen parties</strong><span class='emoji'>&nbsp;🎁</span>. Just "
-"Escape also provides <strong>turnkey solutions</strong> for <strong>team "
-"building</strong> and workshop (<span class='font-weight-bold'>relaxation "
-"area</span>, <span class='font-weight-bold'>dinner aperitif</span>, etc). "
-"This is an excellent opportunity to strengthen <strong>team cohesion</"
-"strong><span class='emoji'>&nbsp;😄</span>. This activity is suitable for "
-"<span class='font-weight-bold'>beginners</span> as well as <span class='font-"
-"weight-bold'>passionate</span> thanks to our <span class='font-weight-"
-"bold'>adaptative clues</span>."
+"Escape also provides <strong class='font-weight-normal'>turnkey solutions</"
+"strong> for <strong>team building</strong> and workshop (<span class='font-"
+"weight-bold'>relaxation area</span>, <span class='font-weight-bold'>dinner "
+"aperitif</span>, etc). This is an excellent opportunity to strengthen "
+"<strong>team cohesion</strong><span class='emoji'>&nbsp;😄</span>. This "
+"activity is suitable for beginners as well as passionate thanks to our "
+"adaptative clues."
 msgstr ""
 
 #: pages/templates/home.html:171
@@ -1180,28 +1178,27 @@ msgstr ""
 
 #: pages/templates/room.html:37
 msgid ""
-"What could a <span class='font-weight-bold'>futuristic restaurant</span> "
-"entirely managed by Artificial Intelligence look like? This is what you will "
-"discover in the Digimiam (<span class='font-weight-bold'>famous address</"
-"span> that all the inhabitants of <span class='font-weight-bold'>Lille</"
-"span> speak about <span class='font-weight-bold'>in 2080</span>)."
+"What could a <span class='font-weight-bold text-jaffa'>futuristic "
+"restaurant</span> entirely managed by Artificial Intelligence look like? "
+"This is what you will discover in the Digimiam (famous address that all the "
+"inhabitants of <span class='font-weight-bold text-jaffa'>Lille</span> speak "
+"about <span class='font-weight-bold text-jaffa'>in 2080</span>)."
 msgstr ""
 
 #: pages/templates/room.html:38
 msgid ""
-"But today <span class='font-weight-bold'>the Digimiam needs you</span>. The "
-"report indicates that <span class='font-weight-bold'>the cooking AI, <span "
-"class='font-italic'>Marmitron</span></span>, would no longer respond to "
-"orders. The customer is urging you and your maintenance group specialized in "
-"AI."
+"But today the Digimiam needs you. The report indicates that <span "
+"class='font-weight-bold text-jaffa'>the cooking AI, <span class='font-"
+"italic'>Marmitron</span></span>, would no longer respond to orders. The "
+"customer is urging you and your maintenance group specialized in AI."
 msgstr ""
 
 #: pages/templates/room.html:39
 msgid ""
-"This routine intervention may well become <span class='font-weight-"
-"bold'>funnier than expected</span> when you will infiltrate a <span "
-"class='font-weight-bold'>laser labyrinth</span>, recalibrate <span "
-"class='font-weight-bold'>robotic arms</span> and restore the other modules."
+"This routine intervention may well become funnier than expected when you "
+"will infiltrate a <span class='font-weight-bold text-jaffa'>laser labyrinth</"
+"span>, recalibrate <span class='font-weight-bold text-jaffa'>robotic arms</"
+"span> and restore the other modules."
 msgstr ""
 
 #: pages/templates/room.html:81
@@ -1218,19 +1215,19 @@ msgstr ""
 
 #: pages/templates/room.html:130
 msgid ""
-"You will soon be able to enjoy <span class='font-weight-bold'>a new horror "
-"room in Lille</span>."
+"You will soon be able to enjoy <span class='font-weight-bold text-jaffa'>a "
+"new horror room in Lille</span>."
 msgstr ""
 
 #: pages/templates/room.html:131
 msgid ""
-"All we can reveal for now is that there will be a forest, <span class='font-"
-"weight-bold'>a manor house</span>, a gloomy atmosphere, <span class='font-"
-"weight-bold'>a puppeteer</span>, her children (small but not that cute), a "
-"<span class='font-weight-bold'>theatrical puppet show</span> that <span "
-"class='font-italic'>you</span> will perform, <span class='font-weight-"
-"bold'>adrenaline rushes</span>, <span class='font-weight-bold'>blood</span> "
-"and maybe even <span class='font-weight-bold'>death</span>."
+"All we can reveal for now is that there will be a forest, a manor house, a "
+"gloomy atmosphere, <span class='font-weight-bold text-jaffa'>a puppeteer</"
+"span>, her children (small but not that cute), a <span class='font-weight-"
+"bold text-jaffa'>piece of theatre</span> in which <span class='font-"
+"italic'>you</span> will perform, adrenaline rushes, <span class='font-weight-"
+"bold text-jaffa'>blood</span> and maybe even <span class='font-weight-bold "
+"text-jaffa'>death</span>."
 msgstr ""
 
 #: pages/templates/room.html:132
