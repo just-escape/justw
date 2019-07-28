@@ -200,7 +200,16 @@ def room(request):
 
 
 def booking(request):
-    data = {'current_page': 'reserver', 'lang': get_lang(request)}
+    form, error, success = handle_subscription(request)
+
+    data = {
+        'current_page': 'reserver',
+        'lang': get_lang(request),
+        'form': form,
+        'unexpected_error': error,
+        'subscription_success': success,
+    }
+
     return render(request, 'booking.html', data)
 
 
