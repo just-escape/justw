@@ -502,6 +502,10 @@ a:hover {
 /* button */
 
 /* icon */
+svg {
+    pointer-events: none;
+}
+
 .width-170px svg {
     width: 170px;
 }
