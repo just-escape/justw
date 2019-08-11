@@ -423,7 +423,7 @@ a:hover {
 .btn > span, .nav-button > span {
     z-index: 3;
     position: relative;
-    font-family: "Big Noodle", "Arial Black", "sans-serif";
+    font-family: "Big Noodle", "Helvetica", "Arial", "sans-serif";
     font-style: oblique;
 }
 
