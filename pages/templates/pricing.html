@@ -8,17 +8,19 @@
 {% block og_title %}{% trans "Pricing" %}{% endblock %}
 {% block og_description %}{% trans "Discounts: -20&#37; for students 🎓 -30&#37; off-peak hours 🕓 special offers ✨ Gourmet menus 🍪 Aperitif menus 🍻" %}{% endblock %}
 
-{% block h1 %}{% trans "What is our price?" %}{% endblock %}
+{% block h1 %}{% trans "What&#39;s the price?" %}{% endblock %}
 
 {% block content %}
 
   <div class="jumbotron">
     <div class="container">
       <div class="row mb-3">
-        <h2 class="text-jaffa">{% trans "Price of a scenario" %}</h2>
+        <div class="col">
+          <h2 class="text-jaffa">{% trans "Price of a scenario" %}</h2>
+        </div>
       </div>
       <div class="row d-flex justify-content-center flex-wrap mb-4">
-        <div class="col-12 col-sm-7 col-lg-3 mb-4">
+        <div class="col-12 col-md-8 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-body text-center mt-4 mb-5">
               <h3 class="size-5 card-title text-jaffa">{% trans "25€" %}</h3>
@@ -26,29 +28,33 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-7 col-lg-3 mb-4">
+        <div class="col-12 col-md-8 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-body text-center mt-4 mb-5">
               <h3 class="size-5 card-title text-jaffa">{% trans "-20&#37;" %}</h3>
               <p class="card-text font-italic">
                 {% trans "Off-peak hours" %}
-                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "From monday to friday until 4PM (included)" %}"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
+              </p>
+              <p class="card-text font-italic small">
+                {% trans "From monday to friday until 4PM (included)" %}
               </p>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-7 col-lg-3 mb-4">
+        <div class="col-12 col-md-8 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-body text-center mt-4 mb-5">
               <h3 class="size-5 card-title text-jaffa">{% trans "-30&#37;" %}</h3>
               <p class="card-text font-italic">
                 {% trans "For <span class='font-weight-bold text-mulberry'>students</span>" %}
-                <a tabindex="0" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="{% trans "Online payments are made at full price. Refund of the difference on site upon presentation of the card." %}"><span class="svg-16px fill-jaffa pointer align-text-bottom">{% include "svg/info-circle.svg" %}</span></a>
+              </p>
+              <p class="card-text font-italic small">
+                {% trans "Online payments are made at full price. Refund of the difference on site upon presentation of the card." %}
               </p>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-7 col-lg-3 mb-4">
+        <div class="col-12 col-md-8 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="ribbon ribbon-top-left ribbon-jaffa"><span>{% trans "Out of stock" %}</span></div>
             <div class="card-body text-center">
@@ -77,10 +83,13 @@
   <div class="jumbotron softdark">
     <div class="container">
       <div class="row mb-3">
-        <h2 class="text-jaffa">{% trans "Come and celebrate your events with us" %}</h2>
+        <div class="col">
+          <span id="formules" class="anchor">&nbsp;</span>
+          <h2 class="text-jaffa">{% trans "Come and celebrate your events with us" %}</h2>
+        </div>
       </div>
       <div class="row d-flex justify-content-center flex-wrap mb-4">
-        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="col-12 col-md-8 col-lg-3 mb-4">
           <div class="card dark border-jaffa h-100">
             <div class="card-header">
               <h3 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/apple-alt.svg" %}</span>{% trans "Gourmet menu" %}</h3>
@@ -99,7 +108,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="col-12 col-md-8 col-lg-3 mb-4">
           <div class="card dark border-jaffa h-100">
             <div class="card-header">
               <h3 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/beer.svg" %}</span>{% trans "Aperitif menu" %}</h3>
@@ -118,7 +127,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="col-12 col-md-8 col-lg-3 mb-4">
           <div class="card dark border-jaffa h-100">
             <div class="card-header">
               <h3 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/gift.svg" %}</span>{% trans "Gift card" %}</h3>
@@ -132,7 +141,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="col-12 col-md-8 col-lg-3 mb-4">
           <div class="card dark border-jaffa h-100">
             <div class="card-header">
               <h3 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/user-tie.svg" %}</span>{% trans "Corporate" %}</h3>

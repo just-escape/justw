@@ -67,13 +67,6 @@
   </head>
 
   <body class="d-flex flex-column dark sans-serif pb-0">
-    <svg id="svg-css" aria-hidden="true" focusable="false">
-      <linearGradient id="mulberry-jaffa" x1="50%" y1="0%" x2="50%" y2="100%">
-        <stop stop-color="#cb4299" offset="0"/>
-        <stop stop-color="#f38d40" offset="75%"/>
-      </linearGradient>
-    </svg>
-
     {% include "header.html" %}
 
     <main class="flex-grow-1">
@@ -113,12 +106,14 @@
           if (this.oldScroll < this.scrollY) {
               if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
                   $("#navheader").addClass("reduced");
-                  $("#navbar").collapse('hide');
+                  $("#navbar").collapse("hide");
               }
           }
           else
           {
-              $("#navheader").removeClass("reduced");
+              if ((document.body.scrollTop > 0 && document.body.scrollTop <= 150) || (document.documentElement.scrollTop > 0 && document.documentElement.scrollTop <= 150)) {
+                  $("#navheader").removeClass("reduced");
+              }
           }
           this.oldScroll = this.scrollY;
       }
