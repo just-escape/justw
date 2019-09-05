@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-11 16:38+0200\n"
+"POT-Creation-Date: 2019-09-05 12:19+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -83,47 +83,47 @@ msgstr "Réserver ⚡"
 msgid "Book an escape room"
 msgstr "Réservez une escape room"
 
-#: pages/templates/booking.html:18
+#: pages/templates/booking.html:19
 msgid "Benefit from a discount"
-msgstr "Bénficiez d&#39;une réduction"
+msgstr "Bénéficiez d&#39;une réduction"
 
-#: pages/templates/booking.html:25 pages/templates/home.html:181
-#: pages/templates/pricing.html:24
+#: pages/templates/booking.html:27 pages/templates/home.html:181
+#: pages/templates/pricing.html:26
 msgid "25€"
 msgstr "25€"
 
-#: pages/templates/booking.html:26 pages/templates/home.html:183
-#: pages/templates/pricing.html:25
+#: pages/templates/booking.html:28 pages/templates/home.html:183
+#: pages/templates/pricing.html:27
 msgid "Per person"
 msgstr "Par personne"
 
-#: pages/templates/booking.html:33 pages/templates/home.html:191
-#: pages/templates/pricing.html:32
+#: pages/templates/booking.html:35 pages/templates/home.html:191
+#: pages/templates/pricing.html:34
 msgid "-20&#37;"
 msgstr "-20&#37;"
 
-#: pages/templates/booking.html:35 pages/templates/home.html:193
-#: pages/templates/pricing.html:34
+#: pages/templates/booking.html:37 pages/templates/home.html:193
+#: pages/templates/pricing.html:36
 msgid "Off-peak hours"
 msgstr "Heures creuses"
 
-#: pages/templates/booking.html:36 pages/templates/home.html:194
-#: pages/templates/pricing.html:35
+#: pages/templates/booking.html:40 pages/templates/home.html:196
+#: pages/templates/pricing.html:39
 msgid "From monday to friday until 4PM (included)"
 msgstr "Du lundi au vendredi jusqu'à 16h (inclu)"
 
-#: pages/templates/booking.html:44 pages/templates/home.html:202
-#: pages/templates/pricing.html:43
+#: pages/templates/booking.html:48 pages/templates/home.html:204
+#: pages/templates/pricing.html:47
 msgid "-30&#37;"
 msgstr "-30&#37;"
 
-#: pages/templates/booking.html:46 pages/templates/home.html:204
-#: pages/templates/pricing.html:45
+#: pages/templates/booking.html:50 pages/templates/home.html:206
+#: pages/templates/pricing.html:49
 msgid "For <span class='font-weight-bold text-mulberry'>students</span>"
 msgstr "Pour les <span class='font-weight-bold text-mulberry'>étudiants</span>"
 
-#: pages/templates/booking.html:47 pages/templates/home.html:205
-#: pages/templates/pricing.html:46
+#: pages/templates/booking.html:53 pages/templates/home.html:209
+#: pages/templates/pricing.html:52
 msgid ""
 "Online payments are made at full price. Refund of the difference on site "
 "upon presentation of the card."
@@ -131,56 +131,56 @@ msgstr ""
 "Les paiements en ligne se font au plein tarif. Remboursement de la "
 "différence sur place sur présentation de la carte."
 
-#: pages/templates/booking.html:54 pages/templates/home.html:212
-#: pages/templates/pricing.html:53
+#: pages/templates/booking.html:60 pages/templates/home.html:216
+#: pages/templates/pricing.html:59
 msgid "Out of stock"
 msgstr "Rupture de stock"
 
-#: pages/templates/booking.html:56 pages/templates/home.html:214
-#: pages/templates/pricing.html:55
+#: pages/templates/booking.html:62 pages/templates/home.html:218
+#: pages/templates/pricing.html:61
 msgid "Special offer"
 msgstr "Offre spéciale"
 
-#: pages/templates/booking.html:57 pages/templates/home.html:215
-#: pages/templates/pricing.html:56
+#: pages/templates/booking.html:63 pages/templates/home.html:219
+#: pages/templates/pricing.html:62
 msgid "The last special offer is out of stock"
 msgstr "La dernière offre spéciale est en rupture de stock"
 
-#: pages/templates/booking.html:58 pages/templates/home.html:216
-#: pages/templates/pricing.html:57
+#: pages/templates/booking.html:64 pages/templates/home.html:220
+#: pages/templates/pricing.html:63
 msgid "We invite you to wait"
 msgstr "Nous vous invitons à patienter"
 
-#: pages/templates/booking.html:60 pages/templates/home.html:218
-#: pages/templates/pricing.html:59
+#: pages/templates/booking.html:66 pages/templates/home.html:222
+#: pages/templates/pricing.html:65
 msgid "Get notified"
 msgstr "Être averti"
 
-#: pages/templates/booking.html:69
+#: pages/templates/booking.html:75 pages/templates/home.html:232
 msgid "Formulas"
 msgstr "Les formules"
 
-#: pages/templates/booking.html:71
+#: pages/templates/booking.html:77
 msgid "Purchase a gift card"
 msgstr "Acheter une carte cadeau"
 
-#: pages/templates/booking.html:78
+#: pages/templates/booking.html:85
 msgid "Booking form"
 msgstr "Formulaire de réservation"
 
-#: pages/templates/booking.html:85
+#: pages/templates/booking.html:93
 msgid "I use my<br>gift voucher"
 msgstr "J&#39;utilise mon<br>bon cadeau"
 
-#: pages/templates/booking.html:92
+#: pages/templates/booking.html:100
 msgid "I choose<br>a mission"
 msgstr "Je choisis<br>une mission"
 
-#: pages/templates/booking.html:99
+#: pages/templates/booking.html:107
 msgid "I pay at least<br>one entry"
 msgstr "Je paie au moins<br>une place"
 
-#: pages/templates/booking.html:99
+#: pages/templates/booking.html:107
 msgid ""
 "You can pay the full amount during the booking if it makes your life easier. "
 "Student discounts are refunded on site upon presentation of the card."
@@ -189,15 +189,15 @@ msgstr ""
 "vie. Les réductions étudiantes sont remboursées sur place sur présentation "
 "de la carte."
 
-#: pages/templates/booking.html:106
+#: pages/templates/booking.html:114
 msgid "Let&#39; go!"
 msgstr "C&#39;est parti&nbsp;!"
 
-#: pages/templates/booking.html:106
+#: pages/templates/booking.html:114
 msgid "Be on time"
 msgstr "Rendez-vous à l&#39;heure"
 
-#: pages/templates/booking.html:106
+#: pages/templates/booking.html:114
 msgid ""
 "Warning: A delay of 15 minutes will result in the cancellation of the "
 "session without refund."
@@ -205,39 +205,39 @@ msgstr ""
 "Attention : Un retard de 15 minutes entraînera l&#39;annulation de la "
 "session sans remboursement."
 
-#: pages/templates/booking.html:113
+#: pages/templates/booking.html:121
 msgid "The booking module is not opened yet"
 msgstr "Le module de paiement n&#39;est pas encore disponible"
 
-#: pages/templates/booking.html:119
+#: pages/templates/booking.html:127
 msgid "I subscribe to the newsletter to know when it will be"
 msgstr "Je m'abonne à la newsletter pour savoir quand il le sera"
 
-#: pages/templates/booking.html:124 pages/templates/contact.html:137
-#: pages/templates/home.html:392 pages/templates/teambuilding.html:133
+#: pages/templates/booking.html:132 pages/templates/contact.html:137
+#: pages/templates/home.html:396 pages/templates/teambuilding.html:133
 #: pages/templates/unsubscribe.html:24
 msgid "An unexpected error happened. Please contact us directly."
 msgstr ""
 "Une erreur inattendue s&#39;est produite. Merci de nous contacter "
 "directement."
 
-#: pages/templates/booking.html:131 pages/templates/contact.html:144
-#: pages/templates/home.html:399 pages/templates/unsubscribe.html:31
+#: pages/templates/booking.html:139 pages/templates/contact.html:144
+#: pages/templates/home.html:403 pages/templates/unsubscribe.html:31
 msgid "Thank you and see you soon!"
 msgstr "Merci et à bientôt !"
 
-#: pages/templates/booking.html:134 pages/templates/contact.html:147
-#: pages/templates/home.html:402 pages/templates/unsubscribe.html:34
+#: pages/templates/booking.html:142 pages/templates/contact.html:147
+#: pages/templates/home.html:406 pages/templates/unsubscribe.html:34
 #: salesquote/forms.py:78
 msgid "marmitron@justescape.fr"
 msgstr "marmitron@justescape.fr"
 
-#: pages/templates/booking.html:136 pages/templates/contact.html:149
-#: pages/templates/home.html:404
+#: pages/templates/booking.html:144 pages/templates/contact.html:149
+#: pages/templates/home.html:408
 msgid "Subscribe"
 msgstr "Je m&#39;abonne"
 
-#: pages/templates/booking.html:173 pages/templates/gift-voucher.html:40
+#: pages/templates/booking.html:181 pages/templates/gift-voucher.html:40
 #: pages/templates/header.html:30
 msgid "Booking"
 msgstr "Réserver"
@@ -285,7 +285,7 @@ msgstr ""
 
 #: pages/templates/contact.html:8 pages/templates/contact.html:46
 #: pages/templates/contact.html:208 pages/templates/footer.html:46
-#: pages/templates/header.html:54 pages/templates/home.html:345
+#: pages/templates/header.html:54 pages/templates/home.html:349
 msgid "Contact"
 msgstr "Contact"
 
@@ -293,23 +293,23 @@ msgstr "Contact"
 msgid "How to contact us"
 msgstr "Contactez-nous"
 
-#: pages/templates/contact.html:27 pages/templates/home.html:326
+#: pages/templates/contact.html:27 pages/templates/home.html:330
 msgid "Opening hours"
 msgstr "Horaires d&#39;ouverture"
 
-#: pages/templates/contact.html:29 pages/templates/home.html:328
+#: pages/templates/contact.html:29 pages/templates/home.html:332
 msgid "<span class='text-jaffa'>Monday-friday:</span> 2PM-11PM<br>"
 msgstr "<span class='text-jaffa'>Lundi-vendredi :</span> 14h-23h<br>"
 
-#: pages/templates/contact.html:30 pages/templates/home.html:329
+#: pages/templates/contact.html:30 pages/templates/home.html:333
 msgid "<span class='text-jaffa'>Saturday-sunday:</span> 10AM-11PM"
 msgstr "<span class='text-jaffa'>Samedi-dimanche :</span> 10h-23h"
 
-#: pages/templates/contact.html:48 pages/templates/home.html:347
+#: pages/templates/contact.html:48 pages/templates/home.html:351
 msgid "<span class='text-jaffa'>Tel:</span> +33 1 23 45 67 89<br>"
 msgstr "<span class='text-jaffa'>Tel :</span> +33 1 23 45 67 89<br>"
 
-#: pages/templates/contact.html:49 pages/templates/home.html:348
+#: pages/templates/contact.html:49 pages/templates/home.html:352
 msgid ""
 "<span class='text-jaffa'>Mail:</span> c<span hidden></span>ontac<span "
 "hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
@@ -319,11 +319,11 @@ msgstr ""
 "hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
 "hidden></span>.fr"
 
-#: pages/templates/contact.html:65 pages/templates/home.html:364
+#: pages/templates/contact.html:65 pages/templates/home.html:368
 msgid "Address"
 msgstr "Adresse"
 
-#: pages/templates/contact.html:67 pages/templates/home.html:366
+#: pages/templates/contact.html:67 pages/templates/home.html:370
 msgid "26 rue d&#39;Arras<br>59 800 Lille, France"
 msgstr "26 rue d&#39;Arras<br>59 800 Lille"
 
@@ -347,7 +347,7 @@ msgstr "Nous n&#39;avons pas de local pour l&#39;instant"
 msgid "So we won&#39;t go into the details"
 msgstr "Donc on a pas de détails"
 
-#: pages/templates/contact.html:132 pages/templates/home.html:387
+#: pages/templates/contact.html:132 pages/templates/home.html:391
 msgid "Newsletter"
 msgstr "Newsletter"
 
@@ -914,7 +914,7 @@ msgid "Rooms"
 msgstr "Salles"
 
 #: pages/templates/header.html:35 pages/templates/pricing.html:8
-#: pages/templates/pricing.html:171
+#: pages/templates/pricing.html:179
 msgid "Pricing"
 msgstr "Tarifs"
 
@@ -996,8 +996,8 @@ msgstr ""
 msgid "The room"
 msgstr "La salle"
 
-#: pages/templates/home.html:51 pages/templates/home.html:233
-#: pages/templates/pricing.html:69 pages/templates/room.html:70
+#: pages/templates/home.html:51 pages/templates/home.html:237
+#: pages/templates/pricing.html:75 pages/templates/room.html:70
 #: pages/templates/teambuilding.html:112
 msgid "Book now"
 msgstr "Réserver"
@@ -1140,27 +1140,23 @@ msgstr ""
 msgid "What is the price of a scenario?"
 msgstr "Quel est le prix d&#39;un scénario&nbsp;?"
 
-#: pages/templates/home.html:228
-msgid "Forumlas"
-msgstr ""
-
-#: pages/templates/home.html:238 pages/templates/pricing.html:71
+#: pages/templates/home.html:242 pages/templates/pricing.html:77
 msgid "Company quote"
 msgstr "Devis entreprise"
 
-#: pages/templates/home.html:248
+#: pages/templates/home.html:252
 msgid ""
 "The best live escape game in&nbsp;Lille –&nbsp;The designer&#39;s&nbsp;mom"
 msgstr ""
 "Le meilleur escape game de&nbsp;Lille –&nbsp;La&nbsp;maman&nbsp;du&nbsp;"
 "designer"
 
-#: pages/templates/home.html:257
+#: pages/templates/home.html:261
 msgid ""
 "Half shadowed close-up of a puzzling man wearing a hat and smoking a pipe"
 msgstr ""
 
-#: pages/templates/home.html:259
+#: pages/templates/home.html:263
 msgid ""
 "A scenario <span class='font-weight-bold'>rich in emotions</span> that I "
 "highly recommend! If you book with them, talk to me ahead so I can get a "
@@ -1170,11 +1166,11 @@ msgstr ""
 "recommande vivement ! Si vous réservez chez eux, parlez m&#39;en avant pour "
 "que je touche une prime de coopta[...]"
 
-#: pages/templates/home.html:264
+#: pages/templates/home.html:268
 msgid "– An anonymous shareholder of Just Escape"
 msgstr "– Un actionnaire anonyme de Just Escape"
 
-#: pages/templates/home.html:278
+#: pages/templates/home.html:282
 msgid ""
 "The Digimiam is undoubtedly the best restaurant in Lille! You&#39;ll find "
 "some amazing 2040-style cookies that will remind you of your childhood! "
@@ -1185,17 +1181,17 @@ msgstr ""
 "rappeleront votre enfance ! Miam ! <span class='font-weight'>Vous allez vous "
 "régaler !</span>"
 
-#: pages/templates/home.html:283
+#: pages/templates/home.html:287
 msgid "– Marmitron, Digimiam's Intelligence since 2053"
 msgstr "– Le Marmitron, Intelligence au Digimiam depuis 2053"
 
-#: pages/templates/home.html:293
+#: pages/templates/home.html:297
 msgid ""
 "Scenery in the background and in the foreground a close-up of an enigmatic "
 "smiling woman wearing a large hat and big sunglasses"
 msgstr ""
 
-#: pages/templates/home.html:295
+#: pages/templates/home.html:299
 msgid ""
 "I loved this <span class='font-weight-bold'>investigation full of twists and "
 "turns</span>. It&#39;s obvious that the riddles were child&#39;s play to me! "
@@ -1207,11 +1203,11 @@ msgstr ""
 "enfant pour moi ! Ha ha ha... Quoi ? Pourquoi j&#39;ai mis autant de temps ? "
 "Heu ba... C&#39;est parce que... j&#39;admirais les décors de la salle !"
 
-#: pages/templates/home.html:300
+#: pages/templates/home.html:304
 msgid "– Shirley, a supposed descendant of Sherlock Holmes"
 msgstr "– Shirley, une supposée descendante de Sherlock Holmes"
 
-#: pages/templates/home.html:312
+#: pages/templates/home.html:316
 msgid "How to get to the estate in&nbsp;Lille?"
 msgstr "Comment rejoindre le local à&nbsp;Lille&nbsp;?"
 
@@ -1271,19 +1267,19 @@ msgstr ""
 msgid "What&#39;s the price?"
 msgstr "Quels sont les prix&nbsp;?"
 
-#: pages/templates/pricing.html:18
+#: pages/templates/pricing.html:19
 msgid "Price of a scenario"
 msgstr "Prix d&#39;un scénario"
 
-#: pages/templates/pricing.html:81
+#: pages/templates/pricing.html:88
 msgid "Come and celebrate your events with us"
 msgstr "Venez fêter vos événements chez nous"
 
-#: pages/templates/pricing.html:87
+#: pages/templates/pricing.html:95
 msgid "Gourmet menu"
 msgstr "Menu gourmand"
 
-#: pages/templates/pricing.html:91
+#: pages/templates/pricing.html:99
 msgid ""
 "<span class='font-weight-bold'>Sweet snack</span> (soft drinks, madeleines, "
 "fruits, dairy&nbsp;product)"
@@ -1291,28 +1287,28 @@ msgstr ""
 "<span class='font-weight-bold'>Collation sucrée</span> (boissons, "
 "madeleines, fruits, produit&nbsp;laitier)"
 
-#: pages/templates/pricing.html:93 pages/templates/pricing.html:112
+#: pages/templates/pricing.html:101 pages/templates/pricing.html:120
 msgid "1 HD <span class='font-weight-bold'>printed photo</span>"
 msgstr "1 <span class='font-weight-bold'>Photo imprimée</span> en HD"
 
-#: pages/templates/pricing.html:97
+#: pages/templates/pricing.html:105
 msgid "<span class='text-mulberry'>+7€</span> per person"
 msgstr "<span class='text-mulberry'>+7€</span> par personne"
 
-#: pages/templates/pricing.html:98 pages/templates/pricing.html:117
-#: pages/templates/pricing.html:131 pages/templates/pricing.html:146
+#: pages/templates/pricing.html:106 pages/templates/pricing.html:125
+#: pages/templates/pricing.html:139 pages/templates/pricing.html:154
 msgid "<span class='text-jaffa'>Suggested for:</span>"
 msgstr "<span class='text-jaffa'>Suggéré pour :</span>"
 
-#: pages/templates/pricing.html:98
+#: pages/templates/pricing.html:106
 msgid "Breakfast, Snack, Birthday"
 msgstr "Petit déj&#39;, Goûter, Anniversaire"
 
-#: pages/templates/pricing.html:106
+#: pages/templates/pricing.html:114
 msgid "Aperitif menu"
 msgstr "Menu apéritif"
 
-#: pages/templates/pricing.html:110
+#: pages/templates/pricing.html:118
 msgid ""
 "<span class='font-weight-bold'>Salted aperitif</span> (beer or glass&nbsp;"
 "of&nbsp;wine, dry sausage, appetizers)"
@@ -1320,19 +1316,19 @@ msgstr ""
 "<span class='font-weight-bold'>Apéritif salé</span> (bière ou verre&nbsp;"
 "de&nbsp;vin, saucisson, biscuits apéritif)"
 
-#: pages/templates/pricing.html:116
+#: pages/templates/pricing.html:124
 msgid "<span class='text-mulberry'>+10€</span> per person"
 msgstr "<span class='text-mulberry'>+10€</span> par personne"
 
-#: pages/templates/pricing.html:117
+#: pages/templates/pricing.html:125
 msgid "Stag&nbsp;/ Hen&nbsp;/ Bachelor party, Birthday"
 msgstr "EVJF, EVG, Anniversaire"
 
-#: pages/templates/pricing.html:125
+#: pages/templates/pricing.html:133
 msgid "Gift card"
 msgstr "Carte cadeau"
 
-#: pages/templates/pricing.html:128
+#: pages/templates/pricing.html:136
 msgid ""
 "Your friends and family will love you with this <a href='/en/carte-cadeau' "
 "class='text-underline text-hover-mulberry'>gift&nbsp;box</a>."
@@ -1340,19 +1336,19 @@ msgstr ""
 "Vos proches vont vous adorer avec ce <a class='text-underline text-hover-"
 "mulberry' href='/carte-cadeau'>coffret&nbsp;cadeau</a>."
 
-#: pages/templates/pricing.html:131
+#: pages/templates/pricing.html:139
 msgid "Christmas, Money&nbsp;pot, Lottery"
 msgstr "Noël, Cagnotte, Tombola"
 
-#: pages/templates/pricing.html:139
+#: pages/templates/pricing.html:147
 msgid "Corporate"
 msgstr "Entreprises"
 
-#: pages/templates/pricing.html:142
+#: pages/templates/pricing.html:150
 msgid "It&#39;s tough to motivate your teams in&nbsp;2019."
 msgstr "C&#39;est difficile de motiver ses équipes en&nbsp;2019."
 
-#: pages/templates/pricing.html:143
+#: pages/templates/pricing.html:151
 msgid ""
 "Fortunately, we have <a class='text-underline text-hover-mulberry' href='/en/"
 "team-building'>turnkey Team&nbsp;Building packages</a>."
@@ -1360,7 +1356,7 @@ msgstr ""
 "Heureusement on a des <a class='text-underline text-hover-mulberry' href='/"
 "team-building'>packs Team Building clé&nbsp;en&nbsp;main</a>."
 
-#: pages/templates/pricing.html:146
+#: pages/templates/pricing.html:154
 msgid "Seminar, Workshop, Teambuilding"
 msgstr "Séminaire, Workshop, Teambuilding"
 
