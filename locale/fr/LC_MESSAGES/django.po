@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 12:19+0200\n"
+"POT-Creation-Date: 2019-09-17 10:41+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -865,7 +865,7 @@ msgid "Blog"
 msgstr "Blog"
 
 #: pages/templates/footer.html:48 pages/templates/partners.html:8
-#: pages/templates/partners.html:130
+#: pages/templates/partners.html:101
 msgid "Partners"
 msgstr "Partenaires"
 
@@ -937,18 +937,18 @@ msgstr "Just Escape – Escape Game Lille – 2 Joueurs et Plus"
 #: pages/templates/home.html:6
 msgid ""
 "New escape game 2.0 in Lille ⭐ Ideal for an outing with friends. Amazing "
-"scenery. Scenario Digimiam the futuristic restaurant 🤖"
+"scenery. Scenario Digimiam the futuristic estaminet 🤖"
 msgstr ""
 "Nouvel escape game 2.0 à Lille ⭐ Idéal pour une sortie entre amis. Des "
-"décors sensationnels. Scénario Digimiam le restaurant futuriste 🤖"
+"décors sensationnels. Scénario Digimiam l&#39;estaminet futuriste 🤖"
 
 #: pages/templates/home.html:9
 msgid ""
 "New escape game 2.0 in Lille ⚡ Ideal for an outing with friends 😃 Amazing "
-"scenery 👌 Scenario Digimiam the futuristic restaurant 🤖"
+"scenery 👌 Scenario Digimiam the futuristic estaminet 🤖"
 msgstr ""
 "Nouvel escape game 2.0 à Lille ⚡ Idéal pour une sortie entre amis 😃 Des "
-"décors sensationnels 👌 Scénario Digimiam le restaurant futuriste 🤖"
+"décors sensationnels 👌 Scénario Digimiam l&#39;estaminet futuriste 🤖"
 
 #: pages/templates/home.html:20
 msgid "Escape rooms"
@@ -963,13 +963,13 @@ msgid "The Digimiam"
 msgstr "Le Digimiam"
 
 #: pages/templates/home.html:40 pages/templates/room.html:37
-msgid "Restaurant of the future"
+msgid "Futuristic restaurant"
 msgstr "Restaurant du futur"
 
 #: pages/templates/home.html:41
 msgid ""
 "You are in <strong class='font-weight-normal'>Lille in 2080</strong> in a "
-"futuristic restaurant. The neurons of the Digimiam&#39;s cooking Artificial "
+"futuristic estaminet. The neurons of the Digimiam&#39;s cooking Artificial "
 "Intelligence have short-circuited! It&#39;s now up to you to infiltrate "
 "through a <strong class='font-weight-normal text-jaffa'>laser labyrinth</"
 "strong> and regain control of the <span class='text-jaffa'>robotic arms</"
@@ -977,7 +977,7 @@ msgid ""
 "sceneries?"
 msgstr ""
 "Vous êtes à <strong class='font-weight-normal'>Lille en 2080</strong> dans "
-"un restaurant futuriste. Les neurones de l&#39;Intelligence Artificielle de "
+"un estaminet futuriste. Les neurones de l&#39;Intelligence Artificielle de "
 "cuisine du Digimiam ont court-circuité&nbsp;! À vous de vous infiltrer à "
 "travers un <strong class='font-weight-normal text-jaffa'>labyrinthe laser</"
 "strong> et de reprendre le contrôle des <span class='text-jaffa'>bras "
@@ -1172,11 +1172,11 @@ msgstr "– Un actionnaire anonyme de Just Escape"
 
 #: pages/templates/home.html:282
 msgid ""
-"The Digimiam is undoubtedly the best restaurant in Lille! You&#39;ll find "
+"The Digimiam is undoubtedly the best estaminet in Lille! You&#39;ll find "
 "some amazing 2040-style cookies that will remind you of your childhood! "
 "Yummy! <span class='font-weight-bold'>You&#39;re gonna love it!</span>"
 msgstr ""
-"Le Digimiam est sans conteste le meilleur restaurant de Lille ! Vous y "
+"Le Digimiam est sans conteste le meilleur estaminet de Lille ! Vous y "
 "trouverez des cookies style années 2040 au goût incroyable qui vous "
 "rappeleront votre enfance ! Miam ! <span class='font-weight'>Vous allez vous "
 "régaler !</span>"
@@ -1228,20 +1228,32 @@ msgid "Just Escape&#39;s partnerships"
 msgstr "Les partenariats de Just Escape"
 
 #: pages/templates/partners.html:17
-msgid "We don&#39;t have partners yet"
-msgstr "Nous n&#39;avons pas de partenaires pour l&#39;instant"
+msgid "Our real estate partner"
+msgstr "Notre partenaire immobilier"
 
-#: pages/templates/partners.html:18
-msgid "But we will soon"
-msgstr "Mais nous en aurons bientôt"
+#: pages/templates/partners.html:23
+msgid "Logo ASI"
+msgstr "Logo ASI"
 
-#: pages/templates/partners.html:66
-msgid "Meanwhile"
-msgstr "En attendant"
+#: pages/templates/partners.html:25
+msgid "Action Service Immobilier"
+msgstr "Action Service Immobilier"
 
-#: pages/templates/partners.html:67
-msgid "We&#39;re having fun with those icons"
-msgstr "On s&#39;amuse avec ces icones"
+#: pages/templates/partners.html:30
+msgid ""
+"We have our estate thanks to the company ASI. We recommand the quality of "
+"their service. They have a beautiful <a href='https://www.asi-immobilier.org/"
+"galerie' class='text-underline text-hover-jaffa'>gallery of properties in "
+"Lille</a>!"
+msgstr ""
+"ASI est la société grâce à qui nous avons notre local. Nous recommandons la "
+"qualité de leur service. Ils possèdent une belle <a href='https://www.asi-"
+"immobilier.org/galerie' class='text-underline text-hover-jaffa'>galerie de "
+"biens sur Lille</a> !"
+
+#: pages/templates/partners.html:38
+msgid "We will have other partners soon"
+msgstr "Nous aurons bientôt d&#39;autres partenaires"
 
 #: pages/templates/pricing.html:5
 msgid "Price – Escape Game Lille – Just Escape"
@@ -1366,10 +1378,10 @@ msgstr "Salles – Escape Game Lille – Just Escape"
 
 #: pages/templates/room.html:6 pages/templates/room.html:9
 msgid ""
-"Discover The Digimiam, a futuristic restaurant 🍽 🤖 Ideal for an outing with "
+"Discover The Digimiam, a futuristic estaminet 🍽 🤖 Ideal for an outing with "
 "friends 😃"
 msgstr ""
-"Découvrez le Digimiam, un restaurant futuriste 🍽 🤖 Ideéal pour une sortie "
+"Découvrez le Digimiam, un estaminet futuriste 🍽 🤖 Ideéal pour une sortie "
 "entre amis 😃"
 
 #: pages/templates/room.html:8
@@ -1386,11 +1398,11 @@ msgstr "Plus d'infos"
 
 #: pages/templates/room.html:38
 msgid ""
-"What could a futuristic restaurant entirely managed by Artificial "
+"What could a futuristic estaminet entirely managed by Artificial "
 "Intelligence look like? This is what you will discover in the Digimiam "
 "(famous address that all the inhabitants of Lille speak about in 2080)."
 msgstr ""
-"À quoi pourrait ressembler un restaurant futuriste entièrement géré par une "
+"À quoi pourrait ressembler un estaminet futuriste entièrement géré par une "
 "Intelligence Artificielle&nbsp;? C&#39;est ce que vous allez découvrir dans "
 "le Digimiam (célèbre adresse que tous les habitants de Lille s&#39;"
 "échangeront en 2080)."
