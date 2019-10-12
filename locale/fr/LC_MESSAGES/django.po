@@ -1445,7 +1445,7 @@ msgid ""
 "Discover The Digimiam, a futuristic estaminet 🍽 🤖 Ideal for an outing with "
 "friends 😃"
 msgstr ""
-"Découvrez le Digimiam, un estaminet futuriste 🍽 🤖 Ideéal pour une sortie "
+"Découvrez le Digimiam, un estaminet futuriste 🍽 🤖 Idéal pour une sortie "
 "entre amis 😃"
 
 #: pages/templates/room.html:8
