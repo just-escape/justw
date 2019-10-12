@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-17 10:41+0200\n"
+"POT-Creation-Date: 2019-10-12 09:31+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -213,7 +213,7 @@ msgstr "Le module de paiement n&#39;est pas encore disponible"
 msgid "I subscribe to the newsletter to know when it will be"
 msgstr "Je m'abonne à la newsletter pour savoir quand il le sera"
 
-#: pages/templates/booking.html:132 pages/templates/contact.html:137
+#: pages/templates/booking.html:132 pages/templates/contact.html:142
 #: pages/templates/home.html:396 pages/templates/teambuilding.html:133
 #: pages/templates/unsubscribe.html:24
 msgid "An unexpected error happened. Please contact us directly."
@@ -221,18 +221,18 @@ msgstr ""
 "Une erreur inattendue s&#39;est produite. Merci de nous contacter "
 "directement."
 
-#: pages/templates/booking.html:139 pages/templates/contact.html:144
+#: pages/templates/booking.html:139 pages/templates/contact.html:149
 #: pages/templates/home.html:403 pages/templates/unsubscribe.html:31
 msgid "Thank you and see you soon!"
 msgstr "Merci et à bientôt !"
 
-#: pages/templates/booking.html:142 pages/templates/contact.html:147
+#: pages/templates/booking.html:142 pages/templates/contact.html:152
 #: pages/templates/home.html:406 pages/templates/unsubscribe.html:34
 #: salesquote/forms.py:78
 msgid "marmitron@justescape.fr"
 msgstr "marmitron@justescape.fr"
 
-#: pages/templates/booking.html:144 pages/templates/contact.html:149
+#: pages/templates/booking.html:144 pages/templates/contact.html:154
 #: pages/templates/home.html:408
 msgid "Subscribe"
 msgstr "Je m&#39;abonne"
@@ -284,7 +284,7 @@ msgstr ""
 "23 45 67 89"
 
 #: pages/templates/contact.html:8 pages/templates/contact.html:46
-#: pages/templates/contact.html:208 pages/templates/footer.html:46
+#: pages/templates/contact.html:213 pages/templates/footer.html:46
 #: pages/templates/header.html:54 pages/templates/home.html:349
 msgid "Contact"
 msgstr "Contact"
@@ -327,27 +327,77 @@ msgstr "Adresse"
 msgid "26 rue d&#39;Arras<br>59 800 Lille, France"
 msgstr "26 rue d&#39;Arras<br>59 800 Lille"
 
-#: pages/templates/contact.html:88
+#: pages/templates/contact.html:89
 msgid "How to get to the estate in Lille?"
 msgstr "Comment rejoindre le local à&nbsp;Lille&nbsp;?"
 
-#: pages/templates/contact.html:93 pages/templates/contact.html:110
-msgid "Here are some explanations"
-msgstr "Voici des explications"
+#: pages/templates/contact.html:94
+msgid "By foot"
+msgstr "À pied"
 
-#: pages/templates/contact.html:94 pages/templates/contact.html:111
-msgid "On how to come"
-msgstr "Sur comment venir"
+#: pages/templates/contact.html:95
+msgid ""
+"From the <span class='text-underline'>Republic square</span>, go down the "
+"<span class='text-underline'>boulevard de la Liberté</span>. Enter the <span "
+"class='text-underline'>Jean-Baptiste Lebas square</span>, and continue going "
+"down."
+msgstr ""
+"Depuis la <span class='text-underline'>place de la République</span>, "
+"descendez le <span class='text-underline'>boulevard de la Liberté</span>. "
+"Entrez dans le <span class='text-underline'>parc Jean-Baptiste Lebas</span> "
+"et continuez de descendre."
 
-#: pages/templates/contact.html:101 pages/templates/contact.html:118
-msgid "We don&#39;t have a local yet"
-msgstr "Nous n&#39;avons pas de local pour l&#39;instant"
+#: pages/templates/contact.html:96
+msgid ""
+"Escape the red grids by the southern most exit and you should see the <span "
+"class='text-underline'>rue d&#39;Arras</span> at the left of the Carrefour "
+"City shop."
+msgstr ""
+"Échappez-vous des grilles rouges par la sortie la plus au sud et vous "
+"devriez voir la <span class='text-underline'>rue d&#39;Arras</span> à gauche "
+"du magasin Carrefour City."
 
-#: pages/templates/contact.html:102 pages/templates/contact.html:119
-msgid "So we won&#39;t go into the details"
-msgstr "Donc on a pas de détails"
+#: pages/templates/contact.html:103
+msgid "Public transport"
+msgstr "Transports en commun"
 
-#: pages/templates/contact.html:132 pages/templates/home.html:391
+#: pages/templates/contact.html:104
+msgid "The metro line 2 has four nearby stations"
+msgstr "La ligne 2 du métro a quatre stations à proximité"
+
+#: pages/templates/contact.html:106
+msgid "Lille Grand Palais"
+msgstr "Lille Grand Palais"
+
+#: pages/templates/contact.html:107
+msgid "Porte de Valenciennes"
+msgstr "Porte de Valenciennes"
+
+#: pages/templates/contact.html:108
+msgid "Porte de Douai"
+msgstr "Porte de Douai"
+
+#: pages/templates/contact.html:109
+msgid "Porte de d&#39;Arras"
+msgstr "Porte d&#39;Arras"
+
+#: pages/templates/contact.html:111
+msgid "Close bus stations"
+msgstr "Stations de bus voisines"
+
+#: pages/templates/contact.html:113
+msgid "L14: Douai Arras stop"
+msgstr "L14 : arrêt Douai Arras"
+
+#: pages/templates/contact.html:114
+msgid "L1: JB Lebas stop"
+msgstr "L1 : arrêt JB Lebas"
+
+#: pages/templates/contact.html:123
+msgid "By car"
+msgstr "En voiture"
+
+#: pages/templates/contact.html:137 pages/templates/home.html:391
 msgid "Newsletter"
 msgstr "Newsletter"
 
@@ -697,14 +747,28 @@ msgid "Where is located Just Escape?"
 msgstr "Où se situe Just Escape&nbsp;?"
 
 #: pages/templates/faq.html:281
-msgid "We don&#39;t have any estate at the moment!"
-msgstr "Nous n&#39;avons pas de local pour l&#39;instant&nbsp;!"
+msgid ""
+"The estate is located at 26 rue d&#39;Arras in Lille, at the crossroads of "
+"rue Solférino and the Jean-Baptiste Lebas square. It is close to the Lille "
+"Grand Palais metro station."
+msgstr ""
+"Le local est situé au 26 rue d&#39;Arras à Lille, au croisement de la rue "
+"Solférino et du parc Jean-Baptiste Lebas. Il est proche de la statio de "
+"métro Lille Grand Palais."
 
-#: pages/templates/faq.html:290
+#: pages/templates/faq.html:284
+msgid ""
+"There are more info on our <a href='/en/contact#venir' class='text-underline "
+"text-hover-mulberry'>contact page</a>."
+msgstr ""
+"Il y a plus d&#39;infos sur notre <a href='/contact#venir' class='text-"
+"underline text-hover-mulberry'>page de contact</a>."
+
+#: pages/templates/faq.html:293
 msgid "Do I have to prepare to come?"
 msgstr "Dois-je me préparer pour venir&nbsp;?"
 
-#: pages/templates/faq.html:295
+#: pages/templates/faq.html:298
 msgid ""
 "Come as you are. At Just Escape we are here to have fun! You don&#39;t need "
 "to prepare yourself or nor to have prior knowledge to play."
@@ -713,16 +777,16 @@ msgstr ""
 "Vous n&#39;avez ni besoin de vous préparer, ni d&#39;aucune connaissance "
 "préalable pour jouer."
 
-#: pages/templates/faq.html:303
+#: pages/templates/faq.html:306
 msgid "Occasions (Team Building)"
 msgstr "Événements (Team Building)"
 
-#: pages/templates/faq.html:307
+#: pages/templates/faq.html:310
 msgid "Can I organize a birthday, stag&nbsp;/ hen&nbsp;/ bachelor party?"
 msgstr ""
 "Est-ce que je peux organiser un anniversaire&nbsp;/ EVJF&nbsp;/ EVG&nbsp;?"
 
-#: pages/templates/faq.html:312
+#: pages/templates/faq.html:315
 msgid ""
 "We will be happy to welcome you for <a href='/en/tarifs' class='text-"
 "underline text-hover-mulberry'>your bachelor parties and other celebrations "
@@ -732,24 +796,24 @@ msgstr ""
 "underline text-hover-mulberry'>vos enterrements de vie de jeune fille&nbsp;/ "
 "garçon et autres célébrations avec proches</a>."
 
-#: pages/templates/faq.html:315
+#: pages/templates/faq.html:318
 msgid ""
 "After the game, we will invite you to the reception room to have a good time."
 msgstr ""
 "Après la partie, nous vous inviterons dans la salle de réception pour passer "
 "un bon moment."
 
-#: pages/templates/faq.html:318
+#: pages/templates/faq.html:321
 msgid "Chances are you&#39;re interested in gourmet and aperitif formulas."
 msgstr ""
 "Il y a des chances que vous soyez intéressés par les formules gourmand et "
 "apéro."
 
-#: pages/templates/faq.html:327
+#: pages/templates/faq.html:330
 msgid "Do you have special rates for companies?"
 msgstr "Avez-vous des tarifs pour les entreprises&nbsp;/ BDE&nbsp;?"
 
-#: pages/templates/faq.html:332
+#: pages/templates/faq.html:335
 msgid ""
 "Yes, we offer additional services for <a href='/en/team-building' "
 "class='text-underline text-hover-mulberry'>your team building events</a>."
@@ -758,7 +822,7 @@ msgstr ""
 "team-building' class='text-underline text-hover-mulberry'>vos événements "
 "team building</a>."
 
-#: pages/templates/faq.html:335
+#: pages/templates/faq.html:338
 msgid ""
 "Contact us if you wish to make available advantageous rates for your "
 "employees."
@@ -766,11 +830,11 @@ msgstr ""
 "Contactez-nous si vous souhaitez mettre à disposition des tarifications "
 "avantageuses à titre privé pour vos collaborateurs (CE, BDE)."
 
-#: pages/templates/faq.html:344
+#: pages/templates/faq.html:347
 msgid "How many players can play?"
 msgstr "Jusqu&#39;à combien peut-on jouer&nbsp;?"
 
-#: pages/templates/faq.html:349
+#: pages/templates/faq.html:352
 msgid ""
 "<a href='/en/salles?show=d1#digimiam' class='text-underline text-hover-"
 "mulberry'>The escape room <span class='font-italic'>The Digimiam</span></a> "
@@ -782,7 +846,7 @@ msgstr ""
 "accueille jusqu&#39;à 4 joueurs. Cette salle étant dupliquée, vous pouvez "
 "jouer jusqu&#39;à 8 en simultané."
 
-#: pages/templates/faq.html:352
+#: pages/templates/faq.html:355
 msgid ""
 "If there are more of you (16 or 24), one group will play while the others "
 "relax in the reception area."
@@ -790,7 +854,7 @@ msgstr ""
 "Si vous êtes plus nombreux (16 ou 24), nous faisons passer un groupe pendant "
 "que les autres se détendent dans l&#39;espace de réception."
 
-#: pages/templates/faq.html:355
+#: pages/templates/faq.html:358
 msgid ""
 "We invite companies to fill in <a href='/en/team-building#devis' class='text-"
 "underline text-hover-mulberry'>the quote form</a>."
@@ -799,16 +863,16 @@ msgstr ""
 "building#devis' class='text-underline text-hover-mulberry'>le formulaire de "
 "devis</a>."
 
-#: pages/templates/faq.html:364
+#: pages/templates/faq.html:367
 msgid "Do you start sessions with a time offset for large groups?"
 msgstr "Le début des parties est-il décalé pour les grands groupes&nbsp;?"
 
-#: pages/templates/faq.html:369
+#: pages/templates/faq.html:372
 msgid "Normally we start sessions with a 15-minute offset"
 msgstr ""
 "En temps normal nous démarrons les sessions avec un décalage de 15 minutes."
 
-#: pages/templates/faq.html:372
+#: pages/templates/faq.html:375
 msgid ""
 "When we welcome groups who know each other, schedules are of course "
 "synchronized."
@@ -816,11 +880,11 @@ msgstr ""
 "Lorsque nous accueillons des groupes qui se connaissent les horaires sont "
 "bien entendu synchronisés."
 
-#: pages/templates/faq.html:381
+#: pages/templates/faq.html:384
 msgid "How to use gift cards?"
 msgstr "Comment utiliser les cartes cadeau&nbsp;?"
 
-#: pages/templates/faq.html:386
+#: pages/templates/faq.html:389
 msgid ""
 "The <a href='/en/carte-cadeau' class='text-underline text-hover-"
 "mulberry'>gift card</a> can be used during the <a href='/en/reserver' "
@@ -830,13 +894,13 @@ msgstr ""
 "cadeau</a> est utilisable durant la <a href='/reserver' class='text-"
 "underline text-hover-mulberry'>réservation en ligne</a>."
 
-#: pages/templates/faq.html:389
+#: pages/templates/faq.html:392
 msgid "A gift voucher is only valid for one year. Hurry up and come and play!"
 msgstr ""
 "Un bon cadeau n&#39;est valable qu&#39;un an. Dépêchez-vous de venir "
 "jouer&nbsp;!"
 
-#: pages/templates/faq.html:459
+#: pages/templates/faq.html:462
 msgid "Frequently Asked Questions"
 msgstr "Foire Aux Questions"
 

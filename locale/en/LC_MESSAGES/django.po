@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-17 10:41+0200\n"
+"POT-Creation-Date: 2019-10-12 09:31+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -206,24 +206,24 @@ msgstr ""
 msgid "I subscribe to the newsletter to know when it will be"
 msgstr ""
 
-#: pages/templates/booking.html:132 pages/templates/contact.html:137
+#: pages/templates/booking.html:132 pages/templates/contact.html:142
 #: pages/templates/home.html:396 pages/templates/teambuilding.html:133
 #: pages/templates/unsubscribe.html:24
 msgid "An unexpected error happened. Please contact us directly."
 msgstr ""
 
-#: pages/templates/booking.html:139 pages/templates/contact.html:144
+#: pages/templates/booking.html:139 pages/templates/contact.html:149
 #: pages/templates/home.html:403 pages/templates/unsubscribe.html:31
 msgid "Thank you and see you soon!"
 msgstr ""
 
-#: pages/templates/booking.html:142 pages/templates/contact.html:147
+#: pages/templates/booking.html:142 pages/templates/contact.html:152
 #: pages/templates/home.html:406 pages/templates/unsubscribe.html:34
 #: salesquote/forms.py:78
 msgid "marmitron@justescape.fr"
 msgstr ""
 
-#: pages/templates/booking.html:144 pages/templates/contact.html:149
+#: pages/templates/booking.html:144 pages/templates/contact.html:154
 #: pages/templates/home.html:408
 msgid "Subscribe"
 msgstr ""
@@ -270,7 +270,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/contact.html:8 pages/templates/contact.html:46
-#: pages/templates/contact.html:208 pages/templates/footer.html:46
+#: pages/templates/contact.html:213 pages/templates/footer.html:46
 #: pages/templates/header.html:54 pages/templates/home.html:349
 msgid "Contact"
 msgstr ""
@@ -310,27 +310,70 @@ msgstr ""
 msgid "26 rue d&#39;Arras<br>59 800 Lille, France"
 msgstr ""
 
-#: pages/templates/contact.html:88
+#: pages/templates/contact.html:89
 msgid "How to get to the estate in Lille?"
 msgstr ""
 
-#: pages/templates/contact.html:93 pages/templates/contact.html:110
-msgid "Here are some explanations"
+#: pages/templates/contact.html:94
+msgid "By foot"
 msgstr ""
 
-#: pages/templates/contact.html:94 pages/templates/contact.html:111
-msgid "On how to come"
+#: pages/templates/contact.html:95
+msgid ""
+"From the <span class='text-underline'>Republic square</span>, go down the "
+"<span class='text-underline'>boulevard de la Liberté</span>. Enter the <span "
+"class='text-underline'>Jean-Baptiste Lebas square</span>, and continue going "
+"down."
 msgstr ""
 
-#: pages/templates/contact.html:101 pages/templates/contact.html:118
-msgid "We don&#39;t have a local yet"
+#: pages/templates/contact.html:96
+msgid ""
+"Escape the red grids by the southern most exit and you should see the <span "
+"class='text-underline'>rue d&#39;Arras</span> at the left of the Carrefour "
+"City shop."
 msgstr ""
 
-#: pages/templates/contact.html:102 pages/templates/contact.html:119
-msgid "So we won&#39;t go into the details"
+#: pages/templates/contact.html:103
+msgid "Public transport"
 msgstr ""
 
-#: pages/templates/contact.html:132 pages/templates/home.html:391
+#: pages/templates/contact.html:104
+msgid "The metro line 2 has four nearby stations"
+msgstr ""
+
+#: pages/templates/contact.html:106
+msgid "Lille Grand Palais"
+msgstr ""
+
+#: pages/templates/contact.html:107
+msgid "Porte de Valenciennes"
+msgstr ""
+
+#: pages/templates/contact.html:108
+msgid "Porte de Douai"
+msgstr ""
+
+#: pages/templates/contact.html:109
+msgid "Porte de d&#39;Arras"
+msgstr ""
+
+#: pages/templates/contact.html:111
+msgid "Close bus stations"
+msgstr ""
+
+#: pages/templates/contact.html:113
+msgid "L14: Douai Arras stop"
+msgstr ""
+
+#: pages/templates/contact.html:114
+msgid "L1: JB Lebas stop"
+msgstr ""
+
+#: pages/templates/contact.html:123
+msgid "By car"
+msgstr ""
+
+#: pages/templates/contact.html:137 pages/templates/home.html:391
 msgid "Newsletter"
 msgstr ""
 
@@ -610,64 +653,73 @@ msgid "Where is located Just Escape?"
 msgstr ""
 
 #: pages/templates/faq.html:281
-msgid "We don&#39;t have any estate at the moment!"
+msgid ""
+"The estate is located at 26 rue d&#39;Arras in Lille, at the crossroads of "
+"rue Solférino and the Jean-Baptiste Lebas square. It is close to the Lille "
+"Grand Palais metro station."
 msgstr ""
 
-#: pages/templates/faq.html:290
+#: pages/templates/faq.html:284
+msgid ""
+"There are more info on our <a href='/en/contact#venir' class='text-underline "
+"text-hover-mulberry'>contact page</a>."
+msgstr ""
+
+#: pages/templates/faq.html:293
 msgid "Do I have to prepare to come?"
 msgstr ""
 
-#: pages/templates/faq.html:295
+#: pages/templates/faq.html:298
 msgid ""
 "Come as you are. At Just Escape we are here to have fun! You don&#39;t need "
 "to prepare yourself or nor to have prior knowledge to play."
 msgstr ""
 
-#: pages/templates/faq.html:303
+#: pages/templates/faq.html:306
 msgid "Occasions (Team Building)"
 msgstr ""
 
-#: pages/templates/faq.html:307
+#: pages/templates/faq.html:310
 msgid "Can I organize a birthday, stag&nbsp;/ hen&nbsp;/ bachelor party?"
 msgstr ""
 
-#: pages/templates/faq.html:312
+#: pages/templates/faq.html:315
 msgid ""
 "We will be happy to welcome you for <a href='/en/tarifs' class='text-"
 "underline text-hover-mulberry'>your bachelor parties and other celebrations "
 "with family and friends</a>."
 msgstr ""
 
-#: pages/templates/faq.html:315
+#: pages/templates/faq.html:318
 msgid ""
 "After the game, we will invite you to the reception room to have a good time."
 msgstr ""
 
-#: pages/templates/faq.html:318
+#: pages/templates/faq.html:321
 msgid "Chances are you&#39;re interested in gourmet and aperitif formulas."
 msgstr ""
 
-#: pages/templates/faq.html:327
+#: pages/templates/faq.html:330
 msgid "Do you have special rates for companies?"
 msgstr ""
 
-#: pages/templates/faq.html:332
+#: pages/templates/faq.html:335
 msgid ""
 "Yes, we offer additional services for <a href='/en/team-building' "
 "class='text-underline text-hover-mulberry'>your team building events</a>."
 msgstr ""
 
-#: pages/templates/faq.html:335
+#: pages/templates/faq.html:338
 msgid ""
 "Contact us if you wish to make available advantageous rates for your "
 "employees."
 msgstr ""
 
-#: pages/templates/faq.html:344
+#: pages/templates/faq.html:347
 msgid "How many players can play?"
 msgstr ""
 
-#: pages/templates/faq.html:349
+#: pages/templates/faq.html:352
 msgid ""
 "<a href='/en/salles?show=d1#digimiam' class='text-underline text-hover-"
 "mulberry'>The escape room <span class='font-italic'>The Digimiam</span></a> "
@@ -675,48 +727,48 @@ msgid ""
 "to 8 simultaneously."
 msgstr ""
 
-#: pages/templates/faq.html:352
+#: pages/templates/faq.html:355
 msgid ""
 "If there are more of you (16 or 24), one group will play while the others "
 "relax in the reception area."
 msgstr ""
 
-#: pages/templates/faq.html:355
+#: pages/templates/faq.html:358
 msgid ""
 "We invite companies to fill in <a href='/en/team-building#devis' class='text-"
 "underline text-hover-mulberry'>the quote form</a>."
 msgstr ""
 
-#: pages/templates/faq.html:364
+#: pages/templates/faq.html:367
 msgid "Do you start sessions with a time offset for large groups?"
 msgstr ""
 
-#: pages/templates/faq.html:369
+#: pages/templates/faq.html:372
 msgid "Normally we start sessions with a 15-minute offset"
 msgstr ""
 
-#: pages/templates/faq.html:372
+#: pages/templates/faq.html:375
 msgid ""
 "When we welcome groups who know each other, schedules are of course "
 "synchronized."
 msgstr ""
 
-#: pages/templates/faq.html:381
+#: pages/templates/faq.html:384
 msgid "How to use gift cards?"
 msgstr ""
 
-#: pages/templates/faq.html:386
+#: pages/templates/faq.html:389
 msgid ""
 "The <a href='/en/carte-cadeau' class='text-underline text-hover-"
 "mulberry'>gift card</a> can be used during the <a href='/en/reserver' "
 "class='text-underline text-hover-mulberry'>online booking</a>."
 msgstr ""
 
-#: pages/templates/faq.html:389
+#: pages/templates/faq.html:392
 msgid "A gift voucher is only valid for one year. Hurry up and come and play!"
 msgstr ""
 
-#: pages/templates/faq.html:459
+#: pages/templates/faq.html:462
 msgid "Frequently Asked Questions"
 msgstr ""
 
