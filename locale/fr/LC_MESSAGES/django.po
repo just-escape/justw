@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-12 09:31+0200\n"
+"POT-Creation-Date: 2019-10-18 07:11+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -1588,14 +1588,6 @@ msgstr "Tasse de café posée sur une soucoupe"
 msgid "Credit card with undistinguishable information"
 msgstr "Carte de crédit avec des informations indiscernables"
 
-#: pages/templates/svg/digimiam.svg:2
-msgid ""
-"An escape room door with the Digimiam's cooking robot inside, wearing a "
-"chef&#39;s hat and moving in a weird way in the gap"
-msgstr ""
-"Une porte d'escape room avec le robot cuisinier du Digimiam à l'intérieur, "
-"portant une toque de chef et gesticulant bizarrement dans l'entrebâillement"
-
 #: pages/templates/svg/discount.svg:2
 msgid ""
 "Cheap price discount voucher with a minus followed by a percent sign written "
@@ -1681,15 +1673,6 @@ msgid ""
 msgstr ""
 "Un animateur pointant quelque chose avec son doigt sur un tableau blanc à "
 "l'arrière plan face à une team de 3 personnes au premier plan"
-
-#: pages/templates/svg/puppet.svg:2
-msgid ""
-"An escape room door with an horror puppet escaping through the gap, rolling "
-"its eyes to face the screen and pulling a knife out of its sleeve"
-msgstr ""
-"Une porte d'escape room avec une marionnette d'horreur s'échappant à travers "
-"l'entrebâillement, roulant ses yeux pour faire face à l'écran et sortant un "
-"couteau de sa manche"
 
 #: pages/templates/svg/question-circle.svg:2
 msgid "Question mark inside a circle inviting you to click if you're wondering"

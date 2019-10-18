@@ -506,7 +506,7 @@ a:hover {
 /* button */
 
 /* icon */
-svg {
+svg:not(.animable) {
     pointer-events: none;
 }
 
