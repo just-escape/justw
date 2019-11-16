@@ -562,11 +562,6 @@ svg:not(.animable) {
     height: 200px;
 }
 
-.bottom-minus2px-right-minus6px {
-    bottom: -2px;
-    right: -6px;
-}
-
 @media (min-width: 768px) {
     .svg-sm-48px svg {
         height: 48px;
