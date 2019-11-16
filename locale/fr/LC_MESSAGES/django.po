@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-21 21:41+0200\n"
+"POT-Creation-Date: 2019-11-16 11:19+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -63,7 +63,7 @@ msgstr "Note"
 msgid "Just Escape is being created and should open at the end of 2019"
 msgstr "Just Escape est en cours de création et devrait ouvrir fin 2019"
 
-#: pages/templates/base.html:86 pages/templates/home.html:11
+#: pages/templates/base.html:87 pages/templates/home.html:11
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr "Un des escape games les plus immersifs de&nbsp;Lille"
 
@@ -973,7 +973,7 @@ msgstr "Carte cadeau"
 msgid "Escape Game Lille"
 msgstr "Escape Game Lille"
 
-#: pages/templates/header.html:27 pages/templates/room.html:193
+#: pages/templates/header.html:27 pages/templates/room.html:204
 msgid "Rooms"
 msgstr "Salles"
 
@@ -1071,24 +1071,24 @@ msgid "2 - 4 players"
 msgstr "2 à 4 joueurs"
 
 #: pages/templates/home.html:75 pages/templates/home.html:124
-#: pages/templates/room.html:57 pages/templates/room.html:148
+#: pages/templates/room.html:57 pages/templates/room.html:145
 msgid "60 minutes"
 msgstr "60 minutes"
 
 #: pages/templates/home.html:82 pages/templates/home.html:131
-#: pages/templates/room.html:64 pages/templates/room.html:155
+#: pages/templates/room.html:64 pages/templates/room.html:152
 msgid "FR / EN"
 msgstr "FR / EN"
 
-#: pages/templates/home.html:96 pages/templates/room.html:124
+#: pages/templates/home.html:96 pages/templates/room.html:121
 msgid "[room] Soon"
 msgstr "À venir"
 
-#: pages/templates/home.html:103 pages/templates/room.html:130
+#: pages/templates/home.html:103 pages/templates/room.html:127
 msgid "Horror room"
 msgstr "Salle horreur"
 
-#: pages/templates/home.html:104 pages/templates/room.html:131
+#: pages/templates/home.html:104 pages/templates/room.html:128
 msgid "Manor of the puppeteer"
 msgstr "Manoir de la marionnettiste"
 
@@ -1111,7 +1111,7 @@ msgstr ""
 msgid "The design of the puzzles is still in progress."
 msgstr "La création des énigmes est encore en cours."
 
-#: pages/templates/home.html:117 pages/templates/room.html:141
+#: pages/templates/home.html:117 pages/templates/room.html:138
 msgid "4 - 6 players"
 msgstr "4 à 6 joueurs"
 
@@ -1495,25 +1495,23 @@ msgstr ""
 "span>, que vous recalibrerez des <span class='text-jaffa'>bras robotiques</"
 "span> et que vous restaurerez les autres modules."
 
-#: pages/templates/room.html:82
-msgid "A better description and awesome photos are to come!"
-msgstr "Une meilleure description et des super photos suivront&nbsp;!"
+#: pages/templates/room.html:84
+msgid "Trailer"
+msgstr "Trailer"
 
+#: pages/templates/room.html:88 pages/templates/room.html:92
+#: pages/templates/room.html:96 pages/templates/room.html:100
 #: pages/templates/room.html:104
-msgid "Previous"
-msgstr "Précédent"
+msgid "Videos are not supported by this browser"
+msgstr "Les vidéos ne sont pas supportées par ce navigateur"
 
-#: pages/templates/room.html:108
-msgid "Next"
-msgstr "Suivant"
-
-#: pages/templates/room.html:132
+#: pages/templates/room.html:129
 msgid "You will soon be able to enjoy a new horror room in Lille."
 msgstr ""
 "Vous allez bientôt pouvoir profiter d&#39; une nouvelle salle d&#39;horreur "
 "à Lille."
 
-#: pages/templates/room.html:133
+#: pages/templates/room.html:130
 msgid ""
 "All we can reveal for now is that there will be a forest, a manor house, a "
 "gloomy atmosphere, a puppeteer, her children (small but not that cute), a "
@@ -1526,7 +1524,7 @@ msgstr ""
 "<span class='font-italic'>vous</span> allez jouer, des montées d&#39;"
 "adrénaline, du sang et peut être même jaffa'>des morts."
 
-#: pages/templates/room.html:134
+#: pages/templates/room.html:131
 msgid "Expected release date: soon™."
 msgstr "Date de sortie estimée : bientôt™."
 

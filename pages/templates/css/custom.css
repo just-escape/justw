@@ -956,6 +956,12 @@ input.form-control::placeholder {
     right: -44px;
     top: 42px;
 }
+
+video {
+    width: 100%;
+    height: auto;
+    display: block; /* Removes a mysterious margin bottom */
+}
 /* misc */
 
 /* popover */

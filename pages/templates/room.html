@@ -77,36 +77,33 @@
         </div>
       </div>
 
-      <div id="collapse-room-1" class="row mt-4 collapse{% if show == "d1" %} show{% endif %}" aria-labelledby="heading-room-1" data-parent="#room-1">
-        <div class="col-12 col-lg-5 my-auto">
-          <p class="text-justify">{% trans "A better description and awesome photos are to come!" %}</p>
-        </div>
-        <div class="softdark rounded p-4 col-12 col-lg-7">
-          <div id="carousel-room-1" class="carousel slide" data-interval="0">
-            <ol class="carousel-indicators">
-              <li data-target="carousel-room-1" data-slide-to="0" class="active"></li>
-              <li data-target="carousel-room-1" data-slide-to="1"></li>
-              <li data-target="carousel-room-1" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <span class="d-inline-block w-100">{% include "svg/just-escape.svg" %}</span>
-              </div>
-              <div class="carousel-item">
-                <span class="d-inline-block w-100">{% include "svg/just-escape.svg" %}</span>
-              </div>
-              <div class="carousel-item">
-                <span class="d-inline-block w-100">{% include "svg/just-escape.svg" %}</span>
-              </div>
+      <div id="collapse-room-1" class="mt-4 collapse{% if show == "d1" %} show{% endif %}" aria-labelledby="heading-room-1" data-parent="#room-1">
+        <div class="row justify-content-left">
+          <div class="col-0 col-md-2"></div>
+          <div class="col-12 col-md-10 col-lg-8">
+            <h3>{% trans "Trailer" %}</h3>
+            <div class="d-flex flex-column deepdark rounded p-3 mb-5">
+              <video id="video1" class="mb-3" muted loop>
+                <source src="/static/vid/lille-2080-{% if lang == 'en/' %}en{% else %}fr{% endif %}.webm" type="video/webm"/>
+                <p>{% trans "Videos are not supported by this browser" %}</p>
+              </video>
+              <video id="video2" class="mb-3" muted loop>
+                <source src="/static/vid/digimiam-door-{% if lang == 'en/' %}en{% else %}fr{% endif %}.webm" type="video/webm"/>
+                <p>{% trans "Videos are not supported by this browser" %}</p>
+              </video>
+              <video id="video3" class="mb-3" muted loop>
+                <source src="/static/vid/marmitron-{% if lang == 'en/' %}en{% else %}fr{% endif %}.webm" type="video/webm"/>
+                <p>{% trans "Videos are not supported by this browser" %}</p>
+              </video>
+              <video id="video4" class="mb-3" muted loop>
+                <source src="/static/vid/ms-pepper-{% if lang == 'en/' %}en{% else %}fr{% endif %}.webm" type="video/webm"/>
+                <p>{% trans "Videos are not supported by this browser" %}</p>
+              </video>
+              <video id="video5" muted loop>
+                <source src="/static/vid/digimiam-room-{% if lang == 'en/' %}en{% else %}fr{% endif %}.webm" type="video/webm"/>
+                <p>{% trans "Videos are not supported by this browser" %}</p>
+              </video>
             </div>
-            <a class="carousel-control-prev" href="#carousel-room-1" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">{% trans "Previous" %}</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-room-1" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">{% trans "Next" %}</span>
-            </a>
           </div>
         </div>
       </div>
@@ -168,8 +165,22 @@
 
 {% block post_base_js %}
   <script>
-    $("#collapse-room-1").on("show.bs.collapse", function() {$("#heading-room-1 span.svg-64px").addClass("rotate-90");})
-    $("#collapse-room-1").on("hide.bs.collapse", function() {$("#heading-room-1 span.svg-64px").removeClass("rotate-90");})
+    $("#collapse-room-1").on("show.bs.collapse", function() {
+      $("#heading-room-1 span.svg-64px").addClass("rotate-90");
+      $("#video1").get(0).play();
+      $("#video2").get(0).play();
+      $("#video3").get(0).play();
+      $("#video4").get(0).play();
+      $("#video5").get(0).play();
+    })
+    $("#collapse-room-1").on("hide.bs.collapse", function() {
+      $("#heading-room-1 span.svg-64px").removeClass("rotate-90");
+      $("#video1").get(0).pause();
+      $("#video2").get(0).pause();
+      $("#video3").get(0).pause();
+      $("#video4").get(0).pause();
+      $("#video5").get(0).pause();
+    })
     $("#collapse-room-2").on("show.bs.collapse", function() {$("#heading-room-2 span.svg-64px").addClass("rotate-90");})
     $("#collapse-room-2").on("hide.bs.collapse", function() {$("#heading-room-2 span.svg-64px").removeClass("rotate-90");})
   </script>
