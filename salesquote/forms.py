@@ -44,6 +44,10 @@ class PhoneNumberField(forms.CharField):
             if not phonenumbers.is_valid_number(p):
                 raise forms.ValidationError(_('Enter a valid phone number.'))
 
+    def clean(self, value):
+        return phonenumbers.format_number(
+            phonenumbers.parse(value, 'FR'),
+            phonenumbers.PhoneNumberFormat.E164)
 
 class SalesQuoteForm(forms.Form):
     contact_name = forms.CharField(
