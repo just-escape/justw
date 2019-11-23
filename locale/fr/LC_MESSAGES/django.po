@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-16 12:00+0100\n"
+"POT-Creation-Date: 2019-11-23 19:54+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -60,10 +60,10 @@ msgid "Notice"
 msgstr "Note"
 
 #: pages/templates/base.html:75
-msgid "Just Escape is being created and should open at the end of 2019"
-msgstr "Just Escape est en cours de création et devrait ouvrir fin 2019"
+msgid "Just Escape is being created and will open in 2020"
+msgstr "Just Escape est en cours de création et ouvrira en 2020"
 
-#: pages/templates/base.html:87 pages/templates/home.html:11
+#: pages/templates/base.html:89 pages/templates/home.html:11
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr "Un des escape games les plus immersifs de&nbsp;Lille"
 
@@ -973,7 +973,7 @@ msgstr "Carte cadeau"
 msgid "Escape Game Lille"
 msgstr "Escape Game Lille"
 
-#: pages/templates/header.html:27 pages/templates/room.html:204
+#: pages/templates/header.html:27 pages/templates/room.html:214
 msgid "Rooms"
 msgstr "Salles"
 
