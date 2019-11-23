@@ -165,24 +165,34 @@
 
 {% block post_base_js %}
   <script>
-    $("#collapse-room-1").on("show.bs.collapse", function() {
-      $("#heading-room-1 span.svg-64px").addClass("rotate-90");
+    function playVideos() {
       $("#video1").get(0).play();
       $("#video2").get(0).play();
       $("#video3").get(0).play();
       $("#video4").get(0).play();
       $("#video5").get(0).play();
-    })
-    $("#collapse-room-1").on("hide.bs.collapse", function() {
-      $("#heading-room-1 span.svg-64px").removeClass("rotate-90");
+    }
+
+    function pauseVideos() {
       $("#video1").get(0).pause();
       $("#video2").get(0).pause();
       $("#video3").get(0).pause();
       $("#video4").get(0).pause();
       $("#video5").get(0).pause();
+    }
+
+    $("#collapse-room-1").on("show.bs.collapse", function() {
+      $("#heading-room-1 span.svg-64px").addClass("rotate-90");
+      playVideos();
+    })
+    $("#collapse-room-1").on("hide.bs.collapse", function() {
+      $("#heading-room-1 span.svg-64px").removeClass("rotate-90");
+      pauseVideos();
     })
     $("#collapse-room-2").on("show.bs.collapse", function() {$("#heading-room-2 span.svg-64px").addClass("rotate-90");})
     $("#collapse-room-2").on("hide.bs.collapse", function() {$("#heading-room-2 span.svg-64px").removeClass("rotate-90");})
+
+    {% if show == "d1" %}playVideos();{% endif %}
   </script>
 
   {% include "js/animate-room.js" %}
