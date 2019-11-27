@@ -83,24 +83,24 @@
           <div class="col-12 col-md-10 col-lg-8">
             <h3>{% trans "Trailer" %}</h3>
             <div class="d-flex flex-column deepdark rounded p-3 mb-5">
-              <video id="video1" class="mb-3" muted loop>
-                <source src="/static/vid/lille-2080-{% if lang == 'en/' %}en{% else %}fr{% endif %}.webm" type="video/webm"/>
+              <video id="video1" class="mb-3" muted loop poster="/static/img/lille-2080{% if lang == 'en/' %}-en{% endif %}.jpg">
+                <source src="/static/vid/lille-2080{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
                 <p>{% trans "Videos are not supported by this browser" %}</p>
               </video>
-              <video id="video2" class="mb-3" muted loop>
-                <source src="/static/vid/digimiam-door-{% if lang == 'en/' %}en{% else %}fr{% endif %}.webm" type="video/webm"/>
+              <video id="video2" class="mb-3" muted loop poster="/static/img/digimiam-door{% if lang == 'en/' %}-en{% endif %}.jpg">
+                <source src="/static/vid/digimiam-door{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
                 <p>{% trans "Videos are not supported by this browser" %}</p>
               </video>
-              <video id="video3" class="mb-3" muted loop>
-                <source src="/static/vid/marmitron-{% if lang == 'en/' %}en{% else %}fr{% endif %}.webm" type="video/webm"/>
+              <video id="video3" class="mb-3" muted loop poster="/static/img/marmitron{% if lang == 'en/' %}-en{% endif %}.jpg">
+                <source src="/static/vid/marmitron{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
                 <p>{% trans "Videos are not supported by this browser" %}</p>
               </video>
-              <video id="video4" class="mb-3" muted loop>
-                <source src="/static/vid/ms-pepper-{% if lang == 'en/' %}en{% else %}fr{% endif %}.webm" type="video/webm"/>
+              <video id="video4" class="mb-3" muted loop poster="/static/img/ms-pepper{% if lang == 'en/' %}-en{% endif %}.jpg">
+                <source src="/static/vid/ms-pepper{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
                 <p>{% trans "Videos are not supported by this browser" %}</p>
               </video>
-              <video id="video5" muted loop>
-                <source src="/static/vid/digimiam-room-{% if lang == 'en/' %}en{% else %}fr{% endif %}.webm" type="video/webm"/>
+              <video id="video5" muted loop poster="/static/img/digimiam-room{% if lang == 'en/' %}-en{% endif %}.jpg">
+                <source src="/static/vid/digimiam-room{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
                 <p>{% trans "Videos are not supported by this browser" %}</p>
               </video>
             </div>
