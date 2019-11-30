@@ -13,63 +13,55 @@
 {% block content %}
 
   <section class="jumbotron py-5">
-    <div id="room-1" class="container px-0">
-      <div id="heading-room-1">
-        <div class="d-flex flex-row justify-content-center flex-column-reverse flex-md-row">
-          <div class="col-12 col-md-2 my-auto text-center text-md-left pl-0">
-            <div class="text-hover-jaffa pointer opacity-07 opacity-hover-1 d-inline-block mb-3" role="button" data-toggle="collapse" data-target="#collapse-room-1" aria-expanded="false" aria-controls="collapse-room-1">
-              <span class="transition-03s svg-64px svg-sm-48px fill-light d-block text-center{% if show == "d1" %} rotate-90{% endif %}">{% include "svg/arrow-right.svg" %}</span>
-              <div class="size-09 text-underline">{% trans "More info" %}</div>
-            </div>
-          </div>
-          <div class="col-12 col-md-10 px-sm-0 mb-4 mb-md-0">
-            <div class="d-flex flex-column flex-sm-row">
-              <div class="d-flex justify-content-center mb-3 mb-sm-0 mr-sm-3">
-                <div class="width-170px position-relative my-auto my-lg-2">
-                  <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "New" %}</span></div>
-                  {% include "svg/digimiam.svg" %}
-                </div>
+    <div class="container px-0">
+      <div class="row justify-content-center mb-5">
+        <div class="col-12 col-md-10 px-sm-0 mb-4 mb-md-0">
+          <div class="d-flex flex-column flex-sm-row">
+            <div class="d-flex justify-content-center mb-3 mb-sm-0 mr-sm-3">
+              <div class="width-170px position-relative my-auto my-lg-2">
+                <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "New" %}</span></div>
+                {% include "svg/digimiam.svg" %}
               </div>
+            </div>
 
-              <div>
-                <span id="digimiam" class="anchor">&nbsp;</span>
-                <h2>{% trans "The Digimiam" %}</h2>
-                <p class="font-italic mb-2">{% trans "Futuristic restaurant" %}</p>
-                <p class="mb-2">{% trans "What could a futuristic estaminet entirely managed by Artificial Intelligence look like? This is what you will discover in the Digimiam (famous address that all the inhabitants of Lille speak about in 2080)." %}</p>
-                <p class="mb-2">{% trans "But today the Digimiam needs you. The report indicates that the cooking Artificial Intelligence, <span class='font-italic'>Marmitron</span>, would no longer respond to orders. The customer is urging you and your maintenance group specialized in AI." %}</p>
-                <p class="mb-2">{% trans "This routine intervention may well become funnier than expected when you will infiltrate a <span class='text-jaffa'>laser labyrinth</span>, recalibrate <span class='text-jaffa'>robotic arms</span> and restore the other modules." %}</p>
-                <p class="size-09">{% trans "The scenario is duplicated in 2 rooms." %}</p>
-                <div class="d-flex flex-column-reverse flex-sm-row justify-content-sm-between">
-                  <div class="d-flex flex-column flex-lg-row my-auto">
-                    <div class="mb-2 mb-lg-0 mr-lg-4">
-                      <div class="d-flex flex-row-reverse flex-sm-row">
-                        <div class="position-relative">
-                          <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
-                        </div>
-                        <span class="mr-2 mr-sm-3 mr-lg-2"></span>
-                        <span class="size-09 lh-24px">{% trans "2 - 4 players" %}</span>
+            <div>
+              <span id="digimiam" class="anchor">&nbsp;</span>
+              <h2>{% trans "The Digimiam" %}</h2>
+              <p class="font-italic mb-2">{% trans "Futuristic restaurant" %}</p>
+              <p class="mb-2">{% trans "What could a futuristic estaminet entirely managed by Artificial Intelligence look like? This is what you will discover in the Digimiam (famous address that all the inhabitants of Lille speak about in 2080)." %}</p>
+              <p class="mb-2">{% trans "But today the Digimiam needs you. The report indicates that the cooking Artificial Intelligence, <span class='font-italic'>Marmitron</span>, would no longer respond to orders. The customer is urging you and your maintenance group specialized in AI." %}</p>
+              <p class="mb-2">{% trans "This routine intervention may well become funnier than expected when you will infiltrate a <span class='text-jaffa'>laser labyrinth</span>, recalibrate <span class='text-jaffa'>robotic arms</span> and restore the other modules." %}</p>
+              <p class="size-09">{% trans "The scenario is duplicated in 2 rooms." %}</p>
+              <div class="d-flex flex-column-reverse flex-sm-row justify-content-sm-between">
+                <div class="d-flex flex-column flex-lg-row my-auto">
+                  <div class="mb-2 mb-lg-0 mr-lg-4">
+                    <div class="d-flex flex-row-reverse flex-sm-row">
+                      <div class="position-relative">
+                        <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
                       </div>
-                    </div>
-                    <div class="mb-2 mb-lg-0 mr-lg-4">
-                      <div class="d-flex flex-row-reverse flex-sm-row">
-                        <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/chrono.svg" %}</span>
-                        <span class="mr-2 mr-sm-3 mr-lg-2"></span>
-                        <span class="size-09 lh-24px">{% trans "60 minutes" %}</span>
-                      </div>
-                    </div>
-                    <div class="mb-2 mb-lg-0">
-                      <div class="d-flex flex-row-reverse flex-sm-row">
-                        <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/lang.svg" %}</span>
-                        <span class="mr-2 mr-sm-3 mr-lg-2"></span>
-                        <span class="size-09 lh-24px">{% trans "FR / EN" %}</span>
-                      </div>
+                      <span class="mr-2 mr-sm-3 mr-lg-2"></span>
+                      <span class="size-09 lh-24px">{% trans "2 - 4 players" %}</span>
                     </div>
                   </div>
-                  <div class="my-lg-auto text-right">
-                    <a class="btn btn-primary mb-3 mb-lg-0" href="/{{ lang }}reserver">
-                      <span class="px-3">{% trans "Book now" %}</span>
-                    </a>
+                  <div class="mb-2 mb-lg-0 mr-lg-4">
+                    <div class="d-flex flex-row-reverse flex-sm-row">
+                      <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/chrono.svg" %}</span>
+                      <span class="mr-2 mr-sm-3 mr-lg-2"></span>
+                      <span class="size-09 lh-24px">{% trans "60 minutes" %}</span>
+                    </div>
                   </div>
+                  <div class="mb-2 mb-lg-0">
+                    <div class="d-flex flex-row-reverse flex-sm-row">
+                      <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/lang.svg" %}</span>
+                      <span class="mr-2 mr-sm-3 mr-lg-2"></span>
+                      <span class="size-09 lh-24px">{% trans "FR / EN" %}</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-lg-auto text-right">
+                  <a class="btn btn-primary mb-3 mb-lg-0" href="/{{ lang }}reserver">
+                    <span class="px-3">{% trans "Book now" %}</span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -77,33 +69,30 @@
         </div>
       </div>
 
-      <div id="collapse-room-1" class="mt-4 collapse{% if show == "d1" %} show{% endif %}" aria-labelledby="heading-room-1" data-parent="#room-1">
-        <div class="row justify-content-left">
-          <div class="col-0 col-md-2"></div>
-          <div class="col-12 col-md-10 col-lg-8">
-            <h3>{% trans "Trailer" %}</h3>
-            <div class="d-flex flex-column deepdark rounded p-3 mb-5">
-              <video id="video1" class="mb-3" muted loop poster="/static/img/lille-2080{% if lang == 'en/' %}-en{% endif %}.jpg">
-                <source src="/static/vid/lille-2080{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
-                <p>{% trans "Videos are not supported by this browser" %}</p>
-              </video>
-              <video id="video2" class="mb-3" muted loop poster="/static/img/digimiam-door{% if lang == 'en/' %}-en{% endif %}.jpg">
-                <source src="/static/vid/digimiam-door{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
-                <p>{% trans "Videos are not supported by this browser" %}</p>
-              </video>
-              <video id="video3" class="mb-3" muted loop poster="/static/img/marmitron{% if lang == 'en/' %}-en{% endif %}.jpg">
-                <source src="/static/vid/marmitron{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
-                <p>{% trans "Videos are not supported by this browser" %}</p>
-              </video>
-              <video id="video4" class="mb-3" muted loop poster="/static/img/ms-pepper{% if lang == 'en/' %}-en{% endif %}.jpg">
-                <source src="/static/vid/ms-pepper{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
-                <p>{% trans "Videos are not supported by this browser" %}</p>
-              </video>
-              <video id="video5" muted loop poster="/static/img/digimiam-room{% if lang == 'en/' %}-en{% endif %}.jpg">
-                <source src="/static/vid/digimiam-room{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
-                <p>{% trans "Videos are not supported by this browser" %}</p>
-              </video>
-            </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 px-0">
+          <h3>{% trans "Trailer" %}</h3>
+          <div class="d-flex flex-column deepdark rounded p-3 mb-5">
+            <video class="mb-3" autoplay muted loop poster="/static/img/lille-2080{% if lang == 'en/' %}-en{% endif %}.jpg">
+              <source src="/static/vid/lille-2080{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
+              <p>{% trans "Videos are not supported by this browser" %}</p>
+            </video>
+            <video class="mb-3" autoplay muted loop poster="/static/img/digimiam-door{% if lang == 'en/' %}-en{% endif %}.jpg">
+              <source src="/static/vid/digimiam-door{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
+              <p>{% trans "Videos are not supported by this browser" %}</p>
+            </video>
+            <video class="mb-3" autoplay muted loop poster="/static/img/marmitron{% if lang == 'en/' %}-en{% endif %}.jpg">
+              <source src="/static/vid/marmitron{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
+              <p>{% trans "Videos are not supported by this browser" %}</p>
+            </video>
+            <video class="mb-3" autoplay muted loop poster="/static/img/ms-pepper{% if lang == 'en/' %}-en{% endif %}.jpg">
+              <source src="/static/vid/ms-pepper{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
+              <p>{% trans "Videos are not supported by this browser" %}</p>
+            </video>
+            <video autoplay muted loop poster="/static/img/digimiam-room{% if lang == 'en/' %}-en{% endif %}.jpg">
+              <source src="/static/vid/digimiam-room{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
+              <p>{% trans "Videos are not supported by this browser" %}</p>
+            </video>
           </div>
         </div>
       </div>
@@ -164,37 +153,6 @@
 {% endblock %}
 
 {% block post_base_js %}
-  <script>
-    function playVideos() {
-      $("#video1").get(0).play();
-      $("#video2").get(0).play();
-      $("#video3").get(0).play();
-      $("#video4").get(0).play();
-      $("#video5").get(0).play();
-    }
-
-    function pauseVideos() {
-      $("#video1").get(0).pause();
-      $("#video2").get(0).pause();
-      $("#video3").get(0).pause();
-      $("#video4").get(0).pause();
-      $("#video5").get(0).pause();
-    }
-
-    $("#collapse-room-1").on("show.bs.collapse", function() {
-      $("#heading-room-1 span.svg-64px").addClass("rotate-90");
-      playVideos();
-    })
-    $("#collapse-room-1").on("hide.bs.collapse", function() {
-      $("#heading-room-1 span.svg-64px").removeClass("rotate-90");
-      pauseVideos();
-    })
-    $("#collapse-room-2").on("show.bs.collapse", function() {$("#heading-room-2 span.svg-64px").addClass("rotate-90");})
-    $("#collapse-room-2").on("hide.bs.collapse", function() {$("#heading-room-2 span.svg-64px").removeClass("rotate-90");})
-
-    {% if show == "d1" %}playVideos();{% endif %}
-  </script>
-
   {% include "js/animate-room.js" %}
 
   <script type="application/ld+json">
