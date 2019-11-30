@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-23 19:54+0100\n"
+"POT-Creation-Date: 2019-11-30 11:07+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -63,7 +63,7 @@ msgstr "Note"
 msgid "Just Escape is being created and will open in 2020"
 msgstr "Just Escape est en cours de création et ouvrira en 2020"
 
-#: pages/templates/base.html:89 pages/templates/home.html:11
+#: pages/templates/base.html:90 pages/templates/home.html:11
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr "Un des escape games les plus immersifs de&nbsp;Lille"
 
@@ -1237,11 +1237,11 @@ msgstr "– Un actionnaire anonyme de Just Escape"
 #: pages/templates/home.html:281
 msgid ""
 "The Digimiam is undoubtedly the best estaminet in Lille! You&#39;ll find "
-"some amazing 2040-style cookies that will remind you of your childhood! "
+"some amazing 2040-style waffles that will remind you of your childhood! "
 "Yummy! <span class='font-weight-bold'>You&#39;re gonna love it!</span>"
 msgstr ""
 "Le Digimiam est sans conteste le meilleur estaminet de Lille ! Vous y "
-"trouverez des cookies style années 2040 au goût incroyable qui vous "
+"trouverez des gaufres style années 2040 au goût incroyable qui vous "
 "rappeleront votre enfance ! Miam ! <span class='font-weight'>Vous allez vous "
 "régaler !</span>"
 
