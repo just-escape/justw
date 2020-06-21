@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-30 11:07+0100\n"
+"POT-Creation-Date: 2020-06-21 15:11+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: justw/settings.py:178
+#: justw/settings.py:167
 msgid "English"
 msgstr "Anglais"
 
-#: justw/settings.py:179
+#: justw/settings.py:168
 msgid "French"
 msgstr "Français"
 
@@ -63,7 +63,7 @@ msgstr "Note"
 msgid "Just Escape is being created and will open in 2020"
 msgstr "Just Escape est en cours de création et ouvrira en 2020"
 
-#: pages/templates/base.html:90 pages/templates/home.html:11
+#: pages/templates/base.html:89 pages/templates/home.html:11
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr "Un des escape games les plus immersifs de&nbsp;Lille"
 
@@ -973,7 +973,7 @@ msgstr "Carte cadeau"
 msgid "Escape Game Lille"
 msgstr "Escape Game Lille"
 
-#: pages/templates/header.html:27 pages/templates/room.html:214
+#: pages/templates/header.html:27 pages/templates/room.html:172
 msgid "Rooms"
 msgstr "Salles"
 
@@ -1018,15 +1018,15 @@ msgstr ""
 msgid "Escape rooms"
 msgstr "Les escape rooms"
 
-#: pages/templates/home.html:30 pages/templates/room.html:29
+#: pages/templates/home.html:30 pages/templates/room.html:22
 msgid "New"
 msgstr "Nouveau"
 
-#: pages/templates/home.html:39 pages/templates/room.html:36
+#: pages/templates/home.html:39 pages/templates/room.html:29
 msgid "The Digimiam"
 msgstr "Le Digimiam"
 
-#: pages/templates/home.html:40 pages/templates/room.html:37
+#: pages/templates/home.html:40 pages/templates/room.html:30
 msgid "Futuristic restaurant"
 msgstr "Restaurant du futur"
 
@@ -1061,34 +1061,34 @@ msgid "The room"
 msgstr "La salle"
 
 #: pages/templates/home.html:51 pages/templates/home.html:236
-#: pages/templates/pricing.html:75 pages/templates/room.html:70
+#: pages/templates/pricing.html:75 pages/templates/room.html:63
 #: pages/templates/teambuilding.html:112
 msgid "Book now"
 msgstr "Réserver"
 
-#: pages/templates/home.html:67 pages/templates/room.html:50
+#: pages/templates/home.html:67 pages/templates/room.html:43
 msgid "2 - 4 players"
 msgstr "2 à 4 joueurs"
 
 #: pages/templates/home.html:74 pages/templates/home.html:123
-#: pages/templates/room.html:57 pages/templates/room.html:145
+#: pages/templates/room.html:50 pages/templates/room.html:134
 msgid "60 minutes"
 msgstr "60 minutes"
 
 #: pages/templates/home.html:81 pages/templates/home.html:130
-#: pages/templates/room.html:64 pages/templates/room.html:152
+#: pages/templates/room.html:57 pages/templates/room.html:141
 msgid "FR / EN"
 msgstr "FR / EN"
 
-#: pages/templates/home.html:95 pages/templates/room.html:121
+#: pages/templates/home.html:95 pages/templates/room.html:110
 msgid "[room] Soon"
 msgstr "À venir"
 
-#: pages/templates/home.html:102 pages/templates/room.html:127
+#: pages/templates/home.html:102 pages/templates/room.html:116
 msgid "Horror room"
 msgstr "Salle horreur"
 
-#: pages/templates/home.html:103 pages/templates/room.html:128
+#: pages/templates/home.html:103 pages/templates/room.html:117
 msgid "Manor of the puppeteer"
 msgstr "Manoir de la marionnettiste"
 
@@ -1111,7 +1111,7 @@ msgstr ""
 msgid "The design of the puzzles is still in progress."
 msgstr "La création des énigmes est encore en cours."
 
-#: pages/templates/home.html:116 pages/templates/room.html:138
+#: pages/templates/home.html:116 pages/templates/room.html:127
 msgid "4 - 6 players"
 msgstr "4 à 6 joueurs"
 
@@ -1456,11 +1456,7 @@ msgstr "Escape Rooms"
 msgid "Discover the scenarios"
 msgstr "Découvrez les scénarios"
 
-#: pages/templates/room.html:22
-msgid "More info"
-msgstr "Plus d'infos"
-
-#: pages/templates/room.html:38
+#: pages/templates/room.html:31
 msgid ""
 "What could a futuristic estaminet entirely managed by Artificial "
 "Intelligence look like? This is what you will discover in the Digimiam "
@@ -1471,7 +1467,7 @@ msgstr ""
 "le Digimiam (célèbre adresse que tous les habitants de Lille s&#39;"
 "échangeront en 2080)."
 
-#: pages/templates/room.html:39
+#: pages/templates/room.html:32
 msgid ""
 "But today the Digimiam needs you. The report indicates that the cooking "
 "Artificial Intelligence, <span class='font-italic'>Marmitron</span>, would "
@@ -1483,7 +1479,7 @@ msgstr ""
 "italic'>Marmitron</span>, ne répondrait plus aux ordres. Le client vous "
 "presse, vous et votre groupe de maintenance spécialisé en IA."
 
-#: pages/templates/room.html:40
+#: pages/templates/room.html:33
 msgid ""
 "This routine intervention may well become funnier than expected when you "
 "will infiltrate a <span class='text-jaffa'>laser labyrinth</span>, "
@@ -1495,27 +1491,27 @@ msgstr ""
 "span>, que vous recalibrerez des <span class='text-jaffa'>bras robotiques</"
 "span> et que vous restaurerez les autres modules."
 
-#: pages/templates/room.html:41
+#: pages/templates/room.html:34
 msgid "The scenario is duplicated in 2 rooms."
 msgstr "Le scénario est dupliqué sur deux salles."
 
-#: pages/templates/room.html:84
+#: pages/templates/room.html:74
 msgid "Trailer"
 msgstr "Trailer"
 
-#: pages/templates/room.html:88 pages/templates/room.html:92
-#: pages/templates/room.html:96 pages/templates/room.html:100
-#: pages/templates/room.html:104
+#: pages/templates/room.html:78 pages/templates/room.html:82
+#: pages/templates/room.html:86 pages/templates/room.html:90
+#: pages/templates/room.html:94
 msgid "Videos are not supported by this browser"
 msgstr "Les vidéos ne sont pas supportées par ce navigateur"
 
-#: pages/templates/room.html:129
+#: pages/templates/room.html:118
 msgid "You will soon be able to enjoy a new horror room in Lille."
 msgstr ""
 "Vous allez bientôt pouvoir profiter d&#39; une nouvelle salle d&#39;horreur "
 "à Lille."
 
-#: pages/templates/room.html:130
+#: pages/templates/room.html:119
 msgid ""
 "All we can reveal for now is that there will be a forest, a manor house, a "
 "gloomy atmosphere, a puppeteer, her children (small but not that cute), a "
@@ -1526,201 +1522,11 @@ msgstr ""
 "une forêt, un manoir, une ambiance lugubre, une marionnettiste, ses enfants "
 "(petits mais pas si mignons que ça), une pièce de théâtre dans laquelle "
 "<span class='font-italic'>vous</span> allez jouer, des montées d&#39;"
-"adrénaline, du sang et peut être même jaffa'>des morts."
+"adrénaline, du sang et peut être même des morts."
 
-#: pages/templates/room.html:131
+#: pages/templates/room.html:120
 msgid "Expected release date: soon™."
 msgstr "Date de sortie estimée : bientôt™."
-
-#: pages/templates/svg/address.svg:2
-msgid "Visit card displaying a person and lines of text"
-msgstr "Carte de visite affichant une personne et des lignes de texte"
-
-#: pages/templates/svg/apple-alt.svg:2
-msgid "Delicious apple with a leaf"
-msgstr "Délicieuse pomme avec une feuille"
-
-#: pages/templates/svg/arrow-right.svg:2
-msgid "Directional arrow"
-msgstr "Flèche directionnelle"
-
-#: pages/templates/svg/beer.svg:2
-msgid "Mug filled with Northern beer"
-msgstr "Chope remplie de bière du Nord"
-
-#: pages/templates/svg/bicycle.svg:2
-msgid "Bicycle pointing to the right"
-msgstr "Vélo digiré vers la droite"
-
-#: pages/templates/svg/bus.svg:2
-msgid "Old school bus facing the screen"
-msgstr "Bus démodé faisant face à l'écran"
-
-#: pages/templates/svg/calendar-check.svg:2
-msgid "A daily calendar with a check mark as if an event has been booked"
-msgstr ""
-"Un calendrier quotidien avec une case cochée comme si un événement avait été "
-"reservé"
-
-#: pages/templates/svg/car.svg:2
-msgid "City car facing the screen"
-msgstr "Voiture de ville faisant face à l'écran"
-
-#: pages/templates/svg/check.svg:2
-msgid "Check mark"
-msgstr "Case cochée"
-
-#: pages/templates/svg/chrono.svg:2
-msgid "Time to solve puzzles"
-msgstr "Temps pour résoudre les énigmes"
-
-#: pages/templates/svg/clock.svg:2
-msgid "Kitchen clock indicating four o&#39;clock"
-msgstr "Horloge de cuisine indiquant quatre heures"
-
-#: pages/templates/svg/cocktail.svg:2
-msgid "Triangular shaped cocktail glass with a slice of lemon attached"
-msgstr "Verre de cocktail de forme triangulaire avec une tranche de citron"
-
-#: pages/templates/svg/coffee.svg:2
-msgid "Cup of coffee lying on an undercup"
-msgstr "Tasse de café posée sur une soucoupe"
-
-#: pages/templates/svg/credit-card.svg:2
-msgid "Credit card with undistinguishable information"
-msgstr "Carte de crédit avec des informations indiscernables"
-
-#: pages/templates/svg/discount.svg:2
-msgid ""
-"Cheap price discount voucher with a minus followed by a percent sign written "
-"on it"
-msgstr ""
-"Coupon de réduction pas cher avec un signe moins suivi par un signe de "
-"pourcentage écrit dessus"
-
-#: pages/templates/svg/door-background.svg:2
-msgid ""
-"Border of Just Escape&#39;s logo with a miniature of the website&#39;s index "
-"page in the background"
-msgstr ""
-"Bordure du logo de Just Escape avec une miniature de la page d'index du site "
-"web à l'arrière plan"
-
-#: pages/templates/svg/door-door.svg:2
-msgid "Only the door of Just Escape&#39;s logo"
-msgstr "Uniquement la porte du logo de Just Escape"
-
-#: pages/templates/svg/facebook.svg:2
-msgid "Facebook"
-msgstr "Facebook"
-
-#: pages/templates/svg/gift.svg:2
-msgid "Birthday gift box with curly ribbons that is not opened yet"
-msgstr ""
-"Boîte cadeau d'anniversaire avec des bandeaux bouclés qui n'est pas encore "
-"ouvert"
-
-#: pages/templates/svg/glass-cheers.svg:2
-msgid "Two filled wine glasses having a toast"
-msgstr "Deux verres de vin en train de trinquer"
-
-#: pages/templates/svg/grin-beam.svg:2
-msgid "Grin face with smiling eyes emoji"
-msgstr "Emoji d'un visage souriant aux yeux souriants"
-
-#: pages/templates/svg/info-circle.svg:2
-msgid "Lowercase i inside a circle inviting you to click for more info"
-msgstr "i minuscule dans un cercle vous invitant à cliquer pour plus d'infos"
-
-#: pages/templates/svg/instagram.svg:2
-msgid "Instagram"
-msgstr "Instagram"
-
-#: pages/templates/svg/just-escape-door.svg:2
-msgid "Just Escape logo with no text: an escape room door"
-msgstr "Logo de Just Escape sans texte : une porte d'escape room"
-
-#: pages/templates/svg/just-escape.svg:2
-msgid "Just Escape Lille logo"
-msgstr "Just Escape Lille Logo"
-
-#: pages/templates/svg/lang.svg:2
-msgid "Available languages for the scenario"
-msgstr "Langages disponibles pour le scénario"
-
-#: pages/templates/svg/language.svg:2
-msgid "Change language"
-msgstr "Changer la langue"
-
-#: pages/templates/svg/linkedin.svg:2
-msgid "Linkedin"
-msgstr "Linkedin"
-
-#: pages/templates/svg/map-marker.svg:2
-msgid "Map marker"
-msgstr "Repère cartographique"
-
-#: pages/templates/svg/marmitron-head.svg:2
-msgid "The angled head of Marmitron, the Digimiam's chef robot"
-msgstr "La tête inclinée du Marmitron, le robot chef du Digimiam"
-
-#: pages/templates/svg/minus-16.svg:2
-msgid "Not recommended for children under the age of 16"
-msgstr "Déconseillé aux enfants de moins de 16 ans"
-
-#: pages/templates/svg/presentation.svg:2
-msgid ""
-"An animator pointing something on a whiteboard with their finger in the "
-"background to a team of 3 persons in the foreground"
-msgstr ""
-"Un animateur pointant quelque chose avec son doigt sur un tableau blanc à "
-"l'arrière plan face à une team de 3 personnes au premier plan"
-
-#: pages/templates/svg/question-circle.svg:2
-msgid "Question mark inside a circle inviting you to click if you're wondering"
-msgstr ""
-"Point d'interrogation dans un cercle vous invitant à cliquer si vous vous "
-"posez une question"
-
-#: pages/templates/svg/quote-left.svg:2
-msgid "Opening quote mark"
-msgstr "Guillemets ouvrants"
-
-#: pages/templates/svg/subway.svg:2
-msgid "Subway facing the screen"
-msgstr "Métro faisant face à l'écran"
-
-#: pages/templates/svg/times.svg:2
-msgid "X shaped cross"
-msgstr "Croix en forme de X"
-
-#: pages/templates/svg/tripadvisor.svg:2
-msgid "Tripadvisor"
-msgstr "Tripadvisor"
-
-#: pages/templates/svg/twitter.svg:2
-msgid "Twitter"
-msgstr "Twitter"
-
-#: pages/templates/svg/user-tie.svg:2
-msgid ""
-"Chest plan of a person wearing a costume and a tie getting prepared for team "
-"building"
-msgstr ""
-"Plan de poitrine d'une personne portant un costume et une cravate se "
-"préparant pour du team building"
-
-#: pages/templates/svg/users.svg:2
-msgid "Group of 3 persons"
-msgstr "Groupe de 3 personnes"
-
-#: pages/templates/svg/walking.svg:2
-msgid "A person walking, seen from the side"
-msgstr "Une personne marchant, vue de profil"
-
-#: pages/templates/svg/yelp.svg:2
-msgid "Yelp"
-msgstr "Yelp"
 
 #: pages/templates/teambuilding.html:6
 msgid "Team Building – Escape Game Lille – Just Escape"
@@ -1838,11 +1644,10 @@ msgstr "À partir de <span class='text-mulberry'>150€</span>*"
 #: pages/templates/teambuilding.html:107
 msgid ""
 "(*) Price excluding tax. Does not include the price of a game session. The "
-"price of one hour of play is 25€ all taxes included per person, or 20€ "
-"excluding tax."
+"price of one hour of play is 25€ all taxes included per person."
 msgstr ""
 "(*) Prix HT. Ne comprend pas le prix d&#39;une session de jeu. Le prix d&#39;"
-"une heure de jeu est de 25€ TTC par personne, soit 20€ HT."
+"une heure de jeu est de 25€ TTC par personne."
 
 #: pages/templates/teambuilding.html:123
 msgid "Quote form"
@@ -1995,3 +1800,156 @@ msgstr "Workshop"
 #: salesquote/models.py:13
 msgid "Custom (precise in comments)"
 msgstr "Sur mesure (précisez en commentaire)"
+
+#~ msgid "More info"
+#~ msgstr "Plus d'infos"
+
+#~ msgid "Visit card displaying a person and lines of text"
+#~ msgstr "Carte de visite affichant une personne et des lignes de texte"
+
+#~ msgid "Delicious apple with a leaf"
+#~ msgstr "Délicieuse pomme avec une feuille"
+
+#~ msgid "Directional arrow"
+#~ msgstr "Flèche directionnelle"
+
+#~ msgid "Mug filled with Northern beer"
+#~ msgstr "Chope remplie de bière du Nord"
+
+#~ msgid "Bicycle pointing to the right"
+#~ msgstr "Vélo digiré vers la droite"
+
+#~ msgid "Old school bus facing the screen"
+#~ msgstr "Bus démodé faisant face à l'écran"
+
+#~ msgid "A daily calendar with a check mark as if an event has been booked"
+#~ msgstr ""
+#~ "Un calendrier quotidien avec une case cochée comme si un événement avait "
+#~ "été reservé"
+
+#~ msgid "City car facing the screen"
+#~ msgstr "Voiture de ville faisant face à l'écran"
+
+#~ msgid "Check mark"
+#~ msgstr "Case cochée"
+
+#~ msgid "Time to solve puzzles"
+#~ msgstr "Temps pour résoudre les énigmes"
+
+#~ msgid "Kitchen clock indicating four o&#39;clock"
+#~ msgstr "Horloge de cuisine indiquant quatre heures"
+
+#~ msgid "Triangular shaped cocktail glass with a slice of lemon attached"
+#~ msgstr "Verre de cocktail de forme triangulaire avec une tranche de citron"
+
+#~ msgid "Cup of coffee lying on an undercup"
+#~ msgstr "Tasse de café posée sur une soucoupe"
+
+#~ msgid "Credit card with undistinguishable information"
+#~ msgstr "Carte de crédit avec des informations indiscernables"
+
+#~ msgid ""
+#~ "Cheap price discount voucher with a minus followed by a percent sign "
+#~ "written on it"
+#~ msgstr ""
+#~ "Coupon de réduction pas cher avec un signe moins suivi par un signe de "
+#~ "pourcentage écrit dessus"
+
+#~ msgid ""
+#~ "Border of Just Escape&#39;s logo with a miniature of the website&#39;s "
+#~ "index page in the background"
+#~ msgstr ""
+#~ "Bordure du logo de Just Escape avec une miniature de la page d'index du "
+#~ "site web à l'arrière plan"
+
+#~ msgid "Only the door of Just Escape&#39;s logo"
+#~ msgstr "Uniquement la porte du logo de Just Escape"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Birthday gift box with curly ribbons that is not opened yet"
+#~ msgstr ""
+#~ "Boîte cadeau d'anniversaire avec des bandeaux bouclés qui n'est pas "
+#~ "encore ouvert"
+
+#~ msgid "Two filled wine glasses having a toast"
+#~ msgstr "Deux verres de vin en train de trinquer"
+
+#~ msgid "Grin face with smiling eyes emoji"
+#~ msgstr "Emoji d'un visage souriant aux yeux souriants"
+
+#~ msgid "Lowercase i inside a circle inviting you to click for more info"
+#~ msgstr ""
+#~ "i minuscule dans un cercle vous invitant à cliquer pour plus d'infos"
+
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgid "Just Escape logo with no text: an escape room door"
+#~ msgstr "Logo de Just Escape sans texte : une porte d'escape room"
+
+#~ msgid "Just Escape Lille logo"
+#~ msgstr "Just Escape Lille Logo"
+
+#~ msgid "Available languages for the scenario"
+#~ msgstr "Langages disponibles pour le scénario"
+
+#~ msgid "Change language"
+#~ msgstr "Changer la langue"
+
+#~ msgid "Linkedin"
+#~ msgstr "Linkedin"
+
+#~ msgid "Map marker"
+#~ msgstr "Repère cartographique"
+
+#~ msgid "The angled head of Marmitron, the Digimiam's chef robot"
+#~ msgstr "La tête inclinée du Marmitron, le robot chef du Digimiam"
+
+#~ msgid "Not recommended for children under the age of 16"
+#~ msgstr "Déconseillé aux enfants de moins de 16 ans"
+
+#~ msgid ""
+#~ "An animator pointing something on a whiteboard with their finger in the "
+#~ "background to a team of 3 persons in the foreground"
+#~ msgstr ""
+#~ "Un animateur pointant quelque chose avec son doigt sur un tableau blanc à "
+#~ "l'arrière plan face à une team de 3 personnes au premier plan"
+
+#~ msgid ""
+#~ "Question mark inside a circle inviting you to click if you're wondering"
+#~ msgstr ""
+#~ "Point d'interrogation dans un cercle vous invitant à cliquer si vous vous "
+#~ "posez une question"
+
+#~ msgid "Opening quote mark"
+#~ msgstr "Guillemets ouvrants"
+
+#~ msgid "Subway facing the screen"
+#~ msgstr "Métro faisant face à l'écran"
+
+#~ msgid "X shaped cross"
+#~ msgstr "Croix en forme de X"
+
+#~ msgid "Tripadvisor"
+#~ msgstr "Tripadvisor"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid ""
+#~ "Chest plan of a person wearing a costume and a tie getting prepared for "
+#~ "team building"
+#~ msgstr ""
+#~ "Plan de poitrine d'une personne portant un costume et une cravate se "
+#~ "préparant pour du team building"
+
+#~ msgid "Group of 3 persons"
+#~ msgstr "Groupe de 3 personnes"
+
+#~ msgid "A person walking, seen from the side"
+#~ msgstr "Une personne marchant, vue de profil"
+
+#~ msgid "Yelp"
+#~ msgstr "Yelp"
