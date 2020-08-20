@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 14:39+0200\n"
+"POT-Creation-Date: 2020-08-20 09:20+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -60,7 +60,7 @@ msgid "Notice"
 msgstr ""
 
 #: pages/templates/base.html:75
-msgid "Just Escape is being created and will open in 2020"
+msgid "Just Escape is being created and will open in late 2020"
 msgstr ""
 
 #: pages/templates/base.html:89 pages/templates/home.html:11
