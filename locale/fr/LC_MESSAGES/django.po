@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 09:20+0200\n"
+"POT-Creation-Date: 2021-06-15 14:35+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -60,8 +60,8 @@ msgid "Notice"
 msgstr "Note"
 
 #: pages/templates/base.html:75
-msgid "Just Escape is being created and will open in late 2020"
-msgstr "Just Escape est en cours de création et ouvrira fin 2020"
+msgid "Just Escape is being created and will open soon"
+msgstr "Just Escape est en cours de création et ouvrira bientôt™"
 
 #: pages/templates/base.html:89 pages/templates/home.html:11
 msgid "One of the most immersive live escape games in&nbsp;Lille"
@@ -205,15 +205,15 @@ msgstr ""
 "Attention : Un retard de 15 minutes entraînera l&#39;annulation de la "
 "session sans remboursement."
 
-#: pages/templates/booking.html:121
+#: pages/templates/booking.html:127
 msgid "The booking module is not opened yet"
 msgstr "Le module de paiement n&#39;est pas encore disponible"
 
-#: pages/templates/booking.html:127
+#: pages/templates/booking.html:133
 msgid "I subscribe to the newsletter to know when it will be"
 msgstr "Je m'abonne à la newsletter pour savoir quand il le sera"
 
-#: pages/templates/booking.html:132 pages/templates/contact.html:133
+#: pages/templates/booking.html:138 pages/templates/contact.html:133
 #: pages/templates/home.html:395 pages/templates/teambuilding.html:133
 #: pages/templates/unsubscribe.html:24
 msgid "An unexpected error happened. Please contact us directly."
@@ -221,23 +221,23 @@ msgstr ""
 "Une erreur inattendue s&#39;est produite. Merci de nous contacter "
 "directement."
 
-#: pages/templates/booking.html:139 pages/templates/contact.html:140
+#: pages/templates/booking.html:145 pages/templates/contact.html:140
 #: pages/templates/home.html:402 pages/templates/unsubscribe.html:31
 msgid "Thank you and see you soon!"
 msgstr "Merci et à bientôt !"
 
-#: pages/templates/booking.html:142 pages/templates/contact.html:143
+#: pages/templates/booking.html:148 pages/templates/contact.html:143
 #: pages/templates/home.html:405 pages/templates/unsubscribe.html:34
 #: salesquote/forms.py:82
 msgid "marmitron@justescape.fr"
 msgstr "marmitron@justescape.fr"
 
-#: pages/templates/booking.html:144 pages/templates/contact.html:145
+#: pages/templates/booking.html:150 pages/templates/contact.html:145
 #: pages/templates/home.html:407
 msgid "Subscribe"
 msgstr "Je m&#39;abonne"
 
-#: pages/templates/booking.html:181 pages/templates/gift-voucher.html:40
+#: pages/templates/booking.html:204 pages/templates/gift-voucher.html:40
 #: pages/templates/header.html:30
 msgid "Booking"
 msgstr "Réserver"
