@@ -13,8 +13,6 @@ class SalesQuoteAdmin(admin.ModelAdmin):
         'contact_email',
         'contact_number',
         'group_size',
-        'prestation_type',
-        'option_privatisation',
         'desired_date',
         'discount_code',
         'comment',

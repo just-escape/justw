@@ -38,7 +38,7 @@
                   <span id="digimiam" class="anchor">&nbsp;</span>
                   <h3 class="size-25 text-light-shadow mb-0"><a href="/{{ lang }}salles?show=d1#digimiam">{% trans "The Digimiam" %}</a></h3>
                   <p class="font-italic mb-1">{% trans "Futuristic restaurant" %}</p>
-                  <p>{% trans "You are in <strong class='font-weight-normal'>Lille in 2080</strong> in a futuristic estaminet. The neurons of the Digimiam&#39;s cooking Artificial Intelligence have short-circuited! It&#39;s now up to you to infiltrate through a <strong class='font-weight-normal text-jaffa'>laser labyrinth</strong> and restore the <span class='text-jaffa'>robotic arms</span>! Will you be able to solve all the original enigmas in immersive sceneries?" %}</p>
+                  <p>{% trans "You are in <strong class='font-weight-normal'>Lille in 2080</strong> in a futuristic estaminet. The neurons of the Digimiam&#39;s cooking Artificial Intelligence have short-circuited! It&#39;s now up to you to infiltrate through a <strong class='font-weight-normal text-jaffa'>laser labyrinth</strong> and restore the <span class='text-jaffa'>robotic arm</span>! Will you be able to solve all the original enigmas in immersive sceneries?" %}</p>
                   <p class="size-09">{% trans "This is a <strong class='font-weight-normal'>2-player scenario</strong> that can welcome up to 8 players (the scenario is duplicated in two rooms)." %}</p>
                   <div class="row justify-content-end">
                     <div class="col-6 pr-1">
@@ -78,7 +78,7 @@
                   <div class="d-flex flex-row-reverse flex-sm-row">
                     <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/lang.svg" %}</span>
                     <span class="mr-2 mr-sm-3 mr-lg-2"></span>
-                    <span class="size-09 lh-24px">{% trans "FR / EN" %}</span>
+                    <span class="size-09 lh-24px">{% trans "FR" %}</span>
                   </div>
                 </div>
               </div>
@@ -174,6 +174,22 @@
       </div>
 
       <div class="row d-flex justify-content-center flex-wrap mb-4">
+
+        <div class="col-12 col-md-8 col-lg-3 mb-4">
+          <div class="card deepdark border-jaffa h-100">
+            <div class="card-header">
+              <h3 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/user-tie.svg" %}</span>{% trans "Corporate" %}</h3>
+            </div>
+            <div class="card-body d-flex align-items-center justify-content-center flex-column">
+              <p class="card-text text-center">{% trans "It&#39;s tough to motivate your teams in&nbsp;2022." %}</p>
+              <p class="card-text text-center">{% trans "Fortunately, we have <a class='text-underline text-hover-mulberry' href='/en/team-building'>turnkey Team&nbsp;Building packages</a>." %}</p>
+            </div>
+            <div class="card-footer text-center">
+              <p class="card-text size-09">{% trans "<span class='text-jaffa'>Suggested for:</span>" %} {% trans "Seminar, Workshop, Teambuilding" %}</p>
+            </div>
+          </div>
+        </div>
+
         <div class="col-12 col-md-8 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-body text-center mt-4 mb-5">
@@ -184,15 +200,31 @@
             </div>
           </div>
         </div>
+
+        <div class="col-12 col-md-8 col-lg-3 mb-4">
+          <div class="card deepdark border-jaffa h-100">
+            <div class="card-header">
+              <h3 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/gift.svg" %}</span>{% trans "Gift card" %}</h3>
+            </div>
+            <div class="card-body d-flex align-items-center justify-content-center flex-column">
+              <p class="card-text text-center">{% trans "Your friends and family will love you with this <a href='/en/carte-cadeau' class='text-underline text-hover-mulberry'>gift&nbsp;box</a>." %}</p>
+            </div>
+            <div class="card-footer text-center">
+              <p class="card-text size-09">{% trans "<span class='text-jaffa'>Suggested for:</span>" %} {% trans "Birthday, Christmas, Money&nbsp;pot, Lottery" %}</p>
+            </div>
+          </div>
+        </div>
+
+        <!--
         <div class="col-12 col-md-8 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-body text-center mt-4 mb-5">
-              <h3 class="size-5 card-title text-jaffa">{% trans "-20&#37;" %}</h3>
+              <h3 class="size-5 card-title text-jaffa">{ trans "-20&#37;" %}</h3>
               <p class="card-text font-italic">
-                {% trans "Off-peak hours" %}
+                { trans "Off-peak hours" %}
               </p>
               <p class="card-text font-italic small">
-                {% trans "From monday to friday until 4PM (included)" %}
+                { trans "From monday to friday until 4PM (included)" %}
               </p>
             </div>
           </div>
@@ -200,39 +232,42 @@
         <div class="col-12 col-md-8 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-body text-center mt-4 mb-5">
-              <h3 class="size-5 card-title text-jaffa">{% trans "-30&#37;" %}</h3>
+              <h3 class="size-5 card-title text-jaffa">{ trans "-30&#37;" %}</h3>
               <p class="card-text font-italic">
-                {% trans "For <span class='font-weight-bold text-mulberry'>students</span>" %}
+                { trans "For <span class='font-weight-bold text-mulberry'>students</span>" %}
               </p>
               <p class="card-text font-italic small">
-                {% trans "Online payments are made at full price. Refund of the difference on site upon presentation of the card." %}
+                { trans "Online payments are made at full price. Refund of the difference on site upon presentation of the card." %}
               </p>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-8 col-lg-3 mb-4">
           <div class="card deepdark border-jaffa h-100">
-            <div class="ribbon ribbon-top-left ribbon-jaffa"><span>{% trans "Out of stock" %}</span></div>
+            <div class="ribbon ribbon-top-left ribbon-jaffa"><span>{ trans "Out of stock" %}</span></div>
             <div class="card-body text-center">
-              <h3 class="size-35 card-title text-jaffa">{% trans "Special offer" %}</h3>
-              <p class="card-text font-italic small">{% trans "The last special offer is out of stock" %}</p>
-              <p class="card-text font-italic small">{% trans "We invite you to wait" %}</p>
+              <h3 class="size-35 card-title text-jaffa">{ trans "Special offer" %}</h3>
+              <p class="card-text font-italic small">{ trans "The last special offer is out of stock" %}</p>
+              <p class="card-text font-italic small">{ trans "We invite you to wait" %}</p>
               <a class="btn btn-secondary float-right border-0" href="#newsletter">
-                <span>{% trans "Get notified" %}</span>
+                <span>{ trans "Get notified" %}</span>
               </a>
             </div>
           </div>
         </div>
+        -->
       </div>
 
       <div class="row justify-content-center mb-2">
+        <!--
         <div class="col-6 col-md-4 col-lg-2 pr-1">
-          <a href="/{{ lang }}tarifs#formules" class="btn btn-secondary btn-block">
-            <span>{% trans "Formulas" %}</span>
+          <a href="/{ lang }}tarifs#formules" class="btn btn-secondary btn-block">
+            <span>{ trans "Formulas" %}</span>
           </a>
         </div>
+        -->
         <div class="col-6 col-md-4 col-lg-2 pl-1">
-          <a href="/{{ lang }}tarifs#formules" class="btn btn-primary btn-block">
+          <a href="/{{ lang }}reserver" class="btn btn-primary btn-block">
             <span>{% trans "Book now" %}</span>
           </a>
         </div>
@@ -347,7 +382,7 @@
                 <div>
                   <h3 class="text-jaffa size-15 mb-1">{% trans "Contact" %}</h3>
                   <p class="lh-12 mb-0">
-                    {% trans "<span class='text-jaffa'>Tel:</span> +33 1 23 45 67 89<br>" %}
+                    {% trans "<span class='text-jaffa'>Tel:</span> +33 7<span hidden></span> 89 05 <span hidden></span>37 90<br>" %}
                     {% trans "<span class='text-jaffa'>Mail:</span> c<span hidden></span>ontac<span hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span hidden></span>.fr" %}
                   </p>
                 </div>

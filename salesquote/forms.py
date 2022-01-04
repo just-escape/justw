@@ -110,18 +110,6 @@ class SalesQuoteForm(forms.Form):
         ),
         required=True,
     )
-    prestation_type = forms.ChoiceField(
-        choices=SalesQuote.PTYPES,
-        label=_('Prestation type'),
-        widget=forms.RadioSelect(attrs={'class': 'form-control'}),
-        required=True,
-    )
-    option_privatisation = forms.BooleanField(
-        label=_('Full privatization of the estate'),
-        initial=False,
-        widget=forms.CheckboxInput(attrs={'class': 'form-input'}),
-        required=False,
-    )
     desired_date = forms.DateTimeField(
         input_formats=['%d/%m/%Y %H:%M'],
         label=_('Desired date'),

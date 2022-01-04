@@ -34,7 +34,7 @@
               <tr>
                 <th></th>
                 <th scope="col">
-                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/coffee.svg" %}</span>{% trans "Breakfast" %}</div>
+                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/coffee.svg" %}</span>{% trans "Snack" %}</div>
                 </th>
                 <th scope="col">
                   <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/cocktail.svg" %}</span>{% trans "Cocktail" %}</div>
@@ -43,7 +43,7 @@
                   <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/glass-cheers.svg" %}</span>{% trans "Dinner aperitif" %}</div>
                 </th>
                 <th scope="col">
-                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/presentation.svg" %}</span>{% trans "Well deserved workshop" %}</div>
+                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/presentation.svg" %}</span>{% trans "Workshop" %}</div>
                 </th>
               </tr>
             </thead>
@@ -58,10 +58,10 @@
               <tr>
                 <th scope="row">{% trans "Menu" %}</th>
                 <td>
-                  {% trans "<span class='font-weight-bold'>Sweet snack</span> (madeleines, fruits, dairy&nbsp;product)" %}
+                  {% trans "<span class='font-weight-bold'>Sweet snack</span> (waffles, fruits, dairy&nbsp;product)" %}
                 </td>
                 <td>
-                  {% trans "<span class='font-weight-bold'>Salted aperitif</span> (dry&nbsp;sausage, appetizers)" %}
+                  {% trans "<span class='font-weight-bold'>Salted aperitif</span> (dry&nbsp;sausage, cheese, nuts)" %}
                 </td>
                 <td>
                   {% trans "<span class='font-weight-bold'>Caterer</span>" %}
@@ -71,10 +71,10 @@
                 </td>
               </tr>
               <tr>
-                <th scope="row">{% trans "Privatization of the reception room (30&nbsp;m²) after the game" %}</th>
-                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
-                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
-                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
+                <th scope="row">{% trans "Privatization of the reception room** after the game" %}</th>
+                <td>{% trans "Optional" %}</td>
+                <td>{% trans "Optional" %}</td>
+                <td>{% trans "Optional" %}</td>
                 <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
               </tr>
               <tr>
@@ -82,29 +82,34 @@
                 <td>{% trans "Optional" %}</td>
                 <td>{% trans "Optional" %}</td>
                 <td>{% trans "Optional" %}</td>
-                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
+                <td>{% trans "Optional" %}</td>
               </tr>
+              <!--
               <tr>
-                <th scope="row">{% trans "HD printed photos" %}</th>
-                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
-                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
-                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
-                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
+                <th scope="row">{ trans "HD printed photos" %}</th>
+                <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
+                <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
+                <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
+                <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
               </tr>
+              -->
               <tr>
                 <th scope="row">{% trans "Price" %}</th>
                 <td>{% trans "<span class='text-mulberry'>+15€</span> per participant*" %}</td>
                 <td>{% trans "<span class='text-mulberry'>+20€</span> per participant*" %}</td>
                 <td>{% trans "<span class='text-mulberry'>+35€</span> per participant*" %}</td>
-                <td>{% trans "From <span class='text-mulberry'>150€</span>*" %}</td>
+                <td>{% trans "From <span class='text-mulberry'>100€</span>*" %}</td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
 
+      <div class="row">
+        <p class="small mb-1">{% trans "(*) Price excluding tax. Does not include the price of a game session (starting at 20€ excluding tax per person)." %}</p>
+      </div>
       <div class="row mb-3">
-        <p class="small">{% trans "(*) Price excluding tax. Does not include the price of a game session. The price of one hour of play is 25€ all taxes included per person." %}</p>
+        <p class="small">{% trans "(**) 30&nbsp;m² room with tables, sofas, coffee, tea, video projector, board games." %}</p>
       </div>
 
       <div class="row justify-content-center">
@@ -234,55 +239,6 @@
               {% if form.group_size.errors %}
                 <div class="row">
                   {{ form.group_size.errors }}
-                </div>
-              {% endif %}
-            </div>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <div class="row">
-            <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
-              <label class="col-form-label">{{ form.prestation_type.label }}</label>
-              <span class="text-jaffa">*</span>
-            </div>
-            <div class="col-12 col-sm-7 col-md-6 col-lg-4">
-              {% for choice in form.prestation_type %}
-                <div class="row">
-                  <label class="jaffa-mark">
-                    {{ choice.choice_label }}
-                    <input type="radio" name="{{ form.prestation_type.name }}" value="{{ choice.data.value }}" {% if choice.data.attrs.checked %}checked{% endif %}>
-                    <span class="radiomark"></span>
-                  </label>
-                </div>
-              {% endfor %}
-              {% if form.prestation_type.errors %}
-                <div class="row">
-                  {{ form.prestation_type.errors }}
-                </div>
-              {% endif %}
-            </div>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <div class="row">
-            <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
-              <label>{% trans "Option" %}</label>
-            </div>
-            <div class="col-12 col-sm-7 col-md-6 col-lg-4 col-xl-2">
-              <div class="row">
-                <div class="form-check jaffa-mark">
-                  <label class="mb-0" for="{{ form.option_privatisation.auto_id }}">
-                    {{ form.option_privatisation.label }}
-                    {{ form.option_privatisation }}
-                    <span class="checkmark"></span>
-                  </label>
-                </div>
-              </div>
-              {% if form.option_privatisation.errors %}
-                <div class="row">
-                  {{ form.option_privatisation.errors }}
                 </div>
               {% endif %}
             </div>

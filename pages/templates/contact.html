@@ -3,10 +3,10 @@
 {% load i18n %}
 
 {% block title %}{% trans "Contact – Escape Game Lille – Just Escape" %}{% endblock %}
-{% block description %}{% trans "26 rue d&#39;Arras 59 800 Lille – How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 – +33 1 23 45 67 89" %}{% endblock %}
+{% block description %}{% trans "26 rue d&#39;Arras 59 800 Lille – How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 – +33 7 89 05 37 90" %}{% endblock %}
 
 {% block og_title %}{% trans "Contact" %}{% endblock %}
-{% block og_description %}{% trans "26 rue d&#39;Arras 59 800 Lille – How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 – +33 1 23 45 67 89" %}{% endblock %}
+{% block og_description %}{% trans "26 rue d&#39;Arras 59 800 Lille – How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 – +33 7 89 05 37 90" %}{% endblock %}
 
 {% block h1 %}{% trans "How to contact us" %}{% endblock %}
 
@@ -45,7 +45,7 @@
                 <div>
                   <h2 class="text-jaffa size-15 mb-1">{% trans "Contact" %}</h2>
                   <p class="lh-12 mb-0">
-                    {% trans "<span class='text-jaffa'>Tel:</span> +33 1 23 45 67 89<br>" %}
+                    {% trans "<span class='text-jaffa'>Tel:</span> +33 7 <span hidden></span>89 05 <span hidden></span>37 90<br>" %}
                     {% trans "<span class='text-jaffa'>Mail:</span> c<span hidden></span>ontac<span hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span hidden></span>.fr" %}
                   </p>
                 </div>
@@ -88,8 +88,8 @@
       <span id="venir" class="anchor">&nbsp;</span>
       <h2 class="text-jaffa mb-3">{% trans "How to get to the estate in Lille?" %}</h2>
       <div class="row">
-        <div class="col-sm-12 col-lg-4">
-          <div class="card deepdark border-jaffa mb-4 h-100">
+        <div class="col-sm-12 col-lg-4 mb-4">
+          <div class="card deepdark border-jaffa h-100">
             <div class="card-body">
               <h3 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px">{% include "svg/walking.svg" %}</span>{% trans "By foot" %}</h3>
               <p class="mt-3">{% trans "From the <span class='text-underline'>Republic square</span>, go down the <span class='text-underline'>boulevard de la Liberté</span>. Enter the <span class='text-underline'>Jean-Baptiste Lebas square</span>, and continue going down." %}</p>
@@ -97,8 +97,8 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-4">
-          <div class="card deepdark border-jaffa mb-4 h-100">
+        <div class="col-sm-12 col-lg-4 mb-4">
+          <div class="card deepdark border-jaffa h-100">
             <div class="card-body">
               <h3 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-2">{% include "svg/bus.svg" %}</span><span class="fill-jaffa svg-20px mr-1">{% include "svg/subway.svg" %}</span>{% trans "Public transport" %}</h3>
               <p class="mt-3 mb-2">{% trans "The metro line 2 has two nearby stations: <span class='text-underline'>Lille Grand Palais</span> and Porte d&#39;Arras." %}</p>
@@ -107,12 +107,12 @@
           </div>
         </div>
 
-        <div class="col-sm-12 col-lg-4">
-          <div class="card deepdark border-jaffa mb-4 h-100">
+        <div class="col-sm-12 col-lg-4 mb-4">
+          <div class="card deepdark border-jaffa h-100">
             <div class="card-body">
               <h3 class="text-jaffa size-15 mb-1"><span class="fill-jaffa svg-20px mr-2">{% include "svg/car.svg" %}</span>{% trans "By car" %}</h3>
-              <p class="mt-3 mb-2">{% trans "Parking your car in the neighbourhood is <span class='text-underline'>free of charge</span>." %}</p>
-              <p class="mb-0">{% trans "You can also book a place in a Zenpark parking if you want to be sure to have a spot." %}</p>
+              <p class="mt-3 mb-2">{% trans "In the Rue d'Arras and in the Moulins district (to the south) parking is <span class='text-underline'>free</span>. Plan ahead to find a place to park." %}</p>
+              <p class="mb-0">{% trans "In the area of the Jean-Lebas Park and to the north of it, parking is not free." %}</p>
             </div>
           </div>
         </div>

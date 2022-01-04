@@ -121,11 +121,6 @@ def handle_salesquote(request):
         email = form.cleaned_data['contact_email']
         number = form.cleaned_data['contact_number']
         group_size = form.cleaned_data['group_size']
-        for key, value in SalesQuote.PTYPES:
-            if key == form.cleaned_data['prestation_type']:
-                prestation = value
-                break
-        priv = form.cleaned_data['option_privatisation']
         date = form.cleaned_data['desired_date']
         discount_code = form.cleaned_data['discount_code']
         comment = form.cleaned_data['comment']
@@ -136,8 +131,6 @@ def handle_salesquote(request):
             contact_email=email,
             contact_number=number,
             group_size=group_size,
-            prestation_type=form.cleaned_data['prestation_type'],
-            option_privatisation=priv,
             desired_date=date,
             discount_code=discount_code,
             comment=comment,
@@ -155,8 +148,6 @@ def handle_salesquote(request):
         "Tel : {}".format(number),
         "",
         "Taille du groupe : ".format(group_size),
-        "Prestation : {}".format(prestation),
-        "Privatisation des locaux : {}".format("oui" if priv else "non"),
         "Date : {}".format(date if date else 'N/A'),
         "",
         "Code promo : {}".format(discount_code if discount_code else 'N/A'),
