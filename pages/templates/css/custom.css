@@ -680,10 +680,6 @@ input.form-control::placeholder {
     z-index: 1000;
 }
 
-.height-400px {
-    height: 400px;
-}
-
 .height-200px {
     height: 200px;
 }

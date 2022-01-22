@@ -123,39 +123,10 @@
         </div>
       </div>
 
-      <div class="softdark mb-3 p-3 rounded height-400px">
+      <div class="softdark mb-3 p-3 rounded pt-0">
         <div class="row justify-content-center text-center">
-          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-            <p>{% trans "The booking module is not opened yet" %}</p>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-            <span id="newsletter" class="anchor">&nbsp;</span>
-            <h2 class="text-jaffa size-15">{% trans "I subscribe to the newsletter to know when it will be" %}</h2>
-            <form action="/{{ lang }}reserver#newsletter" method="post">
-              {% csrf_token %}
-
-              {% if unexpected_error %}
-                <p class="text-red">{% trans "An unexpected error happened. Please contact us directly." %}</p>
-              {% elif form.errors %}
-                {{ form.non_field_errors }}
-                {{ form.email.errors }}
-              {% endif %}
-
-              {% if subscription_success %}
-              <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="{% trans "Thank you and see you soon!" %}">
-              {% endif %}
-                <div class="input-group">
-                  <input type="text" spellcheck="false" class="form-control" placeholder="{% trans "marmitron@justescape.fr" %}" name="{{ form.email.name }}" required>
-                  <div class="input-group-append">
-                    <button class="btn btn-secondary" type="submit"><span>{% trans "Subscribe" %}</span></button>
-                  </div>
-                </div>
-              {% if subscription_success %}
-              </a>
-              {% endif %}
-            </form>
+          <div class="col">
+            <div class="forescape" data-subdomain="justescape" data-type="bookings"></div>
           </div>
         </div>
       </div>
@@ -171,6 +142,10 @@
       $('#newsletter-email-bar').popover('disable');
     </script>
   {% endif %}
+
+   <script>
+   !function(e,t){var r=e.createElement(t),a=e.getElementsByTagName(t)[0],n=new Date,s=""+n.getFullYear()+("0"+(n.getMonth()+1)).slice(-2)+("0"+n.getDate()).slice(-2);r.defer=1,r.src="https://justescape.4escape.io/public/js/iframe.min.js?v="+s,a.parentNode.insertBefore(r,a)}(document,"script");
+   </script>
 
   <script type="application/ld+json">
     {
