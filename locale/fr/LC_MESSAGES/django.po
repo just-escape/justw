@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-04 22:44+0100\n"
+"POT-Creation-Date: 2022-01-22 02:08+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -55,15 +55,15 @@ msgstr "Just Escape Lille Logo"
 msgid "Just Escape ⭐⭐⭐⭐⭐"
 msgstr "Just Escape ⭐⭐⭐⭐⭐"
 
-#: pages/templates/base.html:74
+#: pages/templates/base.html:75
 msgid "Notice"
 msgstr "Note"
 
-#: pages/templates/base.html:75
+#: pages/templates/base.html:76
 msgid "Just Escape is being created and will open soon"
 msgstr "Just Escape est en cours de création et ouvrira bientôt™"
 
-#: pages/templates/base.html:89 pages/templates/home.html:11
+#: pages/templates/base.html:91 pages/templates/home.html:11
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr "Un des escape games les plus immersifs de&nbsp;Lille"
 
@@ -146,39 +146,7 @@ msgstr "Anniversaire, Noël, Cagnotte, Tombola"
 msgid "Booking form"
 msgstr "Formulaire de réservation"
 
-#: pages/templates/booking.html:129
-msgid "The booking module is not opened yet"
-msgstr "Le module de paiement n&#39;est pas encore disponible"
-
-#: pages/templates/booking.html:135
-msgid "I subscribe to the newsletter to know when it will be"
-msgstr "Je m'abonne à la newsletter pour savoir quand il le sera"
-
-#: pages/templates/booking.html:140 pages/templates/contact.html:133
-#: pages/templates/home.html:430 pages/templates/teambuilding.html:138
-#: pages/templates/unsubscribe.html:24
-msgid "An unexpected error happened. Please contact us directly."
-msgstr ""
-"Une erreur inattendue s&#39;est produite. Merci de nous contacter "
-"directement."
-
-#: pages/templates/booking.html:147 pages/templates/contact.html:140
-#: pages/templates/home.html:437 pages/templates/unsubscribe.html:31
-msgid "Thank you and see you soon!"
-msgstr "Merci et à bientôt !"
-
-#: pages/templates/booking.html:150 pages/templates/contact.html:143
-#: pages/templates/home.html:440 pages/templates/unsubscribe.html:34
-#: salesquote/forms.py:82
-msgid "marmitron@justescape.fr"
-msgstr "marmitron@justescape.fr"
-
-#: pages/templates/booking.html:152 pages/templates/contact.html:145
-#: pages/templates/home.html:442
-msgid "Subscribe"
-msgstr "Je m&#39;abonne"
-
-#: pages/templates/booking.html:189 pages/templates/gift-voucher.html:40
+#: pages/templates/booking.html:164 pages/templates/gift-voucher.html:46
 #: pages/templates/header.html:30
 msgid "Booking"
 msgstr "Réserver"
@@ -190,10 +158,10 @@ msgstr "CGU – Escape Game Lille – Just Escape"
 #: pages/templates/conditions.html:6 pages/templates/conditions.html:9
 msgid ""
 "Check out the conditions of use of Just Escape. Just Escape is a SARL (LLC) "
-"with a registered capital of 1000€."
+"with a registered capital of 10,000€."
 msgstr ""
 "Consultez les conditions générales d'utilisation de Just Escape. Just Escape "
-"est une SARL au capital social de 1000€."
+"est une SARL au capital social de 10 000€."
 
 #: pages/templates/conditions.html:8
 msgid "Conditions of Use"
@@ -204,13 +172,92 @@ msgid "Conditions of use"
 msgstr "Conditions générales d&#39;utilisation"
 
 #: pages/templates/conditions.html:22
-msgid "This is supposed to be our conditions of use"
-msgstr ""
-"Ci-dessous sont censées êtres nos conditions générales d&#39;utilisation"
+msgid "The website "
+msgstr "Le site "
 
-#: pages/templates/conditions.html:23 pages/templates/terms.html:23
-msgid "But we have not written it yet"
-msgstr "Mais on ne les a pas encore écrites"
+#: pages/templates/conditions.html:22
+msgid ""
+" is owned and operated by Just Escape SARL with a capital of €10,000 (SIRET "
+"852 338 169 00026 RCS Lille). The head office is located at 24 - 26 - 28 rue "
+"d'Arras commercial ground floor, 59000 Lille France. Contact information is "
+"displayed on the home page."
+msgstr ""
+" est la propriété et a été édité par la société Just Escape SARL au capital "
+"de 10 000€. SIRET 852 338 169 00026 RCS Lille. Le siège social est situé au "
+"24 - 26 - 28 rue d'Arras rez-de-chaussée commercial, 59000 Lille France. Les "
+"informations de contact sont affichées sur la page d'accueil."
+
+#: pages/templates/conditions.html:23
+msgid ""
+"The website is hosted by OVH, whose registered office is at 2 rue Kellerman "
+"59100 Roubaix in France."
+msgstr ""
+"L'hébergement est réalisé par la société OVH, dont le siège social est au 2 "
+"rue Kellerman 59100 Roubaix en France."
+
+#: pages/templates/conditions.html:24
+msgid ""
+"If information is collected and processed electronically, it is done so with "
+"a view to ensuring the proper processing of orders and the fluidity of "
+"navigation on the site."
+msgstr ""
+"Si des informations sont recueillies et font l'objet d'un traitement "
+"informatique, elles le sont dans l'optique de s'assurer le bon traitement "
+"des commandes et la fluidité de la navigation sur le site."
+
+#: pages/templates/conditions.html:25
+msgid ""
+"Users have the right to access, modify, rectify and delete data concerning "
+"them. To exercise this right, users must contact the head office of Just "
+"Escape SARL by post."
+msgstr ""
+"Les utilisateurs ont un droit d'accès, de modification, de rectification et "
+"de suppression des données qui les concernent. Pour exercer ce droit, les "
+"utilisateurs doivent s'adresser au siège social de Just Escape SARL par "
+"courrier."
+
+#: pages/templates/conditions.html:26
+msgid ""
+"The content of the site is protected by article L 335-2 and following of the "
+"intellectual property code. It is forbidden to exploit, reproduce, "
+"represent, modify or adapt all or part of this content, except in the cases "
+"provided for in article L 122-5 of this same code or by prior written "
+"authorisation."
+msgstr ""
+"Le contenu du site est protégé par l'article L 335-2 et suivants du code de "
+"la propriété intellectuelle. Il est interdit d'exploiter, reproduire, "
+"représenter, modifier ou adapter, tout ou partie de ce contenu, sauf dans "
+"les cas prévus par l'article L 122-5 de ce même code ou par autorisation "
+"écrite préalable."
+
+#: pages/templates/conditions.html:27
+msgid "The "
+msgstr "Le site web "
+
+#: pages/templates/conditions.html:27
+msgid ""
+" website contains hyperlinks to other websites, with the agreement of the "
+"owners of these websites. We are not responsible for the content of these "
+"other sites."
+msgstr ""
+" contient des hyperliens vers d'autres sites, en accord avec les "
+"propriétaires de ces derniers. Nous déclinons toute responsabilité vis-à-vis "
+"des contenus présents sur ces autres sites."
+
+#: pages/templates/conditions.html:28
+msgid ""
+"Internet users may not make hyperlinks to any page on this site without the "
+"prior authorisation of Just Escape SARL."
+msgstr ""
+"Les internautes ne peuvent pas faire des redirections hypertextes vers une "
+"page de ce site sans l'autorisation préalable de Just Escape SARL."
+
+#: pages/templates/conditions.html:29
+msgid ""
+"We would be grateful if users of this site could inform us of any errors."
+msgstr ""
+"Nous remercions les utilisateurs de ce site de bien vouloir nous faire part "
+"d'erreurs."
 
 #: pages/templates/contact.html:5
 msgid "Contact – Escape Game Lille – Just Escape"
@@ -218,10 +265,10 @@ msgstr "Contact – Escape Game Lille – Just Escape"
 
 #: pages/templates/contact.html:6 pages/templates/contact.html:9
 msgid ""
-"26 rue d&#39;Arras 59 800 Lille – How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 – +33 7 89 "
+"26 rue d&#39;Arras 59000 Lille – How to get there? 🚶 🚲  🚗 🚉 ✈ 🚀 – +33 7 89 "
 "05 37 90"
 msgstr ""
-"26 rue d&#39;Arras 59 800 Lille – Comment s'y rendre ? 🚶 🚲  🚗 🚉 ✈ 🚀 – +33 7 "
+"26 rue d&#39;Arras 59000 Lille – Comment s'y rendre ? 🚶 🚲  🚗 🚉 ✈ 🚀 – +33 7 "
 "89 05 37 90"
 
 #: pages/templates/contact.html:8 pages/templates/contact.html:46
@@ -269,8 +316,8 @@ msgid "Address"
 msgstr "Adresse"
 
 #: pages/templates/contact.html:67 pages/templates/home.html:404
-msgid "26 rue d&#39;Arras<br>59 800 Lille, France"
-msgstr "26 rue d&#39;Arras<br>59 800 Lille"
+msgid "26 rue d&#39;Arras<br>59000 Lille, France"
+msgstr "26 rue d&#39;Arras<br>59000 Lille"
 
 #: pages/templates/contact.html:89
 msgid "How to get to the estate in Lille?"
@@ -346,6 +393,27 @@ msgstr ""
 #: pages/templates/contact.html:128 pages/templates/home.html:425
 msgid "Newsletter"
 msgstr "Newsletter"
+
+#: pages/templates/contact.html:133 pages/templates/home.html:430
+#: pages/templates/teambuilding.html:138 pages/templates/unsubscribe.html:24
+msgid "An unexpected error happened. Please contact us directly."
+msgstr ""
+"Une erreur inattendue s&#39;est produite. Merci de nous contacter "
+"directement."
+
+#: pages/templates/contact.html:140 pages/templates/home.html:437
+#: pages/templates/unsubscribe.html:31
+msgid "Thank you and see you soon!"
+msgstr "Merci et à bientôt !"
+
+#: pages/templates/contact.html:143 pages/templates/home.html:440
+#: pages/templates/unsubscribe.html:34 salesquote/forms.py:82
+msgid "marmitron@justescape.fr"
+msgstr "marmitron@justescape.fr"
+
+#: pages/templates/contact.html:145 pages/templates/home.html:442
+msgid "Subscribe"
+msgstr "Je m&#39;abonne"
 
 #: pages/templates/faq.html:7
 msgid "FAQ – Escape Game Lille – Just Escape"
@@ -687,10 +755,6 @@ msgstr "Foire Aux Questions"
 msgid "Follow us on social networks!"
 msgstr "Suivez-nous sur les réseaux sociaux&nbsp;!"
 
-#: pages/templates/footer.html:32
-msgid "We are not on tripadvisor but we like this platform!"
-msgstr "On est pas sur tripadvisor mais on aime bien ce réseau&nbsp;!"
-
 #: pages/templates/footer.html:37
 msgid "We are not on yelp but we like this platform!"
 msgstr "On est pas sur yelp mais on aime bien ce réseau&nbsp;!"
@@ -740,11 +804,7 @@ msgstr "Your friends and family will love you with this gift box 😍"
 msgid "Offer a gift card"
 msgstr "Offrir une carte cadeau"
 
-#: pages/templates/gift-voucher.html:18
-msgid "The gift voucher module is not opened yet"
-msgstr "Le module de carte cadeau pas encore disponible"
-
-#: pages/templates/gift-voucher.html:46
+#: pages/templates/gift-voucher.html:52
 msgid "Gift voucher"
 msgstr "Carte cadeau"
 
@@ -1578,8 +1638,523 @@ msgid "General terms of use"
 msgstr "Conditions générales de vente"
 
 #: pages/templates/terms.html:22
-msgid "This is supposed to be our general terms of use"
-msgstr "Ci-dessous devraient être nos conditions générales de vente"
+msgid ""
+"The general terms and conditions of sale below are brought to the attention "
+"of all in order to place an order, in accordance with the provisions of "
+"article L 441-6 of the Commercial Code. Ticking the box dedicated to the "
+"acceptance of the general sales conditions during the ordering process "
+"implies full, unreserved and irrevocable acceptance of these conditions."
+msgstr ""
+"Les conditions générales de vente ci-dessous sont portées à la connaissance "
+"de tous afin de passer commande, conformément aux dispositions de l'article "
+"L 441-6 du Code de Commerce. Cocher la case dédiée à l'acceptation des "
+"conditions générales de vente lors du processus de commande implique "
+"l'acceptation entière, sans réserve et irrévocable de ces conditions."
+
+#: pages/templates/terms.html:23
+msgid ""
+"The interpretation of these conditions and their implementation are subject "
+"to French law. The French version shall prevail in the event of a dispute, "
+"although it is possible that they may be read in another language for the "
+"purposes of accessibility."
+msgstr ""
+"L'interprétation de ces conditions et leur mise en oeuvre sont soumises au "
+"droit français. La version française fera foi en cas de litige, bien qu'il "
+"soit possible que leur lecture soit proposée dans une autre langue dans un "
+"but d'accessibilité."
+
+#: pages/templates/terms.html:25
+msgid "Article 1 - General"
+msgstr "Article 1 - Généralités"
+
+#: pages/templates/terms.html:26
+msgid ""
+"Just Escape is a life-size « escape game » concept (NAF code 9329Z) offered "
+"by the company Just Escape SARL with a capital of €10,000, domiciled at 24 - "
+"26 - 28 rue d'Arras, commercial ground floor, 59000 Lille, France, and "
+"registered with the Lille Trade and Companies Register (RCS) under number "
+"852 338 169 00026."
+msgstr ""
+"Just Escape est un concept « d'escape game » grandeur nature (code NAF "
+"9329Z) proposé par la société Just Escape SARL au capital de 10 000€, "
+"domiciliée au 24 - 26 - 28 rue d'Arras rez-de-chaussée commercial, 59000 "
+"Lille et immatriculée 852 338 169 00026 RCS Lille."
+
+#: pages/templates/terms.html:27
+msgid ""
+"The general terms and conditions of sale are applicable to any contract for "
+"the provision of a game room concluded between Just Escape SARL and the "
+"users of the room, who shall be referred to as « USERS ». Users may have "
+"made the booking themselves, or be part of the group of the person who made "
+"the booking, hereinafter referred to as « THE BUYER ». These conditions "
+"apply whether the booking was made with Just Escape SARL staff or via the "
+"company's website https://just-escape.fr, referred to as the « WEBSITE ». "
+"The game room made available to the USERS is called the « ROOM ». The "
+"contract for making the ROOM available to USERS is referred to as the « "
+"CONTRACT ». The game session that the BUYER books is called a « SESSION ». "
+"The « ROOMS » correspond to the various areas open to the public of the Just "
+"Escape SARL business premises (located at 24 - 26 - 28 rue d'Arras, ground "
+"floor, 59000 Lille) in which USERS are authorised to move around."
+msgstr ""
+"Les conditions générales de vente sont applicables à tout contrat de mise à "
+"disposition d'une salle de jeu conclu entre la société Just Escape SARL et "
+"les utilisateurs de la salle, qui seront nommés « UTILISATEURS ». Les "
+"utilisateurs peuvent avoir eux-même effectué la réservation, soit faire "
+"partie du groupe de la personne ayant effectué la réservation, dénommée ci-"
+"après « L'ACHETEUR ». Ces conditions s'appliquent aussi bien que la "
+"réservation ait été effectuée aurpès du personnel de Just Escape SARL ou via "
+"le site internet de cette dernière https://just-escape.fr/, nommé « SITE ». "
+"La salle de jeu mise à la disposition des UTILISATEURS est appelé « SALLE ». "
+"Le contrat de mise à disposition de la SALLE aux UTILISATEURS est appelé « "
+"CONTRAT ». La session de jeu que L'ACHETEUR réserve est appelée « SESSION ». "
+"Les « LOCAUX » correspondent aux différents espaces ouverts au public du "
+"local commercial de Just Escape SARL (situé au 24 - 26 - 28 rue d'Arras rez-"
+"de-chaussée commercial, 59000 Lille) dans lesquels les UTILISATEURS sont "
+"autorisés à circuler."
+
+#: pages/templates/terms.html:28
+msgid ""
+"Just Escape SARL reserves the right to modify all or part of these general "
+"conditions of sale as well as the content of its WEBSITE, at its sole "
+"discretion, at any time and without prior notice."
+msgstr ""
+"Just Escape SARL se donne le droit de modifier tout ou partie des présentes "
+"conditions générales de vente ainsi que le contenu de son SITE, ceci à sa "
+"seule discrétion, à tout moment et sans préavis."
+
+#: pages/templates/terms.html:29
+msgid ""
+"These conditions are available on the SITE, where they can be consulted at "
+"any time."
+msgstr ""
+"Les présentes conditions sont disponibles sur le SITE, sur lequel il est "
+"possible de les consulter à tout moment."
+
+#: pages/templates/terms.html:31
+msgid "Article 2 - ROOM"
+msgstr "Article 2 - SALLE"
+
+#: pages/templates/terms.html:32
+msgid ""
+"Just Escape SARL grants USERS the right to occupy the ROOM for a maximum of "
+"60 minutes. Occupying the room is the principle of the game. This game is "
+"organised by Just Escape SARL."
+msgstr ""
+"Just Escape SARL accorde aux UTILISATEURS le droit d'occuper la SALLE pour "
+"une durée maximale de 60 minutes. Occuper la salle est le principe du jeu. "
+"Ce jeu est organisé par Just Escape SARL."
+
+#: pages/templates/terms.html:33
+msgid ""
+"USERS agree that their presence in the ROOM is limited to a maximum of 60 "
+"minutes, regardless of their level of progress. No compensation will be "
+"given if USERS manage to finish the game before the 60 minutes allowed."
+msgstr ""
+"Les UTILISATEURS acceptent que leur présence dans la SALLE est bornée à 60 "
+"minutes maximum, peu importe leur niveau de progression. Aucune compensation "
+"tarifaire ne sera accordée si les UTILISATEURS réussissent à terminer le jeu "
+"avant les 60 minutes accordées."
+
+#: pages/templates/terms.html:34
+msgid ""
+"Access to the Riddle Room is only possible if you can provide the staff with "
+"the name provided during the booking process."
+msgstr ""
+"L'accès à la SALLE d'énigmes n'est possible qu'à condition de pouvoir "
+"fournir au personnel le nom fourni lors du processus de réservation."
+
+#: pages/templates/terms.html:35
+msgid ""
+"All USERS must be at least 14 years old to enter the ROOM. Minors aged 10 "
+"years and over may participate, but must be accompanied by an adult in the "
+"ROOM. If there is any doubt about the age of a USER, Just Escape staff may "
+"ask for proof of identity."
+msgstr ""
+"Tous les UTILISATEURS doivent avoir au minimum 14 ans pour accéder à la "
+"SALLE. Les mineurs à partir de 10 ans peuvent participer, mais doivent être "
+"accompagnés par un adulte dans la SALLE. En cas de doute sur l'âge d'un "
+"UTILISATEUR, le personnel de Just Escape SARL est en mesure de demander un "
+"justificatif d'identité."
+
+#: pages/templates/terms.html:36
+msgid ""
+"We invite the USERS of the ROOM to declare any handicap or particular "
+"situation that may cause discomfort for the SESSION (non-exhaustive list "
+"given by way of example: pregnant woman, asthma, colour blindness, visual "
+"defect, claustrophobia, deafness...). USERS are invited to make this "
+"declaration as soon as possible, i.e. at the time of booking. Just Escape "
+"SARL undertakes to do its utmost to ensure that these disabilities or "
+"particular situations are as little inconvenience as possible for USERS."
+msgstr ""
+"Nous invitons les UTILISATEURS de la SALLE à déclarer toute situation "
+"handicapante ou situation particulière pouvant occasionner de la gêne pour "
+"la SESSION (liste non exhaustive donnée à titre d'exemple : femme enceinte, "
+"asthme, daltonisme, défaut de vision, claustrophobie, surdité...). Les "
+"UTILISATEURS sont invités à faire cette déclaration le plus tôt possible, "
+"c'est à dire au moment de la réservation. Just Escape SARL s'engage à faire "
+"son maximum pour que ces handicaps ou ces situations particulières soient "
+"les moins gênantes possibles pour les UTILISATEURS."
+
+#: pages/templates/terms.html:37
+msgid ""
+"It is forbidden to enter a ROOM with food or drink without explicit "
+"permission."
+msgstr ""
+"Il est interdit de rentrer dans une SALLE avec de la nourriture ou une "
+"boisson sans en avoir demandé explicitement l'autorisation."
+
+#: pages/templates/terms.html:38
+msgid ""
+"USERS are not allowed to make video and/or audio recordings in the room. Any "
+"recording may result in the complete stoppage of the game for the entire "
+"team."
+msgstr ""
+"Les UTILISATEURS ne sont pas autorisés à réaliser des enregistrements vidéo "
+"et/ou audio dans la salle. Tout enregistrement pourra occasionner l'arrêt "
+"complet du jeu pour toute l'équipe."
+
+#: pages/templates/terms.html:39
+msgid ""
+"Just Escape SARL reserves the right to refuse access to the PREMISES to any "
+"person under the influence of alcohol or drugs, for the safety of that "
+"person."
+msgstr ""
+"Just Escape SARL se réserve le droit de refuser l'accès aux LOCAUX à toute "
+"personne sous l'influence de l'alcool, de drogues, par sécurité pour cette "
+"personne."
+
+#: pages/templates/terms.html:40
+msgid ""
+"The USERS acknowledge that they have a duty not to damage and to maintain "
+"the PREMISES, the ROOM and all the equipment in working order. The USERS "
+"acknowledge in the CONTRACT that any intentional or unauthorised damage to "
+"the ROOM and its equipment will be subject to a charge. Just Escape SARL "
+"reserves the right to interrupt a SESSION in the event that USERS behave in "
+"a manner that is deemed dangerous to the integrity of the ROOM and its "
+"equipment, at the sole discretion of the staff."
+msgstr ""
+"Les UTILISATEURS reconnaissent qu'ils ont le devoir de ne pas dégrader et de "
+"maintenir les LOCAUX, la SALLE et l'intégralité des équipements dans un état "
+"de fonctionnement. Les UTILISATEURS reconnaissent au CONTRAT que toute "
+"dégradation intentionnelle ou causée par un comportement non autorisé de la "
+"SALLE et de ses équippements fera l'objet d'une refacturation. Just Escape "
+"SARL se réserve le droit d'interrompre une SESSION dans le cas où les "
+"UTILISATEURS auraient une attitude jugée dangereuse pour l'intégrité de la "
+"SALLE et des équipements, et ce à l'entière discrétion du personnel."
+
+#: pages/templates/terms.html:41
+msgid ""
+"In the event of a breach of the aforementioned conditions, a ban on access "
+"or an interruption of the SESSION does not give the right to compensation, "
+"indemnity or refund."
+msgstr ""
+"En cas de manquement aux conditions mentionnées, une interdiction d'accès ou "
+"une interruption de SESSION ne donne pas le droit à une indemnité, une "
+"compensation ou un remboursement."
+
+#: pages/templates/terms.html:43
+msgid "Article 3 - Price"
+msgstr "Article 3 - Prix"
+
+#: pages/templates/terms.html:44
+msgid ""
+"The price of the SESSIONS is systematically highlighted to anyone wishing to "
+"reserve a room. The single rate is 25€ per USER."
+msgstr ""
+"Le prix des SESSIONS est systématiquement mis en évidence à toute personne "
+"désirant réserver une salle. Le tarif unique est de 25€ par UTILISATEUR."
+
+#: pages/templates/terms.html:45
+msgid ""
+"Different invoicing will be applied to any other services. When the client "
+"books as a company, special conditions freely negotiated by the parties will "
+"apply."
+msgstr ""
+"Une facturation différente sera appliquée à d'éventuelles autres "
+"prestations. Lorsque le client réserve en tant qu'entreprise, des conditions "
+"particulières et négociées librement par les parties s'appliqueront."
+
+#: pages/templates/terms.html:46
+msgid ""
+"Just Escape SARL reserves the right to change its prices at any time. All "
+"BUYERS must pay the price in force at the time of booking."
+msgstr ""
+"Just Escape SARL se réserve le droit de modifier ses tarifs à tout moment. "
+"Tout ACHETEUR devra payer le tarif en vigueur au moment de la réservation."
+
+#: pages/templates/terms.html:48
+msgid "Article 4 - Booking"
+msgstr "Article 4 - Réservation"
+
+#: pages/templates/terms.html:49
+msgid ""
+"The SESSION will only be offered if the ROOM has been booked and payment has "
+"been made. Payment can be made by credit card on the SITE or on site, or in "
+"cash on site."
+msgstr ""
+"La SESSION ne sera proposée que si la SALLE a été réservée et le paiement "
+"effectué. Le paiement peut s'effectuer par carte de crédit sur le SITE ou "
+"sur place, ou en espèces sur place."
+
+#: pages/templates/terms.html:50
+msgid ""
+"Reservations are to be made on the SITE and according to the remaining "
+"availabilities which are displayed. The reservation is definitively "
+"validated after reception of the reservation confirmation email. This email "
+"is sent to the BUYER after the payment is completed."
+msgstr ""
+"Les réservations sont à effectuer sur le SITE et en fonction des "
+"disponibilités restantes qui sont affichées. La réservation est "
+"définitivement validée après réception de l’email de confirmation de "
+"réservation. Cet email est envoyé à l’ACHETEUR après aboutissement du "
+"paiement."
+
+#: pages/templates/terms.html:51
+msgid ""
+"The staff of Just Escape SARL can make the reservation on behalf of the "
+"BUYER if the BUYER cannot make the reservation on the SITE."
+msgstr ""
+"Le personnel de Just Escape SARL peut effectuer la réservation pour le "
+"compte de l’ACHETEUR si ce dernier ne peut effectuer lui-même la réservation "
+"sur le SITE."
+
+#: pages/templates/terms.html:52
+msgid ""
+"Just Escape SARL entrusts the management of its payment platform to a "
+"service provider specialising in the security of online transactions. This "
+"service provider does not keep any data concerning the BUYER in its "
+"databases. The SITE is available in French and English. However, in the "
+"event of a dispute, only the French version of the SITE and the general "
+"terms and conditions of sale may be used against Just Escape SARL."
+msgstr ""
+"Just Escape SARL confie la gestion de sa plateforme de paiement à un "
+"prestataire spécialisé dans la sécurisation des transactions en ligne. Ce "
+"prestataire ne conserve aucune donnée concernant l’ACHETEUR dans ses bases "
+"de données. Le SITE est disponible en version française et anglaise. "
+"Cependant, en cas de contestation, seule la version française du SITE et des "
+"conditions générales de vente pourra être opposée à Just Escape SARL."
+
+#: pages/templates/terms.html:53
+msgid ""
+"If USERS are late for a booked SESSION, the ROOM must be vacated at the time "
+"specified in the original booking. Just Escape SARL reserves the right to "
+"refuse access to USERS who are more than 30 minutes late."
+msgstr ""
+"En cas de retard des UTILISATEURS pour une SESSION réservée, la SALLE devra "
+"être libérée à l’heure prévue dans la réservation initiale. Just Escape SARL "
+"se réserve le droit de refuser l’accès aux UTILISATEURS dont le retard "
+"s’élève à plus de 30 minutes."
+
+#: pages/templates/terms.html:54
+msgid ""
+"If more USERS show up to participate in the Game SESSION than originally "
+"booked, the difference in price must be paid before participating in the "
+"Game."
+msgstr ""
+"Si plus d’UTILISATEURS se présentent pour participer à la SESSION de jeu que "
+"ce qui était initialement prévu lors de la réservation, la différence de "
+"prix devra être réglée avant de participer au jeu."
+
+#: pages/templates/terms.html:55
+msgid ""
+"Just Escape SARL reserves the right to refuse any reservation to a BUYER who "
+"has not paid for all the services that have been invoiced."
+msgstr ""
+"Just Escape SARL se réserve le droit de refuser toute réservation à un "
+"ACHETEUR qui n’aurait pas payé l’ensemble des prestations qui lui auraient "
+"été facturées."
+
+#: pages/templates/terms.html:56
+msgid ""
+"The gift cards are valid for 1 year from the date of purchase and can be "
+"used in one go on the SITE."
+msgstr ""
+"Les cartes cadeaux sont valables 1 an à compter de la date d'achat et "
+"s'utilisent en une fois sur le SITE."
+
+#: pages/templates/terms.html:57
+msgid ""
+"Gift cards may not be exchanged, resold, refunded, even partially, credited "
+"to a card or bank account, or discounted, and may not be returned for cash. "
+"Several vouchers or gift coupons may be used on the SITE for the same "
+"reservation. Some coupons cannot be combined."
+msgstr ""
+"Les cartes cadeaux ne peuvent être ni échangées, ni revendues, ni "
+"remboursées, même partiellement, ni portées au crédit d'une carte ou d'un "
+"compte bancaire, ni faire l'objet d'un escompte et ne peuvent donner lieu à "
+"aucun rendu de monnaie. Plusieurs coupons d’avoir ou coupons cadeaux peuvent "
+"être utilisés sur le SITE pour une même réservation. Certains coupons ne "
+"sont pas cumulables."
+
+#: pages/templates/terms.html:58
+msgid ""
+"In the event of cancellation of a SESSION booking, Just Escape SARL will "
+"offer a credit note without deduction corresponding to the amount paid if "
+"the request for cancellation is made at least 7 days before the date of the "
+"SESSION. If this is not the case, Just Escape SARL reserves the right not to "
+"offer any financial compensation for the cancellation."
+msgstr ""
+"En cas d'annulation de réservation de SESSION, Just Escape SARL proposera un "
+"avoir sans retenue correspondant au montant payé si la demande d'annulation "
+"a été formulée au minimum 7 jours avant la date de la SESSION. Dans le cas "
+"contraire, Just Escape SARL se réserve le droit de ne pas proposer de "
+"contrepartie financière à cette annulation."
+
+#: pages/templates/terms.html:60
+msgid "Article 5 - Personal data"
+msgstr "Article 5 - Données personnelles"
+
+#: pages/templates/terms.html:61
+msgid ""
+"L'ACHETEUR est entièrement responsable de l'exactitude des informations "
+"renseignées lors de la réservation sur le SITE ou auprès du personnel."
+msgstr ""
+"L'ACHETEUR est entièrement responsable de l'exactitude des informations "
+"renseignées lors de la réservation sur le SITE ou auprès du personnel."
+
+#: pages/templates/terms.html:62
+msgid ""
+"The BUYER agrees to receive information and commercial offers from Just "
+"Escape SARL to his/her e-mail address by booking a SESSION. If staff offer "
+"USERS the opportunity to receive information and commercial offers on their "
+"e-mail address, providing this e-mail address in writing constitutes "
+"acceptance of this offer."
+msgstr ""
+"L'ACHETEUR accepte de recevoir de la part de Just Escape SARL des "
+"informations et offres commerciales sur son adresse e-mail en réservant une "
+"SESSION. Si le personnel propose aux UTILISATEURS de recevoir des "
+"informations et offres commerciales sur leur adresse e-mail, fournir cette "
+"adresse e-mail par écrit revient à accepter cette proposition."
+
+#: pages/templates/terms.html:63
+msgid ""
+"Just Escape SARL will not pass on these e-mail addresses or any other "
+"personal data of the USERS to an external company."
+msgstr ""
+"Just Escape SARL ne transmettra pas ces adresses e-mail ni aucune autre "
+"donnée personnelle des UTILISATEURS à une société extérieure."
+
+#: pages/templates/terms.html:64
+msgid ""
+"When placing an order, the BUYER provides his or her surname, first name, "
+"telephone number, e-mail address, and optionally his or her postal address, "
+"as well as the surnames, first names, e-mail addresses and telephone numbers "
+"of participants to Just Escape SARL. This information will be kept for the "
+"maximum period provided for by the RGPD regulations, and will then be "
+"deleted in compliance with the same regulations."
+msgstr ""
+"Lors de la commande, l'ACHETEUR fournit son nom, prénom, numéro de "
+"téléphone, e-mail, et de manière facultative son adresse postale ainsi que "
+"les noms, prénoms, adresses e-mails et numéros de téléphone des participants "
+"à Just Escape SARL. Ces informations sont conservées pendant la durée "
+"maximale prévue par la règlementation RGPD, puis supprimées dans le respect "
+"de cette même règlementation."
+
+#: pages/templates/terms.html:65
+msgid ""
+"USERS have the right to request access to their personal data in order to "
+"verify its content and that we process it in accordance with the law. They "
+"may also request the correction or completion of their personal data if they "
+"are inaccurate. Finally, they may request the deletion of their personal "
+"data if it is no longer necessary for the purposes for which it was "
+"collected or processed."
+msgstr ""
+"Les UTILISATEURS disposent du droit de demander l'accès à leurs données "
+"personnelles pour en vérifier le contenu et que nous les traitons "
+"conformément à la loi. Ils peuvent également demander la correction ou la "
+"complétude de leurs données personnelles si elles sont inexactes. Et enfin, "
+"ils leur est possible de demander la suppression dans le cas où elles ne "
+"sont plus nécessaires aux fins auxquelles nous les avons recueillies ou "
+"traitées."
+
+#: pages/templates/terms.html:67
+msgid "Article 6 - Fire safety"
+msgstr "Article 6 - Sécurité incendie"
+
+#: pages/templates/terms.html:68
+msgid ""
+"USERS undertake to comply with all measures communicated orally or posted in "
+"the PREMISES regarding security."
+msgstr ""
+"Les UTILISATEURS s'engagent à respecter toutes les mesures communiquées "
+"oralement ou affichées dans les LOCAUX en matière de sécurité."
+
+#: pages/templates/terms.html:69
+msgid "Smoking is not permitted in the premises."
+msgstr "Il n'est pas autorisé de fumer dans les LOCAUX."
+
+#: pages/templates/terms.html:70
+msgid ""
+"All USERS must be aware of the location of the marked emergency exits in the "
+"PREMISES and comply with the safety and fire protection instructions. It is "
+"of course forbidden to obstruct the emergency exits, which must remain clear "
+"at all times. USERS shall use the emergency exits only if the situation "
+"requires the evacuation of the PREMISES."
+msgstr ""
+"Tous les UTILISATEURS devront prendre connaissance de l'emplacement des "
+"issues de secours balisées dans les LOCAUX et respecter les consignes de "
+"sécurité et protection incendie. Il est bien entendu interdit de gêner les "
+"issues de secours, qui doivent rester dégagées en permanence. Les "
+"UTILISATEURS utiliseront les issues de secours seulement si la situation "
+"exige l'évacuation des LOCAUX."
+
+#: pages/templates/terms.html:71
+msgid ""
+"Under no circumstances may USERS bring into the PREMISES and the ROOM any "
+"objects considered physically dangerous (explosive, flammable, oxidising, "
+"pressurised or liquefied gases, corrosive) or hazardous to health (toxic, "
+"corrosive to the skin, irritating/sensitising, carcinogenic/teratogenic)."
+msgstr ""
+"Les UTILISATEURS ne peuvent en aucun cas apporter dans les LOCAUX et dans la "
+"SALLE des objets considérés comme physiquement dangereux (explosifs, "
+"inflammables, comburants, gaz sous pression ou liquéfiés, corrosifs) ou "
+"dangereux pour la santé (toxiques, corrosifs pour la peau, irritants/"
+"sensibilisants, cancérogènes/tératogènes)."
+
+#: pages/templates/terms.html:73
+msgid "Article 7 - Photos, cameras, microphones"
+msgstr "Article 7 - Photos, caméras, microphones"
+
+#: pages/templates/terms.html:74
+msgid ""
+"All LARGE ENCOURAGE ROOMS have cameras and microphones to see and hear "
+"USERS. These video and audio streams are not recorded. They allow the staff "
+"to follow the SESSION while keeping the USERS immersed, and possibly assist "
+"them in their progress."
+msgstr ""
+"Toutes les SALLES d'énigmes grandeur nature comportent des caméras et "
+"microphones permettant de voir et d'entendre les UTILISATEURS. Ces flux "
+"vidéos et audio ne sont pas enregistrés. Ils permettent au personnel de "
+"suivre la SESSION en maintenant l'immersion des UTILISATEURS, et "
+"éventuellement d'assister ces derniers dans leur progression."
+
+#: pages/templates/terms.html:75
+msgid ""
+"Outside the rooms, the PREMISES are equipped with surveillance cameras in "
+"order to secure the premises (theft, break-in, etc.). This video stream is "
+"not recorded when USERS are present in the PREMISES."
+msgstr ""
+"En dehors des salles les LOCAUX sont équipés de caméras de surveillance afin "
+"de sécuriser les lieux (vol, effraction...). Ce flux vidéo n'est pas "
+"enregistré en présence d'UTILISATEURS dans les LOCAUX."
+
+#: pages/templates/terms.html:76
+msgid ""
+"Before, during or after the SESSION, USERS may be photographed by Just "
+"Escape SARL staff. These photographs will not be captured by the LOCATIONS "
+"surveillance and ROOM monitoring devices, but by a dedicated camera. The "
+"photographs will be sent to the BUYER by email. Just Escape SARL staff will "
+"explicitly ask for the USERS' consent verbally and will remind them of the "
+"conditions mentioned above. USERS will be free to refuse to be photographed."
+msgstr ""
+"Avant, durant ou après la SESSION, les UTILISATEURS pourront être pris en "
+"photo par le personnel de Just Escape SARL. Ces photos ne seront pas "
+"capturées par les dispositifs de surveillance des LOCAUX et de suivi des "
+"SALLES, mais par un appareil dédié. Les photographies seront envoyés à "
+"l'ACHETEUR par email. Le personnel de Just Escape SARL demandera "
+"explicitement le consentement des UTILISATEURS à l'oral et leur rappellera "
+"les conditions mentionnées ci-dessus. Les UTILISATEURS seront libres de "
+"refuser d'être photographiés."
 
 #: pages/templates/unsubscribe.html:5
 msgid "Unsubscribe – Escape Game Lille – Just Escape"

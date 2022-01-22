@@ -3,10 +3,10 @@
 {% load i18n %}
 
 {% block title %}{% trans "Conditions of Use – Escape Game Lille – Just Escape" %}{% endblock %}
-{% block description %}{% trans "Check out the conditions of use of Just Escape. Just Escape is a SARL (LLC) with a registered capital of 1000€." %}{% endblock %}
+{% block description %}{% trans "Check out the conditions of use of Just Escape. Just Escape is a SARL (LLC) with a registered capital of 10,000€." %}{% endblock %}
 
 {% block og_title %}{% trans "Conditions of Use" %}{% endblock %}
-{% block og_description %}{% trans "Check out the conditions of use of Just Escape. Just Escape is a SARL (LLC) with a registered capital of 1000€." %}{% endblock %}
+{% block og_description %}{% trans "Check out the conditions of use of Just Escape. Just Escape is a SARL (LLC) with a registered capital of 10,000€." %}{% endblock %}
 
 {% block main_header %}{% endblock %}
 
@@ -19,8 +19,14 @@
 
           <h1 class="text-jaffa text-center">{% trans "Conditions of use" %}</h1>
 
-          <h2 class="text-jaffa">{% trans "This is supposed to be our conditions of use" %}</h2>
-          <p class="size-09 text-justify">{% trans "But we have not written it yet" %}</p>
+          <p class="size-09 text-justify">{% trans "The website " %}<a href="/{{ lang }}" class="text-underline text-hover-mulberry">https://just-escape.fr/</a>{% trans " is owned and operated by Just Escape SARL with a capital of €10,000 (SIRET 852 338 169 00026 RCS Lille). The head office is located at 24 - 26 - 28 rue d'Arras commercial ground floor, 59000 Lille France. Contact information is displayed on the home page." %}</p>
+          <p class="size-09 text-justify">{% trans "The website is hosted by OVH, whose registered office is at 2 rue Kellerman 59100 Roubaix in France." %}</p>
+          <p class="size-09 text-justify">{% trans "If information is collected and processed electronically, it is done so with a view to ensuring the proper processing of orders and the fluidity of navigation on the site." %}</p>
+          <p class="size-09 text-justify">{% trans "Users have the right to access, modify, rectify and delete data concerning them. To exercise this right, users must contact the head office of Just Escape SARL by post." %}</p>
+          <p class="size-09 text-justify">{% trans "The content of the site is protected by article L 335-2 and following of the intellectual property code. It is forbidden to exploit, reproduce, represent, modify or adapt all or part of this content, except in the cases provided for in article L 122-5 of this same code or by prior written authorisation." %}</p>
+          <p class="size-09 text-justify">{% trans "The " %}<a href="/{{ lang }}" class="text-underline text-hover-mulberry">https://just-escape.fr/</a>{% trans " website contains hyperlinks to other websites, with the agreement of the owners of these websites. We are not responsible for the content of these other sites." %}</p>
+          <p class="size-09 text-justify">{% trans "Internet users may not make hyperlinks to any page on this site without the prior authorisation of Just Escape SARL." %}</p>
+          <p class="size-09 text-justify mb-0">{% trans "We would be grateful if users of this site could inform us of any errors." %}</p>
 
         </div>
       </div>
