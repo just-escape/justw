@@ -40,6 +40,7 @@
                   <p class="font-italic mb-1">{% trans "Futuristic restaurant" %}</p>
                   <p>{% trans "You are in <strong class='font-weight-normal'>Lille in 2080</strong> in a futuristic estaminet. The neurons of the Digimiam&#39;s cooking Artificial Intelligence have short-circuited! It&#39;s now up to you to infiltrate through a <strong class='font-weight-normal text-jaffa'>laser labyrinth</strong> and restore the <span class='text-jaffa'>robotic arm</span>! Will you be able to solve all the original enigmas in immersive sceneries?" %}</p>
                   <p class="size-09">{% trans "This is a <strong class='font-weight-normal'>2-player scenario</strong> that can welcome up to 8 players (the scenario is duplicated in two rooms)." %}</p>
+                  <p class="size-09">{% trans "Difficulty: adapted to your group." %}</p>
                   <div class="row justify-content-end">
                     <div class="col-6 pr-1">
                       <a href="/{{ lang }}salles?show=d1#digimiam" class="btn btn-secondary btn-block">
@@ -64,7 +65,7 @@
                       <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
                     </div>
                     <span class="mr-2 mr-sm-3 mr-lg-2"></span>
-                    <span class="size-09 lh-24px">{% trans "2 - 4 players" %}</span>
+                    <span class="size-09 lh-24px">{% trans "2 - 4 players x 2 rooms" %}</span>
                   </div>
                 </div>
                 <div class="mb-2 mr-sm-4">
@@ -175,7 +176,7 @@
 
       <div class="row d-flex justify-content-center flex-wrap mb-4">
 
-        <div class="col-12 col-md-8 col-lg-3 mb-4">
+        <div class="col-12 col-md-8 col-lg-3 order-2 order-lg-0 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-header">
               <h3 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/user-tie.svg" %}</span>{% trans "Corporate" %}</h3>
@@ -190,7 +191,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-8 col-lg-3 mb-4">
+        <div class="col-12 col-md-8 col-lg-3 order-0 order-lg-1 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-body text-center mt-4 mb-5">
               <h3 class="size-5 card-title text-jaffa">{% trans "25€" %}</h3>
@@ -201,7 +202,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-8 col-lg-3 mb-4">
+        <div class="col-12 col-md-8 col-lg-3 order-1 order-lg-2 mb-4">
           <div class="card deepdark border-jaffa h-100">
             <div class="card-header">
               <h3 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/gift.svg" %}</span>{% trans "Gift card" %}</h3>

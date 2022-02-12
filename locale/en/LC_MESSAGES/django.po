@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-22 02:02+0100\n"
+"POT-Creation-Date: 2022-02-12 14:20+0100\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -83,63 +83,63 @@ msgstr ""
 msgid "Book an escape room"
 msgstr ""
 
-#: pages/templates/booking.html:30 pages/templates/home.html:181
+#: pages/templates/booking.html:19
+msgid "Booking form"
+msgstr ""
+
+#: pages/templates/booking.html:46 pages/templates/home.html:182
 #: pages/templates/pricing.html:27
 msgid "Corporate"
 msgstr ""
 
-#: pages/templates/booking.html:33 pages/templates/home.html:184
+#: pages/templates/booking.html:49 pages/templates/home.html:185
 #: pages/templates/pricing.html:30
 msgid "It&#39;s tough to motivate your teams in&nbsp;2022."
 msgstr ""
 
-#: pages/templates/booking.html:34 pages/templates/home.html:185
+#: pages/templates/booking.html:50 pages/templates/home.html:186
 #: pages/templates/pricing.html:31
 msgid ""
 "Fortunately, we have <a class='text-underline text-hover-mulberry' href='/en/"
 "team-building'>turnkey Team&nbsp;Building packages</a>."
 msgstr ""
 
-#: pages/templates/booking.html:37 pages/templates/booking.html:60
-#: pages/templates/home.html:188 pages/templates/home.html:213
+#: pages/templates/booking.html:53 pages/templates/booking.html:76
+#: pages/templates/home.html:189 pages/templates/home.html:214
 #: pages/templates/pricing.html:34 pages/templates/pricing.html:57
 msgid "<span class='text-jaffa'>Suggested for:</span>"
 msgstr ""
 
-#: pages/templates/booking.html:37 pages/templates/home.html:188
+#: pages/templates/booking.html:53 pages/templates/home.html:189
 #: pages/templates/pricing.html:34
 msgid "Seminar, Workshop, Teambuilding"
 msgstr ""
 
-#: pages/templates/booking.html:45 pages/templates/home.html:196
+#: pages/templates/booking.html:61 pages/templates/home.html:197
 #: pages/templates/pricing.html:42
 msgid "25€"
 msgstr ""
 
-#: pages/templates/booking.html:46 pages/templates/home.html:198
+#: pages/templates/booking.html:62 pages/templates/home.html:199
 #: pages/templates/pricing.html:43
 msgid "Per person"
 msgstr ""
 
-#: pages/templates/booking.html:54 pages/templates/home.html:207
+#: pages/templates/booking.html:70 pages/templates/home.html:208
 #: pages/templates/pricing.html:51
 msgid "Gift card"
 msgstr ""
 
-#: pages/templates/booking.html:57 pages/templates/home.html:210
+#: pages/templates/booking.html:73 pages/templates/home.html:211
 #: pages/templates/pricing.html:54
 msgid ""
 "Your friends and family will love you with this <a href='/en/carte-cadeau' "
 "class='text-underline text-hover-mulberry'>gift&nbsp;box</a>."
 msgstr ""
 
-#: pages/templates/booking.html:60 pages/templates/home.html:213
+#: pages/templates/booking.html:76 pages/templates/home.html:214
 #: pages/templates/pricing.html:57
 msgid "Birthday, Christmas, Money&nbsp;pot, Lottery"
-msgstr ""
-
-#: pages/templates/booking.html:122
-msgid "Booking form"
 msgstr ""
 
 #: pages/templates/booking.html:164 pages/templates/gift-voucher.html:46
@@ -240,7 +240,7 @@ msgstr ""
 
 #: pages/templates/contact.html:8 pages/templates/contact.html:46
 #: pages/templates/contact.html:204 pages/templates/footer.html:46
-#: pages/templates/header.html:54 pages/templates/home.html:383
+#: pages/templates/header.html:54 pages/templates/home.html:384
 msgid "Contact"
 msgstr ""
 
@@ -248,15 +248,15 @@ msgstr ""
 msgid "How to contact us"
 msgstr ""
 
-#: pages/templates/contact.html:27 pages/templates/home.html:364
+#: pages/templates/contact.html:27 pages/templates/home.html:365
 msgid "Opening hours"
 msgstr ""
 
-#: pages/templates/contact.html:29 pages/templates/home.html:366
+#: pages/templates/contact.html:29 pages/templates/home.html:367
 msgid "<span class='text-jaffa'>Monday-friday:</span> 2PM-11PM<br>"
 msgstr ""
 
-#: pages/templates/contact.html:30 pages/templates/home.html:367
+#: pages/templates/contact.html:30 pages/templates/home.html:368
 msgid "<span class='text-jaffa'>Saturday-sunday:</span> 10AM-11PM"
 msgstr ""
 
@@ -266,18 +266,18 @@ msgid ""
 "hidden></span>37 90<br>"
 msgstr ""
 
-#: pages/templates/contact.html:49 pages/templates/home.html:386
+#: pages/templates/contact.html:49 pages/templates/home.html:387
 msgid ""
 "<span class='text-jaffa'>Mail:</span> c<span hidden></span>ontac<span "
 "hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
 "hidden></span>.fr"
 msgstr ""
 
-#: pages/templates/contact.html:65 pages/templates/home.html:402
+#: pages/templates/contact.html:65 pages/templates/home.html:403
 msgid "Address"
 msgstr ""
 
-#: pages/templates/contact.html:67 pages/templates/home.html:404
+#: pages/templates/contact.html:67 pages/templates/home.html:405
 msgid "26 rue d&#39;Arras<br>59000 Lille, France"
 msgstr ""
 
@@ -336,26 +336,26 @@ msgid ""
 "free."
 msgstr ""
 
-#: pages/templates/contact.html:128 pages/templates/home.html:425
+#: pages/templates/contact.html:128 pages/templates/home.html:426
 msgid "Newsletter"
 msgstr ""
 
-#: pages/templates/contact.html:133 pages/templates/home.html:430
+#: pages/templates/contact.html:133 pages/templates/home.html:431
 #: pages/templates/teambuilding.html:138 pages/templates/unsubscribe.html:24
 msgid "An unexpected error happened. Please contact us directly."
 msgstr ""
 
-#: pages/templates/contact.html:140 pages/templates/home.html:437
+#: pages/templates/contact.html:140 pages/templates/home.html:438
 #: pages/templates/unsubscribe.html:31
 msgid "Thank you and see you soon!"
 msgstr ""
 
-#: pages/templates/contact.html:143 pages/templates/home.html:440
+#: pages/templates/contact.html:143 pages/templates/home.html:441
 #: pages/templates/unsubscribe.html:34 salesquote/forms.py:82
 msgid "marmitron@justescape.fr"
 msgstr ""
 
-#: pages/templates/contact.html:145 pages/templates/home.html:442
+#: pages/templates/contact.html:145 pages/templates/home.html:443
 msgid "Subscribe"
 msgstr ""
 
@@ -683,7 +683,7 @@ msgstr ""
 msgid "Escape Game Lille"
 msgstr ""
 
-#: pages/templates/header.html:27 pages/templates/room.html:172
+#: pages/templates/header.html:27 pages/templates/room.html:173
 msgid "Rooms"
 msgstr ""
 
@@ -700,8 +700,8 @@ msgstr ""
 msgid "EN"
 msgstr ""
 
-#: pages/templates/header.html:65 pages/templates/home.html:81
-#: pages/templates/room.html:57
+#: pages/templates/header.html:65 pages/templates/home.html:82
+#: pages/templates/room.html:58
 msgid "FR"
 msgstr ""
 
@@ -753,38 +753,42 @@ msgid ""
 "can welcome up to 8 players (the scenario is duplicated in two rooms)."
 msgstr ""
 
-#: pages/templates/home.html:46
+#: pages/templates/home.html:43 pages/templates/room.html:35
+msgid "Difficulty: adapted to your group."
+msgstr ""
+
+#: pages/templates/home.html:47
 msgid "The room"
 msgstr ""
 
-#: pages/templates/home.html:51 pages/templates/home.html:271
-#: pages/templates/pricing.html:108 pages/templates/room.html:63
+#: pages/templates/home.html:52 pages/templates/home.html:272
+#: pages/templates/pricing.html:108 pages/templates/room.html:64
 #: pages/templates/teambuilding.html:117
 msgid "Book now"
 msgstr ""
 
-#: pages/templates/home.html:67 pages/templates/room.html:43
-msgid "2 - 4 players"
+#: pages/templates/home.html:68 pages/templates/room.html:44
+msgid "2 - 4 players x 2 rooms"
 msgstr ""
 
-#: pages/templates/home.html:74 pages/templates/home.html:123
-#: pages/templates/room.html:50 pages/templates/room.html:134
+#: pages/templates/home.html:75 pages/templates/home.html:124
+#: pages/templates/room.html:51 pages/templates/room.html:135
 msgid "60 minutes"
 msgstr ""
 
-#: pages/templates/home.html:95 pages/templates/room.html:110
+#: pages/templates/home.html:96 pages/templates/room.html:111
 msgid "[room] Soon"
 msgstr "Soon"
 
-#: pages/templates/home.html:102 pages/templates/room.html:116
+#: pages/templates/home.html:103 pages/templates/room.html:117
 msgid "Horror room"
 msgstr ""
 
-#: pages/templates/home.html:103 pages/templates/room.html:117
+#: pages/templates/home.html:104 pages/templates/room.html:118
 msgid "Manor of the puppeteer"
 msgstr ""
 
-#: pages/templates/home.html:104
+#: pages/templates/home.html:105
 msgid ""
 "We are going to open a new <strong class='font-weight-normal'>horror escape "
 "game in Lille</strong>. Immersed in the middle of a forest, you discover the "
@@ -793,27 +797,27 @@ msgid ""
 "adrenaline rises... Scenario to be played at dusk!"
 msgstr ""
 
-#: pages/templates/home.html:105
+#: pages/templates/home.html:106
 msgid "The design of the puzzles is still in progress."
 msgstr ""
 
-#: pages/templates/home.html:116 pages/templates/room.html:127
+#: pages/templates/home.html:117 pages/templates/room.html:128
 msgid "4 - 6 players"
 msgstr ""
 
-#: pages/templates/home.html:130 pages/templates/room.html:141
+#: pages/templates/home.html:131 pages/templates/room.html:142
 msgid "FR / EN"
 msgstr ""
 
-#: pages/templates/home.html:147
+#: pages/templates/home.html:148
 msgid "The concept of Escapes Games"
 msgstr ""
 
-#: pages/templates/home.html:152
+#: pages/templates/home.html:153
 msgid "Escape the Room"
 msgstr ""
 
-#: pages/templates/home.html:153
+#: pages/templates/home.html:154
 msgid ""
 "The principle of <strong>live escape games</strong> is to lock a group of "
 "players in a theme room. The challenge is to <strong class='font-weight-"
@@ -827,11 +831,11 @@ msgid ""
 "class='emoji'>&nbsp;😃</span>."
 msgstr ""
 
-#: pages/templates/home.html:156
+#: pages/templates/home.html:157
 msgid "The originality of Just Escape"
 msgstr ""
 
-#: pages/templates/home.html:157
+#: pages/templates/home.html:158
 msgid ""
 "Just Escape is a <strong>2.0 escape game</strong> in which you are offered "
 "original puzzles <span class='font-weight-bold'>without any lockers</"
@@ -843,11 +847,11 @@ msgid ""
 "<strong>two people at an affordable price</strong>."
 msgstr ""
 
-#: pages/templates/home.html:160
+#: pages/templates/home.html:161
 msgid "Teambuilding, Bachelor party"
 msgstr ""
 
-#: pages/templates/home.html:161
+#: pages/templates/home.html:162
 msgid ""
 "We have attractive prices for events like <strong>birthdays</strong>, "
 "<strong>stag or hen parties</strong><span class='emoji'>&nbsp;🎁</span>. Just "
@@ -860,53 +864,53 @@ msgid ""
 "adaptative clues."
 msgstr ""
 
-#: pages/templates/home.html:172
+#: pages/templates/home.html:173
 msgid "What is the price of a scenario?"
 msgstr ""
 
-#: pages/templates/home.html:276 pages/templates/pricing.html:110
+#: pages/templates/home.html:277 pages/templates/pricing.html:110
 msgid "Company quote"
 msgstr ""
 
-#: pages/templates/home.html:286
+#: pages/templates/home.html:287
 msgid ""
 "The best live escape game in&nbsp;Lille –&nbsp;The designer&#39;s&nbsp;mom"
 msgstr ""
 
-#: pages/templates/home.html:295
+#: pages/templates/home.html:296
 msgid ""
 "Half shadowed close-up of a puzzling man wearing a hat and smoking a pipe"
 msgstr ""
 
-#: pages/templates/home.html:297
+#: pages/templates/home.html:298
 msgid ""
 "A scenario <span class='font-weight-bold'>rich in emotions</span> that I "
 "highly recommend! If you book with them, talk to me ahead so I can get a "
 "cooptation bon[...]"
 msgstr ""
 
-#: pages/templates/home.html:302
+#: pages/templates/home.html:303
 msgid "– An anonymous shareholder of Just Escape"
 msgstr ""
 
-#: pages/templates/home.html:316
+#: pages/templates/home.html:317
 msgid ""
 "The Digimiam is undoubtedly the best estaminet in Lille! You&#39;ll find "
 "some amazing 2040-style waffles that will remind you of your childhood! "
 "Yummy! <span class='font-weight-bold'>You&#39;re gonna love it!</span>"
 msgstr ""
 
-#: pages/templates/home.html:321
+#: pages/templates/home.html:322
 msgid "– Marmitron, Digimiam's Intelligence since 2053"
 msgstr ""
 
-#: pages/templates/home.html:331
+#: pages/templates/home.html:332
 msgid ""
 "Scenery in the background and in the foreground a close-up of an enigmatic "
 "smiling woman wearing a large hat and big sunglasses"
 msgstr ""
 
-#: pages/templates/home.html:333
+#: pages/templates/home.html:334
 msgid ""
 "I loved this <span class='font-weight-bold'>investigation full of twists and "
 "turns</span>. It&#39;s obvious that the riddles were child&#39;s play to me! "
@@ -914,15 +918,15 @@ msgid ""
 "it&#39;s because I admired the scenery of the room!"
 msgstr ""
 
-#: pages/templates/home.html:338
+#: pages/templates/home.html:339
 msgid "– Shirley, a supposed descendant of Sherlock Holmes"
 msgstr ""
 
-#: pages/templates/home.html:350
+#: pages/templates/home.html:351
 msgid "How to get to the estate in&nbsp;Lille?"
 msgstr ""
 
-#: pages/templates/home.html:385
+#: pages/templates/home.html:386
 msgid ""
 "<span class='text-jaffa'>Tel:</span> +33 7<span hidden></span> 89 05 <span "
 "hidden></span>37 90<br>"
@@ -1036,21 +1040,21 @@ msgstr ""
 msgid "The scenario is duplicated in 2 rooms."
 msgstr ""
 
-#: pages/templates/room.html:74
+#: pages/templates/room.html:75
 msgid "Trailer"
 msgstr ""
 
-#: pages/templates/room.html:78 pages/templates/room.html:82
-#: pages/templates/room.html:86 pages/templates/room.html:90
-#: pages/templates/room.html:94
+#: pages/templates/room.html:79 pages/templates/room.html:83
+#: pages/templates/room.html:87 pages/templates/room.html:91
+#: pages/templates/room.html:95
 msgid "Videos are not supported by this browser"
 msgstr ""
 
-#: pages/templates/room.html:118
+#: pages/templates/room.html:119
 msgid "You will soon be able to enjoy a new horror room in Lille."
 msgstr ""
 
-#: pages/templates/room.html:119
+#: pages/templates/room.html:120
 msgid ""
 "All we can reveal for now is that there will be a forest, a manor house, a "
 "gloomy atmosphere, a puppeteer, her children (small but not that cute), a "
@@ -1058,7 +1062,7 @@ msgid ""
 "adrenaline rushes, blood and maybe even death."
 msgstr ""
 
-#: pages/templates/room.html:120
+#: pages/templates/room.html:121
 msgid "Expected release date: soon™."
 msgstr ""
 
