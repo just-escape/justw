@@ -93,17 +93,16 @@
               <div class="d-flex flex-column flex-sm-row">
                 <div class="d-flex justify-content-center mb-3 mr-sm-2">
                   <div class="width-170px position-relative my-auto my-lg-0 opacity-05">
-                    <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "[room] Soon" %}</span></div>
-                    {% include "svg/puppet.svg" %}
+                    {% include "svg/question-mark.svg" %}
                   </div>
                 </div>
 
                 <div>
                   <span id="room2" class="anchor">&nbsp;</span>
-                  <h3 class="size-25 text-light-shadow opacity-05 mb-0">{% trans "Horror room" %} <span class="d-inline-block svg-36px fill-light align-baseline">{% include "svg/minus-16.svg" %}</span></h3>
-                  <p class="font-italic mb-1 opacity-05">{% trans "Manor of the puppeteer" %}</p>
-                  <p class="opacity-05">{% trans "We are going to open a new <strong class='font-weight-normal'>horror escape game in Lille</strong>. Immersed in the middle of a forest, you discover the mysterious manor of a puppeteer. Will you escape the macabre valse of the puppets? Are you ready to put your life and that of your team at risk? The adrenaline rises... Scenario to be played at dusk!" %}</p>
-                  <p class="size-09 opacity-05">{% trans "The design of the puzzles is still in progress." %}</p>
+                  <h3 class="size-25 text-light-shadow opacity-05 mb-0">{% trans "New" %}</h3>
+                  <p class="size-09 opacity-05">{% trans "We might open a <strong class='font-weight-normal'>new escape room in Lille</strong>. The creation of the first scenario, the Digimiam, required a lot of time. So we prefer to focus on this room." %}</p>
+                  <p class="size-09 opacity-05">{% trans "Many of you enjoyed this scenario and asked us about the next one. What will be the settings? What will be the plot? What will be the puzzles? We are thinking about it, but we haven't made a decision yet. We don't even know if there will be a new escape room." %}</p>
+                  <p class="size-09 opacity-05">{% trans "We had originally planned to work on a horror theme: the Puppeteer's Mansion. This project has been canceled." %}</p>
                 </div>
               </div>
             </div>
@@ -114,7 +113,7 @@
                   <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
                     <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
                     <span class="mr-2"></span>
-                    <span class="size-09 lh-24px">{% trans "4 - 6 players" %}</span>
+                    <span class="size-09 lh-24px">{% trans "? players" %}</span>
                   </div>
                 </div>
                 <div class="mb-2 mr-sm-4">
@@ -355,7 +354,7 @@
       <div class="row">
 
         <div class="col-12 col-xl-4 mb-4">
-          <div class="card deepdark border-jaffa">
+          <div class="card deepdark border-jaffa h-100">
             <div class="card-body">
               <div class="media">
                 <span class="fill-jaffa d-inline-block svg-64px mr-3 my-auto">
@@ -364,8 +363,7 @@
                 <div>
                   <h3 class="text-jaffa size-15 mb-1">{% trans "Opening hours" %}</h3>
                   <p class="lh-12 mb-0">
-                    {% trans "<span class='text-jaffa'>Monday-friday:</span> 2PM-11PM<br>" %}
-                    {% trans "<span class='text-jaffa'>Saturday-sunday:</span> 10AM-11PM" %}
+                    {% trans "<span class='text-jaffa'>Monday-sunday:</span> 10AM-11PM" %}
                   </p>
                 </div>
               </div>
@@ -383,7 +381,7 @@
                 <div>
                   <h3 class="text-jaffa size-15 mb-1">{% trans "Contact" %}</h3>
                   <p class="lh-12 mb-0">
-                    {% trans "<span class='text-jaffa'>Tel:</span> +33 7<span hidden></span> 89 05 <span hidden></span>37 90<br>" %}
+                    {% trans "<span class='text-jaffa'>Tel:</span> <a href='tel:+33 7 89 05 37 90' class='text-hover-mulberry text-underline'>+33 7 89 05 37 90</a><br>" %}
                     {% trans "<span class='text-jaffa'>Mail:</span> c<span hidden></span>ontac<span hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span hidden></span>.fr" %}
                   </p>
                 </div>
