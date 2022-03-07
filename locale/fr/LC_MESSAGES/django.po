@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 15:46+0100\n"
+"POT-Creation-Date: 2022-03-07 17:52+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -807,7 +807,7 @@ msgstr "Carte cadeau"
 msgid "Escape Game Lille"
 msgstr "Escape Game Lille"
 
-#: pages/templates/header.html:27 pages/templates/room.html:174
+#: pages/templates/header.html:27 pages/templates/room.html:218
 msgid "Rooms"
 msgstr "Salles"
 
@@ -1204,12 +1204,48 @@ msgid "The scenario is duplicated in 2 rooms."
 msgstr "Le scénario est dupliqué sur deux salles."
 
 #: pages/templates/room.html:75
+msgid "Image gallery"
+msgstr "Gallerie d'images"
+
+#: pages/templates/room.html:87
+msgid "Holographique menu"
+msgstr "Menu holographique"
+
+#: pages/templates/room.html:90
+msgid "Mirrors"
+msgstr "Miroirs"
+
+#: pages/templates/room.html:93
+msgid "Refectory"
+msgstr "Réfectoire"
+
+#: pages/templates/room.html:96
+msgid "Table"
+msgstr "Table"
+
+#: pages/templates/room.html:99
+msgid "Green fog"
+msgstr "Brume verte"
+
+#: pages/templates/room.html:102
+msgid "Laser"
+msgstr "Laser"
+
+#: pages/templates/room.html:107
+msgid "Previous"
+msgstr "Précédent"
+
+#: pages/templates/room.html:111
+msgid "Next"
+msgstr "Suivant"
+
+#: pages/templates/room.html:119
 msgid "Trailer"
 msgstr "Trailer"
 
-#: pages/templates/room.html:79 pages/templates/room.html:83
-#: pages/templates/room.html:87 pages/templates/room.html:91
-#: pages/templates/room.html:95
+#: pages/templates/room.html:123 pages/templates/room.html:127
+#: pages/templates/room.html:131 pages/templates/room.html:135
+#: pages/templates/room.html:139
 msgid "Videos are not supported by this browser"
 msgstr "Les vidéos ne sont pas supportées par ce navigateur"
 

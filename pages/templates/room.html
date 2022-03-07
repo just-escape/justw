@@ -14,7 +14,7 @@
 
   <section class="jumbotron py-5">
     <div class="container px-0">
-      <div class="row justify-content-center mb-5">
+      <div class="row justify-content-center mb-4 mb-lg-5">
         <div class="col-12 col-md-10 px-sm-0 mb-4 mb-md-0">
           <div class="d-flex flex-column flex-sm-row">
             <div class="d-flex justify-content-center mb-3 mb-sm-0 mr-sm-3">
@@ -70,8 +70,76 @@
         </div>
       </div>
 
+      <div class="row justify-content-center mb-5">
+        <div class="col-12 col-md-10 px-md-0">
+          <h3>{% trans "Image gallery" %}</h3>
+          <div id="carousel-digimiam" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-digimiam" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-digimiam" data-slide-to="1"></li>
+              <li data-target="#carousel-digimiam" data-slide-to="2"></li>
+              <li data-target="#carousel-digimiam" data-slide-to="3"></li>
+              <li data-target="#carousel-digimiam" data-slide-to="4"></li>
+              <li data-target="#carousel-digimiam" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <picture class="d-block w-100">
+                  <source srcset="/static/img/digimiam-menu-holographique.webp" type="image/webp">
+                  <source srcset="/static/img/digimiam-menu-holographique.jpg" type="image/jpg">
+                  <img src="/static/img/digimiam-holographique.jpg" alt="{% trans "Holographique menu" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture class="d-block w-100">
+                  <source srcset="/static/img/digimiam-miroirs.webp" type="image/webp">
+                  <source srcset="/static/img/digimiam-miroirs.jpg" type="image/jpg">
+                  <img src="/static/img/digimiam-miroirs.jpg" alt="{% trans "Mirrors" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture class="d-block w-100">
+                  <source srcset="/static/img/digimiam-refectoire.webp" type="image/webp">
+                  <source srcset="/static/img/digimiam-refectoire.jpg" type="image/jpg">
+                  <img src="/static/img/digimiam-refectoire.jpg" alt="{% trans "Refectory" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture class="d-block w-100">
+                  <source srcset="/static/img/digimiam-table.webp" type="image/webp">
+                  <source srcset="/static/img/digimiam-table.jpg" type="image/jpg">
+                  <img src="/static/img/digimiam-table.jpg" alt="{% trans "Table" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture class="d-block w-100">
+                  <source srcset="/static/img/digimiam-brume-verte.webp" type="image/webp">
+                  <source srcset="/static/img/digimiam-brume-verte.jpg" type="image/jpg">
+                  <img src="/static/img/digimiam-brume-verte.jpg" alt="{% trans "Green fog" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture class="d-block w-100">
+                  <source srcset="/static/img/digimiam-laser.webp" type="image/webp">
+                  <source srcset="/static/img/digimiam-laser.jpg" type="image/jpg">
+                  <img src="/static/img/digimiam-laser.jpg" alt="{% trans "Laser" %}" >
+                </picture>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-digimiam" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">{% trans "Previous" %}</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-digimiam" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">{% trans "Next" %}</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div class="row justify-content-center">
-        <div class="col-12 col-md-10 px-0">
+        <div class="col-12 col-md-10 px-md-0">
           <h3>{% trans "Trailer" %}</h3>
           <div class="d-flex flex-column deepdark rounded p-3 mb-5">
             <video class="mb-3" autoplay muted loop poster="/static/img/lille-2080{% if lang == 'en/' %}-en{% endif %}.jpg">
