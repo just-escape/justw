@@ -172,6 +172,7 @@ def home(request):
     data = {
         'current_page': '',
         'lang': get_lang(request),
+        'localized': True,
         'form': form,
         'unexpected_error': error,
         'subscription_success': success,
@@ -185,6 +186,7 @@ def room(request):
     data = {
         'current_page': 'salles',
         'lang': get_lang(request),
+        'localized': True,
         'show': show
     }
     return render(request, 'room.html', data)
@@ -196,6 +198,7 @@ def booking(request):
     data = {
         'current_page': 'reserver',
         'lang': get_lang(request),
+        'localized': True,
         'form': form,
         'unexpected_error': error,
         'subscription_success': success,
@@ -205,12 +208,12 @@ def booking(request):
 
 
 def gift_voucher(request):
-    data = {'current_page': 'carte-cadeau', 'lang': get_lang(request)}
+    data = {'current_page': 'carte-cadeau', 'lang': get_lang(request), 'localized': True}
     return render(request, 'gift-voucher.html', data)
 
 
 def pricing(request):
-    data = {'current_page': 'tarifs', 'lang': get_lang(request)}
+    data = {'current_page': 'tarifs', 'lang': get_lang(request), 'localized': True}
     return render(request, 'pricing.html', data)
 
 
@@ -220,6 +223,7 @@ def teambuilding(request):
     data = {
         'current_page': 'team-building',
         'lang': get_lang(request),
+        'localized': True,
         'form': form,
         'unexpected_error': error,
         'salesquote_success': success,
@@ -229,29 +233,29 @@ def teambuilding(request):
 
 
 def faq(request):
-    data = {'current_page': 'faq', 'lang': get_lang(request)}
+    data = {'current_page': 'faq', 'lang': get_lang(request), 'localized': True}
     return render(request, 'faq.html', data)
 
 
 def news(request):
-    data = {'current_page': 'news', 'lang': get_lang(request)}
+    data = {'current_page': 'news', 'lang': '', 'localized': False}
     return render(request, 'news.html', data)
 
 
 def news1(request):
-    data = {'current_page': 'news1', 'lang': get_lang(request)}
+    data = {'current_page': 'news1', 'lang': '', 'localized': False}
     return render(request, 'news1.html', data)
 
 
 def error404(request):
-    data = {'current_page': '404', 'noindex': True, 'lang': get_lang(request)}
+    data = {'current_page': '404', 'noindex': True, 'lang': get_lang(request), 'localized': True}
     r = render(request, '404.html', data)
     r['X-Robots-Tag'] = 'noindex'
     return r
 
 
 def partners(request):
-    data = {'current_page': 'partenaires', 'lang': get_lang(request)}
+    data = {'current_page': 'partenaires', 'lang': '', 'localized': False}
     return render(request, 'partners.html', data)
 
 
@@ -261,6 +265,7 @@ def contact(request):
     data = {
         'current_page': 'contact',
         'lang': get_lang(request),
+        'localized': True,
         'form': form,
         'unexpected_error': error,
         'subscription_success': success,
@@ -276,6 +281,7 @@ def unsubscribe(request):
         'current_page': 'desabonnement',
         'noindex': True,
         'lang': get_lang(request),
+        'localized': True,
         'form': form,
         'unexpected_error': error,
         'subscription_success': success,
@@ -287,14 +293,14 @@ def unsubscribe(request):
 
 
 def terms(request):
-    data = {'current_page': 'cgv', 'noindex': True, 'lang': get_lang(request)}
+    data = {'current_page': 'cgv', 'noindex': True, 'lang': get_lang(request), 'localized': True}
     r = render(request, 'terms.html', data)
     r['X-Robots-Tag'] = 'noindex'
     return r
 
 
 def conditions(request):
-    data = {'current_page': 'cgu', 'noindex': True, 'lang': get_lang(request)}
+    data = {'current_page': 'cgu', 'noindex': True, 'lang': get_lang(request), 'localized': True}
     r = render(request, 'conditions.html', data)
     r['X-Robots-Tag'] = 'noindex'
     return r

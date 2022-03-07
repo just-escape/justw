@@ -54,9 +54,10 @@
                     <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}contact">{% trans "Contact" %}</a>
                   </li>
                   <li>
-                    <span class="size-reductible-15 opacity-04 mr-5 not-allowed" title="{% trans "Soon" %}" data-placement="bottom" data-toggle="tooltip">{% trans "Blog" %}</span>
+                    <span class="size-reductible-15 opacity-04 {% if localized %}mr-5 {% endif %}not-allowed" title="{% trans "Soon" %}" data-placement="bottom" data-toggle="tooltip">{% trans "Blog" %}</span>
                   </li>
                 </ul>
+                {% if localized %}
                 <div class="mb-2 mb-sm-0">
                   <span class="svg-24px-reductible fill-light align-sub mr-2">
                     {% include "svg/language.svg" %}
@@ -65,6 +66,7 @@
                     <a class="text-hover-mulberry" href="/en/{{ current_page }}">{% trans "EN" %}</a> | <a class="text-hover-mulberry" href="/{{ current_page }}">{% trans "FR" %}</a>
                   </span>
                 </div>
+                {% endif %}
               </div>
             </div>
           </div>

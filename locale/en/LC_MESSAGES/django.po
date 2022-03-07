@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-03 00:12+0100\n"
+"POT-Creation-Date: 2022-03-07 15:46+0100\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -43,27 +43,27 @@ msgstr ""
 msgid "Go through the door to retrace your steps"
 msgstr ""
 
-#: pages/templates/base.html:57 pages/templates/home.html:8
+#: pages/templates/base.html:61 pages/templates/home.html:8
 msgid "Escape Game Lille – From 2 Players"
 msgstr ""
 
-#: pages/templates/base.html:61
+#: pages/templates/base.html:65
 msgid "Just Escape Lille Logo"
 msgstr ""
 
-#: pages/templates/base.html:66
+#: pages/templates/base.html:70
 msgid "Just Escape ⭐⭐⭐⭐⭐"
 msgstr ""
 
-#: pages/templates/base.html:83
+#: pages/templates/base.html:89
 msgid "Notice"
 msgstr ""
 
-#: pages/templates/base.html:84
+#: pages/templates/base.html:90
 msgid "Just Escape is being created and will open soon"
 msgstr ""
 
-#: pages/templates/base.html:99 pages/templates/home.html:11
+#: pages/templates/base.html:105 pages/templates/home.html:11
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr ""
 
@@ -638,8 +638,7 @@ msgstr ""
 msgid "Blog"
 msgstr ""
 
-#: pages/templates/footer.html:48 pages/templates/partners.html:8
-#: pages/templates/partners.html:101
+#: pages/templates/footer.html:48
 msgid "Partners"
 msgstr ""
 
@@ -692,11 +691,11 @@ msgstr ""
 msgid "Team Building"
 msgstr ""
 
-#: pages/templates/header.html:65
+#: pages/templates/header.html:66
 msgid "EN"
 msgstr ""
 
-#: pages/templates/header.html:65 pages/templates/home.html:82
+#: pages/templates/header.html:66 pages/templates/home.html:82
 #: pages/templates/room.html:58
 msgid "FR"
 msgstr ""
@@ -921,42 +920,6 @@ msgstr ""
 
 #: pages/templates/news.html:5
 msgid "News"
-msgstr ""
-
-#: pages/templates/partners.html:5
-msgid "Partners – Escape Game Lille – Just Escape"
-msgstr ""
-
-#: pages/templates/partners.html:6 pages/templates/partners.html:9
-msgid "Discover Just Escape&#39;s partners. They are the best 👍"
-msgstr ""
-
-#: pages/templates/partners.html:11
-msgid "Just Escape&#39;s partnerships"
-msgstr ""
-
-#: pages/templates/partners.html:17
-msgid "Our real estate partner"
-msgstr ""
-
-#: pages/templates/partners.html:23
-msgid "Logo ASI"
-msgstr ""
-
-#: pages/templates/partners.html:25
-msgid "Action Service Immobilier"
-msgstr ""
-
-#: pages/templates/partners.html:30
-msgid ""
-"We have our estate thanks to the company ASI. We recommand the quality of "
-"their service. They have a beautiful <a href='https://www.asi-immobilier.org/"
-"galerie' class='text-underline text-hover-jaffa'>gallery of properties in "
-"Lille</a>!"
-msgstr ""
-
-#: pages/templates/partners.html:38
-msgid "We will have other partners soon"
 msgstr ""
 
 #: pages/templates/pricing.html:5
@@ -1798,6 +1761,3 @@ msgid ""
 "If you have any request or if there is anything that can help us improve "
 "your experience"
 msgstr ""
-
-#~ msgid "[room] Soon"
-#~ msgstr "Soon"

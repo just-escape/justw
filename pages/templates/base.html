@@ -46,10 +46,14 @@
     <link rel="alternate" hreflang="fr-ml" href="https://just-escape.fr/{{ current_page }}">
     <link rel="alternate" hreflang="fr-sn" href="https://just-escape.fr/{{ current_page }}">
     <link rel="alternate" hreflang="fr-ch" href="https://just-escape.fr/{{ current_page }}">
+    {% if localized %}
     <link rel="alternate" hreflang="en" href="https://just-escape.fr/en/{{ current_page }}">
     <link rel="alternate" hreflang="en-gb" href="https://just-escape.fr/en/{{ current_page }}">
     <link rel="alternate" hreflang="en-us" href="https://just-escape.fr/en/{{ current_page }}">
     <link rel="alternate" hreflang="x-default" href="https://just-escape.fr/en/{{ current_page }}">
+    {% else %}
+    <link rel="alternate" hreflang="x-default" href="https://just-escape.fr/{{ current_page }}">
+    {% endif %}
 
     <title>{% block title %}Just Escape{% endblock %}</title>
     <meta name="description" content="{% block description %}{% endblock %}">
@@ -65,7 +69,9 @@
     <meta property="og:url" content="https://just-escape.fr{% if current_page %}/{% endif %}{{ lang }}{{ current_page }}">
     <meta property="og:site_name" content="{% trans "Just Escape ⭐⭐⭐⭐⭐" %}">
     <meta property="locale" content="{% if not lang %}fr_FR{% else %}en_US{% endif %}">
+    {% if localized %}
     <meta property="locale:alternate" content="{% if not lang %}en_US{% else %}fr_FR{% endif %}">
+    {% endif %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@JustEscapeLille">
   </head>

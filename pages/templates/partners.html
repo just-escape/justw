@@ -1,82 +1,65 @@
 {% extends "base.html" %}
 
-{% load i18n %}
+{% block title %}Partenaires – Escape Game Lille – Just Escape{% endblock %}
+{% block description %}Découvrez les partenaires de Just Escape. Ce sont les meilleurs 👍{% endblock %}
 
-{% block title %}{% trans "Partners – Escape Game Lille – Just Escape" %}{% endblock %}
-{% block description %}{% trans "Discover Just Escape&#39;s partners. They are the best 👍" %}{% endblock %}
+{% block og_title %}Partenaires{% endblock %}
+{% block og_description %}Découvrez les partenaires de Just Escape. Ce sont les meilleurs 👍{% endblock %}
 
-{% block og_title %}{% trans "Partners" %}{% endblock %}
-{% block og_description %}{% trans "Discover Just Escape&#39;s partners. They are the best 👍" %}{% endblock %}
-
-{% block h1 %}{% trans "Just Escape&#39;s partnerships" %}{% endblock %}
+{% block h1 %}Partnerariats{% endblock %}
 
 {% block content %}
 
   <div class="jumbotron deeplight">
     <section class="container">
-      <h2 class="text-center text-sm-left">{% trans "Our real estate partner" %}</h2>
-      <div class="row align-items-center">
-        <div class="col-12 col-sm-4 col-md-3 col-lg-2 text-center">
-          <a class="text-hover-jaffa" href="https://www.asi-immobilier.org">
+      <h2 class="text-center text-sm-left">Dans la ville de Lille, des commerçants locaux</h2>
+      <div class="row">
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 text-center">
+          <a class="text-hover-jaffa text-bold" href="https://sophrologie-atelier-lille.com/">
             <figure class="figure">
               <span class="width-100px fill-dark">
-                <img class="img-fluid mb-1" src="https://just-escape.fr/static/img/logo-asi.jpg" alt={% trans "Logo ASI" %}>
+                <img class="img-fluid mb-1" src="https://just-escape.fr/static/img/logo-yoga-sophrologie.jpg" alt="Logo Sophrologie Atelier Lille">
               </span>
-              <figcaption class="text-center">{% trans "Action Service Immobilier" %}</figcaption>
+              <figcaption class="text-center">Sophrologie Atelier Lille</figcaption>
             </figure>
           </a>
+          <p class="text-center">Dans ce centre situé à Wazemmes vous pourrez retrouver à la fois des séances de yoga, de sophrologie et de psychothérapie. Il s'agit d'un des centres historiques de la métropole.</p>
         </div>
-        <div class="col-12 col-sm-8 col-md-9 col-lg-10 text-center">
-          <p class="text-center text-sm-left">{% trans "We have our estate thanks to the company ASI. We recommand the quality of their service. They have a beautiful <a href='https://www.asi-immobilier.org/galerie' class='text-underline text-hover-jaffa'>gallery of properties in Lille</a>!" %}</p>
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 text-center">
+          <a class="text-hover-jaffa text-bold" href="https://www.asi-immobilier.org">
+            <figure class="figure">
+              <span class="width-100px fill-dark">
+                <img class="img-fluid mb-1" src="https://just-escape.fr/static/img/logo-asi.jpg" alt="Logo ASI">
+              </span>
+              <figcaption class="text-center">Action Service Immobilier</figcaption>
+            </figure>
+          </a>
+          <p class="text-center">ASI est la société grâce à qui nous avons notre local. Ils possèdent une belle <a href="https://www.asi-immobilier.org/galerie" class="text-underline text-hover-jaffa">galerie de biens immobiliers sur Lille</a> !</p>
         </div>
+
       </div>
     </section>
   </div>
 
   <div class="jumbotron light">
     <section class="container">
-      <h2 class="text-center text-sm-left">{% trans "We will have other partners soon" %}</h2>
+      <h2 class="text-center text-sm-left">En dehors de Lille</h2>
       <div class="row">
-        <div class="col-12 col-sm-3 col-md-2 text-center">
-          <a class="text-hover-jaffa" href="#">
-            <figure class="figure">
-              <span class="width-100px fill-jaffa">
-                {% include "svg/just-escape-door.svg" %}
-              </span>
-              <figcaption class="text-center">Tiranium</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-12 col-sm-3 col-md-2 text-center">
-          <a class="text-hover-jaffa" href="#">
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 text-center">
+          <a class="text-hover-jaffa text-bold" href="https://www.blanktone.com/">
             <figure class="figure">
               <span class="width-100px fill-dark">
-                {% include "svg/just-escape-door.svg" %}
+                <img class="img-fluid mb-1" src="https://just-escape.fr/static/img/logo-blanktone.jpg" alt="Logo blanktone studio">
               </span>
-              <figcaption class="text-center">Alextra</figcaption>
+              <figcaption class="text-center">Blanktone studio</figcaption>
             </figure>
           </a>
+          <p class="text-center">Pour composer la musique et le design sonore du scénario Le Digimiam, nous avons fait appel à Laurent Vang, co-fondateur de Blanktone Studio. Nous sommes très satisfaits du rendu final et de l'attention que Laurent a porté à ce projet.</p>
         </div>
-        <div class="col-12 col-sm-3 col-md-2 text-center">
-          <a class="text-hover-jaffa" href="#">
-            <figure class="figure">
-              <span class="width-100px fill-mulberry">
-                {% include "svg/just-escape-door.svg" %}
-              </span>
-              <figcaption class="text-center">Bombats</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-12 col-sm-3 col-md-2 text-center">
-          <a class="text-hover-jaffa" href="#">
-            <figure class="figure">
-              <span class="width-100px fill-dark">
-                {% include "svg/just-escape-door.svg" %}
-              </span>
-              <figcaption class="text-center">Alcates</figcaption>
-            </figure>
-          </a>
-        </div>
+
       </div>
     </section>
   </div>
@@ -93,13 +76,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Just Escape",
-                "item": "https://just-escape.fr/{{ lang }}"
+                "item": "https://just-escape.fr/"
             },
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "{% trans "Partners" %}",
-                "item": "https://just-escape.fr/{{ lang }}partenaires"
+                "name": "Partenaires",
+                "item": "https://just-escape.fr/partenaires"
             }
         ]
     }
