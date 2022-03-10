@@ -304,3 +304,10 @@ def conditions(request):
     r = render(request, 'conditions.html', data)
     r['X-Robots-Tag'] = 'noindex'
     return r
+
+
+def order_confirmed(request):
+    data = {'current_page': 'confirmation-de-commande', 'noindex': True, 'lang': get_lang(request), 'localized': True}
+    r = render(request, 'order-confirmed.html', data)
+    r['X-Robots-Tag'] = 'noindex'
+    return r

@@ -21,6 +21,7 @@ urlpatterns = i18n_patterns(
     path('desabonnement', views.unsubscribe, name='unsubscribe'),
     path('cgv', views.terms, name='terms'),
     path('cgu', views.conditions, name='conditions'),
+    path('confirmation-de-commande', views.order_confirmed, name='order_confirmed'),
 
     prefix_default_language=False,
 )
