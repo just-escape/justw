@@ -2,37 +2,17 @@
 
 {% load i18n %}
 
+{% block gtm_header %}
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PBPTZXM');
+</script>
+{% endblock %}
+
 {% block title %}{% trans "Order confirmed – Escape Game Lille – Just Escape" %}{% endblock %}
 {% block description %}{% trans "Your order is confirmed." %}{% endblock %}
 
 {% block og_title %}{% trans "Order confirmed" %}{% endblock %}
 {% block og_description %}{% trans "Your order is confirmed." %}{% endblock %}
-
-{% block trackers %}
-<script>
-const params = new Proxy(new URLSearchParams(window.location.search), {
-  get: (searchParams, prop) => searchParams.get(prop),
-});
-</script>
-<script>
-    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '985033018785177');
-    fbq('track', 'PageView');
-    fbq('track', 'Purchase', {value: params.orderAmount, currency: 'EUR', content_ids: [ params.orderId ]});
-</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=539-978-0990"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '10859757742');
-  gtag('event', 'conversion', {'send_to': '10859757742/7HUrCNaX4qUDEK6Bq7oo',
-    'value': params.orderAmount,
-    'currency': 'EUR',
-    'transaction_id': params.orderId,
-  });
-</script>
-{% endblock %}
 
 {% block main_header %}{% endblock %}
 
