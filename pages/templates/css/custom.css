@@ -206,6 +206,31 @@ a:hover {
 /* text */
 
 /* navheader */
+#navheader nav {
+    background: #f8f9fa;
+    color: #3c3c3e;
+    transition: background 1s ease-in-out;
+}
+
+#navheader header {
+    background: rgba(248, 249, 250, 0.65);
+    color: #3c3c3e;
+}
+
+@media (min-width: 992px) {
+    #navheader header {
+        background: transparent;
+    }
+}
+
+#navheader nav.nav-cover {
+    background: rgba(248, 249, 250, 0.65);
+}
+
+#navheader.reduced nav.nav-cover {
+    background: #f8f9fa;
+}
+
 @media (max-width: 991.98px) {
     #navheader {
         transition: all 0.7s ease-in-out;
@@ -419,6 +444,21 @@ a:hover {
 @media (min-width: 992px) {
     .z-lg-2 {
         z-index: 2;
+    }
+}
+
+.content-cover {
+    top: -90px;
+}
+
+.img-cover {
+    height: 100vh;
+    object-fit: cover;
+}
+
+@media (min-width: 992px) {
+    .content-cover {
+        top: -155px;
     }
 }
 /* navheader */

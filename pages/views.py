@@ -176,6 +176,7 @@ def home(request):
         'form': form,
         'unexpected_error': error,
         'subscription_success': success,
+        'cover': True,
     }
 
     return render(request, 'home.html', data)

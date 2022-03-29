@@ -8,135 +8,130 @@
 {% block og_title %}{% trans "Escape Game Lille – From 2 Players" %}{% endblock %}
 {% block og_description %}{% trans "New escape game 2.0 in Lille ⚡ Ideal for an outing with friends 😃 Amazing scenery 👌 Scenario Digimiam the futuristic estaminet 🤖" %}{% endblock %}
 
-{% block h1 %}{% trans "One of the most immersive live escape games in&nbsp;Lille" %}{% endblock %}
+{% block pre_content %}{% endblock %}
+
+{% block main_header %}{% endblock %}
 
 {% block content %}
 
-  <section class="jumbotron">
-    <div class="container">
+  <section class="jumbotron-fluid content-cover">
 
-      <span id="nos-salles" class="anchor">&nbsp;</span>
-      <div class="row justify-content-center mb-4">
-        <h2>{% trans "Escape rooms" %}</h2>
+    <span id="nos-salles" class="anchor">&nbsp;</span>
+
+    <div id="carousel-digimiam" class="carousel slide position-relative" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-digimiam" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-digimiam" data-slide-to="1"></li>
+        <li data-target="#carousel-digimiam" data-slide-to="2"></li>
+        <li data-target="#carousel-digimiam" data-slide-to="3"></li>
+        <li data-target="#carousel-digimiam" data-slide-to="4"></li>
+        <li data-target="#carousel-digimiam" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <picture>
+            <source srcset="/static/img/digimiam-menu-holographique.webp" type="image/webp">
+            <source srcset="/static/img/digimiam-menu-holographique.jpg" type="image/jpg">
+            <img class="img-fluid w-100 img-cover" src="/static/img/digimiam-menu-holographique.jpg" alt="{% trans "Holographique menu" %}" >
+          </picture>
+        </div>
+        <div class="carousel-item">
+          <picture>
+            <source srcset="/static/img/digimiam-miroirs.webp" type="image/webp">
+            <source srcset="/static/img/digimiam-miroirs.jpg" type="image/jpg">
+            <img loading="lazy" class="img-fluid w-100 img-cover" src="/static/img/digimiam-miroirs.jpg" alt="{% trans "Mirrors" %}" >
+          </picture>
+        </div>
+        <div class="carousel-item">
+          <picture>
+            <source srcset="/static/img/digimiam-refectoire.webp" type="image/webp">
+            <source srcset="/static/img/digimiam-refectoire.jpg" type="image/jpg">
+            <img loading="lazy" class="img-fluid w-100 img-cover" src="/static/img/digimiam-refectoire.jpg" alt="{% trans "Refectory" %}" >
+          </picture>
+        </div>
+        <div class="carousel-item">
+          <picture>
+            <source srcset="/static/img/digimiam-table.webp" type="image/webp">
+            <source srcset="/static/img/digimiam-table.jpg" type="image/jpg">
+            <img loading="lazy" class="img-fluid w-100 img-cover" src="/static/img/digimiam-table.jpg" alt="{% trans "Table" %}" >
+          </picture>
+        </div>
+        <div class="carousel-item">
+          <picture>
+            <source srcset="/static/img/digimiam-brume-verte.webp" type="image/webp">
+            <source srcset="/static/img/digimiam-brume-verte.jpg" type="image/jpg">
+            <img loading="lazy" class="img-fluid w-100 img-cover" src="/static/img/digimiam-brume-verte.jpg" alt="{% trans "Green fog" %}" >
+          </picture>
+        </div>
+        <div class="carousel-item">
+          <picture>
+            <source srcset="/static/img/digimiam-laser.webp" type="image/webp">
+            <source srcset="/static/img/digimiam-laser.jpg" type="image/jpg">
+            <img loading="lazy" class="img-fluid w-100 img-cover" src="/static/img/digimiam-laser.jpg" alt="{% trans "Laser" %}" >
+          </picture>
+        </div>
       </div>
 
-      <div class="row d-flex justify-content-around flex-wrap">
-        <article class="col-12 col-lg-6 mb-4">
-          <div class="card bg-transparent border-0 h-100">
-            <div class="card-body p-0">
-              <div class="d-flex flex-column flex-sm-row">
-                <div class="d-flex justify-content-center mb-3 mr-sm-2">
-                  <div class="width-170px position-relative my-auto my-lg-0">
-                    <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "New" %}</span></div>
-                    <a href="/{{ lang }}salles?show=d1#digimiam">
-                      {% include "svg/digimiam.svg" %}
+      <div class="position-absolute w-100" style="bottom: 3rem;">
+        <div class="container justify-content-end">
+          <div class="row justify-content-end">
+              <div class="col-12 col-md-8 col-lg-6">
+                <div class="card deepdark border-jaffa" style="background: rgba(45, 45, 45, 0.75); color: var(--light)">
+                <div class="card-header">
+                  <h2 class="card-title text-center text-jaffa mb-0">
+                    {% trans "The Digimiam" %}
+                  </h2>
+                  <div class="font-italic text-center">{% trans "Cybernetic estaminet" %}</div>
+                </div>
+                <div class="card-body">
+                  <div class="d-flex flex-column text-justify">
+                    <div class="mb-3">{% trans "In 2080, the last estaminet in Lille has just closed. The neurons of culinary intelligence have short-circuited. The owner, Ms. Pepper, is counting on you to restore the refectory. Will you manage to save one of the last emblematic places of Flemish culture?" %}</div>
+                    <div class="d-flex flex-column">
+                      <div class="d-flex justify-content-end mb-2">
+                        {% trans "Difficulty: adapted to your group" %}
+                      </div>
+                      <div class="mb-2">
+                        <div class="d-flex justify-content-end flex-sm-row">
+                          <span class="lh-24px mr-2">{% trans "2 - 8 players (on 2 rooms)" %}</span>
+                          <div class="position-relative">
+                            <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-2">
+                        <div class="d-flex justify-content-end flex-sm-row">
+                          <span class="lh-24px mr-2">{% trans "60 minutes" %}</span>
+                          <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/chrono.svg" %}</span>
+                        </div>
+                      </div>
+                      <div class="mb-2">
+                        <div class="d-flex justify-content-end flex-sm-row">
+                          <span class="lh-24px mr-2">{% trans "FR" %}</span>
+                          <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/lang.svg" %}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer text-center d-flex flex-column">
+                  <div class="mb-2">
+                    <a href="/{{ lang }}salles" class="btn btn-primary px-5">
+                      <span>{% trans "Watch the trailer" %}</span>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="/{{ lang }}reserver" class="text-underline text-hover-mulberry">
+                      {% trans "Book now" %}
                     </a>
                   </div>
                 </div>
-
-                <div>
-                  <span id="digimiam" class="anchor">&nbsp;</span>
-                  <h3 class="size-25 text-light-shadow mb-0"><a href="/{{ lang }}salles?show=d1#digimiam">{% trans "The Digimiam" %}</a></h3>
-                  <p class="font-italic mb-1">{% trans "Futuristic restaurant" %}</p>
-                  <p>{% trans "You are in <strong class='font-weight-normal'>Lille in 2080</strong> in a futuristic estaminet. The neurons of the Digimiam&#39;s cooking Artificial Intelligence have short-circuited! It&#39;s now up to you to infiltrate through a <strong class='font-weight-normal text-jaffa'>laser labyrinth</strong> and restore the <span class='text-jaffa'>robotic arm</span>! Will you be able to solve all the original enigmas in immersive sceneries?" %}</p>
-                  <p class="size-09">{% trans "This is a <strong class='font-weight-normal'>2-player scenario</strong> that can welcome up to 8 players (the scenario is duplicated in two rooms)." %}</p>
-                  <p class="size-09">{% trans "Difficulty: adapted to your group." %}</p>
-                  <div class="row justify-content-end">
-                    <div class="col-6 pr-1">
-                      <a href="/{{ lang }}salles?show=d1#digimiam" class="btn btn-secondary btn-block">
-                        <span>{% trans "The room" %}</span>
-                      </a>
-                    </div>
-                    <div class="col-6 pl-1">
-                      <a href="/{{ lang }}reserver" class="btn btn-primary btn-block">
-                        <span>{% trans "Book now" %}</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-footer border-0 bg-transparent px-0 mt-2 mt-sm-0">
-              <div class="d-flex flex-column flex-sm-row float-right">
-                <div class="mb-2 mr-sm-4">
-                  <div class="d-flex flex-row-reverse flex-sm-row">
-                    <div class="position-relative">
-                      <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
-                    </div>
-                    <span class="mr-2 mr-sm-3 mr-lg-2"></span>
-                    <span class="size-09 lh-24px">{% trans "2 - 4 players x 2 rooms" %}</span>
-                  </div>
-                </div>
-                <div class="mb-2 mr-sm-4">
-                  <div class="d-flex flex-row-reverse flex-sm-row">
-                    <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/chrono.svg" %}</span>
-                    <span class="mr-2 mr-sm-3 mr-lg-2"></span>
-                    <span class="size-09 lh-24px">{% trans "60 minutes" %}</span>
-                  </div>
-                </div>
-                <div class="mb-2">
-                  <div class="d-flex flex-row-reverse flex-sm-row">
-                    <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/lang.svg" %}</span>
-                    <span class="mr-2 mr-sm-3 mr-lg-2"></span>
-                    <span class="size-09 lh-24px">{% trans "FR" %}</span>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
-        </article>
-
-        <article class="col-12 col-lg-6 mb-4">
-          <div class="card bg-transparent border-0 h-100">
-            <div class="card-body p-0">
-              <div class="d-flex flex-column flex-sm-row">
-                <div class="d-flex justify-content-center mb-3 mr-sm-2">
-                  <div class="width-170px position-relative my-auto my-lg-0 opacity-05">
-                    {% include "svg/question-mark.svg" %}
-                  </div>
-                </div>
-
-                <div>
-                  <span id="room2" class="anchor">&nbsp;</span>
-                  <h3 class="size-25 text-light-shadow opacity-05 mb-0">{% trans "New" %}</h3>
-                  <p class="size-09 opacity-05">{% trans "We might open a <strong class='font-weight-normal'>new escape room in Lille</strong>. The creation of the first scenario, the Digimiam, required a lot of time. So we prefer to focus on this room." %}</p>
-                  <p class="size-09 opacity-05">{% trans "Many of you enjoyed this scenario and asked us about the next one. What will be the settings? What will be the plot? What will be the puzzles? We are thinking about it, but we haven't made a decision yet. We don't even know if there will be a new escape room." %}</p>
-                  <p class="size-09 opacity-05">{% trans "We had originally planned to work on a horror theme: the Puppeteer's Mansion. This project has been canceled." %}</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-footer border-0 bg-transparent px-0 mt-2 mt-sm-0">
-              <div class="d-flex flex-column flex-sm-row float-right">
-                <div class="mb-2 mr-sm-4">
-                  <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
-                    <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
-                    <span class="mr-2"></span>
-                    <span class="size-09 lh-24px">{% trans "? players" %}</span>
-                  </div>
-                </div>
-                <div class="mb-2 mr-sm-4">
-                  <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
-                    <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/chrono.svg" %}</span>
-                    <span class="mr-2"></span>
-                    <span class="size-09 lh-24px">{% trans "60 minutes" %}</span>
-                  </div>
-                </div>
-                <div class="mb-2">
-                  <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
-                    <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/lang.svg" %}</span>
-                    <span class="mr-2"></span>
-                    <span class="size-09 lh-24px">{% trans "FR / EN" %}</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
+        </div>
       </div>
-
     </div>
+
   </section>
 
   <section class="jumbotron light">
@@ -381,7 +376,7 @@
                 <div>
                   <h3 class="text-jaffa size-15 mb-1">{% trans "Contact" %}</h3>
                   <p class="lh-12 mb-0">
-                    {% trans "<span class='text-jaffa'>Tel:</span> <a href='tel:+33 7 89 05 37 90' class='text-hover-mulberry text-underline'>+33 7 89 05 37 90</a><br>" %}
+                    {% trans "<span class='text-jaffa'>Tel:</span> <a href='tel:+33789053790' class='text-hover-mulberry text-underline'>+33 7 89 05 37 90</a><br>" %}
                     {% trans "<span class='text-jaffa'>Mail:</span> c<span hidden></span>ontac<span hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span hidden></span>.fr" %}
                   </p>
                 </div>
@@ -492,8 +487,6 @@
         window.addEventListener('scroll', displayMap);
     }
   </script>
-
-  {% include "js/animate-room.js" %}
 
   <script>
     function emojiSupport() {
