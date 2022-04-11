@@ -27,7 +27,7 @@
             <div>
               <span id="digimiam" class="anchor">&nbsp;</span>
               <h2>{% trans "The Digimiam" %}</h2>
-              <p class="font-italic mb-2">{% trans "Futuristic restaurant" %}</p>
+              <p class="font-italic mb-2">{% trans "Cybernetic estaminet" %}</p>
               <p class="mb-2">{% trans "What could a futuristic estaminet entirely managed by Artificial Intelligence look like? This is what you will discover in the Digimiam (famous address that all the inhabitants of Lille speak about in 2080)." %}</p>
               <p class="mb-2">{% trans "But today the Digimiam needs you. The report indicates that the cooking Artificial Intelligence, <span class='font-italic'>Marmitron</span>, would no longer respond to orders. The customer is urging you and your maintenance group specialized in AI." %}</p>
               <p class="mb-2">{% trans "This routine intervention may well become funnier than expected when you will infiltrate a <span class='text-jaffa'>laser labyrinth</span>, restore the <span class='text-jaffa'>robotic arm</span> and manipulate other modules." %}</p>
@@ -70,10 +70,38 @@
         </div>
       </div>
 
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 px-md-0">
+          <h3>{% trans "Trailer" %}</h3>
+          <div class="d-flex flex-column deepdark rounded p-3 mb-5">
+            <video class="mb-3" autoplay muted loop poster="/static/img/lille-2080{% if lang == 'en/' %}-en{% endif %}.jpg">
+              <source src="/static/vid/lille-2080{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
+              <p>{% trans "Videos are not supported by this browser" %}</p>
+            </video>
+            <video class="mb-3" autoplay muted loop poster="/static/img/digimiam-door{% if lang == 'en/' %}-en{% endif %}.jpg">
+              <source src="/static/vid/digimiam-door{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
+              <p>{% trans "Videos are not supported by this browser" %}</p>
+            </video>
+            <video class="mb-3" autoplay muted loop poster="/static/img/marmitron{% if lang == 'en/' %}-en{% endif %}.jpg">
+              <source src="/static/vid/marmitron{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
+              <p>{% trans "Videos are not supported by this browser" %}</p>
+            </video>
+            <video class="mb-3" autoplay muted loop poster="/static/img/ms-pepper{% if lang == 'en/' %}-en{% endif %}.jpg">
+              <source src="/static/vid/ms-pepper{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
+              <p>{% trans "Videos are not supported by this browser" %}</p>
+            </video>
+            <video autoplay muted loop poster="/static/img/digimiam-room{% if lang == 'en/' %}-en{% endif %}.jpg">
+              <source src="/static/vid/digimiam-room{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
+              <p>{% trans "Videos are not supported by this browser" %}</p>
+            </video>
+          </div>
+        </div>
+      </div>
+
       <div class="row justify-content-center mb-5">
         <div class="col-12 col-md-10 px-md-0">
           <h3>{% trans "Image gallery" %}</h3>
-          <div id="carousel-digimiam" class="carousel slide" data-ride="carousel">
+          <div id="carousel-digimiam" class="carousel carousel-zoom-in slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carousel-digimiam" data-slide-to="0" class="active"></li>
               <li data-target="#carousel-digimiam" data-slide-to="1"></li>
@@ -85,16 +113,16 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <picture>
-                  <source srcset="/static/img/digimiam-menu-holographique.webp" type="image/webp">
-                  <source srcset="/static/img/digimiam-menu-holographique.jpg" type="image/jpg">
-                  <img class="img-fluid" src="/static/img/digimiam-menu-holographique.jpg" alt="{% trans "Holographique menu" %}" >
+                  <source srcset="/static/img/escape-game-lille-refectoire.webp" type="image/webp">
+                  <source srcset="/static/img/escape-game-lille-refectoire.jpg" type="image/jpg">
+                  <img class="img-fluid" src="/static/img/escape-game-lille-refectoire.jpg" alt="{% trans "Holographique menu" %}" >
                 </picture>
               </div>
               <div class="carousel-item">
                 <picture>
-                  <source srcset="/static/img/digimiam-miroirs.webp" type="image/webp">
-                  <source srcset="/static/img/digimiam-miroirs.jpg" type="image/jpg">
-                  <img class="img-fluid" src="/static/img/digimiam-miroirs.jpg" alt="{% trans "Mirrors" %}" >
+                  <source srcset="/static/img/escape-game-lille-enigmatique.webp" type="image/webp">
+                  <source srcset="/static/img/escape-game-lille-enigmatique.jpg" type="image/jpg">
+                  <img class="img-fluid" src="/static/img/escape-game-lille-enigmatique.jpg" alt="{% trans "Mirrors" %}" >
                 </picture>
               </div>
               <div class="carousel-item">
@@ -138,87 +166,8 @@
         </div>
       </div>
 
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-10 px-md-0">
-          <h3>{% trans "Trailer" %}</h3>
-          <div class="d-flex flex-column deepdark rounded p-3 mb-5">
-            <video class="mb-3" autoplay muted loop poster="/static/img/lille-2080{% if lang == 'en/' %}-en{% endif %}.jpg">
-              <source src="/static/vid/lille-2080{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
-              <p>{% trans "Videos are not supported by this browser" %}</p>
-            </video>
-            <video class="mb-3" autoplay muted loop poster="/static/img/digimiam-door{% if lang == 'en/' %}-en{% endif %}.jpg">
-              <source src="/static/vid/digimiam-door{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
-              <p>{% trans "Videos are not supported by this browser" %}</p>
-            </video>
-            <video class="mb-3" autoplay muted loop poster="/static/img/marmitron{% if lang == 'en/' %}-en{% endif %}.jpg">
-              <source src="/static/vid/marmitron{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
-              <p>{% trans "Videos are not supported by this browser" %}</p>
-            </video>
-            <video class="mb-3" autoplay muted loop poster="/static/img/ms-pepper{% if lang == 'en/' %}-en{% endif %}.jpg">
-              <source src="/static/vid/ms-pepper{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
-              <p>{% trans "Videos are not supported by this browser" %}</p>
-            </video>
-            <video autoplay muted loop poster="/static/img/digimiam-room{% if lang == 'en/' %}-en{% endif %}.jpg">
-              <source src="/static/vid/digimiam-room{% if lang == 'en/' %}-en{% endif %}.webm" type="video/webm"/>
-              <p>{% trans "Videos are not supported by this browser" %}</p>
-            </video>
-          </div>
-        </div>
-      </div>
-
     </div>
   </section>
-
-  <!--
-  <section class="jumbotron py-5 softdark">
-    <div class="container px-0">
-      <div class="d-flex justify-content-end">
-        <div class="col-12 col-md-10 px-sm-0">
-          <div class="d-flex flex-column flex-sm-row">
-            <div class="d-flex justify-content-center mb-3 mb-sm-0 mr-sm-3">
-              <div class="width-170px position-relative my-auto my-lg-2 opacity-05">
-                <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>% trans "[room] Soon" %}</span></div>
-                % include "svg/puppet.svg" %}
-              </div>
-            </div>
-
-            <div>
-              <h2 class="opacity-05">% trans "Nouvelle salle" %}</h2>
-              <p class="opacity-05 mb-2">% trans "You will soon be able to enjoy a new horror room in Lille." %}</p>
-              <p class="opacity-05 mb-2">% trans "All we can reveal for now is that there will be a forest, a manor house, a gloomy atmosphere, a puppeteer, her children (small but not that cute), a piece of theatre in which <span class='font-italic'>you</span> will perform, adrenaline rushes, blood and maybe even death." %}</p>
-              <p class="opacity-05">% trans "Expected release date: soon™." %}</p>
-              <div class="d-flex flex-column-reverse flex-sm-row justify-content-sm-between">
-                <div class="d-flex flex-column flex-lg-row my-auto">
-                  <div class="mb-2 mb-lg-0 mr-lg-4">
-                    <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
-                      <span class="d-inline-block svg-24px fill-jaffa align-top">% include "svg/users.svg" %}</span>
-                      <span class="mr-2"></span>
-                      <span class="size-09 lh-24px">% trans "? - ? players" %}</span>
-                    </div>
-                  </div>
-                  <div class="mb-2 mb-lg-0 mr-lg-4">
-                    <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
-                      <span class="d-inline-block svg-24px fill-jaffa align-top">% include "svg/chrono.svg" %}</span>
-                      <span class="mr-2"></span>
-                      <span class="size-09 lh-24px">% trans "60 minutes" %}</span>
-                    </div>
-                  </div>
-                  <div class="mb-2 mb-lg-0">
-                    <div class="d-flex flex-row-reverse opacity-05 flex-sm-row">
-                      <span class="d-inline-block svg-24px fill-jaffa align-top">% include "svg/lang.svg" %}</span>
-                      <span class="mr-2"></span>
-                      <span class="size-09 lh-24px">% trans "FR / EN" %}</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  -->
 
 {% endblock %}
 

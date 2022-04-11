@@ -17,99 +17,338 @@
   <style rel="stylesheet">{% include "css/tempusdominus-custom.css" %}</style>
 {% endblock %}
 
-{% block h1 %}{% trans "Turnkey team building" %}{% endblock %}
+{% block main_header %}
+<div class="jumbotron-fluid dark">
+  <div class="container py-3">
+    <div class="mx-auto text-center">
+      <h1 class="size-15 text-inter lh-12" style="font-weight: normal">Vous cherchez un teambuilding clé en main <span class="font-italic">et</span> mémorable&nbsp;?</h1>
+    </div>
+  </div>
+</div>
+{% endblock %}
 
 {% block content %}
 
+  <div class="jumbotron-fluid light position-relative">
+    <div class="position-absolute w-100 dark" style="top: 0px; height: 20px"></div>
+    <div class="position-absolute w-100 dark" style="bottom: 0px; height: 80px"></div>
+
+    <div class="container px-md-0">
+      <div class="row">
+
+        <div class="col-12 col-lg-6">
+          <div id="carousel-team-building" class="carousel carousel-zoom-in slide position-relative" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-team-building" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-team-building" data-slide-to="1"></li>
+              <li data-target="#carousel-team-building" data-slide-to="2"></li>
+              <li data-target="#carousel-team-building" data-slide-to="3"></li>
+              <li data-target="#carousel-team-building" data-slide-to="4"></li>
+              <li data-target="#carousel-team-building" data-slide-to="5"></li>
+              <li data-target="#carousel-team-building" data-slide-to="6"></li>
+              <li data-target="#carousel-team-building" data-slide-to="7"></li>
+              <li data-target="#carousel-team-building" data-slide-to="8"></li>
+              <li data-target="#carousel-team-building" data-slide-to="9"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <picture>
+                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-10.jpg" alt="{% trans "Laser" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture>
+                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-9.jpg" alt="{% trans "Laser" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item active">
+                <picture>
+                  <img class="img-fluid" src="/static/img/escape-game-lille-0.jpg" alt="{% trans "Holographique menu" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture>
+                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-1.jpg" alt="{% trans "Mirrors" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture>
+                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-2.jpg" alt="{% trans "Refectory" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture>
+                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-3.jpg" alt="{% trans "Table" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture>
+                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-6.jpg" alt="{% trans "Green fog" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture>
+                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-7.jpg" alt="{% trans "Laser" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture>
+                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-8.jpg" alt="{% trans "Laser" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture>
+                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-11.jpg" alt="{% trans "Laser" %}" >
+                </picture>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-team-building" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">{% trans "Previous" %}</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-team-building" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">{% trans "Next" %}</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <h2 class="text-jaffa mt-4">Team Building ou séminaire dans un centre d'escape game à Lille</h2>
+          <p class="mb-0">Vous recherchez une activité originale pour un afterwork entre collègues&nbsp;? Souhaitez organiser un séminaire d'entreprise mémorable&nbsp;? Alors lisez la suite&nbsp;: Just Escape Lille organisera l'événement qu'il vous faut.</p>
+          <ul class="mb-5">
+            <li>Salle d'escape game sans cadenas. Les énigmes sont des créations originales de Just Escape, inédites à Lille.</li>
+            <li>Organisation de journée ou de soirée sur mesure&nbsp;: salle de réception, cocktail apéritif, cocktail dinatoire, collation sucrée, escape game, jeu d'immersion et bien plus encore.</li>
+          </ul>
+
+          <div class="text-center">
+            <a href="#devis" class="btn btn-primary px-5">
+              <span>Je reçois un devis gratuitement</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
   <div class="jumbotron">
-    <div class="container">
+    <div class="container px-0">
+
+      <div class="row">
+
+        <div class="col-12 col-lg-6 mb-4">
+          <div class="card deepdark border-jaffa h-100">
+            <div class="card-header">
+              <h3 class="text-jaffa text-center mb-0">Salle de réception</h3>
+            </div>
+            <div class="card-body">
+              <p class="mb-0">
+                <div>Le centre d'escape game dispose d'une salle de réception de près de 40m² tout équipé :</div>
+                <ul>
+                  <li>vidéoprojecteur</li>
+                  <li>paperboard</li>
+                  <li>machine à café</li>
+                  <li>wifi haut débit</li>
+                  <li>jeux de société</li>
+                </ul>
+                <div>C'est un lieu idéal pour un séminaire, une formation ou pour un cocktail après une partie d'escape game.</div>
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="text-jaffa text-center">De 2 à 50 personnes</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 mb-4">
+          <div class="card deepdark border-jaffa h-100">
+            <div class="card-header">
+              <h3 class="text-jaffa text-center mb-0">Deux salles d'escape game à Lille</h3>
+            </div>
+            <div class="card-body">
+              <p>Le Digimiam est un scénario original, jouable dans le centre de Lille, qui mêle un univers high-tech à la culture culinaire flamande. Vous allez avoir besoin de coordination et de communication pour résoudre les énigmes en équipe. L'immersion dans une escape room est une excellente occasion de découvrir ses collègues en dehors du contexte professionnel.</p>
+            </div>
+            <div class="card-footer">
+              <div class="text-jaffa text-center">De 2 à 16 joueurs</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-12 col-lg-6 mb-4">
+          <div class="card deepdark border-jaffa h-100">
+            <div class="card-header">
+              <h3 class="text-jaffa text-center mb-0">Jeu d'immersion grandeur nature</h3>
+            </div>
+            <div class="card-body">
+              <p>Vous recherchez une activité ludique et insolite pour des groupes jusqu'à 46 personnes sur Lille ? Optez pour une session de jeux d'immersion grandeur nature dans notre centre d'escape game. Chaque joueur incarne un personnage et doit faire preuve de négociation, de diplomatie et d'improvisation pour parvenir à ses fins. C'est l'occasion parfaite de renforcer la complicité ou de briser la glace. Des comédiens réalisent une mise en situation, puis c'est à vous de jouer pendant 3 heures. Le scénario se prête parfaitement à partager un cocktail dinatoire pendant la partie.</p>
+            </div>
+            <div class="card-footer">
+              <div class="text-jaffa text-center">De 8 à 46 joueurs</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 mb-4">
+          <div class="card deepdark border-jaffa h-100">
+            <div class="card-header">
+              <h3 class="text-jaffa text-center mb-0">Événement personnalisé</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                Vous souhaitez réaliser un séminaire avec des activités originales ? Décrivez votre besoin et Just Escape se charge d'organiser votre événement personnalisé.
+                <ul>
+                  <li>Salle de réunion et collation sucrée</li>
+                  <li>Atelier d'improvisation théâtrale</li>
+                  <li>Afterwork jeu de société</li>
+                  <li>Spectacle de magie</li>
+                  <li>Entretien de recrutement / onboarding atypique</li>
+                  <li>Remise de prix</li>
+                </ul>
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="text-jaffa text-center">Jusqu'à 50 personnes</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <a href="" class="btn btn-primary px-5">
+            <span>Je voudrais en savoir plus (07 89 05 37 90)</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--
+  <div class="jumbotron">
+    <div class="container px-0">
+
       <div class="row mb-3">
-        <h2 class="text-jaffa">{% trans "Most popular packs after a good escape game" %}</h2>
+        <div class="col">
+          <h2 class="text-jaffa">Votre team building chez Just Escape, centre d'escape game à Lille</h2>
+
+          <p>Vous recherchez une activité originale pour un événement d'entreprise ? Vous souhaitez faire un afterwork entre collègues ? Vous voulez renforcer la cohésion de vos équipes ? Alors lisez la suite : le local d'escape game à Lille de Just Escape est l'endroit qu'il vous faut.</p>
+          <p>Situé dans le quartier Moulins, le local d'escape game dispose d'une salle de réception de près de 40m² pouvant accueillir jusqu'à 20 personnes. Une baie vitrée laisse la lumière du jour éclairer tout l'espace. Cette salle est idéale pour un séminaire, une formation ou pour un cocktail après une partie d'escape game. Nos locaux tout équipés disposent d'un vidéoprojecteur, d'un paperboard, d'une machine à café, d'une connection wifi haut débit et de jeux de société.</p>
+        </div>
       </div>
 
       <div class="row mb-3">
-        <div class="table-responsive">
-          <table class="table-team-building">
-            <thead>
-              <tr>
-                <th></th>
-                <th scope="col">
-                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/coffee.svg" %}</span>{% trans "Snack" %}</div>
-                </th>
-                <th scope="col">
-                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/cocktail.svg" %}</span>{% trans "Cocktail" %}</div>
-                </th>
-                <th scope="col">
-                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/glass-cheers.svg" %}</span>{% trans "Dinner aperitif" %}</div>
-                </th>
-                <th scope="col">
-                  <div class="text-jaffa big-noodle size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/presentation.svg" %}</span>{% trans "Workshop" %}</div>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">{% trans "Drinks" %}</th>
-                <td>{% trans "Softs" %}</td>
-                <td>{% trans "Beer or glass&nbsp;of&nbsp;wine" %}</td>
-                <td>{% trans "Beer or glass&nbsp;of&nbsp;wine" %}</td>
-                <td>{% trans "Softs" %}</td>
-              </tr>
-              <tr>
-                <th scope="row">{% trans "Menu" %}</th>
-                <td>
-                  {% trans "<span class='font-weight-bold'>Sweet snack</span> (waffles, fruits, dairy&nbsp;product)" %}
-                </td>
-                <td>
-                  {% trans "<span class='font-weight-bold'>Salted aperitif</span> (dry&nbsp;sausage, cheese, nuts)" %}
-                </td>
-                <td>
-                  {% trans "<span class='font-weight-bold'>Caterer</span>" %}
-                </td>
-                <td>
-                  <span class="d-inline-block svg-24px fill-light">{% include "svg/times.svg" %}</span>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">{% trans "Privatization of the reception room** after the game" %}</th>
-                <td>{% trans "Optional" %}</td>
-                <td>{% trans "Optional" %}</td>
-                <td>{% trans "Optional" %}</td>
-                <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
-              </tr>
-              <tr>
-                <th scope="row">{% trans "Full privatization of the estate" %}</th>
-                <td>{% trans "Optional" %}</td>
-                <td>{% trans "Optional" %}</td>
-                <td>{% trans "Optional" %}</td>
-                <td>{% trans "Optional" %}</td>
-              </tr>
-              <!--
-              <tr>
-                <th scope="row">{ trans "HD printed photos" %}</th>
-                <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
-                <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
-                <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
-                <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
-              </tr>
-              -->
-              <tr>
-                <th scope="row">{% trans "Price" %}</th>
-                <td>{% trans "<span class='text-mulberry'>+15€</span> per participant*" %}</td>
-                <td>{% trans "<span class='text-mulberry'>+20€</span> per participant*" %}</td>
-                <td>{% trans "<span class='text-mulberry'>+35€</span> per participant*" %}</td>
-                <td>{% trans "From <span class='text-mulberry'>100€</span>*" %}</td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="col">
+          <h2 class="text-jaffa">Un team building personnalisé selon votre groupe et votre budget</h2>
+          <ul>
+            <li>Si vous êtes un petit groupe de jusqu'à 8 personnes, vous pouvez simplement réserver une session d'escape room à Lille. Le Digimiam est un scénario original, dans le centre de Lille, qui mêle un univers high-tech à la culture culinaire flamande. Vous allez avoir besoin de coordination et de communication pour résoudre les énigmes en équipe.</li>
+            <li>Vous voulez une solution clef en main pour célébrer une date particulière avec 16 collaborateurs ? Alors privatisez les locaux et jouez des sessions d'escape game synchronisées. Profitez de notre salle de réception et de son cadre cosy pour casser la routine et partager un moment de convivialité. En option, vous pouvez demander une collation sucrée, un cocktail apéritif ou un cocktail dinatoire.</li>
+            <li>Vous recherchez une activité ludique et insolite pour des groupes de 8 à 46 à Lille ? Optez pour une session de jeux d'immersion grandeur nature dans nos locaux de 200m². Chaque joueur incarne un personnage unique et doit faire preuve de négociation, de diplomatie et d'improvisation pour arriver à ses fins. C'est l'occasion parfaite de renforcer la complicité ou de briser la glace. Des comédiens réalisent une mise en situation, puis c'est à vous de vous jouer pendant 3h. En prime, le scénario se prête parfaitement à ce qu'un buffet soit servi pendant la partie.</li>
+          </ul>
+          <p>Vous avez besoin d'un renseignement complémentaire ? Appelez-nous au 07 89 05 37 90.</p>
+          <p>Pour bénéficier de tarifs avantageux pour votre comité d'entreprise, contactez-nous directement.</p>
+          <p>Vous organisez une formation d'une durée de plusieurs jours à plusieurs mois ? Faites-nous part de votre projet. Vous bénéficierez de prix dégressifs en fonction du nombre de journées d'études.</p>
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col">
+          <h2 class="text-jaffa">{% trans "Most popular packs after a good escape game" %}</h2>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <div class="table-responsive">
+            <table class="table-team-building">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th scope="col">
+                    <div class="text-jaffa size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/coffee.svg" %}</span>{% trans "Snack" %}</div>
+                  </th>
+                  <th scope="col">
+                    <div class="text-jaffa size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/cocktail.svg" %}</span>{% trans "Cocktail" %}</div>
+                  </th>
+                  <th scope="col">
+                    <div class="text-jaffa size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/glass-cheers.svg" %}</span>{% trans "Dinner aperitif" %}</div>
+                  </th>
+                  <th scope="col">
+                    <div class="text-jaffa size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/presentation.svg" %}</span>{% trans "Workshop" %}</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">{% trans "Drinks" %}</th>
+                  <td>{% trans "Softs" %}</td>
+                  <td>{% trans "Beer or glass&nbsp;of&nbsp;wine" %}</td>
+                  <td>{% trans "Beer or glass&nbsp;of&nbsp;wine" %}</td>
+                  <td>{% trans "Softs" %}</td>
+                </tr>
+                <tr>
+                  <th scope="row">{% trans "Menu" %}</th>
+                  <td>
+                    {% trans "<span class='font-weight-bold'>Sweet snack</span> (waffles, fruits, dairy&nbsp;product)" %}
+                  </td>
+                  <td>
+                    {% trans "<span class='font-weight-bold'>Salted aperitif</span> (dry&nbsp;sausage, cheese, nuts)" %}
+                  </td>
+                  <td>
+                    {% trans "<span class='font-weight-bold'>Caterer</span>" %}
+                  </td>
+                  <td>
+                    <span class="d-inline-block svg-24px fill-light">{% include "svg/times.svg" %}</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">{% trans "Privatization of the reception room** after the game" %}</th>
+                  <td>{% trans "Optional" %}</td>
+                  <td>{% trans "Optional" %}</td>
+                  <td>{% trans "Optional" %}</td>
+                  <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
+                </tr>
+                <tr>
+                  <th scope="row">{% trans "Full privatization of the estate" %}</th>
+                  <td>{% trans "Optional" %}</td>
+                  <td>{% trans "Optional" %}</td>
+                  <td>{% trans "Optional" %}</td>
+                  <td>{% trans "Optional" %}</td>
+                </tr>
+                <tr>
+                  <th scope="row">{ trans "HD printed photos" %}</th>
+                  <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
+                  <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
+                  <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
+                  <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
+                </tr>
+                <tr>
+                  <th scope="row">{% trans "Price" %}</th>
+                  <td>{% trans "<span class='text-mulberry'>+15€</span> per participant*" %}</td>
+                  <td>{% trans "<span class='text-mulberry'>+20€</span> per participant*" %}</td>
+                  <td>{% trans "<span class='text-mulberry'>+35€</span> per participant*" %}</td>
+                  <td>{% trans "From <span class='text-mulberry'>100€</span>*" %}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
 
       <div class="row">
-        <p class="small mb-1">{% trans "(*) Price excluding tax. Does not include the price of a game session (starting at 20€ excluding tax per person)." %}</p>
+        <div class="col">
+          <p class="small mb-1">{% trans "(*) Price excluding tax. Does not include the price of a game session (starting at 20€ excluding tax per person)." %}</p>
+        </div>
       </div>
       <div class="row mb-3">
-        <p class="small">{% trans "(**) 30&nbsp;m² room with tables, sofas, coffee, tea, video projector, board games." %}</p>
+        <div class="col">
+          <p class="small">{% trans "(**) 30&nbsp;m² room with tables, sofas, coffee, tea, video projector, board games." %}</p>
+        </div>
       </div>
 
       <div class="row justify-content-center">
@@ -118,14 +357,14 @@
         </a>
       </div>
     </div>
-  </div>
+  </div>-->
 
   <div class="jumbotron softdark">
     <div class="container">
       <div class="row">
         <div class="col-12 px-0 px-sm-3">
           <span id="devis" class="anchor">&nbsp;</span>
-          <h2 class="text-jaffa mb-4">{% trans "Quote form" %}</h2>
+          <h2 class="text-jaffa mb-4">Je demande un devis</h2>
         </div>
        </div>
 

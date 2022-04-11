@@ -13,6 +13,30 @@
 
 /* document */
 @font-face {
+    font-family: "Inter";
+    font-display: swap;
+    src: url('/static/font/inter-regular.eot');
+    src: url('/static/font/inter-regular.eot?#iefix') format('embedded-opentype'),
+        url('/static/font/inter-regular.woff2') format('woff2'),
+        url('/static/font/inter-regular.woff') format('woff'),
+        url('/static/font/inter-regular.ttf') format('truetype');
+    unicode-range: U+000-5FF, U+20AC; /* Latin */ 
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: bold;
+    font-display: swap;
+    src: url('/static/font/inter-extrabold.eot');
+    src: url('/static/font/inter-extrabold.eot?#iefix') format('embedded-opentype'),
+        url('/static/font/inter-extrabold.woff2') format('woff2'),
+        url('/static/font/inter-extrabold.woff') format('woff'),
+        url('/static/font/inter-extrabold.ttf') format('truetype');
+    unicode-range: U+000-5FF, U+20AC; /* Latin */
+}
+
+/*
+@font-face {
     font-family: "Big Noodle";
     font-style: normal;
     font-display: swap;
@@ -21,7 +45,7 @@
         url('/static/font/big-noodle.woff2') format('woff2'),
         url('/static/font/big-noodle.woff') format('woff'),
         url('/static/font/big-noodle.ttf') format('truetype');
-    unicode-range: U+000-5FF, U+20AC; /* Latin */
+    unicode-range: U+000-5FF, U+20AC;
 }
 
 @font-face {
@@ -33,8 +57,9 @@
         url('/static/font/big-noodle-oblique.woff2') format('woff2'),
         url('/static/font/big-noodle-oblique.woff') format('woff'),
         url('/static/font/big-noodle-oblique.ttf') format('truetype');
-    unicode-range: U+000-5FF; /* Latin */
+    unicode-range: U+000-5FF;
 }
+*/
 
 @font-face {
     font-family: "Roboto";
@@ -100,9 +125,51 @@ body {
     color: #f8f9fa;
 }
 
+.transparent {
+    background-color: transparent;
+}
+
+.card.transparent .card-header {
+    background-color: transparent;
+    border-bottom: 0px solid transparent;
+}
+
 .light {
     background-color: #f8f9fa;
     color: #3c3c3e;
+}
+
+.gradient-mulberry-jaffa {
+    background: linear-gradient(to right, #cb4299, #f38d40);
+    color: #f8f9fa;
+}
+
+.extension {
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.extension-top {
+    top: -40px;
+}
+
+.extension-corner-bottom-right {
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
+}
+
+.extension-bottom {
+    bottom: -40px;
+}
+
+.extension-corner-top-right {
+    clip-path: polygon(0% 0%, 100% 100%, 100% 0%);
+}
+
+.extension-corner-top-left {
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
 }
 
 .deeplight {
@@ -118,8 +185,27 @@ body {
 /* background */
 
 /* text */
-h1, h2, h3, h4, h5, h6, .big-noodle {
-    font-family: "Big Noodle", "Helvetica", "Arial", "sans-serif";
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Inter", "Helvetica", "Arial", "sans-serif";
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.text-inter {
+    font-family: "Inter", "Helvetica", "Arial", "sans-serif";
+    text-transform: uppercase;
 }
 
 .text-oblique {
@@ -138,6 +224,10 @@ a {
 a:hover {
     color: inherit;
     text-decoration: none;
+}
+
+.text-light {
+    color: #f8f9fa;
 }
 
 .text-jaffa, a.text-jaffa:hover, .text-hover-jaffa:hover {
@@ -164,6 +254,10 @@ a:hover {
     font-size: 1rem;
 }
 
+.size-11 {
+    font-size: 1.1rem;
+}
+
 .size-12 {
     font-size: 1.2rem;
 }
@@ -176,6 +270,16 @@ a:hover {
     font-size: 1.75rem;
 }
 
+.size-2 {
+    font-size: 2rem;
+}
+
+@media (min-width: 992px) {
+    .size-lg-2 {
+        font-size: 2rem;
+    }
+}
+
 .size-25 {
     font-size: 2.5rem;
 }
@@ -184,8 +288,18 @@ a:hover {
     font-size: 3.5rem;
 }
 
+@media (min-width: 600px) {
+    .size-sm-35 {
+        font-size: 3.5rem;
+    }
+}
+
 .size-5 {
     font-size: 5rem;
+}
+
+.lh-1 {
+    line-height: 1;
 }
 
 .lh-12 {
@@ -325,26 +439,18 @@ a:hover {
 }
 
 .just-escape-logo h1 {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     line-height: 24px;
     transition: transform 0.5s ease-in-out, font-size 0.5s ease-in-out;
 }
 
 @media (min-width: 992px) {
     .just-escape-logo h1 {
-        font-size: 1.1rem;
-        transform: translateY(-12px);
+        font-size: 0.9rem;
     }
 
     .reduced .just-escape-logo h1 {
-        font-size: 0.95rem;
-        transform: translateY(-12px);
-    }
-}
-
-@media (min-width: 1200px) {
-    .reduced .just-escape-logo h1 {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -371,12 +477,12 @@ a:hover {
     border-color: #3c3c3e;
 }
 
-.size-reductible-2 {
-    font-size: 1.7rem;
+.size-reductible-nav {
+    font-size: 1rem;
 }
 
-.size-reductible-15 {
-    font-size: 1.2rem;
+.size-reductible-nav-bis {
+    font-size: 0.8rem;
 }
 
 .svg-24px-reductible svg {
@@ -385,31 +491,27 @@ a:hover {
 }
 
 @media (min-width: 992px) {
-    .size-reductible-2 {
-        font-size: 2rem;
+    .size-reductible-nav {
+        font-size: 1.2rem;
         transition: color 0.2s ease-in-out, font-size 0.5s ease-in-out;
     }
 
-    .reduced .size-reductible-2 {
-        font-size: 1.7rem;
+    .reduced .size-reductible-nav {
+        font-size: 1rem;
     }
 
-    .size-reductible-15 {
-        font-size: 1.2rem;
-    }
-
-    .size-reductible-15 {
-        font-size: 1.5rem;
+    .size-reductible-nav-bis {
+        font-size: 0.8rem;
         transition: color 0.2s ease-in-out, font-size 0.5s ease-in-out;
     }
-    
-    .reduced .size-reductible-15 {
-        font-size: 1.2rem;
+
+    .reduced .size-reductible-nav-bis {
+        font-size: 0.8rem;
     }
 
     .svg-24px-reductible svg {
-        width: 24px;
-        height: 24px;
+        width: 19px;
+        height: 19px;
         transition: height 0.5s ease-in-out, width 0.5s ease-in-out;
     }
     
@@ -447,19 +549,9 @@ a:hover {
     }
 }
 
-.content-cover {
-    top: -90px;
-}
-
 .img-cover {
     height: 100vh;
     object-fit: cover;
-}
-
-@media (min-width: 992px) {
-    .content-cover {
-        top: -155px;
-    }
 }
 /* navheader */
 
@@ -467,12 +559,27 @@ a:hover {
 .btn > span, .nav-button > span {
     z-index: 3;
     position: relative;
-    font-family: "Big Noodle", "Helvetica", "Arial", "sans-serif";
-    font-style: oblique;
+    font-family: "Inter", "Helvetica", "Arial", "sans-serif";
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .btn > span {
-    font-size: 1.42rem;
+    font-size: 1rem;
+}
+
+.btn-inter {
+    font-family: "Inter", "Helvetica", "Arial", "sans-serif";
+    font-weight: bold;
+    font-style: normal;
+    background: linear-gradient(to right, #cb4299, #f38d40);
+    color: #f8f9fa;
+    border: 0px solid transparent;
+    text-transform: uppercase;
+}
+
+.btn-inter:hover {
+    color: #f8f9fa;
 }
 
 .btn-primary, .nav-button {
@@ -541,6 +648,27 @@ a:hover {
 }
 
 .btn-secondary:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 168, 102, 0.5);
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    border-color: transparent;
+    color: #cb4299;
+}
+
+.btn-light:hover {
+    background-color: #f8f9fa;
+    border-color: transparent;
+    color: #cb4299;
+}
+
+.btn-light:not(:disabled):not(.disabled):active {
+    background-color: #f8f9fa;
+    color: #cb4299;
+}
+
+.btn-light:focus, .btn-light:not(:disabled):not(.disabled):active:focus {
     box-shadow: 0 0 0 0.2rem rgba(255, 168, 102, 0.5);
 }
 /* button */
@@ -688,8 +816,9 @@ input.form-control, select.form-control, textarea.form-control, .input-group > .
 }
 
 input.form-control, select.form-control {
-    font-family: "Big Noodle", "Arial Black", "sans-serif";
-    font-size: 1.42rem;
+    font-family: "Inter", "Arial Black", "sans-serif";
+    text-transform: uppercase;
+    font-size: 1rem;
 }
 
 input.form-control:focus, select.form-control:focus, textarea.form-control:focus {
@@ -700,8 +829,9 @@ input.form-control:focus, select.form-control:focus, textarea.form-control:focus
 }
 
 input.form-control::placeholder {
-    font-family: "Big Noodle", "Arial Black", "sans-serif";
-    font-size: 1.4rem;
+    font-family: "Inter", "Arial Black", "sans-serif";
+    text-transform: uppercase;
+    font-size: 1rem;
     color: #545457;
 }
 
@@ -818,6 +948,14 @@ input.form-control::placeholder {
 
 .border-jaffa {
     border-color: #f38d40;
+}
+
+.border-light {
+    border-color: #f8f9fa;
+}
+
+.border-2px {
+    border-width: 2px;
 }
 
 .rotate-90 {
@@ -992,6 +1130,40 @@ video {
     width: 100%;
     height: auto;
     display: block; /* Removes a mysterious margin bottom */
+}
+
+.carousel-zoom-in .carousel-item img {
+    transition: transform 5s linear;
+}
+
+.carousel-zoom-in .carousel-item.active img {
+    transform: scale(1.05);
+}
+
+.zoom-in-out {
+    animation: keyframes-zoom-in-out 20s linear infinite;
+}
+
+@keyframes keyframes-zoom-in-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.05, 1.05);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.content-cover {
+    height: 75vh;
+}
+
+@media (min-width: 992px) {
+    .content-cover {
+        height: 88vh;
+    }
 }
 /* misc */
 

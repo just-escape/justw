@@ -20,41 +20,41 @@
     </header>
 
     <nav class="collapse nav-collapse box-light-shadow d-lg-flex flex-column-reverse z-2 z-lg-1{% if cover %} nav-cover{% endif %}" id="navbar">
-      <div class="big-noodle text-oblique my-3 my-lg-0">
+      <div class="text-inter my-3 my-lg-0">
         <div class="container">
           <ul class="row ul-no-style pl-0 mb-0 text-lg-center">
-            <li class="z-4 col-12 col-sm-3 col-lg-2 my-auto text-left text-sm-center px-sm-0">
-              <a class="text-hover-mulberry size-reductible-2 py-2 px-3" href="/{{ lang }}salles">{% trans "Rooms" %}</a>
+            <li class="z-4 col-12 col-sm-3 col-lg-2 my-1 my-md-auto text-left text-sm-center px-sm-0">
+              <a class="font-weight-bold text-hover-mulberry size-reductible-nav py-2 px-3" href="/{{ lang }}salles">{% trans "Rooms" %}</a>
             </li>
-            <li class="z-4 col-12 col-sm-3 col-lg-2 my-auto text-left text-sm-center px-sm-0">
-              <a class="size-reductible-2 py-2 px-3 nav-button" href="/{{ lang }}reserver"><span>{% trans "Booking" %}</span></a>
+            <li class="z-4 col-12 col-sm-3 col-lg-2 my-1 my-md-auto text-left text-sm-center px-sm-0">
+              <a class="font-weight-bold size-reductible-nav py-2 px-3 nav-button" href="/{{ lang }}reserver"><span>{% trans "Booking" %}</span></a>
             </li>
             <!-- Space left for the logo in lg+ -->
             <li class="col-0 col-lg-4 d-none d-lg-block space-for-logo"></li>
-            <li class="z-4 col-12 col-sm-3 col-lg-2 my-auto text-left text-sm-center px-sm-0">
-              <a class="size-reductible-2 text-hover-mulberry py-2 px-3" href="/{{ lang }}tarifs">{% trans "Pricing" %}</a>
+            <li class="z-4 col-12 col-sm-3 col-lg-2 my-1 my-md-auto text-left text-sm-center px-sm-0">
+              <a class="font-weight-bold size-reductible-nav text-hover-mulberry py-2 px-3" href="/{{ lang }}tarifs">{% trans "Pricing" %}</a>
             </li>
-            <li class="z-4 col-12 col-sm-3 col-lg-2 my-auto text-left text-sm-center px-sm-0">
-              <a class="size-reductible-2 text-hover-mulberry py-2 px-3 px-sm-0" href="/{{ lang }}team-building">{% trans "Team Building" %}</a>
+            <li class="z-4 col-12 col-sm-3 col-lg-2 my-1 my-md-auto text-left text-sm-center px-sm-0">
+              <a class="font-weight-bold size-reductible-nav text-hover-mulberry py-2 px-3 px-sm-0" href="/{{ lang }}team-building">{% trans "Team Building" %}</a>
             </li>
           </ul>
         </div>
       </div>
 
-      <div class="big-noodle dark">
+      <div class="text-inter dark">
         <div class="container">
           <div class="row justify-content-end">
             <div class="col">
-              <div class="d-flex flex-column flex-sm-row justify-content-md-end justify-content-sm-between ml-3 ml-lg-0 my-1 my-lg-0">
+              <div class="d-flex flex-column flex-sm-row justify-content-md-end justify-content-sm-between ml-3 ml-lg-0 my-1">
                 <ul class="d-flex flex-column flex-sm-row ul-no-style pl-0 my-2 my-sm-0">
                   <li>
-                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}faq">{% trans "FAQ" %}</a>
+                    <a class="size-reductible-nav-bis text-hover-mulberry mr-4" href="/{{ lang }}faq">{% trans "FAQ" %}</a>
                   </li>
                   <li>
-                    <a class="size-reductible-15 text-hover-mulberry mr-4" href="/{{ lang }}contact">{% trans "Contact" %}</a>
+                    <a class="size-reductible-nav-bis text-hover-mulberry mr-4" href="/{{ lang }}contact">{% trans "Contact" %}</a>
                   </li>
                   <li>
-                    <span class="size-reductible-15 opacity-04 {% if localized %}mr-5 {% endif %}not-allowed" title="{% trans "Soon" %}" data-placement="bottom" data-toggle="tooltip">{% trans "Blog" %}</span>
+                    <span class="size-reductible-nav-bis opacity-04 {% if localized %}mr-5 {% endif %}not-allowed" title="{% trans "Soon" %}" data-placement="bottom" data-toggle="tooltip">{% trans "Blog" %}</span>
                   </li>
                 </ul>
                 {% if localized %}
@@ -62,7 +62,7 @@
                   <span class="svg-24px-reductible fill-light align-sub mr-2">
                     {% include "svg/language.svg" %}
                   </span>
-                  <span class="size-reductible-15">
+                  <span class="size-reductible-nav-bis">
                     <a class="text-hover-mulberry" href="/en/{{ current_page }}">{% trans "EN" %}</a> | <a class="text-hover-mulberry" href="/{{ current_page }}">{% trans "FR" %}</a>
                   </span>
                 </div>

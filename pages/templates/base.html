@@ -89,13 +89,31 @@
     <main class="flex-grow-1">
       <!--
       <div class="disclaimer alert alert-dismissible fade show">
-        <div class="big-noodle size-15">{% trans "Notice" %}</div>
+        <div class="size-15">{% trans "Notice" %}</div>
         <div class="size-09">{% trans "Just Escape is being created and will open soon" %}</div>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       -->
+
+      <!--{% if current_page == 'home2' %}
+      <div class="position-fixed" style="bottom: 10px; right: 10px; z-index: 100">
+        <div class="d-flex flex-column dark border-solid border-jaffa rounded py-1 px-2">
+          <div class="text-jaffa size-15 text-right">
+            Appelez-nous
+          </div>
+          <div>
+            <span class="svg-24px fill-light align-sub mr-2">
+              {% include "svg/phone.svg" %}
+            </span>
+            <span class="size-15">
+              {% trans "<a href='tel:+33789053790' class='text-hover-mulberry text-underline'>+33 7 89 05 37 90</a><br>" %}
+            </span>
+          </div>
+        </div>
+      </div>
+      {% endif %}-->
 
       {% block pre_content %}
       <div class="jumbotron-fluid light">

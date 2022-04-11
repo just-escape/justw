@@ -14,335 +14,304 @@
 
 {% block content %}
 
-  <section class="jumbotron-fluid content-cover">
+  <div class="jumbotron-fluid content-cover position-relative">
+    <picture>
+      <source media="(max-width: 599.98px)" srcset="/static/img/lola_home_600.jpg" type="image/jpg">
+      <source media="(min-width: 600px, max-width: 991.98px)" srcset="/static/img/lola_home.jpg" type="image/jpg">
+      <source media="(min-width: 992px)" srcset="/static/img/lola_home_1700.jpg" type="image/jpg">
+      <img class="position-absolute zoom-in-out" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/lola_home.jpg">
+    </picture>
 
-    <span id="nos-salles" class="anchor">&nbsp;</span>
-
-    <div id="carousel-digimiam" class="carousel slide position-relative" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-digimiam" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-digimiam" data-slide-to="1"></li>
-        <li data-target="#carousel-digimiam" data-slide-to="2"></li>
-        <li data-target="#carousel-digimiam" data-slide-to="3"></li>
-        <li data-target="#carousel-digimiam" data-slide-to="4"></li>
-        <li data-target="#carousel-digimiam" data-slide-to="5"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <picture>
-            <source srcset="/static/img/digimiam-menu-holographique.webp" type="image/webp">
-            <source srcset="/static/img/digimiam-menu-holographique.jpg" type="image/jpg">
-            <img class="img-fluid w-100 img-cover" src="/static/img/digimiam-menu-holographique.jpg" alt="{% trans "Holographique menu" %}" >
-          </picture>
-        </div>
-        <div class="carousel-item">
-          <picture>
-            <source srcset="/static/img/digimiam-miroirs.webp" type="image/webp">
-            <source srcset="/static/img/digimiam-miroirs.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 img-cover" src="/static/img/digimiam-miroirs.jpg" alt="{% trans "Mirrors" %}" >
-          </picture>
-        </div>
-        <div class="carousel-item">
-          <picture>
-            <source srcset="/static/img/digimiam-refectoire.webp" type="image/webp">
-            <source srcset="/static/img/digimiam-refectoire.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 img-cover" src="/static/img/digimiam-refectoire.jpg" alt="{% trans "Refectory" %}" >
-          </picture>
-        </div>
-        <div class="carousel-item">
-          <picture>
-            <source srcset="/static/img/digimiam-table.webp" type="image/webp">
-            <source srcset="/static/img/digimiam-table.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 img-cover" src="/static/img/digimiam-table.jpg" alt="{% trans "Table" %}" >
-          </picture>
-        </div>
-        <div class="carousel-item">
-          <picture>
-            <source srcset="/static/img/digimiam-brume-verte.webp" type="image/webp">
-            <source srcset="/static/img/digimiam-brume-verte.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 img-cover" src="/static/img/digimiam-brume-verte.jpg" alt="{% trans "Green fog" %}" >
-          </picture>
-        </div>
-        <div class="carousel-item">
-          <picture>
-            <source srcset="/static/img/digimiam-laser.webp" type="image/webp">
-            <source srcset="/static/img/digimiam-laser.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 img-cover" src="/static/img/digimiam-laser.jpg" alt="{% trans "Laser" %}" >
-          </picture>
-        </div>
-      </div>
-
-      <div class="position-absolute w-100" style="bottom: 3rem;">
-        <div class="container justify-content-end">
-          <div class="row justify-content-end">
-              <div class="col-12 col-md-8 col-lg-6">
-                <div class="card deepdark border-jaffa" style="background: rgba(45, 45, 45, 0.75); color: var(--light)">
-                <div class="card-header">
-                  <h2 class="card-title text-center text-jaffa mb-0">
-                    {% trans "The Digimiam" %}
-                  </h2>
-                  <div class="font-italic text-center">{% trans "Cybernetic estaminet" %}</div>
-                </div>
-                <div class="card-body">
-                  <div class="d-flex flex-column text-justify">
-                    <div class="mb-3">{% trans "In 2080, the last estaminet in Lille has just closed. The neurons of culinary intelligence have short-circuited. The owner, Ms. Pepper, is counting on you to restore the refectory. Will you manage to save one of the last emblematic places of Flemish culture?" %}</div>
-                    <div class="d-flex flex-column">
-                      <div class="d-flex justify-content-end mb-2">
-                        {% trans "Difficulty: adapted to your group" %}
-                      </div>
-                      <div class="mb-2">
-                        <div class="d-flex justify-content-end flex-sm-row">
-                          <span class="lh-24px mr-2">{% trans "2 - 8 players (on 2 rooms)" %}</span>
-                          <div class="position-relative">
-                            <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/users.svg" %}</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="mb-2">
-                        <div class="d-flex justify-content-end flex-sm-row">
-                          <span class="lh-24px mr-2">{% trans "60 minutes" %}</span>
-                          <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/chrono.svg" %}</span>
-                        </div>
-                      </div>
-                      <div class="mb-2">
-                        <div class="d-flex justify-content-end flex-sm-row">
-                          <span class="lh-24px mr-2">{% trans "FR" %}</span>
-                          <span class="d-inline-block svg-24px fill-jaffa align-top">{% include "svg/lang.svg" %}</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-center d-flex flex-column">
-                  <div class="mb-2">
-                    <a href="/{{ lang }}salles" class="btn btn-primary px-5">
-                      <span>{% trans "Watch the trailer" %}</span>
-                    </a>
-                  </div>
-                  <div>
-                    <a href="/{{ lang }}reserver" class="text-underline text-hover-mulberry">
-                      {% trans "Book now" %}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col d-flex flex-column justify-content-end" style="margin-bottom: 100px">
+          <h1 class="text-light text-inter size-2 size-sm-35"><span class="font-weight-bold">{% trans "Escape Game Lille" %}</span><br><span style="font-weight: normal">{% trans "nouvelle génération" %}</span></h1>
+          <div>
+            <a href="/{{ lang }}reserver" class="btn btn-inter p-3 size-12"><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/calendar-check.svg" %}</span>{% trans "Je réserve une séance" %}</a>
           </div>
         </div>
       </div>
     </div>
 
-  </section>
+  </div>
 
-  <section class="jumbotron light">
+  <div class="jumbotron gradient-mulberry-jaffa position-relative">
+    <div class="gradient-mulberry-jaffa extension extension-top extension-corner-bottom-right"></div>
+    <div class="gradient-mulberry-jaffa extension extension-bottom extension-corner-top-right"></div>
+
     <div class="container">
       <div class="row mb-4">
         <div class="col-12 text-center">
-          <span id="quid" class="anchor">&nbsp;</span>
-          <h2>{% trans "The concept of Escapes Games" %}</h2>
+          <h2 class="text-inter font-weight-bold">{% trans "L'originalité de Just Escape" %}</h2>
         </div>
       </div>
       <div class="row">
-        <article class="col-12 col-lg-4 mb-4">
-          <h3 class="text-center">{% trans "Escape the Room" %}</h3>
-          <p class="text-justify">{% trans "The principle of <strong>live escape games</strong> is to lock a group of players in a theme room. The challenge is to <strong class='font-weight-normal'>escape by solving all the puzzles</strong> in <span class='font-weight-bold'>less than one hour</span><span class='emoji'>&nbsp;⏳</span>. Fun and immersive, the <strong class='font-weight-normal'>live escape game</strong> is a hobby that combines <strong>team work</strong>, <span class='font-weight-bold'>communication</span> and <span class='font-weight-bold'>logic</span>. Escape games are an outing to do in <strong>family</strong>, between <strong>friends</strong> or in <strong>couple</strong><span class='emoji'>&nbsp;😃</span>." %}</p>
-        </article>
-        <article class="col-12 col-lg-4 mb-4">
-          <h3 class="text-center">{% trans "The originality of Just Escape" %}</h3>
-          <p class="text-justify">{% trans "Just Escape is a <strong>2.0 escape game</strong> in which you are offered original puzzles <span class='font-weight-bold'>without any lockers</span><span class='emoji'>&nbsp;🎯</span>. We also focus on the quality of immersion by creating film-like sceneries<span class='emoji'>&nbsp;🗿</span>. <span class='font-weight-bold'>Fully connected</span> puzzles affect the atmosphere of the rooms to offer you <span class='font-weight-bold'>the most realistic experience possible</span>. The first room can be played by <strong>two people at an affordable price</strong>." %}</p>
-        </article>
-        <article class="col-12 col-lg-4 mb-4">
-          <h3 class="text-center">{% trans "Teambuilding, Bachelor party" %}</h3>
-          <p class="text-justify">{% trans "We have attractive prices for events like <strong>birthdays</strong>, <strong>stag or hen parties</strong><span class='emoji'>&nbsp;🎁</span>. Just Escape also provides <strong class='font-weight-normal'>turnkey solutions</strong> for <strong>team building</strong> and workshop (<span class='font-weight-bold'>relaxation area</span>, <span class='font-weight-bold'>dinner aperitif</span>, etc). This is an excellent opportunity to strengthen <strong>team cohesion</strong><span class='emoji'>&nbsp;😄</span>. This activity is suitable for beginners as well as passionate thanks to adaptative clues." %}</p>
-        </article>
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-header">
+              <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "Des énigmes inédites" %}</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+              {% trans "Résolvez des énigmes originales que vous découvrez pour la première fois. Retrouvez des mécanismes modernes dans des salles complètement insolites &quot;0&nbsp;cadenas&quot;." %}
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-header">
+              <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "La difficulté s'adapte à votre groupe" %}</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+              {% trans "Profitez d'un scénario amusant, que vous ayant un niveau débutant ou expert. Le game master peut adapter la difficulté pour rendre votre session la plus fun possible." %}
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-header">
+              <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "Des décors immersifs" %}</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+              {% trans "Vivez l'immersion au format grandeur nature. Des décors et une mise en scène digne de cinéma vous attendent. En prime, les énigmes 100&#37; connectées influent sur l'ambiance son et lumière&nbsp;!" %}
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-header">
+              <h3 class="text-center text-inter font-weight-bold">{% trans "Qu'est-ce qu'un escape game&nbsp;?" %}</h3>
+              <div class="text-center font-italic size-11">{% trans "Mais au fait..." %}</div>
+            </div>
+            <div class="card-body size-11 text-center pt-0">
+              <p class="lh-12">
+                {% trans "Le principe des jeux d'évasion grandeur nature est d'enfermer un groupe de joueurs dans une salle à thème. Le challenge est de résoudre des énigmes en équipe pour vous échapper en moins d'une heure." %}
+              </p>
+              <p class="lh-12">
+                {% trans "Un maître du jeu veille sur vous pour s'assurer que tout se passe bien." %}
+              </p>
+              <p class="lh-12 mb-0">
+                {% trans "Le jeu d'évasion est un loisir à découvrir entre amis, en famille ou en couple à partir de 2 joueurs." %}
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section class="jumbotron">
-    <div class="container">
-      <div class="row mb-4">
-        <div class="col-12 text-center">
-          <span id="promotions" class="anchor">&nbsp;</span>
-          <h2>{% trans "What is the price of a scenario?" %}</h2>
+  <div class="jumbotron light position-relative">
+    <div class="light extension extension-bottom extension-corner-top-left"></div>
+
+    <div class="container px-0" style="margin-top: 40px">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-inter font-weight-bold mb-0 text-center">{% trans "Les escape rooms" %}</h2>
+          <div class="text-inter text-center size-12 mb-5">{% trans "Découvrez les scénarios" %}</div>
         </div>
       </div>
 
-      <div class="row d-flex justify-content-center flex-wrap mb-4">
-
-        <div class="col-12 col-md-8 col-lg-3 order-2 order-lg-0 mb-4">
-          <div class="card deepdark border-jaffa h-100">
-            <div class="card-header">
-              <h3 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/user-tie.svg" %}</span>{% trans "Corporate" %}</h3>
-            </div>
-            <div class="card-body d-flex align-items-center justify-content-center flex-column">
-              <p class="card-text text-center">{% trans "It&#39;s tough to motivate your teams in&nbsp;2022." %}</p>
-              <p class="card-text text-center">{% trans "Fortunately, we have <a class='text-underline text-hover-mulberry' href='/en/team-building'>turnkey Team&nbsp;Building packages</a>." %}</p>
-            </div>
-            <div class="card-footer text-center">
-              <p class="card-text size-09">{% trans "<span class='text-jaffa'>Suggested for:</span>" %} {% trans "Seminar, Workshop, Teambuilding" %}</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-8 col-lg-3 order-0 order-lg-1 mb-4">
-          <div class="card deepdark border-jaffa h-100">
-            <div class="card-body text-center mt-4 mb-5">
-              <h3 class="size-5 card-title text-jaffa">{% trans "25€" %}</h3>
-              <p class="card-text font-italic">
-                {% trans "Per person" %}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-8 col-lg-3 order-1 order-lg-2 mb-4">
-          <div class="card deepdark border-jaffa h-100">
-            <div class="card-header">
-              <h3 class="card-title text-center text-jaffa mb-0"><span class="d-inline-block svg-24px fill-jaffa align-text-bottom mr-2">{% include "svg/gift.svg" %}</span>{% trans "Gift card" %}</h3>
-            </div>
-            <div class="card-body d-flex align-items-center justify-content-center flex-column">
-              <p class="card-text text-center">{% trans "Your friends and family will love you with this <a href='/en/carte-cadeau' class='text-underline text-hover-mulberry'>gift&nbsp;box</a>." %}</p>
-            </div>
-            <div class="card-footer text-center">
-              <p class="card-text size-09">{% trans "<span class='text-jaffa'>Suggested for:</span>" %} {% trans "Birthday, Christmas, Money&nbsp;pot, Lottery" %}</p>
-            </div>
-          </div>
-        </div>
-
-        <!--
-        <div class="col-12 col-md-8 col-lg-3 mb-4">
-          <div class="card deepdark border-jaffa h-100">
-            <div class="card-body text-center mt-4 mb-5">
-              <h3 class="size-5 card-title text-jaffa">{ trans "-20&#37;" %}</h3>
-              <p class="card-text font-italic">
-                { trans "Off-peak hours" %}
-              </p>
-              <p class="card-text font-italic small">
-                { trans "From monday to friday until 4PM (included)" %}
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-8 col-lg-3 mb-4">
-          <div class="card deepdark border-jaffa h-100">
-            <div class="card-body text-center mt-4 mb-5">
-              <h3 class="size-5 card-title text-jaffa">{ trans "-30&#37;" %}</h3>
-              <p class="card-text font-italic">
-                { trans "For <span class='font-weight-bold text-mulberry'>students</span>" %}
-              </p>
-              <p class="card-text font-italic small">
-                { trans "Online payments are made at full price. Refund of the difference on site upon presentation of the card." %}
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-8 col-lg-3 mb-4">
-          <div class="card deepdark border-jaffa h-100">
-            <div class="ribbon ribbon-top-left ribbon-jaffa"><span>{ trans "Out of stock" %}</span></div>
-            <div class="card-body text-center">
-              <h3 class="size-35 card-title text-jaffa">{ trans "Special offer" %}</h3>
-              <p class="card-text font-italic small">{ trans "The last special offer is out of stock" %}</p>
-              <p class="card-text font-italic small">{ trans "We invite you to wait" %}</p>
-              <a class="btn btn-secondary float-right border-0" href="#newsletter">
-                <span>{ trans "Get notified" %}</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        -->
-      </div>
-
-      <div class="row justify-content-center mb-2">
-        <!--
-        <div class="col-6 col-md-4 col-lg-2 pr-1">
-          <a href="/{ lang }}tarifs#formules" class="btn btn-secondary btn-block">
-            <span>{ trans "Formulas" %}</span>
-          </a>
-        </div>
-        -->
-        <div class="col-6 col-md-4 col-lg-2 pl-1">
-          <a href="/{{ lang }}reserver" class="btn btn-primary btn-block">
-            <span>{% trans "Book now" %}</span>
-          </a>
-        </div>
-      </div>
       <div class="row justify-content-center">
-        <a href="/{{ lang }}team-building#devis" class="size-09 text-underline text-hover-mulberry">{% trans "Company quote" %}</a>
+        <div class="col-12 col-lg-10 col-xl-8">
+          <div class="card deepdark py-4 px-0 px-sm-4">
+            <div class="card-header d-flex flex-column flex-md-row justify-content-between">
+              <div class="d-flex flex-column mb-3 mb-md-0 justify-content-center">
+                <div class="text-inter font-weight-bold lh-1 size-2">{% trans "Le Digimiam" %}</div>
+                <div class="size-15 lh-1">{% trans "Estaminet cybernétique" %}</div>
+              </div>
+              <div class="d-flex flex-column align-items-end justify-content-center">
+                <div>
+                  <span class="lh-24px">{% trans "2 à 8 joueurs (sur 2 salles)" %}</span>
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                </div>
+                <div>
+                  <span class="lh-24px">{% trans "60 minutes" %}</span>
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                </div>
+                <div>
+                  <span class="lh-24px">{% trans "FR" %}</span>
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/lang.svg" %}</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+
+              <div id="carousel-digimiam" class="carousel carousel-zoom-in slide mb-3" data-ride="carousel" data-interval="3000">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-digimiam" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-digimiam" data-slide-to="1"></li>
+                  <li data-target="#carousel-digimiam" data-slide-to="2"></li>
+                  <li data-target="#carousel-digimiam" data-slide-to="3"></li>
+                  <li data-target="#carousel-digimiam" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <picture>
+                      <source srcset="/static/img/escape-game-lille-joueurs.webp" type="image/webp">
+                      <source srcset="/static/img/escape-game-lille-joueurs.jpg" type="image/jpg">
+                      <img class="img-fluid w-100" src="/static/img/escape-game-lille-joueurs.jpg" alt="{% trans "Refectory" %}" >
+                    </picture>
+                  </div>
+                  <div class="carousel-item">
+                    <picture>
+                      <source srcset="/static/img/escape-game-lille-enigme.webp" type="image/webp">
+                      <source srcset="/static/img/escape-game-lille-enigme.jpg" type="image/jpg">
+                      <img loading="lazy" class="img-fluid w-100" src="/static/img/escape-game-lille-enigme.jpg" alt="{% trans "Mirrors" %}" >
+                    </picture>
+                  </div>
+                  <div class="carousel-item">
+                    <picture>
+                      <source srcset="/static/img/escape-game-lille-room.webp" type="image/webp">
+                      <source srcset="/static/img/escape-game-lille-room.jpg" type="image/jpg">
+                      <img loading="lazy" class="img-fluid w-100" src="/static/img/escape-game-lille-room.jpg" alt="{% trans "Table" %}" >
+                    </picture>
+                  </div>
+                  <div class="carousel-item">
+                    <picture>
+                      <source srcset="/static/img/escape-game-lille-manipulation.webp" type="image/webp">
+                      <source srcset="/static/img/escape-game-lille-manipulation.jpg" type="image/jpg">
+                      <img loading="lazy" class="img-fluid w-100" src="/static/img/escape-game-lille-manipulation.jpg" alt="{% trans "Green fog" %}" >
+                    </picture>
+                  </div>
+                  <div class="carousel-item">
+                    <picture>
+                      <source srcset="/static/img/escape-game-lille-laser.webp" type="image/webp">
+                      <source srcset="/static/img/escape-game-lille-laser.jpg" type="image/jpg">
+                      <img loading="lazy" class="img-fluid w-100" src="/static/img/escape-game-lille-laser.jpg" alt="{% trans "Laser" %}" >
+                    </picture>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel-digimiam" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">{% trans "Previous" %}</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-digimiam" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">{% trans "Next" %}</span>
+                  </a>
+                </div>
+              </div>
+
+              <p class="size-11 mb-0">{% trans "En 2080, le dernier estaminet de Lille vient de fermer. Les neurones de l'intelligence culinaire ont court-circuité. Mme Poivre compte sur vous pour restaurer le réfectoire. Parviendrez-vous à sauver l'un des derniers lieux emblématique de la culture flamande&nbsp;?" %}</p>
+            </div>
+            <div class="card-footer d-flex flex-column flex-md-row justify-content-between">
+              <div class="d-flex flex-column align-items-center mb-4 mb-md-0">
+                <div class="lh-1 size-09">{% trans "À partir de" %}</div>
+                <div class="text-inter font-weight-bold lh-1 size-2">{% trans "20€" %}</div>
+                <div class="lh-1 size-09">{% trans "par joueur" %}</div>
+              </div>
+
+              <a href="/{{ lang }}reserver" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/calendar-check.svg" %}</span>{% trans "Je réserve une séance" %}</span></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section class="jumbotron light">
-    <div class="container">
-      <div class="row mb-4">
+  <div class="jumbotron position-relative">
+    <div class="dark extension extension-bottom extension-corner-top-right"></div>
+
+    <div class="container" style="margin-top: 40px">
+
+      <div class="row mb-5">
         <div class="col-12 text-center">
-          <span id="references" class="anchor">&nbsp;</span>
-          <h2><span class="svg-24px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>{% trans "The best live escape game in&nbsp;Lille –&nbsp;The designer&#39;s&nbsp;mom" %}</h2>
+          <h2 class="text-inter font-weight-bold">{% trans "Les avis des joueurs" %}</h2>
         </div>
       </div>
 
-      <div class="row d-flex justify-content-left">
-        <div class="col-12 col-md-10 col-lg-7 mb-3">
-          <div class="card">
+      <div class="row d-flex">
+        <div class="col">
+          <div class="card light">
             <div class="card-body">
-              <div class="media flex-column flex-sm-row">
-                <img alt="{% trans "Half shadowed close-up of a puzzling man wearing a hat and smoking a pipe" %}" class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" src="/static/img/énigmatique-actionnaire.png">
-                <div class="media-body">
-                  <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>{% trans "A scenario <span class='font-weight-bold'>rich in emotions</span> that I highly recommend! If you book with them, talk to me ahead so I can get a cooptation bon[...]" %}</p>
-                </div>
-              </div>
-            </div>
-            <div class="card-footer text-right">
-              {% trans "– An anonymous shareholder of Just Escape" %}
+              <div class="elfsight-app-62d569e2-3755-49d6-a607-504522ab075f"></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-12 col-md-10 col-lg-7 mb-3">
-          <div class="card">
-            <div class="card-body">
-              <div class="media flex-column flex-sm-row">
-                <span class="d-inline-block svg-75px align-self-center mr-3 mb-3 mb-sm-0 rounded-circle dark">
-                  {% include "svg/marmitron-head.svg" %}
-                </span>
-                <div class="media-body">
-                  <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>{% trans "The Digimiam is undoubtedly the best estaminet in Lille! You&#39;ll find some amazing 2040-style waffles that will remind you of your childhood! Yummy! <span class='font-weight-bold'>You&#39;re gonna love it!</span>" %}</p>
-                </div>
-              </div>
-            </div>
-            <div class="card-footer text-right">
-              {% trans "– Marmitron, Digimiam's Intelligence since 2053" %}
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-end">
-        <div class="col-12 col-md-10 col-lg-7">
-          <div class="card">
-            <div class="card-body">
-              <div class="media flex-column flex-sm-row">
-                <img alt="{% trans "Scenery in the background and in the foreground a close-up of an enigmatic smiling woman wearing a large hat and big sunglasses" %}" class="align-self-center mr-3 mb-3 mb-sm-0 img-fluid rounded-circle" src="/static/img/mystérieuse-shirley.png">
-                <div class="media-body">
-                  <p class="card-text"><span class="svg-16px fill-dark align-super mr-2">{% include "svg/quote-left.svg" %}</span>{% trans "I loved this <span class='font-weight-bold'>investigation full of twists and turns</span>. It&#39;s obvious that the riddles were child&#39;s play to me! Ha ha ha... What? What took me so long? Uh well.... It&#39;s because... it&#39;s because I admired the scenery of the room!" %}</p>
-                </div>
-              </div>
-            </div>
-            <div class="card-footer text-right">
-              {% trans "– Shirley, a supposed descendant of Sherlock Holmes" %}
-            </div>
-          </div>
-        </div>
-      </div>
+
     </div>
-  </section>
+  </div>
+
+  <div class="jumbotron gradient-mulberry-jaffa position-relative">
+    <div class="gradient-mulberry-jaffa extension extension-bottom extension-corner-top-left"></div>
+
+    <div class="container" style="margin-top: 40px">
+
+      <div class="row">
+        <div class="col">
+          <h2 class="text-inter font-weight-bold text-center mb-0">{% trans "Combien coûte un escape game&nbsp;?" %}</h2>
+          <div class="text-inter text-center mb-5 size-12">{% trans "Nos tarifs" %}</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-6 col-xl-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-body d-flex flex-column">
+              <div class="text-center mb-4">
+                <span class="text-inter font-weight-bold lh-1 size-15">{% trans "20€" %}</span>
+                <span class="text-inter lh-1 size-09">{% trans " par joueur en heure creuse," %}</span>
+                <span class="text-inter font-weight-bold lh-1 size-15">{% trans "25€" %}</span>
+                <span class="text-inter lh-1 size-09">{% trans " en heure pleine" %}</span>
+              </div>
+              <p class="text-center lh-12 size-11">
+                {% trans "Les escape games sont une sortie à faire en famille, entre amis ou en couple." %}
+              </p>
+              <p class="text-center lh-12 size-11">
+                {% trans "Le scénario peut être joué à deux personnes à prix abordable." %}
+              </p>
+              <p class="text-center lh-12 size-11 mb-0">
+                {% trans "Vous organisez un événement comme un anniversaire, un EVG ou un EVJF&nbsp;? Après la partie, vous pourrez rester gratuitement dans les canapés de la salle de réception&nbsp;!" %}
+              </p>
+            </div>
+            <div class="card-footer transparent text-center" style="border-width: 0px">
+              <img src="/static/img/escape-game-lille-2.jpg" class="img-fluid mb-3">
+              <a href="/{{ lang }}/reserver" class="text-inter btn btn-light size-1">{% trans "Je regarde les horaires" %}</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-body">
+              <h3 class="text-inter font-weight-bold lh-1 mb-2 text-center">{% trans "Carte cadeau" %}</h3>
+              <p class="text-inter lh-1 size-1 text-center">{% trans "Vous ne savez jamais quoi offrir&nbsp;?" %}</p>
+              <p class="text-center lh-12 size-11">{% trans "Que diriez-vous d'un bon cadeau original et unique en son genre&nbsp;?" %}</p>
+              <p class="text-center lh-12 size-11">{% trans "Vos proches vont adorer passer noël ou leur anniversaire avec vous&nbsp;!" %}</p>
+              <p class="text-center lh-12 size-11 mb-0">{% trans "Vous organisez une tombola ou une cagnotte ? Demandez à en recevoir pour servir de lot." %}</p>
+            </div>
+            <div class="card-footer transparent text-center" style="border-width: 0px">
+              <video autoplay muted loop class="mb-3">
+                <source src="/static/vid/carte-cadeau-joueurs.webm" type="video/webm"/>
+                <p>{% trans "Videos are not supported by this browser" %}</p>
+              </video>
+              <a href="/{{ lang }}/carte-cadeau" class="text-inter btn btn-light size-1">{% trans "J'en veux une" %}</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-body">
+              <h3 class="text-inter font-weight-bold lh-1 mb-2 text-center">{% trans "Teambuilding" %}</h3>
+                <p class="text-inter lh-1 size-1 text-center">{% trans "Formation, séminaire, atelier" %}</p>
+                <p class="text-center lh-12 size-11">{% trans "Le live escape game combine le travail d'équipe, la communication et la logique. C'est une excellente occasion de renforcer la cohésion d'un groupe." %}</p>
+                <p class="text-center lh-12 size-11">{% trans "Découvrez des solutions clé en main pour team building : salle de séminaire, apéritif dinatoire, etc." %}</p>
+                <p class="text-center lh-12 size-11 mb-0">{% trans "Choisissez la formule qu'il vous faut, que vous soyez 2 personnes ou jusqu'à 46 collaborateurs." %}</p>
+              </div>
+              <div class="card-footer transparent text-center" style="border-width: 0px">
+                <img src="/static/img/escape-game-lille-10.jpg" class="img-fluid mb-3">
+                <a href="/{{ lang }}/team-building" class="text-inter btn btn-light size-1">{% trans "En savoir plus" %}</a>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
   <div class="jumbotron">
-    <div class="container">
+    <div class="container" style="margin-top: 40px">
       <div class="row mb-4">
         <div class="col-12 text-center">
-          <h2>{% trans "How to get to the estate in&nbsp;Lille?" %}</h2>
+          <h2 class="text-inter font-weight-bold">{% trans "Comment rejoindre le centre à&nbsp;Lille&nbsp;?" %}</h2>
         </div>
       </div>
 
@@ -356,7 +325,7 @@
                   {% include "svg/clock.svg" %}
                 </span>
                 <div>
-                  <h3 class="text-jaffa size-15 mb-1">{% trans "Opening hours" %}</h3>
+                  <div class="text-jaffa text-inter font-weight-bold size-12 mb-1">{% trans "Horaires d'ouverture" %}</div>
                   <p class="lh-12 mb-0">
                     {% trans "<span class='text-jaffa'>Monday-sunday:</span> 10AM-11PM" %}
                   </p>
@@ -374,7 +343,7 @@
                   {% include "svg/address.svg" %}
                 </span>
                 <div>
-                  <h3 class="text-jaffa size-15 mb-1">{% trans "Contact" %}</h3>
+                  <div class="text-jaffa text-inter font-weight-bold mb-1">{% trans "Contact" %}</div>
                   <p class="lh-12 mb-0">
                     {% trans "<span class='text-jaffa'>Tel:</span> <a href='tel:+33789053790' class='text-hover-mulberry text-underline'>+33 7 89 05 37 90</a><br>" %}
                     {% trans "<span class='text-jaffa'>Mail:</span> c<span hidden></span>ontac<span hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span hidden></span>.fr" %}
@@ -393,9 +362,9 @@
                   {% include "svg/map-marker.svg" %}
                 </div>
                 <div>
-                  <h3 class="text-jaffa size-15 mb-1">{% trans "Address" %}</h3>
+                  <div class="text-jaffa text-inter font-weight-bold size-12 mb-1">{% trans "Address" %}</div>
                   <p class="lh-12 mb-0">
-                    {% trans "26 rue d&#39;Arras<br>59000 Lille, France" %}
+                    <a href="https://g.page/just-escape-lille?share" class="text-hover-mulberry text-underline">{% trans "26 rue d&#39;Arras<br>59000 Lille, France" %}</a>
                   </p>
                 </div>
               </div>
@@ -414,32 +383,8 @@
   <div class="jumbotron py-5">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-9 col-md-7 col-lg-5 col-xl-4 ml-sm-5 ml-lg-0">
-          <span id="newsletter" class="anchor">&nbsp;</span>
-          <h2 class="text-jaffa size-15">{% trans "Newsletter" %}</h2>
-          <form action="/{{ lang }}#newsletter" method="post">
-            {% csrf_token %}
-
-            {% if unexpected_error %}
-              <p class="text-red">{% trans "An unexpected error happened. Please contact us directly." %}</p>
-            {% elif form.errors %}
-              {{ form.non_field_errors }}
-              {{ form.email.errors }}
-            {% endif %}
-
-            {% if subscription_success %}
-            <a id="newsletter-email-bar" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="click focus" data-content="{% trans "Thank you and see you soon!" %}">
-            {% endif %}
-              <div class="input-group">
-                <input type="text" spellcheck="false" class="form-control" placeholder="{% trans "marmitron@justescape.fr" %}" name="{{ form.email.name }}" required>
-                <div class="input-group-append">
-                  <button class="btn btn-secondary" type="submit"><span>{% trans "Subscribe" %}</span></button>
-                </div>
-              </div>
-            {% if subscription_success %}
-            </a>
-            {% endif %}
-          </form>
+        <div class="col d-flex justify-content-center px-0">
+          <a href="/{{ lang }}reserver" class="btn btn-inter p-3 size-12"><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/calendar-check.svg" %}</span>{% trans "Je réserve une séance" %}</a>
         </div>
       </div>
     </div>
@@ -528,6 +473,8 @@
       $('#newsletter-email-bar').popover('disable');
     </script>
   {% endif %}
+
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
   <script type="application/ld+json">
     {
