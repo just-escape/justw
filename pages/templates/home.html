@@ -15,12 +15,17 @@
 {% block content %}
 
   <div class="jumbotron-fluid content-cover position-relative">
-    <picture>
-      <source media="(max-width: 599.98px)" srcset="/static/img/lola_home_600.jpg" type="image/jpg">
-      <source media="(min-width: 600px, max-width: 991.98px)" srcset="/static/img/lola_home.jpg" type="image/jpg">
-      <source media="(min-width: 992px)" srcset="/static/img/lola_home_1700.jpg" type="image/jpg">
-      <img class="position-absolute zoom-in-out" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/lola_home.jpg">
-    </picture>
+    <div>
+      <picture>
+        <source media="(max-width: 599.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-600x780.jpg" type="image/jpg">
+        <source media="(max-width: 599.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-600x780.webp" type="image/webp">
+        <source media="(min-width: 600px, max-width: 991.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1820x1120.jpg" type="image/jpg">
+        <source media="(min-width: 600px, max-width: 991.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1820x1120.webp" type="image/webp">
+        <source media="(min-width: 992px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1700x900.jpg" type="image/jpg">
+        <source media="(min-width: 992px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1700x900.webp" type="image/webp">
+        <img class="position-absolute" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/escape-game-lille-nouvelle-generation-1820x1120.webp" alt="{% trans "Une joueuse immergée dans sa mission est exaltée" %}">
+      </picture>
+    </div>
 
     <div class="container h-100">
       <div class="row h-100">
@@ -148,7 +153,7 @@
                     <picture>
                       <source srcset="/static/img/escape-game-lille-joueurs.webp" type="image/webp">
                       <source srcset="/static/img/escape-game-lille-joueurs.jpg" type="image/jpg">
-                      <img class="img-fluid w-100" src="/static/img/escape-game-lille-joueurs.jpg" alt="{% trans "Refectory" %}" >
+                      <img loading="lazy" class="img-fluid w-100" src="/static/img/escape-game-lille-joueurs.jpg" alt="{% trans "Refectory" %}" >
                     </picture>
                   </div>
                   <div class="carousel-item">
@@ -264,7 +269,7 @@
               </p>
             </div>
             <div class="card-footer transparent text-center" style="border-width: 0px">
-              <img src="/static/img/escape-game-lille-2.jpg" class="img-fluid mb-3">
+              <img loading="lazy" src="/static/img/escape-game-lille-2.jpg" class="img-fluid mb-3">
               <a href="/{{ lang }}/reserver" class="text-inter btn btn-light size-1">{% trans "Je regarde les horaires" %}</a>
             </div>
           </div>
@@ -297,7 +302,7 @@
                 <p class="text-center lh-12 size-11 mb-0">{% trans "Choisissez la formule qu'il vous faut, que vous soyez 2 personnes ou jusqu'à 46 collaborateurs." %}</p>
               </div>
               <div class="card-footer transparent text-center" style="border-width: 0px">
-                <img src="/static/img/escape-game-lille-10.jpg" class="img-fluid mb-3">
+                <img loading="lazy" src="/static/img/escape-game-lille-10.jpg" class="img-fluid mb-3">
                 <a href="/{{ lang }}/team-building" class="text-inter btn btn-light size-1">{% trans "En savoir plus" %}</a>
               </div>
           </div>
@@ -474,7 +479,18 @@
     </script>
   {% endif %}
 
-  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <script>
+    async function loadFile() {
+      await new Promise((resolve, reject) => {
+        const scriptTag = document.createElement('script');
+        scriptTag.type = 'text/javascript';
+        scriptTag.src = "https://apps.elfsight.com/p/platform.js";
+        scriptTag.onload = () => resolve();
+        document.body.appendChild(scriptTag);
+      })
+    }
+    setTimeout(loadFile, 1500);
+  </script>
 
   <script type="application/ld+json">
     {
