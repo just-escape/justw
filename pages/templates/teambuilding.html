@@ -37,7 +37,7 @@
       <div class="row">
 
         <div class="col-12 col-lg-6">
-          <div id="carousel-team-building" class="carousel carousel-zoom-in slide position-relative" data-ride="carousel">
+          <div id="carousel-team-building" class="carousel carousel-zoom-in slide mb-3" data-ride="carousel" data-interval="3000">
             <ol class="carousel-indicators">
               <li data-target="#carousel-team-building" data-slide-to="0" class="active"></li>
               <li data-target="#carousel-team-building" data-slide-to="1"></li>
@@ -51,65 +51,67 @@
               <li data-target="#carousel-team-building" data-slide-to="9"></li>
             </ol>
             <div class="carousel-inner">
-              <div class="carousel-item">
-                <picture>
-                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-10.jpg" alt="{% trans "Laser" %}" >
-                </picture>
-              </div>
-              <div class="carousel-item">
-                <picture>
-                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-9.jpg" alt="{% trans "Laser" %}" >
-                </picture>
-              </div>
               <div class="carousel-item active">
                 <picture>
-                  <img class="img-fluid" src="/static/img/escape-game-lille-0.jpg" alt="{% trans "Holographique menu" %}" >
+                  <source srcset="/static/img/team-building-escape-game-lille.webp" type="image/webp">
+                  <source srcset="/static/img/team-building-escape-game-lille.jpg" type="image/jpg">
+                  <img src="/static/img/team-building-escape-game-lille.webp" class="img-fluid mb-3" alt="{% trans "Team building pour entreprise dans un escape game" %}">
                 </picture>
               </div>
               <div class="carousel-item">
                 <picture>
-                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-1.jpg" alt="{% trans "Mirrors" %}" >
+                  <img  class="img-fluid" src="/static/img/escape-game-lille-9.jpg" alt="{% trans "Laser" %}" >
                 </picture>
               </div>
               <div class="carousel-item">
                 <picture>
-                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-2.jpg" alt="{% trans "Refectory" %}" >
+                  <img  class="img-fluid" src="/static/img/escape-game-lille-0.jpg" alt="{% trans "Holographique menu" %}" >
                 </picture>
               </div>
               <div class="carousel-item">
                 <picture>
-                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-3.jpg" alt="{% trans "Table" %}" >
+                  <img  class="img-fluid" src="/static/img/escape-game-lille-1.jpg" alt="{% trans "Mirrors" %}" >
                 </picture>
               </div>
               <div class="carousel-item">
                 <picture>
-                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-6.jpg" alt="{% trans "Green fog" %}" >
+                  <img  class="img-fluid" src="/static/img/escape-game-lille-2.jpg" alt="{% trans "Refectory" %}" >
                 </picture>
               </div>
               <div class="carousel-item">
                 <picture>
-                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-7.jpg" alt="{% trans "Laser" %}" >
+                  <img  class="img-fluid" src="/static/img/escape-game-lille-3.jpg" alt="{% trans "Table" %}" >
                 </picture>
               </div>
               <div class="carousel-item">
                 <picture>
-                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-8.jpg" alt="{% trans "Laser" %}" >
+                  <img  class="img-fluid" src="/static/img/escape-game-lille-6.jpg" alt="{% trans "Green fog" %}" >
                 </picture>
               </div>
               <div class="carousel-item">
                 <picture>
-                  <img loading="lazy" class="img-fluid" src="/static/img/escape-game-lille-11.jpg" alt="{% trans "Laser" %}" >
+                  <img  class="img-fluid" src="/static/img/escape-game-lille-7.jpg" alt="{% trans "Laser" %}" >
                 </picture>
               </div>
-              <a class="carousel-control-prev" href="#carousel-team-building" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">{% trans "Previous" %}</span>
-              </a>
-              <a class="carousel-control-next" href="#carousel-team-building" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">{% trans "Next" %}</span>
-              </a>
+              <div class="carousel-item">
+                <picture>
+                  <img  class="img-fluid" src="/static/img/escape-game-lille-8.jpg" alt="{% trans "Laser" %}" >
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture>
+                  <img  class="img-fluid" src="/static/img/escape-game-lille-11.jpg" alt="{% trans "Laser" %}" >
+                </picture>
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carousel-team-building" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">{% trans "Previous" %}</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-team-building" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">{% trans "Next" %}</span>
+            </a>
           </div>
         </div>
 

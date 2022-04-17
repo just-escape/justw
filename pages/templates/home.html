@@ -95,7 +95,7 @@
                 {% trans "Un maître du jeu veille sur vous pour s'assurer que tout se passe bien." %}
               </p>
               <p class="lh-12 mb-0">
-                {% trans "Le jeu d'évasion est un loisir à découvrir entre amis, en famille ou en couple à partir de 2 joueurs." %}
+                {% trans "Le jeu d'évasion est un loisir à découvrir entre amis, en famille avec les enfants ou en couple à partir de 2 joueurs." %}
               </p>
             </div>
           </div>
@@ -184,15 +184,15 @@
                       <img loading="lazy" class="img-fluid w-100" src="/static/img/escape-game-lille-laser.jpg" alt="{% trans "Un laser met en difficulté l'équipe" %}" >
                     </picture>
                   </div>
-                  <a class="carousel-control-prev" href="#carousel-digimiam" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">{% trans "Previous" %}</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carousel-digimiam" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">{% trans "Next" %}</span>
-                  </a>
                 </div>
+                <a class="carousel-control-prev" href="#carousel-digimiam" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">{% trans "Previous" %}</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-digimiam" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">{% trans "Next" %}</span>
+                </a>
               </div>
 
               <p class="size-11 mb-0">{% trans "En 2080, le dernier estaminet de Lille vient de fermer. Les neurones de l'intelligence culinaire ont court-circuité. Mme Poivre compte sur vous pour restaurer le réfectoire. Parviendrez-vous à sauver l'un des derniers lieux emblématique de la culture flamande&nbsp;?" %}</p>
@@ -259,7 +259,7 @@
                 <span class="text-inter lh-1 size-09">{% trans " en heure pleine" %}</span>
               </div>
               <p class="text-center lh-12 size-11">
-                {% trans "Les escape games sont une sortie à faire en famille, entre amis ou en couple." %}
+                {% trans "Les escape games sont une sortie à faire en famille avec les enfants, entre amis ou en couple." %}
               </p>
               <p class="text-center lh-12 size-11">
                 {% trans "Le scénario peut être joué à deux personnes à prix abordable." %}
@@ -269,7 +269,11 @@
               </p>
             </div>
             <div class="card-footer transparent text-center" style="border-width: 0px">
-              <img loading="lazy" src="/static/img/escape-game-lille-2.jpg" class="img-fluid mb-3">
+              <picture>
+                <source srcset="/static/img/salle-de-jeux-lille.jpg" type="image/jpg">
+                <source srcset="/static/img/salle-de-jeux-lille.webp" type="image/webp">
+                <img loading="lazy" src="/static/img/salle-de-jeux-lille.webp" class="img-fluid mb-3" alt="{% trans "Salle avec des jeux de société, des tables et des canapés" %}">
+              </picture>
               <a href="/{{ lang }}/reserver" class="text-inter btn btn-light size-1">{% trans "Je regarde les horaires" %}</a>
             </div>
           </div>
@@ -284,8 +288,8 @@
               <p class="text-center lh-12 size-11 mb-0">{% trans "Vous organisez une tombola ou une cagnotte ? Demandez à en recevoir pour servir de lot." %}</p>
             </div>
             <div class="card-footer transparent text-center" style="border-width: 0px">
-              <video autoplay muted loop class="mb-3">
-                <source src="/static/vid/carte-cadeau-joueurs.webm" type="video/webm"/>
+              <video autoplay muted loop class="mb-3" title="Une carte cadeau pour un escape game sur Lille">
+                <source src="/static/vid/carte-cadeau-2-joueurs-lille.webm" type="video/webm"/>
                 <p>{% trans "Videos are not supported by this browser" %}</p>
               </video>
               <a href="/{{ lang }}/carte-cadeau" class="text-inter btn btn-light size-1">{% trans "J'en veux une" %}</a>
@@ -302,7 +306,11 @@
                 <p class="text-center lh-12 size-11 mb-0">{% trans "Choisissez la formule qu'il vous faut, que vous soyez 2 personnes ou jusqu'à 46 collaborateurs." %}</p>
               </div>
               <div class="card-footer transparent text-center" style="border-width: 0px">
-                <img loading="lazy" src="/static/img/escape-game-lille-10.jpg" class="img-fluid mb-3">
+                <picture>
+                  <source srcset="/static/img/team-building-escape-game-lille.webp" type="image/webp">
+                  <source srcset="/static/img/team-building-escape-game-lille.jpg" type="image/jpg">
+                  <img loading="lazy" src="/static/img/team-building-escape-game-lille.webp" class="img-fluid mb-3" alt="{% trans "Team building pour entreprise dans un escape game" %}">
+                </picture>
                 <a href="/{{ lang }}/team-building" class="text-inter btn btn-light size-1">{% trans "En savoir plus" %}</a>
               </div>
           </div>
