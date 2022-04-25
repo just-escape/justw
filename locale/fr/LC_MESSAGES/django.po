@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-11 14:48+0200\n"
+"POT-Creation-Date: 2022-04-25 10:14+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -120,7 +120,7 @@ msgstr "<span class='text-jaffa'>Suggéré pour :</span>"
 msgid "Seminar, Workshop, Teambuilding"
 msgstr "Séminaire, Workshop, Teambuilding"
 
-#: pages/templates/booking.html:64 pages/templates/home.html:253
+#: pages/templates/booking.html:64 pages/templates/home.html:258
 #: pages/templates/pricing.html:42
 msgid "25€"
 msgstr "25€"
@@ -272,7 +272,7 @@ msgstr ""
 
 #: pages/templates/contact.html:8 pages/templates/contact.html:45
 #: pages/templates/contact.html:203 pages/templates/footer.html:46
-#: pages/templates/header.html:54 pages/templates/home.html:346
+#: pages/templates/header.html:54 pages/templates/home.html:359
 msgid "Contact"
 msgstr "Contact"
 
@@ -284,11 +284,11 @@ msgstr "Contactez-nous"
 msgid "Opening hours"
 msgstr "Horaires d&#39;ouverture"
 
-#: pages/templates/contact.html:29 pages/templates/home.html:330
+#: pages/templates/contact.html:29 pages/templates/home.html:343
 msgid "<span class='text-jaffa'>Monday-sunday:</span> 10AM-11PM"
 msgstr "<span class='text-jaffa'>Lundi-dimanche :</span> 10h-23h"
 
-#: pages/templates/contact.html:47 pages/templates/home.html:348
+#: pages/templates/contact.html:47 pages/templates/home.html:361
 msgid ""
 "<span class='text-jaffa'>Tel:</span> <a href='tel:+33789053790' class='text-"
 "hover-mulberry text-underline'>+33 7 89 05 37 90</a><br>"
@@ -296,7 +296,7 @@ msgstr ""
 "<span class='text-jaffa'>Tel :</span> <a href='tel:0789053790' class='text-"
 "hover-mulberry text-underline'>07 89 05 37 90</a><br>"
 
-#: pages/templates/contact.html:48 pages/templates/home.html:349
+#: pages/templates/contact.html:48 pages/templates/home.html:362
 msgid ""
 "<span class='text-jaffa'>Mail:</span> c<span hidden></span>ontac<span "
 "hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
@@ -306,11 +306,11 @@ msgstr ""
 "hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
 "hidden></span>.fr"
 
-#: pages/templates/contact.html:64 pages/templates/home.html:365
+#: pages/templates/contact.html:64 pages/templates/home.html:378
 msgid "Address"
 msgstr "Adresse"
 
-#: pages/templates/contact.html:66 pages/templates/home.html:367
+#: pages/templates/contact.html:66 pages/templates/home.html:380
 msgid "26 rue d&#39;Arras<br>59000 Lille, France"
 msgstr "26 rue d&#39;Arras<br>59000 Lille"
 
@@ -389,7 +389,7 @@ msgstr ""
 msgid "Newsletter"
 msgstr "Newsletter"
 
-#: pages/templates/contact.html:132 pages/templates/teambuilding.html:377
+#: pages/templates/contact.html:132 pages/templates/teambuilding.html:381
 #: pages/templates/unsubscribe.html:24
 msgid "An unexpected error happened. Please contact us directly."
 msgstr ""
@@ -793,7 +793,7 @@ msgstr "Vos amis et votre famille vont vous adorer avec cette carte cadeau 😍"
 msgid "Offer a gift card"
 msgstr "Offrir une carte cadeau"
 
-#: pages/templates/gift-voucher.html:24 pages/templates/home.html:284
+#: pages/templates/gift-voucher.html:24 pages/templates/home.html:293
 #: pages/templates/room.html:79 pages/templates/room.html:83
 #: pages/templates/room.html:87 pages/templates/room.html:91
 #: pages/templates/room.html:95
@@ -804,7 +804,7 @@ msgstr "Les vidéos ne sont pas supportées par ce navigateur"
 msgid "Gift voucher"
 msgstr "Carte cadeau"
 
-#: pages/templates/header.html:16 pages/templates/home.html:28
+#: pages/templates/header.html:16 pages/templates/home.html:33
 msgid "Escape Game Lille"
 msgstr "Escape Game Lille"
 
@@ -817,7 +817,7 @@ msgstr "Salles"
 msgid "Pricing"
 msgstr "Tarifs"
 
-#: pages/templates/header.html:38 pages/templates/teambuilding.html:593
+#: pages/templates/header.html:38 pages/templates/teambuilding.html:597
 msgid "Team Building"
 msgstr "Team Building"
 
@@ -825,164 +825,161 @@ msgstr "Team Building"
 msgid "EN"
 msgstr "EN"
 
-#: pages/templates/header.html:66 pages/templates/home.html:131
+#: pages/templates/header.html:66 pages/templates/home.html:136
 #: pages/templates/room.html:58
 msgid "FR"
 msgstr "FR"
 
 #: pages/templates/home.html:5
-msgid "Just Escape – Escape Game Lille – From 2 Players"
-msgstr "Just Escape – Escape Game Lille – 2 Joueurs et Plus"
+#, fuzzy
+#| msgid "FAQ – Escape Game Lille – Just Escape"
+msgid "Escape Game Lille – Just Escape – 2 Joueurs et Plus"
+msgstr "FAQ – Escape Game Lille – Just Escape"
 
 #: pages/templates/home.html:6
 msgid ""
-"New escape game 2.0 in Lille ⭐ Ideal for an outing with friends. Amazing "
-"scenery. Scenario Digimiam the futuristic estaminet 🤖"
+"Escape game Lille nouvelle génération ⚡ Idéal pour une sortie en famille, en "
+"couple, entre amis ou en teambuilding avec les collègues. Des énigmes "
+"inédites, une difficultée adaptée à votre groupe, des décors immersifs ! "
 msgstr ""
-"Nouvel escape game 2.0 à Lille ⭐ Idéal pour une sortie entre amis. Des "
-"décors sensationnels. Scénario Digimiam l&#39;estaminet futuriste 🤖"
 
 #: pages/templates/home.html:9
 msgid ""
-"New escape game 2.0 in Lille ⚡ Ideal for an outing with friends 😃 Amazing "
-"scenery 👌 Scenario Digimiam the futuristic estaminet 🤖"
+"Escape game Lille nouvelle génération ⚡ Idéal pour une sortie en famille, en "
+"couple, entre amis ou en teambuilding avec les collègues. Des énigmes "
+"inédites, une difficulté adaptée à votre groupe, des décors immersifs !"
 msgstr ""
-"Nouvel escape game 2.0 à Lille ⚡ Idéal pour une sortie entre amis 😃 Des "
-"décors sensationnels 👌 Scénario Digimiam l&#39;estaminet futuriste 🤖"
 
-#: pages/templates/home.html:28
+#: pages/templates/home.html:26
+msgid "Une joueuse immergée dans sa mission est exaltée"
+msgstr ""
+
+#: pages/templates/home.html:33
 msgid "nouvelle génération"
 msgstr ""
 
-#: pages/templates/home.html:30 pages/templates/home.html:202
-#: pages/templates/home.html:387
+#: pages/templates/home.html:35 pages/templates/home.html:207
+#: pages/templates/home.html:400
 msgid "Je réserve une séance"
 msgstr ""
 
-#: pages/templates/home.html:45
+#: pages/templates/home.html:50
 msgid "L'originalité de Just Escape"
 msgstr ""
 
-#: pages/templates/home.html:52
+#: pages/templates/home.html:57
 msgid "Des énigmes inédites"
 msgstr ""
 
-#: pages/templates/home.html:55
+#: pages/templates/home.html:60
 msgid ""
 "Résolvez des énigmes originales que vous découvrez pour la première fois. "
 "Retrouvez des mécanismes modernes dans des salles complètement insolites "
 "&quot;0&nbsp;cadenas&quot;."
 msgstr ""
 
-#: pages/templates/home.html:62
+#: pages/templates/home.html:67
 msgid "La difficulté s'adapte à votre groupe"
 msgstr ""
 
-#: pages/templates/home.html:65
+#: pages/templates/home.html:70
 msgid ""
 "Profitez d'un scénario amusant, que vous ayant un niveau débutant ou expert. "
 "Le game master peut adapter la difficulté pour rendre votre session la plus "
 "fun possible."
 msgstr ""
 
-#: pages/templates/home.html:72
+#: pages/templates/home.html:77
 msgid "Des décors immersifs"
 msgstr ""
 
-#: pages/templates/home.html:75
+#: pages/templates/home.html:80
 msgid ""
 "Vivez l'immersion au format grandeur nature. Des décors et une mise en scène "
 "digne de cinéma vous attendent. En prime, les énigmes 100&#37; connectées "
 "influent sur l'ambiance son et lumière&nbsp;!"
 msgstr ""
 
-#: pages/templates/home.html:82
+#: pages/templates/home.html:87
 msgid "Qu'est-ce qu'un escape game&nbsp;?"
 msgstr ""
 
-#: pages/templates/home.html:83
+#: pages/templates/home.html:88
 msgid "Mais au fait..."
 msgstr ""
 
-#: pages/templates/home.html:87
+#: pages/templates/home.html:92
 msgid ""
 "Le principe des jeux d'évasion grandeur nature est d'enfermer un groupe de "
 "joueurs dans une salle à thème. Le challenge est de résoudre des énigmes en "
 "équipe pour vous échapper en moins d'une heure."
 msgstr ""
 
-#: pages/templates/home.html:90
+#: pages/templates/home.html:95
 msgid "Un maître du jeu veille sur vous pour s'assurer que tout se passe bien."
 msgstr ""
 
-#: pages/templates/home.html:93
+#: pages/templates/home.html:98
 msgid ""
-"Le jeu d'évasion est un loisir à découvrir entre amis, en famille ou en "
-"couple à partir de 2 joueurs."
+"Le jeu d'évasion est un loisir à découvrir entre amis, en famille avec les "
+"enfants ou en couple à partir de 2 joueurs."
 msgstr ""
 
-#: pages/templates/home.html:108
+#: pages/templates/home.html:113
 msgid "Les escape rooms"
 msgstr ""
 
-#: pages/templates/home.html:109
+#: pages/templates/home.html:114
 msgid "Découvrez les scénarios"
 msgstr ""
 
-#: pages/templates/home.html:118
+#: pages/templates/home.html:123
 msgid "Le Digimiam"
 msgstr ""
 
-#: pages/templates/home.html:119
+#: pages/templates/home.html:124
 msgid "Estaminet cybernétique"
 msgstr ""
 
-#: pages/templates/home.html:123
+#: pages/templates/home.html:128
 msgid "2 à 8 joueurs (sur 2 salles)"
 msgstr ""
 
-#: pages/templates/home.html:127 pages/templates/room.html:51
+#: pages/templates/home.html:132 pages/templates/room.html:51
 msgid "60 minutes"
 msgstr "60 minutes"
 
-#: pages/templates/home.html:151 pages/templates/room.html:132
-#: pages/templates/teambuilding.html:76
-msgid "Refectory"
-msgstr "Réfectoire"
+#: pages/templates/home.html:156 pages/templates/room.html:132
+msgid "Une famille de trois joueurs viennent de débuter l'aventure"
+msgstr ""
 
-#: pages/templates/home.html:158 pages/templates/room.html:125
-#: pages/templates/teambuilding.html:71
-msgid "Mirrors"
-msgstr "Miroirs"
+#: pages/templates/home.html:163
+msgid "Deux personnes en train de résoudre une énigme"
+msgstr ""
 
-#: pages/templates/home.html:165 pages/templates/room.html:139
-#: pages/templates/teambuilding.html:81
-msgid "Table"
-msgstr "Table"
+#: pages/templates/home.html:170 pages/templates/room.html:139
+msgid "Vue de la salle avec ses décors immersifs"
+msgstr ""
 
-#: pages/templates/home.html:172 pages/templates/room.html:146
-#: pages/templates/teambuilding.html:86
-msgid "Green fog"
-msgstr "Brume verte"
+#: pages/templates/home.html:177 pages/templates/room.html:146
+msgid "Un agent en pleine fouille et réflexion"
+msgstr ""
 
-#: pages/templates/home.html:179 pages/templates/room.html:153
-#: pages/templates/teambuilding.html:56 pages/templates/teambuilding.html:61
-#: pages/templates/teambuilding.html:91 pages/templates/teambuilding.html:96
-#: pages/templates/teambuilding.html:101
-msgid "Laser"
-msgstr "Laser"
+#: pages/templates/home.html:184 pages/templates/room.html:153
+msgid "Un laser met en difficulté l'équipe"
+msgstr ""
 
-#: pages/templates/home.html:184 pages/templates/room.html:159
-#: pages/templates/teambuilding.html:106
+#: pages/templates/home.html:190 pages/templates/room.html:159
+#: pages/templates/teambuilding.html:111
 msgid "Previous"
 msgstr "Précédent"
 
-#: pages/templates/home.html:188 pages/templates/room.html:163
-#: pages/templates/teambuilding.html:110
+#: pages/templates/home.html:194 pages/templates/room.html:163
+#: pages/templates/teambuilding.html:115
 msgid "Next"
 msgstr "Suivant"
 
-#: pages/templates/home.html:193
+#: pages/templates/home.html:198
 msgid ""
 "En 2080, le dernier estaminet de Lille vient de fermer. Les neurones de "
 "l'intelligence culinaire ont court-circuité. Mme Poivre compte sur vous pour "
@@ -990,120 +987,129 @@ msgid ""
 "emblématique de la culture flamande&nbsp;?"
 msgstr ""
 
-#: pages/templates/home.html:197
+#: pages/templates/home.html:202
 msgid "À partir de"
 msgstr ""
 
-#: pages/templates/home.html:198 pages/templates/home.html:251
+#: pages/templates/home.html:203 pages/templates/home.html:256
 msgid "20€"
 msgstr ""
 
-#: pages/templates/home.html:199
+#: pages/templates/home.html:204
 msgid "par joueur"
 msgstr ""
 
-#: pages/templates/home.html:217
+#: pages/templates/home.html:222
 msgid "Les avis des joueurs"
 msgstr ""
 
-#: pages/templates/home.html:241
+#: pages/templates/home.html:246
 msgid "Combien coûte un escape game&nbsp;?"
 msgstr ""
 
-#: pages/templates/home.html:242
+#: pages/templates/home.html:247
 msgid "Nos tarifs"
 msgstr ""
 
-#: pages/templates/home.html:252
+#: pages/templates/home.html:257
 msgid " par joueur en heure creuse,"
 msgstr ""
 
-#: pages/templates/home.html:254
+#: pages/templates/home.html:259
 msgid " en heure pleine"
 msgstr ""
 
-#: pages/templates/home.html:257
+#: pages/templates/home.html:262
 msgid ""
-"Les escape games sont une sortie à faire en famille, entre amis ou en couple."
+"Les escape games sont une sortie à faire en famille avec les enfants, entre "
+"amis ou en couple."
 msgstr ""
 
-#: pages/templates/home.html:260
+#: pages/templates/home.html:265
 msgid "Le scénario peut être joué à deux personnes à prix abordable."
 msgstr ""
 
-#: pages/templates/home.html:263
+#: pages/templates/home.html:268
 msgid ""
 "Vous organisez un événement comme un anniversaire, un EVG ou un EVJF&nbsp;? "
 "Après la partie, vous pourrez rester gratuitement dans les canapés de la "
 "salle de réception&nbsp;!"
 msgstr ""
 
-#: pages/templates/home.html:268
-msgid "Je regarde les horaires"
-msgstr ""
-
 #: pages/templates/home.html:275
-msgid "Carte cadeau"
-msgstr ""
-
-#: pages/templates/home.html:276
-msgid "Vous ne savez jamais quoi offrir&nbsp;?"
+msgid "Salle avec des jeux de société, des tables et des canapés"
 msgstr ""
 
 #: pages/templates/home.html:277
+msgid "Je regarde les horaires"
+msgstr ""
+
+#: pages/templates/home.html:284
+msgid "Carte cadeau"
+msgstr ""
+
+#: pages/templates/home.html:285
+msgid "Vous ne savez jamais quoi offrir&nbsp;?"
+msgstr ""
+
+#: pages/templates/home.html:286
 msgid "Que diriez-vous d'un bon cadeau original et unique en son genre&nbsp;?"
 msgstr ""
 
-#: pages/templates/home.html:278
+#: pages/templates/home.html:287
 msgid ""
 "Vos proches vont adorer passer noël ou leur anniversaire avec vous&nbsp;!"
 msgstr ""
 
-#: pages/templates/home.html:279
+#: pages/templates/home.html:288
 msgid ""
 "Vous organisez une tombola ou une cagnotte ? Demandez à en recevoir pour "
 "servir de lot."
 msgstr ""
 
-#: pages/templates/home.html:286
+#: pages/templates/home.html:295
 msgid "J'en veux une"
 msgstr ""
 
-#: pages/templates/home.html:293
+#: pages/templates/home.html:302
 msgid "Teambuilding"
 msgstr ""
 
-#: pages/templates/home.html:294
+#: pages/templates/home.html:303
 msgid "Formation, séminaire, atelier"
 msgstr ""
 
-#: pages/templates/home.html:295
+#: pages/templates/home.html:304
 msgid ""
 "Le live escape game combine le travail d'équipe, la communication et la "
 "logique. C'est une excellente occasion de renforcer la cohésion d'un groupe."
 msgstr ""
 
-#: pages/templates/home.html:296
+#: pages/templates/home.html:305
 msgid ""
 "Découvrez des solutions clé en main pour team building : salle de séminaire, "
 "apéritif dinatoire, etc."
 msgstr ""
 
-#: pages/templates/home.html:297
+#: pages/templates/home.html:306
 msgid ""
 "Choisissez la formule qu'il vous faut, que vous soyez 2 personnes ou jusqu'à "
 "46 collaborateurs."
 msgstr ""
 
-#: pages/templates/home.html:301
-msgid "En savoir plus"
+#: pages/templates/home.html:312 pages/templates/teambuilding.html:84
+msgid "Team building pour entreprise dans un escape game"
 msgstr ""
 
 #: pages/templates/home.html:314
+msgid "En savoir plus"
+msgstr ""
+
+#: pages/templates/home.html:327
 msgid "Comment rejoindre le centre à&nbsp;Lille&nbsp;?"
 msgstr ""
 
-#: pages/templates/home.html:328
+#: pages/templates/home.html:341
 msgid "Horaires d'ouverture"
 msgstr ""
 
@@ -1153,7 +1159,7 @@ msgid "Price of a scenario"
 msgstr "Prix d&#39;un scénario"
 
 #: pages/templates/pricing.html:108 pages/templates/room.html:64
-#: pages/templates/teambuilding.html:356
+#: pages/templates/teambuilding.html:360
 msgid "Book now"
 msgstr "Je réserve"
 
@@ -1247,9 +1253,13 @@ msgstr "Trailer"
 msgid "Image gallery"
 msgstr "Galerie d'images"
 
-#: pages/templates/room.html:118 pages/templates/teambuilding.html:66
-msgid "Holographique menu"
-msgstr "Menu holographique"
+#: pages/templates/room.html:118
+msgid "Vue panoramique du réfectoire de la room"
+msgstr ""
+
+#: pages/templates/room.html:125
+msgid "Une énigme difficile demande de la réflexion à une joueuse"
+msgstr ""
 
 #: pages/templates/svg/address.svg:2
 msgid "Visit card displaying a person and lines of text"
@@ -1457,43 +1467,75 @@ msgstr ""
 msgid "Team Building – Turnkey Packages"
 msgstr "Team Building – Packs Clé en Main"
 
-#: pages/templates/teambuilding.html:262
+#: pages/templates/teambuilding.html:56
+msgid ""
+"Dans une salle d'escape game à Lille, deux collègues sont contentes de leur "
+"team building"
+msgstr ""
+
+#: pages/templates/teambuilding.html:63
+msgid "Une salle de séminaire à Lille tout équipé pour des formations"
+msgstr ""
+
+#: pages/templates/teambuilding.html:70
+msgid "La salle de séminaire avec sa baie vitrée"
+msgstr ""
+
+#: pages/templates/teambuilding.html:77
+msgid "Un cocktail dinatoire réunit une équipe célèbrant un événement"
+msgstr ""
+
+#: pages/templates/teambuilding.html:91
+msgid "Puzzle qui demande de la reflexion et de la communication"
+msgstr ""
+
+#: pages/templates/teambuilding.html:98
+msgid "Une énigme qui demande de la cohésion d'équipe"
+msgstr ""
+
+#: pages/templates/teambuilding.html:105
+#, fuzzy
+#| msgid "Order confirmed – Escape Game Lille – Just Escape"
+msgid "Le centre d'escape game de Lille de Just Escape"
+msgstr "Confirmation de commande – Escape Game Lille – Just Escape"
+
+#: pages/templates/teambuilding.html:266
 msgid "Most popular packs after a good escape game"
 msgstr "Les packs les plus populaires après un bon escape game"
 
-#: pages/templates/teambuilding.html:273
+#: pages/templates/teambuilding.html:277
 msgid "Snack"
 msgstr "Goûter"
 
-#: pages/templates/teambuilding.html:276
+#: pages/templates/teambuilding.html:280
 msgid "Cocktail"
 msgstr "Cocktail"
 
-#: pages/templates/teambuilding.html:279
+#: pages/templates/teambuilding.html:283
 msgid "Dinner aperitif"
 msgstr "Apéritif dinatoire"
 
-#: pages/templates/teambuilding.html:282
+#: pages/templates/teambuilding.html:286
 msgid "Workshop"
 msgstr "Workshop"
 
-#: pages/templates/teambuilding.html:288
+#: pages/templates/teambuilding.html:292
 msgid "Drinks"
 msgstr "Boissons"
 
-#: pages/templates/teambuilding.html:289 pages/templates/teambuilding.html:292
+#: pages/templates/teambuilding.html:293 pages/templates/teambuilding.html:296
 msgid "Softs"
 msgstr "Sans alcool"
 
-#: pages/templates/teambuilding.html:290 pages/templates/teambuilding.html:291
+#: pages/templates/teambuilding.html:294 pages/templates/teambuilding.html:295
 msgid "Beer or glass&nbsp;of&nbsp;wine"
 msgstr "Bière ou verre&nbsp;de&nbsp;vin"
 
-#: pages/templates/teambuilding.html:295
+#: pages/templates/teambuilding.html:299
 msgid "Menu"
 msgstr "Menu"
 
-#: pages/templates/teambuilding.html:297
+#: pages/templates/teambuilding.html:301
 msgid ""
 "<span class='font-weight-bold'>Sweet snack</span> (waffles, fruits, "
 "dairy&nbsp;product)"
@@ -1501,7 +1543,7 @@ msgstr ""
 "<span class='font-weight-bold'>Collation sucrée</span> (gaufres, fruits, "
 "produit&nbsp;laitier)"
 
-#: pages/templates/teambuilding.html:300
+#: pages/templates/teambuilding.html:304
 msgid ""
 "<span class='font-weight-bold'>Salted aperitif</span> (dry&nbsp;sausage, "
 "cheese, nuts)"
@@ -1509,46 +1551,46 @@ msgstr ""
 "<span class='font-weight-bold'>Apéritif salé</span> (saucisson, fromage, "
 "fruits à coque)"
 
-#: pages/templates/teambuilding.html:303
+#: pages/templates/teambuilding.html:307
 msgid "<span class='font-weight-bold'>Caterer</span>"
 msgstr "<span class='font-weight-bold'>Traiteur</span>"
 
-#: pages/templates/teambuilding.html:310
+#: pages/templates/teambuilding.html:314
 msgid "Privatization of the reception room** after the game"
 msgstr "Privatisation de la salle de réception** après la partie"
 
-#: pages/templates/teambuilding.html:311 pages/templates/teambuilding.html:312
-#: pages/templates/teambuilding.html:313 pages/templates/teambuilding.html:318
-#: pages/templates/teambuilding.html:319 pages/templates/teambuilding.html:320
-#: pages/templates/teambuilding.html:321
+#: pages/templates/teambuilding.html:315 pages/templates/teambuilding.html:316
+#: pages/templates/teambuilding.html:317 pages/templates/teambuilding.html:322
+#: pages/templates/teambuilding.html:323 pages/templates/teambuilding.html:324
+#: pages/templates/teambuilding.html:325
 msgid "Optional"
 msgstr "En option"
 
-#: pages/templates/teambuilding.html:317
+#: pages/templates/teambuilding.html:321
 msgid "Full privatization of the estate"
 msgstr "Privation entière des locaux"
 
-#: pages/templates/teambuilding.html:331
+#: pages/templates/teambuilding.html:335
 msgid "Price"
 msgstr "Tarifs"
 
-#: pages/templates/teambuilding.html:332
+#: pages/templates/teambuilding.html:336
 msgid "<span class='text-mulberry'>+15€</span> per participant*"
 msgstr "<span class='text-mulberry'>+15€</span> par participant*"
 
-#: pages/templates/teambuilding.html:333
+#: pages/templates/teambuilding.html:337
 msgid "<span class='text-mulberry'>+20€</span> per participant*"
 msgstr "<span class='text-mulberry'>+20€</span> par participant*"
 
-#: pages/templates/teambuilding.html:334
+#: pages/templates/teambuilding.html:338
 msgid "<span class='text-mulberry'>+35€</span> per participant*"
 msgstr "<span class='text-mulberry'>+35€</span> par participant*"
 
-#: pages/templates/teambuilding.html:335
+#: pages/templates/teambuilding.html:339
 msgid "From <span class='text-mulberry'>100€</span>*"
 msgstr "À partir de <span class='text-mulberry'>100€</span>*"
 
-#: pages/templates/teambuilding.html:345
+#: pages/templates/teambuilding.html:349
 msgid ""
 "(*) Price excluding tax. Does not include the price of a game session "
 "(starting at 20€ excluding tax per person)."
@@ -1556,7 +1598,7 @@ msgstr ""
 "(*) Prix HT. Ne comprend pas le prix d&#39;une session de jeu (à partir de "
 "20€ HT)."
 
-#: pages/templates/teambuilding.html:350
+#: pages/templates/teambuilding.html:354
 msgid ""
 "(**) 30&nbsp;m² room with tables, sofas, coffee, tea, video projector, board "
 "games."
@@ -1564,7 +1606,7 @@ msgstr ""
 "(**) Salle de 30&nbsp;m² avec tables, sofas, café, thé, vidéoprojecteur, "
 "jeux de société."
 
-#: pages/templates/teambuilding.html:385
+#: pages/templates/teambuilding.html:389
 msgid ""
 "Your application has been transmitted. We will provide an answer as soon as "
 "possible."
@@ -1572,7 +1614,7 @@ msgstr ""
 "Votre demande a été transmise. Nous vous répondrons dans les plus brefs "
 "délais."
 
-#: pages/templates/teambuilding.html:543
+#: pages/templates/teambuilding.html:547
 msgid "Submit"
 msgstr "Envoyer"
 
@@ -2203,5 +2245,41 @@ msgstr "Commentaire"
 msgid ""
 "If you have any request or if there is anything that can help us improve "
 "your experience"
-msgstr "Si vous avez une demande particulière ou s'il y a quelque chose "
-"que nous pouvons faire pour personnaliser votre expérience"
+msgstr ""
+"Si vous avez une demande particulière ou s'il y a quelque chose que nous "
+"pouvons faire pour personnaliser votre expérience"
+
+#~ msgid "Just Escape – Escape Game Lille – From 2 Players"
+#~ msgstr "Just Escape – Escape Game Lille – 2 Joueurs et Plus"
+
+#~ msgid ""
+#~ "New escape game 2.0 in Lille ⭐ Ideal for an outing with friends. Amazing "
+#~ "scenery. Scenario Digimiam the futuristic estaminet 🤖"
+#~ msgstr ""
+#~ "Nouvel escape game 2.0 à Lille ⭐ Idéal pour une sortie entre amis. Des "
+#~ "décors sensationnels. Scénario Digimiam l&#39;estaminet futuriste 🤖"
+
+#~ msgid ""
+#~ "New escape game 2.0 in Lille ⚡ Ideal for an outing with friends 😃 Amazing "
+#~ "scenery 👌 Scenario Digimiam the futuristic estaminet 🤖"
+#~ msgstr ""
+#~ "Nouvel escape game 2.0 à Lille ⚡ Idéal pour une sortie entre amis 😃 Des "
+#~ "décors sensationnels 👌 Scénario Digimiam l&#39;estaminet futuriste 🤖"
+
+#~ msgid "Refectory"
+#~ msgstr "Réfectoire"
+
+#~ msgid "Mirrors"
+#~ msgstr "Miroirs"
+
+#~ msgid "Table"
+#~ msgstr "Table"
+
+#~ msgid "Green fog"
+#~ msgstr "Brume verte"
+
+#~ msgid "Laser"
+#~ msgstr "Laser"
+
+#~ msgid "Holographique menu"
+#~ msgstr "Menu holographique"
