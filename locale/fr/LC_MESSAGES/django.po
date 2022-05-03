@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-25 10:14+0200\n"
+"POT-Creation-Date: 2022-05-03 18:59+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -389,7 +389,7 @@ msgstr ""
 msgid "Newsletter"
 msgstr "Newsletter"
 
-#: pages/templates/contact.html:132 pages/templates/teambuilding.html:381
+#: pages/templates/contact.html:132 pages/templates/teambuilding.html:272
 #: pages/templates/unsubscribe.html:24
 msgid "An unexpected error happened. Please contact us directly."
 msgstr ""
@@ -401,7 +401,6 @@ msgid "Thank you and see you soon!"
 msgstr "Merci et à bientôt !"
 
 #: pages/templates/contact.html:142 pages/templates/unsubscribe.html:34
-#: salesquote/forms.py:82
 msgid "marmitron@justescape.fr"
 msgstr "marmitron@justescape.fr"
 
@@ -817,7 +816,7 @@ msgstr "Salles"
 msgid "Pricing"
 msgstr "Tarifs"
 
-#: pages/templates/header.html:38 pages/templates/teambuilding.html:597
+#: pages/templates/header.html:38 pages/templates/teambuilding.html:489
 msgid "Team Building"
 msgstr "Team Building"
 
@@ -831,10 +830,8 @@ msgid "FR"
 msgstr "FR"
 
 #: pages/templates/home.html:5
-#, fuzzy
-#| msgid "FAQ – Escape Game Lille – Just Escape"
 msgid "Escape Game Lille – Just Escape – 2 Joueurs et Plus"
-msgstr "FAQ – Escape Game Lille – Just Escape"
+msgstr ""
 
 #: pages/templates/home.html:6
 msgid ""
@@ -970,12 +967,12 @@ msgid "Un laser met en difficulté l'équipe"
 msgstr ""
 
 #: pages/templates/home.html:190 pages/templates/room.html:159
-#: pages/templates/teambuilding.html:111
+#: pages/templates/teambuilding.html:131
 msgid "Previous"
 msgstr "Précédent"
 
 #: pages/templates/home.html:194 pages/templates/room.html:163
-#: pages/templates/teambuilding.html:115
+#: pages/templates/teambuilding.html:135
 msgid "Next"
 msgstr "Suivant"
 
@@ -1097,7 +1094,7 @@ msgid ""
 "46 collaborateurs."
 msgstr ""
 
-#: pages/templates/home.html:312 pages/templates/teambuilding.html:84
+#: pages/templates/home.html:312 pages/templates/teambuilding.html:104
 msgid "Team building pour entreprise dans un escape game"
 msgstr ""
 
@@ -1159,7 +1156,6 @@ msgid "Price of a scenario"
 msgstr "Prix d&#39;un scénario"
 
 #: pages/templates/pricing.html:108 pages/templates/room.html:64
-#: pages/templates/teambuilding.html:360
 msgid "Book now"
 msgstr "Je réserve"
 
@@ -1467,146 +1463,37 @@ msgstr ""
 msgid "Team Building – Turnkey Packages"
 msgstr "Team Building – Packs Clé en Main"
 
-#: pages/templates/teambuilding.html:56
+#: pages/templates/teambuilding.html:76
 msgid ""
 "Dans une salle d'escape game à Lille, deux collègues sont contentes de leur "
 "team building"
 msgstr ""
 
-#: pages/templates/teambuilding.html:63
+#: pages/templates/teambuilding.html:83
 msgid "Une salle de séminaire à Lille tout équipé pour des formations"
 msgstr ""
 
-#: pages/templates/teambuilding.html:70
+#: pages/templates/teambuilding.html:90
 msgid "La salle de séminaire avec sa baie vitrée"
 msgstr ""
 
-#: pages/templates/teambuilding.html:77
+#: pages/templates/teambuilding.html:97
 msgid "Un cocktail dinatoire réunit une équipe célèbrant un événement"
 msgstr ""
 
-#: pages/templates/teambuilding.html:91
+#: pages/templates/teambuilding.html:111
 msgid "Puzzle qui demande de la reflexion et de la communication"
 msgstr ""
 
-#: pages/templates/teambuilding.html:98
+#: pages/templates/teambuilding.html:118
 msgid "Une énigme qui demande de la cohésion d'équipe"
 msgstr ""
 
-#: pages/templates/teambuilding.html:105
-#, fuzzy
-#| msgid "Order confirmed – Escape Game Lille – Just Escape"
+#: pages/templates/teambuilding.html:125
 msgid "Le centre d'escape game de Lille de Just Escape"
-msgstr "Confirmation de commande – Escape Game Lille – Just Escape"
-
-#: pages/templates/teambuilding.html:266
-msgid "Most popular packs after a good escape game"
-msgstr "Les packs les plus populaires après un bon escape game"
-
-#: pages/templates/teambuilding.html:277
-msgid "Snack"
-msgstr "Goûter"
+msgstr ""
 
 #: pages/templates/teambuilding.html:280
-msgid "Cocktail"
-msgstr "Cocktail"
-
-#: pages/templates/teambuilding.html:283
-msgid "Dinner aperitif"
-msgstr "Apéritif dinatoire"
-
-#: pages/templates/teambuilding.html:286
-msgid "Workshop"
-msgstr "Workshop"
-
-#: pages/templates/teambuilding.html:292
-msgid "Drinks"
-msgstr "Boissons"
-
-#: pages/templates/teambuilding.html:293 pages/templates/teambuilding.html:296
-msgid "Softs"
-msgstr "Sans alcool"
-
-#: pages/templates/teambuilding.html:294 pages/templates/teambuilding.html:295
-msgid "Beer or glass&nbsp;of&nbsp;wine"
-msgstr "Bière ou verre&nbsp;de&nbsp;vin"
-
-#: pages/templates/teambuilding.html:299
-msgid "Menu"
-msgstr "Menu"
-
-#: pages/templates/teambuilding.html:301
-msgid ""
-"<span class='font-weight-bold'>Sweet snack</span> (waffles, fruits, "
-"dairy&nbsp;product)"
-msgstr ""
-"<span class='font-weight-bold'>Collation sucrée</span> (gaufres, fruits, "
-"produit&nbsp;laitier)"
-
-#: pages/templates/teambuilding.html:304
-msgid ""
-"<span class='font-weight-bold'>Salted aperitif</span> (dry&nbsp;sausage, "
-"cheese, nuts)"
-msgstr ""
-"<span class='font-weight-bold'>Apéritif salé</span> (saucisson, fromage, "
-"fruits à coque)"
-
-#: pages/templates/teambuilding.html:307
-msgid "<span class='font-weight-bold'>Caterer</span>"
-msgstr "<span class='font-weight-bold'>Traiteur</span>"
-
-#: pages/templates/teambuilding.html:314
-msgid "Privatization of the reception room** after the game"
-msgstr "Privatisation de la salle de réception** après la partie"
-
-#: pages/templates/teambuilding.html:315 pages/templates/teambuilding.html:316
-#: pages/templates/teambuilding.html:317 pages/templates/teambuilding.html:322
-#: pages/templates/teambuilding.html:323 pages/templates/teambuilding.html:324
-#: pages/templates/teambuilding.html:325
-msgid "Optional"
-msgstr "En option"
-
-#: pages/templates/teambuilding.html:321
-msgid "Full privatization of the estate"
-msgstr "Privation entière des locaux"
-
-#: pages/templates/teambuilding.html:335
-msgid "Price"
-msgstr "Tarifs"
-
-#: pages/templates/teambuilding.html:336
-msgid "<span class='text-mulberry'>+15€</span> per participant*"
-msgstr "<span class='text-mulberry'>+15€</span> par participant*"
-
-#: pages/templates/teambuilding.html:337
-msgid "<span class='text-mulberry'>+20€</span> per participant*"
-msgstr "<span class='text-mulberry'>+20€</span> par participant*"
-
-#: pages/templates/teambuilding.html:338
-msgid "<span class='text-mulberry'>+35€</span> per participant*"
-msgstr "<span class='text-mulberry'>+35€</span> par participant*"
-
-#: pages/templates/teambuilding.html:339
-msgid "From <span class='text-mulberry'>100€</span>*"
-msgstr "À partir de <span class='text-mulberry'>100€</span>*"
-
-#: pages/templates/teambuilding.html:349
-msgid ""
-"(*) Price excluding tax. Does not include the price of a game session "
-"(starting at 20€ excluding tax per person)."
-msgstr ""
-"(*) Prix HT. Ne comprend pas le prix d&#39;une session de jeu (à partir de "
-"20€ HT)."
-
-#: pages/templates/teambuilding.html:354
-msgid ""
-"(**) 30&nbsp;m² room with tables, sofas, coffee, tea, video projector, board "
-"games."
-msgstr ""
-"(**) Salle de 30&nbsp;m² avec tables, sofas, café, thé, vidéoprojecteur, "
-"jeux de société."
-
-#: pages/templates/teambuilding.html:389
 msgid ""
 "Your application has been transmitted. We will provide an answer as soon as "
 "possible."
@@ -1614,7 +1501,7 @@ msgstr ""
 "Votre demande a été transmise. Nous vous répondrons dans les plus brefs "
 "délais."
 
-#: pages/templates/teambuilding.html:547
+#: pages/templates/teambuilding.html:438
 msgid "Submit"
 msgstr "Envoyer"
 
@@ -2193,93 +2080,46 @@ msgstr ""
 msgid "Your name"
 msgstr "Votre nom"
 
-#: salesquote/forms.py:58
-msgid "Marmitron"
-msgstr ""
-
-#: salesquote/forms.py:67
+#: salesquote/forms.py:66
 msgid "Company name"
 msgstr "Nom de l'entreprise"
 
-#: salesquote/forms.py:70
-msgid "Just Escape"
-msgstr ""
-
-#: salesquote/forms.py:79
+#: salesquote/forms.py:77
 msgid "Contact email"
 msgstr "Email de contact"
 
-#: salesquote/forms.py:91
+#: salesquote/forms.py:80
+msgid "contact@justescape.fr"
+msgstr ""
+
+#: salesquote/forms.py:89
 msgid "Contact number"
 msgstr "Numéro de contact"
 
-#: salesquote/forms.py:94
+#: salesquote/forms.py:92
 msgid "06 12 34 56 78"
 msgstr ""
 
-#: salesquote/forms.py:103
+#: salesquote/forms.py:101
 msgid "Group size"
 msgstr "Taille de groupe"
 
-#: salesquote/forms.py:106
-msgid "Approx. if you don't know"
-msgstr ""
-
-#: salesquote/forms.py:115
+#: salesquote/forms.py:112
 msgid "Desired date"
 msgstr "Date souhaitée"
 
-#: salesquote/forms.py:117
-msgid "DD/MM/YYYY hh:mm"
-msgstr "JJ/MM/AAAA hh:mm"
-
-#: salesquote/forms.py:125
+#: salesquote/forms.py:120
 msgid "Discount code"
 msgstr "Code promo"
 
-#: salesquote/forms.py:136
+#: salesquote/forms.py:131
 msgid "Comment"
 msgstr "Commentaire"
 
-#: salesquote/forms.py:140
+#: salesquote/forms.py:135
 msgid ""
 "If you have any request or if there is anything that can help us improve "
 "your experience"
 msgstr ""
 "Si vous avez une demande particulière ou s'il y a quelque chose que nous "
 "pouvons faire pour personnaliser votre expérience"
-
-#~ msgid "Just Escape – Escape Game Lille – From 2 Players"
-#~ msgstr "Just Escape – Escape Game Lille – 2 Joueurs et Plus"
-
-#~ msgid ""
-#~ "New escape game 2.0 in Lille ⭐ Ideal for an outing with friends. Amazing "
-#~ "scenery. Scenario Digimiam the futuristic estaminet 🤖"
-#~ msgstr ""
-#~ "Nouvel escape game 2.0 à Lille ⭐ Idéal pour une sortie entre amis. Des "
-#~ "décors sensationnels. Scénario Digimiam l&#39;estaminet futuriste 🤖"
-
-#~ msgid ""
-#~ "New escape game 2.0 in Lille ⚡ Ideal for an outing with friends 😃 Amazing "
-#~ "scenery 👌 Scenario Digimiam the futuristic estaminet 🤖"
-#~ msgstr ""
-#~ "Nouvel escape game 2.0 à Lille ⚡ Idéal pour une sortie entre amis 😃 Des "
-#~ "décors sensationnels 👌 Scénario Digimiam l&#39;estaminet futuriste 🤖"
-
-#~ msgid "Refectory"
-#~ msgstr "Réfectoire"
-
-#~ msgid "Mirrors"
-#~ msgstr "Miroirs"
-
-#~ msgid "Table"
-#~ msgstr "Table"
-
-#~ msgid "Green fog"
-#~ msgstr "Brume verte"
-
-#~ msgid "Laser"
-#~ msgstr "Laser"
-
-#~ msgid "Holographique menu"
-#~ msgstr "Menu holographique"

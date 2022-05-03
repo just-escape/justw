@@ -55,7 +55,6 @@ class SalesQuoteForm(forms.Form):
         label=_('Your name'),
         widget=forms.TextInput(
             attrs={
-                'placeholder': _('Marmitron'),
                 'class': 'form-control',
                 'spellcheck': 'false',
             }
@@ -67,7 +66,6 @@ class SalesQuoteForm(forms.Form):
         label=_('Company name'),
         widget=forms.TextInput(
             attrs={
-                'placeholder': _('Just Escape'),
                 'class': 'form-control',
                 'spellcheck': 'false',
             }
@@ -79,7 +77,7 @@ class SalesQuoteForm(forms.Form):
         label=_('Contact email'),
         widget=forms.TextInput(
             attrs={
-                'placeholder': _('marmitron@justescape.fr'),
+                'placeholder': _('contact@justescape.fr'),
                 'class': 'form-control',
                 'spellcheck': 'false',
             }
@@ -103,7 +101,6 @@ class SalesQuoteForm(forms.Form):
         label=_('Group size'),
         widget=forms.TextInput(
             attrs={
-                'placeholder': _('Approx. if you don\'t know'),
                 'class': 'form-control',
                 'spellcheck': 'false',
             }
@@ -113,9 +110,7 @@ class SalesQuoteForm(forms.Form):
     desired_date = forms.DateTimeField(
         input_formats=['%d/%m/%Y %H:%M'],
         label=_('Desired date'),
-        widget=BootstrapDateTimePickerInput(
-            attrs={'placeholder': _('DD/MM/YYYY hh:mm')}
-        ),
+        widget=BootstrapDateTimePickerInput(),
         initial=None,
         validators=[ensure_at_least_tomorrow],
         required=False,

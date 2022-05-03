@@ -9,6 +9,26 @@
 {% block og_title %}{% trans "Team Building – Turnkey Packages" %}{% endblock %}
 {% block og_description %}{% trans "Turnkey packages: Breakfast ☕ Cocktail 🍸 Dinner Aperitif 🍻 Workshop 📈 Privatization 🤵" %}{% endblock %}
 
+{% block gtm_header %}
+  {% if salesquote_success %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10859757742"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-10859757742');
+      gtag('event', 'conversion', {'send_to': 'AW-10859757742/MBIPCMWH4rkDEK6Bq7oo'});
+    </script>
+  {% else %}
+    <script>
+      setTimeout(() => {
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PBPTZXM');
+      }, 1000)
+    </script>
+  {% endif %}
+{% endblock %}
+
 {% block extra_css %}
   <style rel="stylesheet">{% include "css/fa-solid-5.8.1.min.css" %}</style>
   <style rel="stylesheet">{% include "css/fa-regular-5.8.1.min.css" %}</style>
@@ -127,7 +147,7 @@
 
           <div class="text-center">
             <a href="#devis" class="btn btn-primary px-5">
-              <span>Je reçois un devis gratuitement</span>
+              <span>Je demande un devis</span>
             </a>
           </div>
         </div>
@@ -189,10 +209,10 @@
               <h3 class="text-jaffa text-center mb-0">Jeu d'immersion grandeur nature</h3>
             </div>
             <div class="card-body">
-              <p>Vous recherchez une activité ludique et insolite pour des groupes jusqu'à 46 personnes sur Lille ? Optez pour une session de jeux d'immersion grandeur nature dans notre centre d'escape game. Chaque joueur incarne un personnage et doit faire preuve de négociation, de diplomatie et d'improvisation pour parvenir à ses fins. C'est l'occasion parfaite de renforcer la complicité ou de briser la glace. Des comédiens réalisent une mise en situation, puis c'est à vous de jouer pendant 3 heures. Le scénario se prête parfaitement à partager un cocktail dinatoire pendant la partie.</p>
+              <p>Vous recherchez une activité ludique et insolite pour des groupes jusqu'à 50 personnes sur Lille ? Optez pour une session de jeux d'immersion grandeur nature dans notre centre d'escape game. Chaque joueur incarne un personnage et doit faire preuve de négociation, de diplomatie et d'improvisation pour parvenir à ses fins. C'est l'occasion parfaite de renforcer la complicité ou de briser la glace. Des comédiens réalisent une mise en situation, puis c'est à vous de jouer pendant 3 heures. Le scénario se prête parfaitement à partager un cocktail dinatoire pendant la partie.</p>
             </div>
             <div class="card-footer">
-              <div class="text-jaffa text-center">De 8 à 46 joueurs</div>
+              <div class="text-jaffa text-center">De 8 à 50 joueurs</div>
             </div>
           </div>
         </div>
@@ -225,143 +245,14 @@
 
       <div class="row">
         <div class="col d-flex justify-content-center">
-          <a href="" class="btn btn-primary px-5">
-            <span>Je voudrais en savoir plus (07 89 05 37 90)</span>
+          <a href="tel:+33789053790" class="btn btn-primary px-5">
+            <span>Je souhaite en savoir plus (07 89 05 37 90)</span>
           </a>
         </div>
       </div>
 
     </div>
   </div>
-
-  <!--
-  <div class="jumbotron">
-    <div class="container px-0">
-
-      <div class="row mb-3">
-        <div class="col">
-          <h2 class="text-jaffa">Votre team building chez Just Escape, centre d'escape game à Lille</h2>
-
-          <p>Vous recherchez une activité originale pour un événement d'entreprise ? Vous souhaitez faire un afterwork entre collègues ? Vous voulez renforcer la cohésion de vos équipes ? Alors lisez la suite : le local d'escape game à Lille de Just Escape est l'endroit qu'il vous faut.</p>
-          <p>Situé dans le quartier Moulins, le local d'escape game dispose d'une salle de réception de près de 40m² pouvant accueillir jusqu'à 20 personnes. Une baie vitrée laisse la lumière du jour éclairer tout l'espace. Cette salle est idéale pour un séminaire, une formation ou pour un cocktail après une partie d'escape game. Nos locaux tout équipés disposent d'un vidéoprojecteur, d'un paperboard, d'une machine à café, d'une connection wifi haut débit et de jeux de société.</p>
-        </div>
-      </div>
-
-      <div class="row mb-3">
-        <div class="col">
-          <h2 class="text-jaffa">Un team building personnalisé selon votre groupe et votre budget</h2>
-          <ul>
-            <li>Si vous êtes un petit groupe de jusqu'à 8 personnes, vous pouvez simplement réserver une session d'escape room à Lille. Le Digimiam est un scénario original, dans le centre de Lille, qui mêle un univers high-tech à la culture culinaire flamande. Vous allez avoir besoin de coordination et de communication pour résoudre les énigmes en équipe.</li>
-            <li>Vous voulez une solution clef en main pour célébrer une date particulière avec 16 collaborateurs ? Alors privatisez les locaux et jouez des sessions d'escape game synchronisées. Profitez de notre salle de réception et de son cadre cosy pour casser la routine et partager un moment de convivialité. En option, vous pouvez demander une collation sucrée, un cocktail apéritif ou un cocktail dinatoire.</li>
-            <li>Vous recherchez une activité ludique et insolite pour des groupes de 8 à 46 à Lille ? Optez pour une session de jeux d'immersion grandeur nature dans nos locaux de 200m². Chaque joueur incarne un personnage unique et doit faire preuve de négociation, de diplomatie et d'improvisation pour arriver à ses fins. C'est l'occasion parfaite de renforcer la complicité ou de briser la glace. Des comédiens réalisent une mise en situation, puis c'est à vous de vous jouer pendant 3h. En prime, le scénario se prête parfaitement à ce qu'un buffet soit servi pendant la partie.</li>
-          </ul>
-          <p>Vous avez besoin d'un renseignement complémentaire ? Appelez-nous au 07 89 05 37 90.</p>
-          <p>Pour bénéficier de tarifs avantageux pour votre comité d'entreprise, contactez-nous directement.</p>
-          <p>Vous organisez une formation d'une durée de plusieurs jours à plusieurs mois ? Faites-nous part de votre projet. Vous bénéficierez de prix dégressifs en fonction du nombre de journées d'études.</p>
-        </div>
-      </div>
-
-      <div class="row mb-3">
-        <div class="col">
-          <h2 class="text-jaffa">{% trans "Most popular packs after a good escape game" %}</h2>
-        </div>
-      </div>
-      <div class="row mb-3">
-        <div class="col">
-          <div class="table-responsive">
-            <table class="table-team-building">
-              <thead>
-                <tr>
-                  <th></th>
-                  <th scope="col">
-                    <div class="text-jaffa size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/coffee.svg" %}</span>{% trans "Snack" %}</div>
-                  </th>
-                  <th scope="col">
-                    <div class="text-jaffa size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/cocktail.svg" %}</span>{% trans "Cocktail" %}</div>
-                  </th>
-                  <th scope="col">
-                    <div class="text-jaffa size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/glass-cheers.svg" %}</span>{% trans "Dinner aperitif" %}</div>
-                  </th>
-                  <th scope="col">
-                    <div class="text-jaffa size-175 text-nowrap mb-0"><span class="d-inline-block svg-24px fill-jaffa mr-2">{% include "svg/presentation.svg" %}</span>{% trans "Workshop" %}</div>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">{% trans "Drinks" %}</th>
-                  <td>{% trans "Softs" %}</td>
-                  <td>{% trans "Beer or glass&nbsp;of&nbsp;wine" %}</td>
-                  <td>{% trans "Beer or glass&nbsp;of&nbsp;wine" %}</td>
-                  <td>{% trans "Softs" %}</td>
-                </tr>
-                <tr>
-                  <th scope="row">{% trans "Menu" %}</th>
-                  <td>
-                    {% trans "<span class='font-weight-bold'>Sweet snack</span> (waffles, fruits, dairy&nbsp;product)" %}
-                  </td>
-                  <td>
-                    {% trans "<span class='font-weight-bold'>Salted aperitif</span> (dry&nbsp;sausage, cheese, nuts)" %}
-                  </td>
-                  <td>
-                    {% trans "<span class='font-weight-bold'>Caterer</span>" %}
-                  </td>
-                  <td>
-                    <span class="d-inline-block svg-24px fill-light">{% include "svg/times.svg" %}</span>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">{% trans "Privatization of the reception room** after the game" %}</th>
-                  <td>{% trans "Optional" %}</td>
-                  <td>{% trans "Optional" %}</td>
-                  <td>{% trans "Optional" %}</td>
-                  <td><span class="d-inline-block svg-24px fill-light">{% include "svg/check.svg" %}</span></td>
-                </tr>
-                <tr>
-                  <th scope="row">{% trans "Full privatization of the estate" %}</th>
-                  <td>{% trans "Optional" %}</td>
-                  <td>{% trans "Optional" %}</td>
-                  <td>{% trans "Optional" %}</td>
-                  <td>{% trans "Optional" %}</td>
-                </tr>
-                <tr>
-                  <th scope="row">{ trans "HD printed photos" %}</th>
-                  <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
-                  <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
-                  <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
-                  <td><span class="d-inline-block svg-24px fill-light">{ include "svg/check.svg" %}</span></td>
-                </tr>
-                <tr>
-                  <th scope="row">{% trans "Price" %}</th>
-                  <td>{% trans "<span class='text-mulberry'>+15€</span> per participant*" %}</td>
-                  <td>{% trans "<span class='text-mulberry'>+20€</span> per participant*" %}</td>
-                  <td>{% trans "<span class='text-mulberry'>+35€</span> per participant*" %}</td>
-                  <td>{% trans "From <span class='text-mulberry'>100€</span>*" %}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col">
-          <p class="small mb-1">{% trans "(*) Price excluding tax. Does not include the price of a game session (starting at 20€ excluding tax per person)." %}</p>
-        </div>
-      </div>
-      <div class="row mb-3">
-        <div class="col">
-          <p class="small">{% trans "(**) 30&nbsp;m² room with tables, sofas, coffee, tea, video projector, board games." %}</p>
-        </div>
-      </div>
-
-      <div class="row justify-content-center">
-        <a class="btn btn-primary px-5" href="/{{ lang }}reserver">
-          <span>{% trans "Book now" %}</span>
-        </a>
-      </div>
-    </div>
-  </div>-->
 
   <div class="jumbotron softdark">
     <div class="container">
@@ -554,6 +445,7 @@
 {% endblock %}
 
 {% block post_base_js %}
+
   <script src="/static/js/moment-2.23.0.min.js"></script>
   {% if lang == 'en/' %}
   <script src="/static/js/moment-en-gb-locale.js"></script>

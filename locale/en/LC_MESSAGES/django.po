@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-25 10:14+0200\n"
+"POT-Creation-Date: 2022-05-03 18:59+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -333,7 +333,7 @@ msgstr ""
 msgid "Newsletter"
 msgstr ""
 
-#: pages/templates/contact.html:132 pages/templates/teambuilding.html:381
+#: pages/templates/contact.html:132 pages/templates/teambuilding.html:272
 #: pages/templates/unsubscribe.html:24
 msgid "An unexpected error happened. Please contact us directly."
 msgstr ""
@@ -343,7 +343,6 @@ msgid "Thank you and see you soon!"
 msgstr ""
 
 #: pages/templates/contact.html:142 pages/templates/unsubscribe.html:34
-#: salesquote/forms.py:82
 msgid "marmitron@justescape.fr"
 msgstr ""
 
@@ -686,7 +685,7 @@ msgstr ""
 msgid "Pricing"
 msgstr ""
 
-#: pages/templates/header.html:38 pages/templates/teambuilding.html:597
+#: pages/templates/header.html:38 pages/templates/teambuilding.html:489
 msgid "Team Building"
 msgstr ""
 
@@ -708,18 +707,20 @@ msgid ""
 "Escape game Lille nouvelle génération ⚡ Idéal pour une sortie en famille, en "
 "couple, entre amis ou en teambuilding avec les collègues. Des énigmes "
 "inédites, une difficultée adaptée à votre groupe, des décors immersifs ! "
-msgstr "Escape game Lille next generation ⚡ Ideal to have fun as a couple, "
-"with family, friends or doing teambuilding with colleagues. Innovative "
-"puzzles, a difficulty adapted to your group, immersive scenery!"
+msgstr ""
+"Escape game Lille next generation ⚡ Ideal to have fun as a couple, with "
+"family, friends or doing teambuilding with colleagues. Innovative puzzles, a "
+"difficulty adapted to your group, immersive scenery!"
 
 #: pages/templates/home.html:9
 msgid ""
 "Escape game Lille nouvelle génération ⚡ Idéal pour une sortie en famille, en "
 "couple, entre amis ou en teambuilding avec les collègues. Des énigmes "
 "inédites, une difficulté adaptée à votre groupe, des décors immersifs !"
-msgstr "Escape game Lille next generation ⚡ Ideal to have fun as a couple, "
-"with family, friends or doing teambuilding with colleagues. Innovative "
-"puzzles, a difficulty adapted to your group, immersive scenery!"
+msgstr ""
+"Escape game Lille next generation ⚡ Ideal to have fun as a couple, with "
+"family, friends or doing teambuilding with colleagues. Innovative puzzles, a "
+"difficulty adapted to your group, immersive scenery!"
 
 #: pages/templates/home.html:26
 msgid "Une joueuse immergée dans sa mission est exaltée"
@@ -853,12 +854,12 @@ msgid "Un laser met en difficulté l'équipe"
 msgstr "A laser puts the team in a difficult spot"
 
 #: pages/templates/home.html:190 pages/templates/room.html:159
-#: pages/templates/teambuilding.html:111
+#: pages/templates/teambuilding.html:131
 msgid "Previous"
 msgstr ""
 
 #: pages/templates/home.html:194 pages/templates/room.html:163
-#: pages/templates/teambuilding.html:115
+#: pages/templates/teambuilding.html:135
 msgid "Next"
 msgstr ""
 
@@ -993,7 +994,7 @@ msgid ""
 msgstr ""
 "Choose the formula you need, whether you are 2 people or up to 46 employees."
 
-#: pages/templates/home.html:312 pages/templates/teambuilding.html:84
+#: pages/templates/home.html:312 pages/templates/teambuilding.html:104
 msgid "Team building pour entreprise dans un escape game"
 msgstr "Team building for compagnies in an escape game"
 
@@ -1051,7 +1052,6 @@ msgid "Price of a scenario"
 msgstr ""
 
 #: pages/templates/pricing.html:108 pages/templates/room.html:64
-#: pages/templates/teambuilding.html:360
 msgid "Book now"
 msgstr ""
 
@@ -1329,143 +1329,44 @@ msgstr ""
 msgid "Team Building – Turnkey Packages"
 msgstr ""
 
-#: pages/templates/teambuilding.html:56
+#: pages/templates/teambuilding.html:76
 msgid ""
 "Dans une salle d'escape game à Lille, deux collègues sont contentes de leur "
 "team building"
-msgstr "In an escape room in Lille, two colleagues are enjoying their "
-"teambuilding"
+msgstr ""
+"In an escape room in Lille, two colleagues are enjoying their teambuilding"
 
-#: pages/templates/teambuilding.html:63
+#: pages/templates/teambuilding.html:83
 msgid "Une salle de séminaire à Lille tout équipé pour des formations"
 msgstr "A fully equipped seminar room in Lille for training"
 
-#: pages/templates/teambuilding.html:70
+#: pages/templates/teambuilding.html:90
 msgid "La salle de séminaire avec sa baie vitrée"
 msgstr "The seminar room with its bay window"
 
-#: pages/templates/teambuilding.html:77
+#: pages/templates/teambuilding.html:97
 msgid "Un cocktail dinatoire réunit une équipe célèbrant un événement"
 msgstr "A cocktail party brings together a team celebrating an event"
 
-#: pages/templates/teambuilding.html:91
+#: pages/templates/teambuilding.html:111
 msgid "Puzzle qui demande de la reflexion et de la communication"
 msgstr "Puzzle that requires thinking and communication"
 
-#: pages/templates/teambuilding.html:98
+#: pages/templates/teambuilding.html:118
 msgid "Une énigme qui demande de la cohésion d'équipe"
 msgstr "A puzzle that requires teamwork"
 
-#: pages/templates/teambuilding.html:105
+#: pages/templates/teambuilding.html:125
 msgid "Le centre d'escape game de Lille de Just Escape"
 msgstr "Just Escape Lille escape game centre"
 
-#: pages/templates/teambuilding.html:266
-msgid "Most popular packs after a good escape game"
-msgstr ""
-
-#: pages/templates/teambuilding.html:277
-msgid "Snack"
-msgstr ""
-
 #: pages/templates/teambuilding.html:280
-msgid "Cocktail"
-msgstr ""
-
-#: pages/templates/teambuilding.html:283
-msgid "Dinner aperitif"
-msgstr ""
-
-#: pages/templates/teambuilding.html:286
-msgid "Workshop"
-msgstr ""
-
-#: pages/templates/teambuilding.html:292
-msgid "Drinks"
-msgstr ""
-
-#: pages/templates/teambuilding.html:293 pages/templates/teambuilding.html:296
-msgid "Softs"
-msgstr ""
-
-#: pages/templates/teambuilding.html:294 pages/templates/teambuilding.html:295
-msgid "Beer or glass&nbsp;of&nbsp;wine"
-msgstr ""
-
-#: pages/templates/teambuilding.html:299
-msgid "Menu"
-msgstr ""
-
-#: pages/templates/teambuilding.html:301
-msgid ""
-"<span class='font-weight-bold'>Sweet snack</span> (waffles, fruits, "
-"dairy&nbsp;product)"
-msgstr ""
-
-#: pages/templates/teambuilding.html:304
-msgid ""
-"<span class='font-weight-bold'>Salted aperitif</span> (dry&nbsp;sausage, "
-"cheese, nuts)"
-msgstr ""
-
-#: pages/templates/teambuilding.html:307
-msgid "<span class='font-weight-bold'>Caterer</span>"
-msgstr ""
-
-#: pages/templates/teambuilding.html:314
-msgid "Privatization of the reception room** after the game"
-msgstr ""
-
-#: pages/templates/teambuilding.html:315 pages/templates/teambuilding.html:316
-#: pages/templates/teambuilding.html:317 pages/templates/teambuilding.html:322
-#: pages/templates/teambuilding.html:323 pages/templates/teambuilding.html:324
-#: pages/templates/teambuilding.html:325
-msgid "Optional"
-msgstr ""
-
-#: pages/templates/teambuilding.html:321
-msgid "Full privatization of the estate"
-msgstr ""
-
-#: pages/templates/teambuilding.html:335
-msgid "Price"
-msgstr ""
-
-#: pages/templates/teambuilding.html:336
-msgid "<span class='text-mulberry'>+15€</span> per participant*"
-msgstr ""
-
-#: pages/templates/teambuilding.html:337
-msgid "<span class='text-mulberry'>+20€</span> per participant*"
-msgstr ""
-
-#: pages/templates/teambuilding.html:338
-msgid "<span class='text-mulberry'>+35€</span> per participant*"
-msgstr ""
-
-#: pages/templates/teambuilding.html:339
-msgid "From <span class='text-mulberry'>100€</span>*"
-msgstr ""
-
-#: pages/templates/teambuilding.html:349
-msgid ""
-"(*) Price excluding tax. Does not include the price of a game session "
-"(starting at 20€ excluding tax per person)."
-msgstr ""
-
-#: pages/templates/teambuilding.html:354
-msgid ""
-"(**) 30&nbsp;m² room with tables, sofas, coffee, tea, video projector, board "
-"games."
-msgstr ""
-
-#: pages/templates/teambuilding.html:389
 msgid ""
 "Your application has been transmitted. We will provide an answer as soon as "
 "possible."
 msgstr ""
 
-#: pages/templates/teambuilding.html:547
+#: pages/templates/teambuilding.html:438
 msgid "Submit"
 msgstr ""
 
@@ -1870,55 +1771,43 @@ msgstr ""
 msgid "Your name"
 msgstr ""
 
-#: salesquote/forms.py:58
-msgid "Marmitron"
-msgstr ""
-
-#: salesquote/forms.py:67
+#: salesquote/forms.py:66
 msgid "Company name"
 msgstr ""
 
-#: salesquote/forms.py:70
-msgid "Just Escape"
-msgstr ""
-
-#: salesquote/forms.py:79
+#: salesquote/forms.py:77
 msgid "Contact email"
 msgstr ""
 
-#: salesquote/forms.py:91
+#: salesquote/forms.py:80
+msgid "contact@justescape.fr"
+msgstr ""
+
+#: salesquote/forms.py:89
 msgid "Contact number"
 msgstr ""
 
-#: salesquote/forms.py:94
+#: salesquote/forms.py:92
 msgid "06 12 34 56 78"
 msgstr ""
 
-#: salesquote/forms.py:103
+#: salesquote/forms.py:101
 msgid "Group size"
 msgstr ""
 
-#: salesquote/forms.py:106
-msgid "Approx. if you don't know"
-msgstr ""
-
-#: salesquote/forms.py:115
+#: salesquote/forms.py:112
 msgid "Desired date"
 msgstr ""
 
-#: salesquote/forms.py:117
-msgid "DD/MM/YYYY hh:mm"
-msgstr ""
-
-#: salesquote/forms.py:125
+#: salesquote/forms.py:120
 msgid "Discount code"
 msgstr ""
 
-#: salesquote/forms.py:136
+#: salesquote/forms.py:131
 msgid "Comment"
 msgstr ""
 
-#: salesquote/forms.py:140
+#: salesquote/forms.py:135
 msgid ""
 "If you have any request or if there is anything that can help us improve "
 "your experience"

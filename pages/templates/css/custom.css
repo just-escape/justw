@@ -817,7 +817,6 @@ input.form-control, select.form-control, textarea.form-control, .input-group > .
 
 input.form-control, select.form-control {
     font-family: "Inter", "Arial Black", "sans-serif";
-    text-transform: uppercase;
     font-size: 1rem;
 }
 
@@ -830,7 +829,6 @@ input.form-control:focus, select.form-control:focus, textarea.form-control:focus
 
 input.form-control::placeholder {
     font-family: "Inter", "Arial Black", "sans-serif";
-    text-transform: uppercase;
     font-size: 1rem;
     color: #545457;
 }

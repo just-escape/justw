@@ -224,7 +224,7 @@ def teambuilding(request):
     data = {
         'current_page': 'team-building',
         'lang': get_lang(request),
-        'localized': True,
+        'localized': False,
         'form': form,
         'unexpected_error': error,
         'salesquote_success': success,
