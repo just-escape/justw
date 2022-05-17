@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-03 18:59+0200\n"
+"POT-Creation-Date: 2022-05-17 12:19+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -311,8 +311,8 @@ msgid "Address"
 msgstr "Adresse"
 
 #: pages/templates/contact.html:66 pages/templates/home.html:380
-msgid "26 rue d&#39;Arras<br>59000 Lille, France"
-msgstr "26 rue d&#39;Arras<br>59000 Lille"
+msgid "26 rue d&#39;Arras<br> 59000 Lille, France"
+msgstr "26 rue d&#39;Arras<br> 59000 Lille"
 
 #: pages/templates/contact.html:88
 msgid "How to get to the estate in Lille?"
