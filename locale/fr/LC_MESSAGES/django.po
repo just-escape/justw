@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-17 12:19+0200\n"
+"POT-Creation-Date: 2022-06-03 21:39+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -43,7 +43,7 @@ msgstr "Erreur 404 – Vous ne naviguez pas sur la bonne page"
 msgid "Go through the door to retrace your steps"
 msgstr "Passez par la porte pour revenir sur vos pas"
 
-#: pages/templates/base.html:64 pages/templates/home.html:8
+#: pages/templates/base.html:64
 msgid "Escape Game Lille – From 2 Players"
 msgstr "Escape Game Lille – 2 Joueurs et Plus"
 
@@ -55,15 +55,15 @@ msgstr "Just Escape Lille Logo"
 msgid "Just Escape ⭐⭐⭐⭐⭐"
 msgstr "Just Escape ⭐⭐⭐⭐⭐"
 
-#: pages/templates/base.html:92
+#: pages/templates/base.html:96
 msgid "Notice"
 msgstr "Note"
 
-#: pages/templates/base.html:93
+#: pages/templates/base.html:97
 msgid "Just Escape is being created and will open soon"
 msgstr "Just Escape est en cours de création et ouvrira bientôt™"
 
-#: pages/templates/base.html:111
+#: pages/templates/base.html:115
 msgid ""
 "<a href='tel:+33789053790' class='text-hover-mulberry text-underline'>+33 7 "
 "89 05 37 90</a><br>"
@@ -71,7 +71,7 @@ msgstr ""
 "<span class='text-jaffa'>Tel :</span> <a href='tel:0789053790' class='text-"
 "hover-mulberry text-underline'>07 89 05 37 90</a><br>"
 
-#: pages/templates/base.html:128
+#: pages/templates/base.html:132
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr "Un des escape games les plus immersifs de&nbsp;Lille"
 
@@ -120,8 +120,8 @@ msgstr "<span class='text-jaffa'>Suggéré pour :</span>"
 msgid "Seminar, Workshop, Teambuilding"
 msgstr "Séminaire, Workshop, Teambuilding"
 
-#: pages/templates/booking.html:64 pages/templates/home.html:258
-#: pages/templates/pricing.html:42
+#: pages/templates/booking.html:64 pages/templates/home.html:203
+#: pages/templates/home.html:256 pages/templates/pricing.html:42
 msgid "25€"
 msgstr "25€"
 
@@ -146,7 +146,7 @@ msgid "Birthday, Christmas, Money&nbsp;pot, Lottery"
 msgstr "Anniversaire, Noël, Cagnotte, Tombola"
 
 #: pages/templates/booking.html:167 pages/templates/gift-voucher.html:58
-#: pages/templates/header.html:30
+#: pages/templates/header.html:30 pages/templates/header2.html:35
 msgid "Booking"
 msgstr "Je réserve"
 
@@ -272,7 +272,8 @@ msgstr ""
 
 #: pages/templates/contact.html:8 pages/templates/contact.html:45
 #: pages/templates/contact.html:203 pages/templates/footer.html:46
-#: pages/templates/header.html:54 pages/templates/home.html:359
+#: pages/templates/header.html:54 pages/templates/header2.html:59
+#: pages/templates/home.html:357
 msgid "Contact"
 msgstr "Contact"
 
@@ -284,11 +285,11 @@ msgstr "Contactez-nous"
 msgid "Opening hours"
 msgstr "Horaires d&#39;ouverture"
 
-#: pages/templates/contact.html:29 pages/templates/home.html:343
+#: pages/templates/contact.html:29 pages/templates/home.html:341
 msgid "<span class='text-jaffa'>Monday-sunday:</span> 10AM-11PM"
 msgstr "<span class='text-jaffa'>Lundi-dimanche :</span> 10h-23h"
 
-#: pages/templates/contact.html:47 pages/templates/home.html:361
+#: pages/templates/contact.html:47 pages/templates/home.html:359
 msgid ""
 "<span class='text-jaffa'>Tel:</span> <a href='tel:+33789053790' class='text-"
 "hover-mulberry text-underline'>+33 7 89 05 37 90</a><br>"
@@ -296,7 +297,7 @@ msgstr ""
 "<span class='text-jaffa'>Tel :</span> <a href='tel:0789053790' class='text-"
 "hover-mulberry text-underline'>07 89 05 37 90</a><br>"
 
-#: pages/templates/contact.html:48 pages/templates/home.html:362
+#: pages/templates/contact.html:48 pages/templates/home.html:360
 msgid ""
 "<span class='text-jaffa'>Mail:</span> c<span hidden></span>ontac<span "
 "hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
@@ -306,11 +307,11 @@ msgstr ""
 "hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
 "hidden></span>.fr"
 
-#: pages/templates/contact.html:64 pages/templates/home.html:378
+#: pages/templates/contact.html:64 pages/templates/home.html:376
 msgid "Address"
 msgstr "Adresse"
 
-#: pages/templates/contact.html:66 pages/templates/home.html:380
+#: pages/templates/contact.html:66 pages/templates/home.html:378
 msgid "26 rue d&#39;Arras<br> 59000 Lille, France"
 msgstr "26 rue d&#39;Arras<br> 59000 Lille"
 
@@ -705,11 +706,12 @@ msgstr ""
 
 #: pages/templates/faq.html:360
 msgid ""
-"If there are more of you (16 or 24), one group will play while the others "
-"relax in the reception area."
+"If there are more of you (up to 16), one group will play the room while the "
+"others play board games in the reception area."
 msgstr ""
-"Si vous êtes plus nombreux (16 ou 24), nous faisons passer un groupe pendant "
-"que les autres se détendent dans l&#39;espace de réception."
+"Si vous êtes plus nombreux (jusqu'à 16), nous faisons passer un groupe "
+"pendant que les autres jouent à des jeux de société dans la salle de "
+"réception."
 
 #: pages/templates/faq.html:363
 msgid ""
@@ -749,14 +751,17 @@ msgid "Follow us on social networks!"
 msgstr "Suivez-nous sur les réseaux sociaux&nbsp;!"
 
 #: pages/templates/footer.html:45 pages/templates/header.html:51
+#: pages/templates/header2.html:56
 msgid "FAQ"
 msgstr "FAQ"
 
 #: pages/templates/footer.html:47 pages/templates/header.html:57
+#: pages/templates/header2.html:62
 msgid "Soon"
 msgstr "Prochainement"
 
 #: pages/templates/footer.html:47 pages/templates/header.html:57
+#: pages/templates/header2.html:62
 msgid "Blog"
 msgstr "Blog"
 
@@ -792,7 +797,7 @@ msgstr "Vos amis et votre famille vont vous adorer avec cette carte cadeau 😍"
 msgid "Offer a gift card"
 msgstr "Offrir une carte cadeau"
 
-#: pages/templates/gift-voucher.html:24 pages/templates/home.html:293
+#: pages/templates/gift-voucher.html:24 pages/templates/home.html:291
 #: pages/templates/room.html:79 pages/templates/room.html:83
 #: pages/templates/room.html:87 pages/templates/room.html:91
 #: pages/templates/room.html:95
@@ -807,31 +812,33 @@ msgstr "Carte cadeau"
 msgid "Escape Game Lille"
 msgstr "Escape Game Lille"
 
-#: pages/templates/header.html:27 pages/templates/room.html:191
+#: pages/templates/header.html:27 pages/templates/header2.html:32
+#: pages/templates/room.html:191
 msgid "Rooms"
 msgstr "Salles"
 
-#: pages/templates/header.html:35 pages/templates/pricing.html:8
-#: pages/templates/pricing.html:214
+#: pages/templates/header.html:35 pages/templates/header2.html:40
+#: pages/templates/pricing.html:8 pages/templates/pricing.html:214
 msgid "Pricing"
 msgstr "Tarifs"
 
-#: pages/templates/header.html:38 pages/templates/teambuilding.html:489
+#: pages/templates/header.html:38 pages/templates/header2.html:43
+#: pages/templates/teambuilding.html:489
 msgid "Team Building"
 msgstr "Team Building"
 
-#: pages/templates/header.html:66
+#: pages/templates/header.html:66 pages/templates/header2.html:71
 msgid "EN"
 msgstr "EN"
 
-#: pages/templates/header.html:66 pages/templates/home.html:136
-#: pages/templates/room.html:58
+#: pages/templates/header.html:66 pages/templates/header2.html:71
+#: pages/templates/home.html:136 pages/templates/room.html:58
 msgid "FR"
 msgstr "FR"
 
 #: pages/templates/home.html:5
-msgid "Escape Game Lille – Just Escape – 2 Joueurs et Plus"
-msgstr ""
+msgid "Escape Game Lille – Just Escape – De 2 à 50 joueurs"
+msgstr "Escape Room Lille – Just Escape – 2 to 50 players"
 
 #: pages/templates/home.html:6
 msgid ""
@@ -839,6 +846,10 @@ msgid ""
 "couple, entre amis ou en teambuilding avec les collègues. Des énigmes "
 "inédites, une difficultée adaptée à votre groupe, des décors immersifs ! "
 msgstr ""
+
+#: pages/templates/home.html:8
+msgid "Escape Game Lille – De 2 à 50 joueurs"
+msgstr "Escape Game Lille – 2 to 50 players"
 
 #: pages/templates/home.html:9
 msgid ""
@@ -856,7 +867,7 @@ msgid "nouvelle génération"
 msgstr ""
 
 #: pages/templates/home.html:35 pages/templates/home.html:207
-#: pages/templates/home.html:400
+#: pages/templates/home.html:398
 msgid "Je réserve une séance"
 msgstr ""
 
@@ -881,7 +892,7 @@ msgstr ""
 
 #: pages/templates/home.html:70
 msgid ""
-"Profitez d'un scénario amusant, que vous ayant un niveau débutant ou expert. "
+"Profitez d'un scénario amusant, que vous ayez un niveau débutant ou expert. "
 "Le game master peut adapter la difficulté pour rendre votre session la plus "
 "fun possible."
 msgstr ""
@@ -939,7 +950,7 @@ msgid "Estaminet cybernétique"
 msgstr ""
 
 #: pages/templates/home.html:128
-msgid "2 à 8 joueurs (sur 2 salles)"
+msgid "2 à 10 joueurs (sur 2 salles)"
 msgstr ""
 
 #: pages/templates/home.html:132 pages/templates/room.html:51
@@ -988,10 +999,6 @@ msgstr ""
 msgid "À partir de"
 msgstr ""
 
-#: pages/templates/home.html:203 pages/templates/home.html:256
-msgid "20€"
-msgstr ""
-
 #: pages/templates/home.html:204
 msgid "par joueur"
 msgstr ""
@@ -1009,104 +1016,100 @@ msgid "Nos tarifs"
 msgstr ""
 
 #: pages/templates/home.html:257
-msgid " par joueur en heure creuse,"
+msgid " par joueur"
 msgstr ""
 
-#: pages/templates/home.html:259
-msgid " en heure pleine"
-msgstr ""
-
-#: pages/templates/home.html:262
+#: pages/templates/home.html:260
 msgid ""
 "Les escape games sont une sortie à faire en famille avec les enfants, entre "
 "amis ou en couple."
 msgstr ""
 
-#: pages/templates/home.html:265
+#: pages/templates/home.html:263
 msgid "Le scénario peut être joué à deux personnes à prix abordable."
 msgstr ""
 
-#: pages/templates/home.html:268
+#: pages/templates/home.html:266
 msgid ""
 "Vous organisez un événement comme un anniversaire, un EVG ou un EVJF&nbsp;? "
 "Après la partie, vous pourrez rester gratuitement dans les canapés de la "
 "salle de réception&nbsp;!"
 msgstr ""
 
-#: pages/templates/home.html:275
+#: pages/templates/home.html:273
 msgid "Salle avec des jeux de société, des tables et des canapés"
 msgstr ""
 
-#: pages/templates/home.html:277
+#: pages/templates/home.html:275
 msgid "Je regarde les horaires"
 msgstr ""
 
-#: pages/templates/home.html:284
+#: pages/templates/home.html:282
 msgid "Carte cadeau"
 msgstr ""
 
-#: pages/templates/home.html:285
+#: pages/templates/home.html:283
 msgid "Vous ne savez jamais quoi offrir&nbsp;?"
 msgstr ""
 
-#: pages/templates/home.html:286
+#: pages/templates/home.html:284
 msgid "Que diriez-vous d'un bon cadeau original et unique en son genre&nbsp;?"
 msgstr ""
 
-#: pages/templates/home.html:287
+#: pages/templates/home.html:285
 msgid ""
 "Vos proches vont adorer passer noël ou leur anniversaire avec vous&nbsp;!"
 msgstr ""
 
-#: pages/templates/home.html:288
+#: pages/templates/home.html:286
 msgid ""
 "Vous organisez une tombola ou une cagnotte ? Demandez à en recevoir pour "
 "servir de lot."
 msgstr ""
 
-#: pages/templates/home.html:295
+#: pages/templates/home.html:293
 msgid "J'en veux une"
 msgstr ""
 
-#: pages/templates/home.html:302
+#: pages/templates/home.html:300
 msgid "Teambuilding"
 msgstr ""
 
-#: pages/templates/home.html:303
+#: pages/templates/home.html:301
 msgid "Formation, séminaire, atelier"
 msgstr ""
 
-#: pages/templates/home.html:304
+#: pages/templates/home.html:302
 msgid ""
 "Le live escape game combine le travail d'équipe, la communication et la "
 "logique. C'est une excellente occasion de renforcer la cohésion d'un groupe."
 msgstr ""
 
-#: pages/templates/home.html:305
+#: pages/templates/home.html:303
 msgid ""
 "Découvrez des solutions clé en main pour team building : salle de séminaire, "
 "apéritif dinatoire, etc."
 msgstr ""
 
-#: pages/templates/home.html:306
+#: pages/templates/home.html:304
 msgid ""
 "Choisissez la formule qu'il vous faut, que vous soyez 2 personnes ou jusqu'à "
 "46 collaborateurs."
 msgstr ""
 
-#: pages/templates/home.html:312 pages/templates/teambuilding.html:104
+#: pages/templates/home.html:310 pages/templates/teambuilding.html:104
 msgid "Team building pour entreprise dans un escape game"
 msgstr ""
 
-#: pages/templates/home.html:314
+#: pages/templates/home.html:312
 msgid "En savoir plus"
 msgstr ""
 
-#: pages/templates/home.html:327
+#: pages/templates/home.html:325
 msgid "Comment rejoindre le centre à&nbsp;Lille&nbsp;?"
 msgstr ""
 
-#: pages/templates/home.html:341
+#: pages/templates/home.html:339
 msgid "Horaires d'ouverture"
 msgstr ""
 
@@ -1238,8 +1241,8 @@ msgid "Difficulty: adapted to your group."
 msgstr "Difficulté : adaptée à votre groupe."
 
 #: pages/templates/room.html:44
-msgid "2 - 8 players (on 2 rooms)"
-msgstr "2 à 8 joueurs (sur 2 salles)"
+msgid "2 - 10 players (on 2 rooms)"
+msgstr "2 à 10 joueurs (sur 2 salles)"
 
 #: pages/templates/room.html:75
 msgid "Trailer"
@@ -1365,6 +1368,7 @@ msgstr "Instagram"
 msgid "Just Escape logo with no text: an escape room door"
 msgstr "Logo de Just Escape sans texte : une porte d'escape room"
 
+#: pages/templates/svg/just-escape-white.svg:2
 #: pages/templates/svg/just-escape.svg:2
 msgid "Just Escape Lille logo"
 msgstr "Just Escape Lille Logo"
