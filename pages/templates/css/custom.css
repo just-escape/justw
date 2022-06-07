@@ -326,12 +326,30 @@ a:hover {
     transition: background 1s ease-in-out;
 }
 
+#navheader.nav {
+    display: none;
+}
+
 #navheader header {
     background: rgba(248, 249, 250, 0.65);
     color: #3c3c3e;
 }
 
+.logo-white {
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+    .logo-white {
+        width: 33%;
+    }
+}
+
 @media (min-width: 992px) {
+    #navheader.nav {
+        display: block;
+    }
+
     #navheader header {
         background: transparent;
     }
@@ -552,6 +570,34 @@ a:hover {
 .img-cover {
     height: 100vh;
     object-fit: cover;
+}
+
+.mobile-bar {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.mobile-tile-current-page {
+    background: #f38d40;
+    color: #f8f9fa;
+}
+
+.mobile-tile-current-page svg {
+    fill: #f8f9fa;
+}
+
+.mobile-tile-hover {
+    transition: all 0.2s ease-in-out;
+}
+
+.mobile-tile-hover:hover {
+    background: #cb4299;
+    color: #f8f9fa;
+}
+
+.mobile-tile-hover:hover svg {
+    fill: #f8f9fa;
 }
 /* navheader */
 
@@ -946,6 +992,10 @@ input.form-control::placeholder {
 
 .border-jaffa {
     border-color: #f38d40;
+}
+
+.border-dark {
+    border-color: #3c3c3e;
 }
 
 .border-light {

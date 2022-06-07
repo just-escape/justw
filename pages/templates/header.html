@@ -1,5 +1,7 @@
 {% load i18n %}
 
+<!-- large screen -->
+
 <div class="nav fixed-top p-0" id="navheader">
 
   <div class="container-fluid d-flex flex-column flex-lg-column-reverse px-0">
@@ -74,5 +76,73 @@
       </div>
     </nav>
 
+  </div>
+</div>
+
+<!-- mobile / tablet -->
+
+<div class="position-absolute d-lg-none container-fluid" style="top: 0px; z-index: 1000">
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <figure class="d-table mb-0 mt-3 logo-white">
+        <a href="/{{ lang }}">
+          <span class="d-block">{% include "svg/just-escape-white.svg" %}</span>
+        </a>
+      </figure>
+    </div>
+    {% if localized %}
+    <div class="position-absolute m-2" style="top: 0px; right: 0px">
+      <span class="svg-20px fill-light align-sub mr-1">
+        {% include "svg/language.svg" %}
+      </span>
+      <span>
+        <a class="text-hover-mulberry" href="/en/{{ current_page }}">{% trans "EN" %}</a> | <a class="text-hover-mulberry" href="/{{ current_page }}">{% trans "FR" %}</a>
+      </span>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="w-100 mobile-bar d-lg-none">
+  <div class="w-100 d-flex flex-row justify-content-end p-2">
+    <a href="{% trans "tel:0789053790" %}" class="btn btn-light py-0 px-1 d-flex flex-row" style="font-size: 14px">
+      <div class="mr-1" style="color: #3c3c3e">
+        {% trans "07 89 05 37 90" %}
+      </div>
+      <div class="svg-16px">
+        {% include "svg/phone.svg" %}
+      </div>
+    </a>
+  </div>
+
+  <div class="light w-100">
+    <div class="container w-100">
+      <div class="row justify-content-center">
+        <div class="col-4 px-0 py-2 mobile-tile-hover">
+          <a href="/{{ lang }}salles" class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+            <span class="d-inline-block svg-24px fill-jaffa mb-1">{% include "svg/puzzle.svg" %}</span>
+            <div class="text-inter text-center" style="font-size: 12px">
+              {% trans "Rooms" %}
+            </div>
+          </a>
+        </div>
+        <div class="col-4 px-0 py-2 text-mulberry font-weight-bold mobile-tile-hover">
+          <a href="/{{ lang }}reserver" class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+            <span class="d-inline-block svg-24px fill-mulberry mb-1">{% include "svg/calendar-check.svg" %}</span>
+            <div class="text-inter text-center" style="font-size: 12px">
+              {% trans "Book now" %}
+            </div>
+          </a>
+        </div>
+        <div class="col-4 px-0 py-2 mobile-tile-hover">
+          <a href="/{{ lang }}team-building" class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+            <span class="d-inline-block svg-24px fill-jaffa mb-1">{% include "svg/users.svg" %}</span>
+            <div class="text-inter text-center" style="font-size: 12px">
+              {% trans "Team Building" %}
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
