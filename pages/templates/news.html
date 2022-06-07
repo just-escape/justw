@@ -1,8 +1,12 @@
 {% extends "base.html" %}
 
-{% load i18n %}
+{% block title %}Blog – Escape Game Lille – Just Escape{% endblock %}
+{% block description %}Vous êtes curieux à propos des escape games, surtout ceux à Lille ? Soyez les premiers à découvrir les articles de Just Escape.{% endblock %}
 
-{% block h1 %}{% trans "News" %}{% endblock %}
+{% block og_title %}Blog{% endblock %}
+{% block og_description %}Vous êtes curieux à propos des escape games, surtout ceux à Lille ? Soyez les premiers à découvrir les articles de Just Escape.{% endblock %}
+
+{% block h1 %}Un blog à propos d'escape games, de Lille et de plein d'autres choses{% endblock %}
 
 {% block content %}
 
@@ -11,64 +15,48 @@
       <div class="row justify-content-center">
         <ul class="list-unstyled">
           <li class="mb-5">
-            <article class="media">
-              <a href="/{{ lang }}news1">
-                <span class="svg-132x200px d-inline-block mr-3">
-                  {% include "svg/door-robot.svg" %}
-                </span>
-              </a>
-              <div class="media-body">
-                <a href="/{{ lang }}news1"><h2 class="text-jaffa">{% lorem 2 w %}</h2></a>
-                <p class="text-muted mb-1">Posté le {% now "SHORT_DATE_FORMAT" %}</p>
-                <p class="text-justify">{% lorem %}</p>
+            <a class="row flex-md-row-reverse justify-content-center align-items-center" href="/blog/escape-game-lille-nouvelle-generation">
+              <div class="col-12 col-md-6 col-lg-8">
+                <div class="media-body">
+                  <h2 class="text-jaffa">Un escape game nouvelle génération à Lille</h2>
+                  <p class="text-muted mb-1">Posté le 7 juin 2022</p>
+                  <p>J'ai joué à <strong>mon premier escape game en 2013</strong> alors que j'étais en vacances chez mes parents. La salle de The great escape game m'avait fait rêver ! Mon petit frère qui me savait touche à tout m'avait dit sur le chemin du retour "<span class="font-italic">eh mais tu pourrais carrément créer ton escape room !</span>". 5 ans plus tard, je me retrouve avec mon diplôme d'ingénieur électronique en poche et je travaille dans un centre de recherche à <strong>Budapest, la capitale européenne des escape games</strong>. Je passe mes soirées à faire <strong>des escape rooms avec mes collègues et entre amis</strong>. [...]</p>
+                </div>
               </div>
-            </article>
-          </li>
-          <li class="mb-5">
-            <article class="media">
-              <a href="/{{ lang }}news1">
-                <span class="svg-132x200px d-inline-block mr-3">
-                  {% include "svg/door-robot.svg" %}
-                </span>
-              </a>
-              <div class="media-body">
-                <a href="/{{ lang }}news1"><h2 class="text-jaffa">{% lorem 2 w %}</h2></a>
-                <p class="text-muted mb-1">Posté le {% now "SHORT_DATE_FORMAT" %}</p>
-                <p class="text-justify">{% lorem %}</p>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                <video class="mr-3" autoplay muted loop>
+                  <source src="/static/vid/salle-escape-game-modelisation-3d.webm" type="video/webm"/>
+                  <p>Les vidéos ne sont pas supportées par ce navigateur</p>
+                </video>
               </div>
-            </article>
-          </li>
-          <li class="mb-5">
-            <article class="media">
-              <a href="/{{ lang }}news1">
-                <span class="svg-132x200px d-inline-block mr-3">
-                  {% include "svg/door-robot.svg" %}
-                </span>
-              </a>
-              <div class="media-body">
-                <a href="/{{ lang }}news1"><h2 class="text-jaffa">{% lorem 2 w %}</h2></a>
-                <p class="text-muted mb-1">Posté le {% now "SHORT_DATE_FORMAT" %}</p>
-                <p class="text-justify">{% lorem %}</p>
-              </div>
-            </article>
-          </li>
-          <li class="mb-5">
-            <article class="media">
-              <a href="/{{ lang }}news1">
-                <span class="svg-132x200px d-inline-block mr-3">
-                  {% include "svg/door-robot.svg" %}
-                </span>
-              </a>
-              <div class="media-body">
-                <a href="/{{ lang }}news1"><h2 class="text-jaffa">{% lorem 2 w %}</h2></a>
-                <p class="text-muted mb-1">Posté le {% now "SHORT_DATE_FORMAT" %}</p>
-                <p class="text-justify">{% lorem %}</p>
-              </div>
-            </article>
+            </a>
           </li>
         </ul>
       </div>
     </div>
   </div>
 
+{% endblock %}
+
+{% block post_base_js %}
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Just Escape",
+                "item": "https://just-escape.fr/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://just-escape.fr/blog"
+            }
+        ]
+    }
+  </script>
 {% endblock %}

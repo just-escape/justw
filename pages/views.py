@@ -194,18 +194,27 @@ def room(request):
 
 
 def booking(request):
-    form, error, success = handle_subscription(request)
-
     data = {
         'current_page': 'reserver',
         'lang': get_lang(request),
         'localized': True,
-        'form': form,
-        'unexpected_error': error,
-        'subscription_success': success,
     }
 
     return render(request, 'booking.html', data)
+
+
+def booking_murder_party(request):
+    data = {
+        'current_page': 'reserver-murder-party',
+        'lang': get_lang(request),
+        'localized': False,
+        'noindex': True,
+    }
+
+    r = render(request, 'booking_murder_party.html', data)
+    r['X-Robots-Tag'] = 'noindex'
+
+    return r
 
 
 def gift_voucher(request):
