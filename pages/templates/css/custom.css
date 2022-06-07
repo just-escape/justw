@@ -80,14 +80,16 @@ body {
 }
 
 .pre-content {
-    /* logo height + line height + margin top + margin bottom */
-    height: calc(50px + 24px + 1rem);
+    /* logo height */
+    height: calc(80px);
+    background: #2e2e2e;
 }
 
 @media (min-width: 992px) {
     /* black stripe height + logo height + line height + logo margin top */
     .pre-content {
         height: calc(2.25rem + 100px + 24px + 1rem);
+        background: #f8f9fa;
     }
 }
 
@@ -343,6 +345,10 @@ a:hover {
     .logo-white {
         width: 33%;
     }
+}
+
+.logo-white-max-height {
+    width: 130px;
 }
 
 @media (min-width: 992px) {

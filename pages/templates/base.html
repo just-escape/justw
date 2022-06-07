@@ -18,11 +18,7 @@
     {% endif %}
 
     <style rel="stylesheet">{% include "css/bootstrap.opti.css" %}</style>
-    {% if current_page == 'home2' %}
-    <style rel="stylesheet">{% include "css/custom2.css" %}</style>
-    {% else %}
     <style rel="stylesheet">{% include "css/custom.css" %}</style>
-    {% endif %}
     {% block extra_css %}{% endblock %}
 
     <!-- generics -->
@@ -88,11 +84,7 @@
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBPTZXM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {% endblock %}
 
-    {% if current_page == 'home2' %}
-    {% include "header2.html" %}
-    {% else %}
     {% include "header.html" %}
-    {% endif %}
 
     <main class="flex-grow-1">
       <!--
