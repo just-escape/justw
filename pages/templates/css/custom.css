@@ -220,11 +220,20 @@ h3 {
 
 a {
     color: inherit;
+    text-decoration: underline;
     transition: color 0.2s ease-in-out;
 }
 
 a:hover {
-    color: inherit;
+    color: #cb4299;
+    text-decoration: none;
+}
+
+nav a, footer a, #blog a, .mobile-bar a, a.btn {
+    text-decoration: none;
+}
+
+.text-decoration-none {
     text-decoration: none;
 }
 
