@@ -195,8 +195,8 @@
     <div class="container px-0" style="margin-top: 40px">
       <div class="row">
         <div class="col">
-                <h2 class="text-inter font-weight-bold mb-0 text-center">{% trans "Les <strong>escape rooms</strong> de Just Escape" %}</h2>
-                <div class="text-inter text-center size-12 mb-5">{% trans "Découvrez les <strong>scénarios</strong>" %}</div>
+          <h2 class="text-inter font-weight-bold mb-0 text-center">{% trans "Les <strong>escape rooms</strong> de Just Escape" %}</h2>
+          <div class="text-inter text-center size-12 mb-5">{% trans "Découvrez les <strong>scénarios</strong>" %}</div>
         </div>
       </div>
 
@@ -337,7 +337,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-12 col-lg-6">
           <div class="p-3 border-solid border-dark rounded mb-3" id="qa-03" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <h3 id="question-03" class="pointer size-1 mb-0" data-toggle="collapse" data-target="#answer-03" aria-expanded="false" aria-controls="answer-03" itemprop="name">
@@ -378,6 +378,127 @@
           </div>
         </div>
       </div>
+
+      {% if lang == '' %}
+      <div class="row">
+        <div class="col">
+          <h2 class="text-inter font-weight-bold mb-0 text-center">{% trans "Découvrez aussi nos scénarios de murder party" %}</h2>
+          <div class="text-inter text-center size-12 mb-5">{% trans "Une activité complètement <strong>insolite</strong>" %}</div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-4">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <div class="card deepdark position-relative py-4 px-0 px-sm-4">
+                <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "Nouveau" %}</span></div>
+            <div class="card-header d-flex flex-column flex-md-row justify-content-between">
+              <div class="d-flex flex-column mb-3 mb-md-0 justify-content-center">
+                <div class="text-inter font-weight-bold lh-1 size-2">{% trans "Le RedRock Saloon" %}</div>
+                <div class="size-15 lh-1">{% trans "Village western" %}</div>
+              </div>
+              <div class="d-flex flex-column align-items-end justify-content-center">
+                <div>
+                  <span class="lh-24px">{% trans "10 à 25 joueurs" %}</span>
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                </div>
+                <div>
+                  <span class="lh-24px">{% trans "3 heures" %}</span>
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                </div>
+                <div>
+                  <span class="lh-24px">{% trans "FR" %}</span>
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/lang.svg" %}</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <picture>
+                <source srcset="/static/img/murder-party-redrock-saloon.webp" type="image/webp">
+                <source srcset="/static/img/murder-party-redrock-saloon.jpg" type="image/jpg">
+                <img loading="lazy" class="img-fluid w-100 mb-3" src="/static/img/murder-party-redrock-saloon.jpg" alt="{% trans "Des personnages sont dans une intrigue de murder party" %}" >
+              </picture>
+
+              <p class="size-11 mb-0">{% trans "Un soir de printemps 1884, sur la côte ouest, les habitants de Silver Town se préparent à célébrer l'anniversaire de la ville. Mais les apparences sont trompeuses. Entre le shérif, le juge, les filles du saloon et les sympathiques indiens, tout le monde n'est pas là pour faire la fête. La présence d'étrangers, les vieux conflits de terre et les jeux de cartes douteux forment une atmosphère tendue..." %}</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                <div class="d-flex flex-column align-items-center mb-4 mb-md-0">
+                  <div class="lh-1 size-09">{% trans "À partir de" %}</div>
+                  <div class="text-inter font-weight-bold lh-1 size-2">{% trans "25€" %}</div>
+                  <div class="lh-1 size-09">{% trans "par joueur" %}</div>
+                </div>
+
+                <a href="/murder-party" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/face-grin-hearts.svg" %}</span>{% trans "Je veux en savoir plus" %}</span></a>
+              </div>
+
+              <p class="size-11 text-center mb-0">
+              {% trans "<span class='text-jaffa'>Vous êtes un petit groupe ?</span> <a href='/murder-party#inscription' class='text-underline text-hover-mulberry'>Inscrivez-vous sur liste d'attente</a> ! Vous serez invité à des sessions ouvertes pour encore plus de fun en rencontrant de nouvelles personnes." %}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-12">
+          <div class="p-3 border-solid border-dark rounded mb-3" id="qa-21" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-21" class="pointer size-1 mb-0" data-toggle="collapse" data-target="#answer-21" aria-expanded="false" aria-controls="answer-21" itemprop="name">
+              <span class="transition-03s fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Qu'est-ce qu'une murder party ?" %}
+            </h3>
+            <div id="answer-21" class="collapse" aria-labelledby="question-21" data-parent="#qa-21" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                {% trans "<strong>Une murder party est une histoire rocambolesque</strong> qui vous plonge dans une intrigue à démêler. Le temps d'une soirée, chaque participant s'oublie pour incarner <strong>un personnage avec ses propres traits de caractère et ses propres objectifs</strong>." %}
+                </p>
+                <p class="mt-3">
+                {% trans "La murder party est une activité fun, ludique et insolite qui permet à des grands groupes de joueurs de se découvrir autrement et de <strong>partager un moment de complicité</strong>." %}
+                </p>
+                <p class="mb-0">
+                {% trans "<strong>Les scénarios de Just Escape sont accessibles pour tout le monde.</strong>" %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" id="qa-22" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-22" class="pointer size-1 mb-0" data-toggle="collapse" data-target="#answer-22" aria-expanded="false" aria-controls="answer-22" itemprop="name">
+              <span class="transition-03s fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Est-ce que je peux m'inscrire avec un petit groupe ?" %}
+            </h3>
+            <div id="answer-22" class="collapse" aria-labelledby="question-22" data-parent="#qa-22" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                {% trans "Oui !" %}
+                </p>
+                <p>
+                {% trans "Inscrivez chaque personne qui souhaite participer sur la liste d'attente. Vous recevrez des invitations pour participer à nos sessions ouvertes." %}
+                </p>
+                <p class="mb-0">
+                {% trans "Les sessions ouvertes sont idéales pour <strong>rencontrer des nouvelles personnes</strong> et s'amuser." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" id="qa-23" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 id="question-23" class="pointer size-1 mb-0" data-toggle="collapse" data-target="#answer-23" aria-expanded="false" aria-controls="answer-23" itemprop="name">
+              <span class="transition-03s fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "À partir de quel âge peut-on jouer à une murder party ?" %}
+            </h3>
+            <div id="answer-23" class="collapse" aria-labelledby="question-23" data-parent="#qa-23" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3 mb-0">
+                {% trans "Nous demandons à tous les participants d'être âgés de 16 ans minimum." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
 
     </div>
   </div>
@@ -483,8 +604,8 @@
               <p class="text-center lh-12 size-11 mb-0">{% trans "Vous organisez une tombola ou une cagnotte ? Demandez à en recevoir pour servir de lot." %}</p>
             </div>
             <div class="card-footer transparent text-center" style="border-width: 0px">
-                    <video autoplay muted loop class="mb-3" title="Une carte cadeau pour <strong>un escape game sur Lille</strong>">
-                <source src="/static/vid/carte-cadeau-2-joueurs-lille.webm" type="video/webm"/>
+              <video autoplay muted loop class="mb-3" title="Une carte cadeau pour un escape game sur Lille">
+                <source src="/static/vid/carte-cadeau-2-joueurs-lille.webm" poster="/static/img/carte-cadeau-escape-game.webp" type="video/webm"/>
                 <p>{% trans "Videos are not supported by this browser" %}</p>
               </video>
               <a href="/{{ lang }}carte-cadeau" class="text-inter btn btn-light size-1">{% trans "Je veux une <strong>carte cadeau</strong>" %}</a>
@@ -859,6 +980,14 @@
     $("#answer-19").on("hide.bs.collapse", function() {$("#question-19 span").removeClass("rotate-90");})
     $("#answer-20").on("show.bs.collapse", function() {$("#question-20 span").addClass("rotate-90");})
     $("#answer-20").on("hide.bs.collapse", function() {$("#question-20 span").removeClass("rotate-90");})
+    {% if lang == '' %}
+    $("#answer-21").on("show.bs.collapse", function() {$("#question-21 span").addClass("rotate-90");})
+    $("#answer-21").on("hide.bs.collapse", function() {$("#question-21 span").removeClass("rotate-90");})
+    $("#answer-22").on("show.bs.collapse", function() {$("#question-22 span").addClass("rotate-90");})
+    $("#answer-22").on("hide.bs.collapse", function() {$("#question-22 span").removeClass("rotate-90");})
+    $("#answer-23").on("show.bs.collapse", function() {$("#question-23 span").addClass("rotate-90");})
+    $("#answer-23").on("hide.bs.collapse", function() {$("#question-23 span").removeClass("rotate-90");})
+    {% endif %}
   </script>
 
   <script>

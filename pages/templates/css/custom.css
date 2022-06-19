@@ -882,11 +882,11 @@ input.form-control:focus, select.form-control:focus, textarea.form-control:focus
 input.form-control::placeholder {
     font-family: "Inter", "Arial Black", "sans-serif";
     font-size: 1rem;
-    color: #545457;
+    color: rgba(248, 249, 250, 0.6);
 }
 
 .softdark input.form-control::placeholder, .softdark textarea.form-control::placeholder {
-    color: #656568;
+    color: rgba(248, 249, 250, 0.6);
 }
 /* form */
 

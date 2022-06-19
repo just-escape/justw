@@ -6,8 +6,8 @@ from django.db.utils import IntegrityError
 from django.core.mail import send_mail
 
 from justw import settings
-from newsletter.forms import EmailForm
-from newsletter.models import Subscriber
+from newsletter.forms import EmailForm, MurderSubscriptionForm
+from newsletter.models import Subscriber, MurderSubscription
 from salesquote.forms import SalesQuoteForm
 from salesquote.models import SalesQuote
 
@@ -166,6 +166,64 @@ def handle_salesquote(request):
     return SalesQuoteForm(), False, True
 
 
+def handle_murder_subscription(request):
+    if request.method != 'POST':
+        return MurderSubscriptionForm(), False, False
+
+    logger = logging.getLogger('justw.murder_subscription')
+    logger.debug('Handling a new murder subscription')
+
+    form = MurderSubscriptionForm(request.POST)
+    try:
+        logger.debug('Validating murder subscription form')
+        valid = form.is_valid()
+    except Exception:
+        logger.exception('')
+        return form, True, False
+
+    if not valid:
+        logger.debug('Murder subscription form is not valid')
+        return form, True, False
+
+    logger.debug('Murder subscription form is valid')
+
+    try:
+        logger.debug("Recording murder subscription")
+
+        name = form.cleaned_data['contact_name']
+        email = form.cleaned_data['contact_email']
+        number = form.cleaned_data['contact_number']
+        comment = form.cleaned_data['comment']
+
+        murder_subscription = MurderSubscription(
+            contact_name=name,
+            contact_email=email,
+            contact_number=number,
+            comment=comment,
+        )
+        murder_subscription.save()
+    except Exception:
+        logger.exception('')
+        return form, True, False
+
+    body_lines = [
+        "Nom : {}".format(name),
+        "Email : {}".format(email),
+        "Tel : {}".format(number),
+        "Commentaire : {}".format(comment),
+    ]
+    send_mail(
+        "Nouvelle inscription murder party de {}".format(name),
+        "\n".join(body_lines),
+        "murder-party@justescape.fr",
+        settings.ADMINS,
+        fail_silently=True,
+    )
+    logger.debug("Murder subscription recorded")
+
+    return MurderSubscriptionForm(), False, True
+
+
 def home(request):
     form, error, success = handle_subscription(request)
 
@@ -191,6 +249,19 @@ def room(request):
         'show': show
     }
     return render(request, 'room.html', data)
+
+
+def murder_party(request):
+    form, error, success = handle_murder_subscription(request)
+
+    data = {
+        'current_page': 'murder-party',
+        'localized': False,
+        'form': form,
+        'unexpected_error': error,
+        'subscription_success': success,
+    }
+    return render(request, 'murder_party.html', data)
 
 
 def booking(request):
@@ -247,14 +318,59 @@ def faq(request):
     return render(request, 'faq.html', data)
 
 
-def news(request):
-    data = {'current_page': 'news', 'lang': '', 'localized': False}
-    return render(request, 'news.html', data)
+def blog(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog.html', data)
 
 
-def news1(request):
-    data = {'current_page': 'news1', 'lang': '', 'localized': False}
-    return render(request, 'news1.html', data)
+def blog_escape_game_lille_nouvelle_generation(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_escape_game_lille_nouvelle_generation.html', data)
+
+
+def blog_escape_game_famille_lille(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_escape_game_famille_lille.html', data)
+
+
+def blog_escape_game_anniversaire_lille(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_escape_game_anniversaire_lille.html', data)
+
+
+def blog_escape_game_evjf_original(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_escape_game_evjf_original.html', data)
+
+
+def blog_escape_game_2_joueurs_lille(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_escape_game_2_joueurs_lille.html', data)
+
+
+def blog_meilleur_escape_game_lille(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_meilleur_escape_game_lille.html', data)
+
+
+def blog_escape_game_enfant_lille(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_escape_game_enfant_lille.html', data)
+
+
+def blog_escape_room_france_guide(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_escape_room_france_guide.html', data)
+
+
+def blog_idees_activites_lille(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_idees_activites_lille.html', data)
+
+
+def blog_devis_escape_game(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_devis_escape_game.html', data)
 
 
 def error404(request):

@@ -1,5 +1,6 @@
 from django import forms
 from django.db import models
+from phonenumber_field.modelfields import PhoneNumberField
 
 
 class Subscriber(models.Model):
@@ -15,4 +16,18 @@ class Subscriber(models.Model):
 class SubscriberForm(forms.ModelForm):
     class Meta:
         model = Subscriber
+        fields = '__all__'
+
+
+class MurderSubscription(models.Model):
+    submitted = models.DateTimeField(auto_now_add=True)
+    contact_name = models.CharField(max_length=256)
+    contact_email = models.EmailField(max_length=128)
+    contact_number = PhoneNumberField()
+    comment = models.TextField(blank=True)
+
+
+class MurderSubscriptionForm(forms.ModelForm):
+    class Meta:
+        model = MurderSubscription
         fields = '__all__'
