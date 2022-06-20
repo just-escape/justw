@@ -383,11 +383,15 @@ nav a, footer a, #blog a, .mobile-bar a, #mobile-header a, a.btn {
     }
 }
 
-#navheader nav.nav-cover {
-    background: rgba(248, 249, 250, 0.65);
+#navheader.navheader-cover nav {
+    background: transparent;
 }
 
-#navheader.reduced nav.nav-cover {
+#navheader.navheader-cover.reduced nav {
+    background: rgba(248, 249, 250);
+}
+
+#navheader.navheader-cover.reduced nav {
     background: #f8f9fa;
 }
 
@@ -500,8 +504,13 @@ nav a, footer a, #blog a, .mobile-bar a, #mobile-header a, a.btn {
     }
 }
 
-.box-light-shadow {
-    box-shadow: 0 0.1rem 0.5rem rgba(100, 100, 100, 0.5);
+.box-light-shadow, .reduced.navheader-cover .box-light-shadow {
+    /* box-shadow: 0 0.1rem 0.5rem rgba(100, 100, 100, 0.5); */
+    box-shadow: none;
+}
+
+.navheader-cover .box-light-shadow {
+    box-shadow: none;
 }
 
 @media (min-width: 992px) {
@@ -527,6 +536,15 @@ nav a, footer a, #blog a, .mobile-bar a, #mobile-header a, a.btn {
     font-size: 0.98rem;
 }
 
+.navheader-cover .size-reductible-nav, .navheader-cover figcaption {
+    color: #f8f9fa;
+}
+
+.navheader-cover .svg-logo {
+    filter: brightness(0) invert(1);
+    transition: filter 0.5s ease-in-out;
+}
+
 .size-reductible-nav-bis {
     font-size: 0.8rem;
 }
@@ -539,16 +557,28 @@ nav a, footer a, #blog a, .mobile-bar a, #mobile-header a, a.btn {
 @media (min-width: 992px) {
     .size-reductible-nav {
         font-size: 0.98rem;
-        transition: color 0.2s ease-in-out, font-size 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
     }
 
     .reduced .size-reductible-nav {
         font-size: 0.9rem;
     }
 
+    .reduced.navheader-cover .size-reductible-nav, .reduced.navheader-cover figcaption {
+        color: #3c3c3e;
+    }
+
+    .reduced.navheader-cover .svg-logo {
+        filter: brightness(1);
+    }
+
+    .reduced.navheader-cover .size-reductible-nav.nav-button {
+        color: #f8f9fa;
+    }
+
     .size-reductible-nav-bis {
         font-size: 0.8rem;
-        transition: color 0.2s ease-in-out, font-size 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
     }
 
     .reduced .size-reductible-nav-bis {
