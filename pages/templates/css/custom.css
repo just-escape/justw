@@ -205,6 +205,11 @@ h3 {
     font-size: 1.2rem;
 }
 
+.question {
+    font-family: "Inter", "Helvetica", "Arial", "sans-serif";
+    text-transform: uppercase;
+}
+
 .text-inter {
     font-family: "Inter", "Helvetica", "Arial", "sans-serif";
     text-transform: uppercase;
@@ -229,7 +234,11 @@ a:hover {
     text-decoration: none;
 }
 
-nav a, footer a, #blog a, .mobile-bar a, a.btn {
+.mobile-bar a:hover {
+    color: #f8f9fa;
+}
+
+nav a, footer a, #blog a, .mobile-bar a, #mobile-header a, a.btn {
     text-decoration: none;
 }
 
@@ -315,6 +324,10 @@ nav a, footer a, #blog a, .mobile-bar a, a.btn {
 
 .lh-12 {
     line-height: 1.2;
+}
+
+.lh-16px {
+    line-height: 16px;
 }
 
 .lh-24px {
@@ -511,7 +524,7 @@ nav a, footer a, #blog a, .mobile-bar a, a.btn {
 }
 
 .size-reductible-nav {
-    font-size: 1rem;
+    font-size: 0.98rem;
 }
 
 .size-reductible-nav-bis {
@@ -525,12 +538,12 @@ nav a, footer a, #blog a, .mobile-bar a, a.btn {
 
 @media (min-width: 992px) {
     .size-reductible-nav {
-        font-size: 1.2rem;
+        font-size: 0.98rem;
         transition: color 0.2s ease-in-out, font-size 0.5s ease-in-out;
     }
 
     .reduced .size-reductible-nav {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .size-reductible-nav-bis {
@@ -1195,11 +1208,11 @@ video {
     display: block; /* Removes a mysterious margin bottom */
 }
 
-.carousel-zoom-in .carousel-item img {
+.carousel-zoom-in .carousel-item img, .carousel-zoom-in .carousel-item video {
     transition: transform 5s linear;
 }
 
-.carousel-zoom-in .carousel-item.active img {
+.carousel-zoom-in .carousel-item.active img, .carousel-zoom-in .carousel-item.active video {
     transform: scale(1.05);
 }
 

@@ -26,7 +26,7 @@
         <div class="container">
           <ul class="row ul-no-style pl-0 mb-0 text-lg-center">
             <li class="z-4 col-12 col-sm-3 col-lg-2 my-1 my-md-auto text-left text-sm-center px-sm-0">
-              <a class="font-weight-bold text-hover-mulberry size-reductible-nav py-2 px-3" href="/{{ lang }}salles">{% trans "Rooms" %}</a>
+              <a class="font-weight-bold text-hover-mulberry size-reductible-nav py-2 px-3" href="/{{ lang }}salles">{% trans "Escape rooms" %}</a>
             </li>
             <li class="z-4 col-12 col-sm-3 col-lg-2 my-1 my-md-auto text-left text-sm-center px-sm-0">
               <a class="font-weight-bold size-reductible-nav py-2 px-3 nav-button" href="/{{ lang }}reserver"><span>{% trans "Booking" %}</span></a>
@@ -34,7 +34,7 @@
             <!-- Space left for the logo in lg+ -->
             <li class="col-0 col-lg-4 d-none d-lg-block space-for-logo"></li>
             <li class="z-4 col-12 col-sm-3 col-lg-2 my-1 my-md-auto text-left text-sm-center px-sm-0">
-              <a class="font-weight-bold size-reductible-nav text-hover-mulberry py-2 px-3" href="/{{ lang }}tarifs">{% trans "Pricing" %}</a>
+              <a class="font-weight-bold size-reductible-nav text-hover-mulberry py-2 px-3" href="/{{ lang }}murder-party">{% trans "Murder party" %}</a>
             </li>
             <li class="z-4 col-12 col-sm-3 col-lg-2 my-1 my-md-auto text-left text-sm-center px-sm-0">
               <a class="font-weight-bold size-reductible-nav text-hover-mulberry py-2 px-3 px-sm-0" href="/{{ lang }}team-building">{% trans "Team Building" %}</a>
@@ -81,7 +81,7 @@
 
 <!-- mobile / tablet -->
 
-<div class="position-absolute d-lg-none container-fluid" style="top: 0px; z-index: 1000">
+<div id="mobile-header" class="position-absolute d-lg-none container-fluid" style="top: 0px; z-index: 1000">
   <div class="row">
     <div class="col-12 d-flex justify-content-center">
             <figure class="d-table mb-0 mt-3 logo-white{% if current_page != "" %} logo-white-max-height{% endif %}">
@@ -118,15 +118,15 @@
   <div class="light w-100">
     <div class="container w-100">
       <div class="row justify-content-center">
-        <div class="col-4 px-0 py-2 mobile-tile-hover">
+        <div class="col-3 px-0 py-2 mobile-tile-hover">
           <a href="/{{ lang }}salles" class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
             <span class="d-inline-block svg-24px fill-jaffa mb-1">{% include "svg/puzzle.svg" %}</span>
             <div class="text-inter text-center" style="font-size: 12px">
-              {% trans "Rooms" %}
+              {% trans "Escape rooms" %}
             </div>
           </a>
         </div>
-        <div class="col-4 px-0 py-2 text-mulberry font-weight-bold mobile-tile-hover">
+        <div class="col-3 px-0 py-2 text-mulberry font-weight-bold mobile-tile-hover">
           <a href="/{{ lang }}reserver" class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
             <span class="d-inline-block svg-24px fill-mulberry mb-1">{% include "svg/calendar-check.svg" %}</span>
             <div class="text-inter text-center" style="font-size: 12px">
@@ -134,7 +134,15 @@
             </div>
           </a>
         </div>
-        <div class="col-4 px-0 py-2 mobile-tile-hover">
+        <div class="col-3 px-0 py-2 mobile-tile-hover">
+          <a href="/murder-party" class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+            <span class="d-inline-block svg-24px fill-jaffa mb-1">{% include "svg/masks-theater.svg" %}</span>
+            <div class="text-inter text-center" style="font-size: 12px">
+              {% trans "Murder party" %}
+            </div>
+          </a>
+        </div>
+        <div class="col-3 px-0 py-2 mobile-tile-hover">
           <a href="/{{ lang }}team-building" class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
             <span class="d-inline-block svg-24px fill-jaffa mb-1">{% include "svg/users.svg" %}</span>
             <div class="text-inter text-center" style="font-size: 12px">

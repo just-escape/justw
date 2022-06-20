@@ -42,8 +42,13 @@
       </div>
       <div class="row justify-content-left justify-content-sm-center pl-3">
         <ul class="d-flex flex-column flex-sm-row ul-no-style pl-0">
+          {% if lang == '' %}
+          <li class="mr-4"><a class="text-hover-mulberry" href="/blog/escape-game-famille-lille">Escape&nbsp;game&nbsp;famille</a></li>
+          <li class="mr-4"><a class="text-hover-mulberry" href="/blog/escape-game-anniversaire-lille">Escape&nbsp;game&nbsp;anniversaire</a></li>
+          {% endif %}
           <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}faq">{% trans "FAQ" %}</a></li>
           <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}contact">{% trans "Contact" %}</a></li>
+          <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}tarifs">{% trans "Pricing" %}</a></li>
           <li class="mr-4"><a class="text-hover-mulberry" href="/blog">{% trans "Blog" %}</a></li>
           <li class="mr-4"><a class="text-hover-mulberry" href="/partenaires">{% trans "Partners" %}</a></li>
           <li class="mr-4"><a class="text-hover-mulberry" href="/{{ lang }}cgv">{% trans "Terms" %}</a></li>
