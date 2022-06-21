@@ -121,8 +121,9 @@ def handle_salesquote(request):
         email = form.cleaned_data['contact_email']
         number = form.cleaned_data['contact_number']
         group_size = form.cleaned_data['group_size']
+        service = form.cleaned_data['service']
         date = form.cleaned_data['desired_date']
-        discount_code = form.cleaned_data['discount_code']
+        budget = form.cleaned_data['budget']
         comment = form.cleaned_data['comment']
 
         salesquote = SalesQuote(
@@ -130,9 +131,10 @@ def handle_salesquote(request):
             company_name=company,
             contact_email=email,
             contact_number=number,
+            service=service,
             group_size=group_size,
             desired_date=date,
-            discount_code=discount_code,
+            budget=budget,
             comment=comment,
         )
         salesquote.save()
@@ -147,10 +149,10 @@ def handle_salesquote(request):
         "Email : {}".format(email),
         "Tel : {}".format(number),
         "",
-        "Taille du groupe : ".format(group_size),
+        "Taille du groupe : {}".format(group_size),
+        "Prestation : {}".format(service),
         "Date : {}".format(date if date else 'N/A'),
-        "",
-        "Code promo : {}".format(discount_code if discount_code else 'N/A'),
+        "Budget : {}".format(budget if budget else 'N/A'),
         "",
         "Commentaire : {}".format(comment if comment else 'N/A'),
     ]

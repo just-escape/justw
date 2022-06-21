@@ -238,7 +238,7 @@ a:hover {
     color: #f8f9fa;
 }
 
-nav a, footer a, #blog a, .mobile-bar a, #mobile-header a, a.btn {
+nav a, footer a, #blog a, .mobile-bar a, #mobile-header a, a.btn, .breadcrumb-item a {
     text-decoration: none;
 }
 
@@ -943,6 +943,10 @@ input.form-control::placeholder {
 /* form */
 
 /* misc */
+.breadcrumb-item.active {
+    color: #f8f9fa;
+}
+
 .disclaimer {
     position: fixed;
     bottom: 50px;

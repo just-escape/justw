@@ -101,8 +101,21 @@ class SalesQuoteForm(forms.Form):
         label=_('Group size'),
         widget=forms.TextInput(
             attrs={
+                'placeholder': '16 personnes',
                 'class': 'form-control',
                 'spellcheck': 'false',
+            }
+        ),
+        required=True,
+    )
+    service = forms.CharField(
+        max_length=512,
+        label='Prestation',
+        widget=forms.Textarea(
+            attrs={
+                'placeholder': 'Que voulez-vous faire ?',
+                'rows': 4,
+                'class': 'form-control'
             }
         ),
         required=True,
@@ -115,11 +128,12 @@ class SalesQuoteForm(forms.Form):
         validators=[ensure_at_least_tomorrow],
         required=False,
     )
-    discount_code = forms.CharField(
+    budget = forms.CharField(
         max_length=128,
-        label=_('Discount code'),
+        label=_('Budget'),
         widget=forms.TextInput(
             attrs={
+                'placeholder': '50€ par personne',
                 'class': 'form-control',
                 'spellcheck': 'false',
             }

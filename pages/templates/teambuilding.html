@@ -167,17 +167,15 @@
               <h3 class="text-jaffa text-center mb-0">Salle de réception</h3>
             </div>
             <div class="card-body">
-              <p class="mb-0">
-                <div>Le centre d'escape game dispose d'une salle de réception de près de 40m² tout équipé :</div>
-                <ul>
-                  <li>vidéoprojecteur</li>
-                  <li>paperboard</li>
-                  <li>machine à café</li>
-                  <li>wifi haut débit</li>
-                  <li>jeux de société</li>
-                </ul>
-                <div>C'est un lieu idéal pour un séminaire, une formation ou pour un cocktail après une partie d'escape game.</div>
-              </p>
+              <div>Le centre d'escape game dispose d'une salle de réception de près de 40m² tout équipé :</div>
+              <ul>
+                <li>vidéoprojecteur</li>
+                <li>paperboard</li>
+                <li>machine à café</li>
+                <li>wifi haut débit</li>
+                <li>jeux de société</li>
+              </ul>
+              <div>C'est un lieu idéal pour un séminaire, une formation ou pour un cocktail après une partie d'escape game.</div>
             </div>
             <div class="card-footer">
               <div class="text-jaffa text-center">De 2 à 50 personnes</div>
@@ -223,17 +221,15 @@
               <h3 class="text-jaffa text-center mb-0">Événement personnalisé</h3>
             </div>
             <div class="card-body">
-              <p>
-                Vous souhaitez réaliser un séminaire avec des activités originales ? Décrivez votre besoin et Just Escape se charge d'organiser votre événement personnalisé.
-                <ul>
-                  <li>Salle de réunion et collation sucrée</li>
-                  <li>Atelier d'improvisation théâtrale</li>
-                  <li>Afterwork jeu de société</li>
-                  <li>Spectacle de magie</li>
-                  <li>Entretien de recrutement / onboarding atypique</li>
-                  <li>Remise de prix</li>
-                </ul>
-              </p>
+                    <div>Vous souhaitez réaliser un séminaire avec des activités originales ? Décrivez votre besoin et Just Escape se charge d'organiser votre événement personnalisé.</div>
+              <ul>
+                <li>Salle de réunion et collation sucrée</li>
+                <li>Atelier d'improvisation théâtrale</li>
+                <li>Afterwork jeu de société</li>
+                <li>Spectacle de magie</li>
+                <li>Entretien de recrutement / onboarding atypique</li>
+                <li>Remise de prix</li>
+              </ul>
             </div>
             <div class="card-footer">
               <div class="text-jaffa text-center">Jusqu'à 50 personnes</div>
@@ -382,6 +378,25 @@
         <div class="form-group">
           <div class="row">
             <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+              <label class="col-form-label" for="{{ form.service.auto_id }}">{{ form.service.label }}</label>
+              <span class="text-jaffa">*</span>
+            </div>
+            <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+              <div class="row">
+                {{ form.service }}
+              </div>
+              {% if form.service.errors %}
+                <div class="row">
+                  {{ form.service.errors }}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="row">
+            <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
               <label class="col-form-label" for="{{ form.desired_date.auto_id }}">{{ form.desired_date.label }}</label>
             </div>
             <div class="col-12 col-sm-7 col-md-6 col-lg-4">
@@ -400,15 +415,15 @@
         <div class="form-group">
           <div class="row">
             <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
-              <label class="col-form-label" for="{{ form.discount_code.auto_id }}">{{ form.discount_code.label }}</label>
+              <label class="col-form-label" for="{{ form.budget.auto_id }}">{{ form.budget.label }}</label>
             </div>
             <div class="col-12 col-sm-7 col-md-6 col-lg-4">
               <div class="row">
-                {{ form.discount_code }}
+                {{ form.budget }}
               </div>
-              {% if form.discount_code.errors %}
+              {% if form.budget.errors %}
                 <div class="row">
-                  {{ form.discount_code.errors }}
+                  {{ form.budget.errors }}
                 </div>
               {% endif %}
             </div>

@@ -13,8 +13,9 @@ class SalesQuoteAdmin(admin.ModelAdmin):
         'contact_email',
         'contact_number',
         'group_size',
+        'service',
         'desired_date',
-        'discount_code',
+        'budget',
         'comment',
     )
     search_fields = (

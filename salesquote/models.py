@@ -10,9 +10,10 @@ class SalesQuote(models.Model):
     company_name = models.CharField(max_length=128)
     contact_email = models.EmailField(max_length=128)
     contact_number = PhoneNumberField()
+    service = models.TextField(blank=True)
     group_size = models.CharField(max_length=128)
     desired_date = models.DateTimeField(null=True, blank=False)
-    discount_code = models.CharField(blank=True, null=True, max_length=128)
+    budget = models.CharField(blank=True, null=True, max_length=128)
     comment = models.TextField(blank=True)
 
 
