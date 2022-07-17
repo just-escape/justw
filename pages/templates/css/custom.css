@@ -238,7 +238,7 @@ a:hover {
     color: #f8f9fa;
 }
 
-nav a, footer a, #blog a, .mobile-bar a, #mobile-header a, a.btn, .breadcrumb-item a {
+nav a, #blog a, .mobile-bar a, #mobile-header a, a.btn, .breadcrumb-item a {
     text-decoration: none;
 }
 
