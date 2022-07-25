@@ -266,6 +266,22 @@ def murder_party(request):
     return render(request, 'murder_party.html', data)
 
 
+def qu_est_ce_qu_une_murder_party(request):
+    data = {
+        'current_page': 'qu-est-ce-qu-une-murder-party',
+        'lang': get_lang(request),
+        'localized': False,
+        'noindex': True,
+        'cover': True,
+        'cover_max_transparency': True,
+    }
+
+    r = render(request, 'qu_est_ce_qu_une_murder_party.html', data)
+    r['X-Robots-Tag'] = 'noindex'
+
+    return r
+
+
 def booking(request):
     data = {
         'current_page': 'reserver',

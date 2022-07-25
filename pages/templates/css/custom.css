@@ -540,10 +540,19 @@ nav a, #blog a, .mobile-bar a, #mobile-header a, a.btn, .breadcrumb-item a {
     color: #f8f9fa;
 }
 
+.navheader-cover.cover-max-transparency figcaption {
+    color: transparent;
+}
+
 .navheader-cover .svg-logo {
     filter: brightness(0) invert(1);
     transition: filter 0.5s ease-in-out;
 }
+
+.navheader-cover.cover-max-transparency .svg-logo {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+} 
 
 .size-reductible-nav-bis {
     font-size: 0.8rem;
@@ -552,6 +561,15 @@ nav a, #blog a, .mobile-bar a, #mobile-header a, a.btn, .breadcrumb-item a {
 .svg-24px-reductible svg {
     width: 19px;
     height: 19px;
+}
+
+.cover-max-transparency .nav-top.dark {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.cover-max-transparency.reduced .nav-top.dark {
+    opacity: 1;
 }
 
 @media (min-width: 992px) {
@@ -570,6 +588,10 @@ nav a, #blog a, .mobile-bar a, #mobile-header a, a.btn, .breadcrumb-item a {
 
     .reduced.navheader-cover .svg-logo {
         filter: brightness(1);
+    }
+
+    .reduced.navheader-cover.cover-max-transparency .svg-logo {
+        opacity: 1;
     }
 
     .reduced.navheader-cover .size-reductible-nav.nav-button {

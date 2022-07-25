@@ -9,6 +9,7 @@ urlpatterns = i18n_patterns(
     path('', views.home, name='home'),
     path('salles', views.room, name='room'),
     path('murder-party', views.murder_party, name='murder-party'),
+    path('murder-party/qu-est-ce-qu-une-murder-party', views.qu_est_ce_qu_une_murder_party, name='qu-est-ce-qu-une-murder-party'),
     path('reserver', views.booking, name='booking'),
     path('reserver-murder-party', views.booking_murder_party, name='booking-murder-party'),
     path('carte-cadeau', views.gift_voucher, name='gift-voucher'),
