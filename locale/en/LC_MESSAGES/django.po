@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-16 23:26+0200\n"
+"POT-Creation-Date: 2022-07-25 23:14+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -73,79 +73,79 @@ msgstr ""
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr ""
 
-#: pages/templates/booking.html:8
+#: pages/templates/booking.html:5
 msgid "Booking – Escape Game Lille – Just Escape"
 msgstr ""
 
-#: pages/templates/booking.html:9 pages/templates/booking.html:12
+#: pages/templates/booking.html:6 pages/templates/booking.html:9
 msgid "Did you know ❓ By booking an room you save a kitten 😸"
 msgstr ""
 
-#: pages/templates/booking.html:11
+#: pages/templates/booking.html:8
 msgid "Booking ⚡"
 msgstr ""
 
-#: pages/templates/booking.html:14
+#: pages/templates/booking.html:11
 msgid "Book an escape room"
 msgstr ""
 
-#: pages/templates/booking.html:22
+#: pages/templates/booking.html:19
 msgid "Booking form"
 msgstr ""
 
-#: pages/templates/booking.html:49 pages/templates/pricing.html:27
+#: pages/templates/booking.html:46 pages/templates/pricing.html:27
 msgid "Corporate"
 msgstr ""
 
-#: pages/templates/booking.html:52 pages/templates/pricing.html:30
+#: pages/templates/booking.html:49 pages/templates/pricing.html:30
 msgid "It&#39;s tough to motivate your teams in&nbsp;2022."
 msgstr ""
 
-#: pages/templates/booking.html:53 pages/templates/pricing.html:31
+#: pages/templates/booking.html:50 pages/templates/pricing.html:31
 msgid ""
 "Fortunately, we have <a class='text-underline text-hover-mulberry' href='/en/"
 "team-building'>turnkey Team&nbsp;Building packages</a>."
 msgstr ""
 
-#: pages/templates/booking.html:56 pages/templates/booking.html:80
+#: pages/templates/booking.html:53 pages/templates/booking.html:77
 #: pages/templates/pricing.html:34 pages/templates/pricing.html:58
 msgid "<span class='text-jaffa'>Suggested for:</span>"
 msgstr ""
 
-#: pages/templates/booking.html:56 pages/templates/pricing.html:34
+#: pages/templates/booking.html:53 pages/templates/pricing.html:34
 msgid "Seminar, Workshop, Teambuilding"
 msgstr ""
 
-#: pages/templates/booking.html:64 pages/templates/home.html:287
+#: pages/templates/booking.html:61 pages/templates/home.html:287
 #: pages/templates/home.html:429 pages/templates/pricing.html:42
 msgid "À partir de"
 msgstr "From"
 
-#: pages/templates/booking.html:65 pages/templates/home.html:288
+#: pages/templates/booking.html:62 pages/templates/home.html:288
 #: pages/templates/home.html:430 pages/templates/home.html:578
 #: pages/templates/pricing.html:43
 msgid "25€"
 msgstr ""
 
-#: pages/templates/booking.html:66 pages/templates/pricing.html:44
+#: pages/templates/booking.html:63 pages/templates/pricing.html:44
 msgid "Per person"
 msgstr ""
 
-#: pages/templates/booking.html:74 pages/templates/pricing.html:52
+#: pages/templates/booking.html:71 pages/templates/pricing.html:52
 msgid "Gift card"
 msgstr ""
 
-#: pages/templates/booking.html:77 pages/templates/pricing.html:55
+#: pages/templates/booking.html:74 pages/templates/pricing.html:55
 msgid ""
 "Your friends and family will love you with this <a href='/en/carte-cadeau' "
 "class='text-underline text-hover-mulberry'>gift&nbsp;box</a>."
 msgstr ""
 
-#: pages/templates/booking.html:80 pages/templates/pricing.html:58
+#: pages/templates/booking.html:77 pages/templates/pricing.html:58
 msgid "Birthday, Christmas, Money&nbsp;pot, Lottery"
 msgstr ""
 
-#: pages/templates/booking.html:168 pages/templates/gift-voucher.html:58
+#: pages/templates/booking.html:165 pages/templates/gift-voucher.html:55
 #: pages/templates/header.html:32
 msgid "Booking"
 msgstr ""
@@ -242,7 +242,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/contact.html:8 pages/templates/contact.html:45
-#: pages/templates/contact.html:203 pages/templates/footer.html:50
+#: pages/templates/contact.html:203 pages/templates/footer.html:80
 #: pages/templates/header.html:56 pages/templates/home.html:753
 msgid "Contact"
 msgstr ""
@@ -620,59 +620,153 @@ msgid "Frequently Asked Questions"
 msgstr ""
 
 #: pages/templates/footer.html:8
-msgid "Follow us on social networks!"
-msgstr ""
+msgid "Just Escape"
+msgstr "Just Escape"
 
-#: pages/templates/footer.html:49 pages/templates/header.html:53
+#: pages/templates/footer.html:9
+msgid ""
+"Just Escape est un centre d'escape game nouvelle génération à Lille. <span "
+"class='font-weight-bold'>Vivez des sensations fortes</span> avec vos amis ou "
+"votre famille ! Découvrez des activités ludiques de <span class='font-weight-"
+"bold'>teambuilding pour grands groupes</span>. Faites-vous accompagner dans "
+"vos <span class='font-weight-bold'>projets de gamification</span>."
+msgstr "Just Escape is a next generation escape game centre in Lille. "
+"<span class='font-weight-bold'>Experience thrills</span> with your friends "
+"or family! Discover fun <span class='font-weight-bold'>teambuilding "
+"activities for large groups</span>. Let us help you with your "
+"<span class='font-weight-bold'>gamification projects</span>."
+
+#: pages/templates/footer.html:11
+msgid "Suivez-nous sur les réseaux !"
+msgstr "Follow-us on social networks!"
+
+#: pages/templates/footer.html:47
+msgid "Particuliers"
+msgstr "Individuals"
+
+#: pages/templates/footer.html:49
+msgid "Escape game EVJF"
+msgstr "Escape room bachelor party"
+
+#: pages/templates/footer.html:50
+msgid "Escape game famille"
+msgstr "Escape room family"
+
+#: pages/templates/footer.html:51
+msgid "Escape game enfant"
+msgstr "Escape room kids"
+
+#: pages/templates/footer.html:52
+msgid "Escape game anniversaire"
+msgstr "Escape room birthday"
+
+#: pages/templates/footer.html:53
+msgid "Escape game 2 joueurs"
+msgstr "Escape room 2 players"
+
+#: pages/templates/footer.html:56
+msgid "Entreprises"
+msgstr "Companies"
+
+#: pages/templates/footer.html:58 pages/templates/home.html:622
+msgid "Teambuilding"
+msgstr "Teambuilding"
+
+#: pages/templates/footer.html:59
+msgid "Devis"
+msgstr "Quote"
+
+#: pages/templates/footer.html:60
+msgid "Séminaire"
+msgstr "Workshop"
+
+#: pages/templates/footer.html:61
+msgid "Journée d'étude"
+msgstr "Study session"
+
+#: pages/templates/footer.html:62
+msgid "Afterwork"
+msgstr "Afterwork"
+
+#: pages/templates/footer.html:63
+msgid "CE"
+msgstr "Corporate committee"
+
+#: pages/templates/footer.html:64
+msgid "Gamification"
+msgstr "Gamification"
+
+#: pages/templates/footer.html:68
+msgid "Découvrir"
+msgstr "Discover"
+
+#: pages/templates/footer.html:70 pages/templates/header.html:37
+#: pages/templates/header.html:141
+msgid "Murder party"
+msgstr "Murder party"
+
+#: pages/templates/footer.html:71 pages/templates/home.html:604
+msgid "Carte cadeau"
+msgstr "Gift card"
+
+#: pages/templates/footer.html:72
+msgid "Partners"
+msgstr "Partners"
+
+#: pages/templates/footer.html:73 pages/templates/header.html:59
+msgid "Blog"
+msgstr "Blog"
+
+#: pages/templates/footer.html:74
+msgid "La création de Just Escape"
+msgstr "The fondation of Just Escape"
+
+#: pages/templates/footer.html:77
+msgid "Pratique"
+msgstr "Practical"
+
+#: pages/templates/footer.html:79 pages/templates/header.html:53
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
-#: pages/templates/footer.html:51 pages/templates/pricing.html:8
+#: pages/templates/footer.html:81 pages/templates/pricing.html:8
 #: pages/templates/pricing.html:215
 msgid "Pricing"
 msgstr ""
 
-#: pages/templates/footer.html:52 pages/templates/header.html:59
-msgid "Blog"
-msgstr ""
-
-#: pages/templates/footer.html:53
-msgid "Partners"
-msgstr ""
-
-#: pages/templates/footer.html:54
+#: pages/templates/footer.html:82
 msgid "Terms"
 msgstr ""
 
-#: pages/templates/footer.html:55
+#: pages/templates/footer.html:83
 msgid "Conditions"
 msgstr ""
 
-#: pages/templates/gift-voucher.html:8
+#: pages/templates/gift-voucher.html:5
 msgid "Gift Voucher – Escape Game Lille – Just Escape"
 msgstr ""
 
-#: pages/templates/gift-voucher.html:9
+#: pages/templates/gift-voucher.html:6
 msgid "Your friends and family will love you with this gift box 🎁😍"
 msgstr ""
 
-#: pages/templates/gift-voucher.html:11
+#: pages/templates/gift-voucher.html:8
 msgid "Gift Voucher 🎁"
 msgstr ""
 
-#: pages/templates/gift-voucher.html:12
+#: pages/templates/gift-voucher.html:9
 msgid "Your friends and family will love you with this gift box 😍"
 msgstr ""
 
-#: pages/templates/gift-voucher.html:14
+#: pages/templates/gift-voucher.html:11
 msgid "Offer a gift card"
 msgstr ""
 
-#: pages/templates/gift-voucher.html:24 pages/templates/home.html:613
+#: pages/templates/gift-voucher.html:21 pages/templates/home.html:613
 msgid "Videos are not supported by this browser"
 msgstr ""
 
-#: pages/templates/gift-voucher.html:64
+#: pages/templates/gift-voucher.html:61
 msgid "Gift voucher"
 msgstr ""
 
@@ -682,10 +776,6 @@ msgstr ""
 
 #: pages/templates/header.html:29 pages/templates/header.html:125
 msgid "Escape rooms"
-msgstr ""
-
-#: pages/templates/header.html:37 pages/templates/header.html:141
-msgid "Murder party"
 msgstr ""
 
 #: pages/templates/header.html:40 pages/templates/header.html:149
@@ -1320,10 +1410,6 @@ msgstr "Room with board games, tables and sofas"
 msgid "Je regarde les horaires"
 msgstr "Check availabilities"
 
-#: pages/templates/home.html:604
-msgid "Carte cadeau"
-msgstr "Gift card"
-
 #: pages/templates/home.html:605
 msgid "Vous ne savez jamais quoi offrir&nbsp;?"
 msgstr "Never know what to give?"
@@ -1348,10 +1434,6 @@ msgstr ""
 #: pages/templates/home.html:615
 msgid "Je veux une <strong>carte cadeau</strong>"
 msgstr "I want a <strong>gift card</strong>"
-
-#: pages/templates/home.html:622
-msgid "Teambuilding"
-msgstr "Teambuilding"
 
 #: pages/templates/home.html:623
 msgid "Formation, séminaire, atelier, journée d'étude"
@@ -1757,7 +1839,7 @@ msgid ""
 "sympathiques indiens, tout le monde n'est pas là pour faire la fête."
 msgstr ""
 
-#: pages/templates/room.html:257
+#: pages/templates/room.html:255
 msgid "Rooms"
 msgstr ""
 
