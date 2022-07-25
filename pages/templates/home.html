@@ -1085,7 +1085,7 @@
         document.body.appendChild(scriptTag);
       })
     }
-    setTimeout(loadFile, 1500);
+    setTimeout(loadFile, 3000);
   </script>
 
   <script type="application/ld+json">
@@ -1094,6 +1094,28 @@
         "@type": "Organization",
         "url": "https://just-escape.fr/",
         "logo": "https://just-escape.fr/static/img/logo-just-escape.png"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://just-escape.fr/",
+        "image": "https://just-escape.fr/static/img/logo-just-escape.png",
+        "name": "Just Escape",
+        "telephone": "0789053790",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "26 rue d'Arras",
+          "addressLocality": "Lille",
+          "addressRegion": "Hauts-de-France",
+          "postalCode": "59000",
+          "addressCountry": {
+            "@type": "Country",
+            "name": "France"
+          }
+        }
     }
   </script>
 {% endblock %}
