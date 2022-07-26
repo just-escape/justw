@@ -488,18 +488,18 @@ nav a, #blog a, .mobile-bar a, #mobile-header a, a.btn, .breadcrumb-item a {
     }
 }
 
-.just-escape-logo h1 {
+.just-escape-logo figcaption {
     font-size: 0.7rem;
     line-height: 24px;
     transition: transform 0.5s ease-in-out, font-size 0.5s ease-in-out;
 }
 
 @media (min-width: 992px) {
-    .just-escape-logo h1 {
+    .just-escape-logo figcaption {
         font-size: 0.9rem;
     }
 
-    .reduced .just-escape-logo h1 {
+    .reduced .just-escape-logo figcaption {
         font-size: 0.7rem;
     }
 }
