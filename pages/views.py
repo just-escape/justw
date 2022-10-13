@@ -271,7 +271,6 @@ def qu_est_ce_qu_une_murder_party(request):
         'current_page': 'qu-est-ce-qu-une-murder-party',
         'lang': get_lang(request),
         'localized': False,
-        'noindex': True,
         'cover': True,
         'cover_max_transparency': True,
     }
@@ -389,6 +388,16 @@ def blog_idees_activites_lille(request):
 def blog_devis_escape_game(request):
     data = {'lang': '', 'localized': False}
     return render(request, 'blog_devis_escape_game.html', data)
+
+
+def blog_9_questions_one_brain_escape_game_lille(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_9_questions_one_brain_escape_game_lille.html', data)
+
+
+def blog_qwest(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_qwest.html', data)
 
 
 def error404(request):
