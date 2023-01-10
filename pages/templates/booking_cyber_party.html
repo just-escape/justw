@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block title %}Réserver Cyber Party – Escape Game Lille – Just Escape{% endblock %}
+{% block description %}Réservez dès maintenant votre cyber party chez Just Escape{% endblock %}
+
+{% block og_title %}Réserver Cyber Party ⚡{% endblock %}
+{% block og_description %}Réservez dès maintenant votre cyber party chez Just Escape{% endblock %}
+
+{% block main_header %}{% endblock %}
+
+{% block content %}
+
+  <div class="jumbotron">
+    <div class="container px-0">
+      <div class="row mb-3">
+        <div class="col">
+          <h1 class="text-jaffa">Cyber party</h1>
+
+          <p>Voyagez dans l'hiver 2080, dans un monde métamorphosé où les androïdes sont devenus totalement indépendants. La quasi-totalité de la population a été détruite par les IAs. Les ingénieurs, après avoir programmé ces IAs, se sont formés en petit comité pour mettre fin à cette apocalypse et désactiver leur création jusqu'au dernier...</p> 
+          <p>Après plusieurs mois de recherches, les rescapés retrouvent la base d’activation des IAs. Pour l'activer, ils doivent résoudre le plus d'énigmes possible. Malheureusement, des androïdes ont réussi à s'infiltrer dans le groupe et ont pour but d'éliminer nos chercheurs.</p>
+          <p>Si vous souhaitez participer à la session beta de ce nouveau jeux, sélectionner la date du 22 janvier pour vous inscrire.</p>
+          <p>Attention places limitées !</p>
+
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col">
+          <h2 class="text-jaffa">Formulaire de réservation</h2>
+        </div>
+      </div>
+
+      <div class="softdark mb-3 p-3 rounded pt-0">
+        <div class="row justify-content-center text-center">
+          <div class="col">
+            <div class="forescape" data-subdomain="justescape" data-type="bookings" data-rooms="63b6a15726ddaccf5d19a778"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+
+{% block post_base_js %}
+   <script>
+   !function(e,t){var r=e.createElement(t),a=e.getElementsByTagName(t)[0],n=new Date,s=""+n.getFullYear()+("0"+(n.getMonth()+1)).slice(-2)+("0"+n.getDate()).slice(-2);r.defer=1,r.src="https://justescape.4escape.io/public/js/iframe.min.js?v="+s,a.parentNode.insertBefore(r,a)}(document,"script");
+   </script>
+
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Just Escape",
+                "item": "https://just-escape.fr/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Réserver cyber party",
+                "item": "https://just-escape.fr/reserver-cyber-party"
+            }
+        ]
+    }
+  </script>
+{% endblock %}
