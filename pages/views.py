@@ -409,6 +409,11 @@ def blog_9_questions_one_brain_escape_game_lille(request):
     return render(request, 'blog_9_questions_one_brain_escape_game_lille.html', data)
 
 
+def blog_activite_team_building_votre_escape_game_a_lille(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_activite_team_building_votre_escape_game_a_lille.html', data)
+
+
 def blog_qwest(request):
     data = {'lang': '', 'localized': False}
     return render(request, 'blog_qwest.html', data)
