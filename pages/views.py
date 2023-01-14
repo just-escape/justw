@@ -414,11 +414,6 @@ def blog_activite_team_building_votre_escape_game_a_lille(request):
     return render(request, 'blog_activite_team_building_votre_escape_game_a_lille.html', data)
 
 
-def blog_qwest(request):
-    data = {'lang': '', 'localized': False}
-    return render(request, 'blog_qwest.html', data)
-
-
 def error404(request):
     data = {'current_page': '404', 'noindex': True, 'lang': get_lang(request), 'localized': True}
     r = render(request, '404.html', data)
