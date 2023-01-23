@@ -30,6 +30,7 @@ urlpatterns = i18n_patterns(
     path('blog/devis-escape-game', views.blog_devis_escape_game, name='blog-devis-escape-game'),
     path('blog/9-questions-one-brain-escape-game-lille', views.blog_9_questions_one_brain_escape_game_lille, name='blog-9-questions-one-brain-escape-game-lille'),
     path('blog/activite-team-building-escape-game-lille', views.blog_activite_team_building_votre_escape_game_a_lille, name='blog-activite-team-building-escape-game-lille'),
+    path('blog/salle-reunion-escape-game', views.blog_salle_reunion_escape_game, name='blog-salle-reunion-escape-game'),
     path('404', views.error404, name='404'),
     path('partenaires', views.partners, name='partners'),
     path('contact', views.contact, name='contact'),
