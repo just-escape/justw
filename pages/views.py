@@ -424,6 +424,11 @@ def blog_seminaire_entreprise_escape_game(request):
     return render(request, 'blog_seminaire_entreprise_escape_game.html', data)
 
 
+def blog_seminaire_entreprise_original(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_seminaire_entreprise_original.html', data)
+
+
 def error404(request):
     data = {'current_page': '404', 'noindex': True, 'lang': get_lang(request), 'localized': True}
     r = render(request, '404.html', data)
