@@ -434,6 +434,11 @@ def blog_salle_seminaire_lille_just_escape(request):
     return render(request, 'blog_salle_seminaire_lille_just_escape.html', data)
 
 
+def blog_jeux_team_building(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_jeux_team_building.html', data)
+
+
 def error404(request):
     data = {'current_page': '404', 'noindex': True, 'lang': get_lang(request), 'localized': True}
     r = render(request, '404.html', data)
