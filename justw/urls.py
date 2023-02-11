@@ -35,6 +35,7 @@ urlpatterns = i18n_patterns(
     path('blog/seminaire-entreprise-original', views.blog_seminaire_entreprise_original, name='blog-seminaire-entreprise-original'),
     path('blog/salle-seminaire-lille-just-escape', views.blog_salle_seminaire_lille_just_escape, name='blog-salle-seminaire-lille-just-escape'),
     path('blog/jeux-team-building', views.blog_jeux_team_building, name='blog-jeux-team-building'),
+    path('blog/animation-murder-party', views.blog_animation_murder_party, name='blog-animation-murder-party'),
     path('404', views.error404, name='404'),
     path('partenaires', views.partners, name='partners'),
     path('contact', views.contact, name='contact'),
