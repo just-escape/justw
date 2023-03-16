@@ -464,6 +464,11 @@ def blog_location_salle_reunion_lille(request):
     return render(request, 'blog_location_salle_reunion_lille.html', data)
 
 
+def blog_escape_game_entreprise(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_escape_game_entreprise.html', data)
+
+
 def error404(request):
     data = {'current_page': '404', 'noindex': True, 'lang': get_lang(request), 'localized': True}
     r = render(request, '404.html', data)
