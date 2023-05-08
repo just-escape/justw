@@ -1,194 +1,191 @@
 {% extends "base.html" %}
 
 {% block title %}Murder Party Lille – Just Escape{% endblock %}
-{% block description %}Découvrez le RedRock saloon, une murder party dans un village western. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
+{% block description %}Découvrez nos murder party : classique, killer party, murder dinner, type loup-garou... Choisissez votre activité complètement insolite !{% endblock %}
 
 {% block og_title %}Murder Party Lille – Just Escape{% endblock %}
-{% block og_description %}Découvrez le RedRock saloon, une murder party dans un village western. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
+{% block og_description %}Découvrez nos murder party : classique, killer party, murder dinner, type loup-garou. Choisissez votre activité complètement insolite !{% endblock %}
 
 {% block h1 %}Scénarios de Murder Party à Lille{% endblock %}
 
 {% block content %}
 
 <section>
-  <div class="jumbotron py-5 mb-4">
+  <div class="jumbotron py-5 deepdark">
     <div class="container px-0">
       <div class="row">
         <div class="col">
           <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
             <div class="d-flex flex-column mb-0">
-              <h2 class="text-jaffa mb-0">Le Redrock saloon</h2>
-              <div class="text-inter font-weight-bold size-12 mb-2">Village western</div>
+              <h2 class="text-jaffa mb-0">Vous cherchez une idée originale pour organiser une soirée inoubliable entre amis ?</h2>
+              <div class="text-inter font-weight-bold size-12 mb-2">Découvrez les différents formats</div>
             </div>
-            <div class="d-flex flex-column align-items-end">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-6 px-4 mb-4">
+          <div class="row">
+            <div class="col-5 px-0">
+              <img class="img-fluid w-100" src="/static/img/murder-party-960.png">
+            </div>
+            <div class="col-7 p-4 d-flex flex-column justify-content-between dark">
               <div>
-                <span class="lh-24px">10 à 25 joueurs</span>
-                <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                <div class="text-center mb-3">
+                  <h3 class="size-2 mb-0">La Murder classique</h3>
+                </div>
+                <div class="d-flex flex-column align-items-end justify-content-center mb-4">
+                  <div>
+                    <span class="lh-24px">10 à 25 joueurs</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                  </div>
+                  <div>
+                    <span class="lh-24px">3 heures</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                  </div>
+                </div>
+
+                <p>Partez à l'aventure dans l'Ouest sauvage avec notre expérience de Murder Party.</p>
+                <p>Rejoignez le Red Rock Saloon.</p>
               </div>
+
+              <div class="d-flex flex-column justify-content-center">
+                <div class="text-center mb-2">
+                  <a href="/murder-party-redrock-saloon" class="btn btn-inter"><span>En savoir plus</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 px-4 mb-4">
+          <div class="row">
+            <div class="col-5 px-0">
+              <img class="img-fluid w-100" src="/static/img/cyber-party-960.png">
+            </div>
+            <div class="col-7 p-4 d-flex flex-column justify-content-between dark">
               <div>
-                <span class="lh-24px">3 heures</span>
-                <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                <div class="text-center mb-3">
+                  <h3 class="size-2 mb-0">La Killer Party</h3>
+                </div>
+                <div class="d-flex flex-column align-items-end justify-content-center mb-4">
+                  <div>
+                    <span class="lh-24px">6 à 20 joueurs</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                  </div>
+                  <div>
+                    <span class="lh-24px">90 minutes</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                  </div>
+                </div>
+
+                <p>Plongez dans une expérience cybernétique unique avec notre Killer Party</p>
+                <p>Il n'en restera qu'un !</p>
+              </div>
+
+              <div class="d-flex flex-column justify-content-center">
+                <div class="text-center mb-2">
+                  <a href="/killer-party" class="btn btn-inter"><span>En savoir plus</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 px-4 mb-4">
+          <div class="row">
+            <div class="col-5 px-0">
+              <img class="img-fluid w-100" src="/static/img/murder-dinner-960.png">
+            </div>
+            <div class="col-7 p-4 d-flex flex-column justify-content-between dark">
+              <div>
+                <div class="text-center mb-3">
+                  <h3 class="size-2 mb-0">La Murder Dinner</h3>
+                </div>
+                <div class="d-flex flex-column align-items-end justify-content-center mb-4">
+                  <div>
+                    <span class="lh-24px">5 à 9 joueurs (par table)</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                  </div>
+                  <div>
+                    <span class="lh-24px">Le temps d'un repas</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                  </div>
+                </div>
+
+                <p>Découvrez les mystères divins d'une murder dinner sur l'Olympe.</p>
+                <p>Vous êtes invité par Zeus !</p>
+              </div>
+
+              <div class="d-flex flex-column justify-content-center">
+                <div class="text-center mb-2">
+                  <a href="/murder-dinner" class="btn btn-inter"><span>En savoir plus</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 px-4 mb-4">
+          <div class="row">
+            <div class="col-5 px-0">
+              <img class="img-fluid w-100" src="/static/img/two-rooms-960.png">
+            </div>
+            <div class="col-7 p-4 d-flex flex-column justify-content-between dark">
+              <div>
+                <div class="text-center mb-3">
+                  <h3 class="size-2 mb-0">Two rooms</h3>
+                </div>
+                <div class="d-flex flex-column align-items-end justify-content-center mb-4">
+                  <div>
+                    <span class="lh-24px">10 à 30 joueurs</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                  </div>
+                  <div>
+                    <span class="lh-24px">90 minutes</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                  </div>
+                </div>
+
+                <p>Comme le loup-garou, mais sans mourir !</p>
+              </div>
+
+              <div class="d-flex flex-column justify-content-center">
+                <div class="text-center mb-2">
+                  <a href="/two-rooms" class="btn btn-inter"><span>En savoir plus</span></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="row">
-        <div class="col">
-          <p>Nous sommes au printemps 1884. La côte ouest de l'Amérique voit peu à peu de petites villes apparaître. Elles sont remplies de colons venant prospecter des métaux précieux, installer des ranchs ou encore ouvrir des saloons douteux. Il ne manque plus que le chemin de fer pour parfaire le cadre. Silver Town est l'une de ces petites villes, fondée il y a 20 ans.</p>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-12 col-lg-8">
-          <div class="position-relative">
-            <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>Nouveau</span></div>
-            <picture>
-              <source srcset="/static/img/murder-party-redrock-saloon.webp" type="image/webp">
-              <source srcset="/static/img/murder-party-redrock-saloon.jpg" type="image/jpg">
-              <img loading="lazy" class="img-fluid w-100 mb-3" src="/static/img/murder-party-redrock-saloon.jpg" alt="Des personnages sont dans une intrigue de murder party">
-            </picture>
+        <div class="col-12 col-lg-6 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-header">
+              <h3 class="text-center text-inter font-weight-bold mb-0"><h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+              <div>Un jeu de rôle grandeur nature plongera vos invités dans une ambiance mystérieuse et immersive, où chacun des joueurs devra jouer son rôle pour résoudre une enquête palpitante.</div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p>Il y a ce soir un air de fête alors que les habitants de la ville se préparent à célébrer le 20ème anniversaire. Cependant, tout ne tourne pas rond. Les conflits de terre, les querelles avec les indiens, les jeux de cartes douteux et les étrangers de la ville forment une atmosphère tendue.</p>
-          <p>Dans RedRock Saloon, la grande fête de la ville se joue au cours d'une seule soirée. Toutes les grandes figures de la ville seront présentes dont le juge, le shérif et son adjoint, les filles du saloon, les sympathiques indiens et le docteur amateur de jeu de cartes peu recommandable ! En plus des villageois, Silver Town est actuellement visitée, entre autres, par des promoteurs ferroviaires enthousiastes et un prêcheur quelque peu sinistre. Cependant, tout le monde n'est peut-être pas ce qu'il semble être. Certains des participants ont des objectifs différents à la célébration de l’anniversaire, et cachent tous des secrets qu'ils protégeront à tout prix !</p>
-          <p style="font-size: 28px; font-style: italic" class="text-right mb-4">Le RedRock Saloon ouvre ses portes !</p>
-          <hr style="width: 25%" class="border-jaffa">
-          <p class="my-4">Cette murder se joue de 10 à 25 joueurs. Il y aura des organisateurs-acteurs en plus des joueurs. Elle dure environ 3h. Il n'y a pas besoin de prévoir de costume particulier. Chacun des joueurs doit s'inscrire individuellement et recevra ensuite plus de détails par mail. Des rafraîchissements seront disponibles sur place.</p>
-          <hr style="width: 25%" class="border-jaffa">
-          <p class="my-4">Une murder party est une enquête policière grandeur nature qui vous plonge dans une rocambolesque histoire de meurtre, le temps d'une soirée chacun oublie sa personnalité pour se glisser dans celle d'un personnage ; shérif, serveur de saloon, chercheur d'or, trappeur, banquier vicieux... Le temps de la partie, vous devez atteindre vos objectifs ! (Comme un Loup Garou plus élaboré en somme)</p>
-          <p class="text-center"><a href="/murder-party/qu-est-ce-qu-une-murder-party" class="btn btn-inter p-3">Qu'est-ce qu'une murder party ?</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="jumbotron softdark position-relative py-5">
-    <div class="softdark extension extension-top extension-corner-bottom-right"></div>
-    <div class="softdark extension extension-bottom extension-corner-top-right"></div>
-    <div class="container px-0">
-      <div class="row">
-        <div class="col">
-          <span id="inscription" class="anchor">&nbsp;</span>
-          <h2 class="text-jaffa">Je m'inscris à cette murder party</h2>
-          <p>Vous voulez jouer à la murder party Redrock saloon mais vous êtes un petit groupe ? Remplissez le formulaire d'inscription pour entrer dans la liste d'attente. Just Escape enverra des sondages réguliers pour trouver une date qui vous convienne. Participer à une session de murder party en session ouverte, c'est l'occasion idéale de rencontrer de nouveaux joueurs.</p>
-          <p>Note : pour des besoins d'organisation, tous les joueurs souhaitant participer doivent remplir ce formulaire. Si vous êtes un groupe de 4 amis, alors le formulaire doit être rempli 4 fois avec les informations de chacun.</p>
-          <p class="mb-4">Vous êtes un groupe d'une vingtaine de personnes et souhaitez faire une murder entre vous ? Contactez-nous directement.</p>
-  
-          <form action="/murder-party#inscription" method="post">
-            {% csrf_token %}
-  
-            {% if unexpected_error %}
-            <div class="row">
-              <div class="col px-0 px-sm-3">
-                <p class="text-red">Une erreur inattendue s'est produite. Merci de nous contacter directement.</p>
-              </div>
+        <div class="col-12 col-lg-6 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-body size-11 text-center d-flex flex-column justify-content-center lh-12">
+              <div class="mb-2">Just Escape vous propose une expérience unique en son genre. Que vous soyez fans d'enquêtes policières, d'immersions ou de jeux de rôle, nos concepts sauront répondre à toutes vos attentes. Nous proposons plusieurs scénarios adaptés à vos envies, que ce soit une murder party western, mythologique ou futuriste.</div>
             </div>
-            {% endif %}
-  
-            {% if subscription_success %}
-            <div class="row">
-              <div class="col px-0 px-sm-3">
-                <p class="text-jaffa">Votre inscription a été transmise. Nous vous tiendrons au courant dans les plus brefs délais.</p>
-              </div>
-            </div>
-            {% endif %}
-  
-            {{ form.non_field_errors }}
-  
-            <div class="form-group">
-              <div class="row">
-                <div class="col">
-                  <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
-                    <label class="col-form-label" for="{{ form.contact_name.auto_id }}">{{ form.contact_name.label }}</label>
-                    <span class="text-jaffa">*</span>
-                  </div>
-                  <div class="col-12 col-sm-7 col-md-6 col-lg-4">
-                    <div class="row">
-                      {{ form.contact_name }}
-                    </div>
-                    {% if form.contact_name.errors %}
-                      <div class="row">
-                        {{ form.contact_name.errors }}
-                      </div>
-                    {% endif %}
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="form-group">
-              <div class="row">
-                <div class="col">
-                  <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
-                    <label class="col-form-label" for="{{ form.contact_email.auto_id }}">{{ form.contact_email.label }}</label>
-                    <span class="text-jaffa">*</span>
-                  </div>
-                  <div class="col-12 col-sm-7 col-md-6 col-lg-4">
-                    <div class="row">
-                      {{ form.contact_email }}
-                    </div>
-                    {% if form.contact_email.errors %}
-                      <div class="row">
-                        {{ form.contact_email.errors }}
-                      </div>
-                    {% endif %}
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="form-group">
-              <div class="row">
-                <div class="col">
-                  <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
-                    <label class="col-form-label" for="{{ form.contact_number.auto_id }}">{{ form.contact_number.label }}</label>
-                    <span class="text-jaffa">*</span>
-                  </div>
-                  <div class="col-12 col-sm-7 col-md-6 col-lg-4">
-                    <div class="row">
-                      {{ form.contact_number }}
-                    </div>
-                    {% if form.contact_number.errors %}
-                      <div class="row">
-                        {{ form.contact_number.errors }}
-                      </div>
-                    {% endif %}
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="form-group">
-              <div class="row">
-                <div class="col">
-                  <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
-                    <label class="col-form-label" for="{{ form.comment.auto_id }}">{{ form.comment.label }}</label>
-                  </div>
-                  <div class="col-12 col-sm-7 col-md-6 col-lg-4">
-                    <div class="row">
-                      {{ form.comment }}
-                    </div>
-                    {% if form.comment.errors %}
-                      <div class="row">
-                        {{ form.comment.errors }}
-                      </div>
-                    {% endif %}
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="row">
-              <div class="col">
-                <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
-                  <button type="submit" class="btn btn-secondary btn-block"><span>Envoyer</span></button>
-                </div>
-              </div>
           </div>
-          </form>
+        </div>
+        <div class="col-12 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-body size-11 text-center d-flex flex-column justify-content-center lh-12">
+              <div class="mb-2">N'attendez plus pour organiser votre propre murder party !</div>
+              <div>Contactez-nous dès maintenant pour obtenir un devis personnalisé et réservez la date de votre choix.</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

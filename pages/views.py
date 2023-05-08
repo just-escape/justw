@@ -253,6 +253,48 @@ def room(request):
     return render(request, 'room.html', data)
 
 
+def escape_game_evjf(request):
+    data = {
+        'current_page': 'escape-game-evjf',
+        'lang': get_lang(request),
+        'localized': False,
+        'cover': True,
+        'cover_max_transparency': True,
+    }
+
+    r = render(request, 'escape_game_evjf.html', data)
+
+    return r
+
+
+def escape_game_evg(request):
+    data = {
+        'current_page': 'escape-game-evg',
+        'lang': get_lang(request),
+        'localized': False,
+        'cover': True,
+        'cover_max_transparency': True,
+    }
+
+    r = render(request, 'escape_game_evg.html', data)
+
+    return r
+
+
+def escape_game_anniversaire(request):
+    data = {
+        'current_page': 'escape-game-anniversaire',
+        'lang': get_lang(request),
+        'localized': False,
+        'cover': True,
+        'cover_max_transparency': True,
+    }
+
+    r = render(request, 'escape_game_anniversaire.html', data)
+
+    return r
+
+
 def murder_party(request):
     form, error, success = handle_murder_subscription(request)
 
@@ -266,6 +308,58 @@ def murder_party(request):
     return render(request, 'murder_party.html', data)
 
 
+def murder_party_redrock_saloon(request):
+    form, error, success = handle_murder_subscription(request)
+
+    data = {
+        'current_page': 'murder-party-redrock-saloon',
+        'localized': False,
+        'form': form,
+        'unexpected_error': error,
+        'subscription_success': success,
+    }
+    return render(request, 'murder_party_redrock_saloon.html', data)
+
+
+def killer_party(request):
+    form, error, success = handle_murder_subscription(request)
+
+    data = {
+        'current_page': 'killer-party',
+        'localized': False,
+        'form': form,
+        'unexpected_error': error,
+        'subscription_success': success,
+    }
+    return render(request, 'killer_party.html', data)
+
+
+def murder_dinner(request):
+    form, error, success = handle_murder_subscription(request)
+
+    data = {
+        'current_page': 'murder-dinner',
+        'localized': False,
+        'form': form,
+        'unexpected_error': error,
+        'subscription_success': success,
+    }
+    return render(request, 'murder_dinner.html', data)
+
+
+def two_rooms(request):
+    form, error, success = handle_murder_subscription(request)
+
+    data = {
+        'current_page': 'two-rooms',
+        'localized': False,
+        'form': form,
+        'unexpected_error': error,
+        'subscription_success': success,
+    }
+    return render(request, 'two_rooms.html', data)
+
+
 def qu_est_ce_qu_une_murder_party(request):
     data = {
         'current_page': 'qu-est-ce-qu-une-murder-party',
@@ -276,7 +370,6 @@ def qu_est_ce_qu_une_murder_party(request):
     }
 
     r = render(request, 'qu_est_ce_qu_une_murder_party.html', data)
-    r['X-Robots-Tag'] = 'noindex'
 
     return r
 

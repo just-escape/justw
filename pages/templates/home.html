@@ -391,52 +391,166 @@
       </div>
 
       <div class="row justify-content-center mb-4">
-        <div class="col-12 col-lg-10 col-xl-8">
-          <div class="card deepdark position-relative py-4 px-0 px-sm-4">
-                <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "Nouveau" %}</span></div>
-            <div class="card-header d-flex flex-column flex-md-row justify-content-between">
-              <div class="d-flex flex-column mb-3 mb-md-0 justify-content-center">
-                <div class="text-inter font-weight-bold lh-1 size-2">{% trans "Le RedRock Saloon" %}</div>
-                <div class="size-15 lh-1">{% trans "Village western" %}</div>
+        <div class="col-12 col-lg-6 d-flex align-items-stretch">
+          <div class="card deepdark position-relative py-4 px-0 px-sm-4 mb-4">
+            <div class="card-header d-flex flex-column flex-md-row flex-lg-column justify-content-between">
+              <div class="d-flex flex-column mb-3 mb-md-0 mb-lg-3 justify-content-center">
+                <div class="text-inter font-weight-bold lh-1 size-2">La murder classique</div>
+                <div class="size-15 lh-1">Qui survivra dans l'ouest ?</div>
               </div>
               <div class="d-flex flex-column align-items-end justify-content-center">
                 <div>
-                  <span class="lh-24px">{% trans "10 à 25 joueurs" %}</span>
+                  <span class="lh-24px">10 à 25 joueurs</span>
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
                 </div>
                 <div>
-                  <span class="lh-24px">{% trans "3 heures" %}</span>
+                  <span class="lh-24px">3 heures</span>
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
-                </div>
-                <div>
-                  <span class="lh-24px">{% trans "FR" %}</span>
-                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/lang.svg" %}</span>
                 </div>
               </div>
             </div>
             <div class="card-body">
               <picture>
-                <source srcset="/static/img/murder-party-redrock-saloon.webp" type="image/webp">
-                <source srcset="/static/img/murder-party-redrock-saloon.jpg" type="image/jpg">
-                <img loading="lazy" class="img-fluid w-100 mb-3" src="/static/img/murder-party-redrock-saloon.jpg" alt="{% trans "Des personnages sont dans une intrigue de murder party" %}" >
+                <source srcset="/static/img/murder-party-375.png" type="image/png">
+                <img loading="lazy" class="img-fluid mx-auto d-block mb-3" src="/static/img/murder-party-375.png" alt="Logo de la murder party">
               </picture>
 
-              <p class="size-11 mb-0">{% trans "Un soir de printemps 1884, sur la côte ouest, les habitants de Silver Town se préparent à célébrer l'anniversaire de la ville. Mais les apparences sont trompeuses. Entre le shérif, le juge, les filles du saloon et les sympathiques indiens, tout le monde n'est pas là pour faire la fête. La présence d'étrangers, les vieux conflits de terre et les jeux de cartes douteux forment une atmosphère tendue..." %}</p>
+              <p class="size-11 mb-0">Un soir de printemps 1884, sur la côte ouest, les habitants de Silver Town se préparent à célébrer l'anniversaire de la ville. Mais les apparences sont trompeuses. Entre le shérif, le juge, les filles du saloon et les sympathiques indiens, tout le monde n'est pas là pour faire la fête. La présence d'étrangers, les vieux conflits de terre et les jeux de cartes douteux forment une atmosphère tendue...</p>
             </div>
             <div class="card-footer">
               <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
                 <div class="d-flex flex-column align-items-center mb-4 mb-md-0">
-                  <div class="lh-1 size-09">{% trans "À partir de" %}</div>
-                  <div class="text-inter font-weight-bold lh-1 size-2">{% trans "25€" %}</div>
-                  <div class="lh-1 size-09">{% trans "par joueur" %}</div>
+                  <div class="lh-1 size-09">À partir de</div>
+                  <div class="text-inter font-weight-bold lh-1 size-2">25€</div>
+                  <div class="lh-1 size-09">par joueur</div>
                 </div>
 
-                <a href="/murder-party" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/face-grin-hearts.svg" %}</span>{% trans "Je veux en savoir plus" %}</span></a>
+                <a href="/murder-party-redrock-saloon" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span>Je veux en savoir plus</span></a>
               </div>
 
               <p class="size-11 text-center mb-0">
-              {% trans "<span class='text-jaffa'>Vous êtes un petit groupe ?</span> <a href='/murder-party#inscription' class='text-underline text-hover-mulberry'>Inscrivez-vous sur liste d'attente</a> ! Vous serez invité à des sessions ouvertes pour encore plus de fun en rencontrant de nouvelles personnes." %}
+              <span class='text-jaffa'>Vous êtes un petit groupe ?</span> <a href='/murder-party#inscription' class='text-underline text-hover-mulberry'>Inscrivez-vous sur liste d'attente</a> ! Vous serez invité à des sessions ouvertes pour encore plus de fun en rencontrant de nouvelles personnes.
               </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 d-flex align-items-stretch">
+          <div class="card deepdark position-relative py-4 px-0 px-sm-4 mb-4">
+            <div class="card-header d-flex flex-column flex-md-row flex-lg-column justify-content-between">
+              <div class="d-flex flex-column mb-3 mb-md-0 mb-lg-3 justify-content-center">
+                <div class="text-inter font-weight-bold lh-1 size-2">La killer party</div>
+                <div class="size-15 lh-1">Vivez l'expérience cybernétique ultime</div>
+              </div>
+              <div class="d-flex flex-column align-items-end justify-content-center">
+                <div>
+                  <span class="lh-24px">6 à 20 joueurs</span>
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                </div>
+                <div>
+                  <span class="lh-24px">90 minutes</span>
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <picture>
+                <source srcset="/static/img/killer-party-375.png" type="image/png">
+                <img loading="lazy" class="img-fluid mx-auto d-block mb-3" src="/static/img/killer-party-375.png" alt="Logo de la killer party">
+              </picture>
+
+              <p class="size-11 mb-0">Dans un futur lointain, les intelligences artificielles sont pleinement intégrées à notre vie quotidienne. Un groupe d'ingénieurs est convié à vérifier le bon fonctionnement de ces IAs. Lors d'une vérification de routine à bord d'un vaisseau de transport, un des ingénieurs est retrouvé mort...</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="d-flex flex-column align-items-center mb-4 mb-md-0">
+                  <div class="lh-1 size-09">À partir de</div>
+                  <div class="text-inter font-weight-bold lh-1 size-2">25€</div>
+                  <div class="lh-1 size-09">par joueur</div>
+                </div>
+
+                <a href="/killer-party" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span>Je veux en savoir plus</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 d-flex align-items-stretch">
+          <div class="card deepdark position-relative py-4 px-0 px-sm-4 mb-4">
+            <div class="card-header d-flex flex-column flex-md-row flex-lg-column justify-content-between">
+              <div class="d-flex flex-column mb-3 mb-md-0 mb-lg-3 justify-content-center">
+                <div class="text-inter font-weight-bold lh-1 size-2">La murder dinner</div>
+                <div class="size-15 lh-1">Une expérience unique dans les sommets de l'Olympe</div>
+              </div>
+              <div class="d-flex flex-column align-items-end justify-content-center">
+                <div>
+                  <span class="lh-24px">5 à 9 joueurs</span>
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                </div>
+                <div>
+                  <span class="lh-24px">Le temps d'un repas</span>
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <picture>
+                <source srcset="/static/img/murder-dinner-375.png" type="image/png">
+                <img loading="lazy" class="img-fluid mx-auto d-block mb-3" src="/static/img/murder-dinner-375.png" alt="Logo de la murder dinner">
+              </picture>
+
+              <p class="size-11 mb-0">Zeus invite de nombreux dieux à sa table. Tous répondent présents. Tous... mais il semblerait que deux places supplémentaires sont occupées. Serait-ce des humains qui se sont faufilés parmis les convives de Zeus ? Le temps du repas permettra peut-être d'éclaircir la vérité. Zeus va sûrement faire entendre sa colère !</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="d-flex flex-column align-items-center mb-4 mb-md-0">
+                  <div class="lh-1 size-09">À partir de</div>
+                  <div class="text-inter font-weight-bold lh-1 size-2">20€</div>
+                  <div class="lh-1 size-09">+ prix du repas</div>
+                </div>
+
+                <a href="/murder-dinner" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span>Je veux en savoir plus</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 d-flex align-items-stretch">
+          <div class="card deepdark position-relative py-4 px-0 px-sm-4 mb-4">
+            <div class="card-header d-flex flex-column flex-md-row flex-lg-column justify-content-between">
+              <div class="d-flex flex-column mb-3 mb-md-0 mb-lg-3 justify-content-center">
+                <div class="text-inter font-weight-bold lh-1 size-2">Two rooms</div>
+                <div class="size-15 lh-1">Le loup-garou mais sans mourir</div>
+              </div>
+              <div class="d-flex flex-column align-items-end justify-content-center">
+                <div>
+                  <span class="lh-24px">10 à 30 joueurs</span>
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                </div>
+                <div>
+                  <span class="lh-24px">90 minutes</span>
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <picture>
+                <source srcset="/static/img/two-rooms-375.png" type="image/png">
+                <img loading="lazy" class="img-fluid mx-auto d-block mb-3" src="/static/img/two-rooms-375.png" alt="Logo de two rooms">
+              </picture>
+
+              <p class="size-11 mb-0">Plongez dans cet univers ultime de complots et de bluff. Les assassins et les citoyens s'affrontent dans des décors d'escape game pour se démasquer les uns les autres. Allez-vous sauvez l'empereur ?</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="d-flex flex-column align-items-center mb-4 mb-md-0">
+                  <div class="lh-1 size-09">À partir de</div>
+                  <div class="text-inter font-weight-bold lh-1 size-2">12€</div>
+                  <div class="lh-1 size-09">par joueur</div>
+                </div>
+
+                <a href="/two-rooms" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span>Je veux en savoir plus</span></a>
+              </div>
             </div>
           </div>
         </div>
@@ -521,7 +635,8 @@
         <div class="col">
           <div class="card light">
             <div class="card-body">
-              <div class="elfsight-app-62d569e2-3755-49d6-a607-504522ab075f"></div>
+                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+              <div class="elfsight-app-68e3ce15-b299-46ae-af17-92683b53f5b9"></div>
             </div>
           </div>
         </div>
@@ -624,17 +739,70 @@
                 <p class="text-center lh-12 size-11">{% trans "Le <strong>live escape game</strong> combine le travail d'équipe, la communication et la logique. C'est une excellente occasion de <strong>renforcer la cohésion d'un groupe</strong>." %}</p>
                 <p class="text-center lh-12 size-11">{% trans "Découvrez des <strong>solutions clé en main pour team building</strong> : <strong>salle de séminaire</strong>, apéritif dinatoire, etc." %}</p>
                 <p class="text-center lh-12 size-11 mb-0">{% trans "Choisissez la formule qu'il vous faut, que vous soyez 2 personnes ou jusqu'à 50 collaborateurs." %}</p>
-              </div>
-              <div class="card-footer transparent text-center" style="border-width: 0px">
-                <picture>
-                  <source srcset="/static/img/team-building-escape-game-lille.webp" type="image/webp">
-                  <source srcset="/static/img/team-building-escape-game-lille.jpg" type="image/jpg">
-                  <img loading="lazy" src="/static/img/team-building-escape-game-lille.webp" class="img-fluid mb-3" alt="{% trans "Team building pour entreprise dans un escape game" %}">
-                </picture>
-                <a href="/{{ lang }}team-building" class="text-inter btn btn-light size-1">{% trans "J'organise un <strong>team building</strong>" %}</a>
-              </div>
+            </div>
+            <div class="card-footer transparent text-center" style="border-width: 0px">
+              <picture>
+                <source srcset="/static/img/team-building-escape-game-lille.webp" type="image/webp">
+                <source srcset="/static/img/team-building-escape-game-lille.jpg" type="image/jpg">
+                <img loading="lazy" src="/static/img/team-building-escape-game-lille.webp" class="img-fluid mb-3" alt="{% trans "Team building pour entreprise dans un escape game" %}">
+              </picture>
+              <a href="/{{ lang }}team-building" class="text-inter btn btn-light size-1">{% trans "J'organise un <strong>team building</strong>" %}</a>
+            </div>
           </div>
         </div>
+
+        {% if lang == '' %}
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-body pb-0">
+              <h3 class="text-inter font-weight-bold lh-1 mb-2 text-center">EVJF</h3>
+              <p class="text-inter lh-1 size-1 text-center">Vous organisez un EVJF ?</p>
+            </div>
+            <div class="card-footer transparent text-center" style="border-width: 0px">
+              <picture>
+                <source srcset="/static/img/activite-originale-evjf.webp" type="image/webp">
+                <source srcset="/static/img/activite-originale-evjf.jpg" type="image/jpg">
+                <img loading="lazy" src="/static/img/activite-originale-evjf.webp" class="img-fluid mb-3" alt="Une activité originale d'EVJF">
+              </picture>
+              <a href="/escape-game-evjf" class="text-inter btn btn-light size-1">Je découvre le pack <strong>EVJF</strong></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-body pb-0">
+              <h3 class="text-inter font-weight-bold lh-1 mb-2 text-center">EVG</h3>
+              <p class="text-inter lh-1 size-1 text-center">Vous organisez un EVG ?</p>
+            </div>
+            <div class="card-footer transparent text-center" style="border-width: 0px">
+              <picture>
+                <source srcset="/static/img/activite-originale-evg.webp" type="image/webp">
+                <source srcset="/static/img/activite-originale-evg.jpg" type="image/jpg">
+                <img loading="lazy" src="/static/img/activite-originale-evg.webp" class="img-fluid mb-3" alt="Une activité originale d'EVG">
+              </picture>
+              <a href="/escape-game-evg" class="text-inter btn btn-light size-1">Je découvre le pack <strong>EVG</strong></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-body pb-0">
+              <h3 class="text-inter font-weight-bold lh-1 mb-2 text-center">Anniversaire</h3>
+              <p class="text-inter lh-1 size-1 text-center">Vous organisez un anniversaire ?</p>
+            </div>
+            <div class="card-footer transparent text-center" style="border-width: 0px">
+              <picture>
+                <source srcset="/static/img/activite-originale-anniversaire.webp" type="image/webp">
+                <source srcset="/static/img/activite-originale-anniversaire.jpg" type="image/jpg">
+                <img loading="lazy" src="/static/img/activite-originale-anniversaire.webp" class="img-fluid mb-3" alt="Une activité originale d'anniversaire">
+              </picture>
+              <a href="/escape-game-anniversaire" class="text-inter btn btn-light size-09">Je découvre le pack <strong>anniversaire</strong></a>
+            </div>
+          </div>
+        </div>
+        {% endif %}
       </div>
 
       <div class="row">
@@ -1075,18 +1243,20 @@
     </script>
   {% endif %}
 
+  <!--
   <script>
     async function loadFile() {
       await new Promise((resolve, reject) => {
         const scriptTag = document.createElement('script');
         scriptTag.type = 'text/javascript';
-        scriptTag.src = "https://apps.elfsight.com/p/platform.js";
+        scriptTag.src = "https://static.elfsight.com/platform/platform.js";
         scriptTag.onload = () => resolve();
         document.body.appendChild(scriptTag);
       })
     }
     setTimeout(loadFile, 3000);
   </script>
+  -->
 
   <script type="application/ld+json">
     {

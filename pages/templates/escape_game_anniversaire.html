@@ -1,0 +1,551 @@
+{% extends "base.html" %}
+
+{% block title %}Une activité originale pour un anniversaire réussi ? – Just Escape{% endblock %}
+{% block description %}Plus besoin de se creuser la tête pour trouver la prochaine activité d'anniversaire. L'escape game pour anniversaire met tout le monde d'accord de par son originalité !{% endblock %}
+
+{% block og_title %}Une activité originale pour un anniversaire réussi ? – Just Escape{% endblock %}
+{% block og_description %}Plus besoin de se creuser la tête pour trouver la prochaine activité d'anniversaire. L'escape game pour anniversaire met tout le monde d'accord de par son originalité !{% endblock %}
+
+{% block pre_content %}{% endblock %}
+
+{% block main_header %}{% endblock %}
+
+{% block content %}
+
+  <div class="jumbotron-fluid content-cover position-relative">
+    <div>
+      <picture>
+        <source srcset="/static/img/escape-game-anniversaire-cover.jpg" type="image/jpg">
+        <img class="position-absolute" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/escape-game-anniversaire-cover.webp" alt="Un escape game pendant un anniversaire">
+      </picture>
+    </div>
+
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col d-flex flex-column justify-content-end">
+          <h1 class="text-inter text-center text-red-stroke font-weight-normal size-35 mb-5">Un escape game pour réussir votre <span class="text-red">ANNIVERSAIRE</span> ?</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron px-0 deepdark py-3">
+    <div class="container mb-5">
+      <div class="row justify-content-center mb-5">
+        <div class="col text-center">
+          <h2 class="size-35 text-inter font-weight-bold">Célébrez votre anniversaire d'une manière unique avec notre escape game</h2>
+
+          <div class="size-15 text-jaffa mb-3 text-right text-inter font-weight-bold">Fêtez avec style</div>
+        </div>
+      </div>
+
+      <!--
+      <div class="row justify-content-center mb-4">
+        <div class="col-12 col-lg-6 text-center">
+          <picture>
+            <source srcset="https://www.robespourmariage.fr/blog/wp-content/uploads/2019/05/bachelorette-party.jpg" type="image/webp">
+            <source srcset="https://www.robespourmariage.fr/blog/wp-content/uploads/2019/05/bachelorette-party.jpg" type="image/jpg">
+            <img loading="lazy" class="img-fluid w-100" src="https://www.robespourmariage.fr/blog/wp-content/uploads/2019/05/bachelorette-party.jpg" alt="">
+          </picture>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-12 col-lg-6 text-center">
+          <a href="/reserver" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/calendar-check.svg" %}</span>Je réserve une séance</span></a>
+        </div>
+      </div>
+      -->
+
+      <div class="row mb-4">
+        <div class="col text-center">
+          <h2 class="text-inter font-weight-bold">Pour votre anniversaire : énigmes, mystère et surprises vous attendent</h2>
+          <div class="font-weight-bold size-15 mb-2">Choisissez le pack anniversaire lors de la réservation</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-header">
+              <h3 class="text-center text-inter font-weight-bold mb-0">Une expérience unique et originale</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+              <div>Plongez dans une aventure palpitante et tentez de vous échapper de notre escape game !</div>
+              <div>Énigmes, fouilles, codes secrets... Vous devrez faire preuve de cohésion et de réflexion pour sortir victorieux !</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-header">
+              <h3 class="text-center text-inter font-weight-bold mb-0">Prenez-vous au jeu</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+              <div>Vous serez confronté à des énigmes, des mystères et des défis stimulants. Vous devrez utiliser votre logique, votre raisonnement et votre intuition pour résoudre des problèmes et avancer dans le jeu.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-header">
+              <h3 class="text-center text-inter font-weight-bold mb-0">Réservez dès maintenant</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+              <p class="lh-12">Souhaitez-vous une fête d'anniversaire incroyablement amusante et unique ?</p>
+              <p>Nous avons hâte de vous accueillir et de vous offrir une expérience inoubliable !</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-header">
+              <h3 class="text-center text-inter font-weight-bold mb-0">Un anniversaire que vos amis n'oublieront pas</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+              <p class="lh-12">Une expérience immersive, des énigmes stimulantes et une dose d'adrénaline, le tout dans une ambiance festive.</p>
+              <p class="lh-12">Réservez dès maintenant et faites de cet anniversaire un événement mémorable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-12 col-lg-6 text-center">
+          <a href="/reserver" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/calendar-check.svg" %}</span>Je réserve une séance</span></a>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-3">
+        <div class="col text-center">
+          <h2 class="text-inter font-weight-bold mb-0">Nos jeux pour votre anniversaire</h2>
+          <div class="text-inter size-15">Des activités originales</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-6 px-4 mb-4">
+          <div class="row">
+            <div class="col-5 px-0">
+              <img class="img-fluid w-100" src="/static/img/escape-game-960.png">
+            </div>
+            <div class="col-7 p-4 d-flex flex-column justify-content-between dark">
+              <div>
+                <div class="text-center mb-3">
+                  <h3 class="size-2 mb-0">Le Digimiam</h3>
+                  <div class="font-italic">Escape Game</div>
+                </div>
+                <div class="d-flex flex-column align-items-end justify-content-center mb-4">
+                  <div>
+                    <span class="lh-24px">2 à 10 joueurs (sur 2 salles)</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                  </div>
+                  <div>
+                    <span class="lh-24px">60 minutes</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                  </div>
+                </div>
+
+                <p>Une aventure unique en son genre au coeur d'un estaminet futuriste.</p>
+                <p>Prêts à découvrir 2080 ?</p>
+              </div>
+
+              <div class="d-flex flex-column justify-content-center">
+                <div class="text-center mb-2">
+                  <a href="/reserver" class="btn btn-inter"><span>Je réserve une séance</span></a>
+                </div>
+                <hr style="width: 75%" class="border-jaffa">
+                <div class="text-center mt-2">
+                  <a href='/salles' class="text-inter"><span>En savoir plus</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 px-4 mb-4">
+          <div class="row">
+            <div class="col-5 px-0">
+              <img class="img-fluid w-100" src="/static/img/murder-party-960.png">
+            </div>
+            <div class="col-7 p-4 d-flex flex-column justify-content-between dark">
+              <div>
+                <div class="text-center mb-3">
+                  <h3 class="size-2 mb-0">La Murder Party</h3>
+                </div>
+                <div class="d-flex flex-column align-items-end justify-content-center mb-4">
+                  <div>
+                    <span class="lh-24px">10 à 25 joueurs</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                  </div>
+                  <div>
+                    <span class="lh-24px">3 heures</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                  </div>
+                </div>
+
+                <p>Partez à l'aventure dans l'Ouest sauvage avec notre expérience de Murder Party.</p>
+                <p>Rejoignez le Red Rock Saloon.</p>
+              </div>
+
+              <div class="d-flex flex-column justify-content-center">
+                <div class="text-center mb-2">
+                  <a href="/murder-party-redrock-saloon" class="btn btn-inter"><span>En savoir plus</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 px-4 mb-4">
+          <div class="row">
+            <div class="col-5 px-0">
+              <img class="img-fluid w-100" src="/static/img/cyber-party-960.png">
+            </div>
+            <div class="col-7 p-4 d-flex flex-column justify-content-between dark">
+              <div>
+                <div class="text-center mb-3">
+                  <h3 class="size-2 mb-0">La Killer Party</h3>
+                </div>
+                <div class="d-flex flex-column align-items-end justify-content-center mb-4">
+                  <div>
+                    <span class="lh-24px">6 à 20 joueurs</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                  </div>
+                  <div>
+                    <span class="lh-24px">90 minutes</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                  </div>
+                </div>
+
+                <p>Plongez dans une expérience cybernétique unique avec notre Killer Party</p>
+                <p>Il n'en restera qu'un !</p>
+              </div>
+
+              <div class="d-flex flex-column justify-content-center">
+                <div class="text-center mb-2">
+                  <a href="/killer-party" class="btn btn-inter"><span>En savoir plus</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 px-4 mb-4">
+          <div class="row">
+            <div class="col-5 px-0">
+              <img class="img-fluid w-100" src="/static/img/murder-dinner-960.png">
+            </div>
+            <div class="col-7 p-4 d-flex flex-column justify-content-between dark">
+              <div>
+                <div class="text-center mb-3">
+                  <h3 class="size-2 mb-0">La Murder Dinner</h3>
+                </div>
+                <div class="d-flex flex-column align-items-end justify-content-center mb-4">
+                  <div>
+                    <span class="lh-24px">5 à 9 joueurs (par table)</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                  </div>
+                  <div>
+                    <span class="lh-24px">Le temps d'un repas</span>
+                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                  </div>
+                </div>
+
+                <p>Découvrez les mystères divins d'une murder dinner sur l'Olympe.</p>
+                <p>Vous êtes invité par Zeus !</p>
+              </div>
+
+              <div class="d-flex flex-column justify-content-center">
+                <div class="text-center mb-2">
+                  <a href="/murder-dinner" class="btn btn-inter"><span>En savoir plus</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr style="width: 75%" class="border-light opacity-04 mb-5">
+
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-light rounded mb-3" id="qa-01" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div id="question-01" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-01" aria-expanded="false" aria-controls="answer-01" itemprop="name" role="button">
+              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Quels sont les types de packs anniversaire proposés ?
+            </div>
+            <div id="answer-01" class="collapse" aria-labelledby="question-01" data-parent="#qa-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  Nous proposons un pack anniversaire comprenant : une boisson par personne, une photo unique et la privatisation de notre salle de réception.
+                </p>
+                <p class="mb-0">
+                  Choisissez l'option anniversaire lors de votre réservation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-light rounded mb-3" id="qa-02" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div id="question-02" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-02" aria-expanded="false" aria-controls="answer-02" itemprop="name" role="button">
+              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Y a-t-il des restrictions d'âge pour les participants aux activités ?
+            </div>
+            <div id="answer-02" class="collapse" aria-labelledby="question-02" data-parent="#qa-02" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3 mb-0">
+                  Nous n'imposons pas de restriction d'âge. Nous demandons à ce que les plus jeunes soient sous la surveillance d'un adulte.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-light rounded mb-3" id="qa-03" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div id="question-03" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-03" aria-expanded="false" aria-controls="answer-03" itemprop="name" role="button">
+              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Comment réserver une activité anniversaire ?
+            </div>
+            <div id="answer-03" class="collapse" aria-labelledby="question-03" data-parent="#qa-03" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  Pour réserver une session d'escape game pour votre anniversaire vous pouvez le faire directement depuis le formulaire de réservation. Choissiez le pack anniversaire.
+                </p>
+                <p>
+                  <a href="/reserver" class="btn btn-inter"><span>Je réserve une séance</span></a>
+                </p>
+                <p class="mb-0">
+                  Pour avoir des informations sur les autres activités proposées, <a href="/contact" rel="nofollow">contactez-nous</a> directement.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-light rounded mb-3" id="qa-04" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div id="question-04" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-04" aria-expanded="false" aria-controls="answer-04" itemprop="name" role="button">
+              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Jusqu'à combien de personnes peut accueillir la salle de réception ?
+            </div>
+            <div id="answer-04" class="collapse" aria-labelledby="question-04" data-parent="#qa-04" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  La mise à disposition de notre salle de réception privée, inclue dans le pack anniversaire, peut accueillir jusqu'à 20 personnes assises.
+                </p>
+                <p class="mb-0">
+                  Des jeux de société sont mis à disposition et vous avez la possibilité de commander des choses à boire et à manger.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-12 mb-5">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-header">
+              <h3 class="text-center text-inter font-weight-bold mb-0">Des activités pour tous les goûts et tous les âges !</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+              <p class="lh-12">Trouvez l'originalité dans nos activités funs et uniques.</p>
+              <p class="lh-12">Les petits comme les grands, vous êtes les bienvenus.</p>
+              <p class="lh-12">Venez fêtez votre anniversaire en grand !</p>
+              <p class="lh-12">Des moments forts vous attendent dans notre salle d'escape game.</p>
+              <p class="lh-12">Épatez vos amis avec une fête d'anniversaire hors du commun !</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col text-center">
+          <h2 class="text-inter font-weight-bold mb-0">Découvrez les cartes cadeaux</h2>
+          <div class="text-inter font-weight-bold size-15 mb-2">Offrir une carte cadeau</div>
+          <div>Que diriez-vous d'un bon cadeau original et unique en son genre ?</div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 text-center">
+          <video autoplay muted loop class="mb-3" poster="/static/img/carte-cadeau-escape-game.webp" title="Une carte cadeau pour un escape game sur Lille">
+            <source src="/static/vid/carte-cadeau-2-joueurs-lille.webm" type="video/webm"/>
+            <p>Videos are not supported by this browser</p>
+          </video>
+          <a href="/carte-cadeau" class="text-inter btn btn-light size-1">Je veux une <strong>carte cadeau</strong></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="jumbotron px-0 dark">
+    <div class="container mb-5">
+      <h2 class="mb-3">Ils sont venus et nous ont validés</h2>
+
+      <div class="row d-flex mb-4">
+        <div class="col">
+          <div class="card light">
+            <div class="card-body">
+                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+              <div class="elfsight-app-68e3ce15-b299-46ae-af17-92683b53f5b9"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="jumbotron gradient-mulberry-jaffa position-relative">
+    <div class="gradient-mulberry-jaffa extension extension-top extension-corner-bottom-right"></div>
+    <div class="gradient-mulberry-jaffa extension extension-bottom extension-corner-top-right"></div>
+
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <h2 class="mb-0">FAQ</h2>
+          <div class="text-inter size-15 mb-4">On répond à vos questions</div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-light rounded mb-3" id="qa-05" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div id="question-05" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-05" aria-expanded="false" aria-controls="answer-05" itemprop="name" role="button">
+              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Combien de temps durent les activités ?
+            </div>
+            <div id="answer-05" class="collapse" aria-labelledby="question-05" data-parent="#qa-05" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3 mb-0">
+                  La durée des activités varie en fonction de l'activité choisie. Certaines activités peuvent durer quelques heures, tandis que d'autres peuvent durer toute la journée. Nous avons également des options pour les activités de courte durée pour ceux qui ont un emploi du temps chargé.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-light rounded mb-3" id="qa-06" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div id="question-06" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-06" aria-expanded="false" aria-controls="answer-06" itemprop="name" role="button">
+              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Quel est le prix des activités ?
+            </div>
+            <div id="answer-06" class="collapse" aria-labelledby="question-06" data-parent="#qa-06" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                </p>
+                <p>
+                </p>
+                <p class="mb-0">
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-light rounded mb-3" id="qa-07" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div id="question-07" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-07" aria-expanded="false" aria-controls="answer-07" itemprop="name" role="button">
+              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Où se déroulent les activités ?
+            </div>
+            <div id="answer-07" class="collapse" aria-labelledby="question-07" data-parent="#qa-07" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  Toutes nos activités se déroulent dans les locaux de Just Escape, à Lille.
+                </p>
+                <p class="mb-0">
+                  Certaines de ces activités peuvent être organisées dans un lieu de votre choix.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-light rounded mb-3" id="qa-08" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div id="question-08" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-08" aria-expanded="false" aria-controls="answer-08" itemprop="name" role="button">
+              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Quels types de packs proposez-vous ?
+            </div>
+            <div id="answer-08" class="collapse" aria-labelledby="question-08" data-parent="#qa-08" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3 mb-0">
+                  Nous proposons une variété de packs pour tous les âges et les intérêts&nbsp;: pour les enfants comme pour les adultes. Nous avons des packs pour tous les budgets et toutes les tailles de groupes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+
+{% block post_base_js %}
+  <script>
+    $("#answer-01").on("show.bs.collapse", function() {$("#question-01 span").addClass("rotate-90");})
+    $("#answer-01").on("hide.bs.collapse", function() {$("#question-01 span").removeClass("rotate-90");})
+    $("#answer-02").on("show.bs.collapse", function() {$("#question-02 span").addClass("rotate-90");})
+    $("#answer-02").on("hide.bs.collapse", function() {$("#question-02 span").removeClass("rotate-90");})
+    $("#answer-03").on("show.bs.collapse", function() {$("#question-03 span").addClass("rotate-90");})
+    $("#answer-03").on("hide.bs.collapse", function() {$("#question-03 span").removeClass("rotate-90");})
+    $("#answer-04").on("show.bs.collapse", function() {$("#question-04 span").addClass("rotate-90");})
+    $("#answer-04").on("hide.bs.collapse", function() {$("#question-04 span").removeClass("rotate-90");})
+    $("#answer-05").on("show.bs.collapse", function() {$("#question-05 span").addClass("rotate-90");})
+    $("#answer-05").on("hide.bs.collapse", function() {$("#question-05 span").removeClass("rotate-90");})
+    $("#answer-06").on("show.bs.collapse", function() {$("#question-06 span").addClass("rotate-90");})
+    $("#answer-06").on("hide.bs.collapse", function() {$("#question-06 span").removeClass("rotate-90");})
+    $("#answer-07").on("show.bs.collapse", function() {$("#question-07 span").addClass("rotate-90");})
+    $("#answer-07").on("hide.bs.collapse", function() {$("#question-07 span").removeClass("rotate-90");})
+    $("#answer-08").on("show.bs.collapse", function() {$("#question-08 span").addClass("rotate-90");})
+    $("#answer-08").on("hide.bs.collapse", function() {$("#question-08 span").removeClass("rotate-90");})
+  </script>
+
+<!--
+  <script>
+    async function loadFile() {
+      await new Promise((resolve, reject) => {
+        const scriptTag = document.createElement('script');
+        scriptTag.type = 'text/javascript';
+        scriptTag.src = "https://apps.elfsight.com/p/platform.js";
+        scriptTag.onload = () => resolve();
+        document.body.appendChild(scriptTag);
+      })
+    }
+    setTimeout(loadFile, 3000);
+  </script>
+  -->
+
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Just Escape",
+                "item": "https://just-escape.fr/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Escape Game EVG",
+                "item": "https://just-escape.fr/escape-game-evg"
+            }
+        ]
+    }
+  </script>
+{% endblock %}
