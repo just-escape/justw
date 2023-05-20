@@ -314,6 +314,10 @@ nav a, #blog a, .mobile-bar a, #mobile-header a, a.btn, .breadcrumb-item a {
     font-size: 2.5rem;
 }
 
+.size-3 {
+    font-size: 3rem;
+}
+
 .size-35 {
     font-size: 3.5rem;
 }
@@ -708,26 +712,24 @@ nav a, #blog a, .mobile-bar a, #mobile-header a, a.btn, .breadcrumb-item a {
     fill: #f8f9fa;
 }
 
-#what-is-a-murder-party {
+.text-cover {
     margin-bottom: 20px;
 }
 
-#what-is-a-murder-party h1 {
-    font-size: 2rem;
+.text-cover h1 {
+    font-size: 2.5rem;
 }
 
 @media (min-width: 992px) {
-    #what-is-a-murder-party {
+    .text-cover {
         margin-bottom: 100px;
     }
-}
 
-@media (min-width: 1200px) {
-    #what-is-a-murder-party h1 {
+    .text-cover h1 {
         font-size: 3.5rem;
     }
 
-    #what-is-a-murder-party div {
+    .text-cover div {
         font-size: 1.2rem;
     }
 }

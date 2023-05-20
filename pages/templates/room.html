@@ -188,45 +188,79 @@
       <div class="row mb-3">
         <div class="col text-center">
           <h2 class="font-weight-bold">
-            {% trans "Découvrez aussi nos scénarios de murder party" %}
+            Découvrez aussi nos scénarios de murder party
           </h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-lg-6 mb-4">
           <div class="card deepdark position-relative px-0">
-            <div class="ribbon ribbon-top-left ribbon-small ribbon-mulberry-jaffa"><span>{% trans "Nouveau" %}</span></div>
             <div class="card-header d-flex flex-column flex-lg-row justify-content-between">
               <div class="d-flex flex-column mb-3 mb-md-0 justify-content-top">
-                <div class="text-inter font-weight-bold lh-1 text-jaffa size-15">{% trans "Le RedRock Saloon" %}</div>
-                <div class="lh-1">{% trans "Village western" %}</div>
+                <div class="text-inter font-weight-bold lh-1 text-jaffa size-15">La murder classique</div>
+                <div class="lh-1">Cluedo géant</div>
               </div>
               <div class="d-flex flex-column align-items-end justify-content-center">
                 <div class="lh-16px">
-                  <span class="size-09 lh-16px">{% trans "10 à 25 joueurs" %}</span>
+                  <span class="size-09 lh-16px">10 à 25 joueurs</span>
                   <span class="d-inline-block lh-16px svg-16px fill-light align-top">{% include "svg/users.svg" %}</span>
                 </div>
                 <div class="lh-16px">
-                  <span class="size-09 lh-16px">{% trans "3 heures" %}</span>
+                  <span class="size-09 lh-16px">3 heures</span>
                   <span class="d-inline-block lh-16px svg-16px fill-light align-top">{% include "svg/chrono.svg" %}</span>
-                </div>
-                <div class="lh-16px">
-                  <span class="size-09 lh-16px">{% trans "FR" %}</span>
-                  <span class="d-inline-block lh-16px svg-16px fill-light align-top">{% include "svg/lang.svg" %}</span>
                 </div>
               </div>
             </div>
             <div class="card-body">
               <picture>
-                <source srcset="/static/img/murder-party-redrock-saloon.webp" type="image/webp">
-                <source srcset="/static/img/murder-party-redrock-saloon.jpg" type="image/jpg">
-                <img loading="lazy" class="img-fluid w-100 mb-2" src="/static/img/murder-party-redrock-saloon.jpg" alt="{% trans "Des personnages sont dans une intrigue de murder party" %}" >
+                <source srcset="/static/img/murder-party-375.png" type="image/jpg">
+                <img loading="lazy" class="img-fluid mx-auto d-block mb-2" src="/static/img/murder-party-375.png" alt="Logo de la murder party">
               </picture>
-              <p class="size-09 mb-0">{% trans "Un soir de printemps 1884, sur la côte ouest, les habitants de Silver Town se préparent à célébrer l'anniversaire de la ville. Mais les apparences sont trompeuses. Entre le shérif, le juge, les filles du saloon et les sympathiques indiens, tout le monde n'est pas là pour faire la fête." %}
-              </p>
+              <!--<p class="size-09 mb-0">Un soir de printemps 1884, sur la côte ouest, les habitants de Silver Town se préparent à célébrer l'anniversaire de la ville. Mais les apparences sont trompeuses. Entre le shérif, le juge, les filles du saloon et les sympathiques indiens, tout le monde n'est pas là pour faire la fête.
+              </p>-->
             </div>
-            <div class="card-footer text-right">
-              <a href="/murder-party" class="btn btn-inter">{% trans "Je veux en savoir plus" %}</a>
+            <div class="card-footer d-flex flex-column flex-md-row justify-content-between">
+              <div class="d-flex flex-row align-items-center mb-4 mb-md-0">
+                <div class="lh-1 size-09 mr-1">À partir de</div><div class="text-inter font-weight-bold lh-1 size-15">25€</div>
+              </div>
+
+              <a href="/murder-party-redrock-saloon" class="btn btn-inter">Je veux en savoir plus</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="card deepdark position-relative px-0">
+            <div class="card-header d-flex flex-column flex-lg-row justify-content-between">
+              <div class="d-flex flex-column mb-3 mb-md-0 justify-content-top">
+                <div class="text-inter font-weight-bold lh-1 text-jaffa size-15">La murder dinner</div>
+                <div class="lh-1">Trahissez-vous autour d'un repas</div>
+              </div>
+              <div class="d-flex flex-column align-items-end justify-content-center">
+                <div class="lh-16px">
+                  <span class="size-09 lh-16px">5 à 9 joueurs par table</span>
+                  <span class="d-inline-block lh-16px svg-16px fill-light align-top">{% include "svg/users.svg" %}</span>
+                </div>
+                <div class="lh-16px">
+                  <span class="size-09 lh-16px">Le temps d'un repas</span>
+                  <span class="d-inline-block lh-16px svg-16px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <picture>
+                <source srcset="/static/img/murder-dinner-375.png" type="image/jpg">
+                <img loading="lazy" class="img-fluid mx-auto d-block mb-2" src="/static/img/murder-dinner-375.png" alt="Logo de la murder dinner">
+              </picture>
+              <!--<p class="size-09 mb-0">Un soir de printemps 1884, sur la côte ouest, les habitants de Silver Town se préparent à célébrer l'anniversaire de la ville. Mais les apparences sont trompeuses. Entre le shérif, le juge, les filles du saloon et les sympathiques indiens, tout le monde n'est pas là pour faire la fête.
+              </p>-->
+            </div>
+            <div class="card-footer d-flex flex-column flex-md-row justify-content-between">
+              <div class="d-flex flex-row align-items-center mb-4 mb-md-0">
+                <div class="lh-1 size-09 mr-1">À partir de</div><div class="text-inter font-weight-bold lh-1 size-15">25€</div>
+              </div>
+
+              <a href="/murder-dinner" class="btn btn-inter">Je veux en savoir plus</a>
             </div>
           </div>
         </div>
