@@ -352,6 +352,10 @@ nav a, #blog a, .mobile-bar a, #mobile-header a, a.btn, .breadcrumb-item a {
     text-decoration: underline;
 }
 
+.text-underline-none {
+    text-decoration: none;
+}
+
 .text-light-shadow {
     text-shadow: 0.07rem 0.07rem 0.1rem rgba(200, 200, 200, 0.2);
 }
