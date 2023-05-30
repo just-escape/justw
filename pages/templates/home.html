@@ -19,12 +19,12 @@
   <div class="jumbotron-fluid content-cover position-relative">
     <div>
       <picture>
-        <source media="(max-width: 599.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-600x780.jpg" type="image/jpg">
         <source media="(max-width: 599.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-600x780.webp" type="image/webp">
-        <source media="(min-width: 600px) and (max-width: 991.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1820x1120.jpg" type="image/jpg">
+        <source media="(max-width: 599.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-600x780.jpg" type="image/jpg">
         <source media="(min-width: 600px) and (max-width: 991.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1820x1120.webp" type="image/webp">
-        <source media="(min-width: 992px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1700x900.jpg" type="image/jpg">
+        <source media="(min-width: 600px) and (max-width: 991.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1820x1120.jpg" type="image/jpg">
         <source media="(min-width: 992px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1700x900.webp" type="image/webp">
+        <source media="(min-width: 992px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1700x900.jpg" type="image/jpg">
         <img class="position-absolute" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/escape-game-lille-nouvelle-generation-1820x1120.webp" alt="{% trans "Une joueuse immergée dans sa mission est exaltée" %}">
       </picture>
     </div>
@@ -635,7 +635,6 @@
         <div class="col">
           <div class="card light">
             <div class="card-body">
-                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
               <div class="elfsight-app-68e3ce15-b299-46ae-af17-92683b53f5b9"></div>
             </div>
           </div>
@@ -1203,60 +1202,18 @@
   </script>
 
   <script>
-    function emojiSupport() {
-      var userAgent = window.navigator.userAgent,
-          platform = window.navigator.platform,
-          macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
-          windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
-          iosPlatforms = ['iPhone', 'iPad', 'iPod'],
-          os = null;
-
-      if (macosPlatforms.indexOf(platform) !== -1) {
-          // Mac OS
-          return true;
-      } else if (iosPlatforms.indexOf(platform) !== -1) {
-          // iOS
-          return true;
-      } else if (windowsPlatforms.indexOf(platform) !== -1) {
-          // Windows
-          return true;
-      } else if (/Android/.test(userAgent)) {
-          // Android
-          return true;
-      } else if (!os && /Linux/.test(platform)) {
-          // Linux
-          return false;
-      }
-
-      return false;
-    }
-
-    if (!emojiSupport()) {
-        $('.emoji').addClass('d-none');
-    }
-  </script>
-
-  {% if subscription_success %}
-    <script>
-      $('#newsletter-email-bar').popover('show');
-      $('#newsletter-email-bar').popover('disable');
-    </script>
-  {% endif %}
-
-  <!--
-  <script>
     async function loadFile() {
       await new Promise((resolve, reject) => {
         const scriptTag = document.createElement('script');
         scriptTag.type = 'text/javascript';
         scriptTag.src = "https://static.elfsight.com/platform/platform.js";
+        scriptTag.setAttribute('data-use-service-core', '');
         scriptTag.onload = () => resolve();
         document.body.appendChild(scriptTag);
       })
     }
     setTimeout(loadFile, 3000);
   </script>
-  -->
 
   <script type="application/ld+json">
     {
