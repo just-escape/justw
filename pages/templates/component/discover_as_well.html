@@ -1,0 +1,26 @@
+{% load filters %}
+
+<div class="container px-0">
+  <div class="row mb-3">
+    <div class="col text-center">
+      <h2 class="font-weight-bold">
+        Découvrez aussi {{ label }}
+      </h2>
+    </div>
+  </div>
+  <div class="row">
+    {% for w in what|split %}
+    <div class="col-12 col-lg-6 mb-4">
+      {% if w == "digimiam" %}
+        {% include "component/discover_as_well_digimiam.html" %}
+      {% elif w == "redrock_saloon" %}
+        {% include "component/discover_as_well_redrock_saloon.html" %}
+      {% elif w == "killer_party" %}
+        {% include "component/discover_as_well_killer_party.html" %}
+      {% elif w == "murder_dinner" %}
+        {% include "component/discover_as_well_murder_dinner.html" %}
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
