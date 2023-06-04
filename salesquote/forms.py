@@ -70,7 +70,7 @@ class SalesQuoteForm(forms.Form):
                 'spellcheck': 'false',
             }
         ),
-        required=True,
+        required=False,
     )
     contact_email = forms.EmailField(
         max_length=128,

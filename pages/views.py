@@ -144,7 +144,7 @@ def handle_salesquote(request, mail_tag):
 
     body_lines = [
         "Nom : {}".format(name),
-        "Entreprise : {}".format(company),
+        "Entreprise : {}".format(company if company else 'N/A'),
         "",
         "Email : {}".format(email),
         "Tel : {}".format(number),
