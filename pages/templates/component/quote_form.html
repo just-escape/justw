@@ -1,0 +1,225 @@
+{% load i18n %}
+{% load l10n %}
+
+<form action="{{ action }}" method="post">
+  {% csrf_token %}
+
+  {% if unexpected_error %}
+    <div class="row">
+      <div class="col px-0 px-sm-3">
+        <p class="text-red">{% trans "An unexpected error happened. Please contact us directly." %}</p>
+      </div>
+    </div>
+  {% endif %}
+
+  {% if salesquote_success %}
+    <div class="row">
+      <div class="col px-0 px-sm-3">
+        <p class="text-jaffa">{% trans "Your application has been transmitted. We will provide an answer as soon as possible." %}</p>
+      </div>
+    </div>
+  {% endif %}
+
+  {{ form.non_field_errors }}
+
+  <div class="form-group">
+    <div class="row">
+      <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+        <label class="col-form-label" for="{{ form.contact_name.auto_id }}">{{ form.contact_name.label|localize }}</label>
+        <span class="text-jaffa">*</span>
+      </div>
+      <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+        <div class="row">
+          {{ form.contact_name }}
+        </div>
+        {% if form.contact_name.errors %}
+          <div class="row">
+            {{ form.contact_name.errors }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+        <label class="col-form-label" for="{{ form.company_name.auto_id }}">{{ form.company_name.label }}</label>
+        <span class="text-jaffa">*</span>
+      </div>
+      <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+        <div class="row">
+          {{ form.company_name }}
+        </div>
+        {% if form.company_name.errors %}
+          <div class="row">
+            {{ form.company_name.errors }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+        <label class="col-form-label" for="{{ form.contact_email.auto_id }}">{{ form.contact_email.label }}</label>
+        <span class="text-jaffa">*</span>
+      </div>
+      <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+        <div class="row">
+          {{ form.contact_email }}
+        </div>
+        {% if form.contact_email.errors %}
+          <div class="row">
+            {{ form.contact_email.errors }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+        <label class="col-form-label" for="{{ form.contact_number.auto_id }}">{{ form.contact_number.label }}</label>
+        <span class="text-jaffa">*</span>
+      </div>
+      <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+        <div class="row">
+          {{ form.contact_number }}
+        </div>
+        {% if form.contact_number.errors %}
+          <div class="row">
+            {{ form.contact_number.errors }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+        <label class="col-form-label" for="{{ form.group_size.auto_id }}">{{ form.group_size.label }}</label>
+        <span class="text-jaffa">*</span>
+      </div>
+      <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+        <div class="row">
+          {{ form.group_size }}
+        </div>
+        {% if form.group_size.errors %}
+          <div class="row">
+            {{ form.group_size.errors }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+        <label class="col-form-label" for="{{ form.service.auto_id }}">{{ form.service.label }}</label>
+        <span class="text-jaffa">*</span>
+      </div>
+      <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+        <div class="row">
+          {{ form.service }}
+        </div>
+        {% if form.service.errors %}
+          <div class="row">
+            {{ form.service.errors }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+        <label class="col-form-label" for="{{ form.desired_date.auto_id }}">{{ form.desired_date.label }}</label>
+      </div>
+      <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+        <div class="row">
+        {{ form.desired_date }}
+        </div>
+        {% if form.desired_date.errors %}
+          <div class="row">
+            {{ form.desired_date.errors }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+        <label class="col-form-label" for="{{ form.budget.auto_id }}">{{ form.budget.label }}</label>
+      </div>
+      <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+        <div class="row">
+          {{ form.budget }}
+        </div>
+        {% if form.budget.errors %}
+          <div class="row">
+            {{ form.budget.errors }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+        <label class="col-form-label" for="{{ form.comment.auto_id }}">{{ form.comment.label }}</label>
+      </div>
+      <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+        <div class="row">
+          {{ form.comment }}
+        </div>
+        {% if form.comment.errors %}
+          <div class="row">
+            {{ form.comment.errors }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
+      <button type="submit" class="btn btn-secondary btn-block"><span>{% trans "Submit" %}</span></button>
+    </div>
+  </div>
+
+</form>
+
+  <script src="/static/js/moment-2.23.0.min.js"></script>
+  {% if lang == 'en/' %}
+  <script src="/static/js/moment-en-gb-locale.js"></script>
+  {% else %}
+  <script src="/static/js/moment-fr-locale.js"></script>
+  {% endif %}
+
+  <script src="/static/js/tempusdominus-bootstrap-4-5.1.2.min.js"></script>
+
+  <script>
+    $.fn.datetimepicker.Constructor.Default = $.extend({}, $.fn.datetimepicker.Constructor.Default, {
+      locale: moment.locale({% if lang == 'en/' %}'en-gb'{% else %}'fr'{% endif %}),
+      icons: {
+        time: 'far fa-clock',
+        date: 'far fa-calendar-alt',
+        up: 'fas fa-angle-up',
+        down: 'fas fa-angle-down',
+        previous: 'fas fa-angle-left',
+        next: 'fas fa-angle-right',
+        today: 'fa fa-calendar-check-o',
+        clear: 'fa fa-trash',
+        close: 'fa fa-times'
+      }});
+    $(function(){$('#datetimepicker_desired_date').datetimepicker({format:'DD/MM/YYYY HH:mm', minDate: new Date()})});
+  </script>

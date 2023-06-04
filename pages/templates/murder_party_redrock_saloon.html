@@ -6,6 +6,14 @@
 {% block og_title %}Murder Party Lille – Just Escape{% endblock %}
 {% block og_description %}Découvrez le RedRock saloon, une murder party dans un village western. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
 
+{% block extra_css %}
+  <style rel="stylesheet">{% include "css/fa-solid-5.8.1.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/fa-regular-5.8.1.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/fontawesome-5.8.1.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/tempusdominus-bootstrap-4-5.1.2.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/tempusdominus-custom.css" %}</style>
+{% endblock %}
+
 {% block h1 %}Scénario de Murder Party classique à Lille{% endblock %}
 
 {% block content %}
@@ -93,124 +101,11 @@
     <div class="container px-0">
       <div class="row">
         <div class="col">
+          <span id="devis" class="anchor">&nbsp;</span>
           <span id="inscription" class="anchor">&nbsp;</span>
           <h2 class="text-jaffa">Je m'inscris à cette murder party</h2>
-          <p>Vous voulez jouer à la murder party Redrock saloon mais vous êtes un petit groupe ? Remplissez le formulaire d'inscription pour entrer dans la liste d'attente. Just Escape enverra des sondages réguliers pour trouver une date qui vous convienne. Participer à une session de murder party en session ouverte, c'est l'occasion idéale de rencontrer de nouveaux joueurs.</p>
-          <p>Note : pour des besoins d'organisation, tous les joueurs souhaitant participer doivent remplir ce formulaire. Si vous êtes un groupe de 4 amis, alors le formulaire doit être rempli 4 fois avec les informations de chacun.</p>
-          <p class="mb-4">Vous êtes un groupe d'une vingtaine de personnes et souhaitez faire une murder entre vous ? Contactez-nous directement.</p>
   
-          <form action="/murder-party#inscription" method="post">
-            {% csrf_token %}
-  
-            {% if unexpected_error %}
-            <div class="row">
-              <div class="col px-0 px-sm-3">
-                <p class="text-red">Une erreur inattendue s'est produite. Merci de nous contacter directement.</p>
-              </div>
-            </div>
-            {% endif %}
-  
-            {% if subscription_success %}
-            <div class="row">
-              <div class="col px-0 px-sm-3">
-                <p class="text-jaffa">Votre inscription a été transmise. Nous vous tiendrons au courant dans les plus brefs délais.</p>
-              </div>
-            </div>
-            {% endif %}
-  
-            {{ form.non_field_errors }}
-  
-            <div class="form-group">
-              <div class="row">
-                <div class="col">
-                  <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
-                    <label class="col-form-label" for="{{ form.contact_name.auto_id }}">{{ form.contact_name.label }}</label>
-                    <span class="text-jaffa">*</span>
-                  </div>
-                  <div class="col-12 col-sm-7 col-md-6 col-lg-4">
-                    <div class="row">
-                      {{ form.contact_name }}
-                    </div>
-                    {% if form.contact_name.errors %}
-                      <div class="row">
-                        {{ form.contact_name.errors }}
-                      </div>
-                    {% endif %}
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="form-group">
-              <div class="row">
-                <div class="col">
-                  <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
-                    <label class="col-form-label" for="{{ form.contact_email.auto_id }}">{{ form.contact_email.label }}</label>
-                    <span class="text-jaffa">*</span>
-                  </div>
-                  <div class="col-12 col-sm-7 col-md-6 col-lg-4">
-                    <div class="row">
-                      {{ form.contact_email }}
-                    </div>
-                    {% if form.contact_email.errors %}
-                      <div class="row">
-                        {{ form.contact_email.errors }}
-                      </div>
-                    {% endif %}
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="form-group">
-              <div class="row">
-                <div class="col">
-                  <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
-                    <label class="col-form-label" for="{{ form.contact_number.auto_id }}">{{ form.contact_number.label }}</label>
-                    <span class="text-jaffa">*</span>
-                  </div>
-                  <div class="col-12 col-sm-7 col-md-6 col-lg-4">
-                    <div class="row">
-                      {{ form.contact_number }}
-                    </div>
-                    {% if form.contact_number.errors %}
-                      <div class="row">
-                        {{ form.contact_number.errors }}
-                      </div>
-                    {% endif %}
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="form-group">
-              <div class="row">
-                <div class="col">
-                  <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
-                    <label class="col-form-label" for="{{ form.comment.auto_id }}">{{ form.comment.label }}</label>
-                  </div>
-                  <div class="col-12 col-sm-7 col-md-6 col-lg-4">
-                    <div class="row">
-                      {{ form.comment }}
-                    </div>
-                    {% if form.comment.errors %}
-                      <div class="row">
-                        {{ form.comment.errors }}
-                      </div>
-                    {% endif %}
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="row">
-              <div class="col">
-                <div class="px-0 px-sm-3 col-12 col-sm-5 col-md-4 col-lg-3">
-                  <button type="submit" class="btn btn-secondary btn-block"><span>Envoyer</span></button>
-                </div>
-              </div>
-          </div>
-          </form>
+          {% include "component/quote_form.html" with action="/murder-party-redrock-saloon#devis" form=form unexpected_error=unexpected_error salesquote_success=salesquote_success lang=lang %}
         </div>
       </div>
     </div>

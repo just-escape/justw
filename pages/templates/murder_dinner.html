@@ -6,6 +6,14 @@
 {% block og_title %}Murder Dinner Lille – Just Escape{% endblock %}
 {% block og_description %}Trahissez-vous autour d'un repas. Découvrez la murder dinner : une murder party qui se joue autour d'un diner mythologique. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
 
+{% block extra_css %}
+  <style rel="stylesheet">{% include "css/fa-solid-5.8.1.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/fa-regular-5.8.1.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/fontawesome-5.8.1.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/tempusdominus-bootstrap-4-5.1.2.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/tempusdominus-custom.css" %}</style>
+{% endblock %}
+
 {% block h1 %}Murder party autour d'un repas à Lille{% endblock %}
 
 {% block content %}
@@ -94,9 +102,10 @@
     <div class="container px-0">
       <div class="row">
         <div class="col">
-          <span id="inscription" class="anchor">&nbsp;</span>
+          <span id="devis" class="anchor">&nbsp;</span>
           <h2 class="text-jaffa">Je souhaite réserver une partie de murder dinner</h2>
-          <p>Veuillez nous contacter.</p>
+
+          {% include "component/quote_form.html" with action="/murder-dinner#devis" form=form unexpected_error=unexpected_error salesquote_success=salesquote_success lang=lang %}
         </div>
       </div>
     </div>

@@ -92,7 +92,7 @@ def handle_unsubscription(request):
     return EmailForm(), False, True
 
 
-def handle_salesquote(request):
+def handle_salesquote(request, mail_tag):
     if request.method != 'POST':
         return SalesQuoteForm(), False, False
 
@@ -157,7 +157,7 @@ def handle_salesquote(request):
         "Commentaire : {}".format(comment if comment else 'N/A'),
     ]
     send_mail(
-        "Nouvelle demande de devis de {}".format(name),
+        "[{}] Nouvelle demande de devis de {}".format(mail_tag, name),
         "\n".join(body_lines),
         "devis@justescape.fr",
         settings.ADMINS,
@@ -309,53 +309,57 @@ def murder_party(request):
 
 
 def murder_party_redrock_saloon(request):
-    form, error, success = handle_murder_subscription(request)
+    form, error, success = handle_salesquote(request, "Redrock Saloon")
 
     data = {
         'current_page': 'murder-party-redrock-saloon',
+        'lang': get_lang(request),
         'localized': False,
         'form': form,
         'unexpected_error': error,
-        'subscription_success': success,
+        'salesquote_success': success,
     }
     return render(request, 'murder_party_redrock_saloon.html', data)
 
 
 def killer_party(request):
-    form, error, success = handle_murder_subscription(request)
+    form, error, success = handle_salesquote(request, "Killer Party")
 
     data = {
         'current_page': 'killer-party',
+        'lang': get_lang(request),
         'localized': False,
         'form': form,
         'unexpected_error': error,
-        'subscription_success': success,
+        'salesquote_success': success,
     }
     return render(request, 'killer_party.html', data)
 
 
 def murder_dinner(request):
-    form, error, success = handle_murder_subscription(request)
+    form, error, success = handle_salesquote(request, "Murder Dinner")
 
     data = {
         'current_page': 'murder-dinner',
+        'lang': get_lang(request),
         'localized': False,
         'form': form,
         'unexpected_error': error,
-        'subscription_success': success,
+        'salesquote_success': success,
     }
     return render(request, 'murder_dinner.html', data)
 
 
 def two_rooms(request):
-    form, error, success = handle_murder_subscription(request)
+    form, error, success = handle_salesquote(request, "Two Rooms")
 
     data = {
         'current_page': 'two-rooms',
+        'lang': get_lang(request),
         'localized': False,
         'form': form,
         'unexpected_error': error,
-        'subscription_success': success,
+        'salesquote_success': success,
     }
     return render(request, 'two_rooms.html', data)
 
@@ -423,7 +427,7 @@ def pricing(request):
 
 
 def teambuilding(request):
-    form, error, success = handle_salesquote(request)
+    form, error, success = handle_salesquote(request, "Team Building")
 
     data = {
         'current_page': 'team-building',
