@@ -752,24 +752,10 @@ nav a, #blog a, .mobile-bar a, #mobile-header a, a.btn, .breadcrumb-item a {
     font-size: 1rem;
 }
 
-.btn-inter {
-    font-family: "Inter", "Helvetica", "Arial", "sans-serif";
-    font-weight: bold;
-    font-style: normal;
-    background: linear-gradient(to right, #cb4299, #f38d40);
-    color: #f8f9fa;
-    border: 0px solid transparent;
-    text-transform: uppercase;
-}
-
-.btn-inter:hover {
-    color: #f8f9fa;
-}
-
 .btn-primary, .nav-button {
     background-color: #cb4299;
     color: #f8f9fa;
-    border-color: #3c3c3e;
+    border-width: 0px;
     position: relative;
     -webkit-backface-visibility: hidden;
     z-index: 1;

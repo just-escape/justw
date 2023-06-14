@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-14 21:45+0200\n"
+"POT-Creation-Date: 2023-06-14 22:29+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -1176,11 +1176,11 @@ msgid "Les enfants de moins de 15 ans doivent être accompagnés par un adulte."
 msgstr ""
 
 #: pages/templates/home.html:198
-msgid "Les <strong>escape rooms</strong> de Just Escape"
-msgstr ""
+msgid "Escape room"
+msgstr "Escape room"
 
 #: pages/templates/home.html:199
-msgid "Découvrez les <strong>scénarios</strong>"
+msgid "Découvrez le <strong>scénario</strong>"
 msgstr ""
 
 #: pages/templates/home.html:208 pages/templates/room.html:34
@@ -1233,10 +1233,10 @@ msgstr "Suivant"
 
 #: pages/templates/home.html:283
 msgid ""
-"En 2080, le dernier estaminet de Lille vient de fermer. Les neurones de "
-"l'intelligence culinaire ont court-circuité. Mme Poivre compte sur vous pour "
-"restaurer le réfectoire. Parviendrez-vous à sauver l'un des derniers lieux "
-"emblématique de la culture flamande&nbsp;?"
+"Plongez à Lille en 2080. L'IA culinaire de Cybercity est désactivée. Encore "
+"une panne mystérieuse. Les néons sont éteints, laissant le réfectoire dans "
+"l'obscurité. Quelque chose d'illégal se passe dans ce restaurant. "
+"Parviendrez-vous à faire la lumière sur cette histoire ?"
 msgstr ""
 
 #: pages/templates/home.html:289
