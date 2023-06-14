@@ -12,13 +12,13 @@
     {% for w in what|split %}
     <div class="col-12 col-lg-6 mb-4">
       {% if w == "digimiam" %}
-        {% include "component/discover_as_well_digimiam.html" %}
+        {% include "component/card_sm_digimiam.html" %}
       {% elif w == "redrock_saloon" %}
-        {% include "component/discover_as_well_redrock_saloon.html" %}
+        {% include "component/card_sm_redrock_saloon.html" %}
       {% elif w == "killer_party" %}
-        {% include "component/discover_as_well_killer_party.html" %}
+        {% include "component/card_sm_killer_party.html" %}
       {% elif w == "murder_dinner" %}
-        {% include "component/discover_as_well_murder_dinner.html" %}
+        {% include "component/card_sm_murder_dinner.html" %}
       {% endif %}
     </div>
     {% endfor %}

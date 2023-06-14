@@ -133,7 +133,11 @@
           <a href="/reserver" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/calendar-check.svg" %}</span>Je réserve une séance</span></a>
         </div>
       </div>
+    </div>
+  </div>
 
+  <div class="jumbotron light">
+    <div class="container">
       <div class="row justify-content-center mb-3">
         <div class="col text-center">
           <h2 class="text-inter font-weight-bold mb-0">Les activités originales de Just Escape</h2>
@@ -142,188 +146,27 @@
       </div>
 
       <div class="row">
-        <div class="col-12 col-lg-6 px-4 mb-4">
-          <div class="row">
-            <div class="col-5 d-flex flex-column justify-content-center px-0">
-              <picture>
-                <source srcset="/static/img/escape-game-375.webp" type="image/webp">
-                <source srcset="/static/img/escape-game-375.png" type="image/png">
-                <img class="img-fluid d-block my-auto" src="/static/img/escape-game-375.webp" alt="Logo escape game">
-              </picture>
-            </div>
-            <div class="col-7 p-4 d-flex flex-column justify-content-between dark">
-              <div>
-                <div class="mb-3">
-                  <a href="/salles" class="text-underline-none" rel="nofollow">
-                    <h3 class="size-12 mb-0">Le Digimiam</h3>
-                    <div class="lh-1">Escape Game</div>
-                  </a>
-                </div>
-                <div class="d-flex flex-column align-items-end justify-content-center mb-4">
-                  <div>
-                    <span class="lh-24px">2 à 10 joueurs (sur 2 salles)</span>
-                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
-                  </div>
-                  <div>
-                    <span class="lh-24px">60 minutes</span>
-                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
-                  </div>
-                </div>
-
-                <p>Prêtes à découvrir 2080 ?</p>
-              </div>
-
-              <div class="d-flex flex-column justify-content-center">
-                <div class="d-flex flex-row align-items-center justify-content-center mb-2">
-                  <div class="lh-1 size-09 mr-1">À partir de</div><div class="text-inter font-weight-bold lh-1 size-15">25€</div><div class="lh-1 size-09 ml-1">par personne</div>
-                </div>
-                <div class="text-center mb-2">
-                  <a href="/reserver" class="btn btn-inter"><span>Je réserve une séance</span></a>
-                </div>
-                <hr style="width: 75%" class="border-jaffa">
-                <div class="text-center mt-2">
-                  <a href='/salles' class="text-inter"><span>En savoir plus</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-12 col-lg-6 mb-4 d-flex align-items-stretch">
+          {% include "component/card_sm_digimiam.html" %}
         </div>
 
-        <div class="col-12 col-lg-6 px-4 mb-4">
-          <div class="row">
-            <div class="col-5 d-flex flex-column justify-content-center px-0">
-              <picture>
-                <source srcset="/static/img/murder-party-375.webp" type="image/webp">
-                <source srcset="/static/img/murder-party-375.png" type="image/png">
-                <img class="img-fluid d-block my-auto" src="/static/img/murder-party-375.webp" alt="Logo murder party">
-              </picture>
-            </div>
-            <div class="col-7 p-4 d-flex flex-column justify-content-between dark">
-              <div>
-                <div class="mb-3">
-                  <a href="/murder-party-redrock-saloon" class="text-underline-none" rel="nofollow">
-                    <h3 class="size-12 mb-0">La Murder Party</h3>
-                    <div class="lh-1">Murder party classique</div>
-                  </a>
-                </div>
-                <div class="d-flex flex-column align-items-end justify-content-center mb-4">
-                  <div>
-                    <span class="lh-24px">10 à 25 joueurs</span>
-                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
-                  </div>
-                  <div>
-                    <span class="lh-24px">3 heures</span>
-                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
-                  </div>
-                </div>
-
-                <p>Partez à l'aventure dans l'Ouest sauvage avec notre expérience de Murder Party.</p>
-                <p>Rejoignez le Red Rock Saloon.</p>
-              </div>
-
-              <div class="d-flex flex-column justify-content-center">
-                <div class="d-flex flex-row align-items-center justify-content-center mb-2">
-                  <div class="lh-1 size-09 mr-1">À partir de</div><div class="text-inter font-weight-bold lh-1 size-15">25€</div><div class="lh-1 size-09 ml-1">par personne</div>
-                </div>
-                <div class="text-center mb-2">
-                  <a href="/murder-party-redrock-saloon" class="btn btn-inter"><span>En savoir plus</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-12 col-lg-6 mb-4 d-flex align-items-stretch">
+          {% include "component/card_sm_redrock_saloon.html" %}
         </div>
 
-        <div class="col-12 col-lg-6 px-4 mb-4">
-          <div class="row">
-            <div class="col-5 d-flex flex-column justify-content-center px-0">
-              <picture>
-                <source srcset="/static/img/killer-party-375.webp" type="image/webp">
-                <source srcset="/static/img/killer-party-375.png" type="image/png">
-                <img class="img-fluid d-block my-auto" src="/static/img/killer-party-375.webp" alt="Logo killer party">
-              </picture>
-            </div>
-            <div class="col-7 p-4 d-flex flex-column justify-content-between dark">
-              <div>
-                <div class="mb-3">
-                  <a href="/killer-party" class="text-underline-none" rel="nofollow">
-                    <h3 class="size-12 mb-0">La Killer Party</h3>
-                    <div class="lh-1">Among Us dans un escape game</div>
-                  </a>
-                </div>
-                <div class="d-flex flex-column align-items-end justify-content-center mb-4">
-                  <div>
-                    <span class="lh-24px">6 à 20 joueurs</span>
-                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
-                  </div>
-                  <div>
-                    <span class="lh-24px">90 minutes</span>
-                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
-                  </div>
-                </div>
-
-                <p>Plongez dans une expérience cybernétique unique avec notre Killer Party</p>
-                <p>Il n'en restera qu'un !</p>
-              </div>
-
-              <div class="d-flex flex-column justify-content-center">
-                <div class="d-flex flex-row align-items-center justify-content-center mb-2">
-                  <div class="lh-1 size-09 mr-1">À partir de</div><div class="text-inter font-weight-bold lh-1 size-15">25€</div><div class="lh-1 size-09 ml-1">par personne</div>
-                </div>
-                <div class="text-center mb-2">
-                  <a href="/killer-party" class="btn btn-inter"><span>En savoir plus</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-12 col-lg-6 mb-4 d-flex align-items-stretch">
+          {% include "component/card_sm_killer_party.html" %}
         </div>
 
-        <div class="col-12 col-lg-6 px-4 mb-4">
-          <div class="row">
-            <div class="col-5 d-flex flex-column justify-content-center px-0">
-              <picture>
-                <source srcset="/static/img/murder-dinner-375.webp" type="image/webp">
-                <source srcset="/static/img/murder-dinner-375.png" type="image/png">
-                <img class="img-fluid d-block my-auto" src="/static/img/murder-dinner-375.webp" alt="Logo murder dinner">
-              </picture>
-            </div>
-            <div class="col-7 p-4 d-flex flex-column justify-content-between dark">
-              <div>
-                <div class="mb-3">
-                  <a href="/murder-dinner" class="text-underline-none" rel="nofollow">
-                    <h3 class="size-12 mb-0">La Murder Dinner</h3>
-                    <div class="lh-1">Trahissez-vous autour d'un repas</div>
-                  </a>
-                </div>
-                <div class="d-flex flex-column align-items-end justify-content-center mb-4">
-                  <div>
-                    <span class="lh-24px">5 à 9 joueurs (par table)</span>
-                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
-                  </div>
-                  <div>
-                    <span class="lh-24px">Le temps d'un repas</span>
-                    <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
-                  </div>
-                </div>
-
-                <p>Découvrez les mystères divins d'une murder dinner sur l'Olympe.</p>
-                <p>Vous êtes invité par Zeus !</p>
-              </div>
-
-              <div class="d-flex flex-column justify-content-center">
-                <div class="d-flex flex-row align-items-center justify-content-center mb-2">
-                  <div class="lh-1 size-09 mr-1">À partir de</div><div class="text-inter font-weight-bold lh-1 size-15">20€</div><div class="lh-1 size-09 ml-1">+ prix du repas</div>
-                </div>
-                <div class="text-center mb-2">
-                  <a href="/murder-dinner" class="btn btn-inter"><span>En savoir plus</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-12 col-lg-6 mb-4 d-flex align-items-stretch">
+          {% include "component/card_sm_murder_dinner.html" %}
         </div>
       </div>
+    </div>
+  </div>
 
-      <hr style="width: 75%" class="border-light opacity-04 mb-5">
-
+  <div class="jumbotron">
+    <div class="container">
       <div class="row">
         <div class="col-12 col-lg-6">
           <div class="p-3 border-solid border-light rounded mb-3" id="qa-01" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">

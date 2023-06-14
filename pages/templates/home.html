@@ -392,167 +392,19 @@
 
       <div class="row justify-content-center mb-4">
         <div class="col-12 col-lg-6 d-flex align-items-stretch">
-          <div class="card deepdark position-relative py-4 px-0 px-sm-4 mb-4">
-            <div class="card-header d-flex flex-column flex-md-row flex-lg-column justify-content-between">
-              <div class="d-flex flex-column mb-3 mb-md-0 mb-lg-3 justify-content-center">
-                <div class="text-inter font-weight-bold lh-1 size-2">La Murder Party</div>
-                <div class="size-15 lh-1">Murder party classique</div>
-              </div>
-              <div class="d-flex flex-column align-items-end justify-content-center">
-                <div>
-                  <span class="lh-24px">10 à 25 joueurs</span>
-                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
-                </div>
-                <div>
-                  <span class="lh-24px">3 heures</span>
-                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <picture>
-                <source srcset="/static/img/murder-party-375.png" type="image/png">
-                <img loading="lazy" class="img-fluid mx-auto d-block mb-3" src="/static/img/murder-party-375.png" alt="Logo de la murder party">
-              </picture>
-
-              <p class="size-11 mb-0">Un soir de printemps 1884, sur la côte ouest, les habitants de Silver Town se préparent à célébrer l'anniversaire de la ville. Mais les apparences sont trompeuses. Entre le shérif, le juge, les filles du saloon et les sympathiques indiens, tout le monde n'est pas là pour faire la fête. La présence d'étrangers, les vieux conflits de terre et les jeux de cartes douteux forment une atmosphère tendue...</p>
-            </div>
-            <div class="card-footer">
-              <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
-                <div class="d-flex flex-column align-items-center mb-4 mb-md-0">
-                  <div class="lh-1 size-09">À partir de</div>
-                  <div class="text-inter font-weight-bold lh-1 size-2">25€</div>
-                  <div class="lh-1 size-09">par joueur</div>
-                </div>
-
-                <a href="/murder-party-redrock-saloon" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span>Je veux en savoir plus</span></a>
-              </div>
-
-              <p class="size-11 text-center mb-0">
-              <span class='text-jaffa'>Vous êtes un petit groupe ?</span> <a href='/murder-party-redrock-saloon#inscription' class='text-underline text-hover-mulberry'>Inscrivez-vous sur liste d'attente</a> ! Vous serez invité à des sessions ouvertes pour encore plus de fun en rencontrant de nouvelles personnes.
-              </p>
-            </div>
-          </div>
+          {% include "component/card_redrock_saloon.html" %}
         </div>
 
         <div class="col-12 col-lg-6 d-flex align-items-stretch">
-          <div class="card deepdark position-relative py-4 px-0 px-sm-4 mb-4">
-            <div class="card-header d-flex flex-column flex-md-row flex-lg-column justify-content-between">
-              <div class="d-flex flex-column mb-3 mb-md-0 mb-lg-3 justify-content-center">
-                <div class="text-inter font-weight-bold lh-1 size-2">La killer party</div>
-                <div class="size-15 lh-1">Among Us dans un escape game</div>
-              </div>
-              <div class="d-flex flex-column align-items-end justify-content-center">
-                <div>
-                  <span class="lh-24px">6 à 20 joueurs</span>
-                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
-                </div>
-                <div>
-                  <span class="lh-24px">90 minutes</span>
-                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <picture>
-                <source srcset="/static/img/killer-party-375.png" type="image/png">
-                <img loading="lazy" class="img-fluid mx-auto d-block mb-3" src="/static/img/killer-party-375.png" alt="Logo de la killer party">
-              </picture>
-
-              <p class="size-11 mb-0">Dans un futur lointain, les intelligences artificielles sont pleinement intégrées à notre vie quotidienne. Un groupe d'ingénieurs est convié à vérifier le bon fonctionnement de ces IAs. Lors d'une vérification de routine à bord d'un vaisseau de transport, un des ingénieurs est retrouvé mort...</p>
-            </div>
-            <div class="card-footer">
-              <div class="d-flex flex-column flex-md-row justify-content-between">
-                <div class="d-flex flex-column align-items-center mb-4 mb-md-0">
-                  <div class="lh-1 size-09">À partir de</div>
-                  <div class="text-inter font-weight-bold lh-1 size-2">25€</div>
-                  <div class="lh-1 size-09">par joueur</div>
-                </div>
-
-                <a href="/killer-party" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span>Je veux en savoir plus</span></a>
-              </div>
-            </div>
-          </div>
+          {% include "component/card_killer_party.html" %}
         </div>
 
         <div class="col-12 col-lg-6 d-flex align-items-stretch">
-          <div class="card deepdark position-relative py-4 px-0 px-sm-4 mb-4">
-            <div class="card-header d-flex flex-column flex-md-row flex-lg-column justify-content-between">
-              <div class="d-flex flex-column mb-3 mb-md-0 mb-lg-3 justify-content-center">
-                <div class="text-inter font-weight-bold lh-1 size-2">La murder dinner</div>
-                <div class="size-15 lh-1">Trahissez-vous autour d'un repas</div>
-              </div>
-              <div class="d-flex flex-column align-items-end justify-content-center">
-                <div>
-                  <span class="lh-24px">5 à 9 joueurs</span>
-                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
-                </div>
-                <div>
-                  <span class="lh-24px">Le temps d'un repas</span>
-                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <picture>
-                <source srcset="/static/img/murder-dinner-375.png" type="image/png">
-                <img loading="lazy" class="img-fluid mx-auto d-block mb-3" src="/static/img/murder-dinner-375.png" alt="Logo de la murder dinner">
-              </picture>
-
-              <p class="size-11 mb-0">Zeus invite de nombreux dieux à sa table. Tous répondent présents. Tous... mais il semblerait que deux places supplémentaires sont occupées. Serait-ce des humains qui se sont faufilés parmis les convives de Zeus ? Le temps du repas permettra peut-être d'éclaircir la vérité. Zeus va sûrement faire entendre sa colère !</p>
-            </div>
-            <div class="card-footer">
-              <div class="d-flex flex-column flex-md-row justify-content-between">
-                <div class="d-flex flex-column align-items-center mb-4 mb-md-0">
-                  <div class="lh-1 size-09">À partir de</div>
-                  <div class="text-inter font-weight-bold lh-1 size-2">20€</div>
-                  <div class="lh-1 size-09">+ prix du repas</div>
-                </div>
-
-                <a href="/murder-dinner" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span>Je veux en savoir plus</span></a>
-              </div>
-            </div>
-          </div>
+          {% include "component/card_murder_dinner.html" %}
         </div>
 
         <div class="col-12 col-lg-6 d-flex align-items-stretch">
-          <div class="card deepdark position-relative py-4 px-0 px-sm-4 mb-4">
-            <div class="card-header d-flex flex-column flex-md-row flex-lg-column justify-content-between">
-              <div class="d-flex flex-column mb-3 mb-md-0 mb-lg-3 justify-content-center">
-                <div class="text-inter font-weight-bold lh-1 size-2">Two rooms</div>
-                <div class="size-15 lh-1">Le loup-garou mais sans mourir</div>
-              </div>
-              <div class="d-flex flex-column align-items-end justify-content-center">
-                <div>
-                  <span class="lh-24px">10 à 30 joueurs</span>
-                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
-                </div>
-                <div>
-                  <span class="lh-24px">90 minutes</span>
-                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <picture>
-                <source srcset="/static/img/two-rooms-375.png" type="image/png">
-                <img loading="lazy" class="img-fluid mx-auto d-block mb-3" src="/static/img/two-rooms-375.png" alt="Logo de two rooms">
-              </picture>
-
-              <p class="size-11 mb-0">Plongez dans cet univers ultime de complots et de bluff. Les assassins et les citoyens s'affrontent dans des décors d'escape game pour se démasquer les uns les autres. Allez-vous sauvez l'empereur ?</p>
-            </div>
-            <div class="card-footer">
-              <div class="d-flex flex-column flex-md-row justify-content-between">
-                <div class="d-flex flex-column align-items-center mb-4 mb-md-0">
-                  <div class="lh-1 size-09">À partir de</div>
-                  <div class="text-inter font-weight-bold lh-1 size-2">12€</div>
-                  <div class="lh-1 size-09">par joueur</div>
-                </div>
-
-                <a href="/two-rooms" class="btn btn-inter p-3 size-12 d-flex flex-column justify-content-center"><span>Je veux en savoir plus</span></a>
-              </div>
-            </div>
-          </div>
+          {% include "component/card_two_rooms.html" %}
         </div>
       </div>
 
