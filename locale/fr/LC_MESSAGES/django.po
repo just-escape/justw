@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 23:14+0200\n"
+"POT-Creation-Date: 2023-06-14 21:45+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -55,15 +55,15 @@ msgstr "Just Escape Lille Logo"
 msgid "Just Escape ⭐⭐⭐⭐⭐"
 msgstr "Just Escape ⭐⭐⭐⭐⭐"
 
-#: pages/templates/base.html:92
+#: pages/templates/base.html:97
 msgid "Notice"
 msgstr "Note"
 
-#: pages/templates/base.html:93
+#: pages/templates/base.html:98
 msgid "Just Escape is being created and will open soon"
 msgstr "Just Escape est en cours de création et ouvrira bientôt™"
 
-#: pages/templates/base.html:111
+#: pages/templates/base.html:116
 msgid ""
 "<a href='tel:+33789053790' class='text-hover-mulberry text-underline'>+33 7 "
 "89 05 37 90</a><br>"
@@ -71,7 +71,7 @@ msgstr ""
 "<span class='text-jaffa'>Tel :</span> <a href='tel:0789053790' class='text-"
 "hover-mulberry text-underline'>07 89 05 37 90</a><br>"
 
-#: pages/templates/base.html:128
+#: pages/templates/base.html:133
 msgid "One of the most immersive live escape games in&nbsp;Lille"
 msgstr "Un des escape games les plus immersifs de&nbsp;Lille"
 
@@ -91,19 +91,19 @@ msgstr "Réserver ⚡"
 msgid "Book an escape room"
 msgstr "Réservez une escape room"
 
-#: pages/templates/booking.html:19
+#: pages/templates/booking.html:26
 msgid "Booking form"
 msgstr "Formulaire de réservation"
 
-#: pages/templates/booking.html:46 pages/templates/pricing.html:27
+#: pages/templates/booking.html:53 pages/templates/pricing.html:27
 msgid "Corporate"
 msgstr "Entreprises"
 
-#: pages/templates/booking.html:49 pages/templates/pricing.html:30
+#: pages/templates/booking.html:56 pages/templates/pricing.html:30
 msgid "It&#39;s tough to motivate your teams in&nbsp;2022."
 msgstr "C&#39;est difficile de motiver ses équipes en&nbsp;2022."
 
-#: pages/templates/booking.html:50 pages/templates/pricing.html:31
+#: pages/templates/booking.html:57 pages/templates/pricing.html:31
 msgid ""
 "Fortunately, we have <a class='text-underline text-hover-mulberry' href='/en/"
 "team-building'>turnkey Team&nbsp;Building packages</a>."
@@ -111,35 +111,34 @@ msgstr ""
 "Heureusement on a des <a class='text-underline text-hover-mulberry' href='/"
 "team-building'>packs Team Building clé&nbsp;en&nbsp;main</a>."
 
-#: pages/templates/booking.html:53 pages/templates/booking.html:77
+#: pages/templates/booking.html:60 pages/templates/booking.html:84
 #: pages/templates/pricing.html:34 pages/templates/pricing.html:58
 msgid "<span class='text-jaffa'>Suggested for:</span>"
 msgstr "<span class='text-jaffa'>Suggéré pour :</span>"
 
-#: pages/templates/booking.html:53 pages/templates/pricing.html:34
+#: pages/templates/booking.html:60 pages/templates/pricing.html:34
 msgid "Seminar, Workshop, Teambuilding"
 msgstr "Séminaire, Workshop, Teambuilding"
 
-#: pages/templates/booking.html:61 pages/templates/home.html:287
-#: pages/templates/home.html:429 pages/templates/pricing.html:42
+#: pages/templates/booking.html:68 pages/templates/home.html:287
+#: pages/templates/pricing.html:42
 msgid "À partir de"
 msgstr ""
 
-#: pages/templates/booking.html:62 pages/templates/home.html:288
-#: pages/templates/home.html:430 pages/templates/home.html:578
-#: pages/templates/pricing.html:43
+#: pages/templates/booking.html:69 pages/templates/home.html:288
+#: pages/templates/home.html:544 pages/templates/pricing.html:43
 msgid "25€"
 msgstr "25€"
 
-#: pages/templates/booking.html:63 pages/templates/pricing.html:44
+#: pages/templates/booking.html:70 pages/templates/pricing.html:44
 msgid "Per person"
 msgstr "Par personne"
 
-#: pages/templates/booking.html:71 pages/templates/pricing.html:52
+#: pages/templates/booking.html:78 pages/templates/pricing.html:52
 msgid "Gift card"
 msgstr "Carte cadeau"
 
-#: pages/templates/booking.html:74 pages/templates/pricing.html:55
+#: pages/templates/booking.html:81 pages/templates/pricing.html:55
 msgid ""
 "Your friends and family will love you with this <a href='/en/carte-cadeau' "
 "class='text-underline text-hover-mulberry'>gift&nbsp;box</a>."
@@ -147,14 +146,33 @@ msgstr ""
 "Vos proches vont vous adorer avec ce <a class='text-underline text-hover-"
 "mulberry' href='/carte-cadeau'>coffret&nbsp;cadeau</a>."
 
-#: pages/templates/booking.html:77 pages/templates/pricing.html:58
+#: pages/templates/booking.html:84 pages/templates/pricing.html:58
 msgid "Birthday, Christmas, Money&nbsp;pot, Lottery"
 msgstr "Anniversaire, Noël, Cagnotte, Tombola"
 
-#: pages/templates/booking.html:165 pages/templates/gift-voucher.html:55
+#: pages/templates/booking.html:172 pages/templates/gift-voucher.html:66
 #: pages/templates/header.html:32
 msgid "Booking"
 msgstr "Je réserve"
+
+#: pages/templates/component/quote_form.html:10
+#: pages/templates/contact.html:143 pages/templates/unsubscribe.html:24
+msgid "An unexpected error happened. Please contact us directly."
+msgstr ""
+"Une erreur inattendue s&#39;est produite. Merci de nous contacter "
+"directement."
+
+#: pages/templates/component/quote_form.html:18
+msgid ""
+"Your application has been transmitted. We will provide an answer as soon as "
+"possible."
+msgstr ""
+"Votre demande a été transmise. Nous vous répondrons dans les plus brefs "
+"délais."
+
+#: pages/templates/component/quote_form.html:194
+msgid "Submit"
+msgstr "Envoyer"
 
 #: pages/templates/conditions.html:5
 msgid "Conditions of Use – Escape Game Lille – Just Escape"
@@ -276,9 +294,9 @@ msgstr ""
 "26 rue d&#39;Arras 59000 Lille – Comment s'y rendre ? 🚶 🚲  🚗 🚉 ✈ 🚀 – +33 7 "
 "89 05 37 90"
 
-#: pages/templates/contact.html:8 pages/templates/contact.html:45
-#: pages/templates/contact.html:203 pages/templates/footer.html:80
-#: pages/templates/header.html:56 pages/templates/home.html:753
+#: pages/templates/contact.html:8 pages/templates/contact.html:55
+#: pages/templates/contact.html:215 pages/templates/footer.html:81
+#: pages/templates/header.html:68 pages/templates/home.html:772
 msgid "Contact"
 msgstr "Contact"
 
@@ -286,15 +304,15 @@ msgstr "Contact"
 msgid "How to contact us"
 msgstr "Contactez-nous"
 
-#: pages/templates/contact.html:27
+#: pages/templates/contact.html:37
 msgid "Opening hours"
 msgstr "Horaires d&#39;ouverture"
 
-#: pages/templates/contact.html:29 pages/templates/home.html:737
+#: pages/templates/contact.html:39 pages/templates/home.html:756
 msgid "<span class='text-jaffa'>Monday-sunday:</span> 10AM-11PM"
 msgstr "<span class='text-jaffa'>Lundi-dimanche :</span> 10h-23h"
 
-#: pages/templates/contact.html:47 pages/templates/home.html:755
+#: pages/templates/contact.html:57 pages/templates/home.html:774
 msgid ""
 "<span class='text-jaffa'>Tel:</span> <a href='tel:+33789053790' class='text-"
 "hover-mulberry text-underline'>+33 7 89 05 37 90</a><br>"
@@ -302,7 +320,7 @@ msgstr ""
 "<span class='text-jaffa'>Tel :</span> <a href='tel:0789053790' class='text-"
 "hover-mulberry text-underline'>07 89 05 37 90</a><br>"
 
-#: pages/templates/contact.html:48 pages/templates/home.html:756
+#: pages/templates/contact.html:58 pages/templates/home.html:775
 msgid ""
 "<span class='text-jaffa'>Mail:</span> c<span hidden></span>ontac<span "
 "hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
@@ -312,23 +330,23 @@ msgstr ""
 "hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
 "hidden></span>.fr"
 
-#: pages/templates/contact.html:64 pages/templates/home.html:772
+#: pages/templates/contact.html:74 pages/templates/home.html:791
 msgid "Address"
 msgstr "Adresse"
 
-#: pages/templates/contact.html:66 pages/templates/home.html:774
+#: pages/templates/contact.html:76 pages/templates/home.html:793
 msgid "26 rue d&#39;Arras<br> 59000 Lille, France"
 msgstr "26 rue d&#39;Arras<br> 59000 Lille"
 
-#: pages/templates/contact.html:88
+#: pages/templates/contact.html:98
 msgid "How to get to the estate in Lille?"
 msgstr "Comment rejoindre le local à&nbsp;Lille&nbsp;?"
 
-#: pages/templates/contact.html:93
+#: pages/templates/contact.html:103
 msgid "By foot"
 msgstr "À pied"
 
-#: pages/templates/contact.html:94
+#: pages/templates/contact.html:104
 msgid ""
 "From the <span class='text-underline'>Republic square</span>, go down the "
 "<span class='text-underline'>boulevard de la Liberté</span>. Enter the <span "
@@ -340,7 +358,7 @@ msgstr ""
 "Entrez dans le <span class='text-underline'>parc Jean-Baptiste Lebas</span> "
 "et continuez de descendre."
 
-#: pages/templates/contact.html:95
+#: pages/templates/contact.html:105
 msgid ""
 "Get out of the park by the exit on the side of <span class='text-"
 "underline'>rue de Solférino</span> and you should see the <span class='text-"
@@ -350,11 +368,11 @@ msgstr ""
 "Solférino</span> et vous devriez voir la <span class='text-underline'>rue "
 "d&#39;Arras</span> à gauche du magasin Carrefour City."
 
-#: pages/templates/contact.html:102
+#: pages/templates/contact.html:112
 msgid "Public transport"
 msgstr "Transports en commun"
 
-#: pages/templates/contact.html:103
+#: pages/templates/contact.html:113
 msgid ""
 "The metro line 2 has two nearby stations: <span class='text-underline'>Lille "
 "Grand Palais</span> and Porte d&#39;Arras."
@@ -362,7 +380,7 @@ msgstr ""
 "La ligne 2 du métro a deux stations à proximité : <span class='text-"
 "underline'>Lille Grand Palais</span> et Porte d&#39;Arras."
 
-#: pages/templates/contact.html:104
+#: pages/templates/contact.html:114
 msgid ""
 "There are 2 close bus stations as well: Douai Arras (on the L14) and JB "
 "Lebas (on the L1)."
@@ -370,11 +388,11 @@ msgstr ""
 "Il y a également 2 stations de bus juste à côté du local : Douai Arras (sur "
 "la L14) et JB Lebas (sur la L1)."
 
-#: pages/templates/contact.html:112
+#: pages/templates/contact.html:122
 msgid "By car"
 msgstr "En voiture"
 
-#: pages/templates/contact.html:113
+#: pages/templates/contact.html:123
 msgid ""
 "In the Rue d'Arras and in the Moulins district (to the south) parking is "
 "<span class='text-underline'>free</span>. Plan ahead to find a place to park."
@@ -383,7 +401,7 @@ msgstr ""
 "<span class='text-underline'>gratuites</span>. Prévoyez un peu d'avance pour "
 "trouver où vous garer."
 
-#: pages/templates/contact.html:114
+#: pages/templates/contact.html:124
 msgid ""
 "In the area of the Jean-Lebas Park and to the north of it, parking is not "
 "free."
@@ -391,26 +409,19 @@ msgstr ""
 "Aux alentours du parc Jean-Lebas et au nord de celui-ci le stationnement est "
 "payant."
 
-#: pages/templates/contact.html:127
+#: pages/templates/contact.html:138
 msgid "Newsletter"
 msgstr "Newsletter"
 
-#: pages/templates/contact.html:132 pages/templates/teambuilding.html:268
-#: pages/templates/unsubscribe.html:24
-msgid "An unexpected error happened. Please contact us directly."
-msgstr ""
-"Une erreur inattendue s&#39;est produite. Merci de nous contacter "
-"directement."
-
-#: pages/templates/contact.html:139 pages/templates/unsubscribe.html:31
+#: pages/templates/contact.html:150 pages/templates/unsubscribe.html:31
 msgid "Thank you and see you soon!"
 msgstr "Merci et à bientôt !"
 
-#: pages/templates/contact.html:142 pages/templates/unsubscribe.html:34
+#: pages/templates/contact.html:153 pages/templates/unsubscribe.html:34
 msgid "marmitron@justescape.fr"
 msgstr "marmitron@justescape.fr"
 
-#: pages/templates/contact.html:144
+#: pages/templates/contact.html:155
 msgid "Subscribe"
 msgstr "Je m&#39;abonne"
 
@@ -431,15 +442,15 @@ msgstr ""
 msgid "[title] Frequently Asked Questions"
 msgstr "Ne perdez pas le Nord avec la FAQ"
 
-#: pages/templates/faq.html:21
+#: pages/templates/faq.html:32
 msgid "General"
 msgstr "Général"
 
-#: pages/templates/faq.html:25
+#: pages/templates/faq.html:36
 msgid "What is a live escape game?"
 msgstr "Qu&#39;est-ce qu&#39;un escape game&nbsp;?"
 
-#: pages/templates/faq.html:30
+#: pages/templates/faq.html:41
 msgid ""
 "Escape games are a team game that consists of locking a group in a room full "
 "of mysteries. You have 60 minutes to solve puzzles with hidden clues."
@@ -448,7 +459,7 @@ msgstr ""
 "dans une salle truffée de mystères. Vous avez 60 minutes pour résoudre des "
 "énigmes à l&#39;aide d&#39;indices cachés."
 
-#: pages/templates/faq.html:33
+#: pages/templates/faq.html:44
 msgid ""
 "Getting out on time will require logic, communication and a good team "
 "spirit. These qualities must be demonstrated in stressful and adrenaline-"
@@ -458,7 +469,7 @@ msgstr ""
 "communication et un bon esprit d&#39;équipe. Il faut faire preuve de ces "
 "qualités dans des situations de stress et pleine d&#39;adrénaline."
 
-#: pages/templates/faq.html:36
+#: pages/templates/faq.html:47
 msgid ""
 "It is ideal to challenge yourself or simply for the pleasure of life-size "
 "immersion."
@@ -466,11 +477,11 @@ msgstr ""
 "C&#39;est idéal pour se mesurer à d&#39;autres groupes ou tout simplement "
 "pour le plaisir de l&#39;immersion grandeur nature."
 
-#: pages/templates/faq.html:45
+#: pages/templates/faq.html:56
 msgid "Are we really locked up?"
 msgstr "Est-on vraiment enfermé&nbsp;?"
 
-#: pages/templates/faq.html:50
+#: pages/templates/faq.html:61
 msgid ""
 "The principle of escape games is to complete all the riddles without leaving "
 "the room."
@@ -478,7 +489,7 @@ msgstr ""
 "Le principe des jeux d&#39;évasion est de compléter toutes les énigmes sans "
 "sortir."
 
-#: pages/templates/faq.html:53
+#: pages/templates/faq.html:64
 msgid ""
 "In case of emergency or uneasiness, it is always possible to evacuate. A "
 "game master monitors you with cameras and microphones."
@@ -486,23 +497,23 @@ msgstr ""
 "En cas d&#39;urgence ou de malaise, il est toujours possible d&#39;évacuer. "
 "Un maître du jeu veille sur vous grâce à des caméras et des micros."
 
-#: pages/templates/faq.html:62
+#: pages/templates/faq.html:73
 msgid "Can your escape rooms be played in english?"
 msgstr "Est-ce que vos escape rooms sont jouables en anglais&nbsp;?"
 
-#: pages/templates/faq.html:67
+#: pages/templates/faq.html:78
 msgid "Not yet, but we are working on it."
 msgstr "Pas pour le moment, mais nous y travaillons."
 
-#: pages/templates/faq.html:114
+#: pages/templates/faq.html:125
 msgid "The booking process"
 msgstr "Pendant la réservation"
 
-#: pages/templates/faq.html:118
+#: pages/templates/faq.html:129
 msgid "Is there an age limit to play?"
 msgstr "Quelle est la limite d&#39;âge pour jouer&nbsp;?"
 
-#: pages/templates/faq.html:123
+#: pages/templates/faq.html:134
 msgid ""
 "We advise you not to come with children under the age of 10. Completing a "
 "puzzle requires focus."
@@ -510,7 +521,7 @@ msgstr ""
 "Nous vous conseillons de ne pas faire participer les enfants en dessous de "
 "10 ans. Compléter une énigme demande de la concentration."
 
-#: pages/templates/faq.html:126
+#: pages/templates/faq.html:137
 msgid ""
 "Groups with children under the age of 15 are accepted with at least one "
 "adult in the team."
@@ -518,11 +529,11 @@ msgstr ""
 "Les groupes constitués d&#39;enfants de moins de 15 ans doivent être "
 "accompagnés par un adulte."
 
-#: pages/templates/faq.html:157
+#: pages/templates/faq.html:168
 msgid "Do you have 2-player suited escape rooms?"
 msgstr "Peut-on jouer à 2 personnes&nbsp;?"
 
-#: pages/templates/faq.html:162
+#: pages/templates/faq.html:173
 msgid ""
 "Yes, Just Escape offers you a scenario specially designed for couples or "
 "duos, both in terms of gameplay and price."
@@ -530,26 +541,26 @@ msgstr ""
 "Oui. Chez Just Escape, on vous offre un scénario spécialement conçu pour les "
 "couples ou les duos, tant au niveau des énigmes qu&#39;au niveau du prix."
 
-#: pages/templates/faq.html:165
+#: pages/templates/faq.html:176
 msgid ""
 "<a href='/en/salles?show=d1#digimiam' class='text-underline text-hover-"
-"mulberry'>The room <span class='font-italic'>The Digimiam</span></a> is "
-"adapted for two players. This room can accomodate up to 4 players."
+"mulberry'>The room <span class='font-italic'>Cybercity</span></a> is adapted "
+"for two players. This room can accomodate up to 4 players."
 msgstr ""
 "Deux joueurs est un nombre adapté pour <a href='/salles?show=d1#digimiam' "
 "class='text-underline text-hover-mulberry'>l&#39;escape room <span "
-"class='font-italic'>Le Digimiam</span></a>. Cette salle peut accueillir "
+"class='font-italic'>Cybercity</span></a>. Cette salle peut accueillir "
 "jusqu&#39;à 4 joueurs."
 
-#: pages/templates/faq.html:168
+#: pages/templates/faq.html:179
 msgid "Other scenarios tolerate 2 players but do not recommend it."
 msgstr "D&#39;autres scénarios tolèrent 2 joueurs mais le déconseillent."
 
-#: pages/templates/faq.html:177
+#: pages/templates/faq.html:188
 msgid "Can we change the size of the group?"
 msgstr "Peut-on changer la taille du groupe ?"
 
-#: pages/templates/faq.html:182
+#: pages/templates/faq.html:193
 msgid ""
 "Yes, if you did not pay the full amount when you booked, you may change your "
 "group until the game begins."
@@ -557,7 +568,7 @@ msgstr ""
 "Oui. Si vous n&#39;avez pas réglé la totalité lors de la réservation, la "
 "taille du groupe peut changer jusqu&#39;au début de la partie."
 
-#: pages/templates/faq.html:185
+#: pages/templates/faq.html:196
 msgid ""
 "If you have already paid for everything, you can replace a player who "
 "canceled at the last minute because the reservation is not nominative."
@@ -565,7 +576,7 @@ msgstr ""
 "Si vous avez déjà tout payé, vous pouvez remplacer un joueur qui a un "
 "empêchement car la réservation n&#39;est pas nominative."
 
-#: pages/templates/faq.html:188
+#: pages/templates/faq.html:199
 msgid ""
 "However, if you have purchased 4 tickets and you come to 3, we will not "
 "refund you. We will offer you a gift certificate for one place."
@@ -574,21 +585,21 @@ msgstr ""
 "ferons aucun remboursement. Nous vous offrirons un chèque cadeau pour une "
 "place."
 
-#: pages/templates/faq.html:224
+#: pages/templates/faq.html:235
 msgid "The escape game session"
 msgstr "Le jour de l&#39;escape game"
 
-#: pages/templates/faq.html:228
+#: pages/templates/faq.html:239
 msgid "At what time should we arrive?"
 msgstr "À quelle heure doit-on arriver&nbsp;?"
 
-#: pages/templates/faq.html:233
+#: pages/templates/faq.html:244
 msgid "As a courtesy to other groups, we ask you to be punctual."
 msgstr ""
 "Par soucis de courtoisie envers les autres groupes, nous vous demandons "
 "d&#39;être ponctuels."
 
-#: pages/templates/faq.html:236
+#: pages/templates/faq.html:247
 msgid ""
 "In case of delay we reserve the right to penalize the duration of your "
 "escape game, or even to cancel it. No claims can be made."
@@ -597,11 +608,11 @@ msgstr ""
 "escape game, voire d&#39;annuler votre session. Aucune réclamation ne pourra "
 "être faite."
 
-#: pages/templates/faq.html:270
+#: pages/templates/faq.html:281
 msgid "Is it true that we are being filmed?"
 msgstr "Est-ce vrai que nous sommes filmés&nbsp;?"
 
-#: pages/templates/faq.html:275
+#: pages/templates/faq.html:286
 msgid ""
 "Cameras and microphones placed in rooms will follow you throughout the game. "
 "A game master will ensure your safety and progress. He can give you clues to "
@@ -611,11 +622,11 @@ msgstr ""
 "la partie. Un game master veillera à votre sécurité et à votre progression. "
 "Il pourra vous donner des indices pour vous aider."
 
-#: pages/templates/faq.html:284
+#: pages/templates/faq.html:295
 msgid "Where is located Just Escape?"
 msgstr "Où se situe Just Escape&nbsp;?"
 
-#: pages/templates/faq.html:289
+#: pages/templates/faq.html:300
 msgid ""
 "The estate is located at 26 rue d&#39;Arras in Lille, at the crossroads of "
 "rue Solférino and the Jean-Baptiste Lebas square. It is close to the Lille "
@@ -625,7 +636,7 @@ msgstr ""
 "Solférino et du parc Jean-Baptiste Lebas. Il est proche de la station de "
 "métro Lille Grand Palais."
 
-#: pages/templates/faq.html:292
+#: pages/templates/faq.html:303
 msgid ""
 "There are more info on our <a href='/en/contact#venir' class='text-underline "
 "text-hover-mulberry'>contact page</a>."
@@ -633,11 +644,11 @@ msgstr ""
 "Il y a plus d&#39;infos sur notre <a href='/contact#venir' class='text-"
 "underline text-hover-mulberry'>page de contact</a>."
 
-#: pages/templates/faq.html:301
+#: pages/templates/faq.html:312
 msgid "Do I have to prepare to come?"
 msgstr "Dois-je me préparer pour venir&nbsp;?"
 
-#: pages/templates/faq.html:306
+#: pages/templates/faq.html:317
 msgid ""
 "Come as you are. At Just Escape we are here to have fun! You don&#39;t need "
 "to prepare yourself or nor to have prior knowledge to play."
@@ -646,16 +657,16 @@ msgstr ""
 "Vous n&#39;avez ni besoin de vous préparer, ni d&#39;aucune connaissance "
 "préalable pour jouer."
 
-#: pages/templates/faq.html:314
+#: pages/templates/faq.html:325
 msgid "Occasions (Team Building)"
 msgstr "Événements (Team Building)"
 
-#: pages/templates/faq.html:318
+#: pages/templates/faq.html:329
 msgid "Can I organize a birthday, stag&nbsp;/ hen&nbsp;/ bachelor party?"
 msgstr ""
 "Est-ce que je peux organiser un anniversaire&nbsp;/ EVJF&nbsp;/ EVG&nbsp;?"
 
-#: pages/templates/faq.html:323
+#: pages/templates/faq.html:334
 msgid ""
 "We will be happy to welcome you for <a href='/en/tarifs' class='text-"
 "underline text-hover-mulberry'>your bachelor parties and other celebrations "
@@ -665,18 +676,18 @@ msgstr ""
 "underline text-hover-mulberry'>vos enterrements de vie de jeune fille&nbsp;/ "
 "garçon et autres célébrations avec proches</a>."
 
-#: pages/templates/faq.html:326
+#: pages/templates/faq.html:337
 msgid ""
 "After the game, we will invite you to the reception room to spend some time."
 msgstr ""
 "Après la partie, nous vous inviterons dans la salle de réception pour passer "
 "un moment."
 
-#: pages/templates/faq.html:335
+#: pages/templates/faq.html:346
 msgid "Do you have special rates for companies?"
 msgstr "Avez-vous des tarifs pour les entreprises&nbsp;/ BDE&nbsp;?"
 
-#: pages/templates/faq.html:340
+#: pages/templates/faq.html:351
 msgid ""
 "Yes, we offer additional services for <a href='/en/team-building' "
 "class='text-underline text-hover-mulberry'>your team building events</a>."
@@ -685,7 +696,7 @@ msgstr ""
 "team-building' class='text-underline text-hover-mulberry'>vos événements "
 "team building</a>."
 
-#: pages/templates/faq.html:343
+#: pages/templates/faq.html:354
 msgid ""
 "Contact us if you wish to make available advantageous rates for your "
 "employees."
@@ -693,23 +704,23 @@ msgstr ""
 "Contactez-nous si vous souhaitez mettre à disposition des tarifications "
 "avantageuses à titre privé pour vos collaborateurs (CE, BDE)."
 
-#: pages/templates/faq.html:352
+#: pages/templates/faq.html:363
 msgid "How many players can play?"
 msgstr "Jusqu&#39;à combien peut-on jouer&nbsp;?"
 
-#: pages/templates/faq.html:357
+#: pages/templates/faq.html:368
 msgid ""
 "<a href='/en/salles?show=d1#digimiam' class='text-underline text-hover-"
-"mulberry'>The escape room <span class='font-italic'>The Digimiam</span></a> "
-"can accommodate up to 4 players. As this room is duplicated, you can play up "
-"to 8 simultaneously."
+"mulberry'>The escape room <span class='font-italic'>Cybercity</span></a> can "
+"accommodate up to 4 players. As this room is duplicated, you can play up to "
+"8 simultaneously."
 msgstr ""
 "<a href='/salles?show=d1#digimiam' class='text-underline text-hover-"
-"mulberry'>L&#39;escape room <span class='font-italic'>Le Digimiam</span></a> "
+"mulberry'>L&#39;escape room <span class='font-italic'>Cybercity</span></a> "
 "accueille jusqu&#39;à 4 joueurs. Cette salle étant dupliquée, vous pouvez "
 "jouer jusqu&#39;à 8 en simultané."
 
-#: pages/templates/faq.html:360
+#: pages/templates/faq.html:371
 msgid ""
 "If there are more of you (up to 16), one group will play the room while the "
 "others play board games in the reception area."
@@ -718,7 +729,7 @@ msgstr ""
 "pendant que les autres jouent à des jeux de société dans la salle de "
 "réception."
 
-#: pages/templates/faq.html:363
+#: pages/templates/faq.html:374
 msgid ""
 "We invite companies to fill in <a href='/en/team-building#devis' class='text-"
 "underline text-hover-mulberry'>the quote form</a>."
@@ -727,11 +738,11 @@ msgstr ""
 "building#devis' class='text-underline text-hover-mulberry'>le formulaire de "
 "devis</a>."
 
-#: pages/templates/faq.html:391
+#: pages/templates/faq.html:402
 msgid "How to use gift cards?"
 msgstr "Comment utiliser les cartes cadeau&nbsp;?"
 
-#: pages/templates/faq.html:396
+#: pages/templates/faq.html:407
 msgid ""
 "The <a href='/en/carte-cadeau' class='text-underline text-hover-"
 "mulberry'>gift card</a> can be used during the <a href='/en/reserver' "
@@ -741,13 +752,13 @@ msgstr ""
 "cadeau</a> est utilisable durant la <a href='/reserver' class='text-"
 "underline text-hover-mulberry'>réservation en ligne</a>."
 
-#: pages/templates/faq.html:399
+#: pages/templates/faq.html:410
 msgid "A gift voucher is only valid for one year. Hurry up and come and play!"
 msgstr ""
 "Un bon cadeau n&#39;est valable qu&#39;un an. Dépêchez-vous de venir "
 "jouer&nbsp;!"
 
-#: pages/templates/faq.html:469
+#: pages/templates/faq.html:480
 msgid "Frequently Asked Questions"
 msgstr "Foire Aux Questions"
 
@@ -810,7 +821,7 @@ msgstr "Escape Game Lille – 2 to 50 players"
 msgid "Entreprises"
 msgstr ""
 
-#: pages/templates/footer.html:58 pages/templates/home.html:622
+#: pages/templates/footer.html:58 pages/templates/home.html:588
 msgid "Teambuilding"
 msgstr ""
 
@@ -831,7 +842,7 @@ msgid "Afterwork"
 msgstr ""
 
 #: pages/templates/footer.html:63
-msgid "CE"
+msgid "Salle de réunion"
 msgstr ""
 
 #: pages/templates/footer.html:64
@@ -843,46 +854,52 @@ msgid "Découvrir"
 msgstr ""
 
 #: pages/templates/footer.html:70 pages/templates/header.html:37
-#: pages/templates/header.html:141
+#: pages/templates/header.html:198
 msgid "Murder party"
 msgstr ""
 
-#: pages/templates/footer.html:71 pages/templates/home.html:604
+#: pages/templates/footer.html:71
+msgid "Qu'est-ce qu'une murder party ?"
+msgstr ""
+
+#: pages/templates/footer.html:72 pages/templates/gift-voucher.html:22
+#: pages/templates/header.html:62 pages/templates/header.html:155
+#: pages/templates/home.html:570
 msgid "Carte cadeau"
 msgstr ""
 
-#: pages/templates/footer.html:72
+#: pages/templates/footer.html:73
 msgid "Partners"
 msgstr "Partenaires"
 
-#: pages/templates/footer.html:73 pages/templates/header.html:59
+#: pages/templates/footer.html:74 pages/templates/header.html:71
 msgid "Blog"
 msgstr "Blog"
 
-#: pages/templates/footer.html:74
+#: pages/templates/footer.html:75
 #, fuzzy
 #| msgid "Where is located Just Escape?"
 msgid "La création de Just Escape"
 msgstr "Où se situe Just Escape&nbsp;?"
 
-#: pages/templates/footer.html:77
+#: pages/templates/footer.html:78
 msgid "Pratique"
 msgstr ""
 
-#: pages/templates/footer.html:79 pages/templates/header.html:53
+#: pages/templates/footer.html:80 pages/templates/header.html:65
 msgid "FAQ"
 msgstr "FAQ"
 
-#: pages/templates/footer.html:81 pages/templates/pricing.html:8
+#: pages/templates/footer.html:82 pages/templates/pricing.html:8
 #: pages/templates/pricing.html:215
 msgid "Pricing"
 msgstr "Tarifs"
 
-#: pages/templates/footer.html:82
+#: pages/templates/footer.html:83
 msgid "Terms"
 msgstr "CGV"
 
-#: pages/templates/footer.html:83
+#: pages/templates/footer.html:84
 msgid "Conditions"
 msgstr "CGU"
 
@@ -906,11 +923,11 @@ msgstr "Vos amis et votre famille vont vous adorer avec cette carte cadeau 😍"
 msgid "Offer a gift card"
 msgstr "Offrir une carte cadeau"
 
-#: pages/templates/gift-voucher.html:21 pages/templates/home.html:613
+#: pages/templates/gift-voucher.html:32 pages/templates/home.html:579
 msgid "Videos are not supported by this browser"
 msgstr "Les vidéos ne sont pas supportées par ce navigateur"
 
-#: pages/templates/gift-voucher.html:61
+#: pages/templates/gift-voucher.html:72
 msgid "Gift voucher"
 msgstr "Carte cadeau"
 
@@ -918,36 +935,70 @@ msgstr "Carte cadeau"
 msgid "Escape Game Lille"
 msgstr "Escape Game Lille"
 
-#: pages/templates/header.html:29 pages/templates/header.html:125
+#: pages/templates/header.html:29 pages/templates/header.html:174
 msgid "Escape rooms"
 msgstr "Escape rooms"
 
-#: pages/templates/header.html:40 pages/templates/header.html:149
-#: pages/templates/teambuilding.html:504
+#: pages/templates/header.html:40 pages/templates/header.html:150
+#: pages/templates/header.html:206 pages/templates/teambuilding.html:304
 msgid "Team Building"
 msgstr "Team Building"
 
-#: pages/templates/header.html:68 pages/templates/header.html:99
+#: pages/templates/header.html:53
+msgid "EVJF"
+msgstr ""
+
+#: pages/templates/header.html:56
+msgid "EVG"
+msgstr ""
+
+#: pages/templates/header.html:59
+#, fuzzy
+#| msgid "Escape Game Lille"
+msgid "Anniversaire"
+msgstr "Escape Game Lille"
+
+#: pages/templates/header.html:80 pages/templates/header.html:111
 msgid "EN"
 msgstr "EN"
 
-#: pages/templates/header.html:68 pages/templates/header.html:99
-#: pages/templates/home.html:412 pages/templates/room.html:214
+#: pages/templates/header.html:80 pages/templates/header.html:111
 msgid "FR"
 msgstr "FR"
 
-#: pages/templates/header.html:108
+#: pages/templates/header.html:120
 msgid "tel:0789053790"
 msgstr ""
 
-#: pages/templates/header.html:110
+#: pages/templates/header.html:122
 msgid "07 89 05 37 90"
 msgstr ""
 
-#: pages/templates/header.html:133 pages/templates/pricing.html:109
-#: pages/templates/room.html:104
+#: pages/templates/header.html:135
+msgid "Activités EVJF"
+msgstr ""
+
+#: pages/templates/header.html:140
+msgid "Activités EVG"
+msgstr ""
+
+#: pages/templates/header.html:145
+msgid "Activités Anniversaire"
+msgstr ""
+
+#: pages/templates/header.html:160 pages/templates/home.html:37
+#: pages/templates/home.html:292 pages/templates/home.html:916
+msgid "Je réserve une séance"
+msgstr ""
+
+#: pages/templates/header.html:182 pages/templates/pricing.html:109
+#: pages/templates/room.html:116
 msgid "Book now"
 msgstr "Je réserve"
+
+#: pages/templates/header.html:190
+msgid "Menu"
+msgstr ""
 
 #: pages/templates/home.html:7
 msgid "Escape Game Lille – Just Escape – De 2 à 50 joueurs"
@@ -977,11 +1028,6 @@ msgstr ""
 
 #: pages/templates/home.html:35
 msgid "nouvelle génération"
-msgstr ""
-
-#: pages/templates/home.html:37 pages/templates/home.html:292
-#: pages/templates/home.html:897
-msgid "Je réserve une séance"
 msgstr ""
 
 #: pages/templates/home.html:52
@@ -1137,27 +1183,27 @@ msgstr ""
 msgid "Découvrez les <strong>scénarios</strong>"
 msgstr ""
 
-#: pages/templates/home.html:208 pages/templates/room.html:22
-msgid "Le Digimiam"
+#: pages/templates/home.html:208 pages/templates/room.html:34
+msgid "Cybercity"
 msgstr ""
 
-#: pages/templates/home.html:209 pages/templates/room.html:23
-msgid "Estaminet cybernétique"
+#: pages/templates/home.html:209 pages/templates/room.html:35
+msgid "Restaurant du futur"
 msgstr ""
 
-#: pages/templates/home.html:213 pages/templates/room.html:27
+#: pages/templates/home.html:213 pages/templates/room.html:39
 msgid "2 à 10 joueurs (sur 2 salles)"
 msgstr ""
 
-#: pages/templates/home.html:217 pages/templates/room.html:31
+#: pages/templates/home.html:217 pages/templates/room.html:43
 msgid "60 minutes"
 msgstr ""
 
-#: pages/templates/home.html:221 pages/templates/room.html:35
+#: pages/templates/home.html:221 pages/templates/room.html:47
 msgid "FR / EN"
 msgstr ""
 
-#: pages/templates/home.html:241 pages/templates/room.html:143
+#: pages/templates/home.html:241 pages/templates/room.html:155
 msgid "Une famille de trois joueurs viennent de débuter l'aventure"
 msgstr ""
 
@@ -1165,15 +1211,15 @@ msgstr ""
 msgid "Deux personnes en train de résoudre une énigme"
 msgstr ""
 
-#: pages/templates/home.html:255 pages/templates/room.html:150
+#: pages/templates/home.html:255 pages/templates/room.html:162
 msgid "Vue de la salle avec ses décors immersifs"
 msgstr ""
 
-#: pages/templates/home.html:262 pages/templates/room.html:157
+#: pages/templates/home.html:262 pages/templates/room.html:169
 msgid "Un agent en pleine fouille et réflexion"
 msgstr ""
 
-#: pages/templates/home.html:269 pages/templates/room.html:164
+#: pages/templates/home.html:269 pages/templates/room.html:176
 msgid "Un laser met en difficulté l'équipe"
 msgstr ""
 
@@ -1193,7 +1239,7 @@ msgid ""
 "emblématique de la culture flamande&nbsp;?"
 msgstr ""
 
-#: pages/templates/home.html:289 pages/templates/home.html:431
+#: pages/templates/home.html:289
 msgid "par joueur"
 msgstr ""
 
@@ -1271,20 +1317,20 @@ msgid ""
 "sont les groupes dans lesquels il y a le plus de cohésion. <strong>Les "
 "parents et les enfants</strong> apportent toujours quelque chose de "
 "différent pour <strong>résoudre les énigmes</strong>. L'ambiance futuriste "
-"du Digimiam plait beaucoup à la jeune génération. Tandis que les références "
+"de Cybercity plait beaucoup à la jeune génération. Tandis que les références "
 "à la culture flamande amusent les personnes plus âgées."
 msgstr ""
 
 #: pages/templates/home.html:377
 msgid ""
 "Vous êtes un <strong>couple et habitué aux jeux d'évasion ou jeux de "
-"logique</strong> ? C'est l'occasion de tester à 2 ! Notre salle le Digimiam "
-"a été spécialement pensée pour être jouée à <strong>2 joueurs</strong>. À 2 "
+"logique</strong> ? C'est l'occasion de tester à 2 ! Notre salle Cybercity a "
+"été spécialement pensée pour être jouée à <strong>2 joueurs</strong>. À 2 "
 "personnes dans une salle, c'est forcément un peu <strong>plus difficile</"
 "strong> !"
 msgstr ""
 
-#: pages/templates/home.html:388 pages/templates/room.html:191
+#: pages/templates/home.html:388
 msgid "Découvrez aussi nos scénarios de murder party"
 msgstr ""
 
@@ -1292,57 +1338,11 @@ msgstr ""
 msgid "Une activité complètement <strong>insolite</strong>"
 msgstr ""
 
-#: pages/templates/home.html:396 pages/templates/room.html:198
-msgid "Nouveau"
-msgstr ""
-
-#: pages/templates/home.html:399 pages/templates/room.html:201
-msgid "Le RedRock Saloon"
-msgstr ""
-
-#: pages/templates/home.html:400 pages/templates/room.html:202
-msgid "Village western"
-msgstr ""
-
-#: pages/templates/home.html:404 pages/templates/room.html:206
-msgid "10 à 25 joueurs"
-msgstr ""
-
-#: pages/templates/home.html:408 pages/templates/room.html:210
-msgid "3 heures"
-msgstr ""
-
-#: pages/templates/home.html:421 pages/templates/room.html:223
-msgid "Des personnages sont dans une intrigue de murder party"
-msgstr ""
-
-#: pages/templates/home.html:424
-msgid ""
-"Un soir de printemps 1884, sur la côte ouest, les habitants de Silver Town "
-"se préparent à célébrer l'anniversaire de la ville. Mais les apparences sont "
-"trompeuses. Entre le shérif, le juge, les filles du saloon et les "
-"sympathiques indiens, tout le monde n'est pas là pour faire la fête. La "
-"présence d'étrangers, les vieux conflits de terre et les jeux de cartes "
-"douteux forment une atmosphère tendue..."
-msgstr ""
-
-#: pages/templates/home.html:434 pages/templates/room.html:229
-msgid "Je veux en savoir plus"
-msgstr ""
-
-#: pages/templates/home.html:438
-msgid ""
-"<span class='text-jaffa'>Vous êtes un petit groupe ?</span> <a href='/murder-"
-"party#inscription' class='text-underline text-hover-mulberry'>Inscrivez-vous "
-"sur liste d'attente</a> ! Vous serez invité à des sessions ouvertes pour "
-"encore plus de fun en rencontrant de nouvelles personnes."
-msgstr ""
-
-#: pages/templates/home.html:450
+#: pages/templates/home.html:416
 msgid "<strong>Qu'est-ce qu'une murder party ?</strong>"
 msgstr ""
 
-#: pages/templates/home.html:455
+#: pages/templates/home.html:421
 msgid ""
 "<strong>Une murder party est une histoire rocambolesque</strong> qui vous "
 "plonge dans une intrigue à démêler. Le temps d'une soirée, chaque "
@@ -1350,187 +1350,187 @@ msgid ""
 "traits de caractère et ses propres objectifs</strong>."
 msgstr ""
 
-#: pages/templates/home.html:458
+#: pages/templates/home.html:424
 msgid ""
 "La murder party est une activité fun, ludique et insolite qui permet à des "
 "grands groupes de joueurs de se découvrir autrement et de <strong>partager "
 "un moment de complicité</strong>."
 msgstr ""
 
-#: pages/templates/home.html:461
+#: pages/templates/home.html:427
 msgid ""
 "<strong>Les scénarios de Just Escape sont accessibles pour tout le monde.</"
 "strong>"
 msgstr ""
 
-#: pages/templates/home.html:471
+#: pages/templates/home.html:437
 msgid "Est-ce que je peux m'inscrire avec un petit groupe ?"
 msgstr ""
 
-#: pages/templates/home.html:476
+#: pages/templates/home.html:442
 msgid "Oui !"
 msgstr ""
 
-#: pages/templates/home.html:479
+#: pages/templates/home.html:445
 msgid ""
 "Inscrivez chaque personne qui souhaite participer sur la liste d'attente. "
 "Vous recevrez des invitations pour participer à nos sessions ouvertes."
 msgstr ""
 
-#: pages/templates/home.html:482
+#: pages/templates/home.html:448
 msgid ""
 "Les sessions ouvertes sont idéales pour <strong>rencontrer des nouvelles "
 "personnes</strong> et s'amuser."
 msgstr ""
 
-#: pages/templates/home.html:492
+#: pages/templates/home.html:458
 msgid "À partir de quel âge peut-on jouer à une murder party ?"
 msgstr ""
 
-#: pages/templates/home.html:497
+#: pages/templates/home.html:463
 msgid "Nous demandons à tous les participants d'être âgés de 16 ans minimum."
 msgstr ""
 
-#: pages/templates/home.html:516
+#: pages/templates/home.html:482
 msgid "Les avis des joueurs : ce qu'ils pensent de Just Escape"
 msgstr ""
 
-#: pages/templates/home.html:535
+#: pages/templates/home.html:501
 msgid ""
 "Comment offrir un <strong>escape game</strong> ? Avez-vous des "
 "<strong>cartes cadeau ?</strong>"
 msgstr ""
 
-#: pages/templates/home.html:540
+#: pages/templates/home.html:506
 msgid ""
 "Vous pouvez <a class='text-underline text-hover-mulberry' href='/carte-"
 "cadeau'>offrir un escape game grâce à la carte cadeau</a> à un proche."
 msgstr ""
 
-#: pages/templates/home.html:543
+#: pages/templates/home.html:509
 msgid ""
 "Vous commandez votre bon directement en ligne, pour une mission selon le "
 "nombre de joueurs souhaité."
 msgstr ""
 
-#: pages/templates/home.html:546
+#: pages/templates/home.html:512
 msgid ""
 "Vous recevez alors un email de confirmation avec votre code de réservation. "
 "Vous pouvez également recevoir par courrier une carte aux reflets "
 "métalliques dorés."
 msgstr ""
 
-#: pages/templates/home.html:549
+#: pages/templates/home.html:515
 msgid ""
 "Le titulaire de la <strong>carte cadeau</strong> peut compléter son bon pour "
 "<strong>inviter des détectives supplémentaires</strong>. Le bon est valable "
 "un an pour une partie."
 msgstr ""
 
-#: pages/templates/home.html:567
+#: pages/templates/home.html:533
 msgid "Combien coûte un escape game&nbsp;?"
 msgstr ""
 
-#: pages/templates/home.html:568
+#: pages/templates/home.html:534
 msgid "Découvrez les tarifs de Just Escape"
 msgstr ""
 
-#: pages/templates/home.html:577
+#: pages/templates/home.html:543
 msgid "À partir de "
 msgstr ""
 
-#: pages/templates/home.html:579
+#: pages/templates/home.html:545
 msgid " par joueur"
 msgstr ""
 
-#: pages/templates/home.html:582
+#: pages/templates/home.html:548
 msgid ""
 "Les <strong>escape games</strong> sont une sortie à faire <strong>en famille "
 "avec les enfants, entre amis ou en couple</strong>."
 msgstr ""
 
-#: pages/templates/home.html:585
+#: pages/templates/home.html:551
 msgid ""
 "Le scénario peut être <strong>joué à deux personnes</strong> à prix "
 "abordable."
 msgstr ""
 
-#: pages/templates/home.html:588
+#: pages/templates/home.html:554
 msgid ""
 "Vous organisez un événement comme un <strong>anniversaire, un EVG ou un "
 "EVJF&nbsp;</strong>? Après la partie, vous pourrez rester gratuitement dans "
 "les canapés de la <strong>salle de réception&nbsp;</strong>!"
 msgstr ""
 
-#: pages/templates/home.html:595
+#: pages/templates/home.html:561
 msgid "Salle avec des jeux de société, des tables et des canapés"
 msgstr ""
 
-#: pages/templates/home.html:597
+#: pages/templates/home.html:563
 msgid "Je regarde les horaires"
 msgstr ""
 
-#: pages/templates/home.html:605
+#: pages/templates/home.html:571
 msgid "Vous ne savez jamais quoi offrir&nbsp;?"
 msgstr ""
 
-#: pages/templates/home.html:606
+#: pages/templates/home.html:572
 msgid "Que diriez-vous d'un bon cadeau original et unique en son genre&nbsp;?"
 msgstr ""
 
-#: pages/templates/home.html:607
+#: pages/templates/home.html:573
 msgid ""
 "Vos proches vont adorer passer noël ou leur anniversaire avec vous&nbsp;!"
 msgstr ""
 
-#: pages/templates/home.html:608
+#: pages/templates/home.html:574
 msgid ""
 "Vous organisez une tombola ou une cagnotte ? Demandez à en recevoir pour "
 "servir de lot."
 msgstr ""
 
-#: pages/templates/home.html:615
+#: pages/templates/home.html:581
 msgid "Je veux une <strong>carte cadeau</strong>"
 msgstr ""
 
-#: pages/templates/home.html:623
+#: pages/templates/home.html:589
 msgid "Formation, séminaire, atelier, journée d'étude"
 msgstr ""
 
-#: pages/templates/home.html:624
+#: pages/templates/home.html:590
 msgid ""
 "Le <strong>live escape game</strong> combine le travail d'équipe, la "
 "communication et la logique. C'est une excellente occasion de "
 "<strong>renforcer la cohésion d'un groupe</strong>."
 msgstr ""
 
-#: pages/templates/home.html:625
+#: pages/templates/home.html:591
 msgid ""
 "Découvrez des <strong>solutions clé en main pour team building</strong> : "
 "<strong>salle de séminaire</strong>, apéritif dinatoire, etc."
 msgstr ""
 
-#: pages/templates/home.html:626
+#: pages/templates/home.html:592
 msgid ""
 "Choisissez la formule qu'il vous faut, que vous soyez 2 personnes ou jusqu'à "
 "50 collaborateurs."
 msgstr ""
 
-#: pages/templates/home.html:632 pages/templates/teambuilding.html:104
+#: pages/templates/home.html:598 pages/templates/teambuilding.html:104
 msgid "Team building pour entreprise dans un escape game"
 msgstr ""
 
-#: pages/templates/home.html:634
+#: pages/templates/home.html:600
 msgid "J'organise un <strong>team building</strong>"
 msgstr ""
 
-#: pages/templates/home.html:677
+#: pages/templates/home.html:696
 msgid ""
 "Peut-on organiser <strong>un anniversaire, un EVJF ou un EVG</strong> dans "
 "vos <strong>escape rooms</strong> ?"
 msgstr ""
 
-#: pages/templates/home.html:682
+#: pages/templates/home.html:701
 msgid ""
 "Notre équipe se fera un plaisir de vous accueillir pour votre "
 "<strong>anniversaire</strong>, <strong>un enterrement de vie de jeune fille</"
@@ -1538,116 +1538,116 @@ msgid ""
 "autre célébration avec vos proches."
 msgstr ""
 
-#: pages/templates/home.html:685
+#: pages/templates/home.html:704
 msgid ""
 "Après votre partie, nous vous invitons à passer un bon moment tous ensemble "
 "dans notre <strong>salle de réception</strong>."
 msgstr ""
 
-#: pages/templates/home.html:695
+#: pages/templates/home.html:714
 msgid "Y a-t-il des tarifs spéciaux pour les entreprises ?"
 msgstr ""
 
-#: pages/templates/home.html:700
+#: pages/templates/home.html:719
 msgid ""
 "Oui, nous proposons des prestations spéciales pour les sociétés et leurs "
 "événements."
 msgstr ""
 
-#: pages/templates/home.html:703
+#: pages/templates/home.html:722
 msgid ""
 "Pour les activités de <strong>team building des entreprises ou les BDE</"
 "strong>, nous proposons un <a class='text-underline text-hover-mulberry' "
 "href='/team-building#devis'>formulaire de devis</a>."
 msgstr ""
 
-#: pages/templates/home.html:706
+#: pages/templates/home.html:725
 msgid ""
 "Vous pouvez également nous contacter si vous voulez faire profiter vos "
 "collaborateurs de tarifs préférentiels à titre privé, dans le cadre de votre "
 "CE."
 msgstr ""
 
-#: pages/templates/home.html:721
+#: pages/templates/home.html:740
 msgid "Comment rejoindre le centre à&nbsp;Lille&nbsp;?"
 msgstr ""
 
-#: pages/templates/home.html:735
+#: pages/templates/home.html:754
 msgid "Horaires d'ouverture"
 msgstr ""
 
-#: pages/templates/home.html:789
+#: pages/templates/home.html:808
 msgid "Où se situe <strong>Just Escape</strong> ?"
 msgstr ""
 
-#: pages/templates/home.html:794
+#: pages/templates/home.html:813
 msgid ""
 "Notre local d'<strong>escape game à Lille</strong> se situe au 26 rue "
 "d'Arras."
 msgstr ""
 
-#: pages/templates/home.html:797
+#: pages/templates/home.html:816
 msgid ""
 "Notre local se situe au croisement de la rue Solférino et du parc Jean-"
 "Baptiste Lebas."
 msgstr ""
 
-#: pages/templates/home.html:800
+#: pages/templates/home.html:819
 msgid ""
 "Si vous venez en transports en commun, la station de métro Lille Grand "
 "Palais est la plus proche."
 msgstr ""
 
-#: pages/templates/home.html:810
+#: pages/templates/home.html:829
 msgid "Comment se préparer à votre <strong>escape game à Lille</strong> ?"
 msgstr ""
 
-#: pages/templates/home.html:815
+#: pages/templates/home.html:834
 msgid ""
 "Venez simplement avec bonne humeur ! Nos <strong>escape games</strong> sont "
 "conçus pour vous faire passer un bon moment."
 msgstr ""
 
-#: pages/templates/home.html:818
+#: pages/templates/home.html:837
 msgid ""
 "Vous n'avez besoin d'aucune préparation particulière ni de connaissance "
 "préalable pour pouvoir participer."
 msgstr ""
 
-#: pages/templates/home.html:828
+#: pages/templates/home.html:847
 msgid "Peut-on modifier sa réservation ?"
 msgstr ""
 
-#: pages/templates/home.html:833
+#: pages/templates/home.html:852
 msgid ""
 "Tant que vous n'avez pas réglé la totalité de la réservation, vous pouvez "
 "modifier la taille du groupe, et ce, jusqu'au début de la partie."
 msgstr ""
 
-#: pages/templates/home.html:836
+#: pages/templates/home.html:855
 msgid ""
 "Si vous avez déjà payé la réservation dans sa totalité, vous pouvez toujours "
 "remplacer un joueur par un autre. La réservation n'est pas nominative."
 msgstr ""
 
-#: pages/templates/home.html:839
+#: pages/templates/home.html:858
 msgid ""
 "En revanche, si vous réservez 4 places et ne venez qu'à 3 joueurs, nous ne "
 "pourrons pas vous rembourser. Nous vous proposerons un chèque cadeau valable "
 "pour une place."
 msgstr ""
 
-#: pages/templates/home.html:849
+#: pages/templates/home.html:868
 msgid "Comment faire si je n'ai pas reçu d'email de confirmation ?"
 msgstr ""
 
-#: pages/templates/home.html:854
+#: pages/templates/home.html:873
 msgid ""
 "Pas de panique ! L'envoi de l'email de confirmation peut prendre quelques "
 "minutes."
 msgstr ""
 
-#: pages/templates/home.html:857
+#: pages/templates/home.html:876
 msgid ""
 "Pensez à bien vérifier vos spams, ou courriers indésirables. Si l'adresse "
 "email associée à la réservation est erronnée, nous vous invitons à <a "
@@ -1655,57 +1655,57 @@ msgid ""
 "équipe</a> directement."
 msgstr ""
 
-#: pages/templates/home.html:867
+#: pages/templates/home.html:886
 msgid "Que se passe-t-il en cas de retard ?"
 msgstr ""
 
-#: pages/templates/home.html:872
+#: pages/templates/home.html:891
 msgid ""
 "Pour des raisons d'organisation, présentez-vous à l'heure indiquée dans le "
 "mail de réservation pour jouer votre partie."
 msgstr ""
 
-#: pages/templates/home.html:875
+#: pages/templates/home.html:894
 msgid ""
 "Par souci de respect et de courtoisie envers les autres groupes, soyez "
 "ponctuels."
 msgstr ""
 
-#: pages/templates/home.html:878
+#: pages/templates/home.html:897
 msgid ""
 "Tout retard pourra être réduit de votre temps de jeu. Au delà de 30 minutes "
 "de retard, votre partie peut être annulée, sans possibilité de réclamation, "
 "remboursement ou d'avoir."
 msgstr ""
 
-#: pages/templates/home.html:905
+#: pages/templates/home.html:924
 msgid ""
 "Peut-on participer à un <strong>escape game</strong> quand on est enceinte ?"
 msgstr ""
 
-#: pages/templates/home.html:910
+#: pages/templates/home.html:929
 msgid ""
 "Les femmes enceintes peuvent participer sans problème à notre <strong>escape "
 "game à Lille</strong>."
 msgstr ""
 
-#: pages/templates/home.html:913
+#: pages/templates/home.html:932
 msgid ""
 "Nos jeux sont conçus pour tout le monde, sans élément effrayants ni activité "
 "physique."
 msgstr ""
 
-#: pages/templates/home.html:923
+#: pages/templates/home.html:942
 msgid "Les personnes malentendantes peuvent-elles participer ?"
 msgstr ""
 
-#: pages/templates/home.html:928
+#: pages/templates/home.html:947
 msgid ""
 "Le maître du jeu vous accompagne tout au long de votre partie avec des "
 "indices visuels et sonores."
 msgstr ""
 
-#: pages/templates/home.html:931
+#: pages/templates/home.html:950
 msgid ""
 "Les personnes avec un handicap auditif ou visuel peuvent prendre part à la "
 "mission. Nous vous recommandons d'avoir toujours au moins un joueur qui ne "
@@ -1767,11 +1767,11 @@ msgstr "Salles – Escape Game Lille – Just Escape"
 
 #: pages/templates/room.html:6 pages/templates/room.html:9
 msgid ""
-"Discover The Digimiam, a futuristic estaminet 🍽 🤖 Ideal for an outing with "
+"Discover Cybercity, a futuristic restaurant 🍽 🤖 Ideal for an outing with "
 "friends 😃"
 msgstr ""
-"Découvrez le Digimiam, un estaminet futuriste 🍽 🤖 Idéal pour une sortie "
-"entre amis 😃"
+"Découvrez Cybercity, un estaminet futuriste 🍽 🤖 Idéal pour une sortie entre "
+"amis 😃"
 
 #: pages/templates/room.html:8
 msgid "Escape Rooms"
@@ -1781,48 +1781,48 @@ msgstr "Escape Rooms"
 msgid "Discover the scenarios"
 msgstr "Découvrez les scénarios"
 
-#: pages/templates/room.html:39
+#: pages/templates/room.html:51
 msgid "Difficulté : adaptée à votre groupe"
 msgstr ""
 
-#: pages/templates/room.html:47
+#: pages/templates/room.html:59
 msgid ""
-"What could a futuristic estaminet entirely managed by Artificial "
-"Intelligence look like? This is what you will discover in the Digimiam "
-"(famous address that all the inhabitants of Lille speak about in 2080)."
+"What could a futuristic restaurant entirely managed by Artificial "
+"Intelligence look like? This is what you will discover in Cybercity (famous "
+"place that all the inhabitants of Lille speak about in 2080)."
 msgstr ""
 "À quoi pourrait ressembler un estaminet futuriste entièrement géré par une "
 "Intelligence Artificielle&nbsp;? C&#39;est ce que vous allez découvrir dans "
-"le Digimiam (célèbre adresse que tous les habitants de Lille s&#39;"
-"échangeront en 2080)."
+"Cybercity (célèbre adresse que tous les habitants de Lille s&#39;échangeront "
+"en 2080)."
 
-#: pages/templates/room.html:61 pages/templates/room.html:67
 #: pages/templates/room.html:73 pages/templates/room.html:79
-#: pages/templates/room.html:85
+#: pages/templates/room.html:85 pages/templates/room.html:91
+#: pages/templates/room.html:97
 msgid "Les vidéos ne sont pas supportées par ce navigateur"
 msgstr ""
 
-#: pages/templates/room.html:91 pages/templates/room.html:174
+#: pages/templates/room.html:103 pages/templates/room.html:186
 msgid "Suivant"
 msgstr ""
 
-#: pages/templates/room.html:95
+#: pages/templates/room.html:107 pages/templates/room.html:182
 msgid "Précédent"
 msgstr ""
 
-#: pages/templates/room.html:99
+#: pages/templates/room.html:111
 msgid ""
-"But today the Digimiam needs you. The report indicates that the cooking "
+"But today Cybercity needs you. The report indicates that the cooking "
 "Artificial Intelligence, <span class='font-italic'>Marmitron</span>, would "
 "no longer respond to orders. The customer is urging you and your maintenance "
 "group specialized in AI."
 msgstr ""
-"Mais aujourd&#39;hui le Digimiam a besoin de vous. Le rapport indique que "
+"Mais aujourd&#39;hui Cybercity a besoin de vous. Le rapport indique que "
 "l&#39;Intelligence Artificielle de cuisine, le <span class='font-"
 "italic'>Marmitron</span>, ne répondrait plus aux ordres. Le client vous "
 "presse, vous et votre groupe de maintenance spécialisé en IA."
 
-#: pages/templates/room.html:100
+#: pages/templates/room.html:112
 msgid ""
 "This routine intervention may well become funnier than expected when you "
 "will infiltrate a <span class='text-jaffa'>laser labyrinth</span>, restore "
@@ -1833,35 +1833,23 @@ msgstr ""
 "span>, que vous restaurerez le <span class='text-jaffa'>bras robotiques</"
 "span> et que vous manipulerez les autres modules."
 
-#: pages/templates/room.html:101
+#: pages/templates/room.html:113
 msgid "The scenario is duplicated in 2 rooms."
 msgstr "Le scénario est dupliqué sur deux salles."
 
-#: pages/templates/room.html:111
+#: pages/templates/room.html:123
 msgid "Découvrez l'escape room en photos"
 msgstr ""
 
-#: pages/templates/room.html:129
+#: pages/templates/room.html:141
 msgid "Vue panoramique du réfectoire de la room"
 msgstr ""
 
-#: pages/templates/room.html:136
+#: pages/templates/room.html:148
 msgid "Une énigme difficile demande de la réflexion à une joueuse"
 msgstr ""
 
-#: pages/templates/room.html:170
-msgid "Précéden"
-msgstr ""
-
-#: pages/templates/room.html:225
-msgid ""
-"Un soir de printemps 1884, sur la côte ouest, les habitants de Silver Town "
-"se préparent à célébrer l'anniversaire de la ville. Mais les apparences sont "
-"trompeuses. Entre le shérif, le juge, les filles du saloon et les "
-"sympathiques indiens, tout le monde n'est pas là pour faire la fête."
-msgstr ""
-
-#: pages/templates/room.html:255
+#: pages/templates/room.html:220
 msgid "Rooms"
 msgstr "Salles"
 
@@ -1994,10 +1982,6 @@ msgstr "Linkedin"
 msgid "Map marker"
 msgstr "Repère cartographique"
 
-#: pages/templates/svg/marmitron-head.svg:2
-msgid "The angled head of Marmitron, the Digimiam's chef robot"
-msgstr "La tête inclinée du Marmitron, le robot chef du Digimiam"
-
 #: pages/templates/svg/presentation.svg:2
 msgid ""
 "An animator pointing something on a whiteboard with their finger in the "
@@ -2101,18 +2085,6 @@ msgstr ""
 #: pages/templates/teambuilding.html:125
 msgid "Le centre d'escape game de Lille de Just Escape"
 msgstr ""
-
-#: pages/templates/teambuilding.html:276
-msgid ""
-"Your application has been transmitted. We will provide an answer as soon as "
-"possible."
-msgstr ""
-"Votre demande a été transmise. Nous vous répondrons dans les plus brefs "
-"délais."
-
-#: pages/templates/teambuilding.html:453
-msgid "Submit"
-msgstr "Envoyer"
 
 #: pages/templates/terms.html:5
 msgid "General Terms of Use – Escape Game Lille – Just Escape"
