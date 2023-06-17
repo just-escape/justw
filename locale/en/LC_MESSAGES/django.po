@@ -1001,7 +1001,7 @@ msgid ""
 "une panne mystérieuse. Les néons sont éteints, laissant le Digimiam dans "
 "l'obscurité. Quelque chose d'illégal se passe dans ce restaurant. "
 "Parviendrez-vous à faire la lumière sur cette histoire ?"
-msgstr ""
+msgstr "Immerse yourself in Lille in 2080. Cybercity's culinary AI is deactivated. Another mysterious breakdown. The neon lights are out, leaving the Digimiam in darkness. Something illegal is going on in this restaurant. Will you manage to shed the light on this case?"
 
 #: pages/templates/home.html:188
 msgid "par joueur"
