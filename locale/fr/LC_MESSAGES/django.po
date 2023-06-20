@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-17 10:14+0200\n"
+"POT-Creation-Date: 2023-06-20 23:41+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -91,7 +91,7 @@ msgstr "Réserver ⚡"
 msgid "Book an escape room"
 msgstr "Réservez une escape room"
 
-#: pages/templates/booking.html:26
+#: pages/templates/booking.html:26 pages/templates/room.html:133
 msgid "Booking form"
 msgstr "Formulaire de réservation"
 
@@ -297,6 +297,7 @@ msgstr ""
 #: pages/templates/contact.html:8 pages/templates/contact.html:55
 #: pages/templates/contact.html:215 pages/templates/footer.html:81
 #: pages/templates/header.html:68 pages/templates/home.html:775
+#: pages/templates/room.html:198
 msgid "Contact"
 msgstr "Contact"
 
@@ -854,7 +855,7 @@ msgid "Découvrir"
 msgstr ""
 
 #: pages/templates/footer.html:70 pages/templates/header.html:37
-#: pages/templates/header.html:200
+#: pages/templates/header.html:212
 msgid "Murder party"
 msgstr ""
 
@@ -863,7 +864,7 @@ msgid "Qu'est-ce qu'une murder party ?"
 msgstr ""
 
 #: pages/templates/footer.html:72 pages/templates/gift-voucher.html:22
-#: pages/templates/header.html:62 pages/templates/header.html:155
+#: pages/templates/header.html:62 pages/templates/header.html:167
 #: pages/templates/home.html:469
 msgid "Carte cadeau"
 msgstr ""
@@ -935,12 +936,12 @@ msgstr "Carte cadeau"
 msgid "Escape Game Lille"
 msgstr "Escape Game Lille"
 
-#: pages/templates/header.html:29 pages/templates/header.html:176
+#: pages/templates/header.html:29 pages/templates/header.html:188
 msgid "Escape rooms"
 msgstr "Escape rooms"
 
-#: pages/templates/header.html:40 pages/templates/header.html:150
-#: pages/templates/header.html:208 pages/templates/teambuilding.html:304
+#: pages/templates/header.html:40 pages/templates/header.html:162
+#: pages/templates/header.html:220 pages/templates/teambuilding.html:304
 msgid "Team Building"
 msgstr "Team Building"
 
@@ -958,45 +959,45 @@ msgstr ""
 msgid "Anniversaire"
 msgstr "Escape Game Lille"
 
-#: pages/templates/header.html:80 pages/templates/header.html:111
+#: pages/templates/header.html:80 pages/templates/header.html:119
 msgid "EN"
 msgstr "EN"
 
-#: pages/templates/header.html:80 pages/templates/header.html:111
+#: pages/templates/header.html:80 pages/templates/header.html:119
 msgid "FR"
 msgstr "FR"
 
-#: pages/templates/header.html:120
+#: pages/templates/header.html:132
 msgid "tel:0789053790"
 msgstr ""
 
-#: pages/templates/header.html:122
+#: pages/templates/header.html:134 pages/templates/room.html:200
 msgid "07 89 05 37 90"
 msgstr ""
 
-#: pages/templates/header.html:135
+#: pages/templates/header.html:147
 msgid "Activités EVJF"
 msgstr ""
 
-#: pages/templates/header.html:140
+#: pages/templates/header.html:152
 msgid "Activités EVG"
 msgstr ""
 
-#: pages/templates/header.html:145
+#: pages/templates/header.html:157
 msgid "Activités Anniversaire"
 msgstr ""
 
-#: pages/templates/header.html:161 pages/templates/home.html:37
+#: pages/templates/header.html:173 pages/templates/home.html:37
 #: pages/templates/home.html:191 pages/templates/home.html:919
 msgid "Je réserve une séance"
 msgstr ""
 
-#: pages/templates/header.html:184 pages/templates/pricing.html:109
-#: pages/templates/room.html:116
+#: pages/templates/header.html:196 pages/templates/pricing.html:109
+#: pages/templates/room.html:62
 msgid "Book now"
 msgstr "Je réserve"
 
-#: pages/templates/header.html:192
+#: pages/templates/header.html:204
 msgid "Menu"
 msgstr ""
 
@@ -1075,27 +1076,27 @@ msgstr "Escape room"
 msgid "Découvrez le <strong>scénario</strong>"
 msgstr ""
 
-#: pages/templates/home.html:107
+#: pages/templates/home.html:107 pages/templates/room.html:34
 msgid "Cybercity"
 msgstr ""
 
-#: pages/templates/home.html:108 pages/templates/room.html:35
+#: pages/templates/home.html:108
 msgid "Restaurant du futur"
 msgstr ""
 
-#: pages/templates/home.html:112 pages/templates/room.html:39
+#: pages/templates/home.html:112
 msgid "2 à 10 joueurs (sur 2 salles)"
 msgstr ""
 
-#: pages/templates/home.html:116 pages/templates/room.html:43
+#: pages/templates/home.html:116
 msgid "60 minutes"
 msgstr ""
 
-#: pages/templates/home.html:120 pages/templates/room.html:47
+#: pages/templates/home.html:120
 msgid "FR / EN"
 msgstr ""
 
-#: pages/templates/home.html:140 pages/templates/room.html:155
+#: pages/templates/home.html:140
 msgid "Une famille de trois joueurs viennent de débuter l'aventure"
 msgstr ""
 
@@ -1103,15 +1104,15 @@ msgstr ""
 msgid "Deux personnes en train de résoudre une énigme"
 msgstr ""
 
-#: pages/templates/home.html:154 pages/templates/room.html:162
+#: pages/templates/home.html:154 pages/templates/room.html:123
 msgid "Vue de la salle avec ses décors immersifs"
 msgstr ""
 
-#: pages/templates/home.html:161 pages/templates/room.html:169
+#: pages/templates/home.html:161 pages/templates/room.html:109
 msgid "Un agent en pleine fouille et réflexion"
 msgstr ""
 
-#: pages/templates/home.html:168 pages/templates/room.html:176
+#: pages/templates/home.html:168 pages/templates/room.html:102
 msgid "Un laser met en difficulté l'équipe"
 msgstr ""
 
@@ -1770,90 +1771,111 @@ msgid ""
 "Discover the Digimiam, a futuristic restaurant 🍽 🤖 Ideal for an outing with "
 "friends 😃"
 msgstr ""
-"Découvrez le Digimiam, un estaminet futuriste 🍽 🤖 Idéal pour une sortie entre "
-"amis 😃"
+"Découvrez le Digimiam, un estaminet futuriste 🍽 🤖 Idéal pour une sortie "
+"entre amis 😃"
 
 #: pages/templates/room.html:8
 msgid "Escape Rooms"
 msgstr "Escape Rooms"
 
 #: pages/templates/room.html:11
-msgid "Discover the scenarios"
-msgstr "Découvrez les scénarios"
+#, fuzzy
+#| msgid "Escape Game Lille"
+msgid "Scénario d'escape game à Lille"
+msgstr "Escape Game Lille"
 
-#: pages/templates/room.html:34
-msgid "Le Digimiam"
+#: pages/templates/room.html:35
+msgid "L'escape room dans l'air du temps"
 msgstr ""
 
-#: pages/templates/room.html:51
-msgid "Difficulté : adaptée à votre groupe"
+#: pages/templates/room.html:53
+msgid "Voyage au coeur du futur"
 msgstr ""
 
 #: pages/templates/room.html:59
 msgid ""
-"What could a futuristic restaurant entirely managed by Artificial "
-"Intelligence look like? This is what you will discover in the Digimiam "
-"(famous place that all the inhabitants of Lille speak about in 2080)."
-msgstr ""
-"À quoi pourrait ressembler un estaminet futuriste entièrement géré par une "
-"Intelligence Artificielle&nbsp;? C&#39;est ce que vous allez découvrir dans "
-"le Digimiam (célèbre adresse que tous les habitants de Lille s&#39;échangeront "
-"en 2080)."
-
-#: pages/templates/room.html:73 pages/templates/room.html:79
-#: pages/templates/room.html:85 pages/templates/room.html:91
-#: pages/templates/room.html:97
-msgid "Les vidéos ne sont pas supportées par ce navigateur"
+"Dans la métropole futuriste de Cybercity, le célèbre restaurant Digimiam est "
+"plongé dans le chaos après la défaillance de son IA. En tant qu'ingénieur, "
+"votre mission est de rétablir l'ordre. Explorez Cybercity et sauvez le "
+"restaurant de son destin funeste dans cette aventure captivante."
 msgstr ""
 
-#: pages/templates/room.html:103 pages/templates/room.html:186
-msgid "Suivant"
+#: pages/templates/room.html:73
+msgid "60 minutes dans le futur"
 msgstr ""
 
-#: pages/templates/room.html:107 pages/templates/room.html:182
-msgid "Précédent"
+#: pages/templates/room.html:77
+msgid "2 à 10 joueurs sur 2 salles identiques"
 msgstr ""
 
-#: pages/templates/room.html:111
-msgid ""
-"But today the Digimiam needs you. The report indicates that the cooking "
-"Artificial Intelligence, <span class='font-italic'>Marmitron</span>, would "
-"no longer respond to orders. The customer is urging you and your maintenance "
-"group specialized in AI."
-msgstr ""
-"Mais aujourd&#39;hui le Digimiam a besoin de vous. Le rapport indique que "
-"l&#39;Intelligence Artificielle de cuisine, le <span class='font-"
-"italic'>Marmitron</span>, ne répondrait plus aux ordres. Le client vous "
-"presse, vous et votre groupe de maintenance spécialisé en IA."
-
-#: pages/templates/room.html:112
-msgid ""
-"This routine intervention may well become funnier than expected when you "
-"will infiltrate a <span class='text-jaffa'>laser labyrinth</span>, restore "
-"the <span class='text-jaffa'>robotic arm</span> and manipulate other modules."
-msgstr ""
-"Cette intervention de routine pourrait bien devenir plus amusante que prévue "
-"lorsque vous infiltrerez un <span class='text-jaffa'>labyrinthe laser</"
-"span>, que vous restaurerez le <span class='text-jaffa'>bras robotiques</"
-"span> et que vous manipulerez les autres modules."
-
-#: pages/templates/room.html:113
-msgid "The scenario is duplicated in 2 rooms."
-msgstr "Le scénario est dupliqué sur deux salles."
-
-#: pages/templates/room.html:123
-msgid "Découvrez l'escape room en photos"
+#: pages/templates/room.html:81
+msgid "Difficulté adaptative"
 msgstr ""
 
-#: pages/templates/room.html:141
-msgid "Vue panoramique du réfectoire de la room"
+#: pages/templates/room.html:85
+#, python-format
+msgid "Jouable 100%% en anglais"
 msgstr ""
 
-#: pages/templates/room.html:148
+#: pages/templates/room.html:93
+msgid "Sauvez le Digimiam et repartez avec un cadeau unique"
+msgstr ""
+
+#: pages/templates/room.html:116
 msgid "Une énigme difficile demande de la réflexion à une joueuse"
 msgstr ""
 
-#: pages/templates/room.html:220
+#: pages/templates/room.html:145
+msgid "Une question sur cet escape game à Lille ? Consultez notre FAQ"
+msgstr ""
+
+#: pages/templates/room.html:152
+msgid "Y a-t-il des restrictions d'âge pour participer au jeu ?"
+msgstr ""
+
+#: pages/templates/room.html:157
+msgid ""
+"Le jeu est recommandé pour les joueurs âgés de 15 ans et plus. Les enfants "
+"de moins de 15 ans doivent être accompagnés d'un adulte."
+msgstr ""
+
+#: pages/templates/room.html:167
+msgid "Je suis enceinte, puis-je faire l'escape game ?"
+msgstr ""
+
+#: pages/templates/room.html:172
+msgid ""
+"Nous nous efforçons de rendre notre escape game accessible à tous. Veuillez "
+"nous contacter à l'avance pour discuter de vos besoins spécifiques afin que "
+"nous puissions prendre les dispositions nécessaires."
+msgstr ""
+
+#: pages/templates/room.html:182
+msgid "Est-ce que Just Escape dispose d'un parking ?"
+msgstr ""
+
+#: pages/templates/room.html:187
+msgid ""
+"Malheureusement, nous ne disposons pas d'un parking dédié. Cependant, il y a "
+"généralement des options de stationnement à proximité de notre emplacement. "
+"Nous vous recommandons de vérifier les possibilités de stationnement dans "
+"les environs avant votre visite."
+msgstr ""
+
+#: pages/templates/room.html:195
+msgid ""
+"Pour toute question ou demande d'information supplémentaire, contactez-nous."
+msgstr ""
+
+#: pages/templates/room.html:200
+msgid "Tel :&nbsp;"
+msgstr ""
+
+#: pages/templates/room.html:201
+msgid "Mail :&nbsp;"
+msgstr ""
+
+#: pages/templates/room.html:236
 msgid "Rooms"
 msgstr "Salles"
 
@@ -2710,6 +2732,44 @@ msgid ""
 msgstr ""
 "Si vous avez une demande particulière ou s'il y a quelque chose que nous "
 "pouvons faire pour personnaliser votre expérience"
+
+#~ msgid "Discover the scenarios"
+#~ msgstr "Découvrez les scénarios"
+
+#~ msgid ""
+#~ "What could a futuristic restaurant entirely managed by Artificial "
+#~ "Intelligence look like? This is what you will discover in the Digimiam "
+#~ "(famous place that all the inhabitants of Lille speak about in 2080)."
+#~ msgstr ""
+#~ "À quoi pourrait ressembler un estaminet futuriste entièrement géré par "
+#~ "une Intelligence Artificielle&nbsp;? C&#39;est ce que vous allez "
+#~ "découvrir dans le Digimiam (célèbre adresse que tous les habitants de "
+#~ "Lille s&#39;échangeront en 2080)."
+
+#~ msgid ""
+#~ "But today the Digimiam needs you. The report indicates that the cooking "
+#~ "Artificial Intelligence, <span class='font-italic'>Marmitron</span>, "
+#~ "would no longer respond to orders. The customer is urging you and your "
+#~ "maintenance group specialized in AI."
+#~ msgstr ""
+#~ "Mais aujourd&#39;hui le Digimiam a besoin de vous. Le rapport indique que "
+#~ "l&#39;Intelligence Artificielle de cuisine, le <span class='font-"
+#~ "italic'>Marmitron</span>, ne répondrait plus aux ordres. Le client vous "
+#~ "presse, vous et votre groupe de maintenance spécialisé en IA."
+
+#~ msgid ""
+#~ "This routine intervention may well become funnier than expected when you "
+#~ "will infiltrate a <span class='text-jaffa'>laser labyrinth</span>, "
+#~ "restore the <span class='text-jaffa'>robotic arm</span> and manipulate "
+#~ "other modules."
+#~ msgstr ""
+#~ "Cette intervention de routine pourrait bien devenir plus amusante que "
+#~ "prévue lorsque vous infiltrerez un <span class='text-jaffa'>labyrinthe "
+#~ "laser</span>, que vous restaurerez le <span class='text-jaffa'>bras "
+#~ "robotiques</span> et que vous manipulerez les autres modules."
+
+#~ msgid "The scenario is duplicated in 2 rooms."
+#~ msgstr "Le scénario est dupliqué sur deux salles."
 
 #~ msgid "Follow us on social networks!"
 #~ msgstr "Suivez-nous sur les réseaux sociaux&nbsp;!"
