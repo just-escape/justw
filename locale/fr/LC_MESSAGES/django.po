@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-20 23:41+0200\n"
+"POT-Creation-Date: 2023-06-20 23:56+0200\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -295,7 +295,7 @@ msgstr ""
 "89 05 37 90"
 
 #: pages/templates/contact.html:8 pages/templates/contact.html:55
-#: pages/templates/contact.html:215 pages/templates/footer.html:81
+#: pages/templates/contact.html:215 pages/templates/footer.html:80
 #: pages/templates/header.html:68 pages/templates/home.html:775
 #: pages/templates/room.html:198
 msgid "Contact"
@@ -869,38 +869,34 @@ msgstr ""
 msgid "Carte cadeau"
 msgstr ""
 
-#: pages/templates/footer.html:73
-msgid "Partners"
-msgstr "Partenaires"
-
-#: pages/templates/footer.html:74 pages/templates/header.html:71
+#: pages/templates/footer.html:73 pages/templates/header.html:71
 msgid "Blog"
 msgstr "Blog"
 
-#: pages/templates/footer.html:75
+#: pages/templates/footer.html:74
 #, fuzzy
 #| msgid "Where is located Just Escape?"
 msgid "La création de Just Escape"
 msgstr "Où se situe Just Escape&nbsp;?"
 
-#: pages/templates/footer.html:78
+#: pages/templates/footer.html:77
 msgid "Pratique"
 msgstr ""
 
-#: pages/templates/footer.html:80 pages/templates/header.html:65
+#: pages/templates/footer.html:79 pages/templates/header.html:65
 msgid "FAQ"
 msgstr "FAQ"
 
-#: pages/templates/footer.html:82 pages/templates/pricing.html:8
+#: pages/templates/footer.html:81 pages/templates/pricing.html:8
 #: pages/templates/pricing.html:215
 msgid "Pricing"
 msgstr "Tarifs"
 
-#: pages/templates/footer.html:83
+#: pages/templates/footer.html:82
 msgid "Terms"
 msgstr "CGV"
 
-#: pages/templates/footer.html:84
+#: pages/templates/footer.html:83
 msgid "Conditions"
 msgstr "CGU"
 
@@ -966,6 +962,10 @@ msgstr "EN"
 #: pages/templates/header.html:80 pages/templates/header.html:119
 msgid "FR"
 msgstr "FR"
+
+#: pages/templates/header.html:97 pages/templates/header.html:129
+msgid "Salles climatisées"
+msgstr ""
 
 #: pages/templates/header.html:132
 msgid "tel:0789053790"
@@ -2732,6 +2732,9 @@ msgid ""
 msgstr ""
 "Si vous avez une demande particulière ou s'il y a quelque chose que nous "
 "pouvons faire pour personnaliser votre expérience"
+
+#~ msgid "Partners"
+#~ msgstr "Partenaires"
 
 #~ msgid "Discover the scenarios"
 #~ msgstr "Découvrez les scénarios"

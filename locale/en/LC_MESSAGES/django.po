@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-20 23:51+0200\n"
+"POT-Creation-Date: 2023-06-20 23:55+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -256,7 +256,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/contact.html:8 pages/templates/contact.html:55
-#: pages/templates/contact.html:215 pages/templates/footer.html:81
+#: pages/templates/contact.html:215 pages/templates/footer.html:80
 #: pages/templates/header.html:68 pages/templates/home.html:775
 #: pages/templates/room.html:198
 msgid "Contact"
@@ -728,36 +728,32 @@ msgstr "What is an escape game&nbsp;?"
 msgid "Carte cadeau"
 msgstr "Gift card"
 
-#: pages/templates/footer.html:73
-msgid "Partners"
-msgstr "Partners"
-
-#: pages/templates/footer.html:74 pages/templates/header.html:71
+#: pages/templates/footer.html:73 pages/templates/header.html:71
 msgid "Blog"
 msgstr "Blog"
 
-#: pages/templates/footer.html:75
+#: pages/templates/footer.html:74
 msgid "La création de Just Escape"
 msgstr "The fondation of Just Escape"
 
-#: pages/templates/footer.html:78
+#: pages/templates/footer.html:77
 msgid "Pratique"
 msgstr "Practical"
 
-#: pages/templates/footer.html:80 pages/templates/header.html:65
+#: pages/templates/footer.html:79 pages/templates/header.html:65
 msgid "FAQ"
 msgstr "FAQ"
 
-#: pages/templates/footer.html:82 pages/templates/pricing.html:8
+#: pages/templates/footer.html:81 pages/templates/pricing.html:8
 #: pages/templates/pricing.html:215
 msgid "Pricing"
 msgstr ""
 
-#: pages/templates/footer.html:83
+#: pages/templates/footer.html:82
 msgid "Terms"
 msgstr ""
 
-#: pages/templates/footer.html:84
+#: pages/templates/footer.html:83
 msgid "Conditions"
 msgstr ""
 
@@ -823,6 +819,10 @@ msgstr ""
 #: pages/templates/header.html:80 pages/templates/header.html:119
 msgid "FR"
 msgstr ""
+
+#: pages/templates/header.html:97 pages/templates/header.html:129
+msgid "Salles climatisées"
+msgstr "Air-conditioned rooms"
 
 #: pages/templates/header.html:132
 msgid "tel:0789053790"
@@ -1820,7 +1820,8 @@ msgstr "A difficult puzzle requires a player to think"
 
 #: pages/templates/room.html:145
 msgid "Une question sur cet escape game à Lille ? Consultez notre FAQ"
-msgstr "Do you have a question about this escape game in Lille? Check out our FAQ"
+msgstr ""
+"Do you have a question about this escape game in Lille? Check out our FAQ"
 
 #: pages/templates/room.html:152
 msgid "Y a-t-il des restrictions d'âge pour participer au jeu ?"
@@ -2542,3 +2543,6 @@ msgid ""
 "If you have any request or if there is anything that can help us improve "
 "your experience"
 msgstr ""
+
+#~ msgid "Partners"
+#~ msgstr "Partners"
