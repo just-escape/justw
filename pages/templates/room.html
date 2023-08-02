@@ -32,7 +32,7 @@
             <div class="d-flex flex-column mb-0">
               <span id="digimiam" class="anchor">&nbsp;</span>
               <h2 class="text-jaffa mb-0">{% trans "Cybercity" %}</h2>
-              <div class="text-inter font-weight-bold size-12 mb-2">{% trans "L'escape room dans l'air du temps" %}</div>
+              <div class="text-inter font-weight-bold size-12 mb-2">{% trans "Escape room ambiance <span class='text-mulberry'>Star Wars</span>" %}</div>
             </div>
           </div>
         </div>
@@ -48,20 +48,44 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col">
-          <h3 class="text-center">{% trans "Voyage au coeur du futur" %}</h3>
+      <div class="row justify-content-center mb-4 text-center">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-2">
+          <div class="card transparent border-jaffa h-100">
+            <div class="card-header">
+              <h3>{% trans "Escape game sans cadenas" %}</h3>
+            </div>
+            <div class="card-body pt-0">
+              {% trans "Découvrez des énigmes inédites et originales dans un escape game moderne ! Plongez dans une salle insolite sans cadenas, où les mécanismes d'escape game sont à la pointe de la technologie." %}
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4 mb-lg-2">
+          <div class="card transparent border-jaffa h-100">
+            <div class="card-header">
+              <h3>{% trans "<span class='text-mulberry'>Star Wars</span> pour de vrai"%}</h3>
+            </div>
+            <div class="card-body pt-0">
+              {% trans "Découvrez l'immersion grandeur nature avec des décors de cinéma qui évoquent l'univers de Star Wars. Profitez de la lumière des néons et d'une musique épique. Réservez dès maintenant pour vivre une aventure mémorable !" %}
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4 mb-lg-2">
+          <div class="card transparent border-jaffa h-100">
+            <div class="card-header">
+              <h3>{% trans "Jouez à la bonne difficulté" %}</h3>
+            </div>
+            <div class="card-body pt-0">
+              {% trans "Que vous soyez débutant ou expert, oubliez la performance. Vivez un scénario amusant pour tous les niveaux. La difficulté est adaptée en temps réel. Profitez d'une session d'escape game la plus divertissante possible." %}
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="row justify-content-center mb-4">
-        <div class="col col-lg-6">
-          <p class="text-center border-jaffa border-solid p-3 rounded mb-3">{% trans "Dans la métropole futuriste de Cybercity, le célèbre restaurant Digimiam est plongé dans le chaos après la défaillance de son IA. En tant qu'ingénieur, votre mission est de rétablir l'ordre. Explorez Cybercity et sauvez le restaurant de son destin funeste dans cette aventure captivante." %}</p>
-          <div class="text-center">
-            <a class="btn btn-primary mb-3 mb-lg-0 text-center" href="/{{ lang }}reserver">
-              <span class="px-3">{% trans "Book now" %}</span>
-            </a>
-          </div>
+      <div class="row text-center mb-4">
+        <div class="col">
+          <a class="btn btn-primary mb-3 mb-lg-0 text-center" href="/{{ lang }}reserver">
+            <span class="px-3">{% trans "Book now" %}</span>
+          </a>
         </div>
       </div>
 
@@ -70,7 +94,7 @@
           <div class="d-flex flex-column">
             <div class="mb-1">
               <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
-              <span class="lh-24px">{% trans "60 minutes dans le futur" %}</span>
+              <span class="lh-24px">{% trans "60 minutes" %}</span>
             </div>
             <div class="mb-1">
               <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>

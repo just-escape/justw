@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-20 23:55+0200\n"
+"POT-Creation-Date: 2023-08-02 21:15+0200\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -89,62 +89,11 @@ msgstr ""
 msgid "Book an escape room"
 msgstr ""
 
-#: pages/templates/booking.html:26 pages/templates/room.html:133
+#: pages/templates/booking.html:26 pages/templates/room.html:157
 msgid "Booking form"
 msgstr ""
 
-#: pages/templates/booking.html:53 pages/templates/pricing.html:27
-msgid "Corporate"
-msgstr ""
-
-#: pages/templates/booking.html:56 pages/templates/pricing.html:30
-msgid "It&#39;s tough to motivate your teams in&nbsp;2022."
-msgstr ""
-
-#: pages/templates/booking.html:57 pages/templates/pricing.html:31
-msgid ""
-"Fortunately, we have <a class='text-underline text-hover-mulberry' href='/en/"
-"team-building'>turnkey Team&nbsp;Building packages</a>."
-msgstr ""
-
-#: pages/templates/booking.html:60 pages/templates/booking.html:84
-#: pages/templates/pricing.html:34 pages/templates/pricing.html:58
-msgid "<span class='text-jaffa'>Suggested for:</span>"
-msgstr ""
-
-#: pages/templates/booking.html:60 pages/templates/pricing.html:34
-msgid "Seminar, Workshop, Teambuilding"
-msgstr ""
-
-#: pages/templates/booking.html:68 pages/templates/home.html:186
-#: pages/templates/pricing.html:42
-msgid "À partir de"
-msgstr "From"
-
-#: pages/templates/booking.html:69 pages/templates/home.html:187
-#: pages/templates/home.html:443 pages/templates/pricing.html:43
-msgid "25€"
-msgstr ""
-
-#: pages/templates/booking.html:70 pages/templates/pricing.html:44
-msgid "Per person"
-msgstr ""
-
-#: pages/templates/booking.html:78 pages/templates/pricing.html:52
-msgid "Gift card"
-msgstr ""
-
-#: pages/templates/booking.html:81 pages/templates/pricing.html:55
-msgid ""
-"Your friends and family will love you with this <a href='/en/carte-cadeau' "
-"class='text-underline text-hover-mulberry'>gift&nbsp;box</a>."
-msgstr ""
-
-#: pages/templates/booking.html:84 pages/templates/pricing.html:58
-msgid "Birthday, Christmas, Money&nbsp;pot, Lottery"
-msgstr ""
-
-#: pages/templates/booking.html:172 pages/templates/gift-voucher.html:66
+#: pages/templates/booking.html:68 pages/templates/gift-voucher.html:66
 #: pages/templates/header.html:32
 msgid "Booking"
 msgstr ""
@@ -258,7 +207,7 @@ msgstr ""
 #: pages/templates/contact.html:8 pages/templates/contact.html:55
 #: pages/templates/contact.html:215 pages/templates/footer.html:80
 #: pages/templates/header.html:68 pages/templates/home.html:775
-#: pages/templates/room.html:198
+#: pages/templates/room.html:224
 msgid "Contact"
 msgstr ""
 
@@ -828,7 +777,7 @@ msgstr "Air-conditioned rooms"
 msgid "tel:0789053790"
 msgstr ""
 
-#: pages/templates/header.html:134 pages/templates/room.html:200
+#: pages/templates/header.html:134 pages/templates/room.html:226
 msgid "07 89 05 37 90"
 msgstr "+33 7 89 05 37 90"
 
@@ -850,7 +799,7 @@ msgid "Je réserve une séance"
 msgstr "Book now"
 
 #: pages/templates/header.html:196 pages/templates/pricing.html:109
-#: pages/templates/room.html:62
+#: pages/templates/room.html:87
 msgid "Book now"
 msgstr ""
 
@@ -953,14 +902,14 @@ msgid "Cybercity"
 msgstr ""
 
 #: pages/templates/home.html:108
-msgid "Restaurant du futur"
-msgstr "Futuristic restaurant"
+msgid "Escape room ambiance star wars"
+msgstr "Star wars-themed escape room"
 
 #: pages/templates/home.html:112
 msgid "2 à 10 joueurs (sur 2 salles)"
 msgstr "2 - 10 players (on 2 rooms)"
 
-#: pages/templates/home.html:116
+#: pages/templates/home.html:116 pages/templates/room.html:97
 msgid "60 minutes"
 msgstr "60 minutes"
 
@@ -976,15 +925,15 @@ msgstr "A family of three players just started the adventure"
 msgid "Deux personnes en train de résoudre une énigme"
 msgstr "Two people solving a puzzle"
 
-#: pages/templates/home.html:154 pages/templates/room.html:123
+#: pages/templates/home.html:154 pages/templates/room.html:147
 msgid "Vue de la salle avec ses décors immersifs"
 msgstr "View of the room with its immersive scenery"
 
-#: pages/templates/home.html:161 pages/templates/room.html:109
+#: pages/templates/home.html:161 pages/templates/room.html:133
 msgid "Un agent en pleine fouille et réflexion"
 msgstr "An agent in the middle of a search, thinking"
 
-#: pages/templates/home.html:168 pages/templates/room.html:102
+#: pages/templates/home.html:168 pages/templates/room.html:126
 msgid "Un laser met en difficulté l'équipe"
 msgstr "A laser puts the team in a difficult spot"
 
@@ -1007,6 +956,15 @@ msgstr ""
 "Another mysterious breakdown. The neon lights are out, leaving the Digimiam "
 "in darkness. Something illegal is going on in this restaurant. Will you "
 "manage to shed the light on this case?"
+
+#: pages/templates/home.html:186 pages/templates/pricing.html:42
+msgid "À partir de"
+msgstr "From"
+
+#: pages/templates/home.html:187 pages/templates/home.html:443
+#: pages/templates/pricing.html:43
+msgid "25€"
+msgstr ""
 
 #: pages/templates/home.html:188
 msgid "par joueur"
@@ -1751,6 +1709,46 @@ msgstr ""
 msgid "Price of a scenario"
 msgstr ""
 
+#: pages/templates/pricing.html:27
+msgid "Corporate"
+msgstr ""
+
+#: pages/templates/pricing.html:30
+msgid "It&#39;s tough to motivate your teams in&nbsp;2022."
+msgstr ""
+
+#: pages/templates/pricing.html:31
+msgid ""
+"Fortunately, we have <a class='text-underline text-hover-mulberry' href='/en/"
+"team-building'>turnkey Team&nbsp;Building packages</a>."
+msgstr ""
+
+#: pages/templates/pricing.html:34 pages/templates/pricing.html:58
+msgid "<span class='text-jaffa'>Suggested for:</span>"
+msgstr ""
+
+#: pages/templates/pricing.html:34
+msgid "Seminar, Workshop, Teambuilding"
+msgstr ""
+
+#: pages/templates/pricing.html:44
+msgid "Per person"
+msgstr ""
+
+#: pages/templates/pricing.html:52
+msgid "Gift card"
+msgstr ""
+
+#: pages/templates/pricing.html:55
+msgid ""
+"Your friends and family will love you with this <a href='/en/carte-cadeau' "
+"class='text-underline text-hover-mulberry'>gift&nbsp;box</a>."
+msgstr ""
+
+#: pages/templates/pricing.html:58
+msgid "Birthday, Christmas, Money&nbsp;pot, Lottery"
+msgstr ""
+
 #: pages/templates/pricing.html:111
 msgid "Company quote"
 msgstr ""
@@ -1774,60 +1772,82 @@ msgid "Scénario d'escape game à Lille"
 msgstr "Escape room scenario in Lille"
 
 #: pages/templates/room.html:35
-msgid "L'escape room dans l'air du temps"
-msgstr "Futuristic restaurant"
+msgid "Escape room ambiance <span class='text-mulberry'>Star Wars</span>"
+msgstr "<span class='text-mulberry'>Star Wars</span>-themed escape room"
 
-#: pages/templates/room.html:53
-msgid "Voyage au coeur du futur"
-msgstr "Journey into the future"
+#: pages/templates/room.html:55
+msgid "Escape game sans cadenas"
+msgstr "Escape room without padlocks"
 
-#: pages/templates/room.html:59
+#: pages/templates/room.html:58
 msgid ""
-"Dans la métropole futuriste de Cybercity, le célèbre restaurant Digimiam est "
-"plongé dans le chaos après la défaillance de son IA. En tant qu'ingénieur, "
-"votre mission est de rétablir l'ordre. Explorez Cybercity et sauvez le "
-"restaurant de son destin funeste dans cette aventure captivante."
+"Découvrez des énigmes inédites et originales dans un escape game moderne ! "
+"Plongez dans une salle insolite sans cadenas, où les mécanismes d'escape "
+"game sont à la pointe de la technologie."
 msgstr ""
-"In the futuristic metropolis of Cybercity, the famous Digimiam restaurant is "
-"plunged into chaos after its AI fails. As an engineer, your mission is to "
-"restore order. Explore Cybercity and save the restaurant from its doom in "
-"this captivating adventure."
+"Discover unprecedented and original puzzles in a modern escape game! Immerse "
+"yourself in an unusual room without padlocks, where escape game mechanisms "
+"are at the cutting edge of technology."
 
-#: pages/templates/room.html:73
-msgid "60 minutes dans le futur"
-msgstr "60 minutes in the future"
+#: pages/templates/room.html:65
+msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+msgstr "<span class='text-mulberry'>Star Wars</span>-themed escape room"
 
-#: pages/templates/room.html:77
+#: pages/templates/room.html:68
+msgid ""
+"Découvrez l'immersion grandeur nature avec des décors de cinéma qui évoquent "
+"l'univers de Star Wars. Profitez de la lumière des néons et d'une musique "
+"épique. Réservez dès maintenant pour vivre une aventure mémorable !"
+msgstr ""
+"Experience life-sized immersion with cinema-like sets that evoke the Star "
+"Wars universe. Enjoy neon lights and epic music. Book now for a memorable "
+"adventure!"
+
+#: pages/templates/room.html:75
+msgid "Jouez à la bonne difficulté"
+msgstr "Play at the right difficulty"
+
+#: pages/templates/room.html:78
+msgid ""
+"Que vous soyez débutant ou expert, oubliez la performance. Vivez un scénario "
+"amusant pour tous les niveaux. La difficulté est adaptée en temps réel. "
+"Profitez d'une session d'escape game la plus divertissante possible."
+msgstr ""
+"Whether you are a beginner or an expert, forget about performance. "
+"Experience a fun scenario for all levels. The difficulty is adjusted in real-"
+"time. Enjoy the most entertaining escape game session possible."
+
+#: pages/templates/room.html:101
 msgid "2 à 10 joueurs sur 2 salles identiques"
 msgstr "2 - 10 players on 2 identical rooms"
 
-#: pages/templates/room.html:81
+#: pages/templates/room.html:105
 msgid "Difficulté adaptative"
 msgstr "Adaptive difficulty"
 
-#: pages/templates/room.html:85
+#: pages/templates/room.html:109
 #, python-format
 msgid "Jouable 100%% en anglais"
 msgstr "Playable 100%% in english"
 
-#: pages/templates/room.html:93
+#: pages/templates/room.html:117
 msgid "Sauvez le Digimiam et repartez avec un cadeau unique"
 msgstr "Save the Digimiam and get away with a unique gift"
 
-#: pages/templates/room.html:116
+#: pages/templates/room.html:140
 msgid "Une énigme difficile demande de la réflexion à une joueuse"
 msgstr "A difficult puzzle requires a player to think"
 
-#: pages/templates/room.html:145
+#: pages/templates/room.html:169
 msgid "Une question sur cet escape game à Lille ? Consultez notre FAQ"
 msgstr ""
 "Do you have a question about this escape game in Lille? Check out our FAQ"
 
-#: pages/templates/room.html:152
+#: pages/templates/room.html:176
 msgid "Y a-t-il des restrictions d'âge pour participer au jeu ?"
 msgstr "Are there any age restrictions?"
 
-#: pages/templates/room.html:157
+#: pages/templates/room.html:181
 msgid ""
 "Le jeu est recommandé pour les joueurs âgés de 15 ans et plus. Les enfants "
 "de moins de 15 ans doivent être accompagnés d'un adulte."
@@ -1835,11 +1855,11 @@ msgstr ""
 "The game is recommended for players aged 15 and over. Children under 15 must "
 "be accompanied by an adult."
 
-#: pages/templates/room.html:167
+#: pages/templates/room.html:191
 msgid "Je suis enceinte, puis-je faire l'escape game ?"
 msgstr "I'm pregnant. Can I do the escape game?"
 
-#: pages/templates/room.html:172
+#: pages/templates/room.html:196
 msgid ""
 "Nous nous efforçons de rendre notre escape game accessible à tous. Veuillez "
 "nous contacter à l'avance pour discuter de vos besoins spécifiques afin que "
@@ -1849,11 +1869,11 @@ msgstr ""
 "advance to discuss your specific requirements so that we can make the "
 "necessary arrangements."
 
-#: pages/templates/room.html:182
+#: pages/templates/room.html:206
 msgid "Est-ce que Just Escape dispose d'un parking ?"
 msgstr "Does Just Escape have a parking lot?"
 
-#: pages/templates/room.html:187
+#: pages/templates/room.html:211
 msgid ""
 "Malheureusement, nous ne disposons pas d'un parking dédié. Cependant, il y a "
 "généralement des options de stationnement à proximité de notre emplacement. "
@@ -1864,21 +1884,21 @@ msgstr ""
 "usually parking options close to our location. We recommend that you check "
 "nearby parking options before your visit."
 
-#: pages/templates/room.html:195
+#: pages/templates/room.html:221
 msgid ""
 "Pour toute question ou demande d'information supplémentaire, contactez-nous."
 msgstr ""
 "If you have any questions or require further information, please contact us."
 
-#: pages/templates/room.html:200
+#: pages/templates/room.html:226
 msgid "Tel :&nbsp;"
 msgstr "Tel:&nbsp;"
 
-#: pages/templates/room.html:201
+#: pages/templates/room.html:227
 msgid "Mail :&nbsp;"
 msgstr "Mail:&nbsp;"
 
-#: pages/templates/room.html:236
+#: pages/templates/room.html:265
 msgid "Rooms"
 msgstr ""
 
@@ -2543,6 +2563,30 @@ msgid ""
 "If you have any request or if there is anything that can help us improve "
 "your experience"
 msgstr ""
+
+#~ msgid "Restaurant du futur"
+#~ msgstr "Futuristic restaurant"
+
+#~ msgid "L'escape room dans l'air du temps"
+#~ msgstr "Futuristic restaurant"
+
+#~ msgid "Voyage au coeur du futur"
+#~ msgstr "Journey into the future"
+
+#~ msgid ""
+#~ "Dans la métropole futuriste de Cybercity, le célèbre restaurant Digimiam "
+#~ "est plongé dans le chaos après la défaillance de son IA. En tant "
+#~ "qu'ingénieur, votre mission est de rétablir l'ordre. Explorez Cybercity "
+#~ "et sauvez le restaurant de son destin funeste dans cette aventure "
+#~ "captivante."
+#~ msgstr ""
+#~ "In the futuristic metropolis of Cybercity, the famous Digimiam restaurant "
+#~ "is plunged into chaos after its AI fails. As an engineer, your mission is "
+#~ "to restore order. Explore Cybercity and save the restaurant from its doom "
+#~ "in this captivating adventure."
+
+#~ msgid "60 minutes dans le futur"
+#~ msgstr "60 minutes in the future"
 
 #~ msgid "Partners"
 #~ msgstr "Partners"
