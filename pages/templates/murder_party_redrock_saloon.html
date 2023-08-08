@@ -14,7 +14,7 @@
   <style rel="stylesheet">{% include "css/tempusdominus-custom.css" %}</style>
 {% endblock %}
 
-{% block h1 %}Scénario de Murder Party classique à Lille{% endblock %}
+{% block h1 %}Scénarios de Murder Party à Lille{% endblock %}
 
 {% block content %}
 
@@ -33,7 +33,7 @@
 
           <div class="d-flex flex-column mb-2">
             <h2 class="text-jaffa mb-0">La Murder Party</h2>
-            <div class="text-inter font-weight-bold size-12 mb-2">Murder party classique</div>
+            <div class="text-inter font-weight-bold size-12 mb-2">Le jeu pour les amoureux de l'immersion</div>
           </div>
         </div>
       </div>
@@ -46,6 +46,13 @@
               <img class="img-fluid w-100 mb-3" src="/static/img/murder-party.webp" alt="Des personnages sont dans une intrigue de murder party">
             </picture>
           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center mb-5">
+          <a href="tel:+33789053790" class="btn btn-primary px-5">
+            <span>J'appelle pour réserver : 07 89 05 37 90</span>
+          </a>
         </div>
       </div>
 
@@ -145,8 +152,14 @@
           <span id="devis" class="anchor">&nbsp;</span>
           <span id="inscription" class="anchor">&nbsp;</span>
           <h2 class="text-jaffa">Je m'inscris à cette murder party</h2>
+          <div class="forescape mb-4" data-subdomain="justescape" data-type="bookings" data-rooms="64481c0fed643ccf79244297"></div>
+
+          <div class="text-center">
+            <a href="/team-building#devis" class="btn btn-primary px-5">
+              <span>Je demande un devis</span>
+            </a>
+          </div>
   
-          {% include "component/quote_form.html" with action="/murder-party-redrock-saloon#devis" form=form unexpected_error=unexpected_error salesquote_success=salesquote_success lang=lang %}
         </div>
       </div>
 
@@ -242,6 +255,10 @@
 {% endblock %}
 
 {% block post_base_js %}
+  <script>
+  !function(e,t){var r=e.createElement(t),a=e.getElementsByTagName(t)[0],n=new Date,s=""+n.getFullYear()+("0"+(n.getMonth()+1)).slice(-2)+("0"+n.getDate()).slice(-2);r.defer=1,r.src="https://justescape.4escape.io/public/js/iframe.min.js?v="+s,a.parentNode.insertBefore(r,a)}(document,"script");
+  </script>
+
   <script type="application/ld+json">
     {
         "@context": "https://schema.org/",
