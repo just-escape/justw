@@ -364,6 +364,20 @@ def two_rooms(request):
     return render(request, 'two_rooms.html', data)
 
 
+def sherlock_vs_moriarty(request):
+    form, error, success = handle_salesquote(request, "Sherlock vs Moriarty")
+
+    data = {
+        'current_page': 'sherlock-vs-moriarty',
+        'lang': get_lang(request),
+        'localized': False,
+        'form': form,
+        'unexpected_error': error,
+        'salesquote_success': success,
+    }
+    return render(request, 'sherlock_vs_moriarty.html', data)
+
+
 def qu_est_ce_qu_une_murder_party(request):
     data = {
         'current_page': 'qu-est-ce-qu-une-murder-party',
