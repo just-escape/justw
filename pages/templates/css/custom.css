@@ -211,7 +211,7 @@ h2 {
     font-size: 1.75rem;
 }
 
-h3 {
+h3, h4 {
     font-size: 1.2rem;
 }
 
@@ -358,16 +358,6 @@ nav a, #blog a, .mobile-bar a, #mobile-header a, a.btn, .breadcrumb-item a {
 
 .text-light-shadow {
     text-shadow: 0.07rem 0.07rem 0.1rem rgba(200, 200, 200, 0.2);
-}
-
-.text-mulberry-stroke {
-    -webkit-text-stroke: 3px #cb4299;
-    paint-order: stroke fill;
-}
-
-.text-red-stroke {
-    -webkit-text-stroke: 3px red;
-    paint-order: stroke fill;
 }
 
 .text-red-shadow {
