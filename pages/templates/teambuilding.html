@@ -130,7 +130,7 @@
     <div class="container px-0">
 
       <div class="row d-flex flex-column align-items-center px-3 mb-4">
-        <h3 class="size-15 text-jaffa">Vos salles de séminaire : 2 à 60 personnes</h3>
+        <h3 class="size-15 text-jaffa">Mes salles de séminaire : 2 à 60 personnes</h3>
 
         <div>
           <a href="#devis" class="btn btn-primary px-5">
@@ -174,18 +174,26 @@
             <div class="card-header">
               <h4 class="text-jaffa text-center mb-0">La grande salle</h4>
             </div>
-            <div class="card-body">
-              <div>Une salle agréable et spacieuse de près de 60 m² entièrement équipée :</div>
-              <ul>
-                <li>vidéoprojecteur</li>
-                <li>paperboard</li>
-                <li>machine à café</li>
-                <li>wifi haut débit</li>
-                <li>salle privative</li>
-              </ul>
-              <div>C'est un lieu idéal pour les grands groupes, une réunion, un séminaire, une formation ou un atelier de cohésion.</div>
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <div>Une salle agréable et spacieuse de près de 60 m² entièrement équipée :</div>
+                <ul>
+                  <li>vidéoprojecteur</li>
+                  <li>paperboard</li>
+                  <li>machine à café</li>
+                  <li>wifi haut débit</li>
+                  <li>salle privative</li>
+                </ul>
+                <div class="mb-3">C'est un lieu idéal pour les grands groupes, une réunion, un séminaire, une formation ou un atelier de cohésion.</div>
+              </div>
+
+              <picture>
+                <source srcset="/static/img/grande-salle-seminaire.webp" type="image/webp">
+                <source srcset="/static/img/grande-salle-seminaire.jpg" type="image/jpg">
+                <img loading="lazy" src="/static/img/grande-salle-seminaire.webp" class="img-fluid" alt="{% trans "Une grande salle de séminaire à Lille" %}">
+              </picture>
             </div>
-            <div class="card-footer d-flex flex-row justify-content-around align-items-center">
+            <div class="card-footer d-flex flex-row justify-content-around align-items-center" style="min-height: 61px">
               <div class="text-jaffa text-center">De 2 à 60 personnes</div>
             </div>
           </div>
@@ -243,8 +251,14 @@
             <div class="card-header">
               <h4 class="text-jaffa text-center mb-0">Jeu d'immersion : murder party</h4>
             </div>
-            <div class="card-body">
+            <div class="card-body d-flex flex-column justify-content-between">
               <p>Vous recherchez une activité ludique et insolite pour des groupes jusqu'à 50 personnes sur Lille ? Optez pour un jeu d'immersion grandeur nature, dans notre centre d'escape game ou dans vos locaux. Chaque joueur incarne un personnage et doit faire preuve de négociation, de diplomatie et d'improvisation pour parvenir à ses fins. C'est l'occasion parfaite de renforcer la complicité ou de briser la glace. Des comédiens réalisent une mise en situation, puis c'est à vous de jouer !</p>
+
+              <picture>
+                <source srcset="/static/img/immersion-murder-party-lille.webp" type="image/webp">
+                <source srcset="/static/img/immersion-murder-party-lille.jpg" type="image/jpg">
+                <img loading="lazy" src="/static/img/immersion-murder-party-lille.webp" class="img-fluid" alt="{% trans "Une activité immersive de murder party à Lille" %}">
+              </picture>
             </div>
             <div class="card-footer d-flex flex-row justify-content-around align-items-center">
               <div class="text-jaffa text-center">Jusqu'à 150 joueurs</div>
