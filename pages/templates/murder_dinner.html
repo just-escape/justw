@@ -134,7 +134,14 @@
           <span id="devis" class="anchor">&nbsp;</span>
           <h2 class="text-jaffa">Je souhaite réserver une partie de murder dinner</h2>
 
-          {% include "component/quote_form.html" with action="/murder-dinner#devis" form=form unexpected_error=unexpected_error salesquote_success=salesquote_success lang=lang %}
+  <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+  <script>
+    hbspt.forms.create({
+      region: "eu1",
+      portalId: "143791160",
+      formId: "d8658790-cd46-42f9-b154-ebc74932b275"
+    });
+  </script>
         </div>
       </div>
 
@@ -209,14 +216,6 @@
 {% endblock %}
 
 {% block post_base_js %}
-  <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
-  <script>
-    hbspt.forms.create({
-      region: "eu1",
-      portalId: "143791160",
-      formId: "d8658790-cd46-42f9-b154-ebc74932b275"
-    });
-  </script>
   <script type="application/ld+json">
     {
         "@context": "https://schema.org/",
