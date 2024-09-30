@@ -587,6 +587,13 @@ def error404(request):
     return r
 
 
+def confirmation(request):
+    data = {'current_page': 'confirmation', 'noindex': True, 'lang': get_lang(request), 'localized': True}
+    r = render(request, 'confirmation.html', data)
+    r['X-Robots-Tag'] = 'noindex'
+    return r
+
+
 def partners(request):
     data = {'current_page': 'partenaires', 'lang': '', 'localized': False}
     return render(request, 'partners.html', data)
