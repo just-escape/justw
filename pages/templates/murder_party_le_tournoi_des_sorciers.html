@@ -1,0 +1,291 @@
+{% extends "base.html" %}
+
+{% block title %}Murder Party Lille – Just Escape{% endblock %}
+{% block description %}Découvrez le tournoi des sorciers, une murder party dans une école de magie. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
+
+{% block og_title %}Murder Party Lille – Just Escape{% endblock %}
+{% block og_description %}Découvrez le tournoi des sorciers, une murder party dans une école de magie. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
+
+{% block extra_css %}
+  <style rel="stylesheet">{% include "css/fa-solid-5.8.1.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/fa-regular-5.8.1.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/fontawesome-5.8.1.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/tempusdominus-bootstrap-4-5.1.2.min.css" %}</style>
+  <style rel="stylesheet">{% include "css/tempusdominus-custom.css" %}</style>
+{% endblock %}
+
+{% block h1 %}Murder Party avec des décors à Lille{% endblock %}
+
+{% block content %}
+
+<section>
+  <div class="jumbotron py-5 mb-4">
+    <div class="container px-0">
+      <div class="row">
+        <div class="col">
+          <div>
+            <ol class="breadcrumb softdark py-2">
+              <li class="breadcrumb-item"><a href="/" class="fill-jaffa svg-16px">{% include "svg/home.svg" %}</a></li>
+              <li class="breadcrumb-item"><a href="/murder-party" class="text-jaffa">Murder Party</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Le Tournoi des Sorciers</li>
+            </ol>
+          </div>
+
+          <div class="d-flex flex-column mb-2">
+            <h2 class="text-jaffa mb-0">Le Tournoi des Sorciers</h2>
+            <div class="text-inter font-weight-bold size-12 mb-2">De la magie plus vraie que nature</div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6">
+          <div class="position-relative">
+            <picture>
+              <source srcset="/static/img/le-tournoi-des-sorciers.webp" type="image/webp">
+              <source srcset="/static/img/le-tournoi-des-sorciers.png" type="image/png">
+              <img class="img-fluid w-100 mb-3" src="/static/img/le-tournoi-des-sorciers.webp" alt="Une murder party avec des décors immersifs à Lille">
+            </picture>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center mb-5">
+          <a href="tel:+33789053790" class="btn btn-primary px-5">
+            <span>J'appelle pour réserver : 07 89 05 37 90</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-4 text-center">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-2">
+          <div class="card transparent border-jaffa h-100">
+            <div class="card-header">
+              <h3>Apprenez à faire de la <span class="text-mulberry">sorcellerie</span></h3>
+            </div>
+            <div class="card-body pt-0">
+              Des duels magiques, des portes qui s'ouvrent d'un coup de baguette magique, des défis autour de pierres aux vertus rares... Tous ces éléments réunis pour vous faire vivre la plus magique des aventures.
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4 mb-lg-2">
+          <div class="card transparent border-jaffa h-100">
+            <div class="card-header">
+              <h3>Un <span class="text-mulberry">univers magique</span> vous attend</h3>
+            </div>
+            <div class="card-body pt-0">
+              Une expérience immersive dans 100m² de décors spécialement conçus pour l'occasion est prévue. Une salle des potions plus vraie que nature, une bibliothèque renfermant des livres interdits et bien d'autres surprises vous attendent.
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4 mb-lg-2">
+          <div class="card transparent border-jaffa h-100">
+            <div class="card-header">
+              <h3>Au coeur du tournoi des sorciers</h3>
+            </div>
+            <div class="card-body pt-0">
+              Endossez vos couleurs et représentez fièrement votre maison lors d'une compétition mêlant lecture de sortilèges et identification de plantes mystérieuses. Rejoignez les rangs des grands vainqueurs.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-4">
+        <div class="col-12 col-lg-6">
+          <div class="card transparent border-light h-100">
+            <div class="card-header text-inter font-weight-bold text-center">
+              Détails de l'événement
+            </div>
+            <div class="card-body size-11 lh-12 pt-0">
+              <ul class="list-unstyled">
+                <li class="mb-1">
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/map-marker.svg" %}</span>
+                  <span class="lh-24px">26 rue d'Arras, près de la rue de Solférino, Lille</span>
+                </li>
+                <li class="mb-1">
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
+                  <span class="lh-24px">90 minutes de jeu</span>
+                </li>
+                <li class="mb-1">
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
+                  <span class="lh-24px">8 à 24 joueurs</span>
+                </li>
+                <li class="mb-1">
+                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/euro.svg" %}</span>
+                  <span class="lh-24px">À partir de 40€ par personne</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="card transparent border-light h-100">
+            <div class="card-header text-inter font-weight-bold text-center">
+              <div>Inclus dans le prix</div>
+            </div>
+            <div class="card-body size-11 lh-12 pt-0">
+              <ul>
+                <li>Une boisson par participant parmis une sélection</li>
+                <li>Un acteur pour jusqu'à 15 personnes et un deuxième au delà</li>
+                <li>Des costumes sont mis à disposition</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <div class="jumbotron softdark position-relative py-5">
+    <div class="softdark extension extension-top extension-corner-bottom-right"></div>
+    <div class="softdark extension extension-bottom extension-corner-top-right"></div>
+    <div class="container px-0">
+      <div class="row mb-5">
+        <div class="col">
+          <span id="devis" class="anchor">&nbsp;</span>
+          <span id="inscription" class="anchor">&nbsp;</span>
+          <h2 class="text-jaffa">Formulaire de réservation</h2>
+          <div class="forescape mb-4" data-subdomain="justescape" data-type="bookings" data-rooms="677d306bc9e6d4b7e7f4467b"></div>
+
+          <div class="text-center">
+            <a href="/team-building#devis" class="btn btn-primary px-5">
+              <span>Je demande un devis</span>
+            </a>
+          </div>
+  
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h2>Une question sur cette murder party ? Consultez notre FAQ</h2>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Les enfants sont-ils acceptés ?
+            </div>
+            <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                Ce qui rend notre nouvelle murder party unique, c'est l'ambition que nous avons eu d'aller encore plus loin dans l'immersion. Pour ce scénario de murder party, nous avons créé un <b>décor unique</b>. Une grande première dans la <b>région lilloise</b>.
+                </p>
+                <p class="mt-3">
+                Notre objectif était de plonger les participants dans une expérience qui ne soit plus seulement un jeu de déduction, mais une véritable <b>aventure immersive</b>, proche de ce que l'on peut ressentir dans un <b>escape game</b>.
+                </p>
+                <p class="mb-0">
+                Contrairement à un escape game classique, où l'accent est mis sur la résolution <b>d'énigmes</b>, nous avons souhaité privilégier l'aspect <b>social</b> et <b>interactif</b> propre à la murder party.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Peut-on jouer en anglais ?
+            </div>
+            <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                Une version anglaise est disponible <a>sur demande</b>.
+                </p>
+                <p class="mt-3">
+                Afin de garantir une expérience optimale, veuillez nous informer de votre préférence linguistique lors de la réservation <b>via les commentaires ou par e-mail à contact@justescape.fr</b>.
+                </p>
+                <p class="mb-0">
+                  Que vous préfériez le français ou l'anglais, préparez-vous à une soirée immersive pleine de mystère, d'indices et de stratégies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              Est-ce accessible pour tous les niveaux ?
+            </div>
+            <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                  Que vous soyez débutant ou déjà expérimenté, la Murder Party s'adapte parfaitement à tous les niveaux.
+                </p>
+                <p class="mb-0">
+                  Elle a été conçue pour être accessible à tous, permettant à chacun de la prendre en main facilement. Vous jouerez avec une difficulté adaptée, et les animateurs ajusteront leur accompagnement en fonction de votre niveau.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="text-center font-weight-bold mb-3">Pour toute question ou demande d'information supplémentaire, contactez-nous.</div>
+
+          <div class="text-center p-3 border-jaffa border-solid rounded d-flex justify-content-center flex-column">
+                  <div class="text-jaffa text-inter font-weight-bold size-12">Contact</div>
+            <div class="d-flex flex-column">
+                    <div><span class="text-jaffa">Tel :&nbsp;</span>07 89 05 37 90</div>
+                    <div><span class="text-jaffa">Mail :&nbsp;</span>contact@justescape.fr</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="jumbotron light position-relative py-5">
+    {% include "component/discover_as_well.html" with label="d'autres scénarios" what="redrock_saloon,digimiam" %}
+
+    <div class="text-center">
+      <a href="/murder-party">Je retourne à la liste des murder party</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
+
+{% block post_base_js %}
+  <script>
+  !function(e,t){var r=e.createElement(t),a=e.getElementsByTagName(t)[0],n=new Date,s=""+n.getFullYear()+("0"+(n.getMonth()+1)).slice(-2)+("0"+n.getDate()).slice(-2);r.defer=1,r.src="https://justescape.4escape.io/public/js/iframe.min.js?v="+s,a.parentNode.insertBefore(r,a)}(document,"script");
+  </script>
+
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Just Escape",
+                "item": "https://just-escape.fr/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Murder Party",
+                "item": "https://just-escape.fr/murder-party"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Le Tournoi des Sorciers",
+                "item": "https://just-escape.fr/murder-party-le-tournoi-des-sorciers"
+            }
+        ]
+    }
+  </script>
+{% endblock %}

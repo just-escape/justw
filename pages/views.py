@@ -322,6 +322,20 @@ def murder_party_redrock_saloon(request):
     return render(request, 'murder_party_redrock_saloon.html', data)
 
 
+def murder_party_le_tournoi_des_sorciers(request):
+    form, error, success = handle_salesquote(request, "Le Tournoi des Sorciers")
+
+    data = {
+        'current_page': 'murder-party-le-tournoi-des-sorciers',
+        'lang': get_lang(request),
+        'localized': False,
+        'form': form,
+        'unexpected_error': error,
+        'salesquote_success': success,
+    }
+    return render(request, 'murder_party_le_tournoi_des_sorciers.html', data)
+
+
 def killer_party(request):
     form, error, success = handle_salesquote(request, "Killer Party")
 
