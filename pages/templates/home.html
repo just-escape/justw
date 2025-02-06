@@ -19,20 +19,20 @@
   <div class="jumbotron-fluid content-cover position-relative">
     <div>
       <picture>
-        <source media="(max-width: 599.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-600x780.webp" type="image/webp">
-        <source media="(max-width: 599.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-600x780.jpg" type="image/jpg">
-        <source media="(min-width: 600px) and (max-width: 991.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1820x1120.webp" type="image/webp">
-        <source media="(min-width: 600px) and (max-width: 991.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1820x1120.jpg" type="image/jpg">
-        <source media="(min-width: 992px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1700x900.webp" type="image/webp">
-        <source media="(min-width: 992px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1700x900.jpg" type="image/jpg">
-        <img class="position-absolute" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/escape-game-lille-nouvelle-generation-1820x1120.webp" alt="{% trans "Une joueuse immergée dans sa mission est exaltée" %}">
+        <source media="(max-width: 599.98px)" srcset="/static/img/murder_party_lille_600x780.webp" type="image/webp">
+        <source media="(max-width: 599.98px)" srcset="/static/img/murder_party_lille_600x780.jpg" type="image/jpg">
+        <source media="(min-width: 600px) and (max-width: 991.98px)" srcset="/static/img/murder_party_lille_1820x900.webp" type="image/webp">
+        <source media="(min-width: 600px) and (max-width: 991.98px)" srcset="/static/img/murder_party_lille_1820x900.jpg" type="image/jpg">
+        <source media="(min-width: 992px)" srcset="/static/img/murder_party_lille_1700x900.webp" type="image/webp">
+        <source media="(min-width: 992px)" srcset="/static/img/murder_party_lille_1700x900.jpg" type="image/jpg">
+        <img class="position-absolute" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/murder_party_lille_1820x900.webp" alt="{% trans "Une joueuse immergée dans une murder party à Lille" %}">
       </picture>
     </div>
 
     <div class="container h-100">
       <div class="row h-100">
         <div class="col d-flex flex-column justify-content-end" style="margin-bottom: 100px">
-          <h1 class="text-light text-inter size-2 size-sm-35"><span class="font-weight-bold">{% trans "Escape Game Lille" %}</span><br> <span style="font-weight: normal">{% trans "nouvelle génération" %}</span></h1>
+          <h1 class="text-light text-inter size-2 size-sm-35"><span class="font-weight-bold">{% trans "Murder Party Lille" %}</span><br> <span style="font-weight: normal">{% trans "Devenez acteur de votre partie" %}</span></h1>
           <div>
                   <a href="/{{ lang }}reserver" class="btn btn-primary p-3 size-12"><span><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/calendar-check.svg" %}</span>{% trans "Je réserve une séance" %}</span></a>
           </div>
@@ -56,30 +56,30 @@
         <div class="col-12 col-lg-4 mb-4">
           <div class="card transparent border-light border-2px h-100">
             <div class="card-header">
-              <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "Des énigmes inédites" %}</h3>
+              <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "Un cluedo grandeur nature" %}</h3>
             </div>
             <div class="card-body size-11 text-center lh-12 pt-0">
-              {% trans "Résolvez des <strong>énigmes originales</strong> que vous découvrez pour la première fois. Retrouvez des mécanismes modernes dans des <strong>salles complètement insolites &quot;0&nbsp;cadenas&quot;</strong>." %}
+              {% trans "Devenez <strong>enquêteur</strong>, <strong>suspect</strong> ou <strong>coupable</strong> dans une intrigue criminelle où le doute et les suspicions vous feront perdre pied." %}
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-4 mb-4">
           <div class="card transparent border-light border-2px h-100">
             <div class="card-header">
-              <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "La difficulté s'adapte à votre groupe" %}</h3>
+              <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "Vivez une expérience immersive" %}</h3>
             </div>
             <div class="card-body size-11 text-center lh-12 pt-0">
-                    {% trans "Profitez d'un <strong>scénario amusant</strong>, que vous ayez un niveau débutant ou expert. Le game master peut adapter la difficulté pour <strong>rendre votre session la plus fun possible</strong>." %}
+              {% trans "Offrez-vous le droit de rêver et de devenir l'<strong>acteur principal</strong> de votre thriller. Découvrez <strong>des décors</strong> et <strong>des mises en scène immersives</strong>." %}
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-4 mb-4">
           <div class="card transparent border-light border-2px h-100">
             <div class="card-header">
-              <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "Des décors immersifs" %}</h3>
+              <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "Pour tous les types de sorties" %}</h3>
             </div>
             <div class="card-body size-11 text-center lh-12 pt-0">
-                    {% trans "Vivez l'immersion au format grandeur nature. Des décors et une mise en scène digne de cinéma vous attendent. En prime, les <strong>énigmes 100&#37; connectées</strong> influent sur l'ambiance son et lumière&nbsp;!" %}
+              {% trans "<strong>En famille</strong>, en <strong>team-building</strong>, pour un <strong>enterrement de vie de jeune fille ou de jeune garçon</strong>, ou simplement pour profiter d'un bon moment, nos activités sont idéales." %}
             </div>
           </div>
         </div>
