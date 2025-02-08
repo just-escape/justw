@@ -1,13 +1,15 @@
-<a href="/two-rooms">
+{% load i18n %}
+
+<a href="/{{ lang }}two-rooms">
 <div class="card deepdark position-relative py-4 px-0 px-sm-4 mb-4">
   <div class="card-header d-flex flex-column flex-md-row flex-lg-column justify-content-between">
     <div class="d-flex flex-column mb-3 mb-md-0 mb-lg-3 justify-content-center">
-      <div class="text-inter font-weight-bold lh-1 size-2">Two rooms</div>
-      <div class="size-15 lh-1">Le loup-garou mais sans mourir</div>
+            <div class="text-inter font-weight-bold lh-1 size-2">{% trans "Two rooms" %}</div>
+            <div class="size-15 lh-1">{% trans "Le loup-garou mais sans mourir" %}</div>
     </div>
     <div class="d-flex flex-column align-items-end justify-content-center">
       <div>
-        <span class="lh-24px">15 à 30 joueurs</span>
+              <span class="lh-24px">{% trans "15 à 30 joueurs" %}</span>
         <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
       </div>
       <div>
@@ -20,20 +22,20 @@
     <picture>
       <source srcset="/static/img/two-rooms-375.webp" type="image/webp">
       <source srcset="/static/img/two-rooms-375.png" type="image/png">
-      <img loading="lazy" class="img-fluid mx-auto d-block mb-3" src="/static/img/two-rooms-375.webp" alt="Logo de two rooms">
+      <img loading="lazy" class="img-fluid mx-auto d-block mb-3" src="/static/img/two-rooms-375.webp" alt={% trans "Logo de two rooms" %}>
     </picture>
 
-    <p class="size-11 mb-0">Plongez dans cet univers ultime de complots et de bluff. Les assassins et les citoyens s'affrontent dans des décors d'escape game pour se démasquer les uns les autres. Allez-vous sauvez l'empereur ?</p>
+    <p class="size-11 mb-0">{% trans "Plongez dans cet univers ultime de complots et de bluff. Les assassins et les citoyens s'affrontent dans des décors d'escape game pour se démasquer les uns les autres. Allez-vous sauvez l'empereur ?" %}</p>
   </div>
   <div class="card-footer">
     <div class="d-flex flex-column flex-md-row justify-content-between">
       <div class="d-flex flex-column align-items-center mb-4 mb-md-0">
-        <div class="lh-1 size-09">À partir de</div>
+              <div class="lh-1 size-09">{% trans "À partir de" %}</div>
         <div class="text-inter font-weight-bold lh-1 size-2">25€</div>
-        <div class="lh-1 size-09">par joueur</div>
+        <div class="lh-1 size-09">{% trans "par joueur" %}</div>
       </div>
 
-      <div class="btn btn-primary p-3 size-12 d-flex flex-column justify-content-center"><span>Je veux en savoir plus</span></div>
+      <div class="btn btn-primary p-3 size-12 d-flex flex-column justify-content-center"><span>{% trans "Je veux en savoir plus" %}</span></div>
     </div>
   </div>
 </div>
