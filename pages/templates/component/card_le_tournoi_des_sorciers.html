@@ -1,13 +1,15 @@
-<a href="/murder-party-le-tournoi-des-sorciers">
+{% load i18n %}
+
+<a href="/{{ lang }}murder-party-le-tournoi-des-sorciers">
 <div class="card deepdark position-relative py-4 px-0 px-sm-4 mb-4">
   <div class="card-header d-flex flex-column flex-md-row flex-lg-column justify-content-between">
     <div class="d-flex flex-column mb-3 mb-md-0 mb-lg-3 justify-content-center">
-      <div class="text-inter font-weight-bold lh-1 size-2">Le Tournoi des Sorciers</div>
-      <div class="size-15 lh-1">Murder Party Immersive</div>
+            <div class="text-inter font-weight-bold lh-1 size-2">{% trans "Le Tournoi des Sorciers" %}</div>
+            <div class="size-15 lh-1">{% trans "Murder Party Immersive" %}</div>
     </div>
     <div class="d-flex flex-column align-items-end justify-content-center">
       <div>
-        <span class="lh-24px">8 à 24 joueurs</span>
+              <span class="lh-24px">{% trans "8 à 24 joueurs" %}</span>
         <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
       </div>
       <div>
@@ -20,20 +22,20 @@
     <picture>
       <source srcset="/static/img/le-tournoi-des-sorciers-375.webp" type="image/webp">
       <source srcset="/static/img/le-tournoi-des-sorciers-375.png" type="image/png">
-      <img loading="lazy" class="img-fluid mx-auto d-block mb-3" src="/static/img/le-tournoi-des-sorciers-375.webp" alt="Logo de la murder party dans des décors immersifs">
+      <img loading="lazy" class="img-fluid mx-auto d-block mb-3" src="/static/img/le-tournoi-des-sorciers-375.webp" alt={% trans "Logo de la murder party dans des décors immersifs" %}>
     </picture>
 
-    <p class="size-11 mb-0">Préparez-vous à mettre en lumière votre talent d'enquêteur dans une expérience immersive au coeur d'un décor plus vrai que nature. Laissez la magie naître en vous et laissez le hasard choisir votre maison.</p>
+    <p class="size-11 mb-0">{% trans "Préparez-vous à mettre en lumière votre talent d'enquêteur dans une expérience immersive au coeur d'un décor plus vrai que nature. Laissez la magie naître en vous et laissez le hasard choisir votre maison." %}</p>
   </div>
   <div class="card-footer">
     <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
       <div class="d-flex flex-column align-items-center mb-4 mb-md-0">
-        <div class="lh-1 size-09">À partir de</div>
+              <div class="lh-1 size-09">{% trans "À partir de" %}</div>
         <div class="text-inter font-weight-bold lh-1 size-2">40€</div>
-        <div class="lh-1 size-09">par joueur</div>
+        <div class="lh-1 size-09">{% trans "par joueur" %}</div>
       </div>
 
-      <div class="btn btn-primary p-3 size-12 d-flex flex-column justify-content-center"><span>Je veux en savoir plus</span></div>
+      <div class="btn btn-primary p-3 size-12 d-flex flex-column justify-content-center"><span>{% trans "Je veux en savoir plus" %}</span></div>
     </div>
   </div>
 </div>
