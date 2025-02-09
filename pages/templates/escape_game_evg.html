@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load i18n %}
+
 {% block title %}Une activité originale pour un EVG réussi ? – Just Escape{% endblock %}
 {% block description %}Plus besoin de se creuser la tête pour trouver la prochaine activité d'EVG. L'escape game pour EVG met tout le monde d'accord de par son originalité !{% endblock %}
 
@@ -184,83 +186,6 @@
             </div>
           </div>
         </div>
-        <!--
-        <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-light rounded mb-3" id="qa-01" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-01" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-01" aria-expanded="false" aria-controls="answer-01" itemprop="name" role="button">
-              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Comment se préparer pour un escape game pour un EVG ?
-            </div>
-            <div id="answer-01" class="collapse" aria-labelledby="question-01" data-parent="#qa-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3 mb-0">
-                  Pour se préparer à un escape game pour un EVG, il est recommendé de porter des vêtements confortables et de se présenter à l'heure. Il est également important de bien écouter les instructions données par le personnel de l'entreprise avant de commencer l'activité. Enfin, il est essentiel de travailler en équipe et de communiquer efficacement avec les autres membres du groupe pour résoudre les énigmes et terminer l'escape game dans les délais impartis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-light rounded mb-3" id="qa-02" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-02" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-02" aria-expanded="false" aria-controls="answer-02" itemprop="name" role="button">
-              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Quels sont les avantages de faire un escape game pour un EVG ?
-            </div>
-            <div id="answer-02" class="collapse" aria-labelledby="question-02" data-parent="#qa-02" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3">
-                  Les avantages d'un escape game pour un EVG sont nombreux.
-                </p>
-                <p>
-                  C'est une activité amusante et interactive qui permet de renforcer les liens entre les membres du groupe. Cela peut également aider à réduire le stress et à renforcer la confiance en soi.
-                </p>
-                <p class="mb-0">
-                  De plus, l'escape game est une activité qui convient à tous les âges et à tous les niveaux de compétence, ce qui en fait une option de choix pour les groupes de toutes tailles.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-light rounded mb-3" id="qa-03" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-03" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-03" aria-expanded="false" aria-controls="answer-03" itemprop="name" role="button">
-              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Quelles sont les activités proposées pour un EVG ?
-            </div>
-            <div id="answer-03" class="collapse" aria-labelledby="question-03" data-parent="#qa-03" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3">
-                  Nous proposons une grande variété d'activités pour un EVG, tel que des jeux de rôle grandeur nature. C'est idéal pour les grands groupes, un escape game futuriste pour les passionnés de technologie, des dégustations de bières pour les saveurs lilloise, etc.
-                </p>
-                <p class="mb-0">
-                  Consultez notre page dédiée pour découvrir toutes nos offres.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-light rounded mb-3" id="qa-04" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-04" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-04" aria-expanded="false" aria-controls="answer-04" itemprop="name" role="button">
-              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Où ont lieu les activités ?
-            </div>
-            <div id="answer-04" class="collapse" aria-labelledby="question-04" data-parent="#qa-04" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3">
-                  Nos activités ont lieu dans nos locaux à Lille.
-                </p>
-                <p class="mb-0">
-                  Selon la demande, certaines activités peuvent avoir lieu en dehors de Just Escape.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        -->
 
       </div>
     </div>
@@ -318,217 +243,6 @@
     </div>
   </div>
 
-  <!--
-      <div class="row">
-        <div class="col-4">
-          <picture>
-            <source srcset="/static/img/evg-escape-game.webp" type="image/webp">
-            <source srcset="/static/img/evg-escape-game.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 mb-4" src="/static/img/evg-escape-game.webp" alt="">
-          </picture>
-        </div>
-        <div class="col-4"> 
-          <picture>
-            <source srcset="/static/img/escape-game-evjf-evg.webp" type="image/webp">
-            <source srcset="/static/img/escape-game-evjf-evg.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 mb-4" src="/static/img/escape-game-evjf-evg.webp" alt="">
-          </picture>
-        </div>
-        <div class="col-4">
-          <picture>
-            <source srcset="/static/img/defi-escape-game-evg.webp" type="image/webp">
-            <source srcset="/static/img/defi-escape-game-evg.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 mb-4" src="/static/img/defi-escape-game-evg.webp" alt="">
-          </picture>
-        </div>
-        <div class="col-4">
-          <picture>
-            <source srcset="/static/img/activite-evg-originale.webp" type="image/webp">
-            <source srcset="/static/img/activite-evg-originale.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 mb-4" src="/static/img/activite-evg-originale.webp" alt="">
-          </picture>
-        </div>
-        <div class="col-4">
-          <picture>
-            <source srcset="/static/img/jeu-d-evasion-evjf-evg.webp" type="image/webp">
-            <source srcset="/static/img/jeu-d-evasion-evjf-evg.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 mb-4" src="/static/img/jeu-d-evasion-evjf-evg.webp" alt="">
-          </picture>
-        </div>
-        <div class="col-4">
-          <picture>
-            <source srcset="/static/img/jeu-d-evasion-evg.webp" type="image/webp">
-            <source srcset="/static/img/jeu-d-evasion-evg.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 mb-4" src="/static/img/jeu-d-evasion-evg.webp" alt="">
-          </picture>
-        </div>
-        <div class="col-4">
-          <picture>
-            <source srcset="/static/img/moments-memorables-evg.webp" type="image/webp">
-            <source srcset="/static/img/moments-memorables-evg.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 mb-4" src="/static/img/moments-memorables-evg.webp" alt="">
-          </picture>
-        </div>
-        <div class="col-4">
-          <picture>
-            <source srcset="/static/img/challenge-evg-escape-room.webp" type="image/webp">
-            <source srcset="/static/img/challenge-evg-escape-room.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 mb-4" src="/static/img/challenge-evg-escape-room.webp" alt="">
-          </picture>
-        </div>
-        <div class="col-4">
-          <picture>
-            <source srcset="/static/img/equipe-masculine-escape-game.webp" type="image/webp">
-            <source srcset="/static/img/equipe-masculine-escape-game.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100 mb-4" src="/static/img/equipe-masculine-escape-game.webp" alt="">
-          </picture>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 mb-5">
-          <div class="card transparent border-light border-2px h-100">
-            <div class="card-header">
-              <h3 class="text-center text-inter font-weight-bold mb-0">Un divertissement original et amusant</h3>
-            </div>
-            <div class="card-body size-11 text-center lh-12 pt-0">
-              <p class="lh-12">Notre escape game ne se résume pas à un simple jeu. Il vous permettra de vous amuser et de mettre à l'épreuve vos compétences, votre logique et votre esprit d'équipe.</p>
-              <p class="lh-12">Offrez une ambiance immersive avec des décors et des effets sonores de qualité au jeune marié.</p>
-              <p class="lh-12">Une expérience que vous n'oublierez pas de si tôt, et qui vous permettra de vous amuser et de vous challenger en même temps.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row mb-4">
-        <div class="col text-center">
-          <h2 class="text-inter font-weight-bold mb-0">Découvrez les cartes cadeaux</h2>
-          <div class="text-inter font-weight-bold size-15 mb-2">Offrir une carte cadeau</div>
-          <div>Que diriez-vous d'un bon cadeau original et unique en son genre ?</div>
-        </div>
-      </div>
-
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-6 text-center">
-          <video autoplay muted loop class="mb-3" poster="/static/img/carte-cadeau-escape-game.webp" title="Une carte cadeau pour un escape game sur Lille">
-            <source src="/static/vid/carte-cadeau-2-joueurs-lille.webm" type="video/webm"/>
-            <p>Videos are not supported by this browser</p>
-          </video>
-          <a href="/{{ lang }}carte-cadeau" class="text-inter btn btn-light size-1">Je veux une <strong>carte cadeau</strong></a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="jumbotron px-0 dark">
-    <div class="container mb-5">
-      <h2 class="mb-3">Ils ont apprécié Just Escape</h2>
-
-      <div class="row d-flex mb-4">
-        <div class="col">
-          <div class="card light">
-            <div class="card-body">
-              <div class="elfsight-app-68e3ce15-b299-46ae-af17-92683b53f5b9"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="jumbotron gradient-mulberry-jaffa position-relative">
-    <div class="gradient-mulberry-jaffa extension extension-top extension-corner-bottom-right"></div>
-    <div class="gradient-mulberry-jaffa extension extension-bottom extension-corner-top-right"></div>
-
-    <div class="container">
-      <div class="row mb-4">
-        <div class="col-12 text-center">
-          <h2 class="mb-0">FAQ</h2>
-          <div class="text-inter size-15 mb-4">Vous avez des questions ?</div>
-        </div>
-
-        <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-light rounded mb-3" id="qa-05" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-05" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-05" aria-expanded="false" aria-controls="answer-05" itemprop="name" role="button">
-              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Qu'est-ce qu'un escape game ?
-            </div>
-            <div id="answer-05" class="collapse" aria-labelledby="question-05" data-parent="#qa-05" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3">
-                  Un escape game, ou jeu d'évasion, est un jeu d'équipe qui consiste à enfermer un groupe dans une escape room, une salle remplie d'énigmes. Le groupe de joueurs dipose de 60 minutes pour trouver les indices dissimulés dans la pièce.
-                </p>
-                <p>
-                  Pour réussir la mission, les participants doivent faire preuve d'esprit d'équipe, de logique et d'un bon sens de la communication.
-                </p>
-                <p class="mb-0">
-                  Le concept d'escape game est idéal pour se défier entre amis. Notre escape game futuriste n'attend que vous.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-light rounded mb-3" id="qa-06" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-06" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-06" aria-expanded="false" aria-controls="answer-06" itemprop="name" role="button">
-              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Est-ce que l'escape game est difficile ?
-            </div>
-            <div id="answer-06" class="collapse" aria-labelledby="question-06" data-parent="#qa-06" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3 mb-0">
-                  Notre scénarios d'escape game pour EVG sont conçus pour être amusants, mais aussi suffisamment stimulants pour être un challenge. Cependant, nous pouvons adapter le niveau de difficulté en fonction de votre groupe.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-light rounded mb-3" id="qa-07" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-07" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-07" aria-expanded="false" aria-controls="answer-07" itemprop="name" role="button">
-              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Qu'est-ce qui est inclu dans l'expérience ?
-            </div>
-            <div id="answer-07" class="collapse" aria-labelledby="question-07" data-parent="#qa-07" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3">
-                  L'expérience d'escape game pour EVG comprend l'entrée pour l'ensemble de votre groupe, l'explication des règles du jeu, la mission elle-même et un debriefing à la fin.
-                </p>
-                <p>
-                  Vous pouvez également compléter votre expérience avec le pack EVG à sélectionner lors de la réservation.
-                </p>
-                <p class="mb-0">
-                  Ce pack comprend : une boisson par personne, une photo souvenir et la privatisation de notre salle de réception privée pour profiter de nos jeux de société.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-light rounded mb-3" id="qa-08" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-08" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-08" aria-expanded="false" aria-controls="answer-08" itemprop="name" role="button">
-              <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Est-ce que nous devons nous déguiser pour participer à une murder party ?
-            </div>
-            <div id="answer-08" class="collapse" aria-labelledby="question-08" data-parent="#qa-08" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3 mb-0">
-                  Ce n'est pas obligatoire, mais fortement recommandé ! Nous encourageons les invités à se déguiser pour ajouter à l'ambiance de la soirée. Nous pouvons également fournir des accessoires et des costumes pour ceux qui le souhaitent.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>-->
-
 {% endblock %}
 
 {% block post_base_js %}
@@ -568,13 +282,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Just Escape",
-                "item": "https://just-escape.fr/"
+                "item": "https://just-escape.fr/{{ lang }}"
             },
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Escape Game EVG",
-                "item": "https://just-escape.fr/escape-game-evg"
+                "name": "{% trans "Escape Game EVG" %}",
+                "item": "https://just-escape.fr/{{ lang }}escape-game-evg"
             }
         ]
     }

@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load i18n %}
+
 {% block title %}Killer Party Lille – Just Escape{% endblock %}
 {% block description %}Découvrez la killer party : une murder party orientée action. Vous avez déjà joué à Among Us ? Découvrez son adaptation dans un escape game grandeur nature. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
 
@@ -241,19 +243,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Just Escape",
-                "item": "https://just-escape.fr/"
+                "item": "https://just-escape.fr/{{ lang }}"
             },
             {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Murder Party",
-                "item": "https://just-escape.fr/murder-party"
+                "item": "https://just-escape.fr/{{ lang }}murder-party"
             },
             {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Killer Party",
-                "item": "https://just-escape.fr/killer-party"
+                "item": "https://just-escape.fr/{{ lang }}killer-party"
             }
         ]
     }

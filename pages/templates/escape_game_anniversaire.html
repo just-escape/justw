@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load i18n %}
+
 {% block title %}Une activité originale pour un anniversaire réussi ? – Just Escape{% endblock %}
 {% block description %}Plus besoin de se creuser la tête pour trouver la prochaine activité d'anniversaire. L'escape game pour anniversaire met tout le monde d'accord de par son originalité !{% endblock %}
 
@@ -481,13 +483,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Just Escape",
-                "item": "https://just-escape.fr/"
+                "item": "https://just-escape.fr/{{ lang }}"
             },
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Escape Game EVG",
-                "item": "https://just-escape.fr/escape-game-evg"
+                "name": "{% trans "Escape Game Anniversaire" %}",
+                "item": "https://just-escape.fr/{{ lang }}escape-game-anniversaire"
             }
         ]
     }

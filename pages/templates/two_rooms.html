@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load i18n %}
+
 {% block title %}Two Rooms – Just Escape{% endblock %}
 {% block description %}Two Rooms c'est le loup-garou mais sans mourir. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
 
@@ -180,19 +182,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Just Escape",
-                "item": "https://just-escape.fr/"
+                "item": "https://just-escape.fr/{{ lang }}"
             },
             {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Murder Party",
-                "item": "https://just-escape.fr/murder-party"
+                "item": "https://just-escape.fr/{{ lang }}murder-party"
             },
             {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Two Rooms",
-                "item": "https://just-escape.fr/two-rooms"
+                "item": "https://just-escape.fr/{{ lang }}two-rooms"
             }
         ]
     }

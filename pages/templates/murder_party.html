@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load i18n %}
+
 {% block title %}Murder Party Lille – Just Escape{% endblock %}
 {% block description %}Découvrez nos murder party : classique, killer party, murder dinner, type loup-garou... Choisissez votre activité complètement insolite !{% endblock %}
 
@@ -245,13 +247,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Just Escape",
-                "item": "https://just-escape.fr/"
+                "item": "https://just-escape.fr/{{ lang }}"
             },
             {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Murder Party",
-                "item": "https://just-escape.fr/murder-party"
+                "item": "https://just-escape.fr/{{ lang }}murder-party"
             }
         ]
     }

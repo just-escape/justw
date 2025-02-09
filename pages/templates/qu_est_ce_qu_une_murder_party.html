@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load i18n %}
+
 {% block title %}Qu'est-ce qu'une Murder Party ? – Just Escape{% endblock %}
 {% block description %}Une murder party est une jeu d'immersion grandeur nature dans lequel vous incarnez les personnages de l'histoire. Découvrez tout le piquant de ce genre de jeu original...{% endblock %}
 
@@ -171,19 +173,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Just Escape",
-                "item": "https://just-escape.fr/"
+                "item": "https://just-escape.fr/{{ lang }}"
             },
             {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Murder Party",
-                "item": "https://just-escape.fr/murder-party"
+                "item": "https://just-escape.fr/{{ lang }}murder-party"
             },
             {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Qu'est-ce qu'une murder party ?",
-                "item": "https://just-escape.fr/murder-party/qu-est-ce-qu-une-murder-party"
+                "name": "{% trans "Qu'est-ce qu'une murder party ?" %}",
+                "item": "https://just-escape.fr/{{ lang }}murder-party/qu-est-ce-qu-une-murder-party"
             }
         ]
     }
