@@ -578,13 +578,6 @@ def error404(request):
     return r
 
 
-def confirmation(request):
-    data = {'current_page': 'confirmation', 'noindex': True, 'lang': get_lang(request), 'localized': True}
-    r = render(request, 'confirmation.html', data)
-    r['X-Robots-Tag'] = 'noindex'
-    return r
-
-
 def contact(request):
     form, error, success = handle_subscription(request)
 
@@ -598,24 +591,6 @@ def contact(request):
     }
 
     return render(request, 'contact.html', data)
-
-
-def unsubscribe(request):
-    form, error, success = handle_unsubscription(request)
-
-    data = {
-        'current_page': 'desabonnement',
-        'noindex': True,
-        'lang': get_lang(request),
-        'localized': True,
-        'form': form,
-        'unexpected_error': error,
-        'subscription_success': success,
-    }
-
-    r = render(request, 'unsubscribe.html', data)
-    r['X-Robots-Tag'] = 'noindex'
-    return r
 
 
 def terms(request):
