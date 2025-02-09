@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-09 11:51+0100\n"
+"POT-Creation-Date: 2025-02-09 12:20+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -386,25 +386,6 @@ msgid ""
 "les uns les autres. Allez-vous sauvez l'empereur ?"
 msgstr ""
 
-#: pages/templates/component/quote_form.html:10
-#: pages/templates/contact.html:152
-msgid "An unexpected error happened. Please contact us directly."
-msgstr ""
-"Une erreur inattendue s&#39;est produite. Merci de nous contacter "
-"directement."
-
-#: pages/templates/component/quote_form.html:18
-msgid ""
-"Your application has been transmitted. We will provide an answer as soon as "
-"possible."
-msgstr ""
-"Votre demande a été transmise. Nous vous répondrons dans les plus brefs "
-"délais."
-
-#: pages/templates/component/quote_form.html:194
-msgid "Submit"
-msgstr "Envoyer"
-
 #: pages/templates/conditions.html:5
 msgid "Conditions of Use – Escape Game Lille – Just Escape"
 msgstr "CGU – Escape Game Lille – Just Escape"
@@ -644,6 +625,12 @@ msgstr ""
 #: pages/templates/contact.html:147
 msgid "Newsletter"
 msgstr "Newsletter"
+
+#: pages/templates/contact.html:152
+msgid "An unexpected error happened. Please contact us directly."
+msgstr ""
+"Une erreur inattendue s&#39;est produite. Merci de nous contacter "
+"directement."
 
 #: pages/templates/contact.html:159
 msgid "Thank you and see you soon!"
@@ -1152,7 +1139,7 @@ msgid "Escape rooms"
 msgstr "Escape rooms"
 
 #: pages/templates/header.html:40 pages/templates/header.html:162
-#: pages/templates/header.html:220 pages/templates/teambuilding.html:405
+#: pages/templates/header.html:220 pages/templates/teambuilding.html:403
 msgid "Team Building"
 msgstr "Team Building"
 
@@ -1333,11 +1320,11 @@ msgstr ""
 msgid "Un laser met en difficulté l'équipe"
 msgstr ""
 
-#: pages/templates/home.html:174 pages/templates/teambuilding.html:107
+#: pages/templates/home.html:174 pages/templates/teambuilding.html:105
 msgid "Previous"
 msgstr "Précédent"
 
-#: pages/templates/home.html:178 pages/templates/teambuilding.html:111
+#: pages/templates/home.html:178 pages/templates/teambuilding.html:109
 msgid "Next"
 msgstr "Suivant"
 
@@ -1627,7 +1614,7 @@ msgid ""
 "50 collaborateurs."
 msgstr ""
 
-#: pages/templates/home.html:503 pages/templates/teambuilding.html:239
+#: pages/templates/home.html:503 pages/templates/teambuilding.html:237
 msgid "Team building pour entreprise dans un escape game"
 msgstr ""
 
@@ -2156,21 +2143,9 @@ msgstr "Salles"
 msgid "Visit card displaying a person and lines of text"
 msgstr "Carte de visite affichant une personne et des lignes de texte"
 
-#: pages/templates/svg/apple-alt.svg:2
-msgid "Delicious apple with a leaf"
-msgstr "Délicieuse pomme avec une feuille"
-
 #: pages/templates/svg/arrow-right.svg:2
 msgid "Directional arrow"
 msgstr "Flèche directionnelle"
-
-#: pages/templates/svg/beer.svg:2
-msgid "Mug filled with Northern beer"
-msgstr "Chope remplie de bière du Nord"
-
-#: pages/templates/svg/bicycle.svg:2
-msgid "Bicycle pointing to the right"
-msgstr "Vélo digiré vers la droite"
 
 #: pages/templates/svg/bus.svg:2
 msgid "Old school bus facing the screen"
@@ -2198,26 +2173,6 @@ msgstr "Temps pour résoudre les énigmes"
 msgid "Kitchen clock indicating four o&#39;clock"
 msgstr "Horloge de cuisine indiquant quatre heures"
 
-#: pages/templates/svg/cocktail.svg:2
-msgid "Triangular shaped cocktail glass with a slice of lemon attached"
-msgstr "Verre de cocktail de forme triangulaire avec une tranche de citron"
-
-#: pages/templates/svg/coffee.svg:2
-msgid "Cup of coffee lying on an undercup"
-msgstr "Tasse de café posée sur une soucoupe"
-
-#: pages/templates/svg/credit-card.svg:2
-msgid "Credit card with undistinguishable information"
-msgstr "Carte de crédit avec des informations indiscernables"
-
-#: pages/templates/svg/discount.svg:2
-msgid ""
-"Cheap price discount voucher with a minus followed by a percent sign written "
-"on it"
-msgstr ""
-"Coupon de réduction pas cher avec un signe moins suivi par un signe de "
-"pourcentage écrit dessus"
-
 #: pages/templates/svg/door-background.svg:2
 msgid ""
 "Border of Just Escape&#39;s logo with a miniature of the website&#39;s index "
@@ -2240,25 +2195,9 @@ msgstr ""
 "Boîte cadeau d'anniversaire avec des bandeaux bouclés qui n'est pas encore "
 "ouvert"
 
-#: pages/templates/svg/glass-cheers.svg:2
-msgid "Two filled wine glasses having a toast"
-msgstr "Deux verres de vin en train de trinquer"
-
-#: pages/templates/svg/grin-beam.svg:2
-msgid "Grin face with smiling eyes emoji"
-msgstr "Emoji d'un visage souriant aux yeux souriants"
-
-#: pages/templates/svg/info-circle.svg:2
-msgid "Lowercase i inside a circle inviting you to click for more info"
-msgstr "i minuscule dans un cercle vous invitant à cliquer pour plus d'infos"
-
 #: pages/templates/svg/instagram.svg:2
 msgid "Instagram"
 msgstr "Instagram"
-
-#: pages/templates/svg/just-escape-door.svg:2
-msgid "Just Escape logo with no text: an escape room door"
-msgstr "Logo de Just Escape sans texte : une porte d'escape room"
 
 #: pages/templates/svg/just-escape-white.svg:2
 #: pages/templates/svg/just-escape.svg:2
@@ -2281,35 +2220,9 @@ msgstr "Linkedin"
 msgid "Map marker"
 msgstr "Repère cartographique"
 
-#: pages/templates/svg/presentation.svg:2
-msgid ""
-"An animator pointing something on a whiteboard with their finger in the "
-"background to a team of 3 persons in the foreground"
-msgstr ""
-"Un animateur pointant quelque chose avec son doigt sur un tableau blanc à "
-"l'arrière plan face à une team de 3 personnes au premier plan"
-
-#: pages/templates/svg/question-circle.svg:2
-msgid "Question mark inside a circle inviting you to click if you're wondering"
-msgstr ""
-"Point d'interrogation dans un cercle vous invitant à cliquer si vous vous "
-"posez une question"
-
-#: pages/templates/svg/question-mark.svg:3
-msgid "A new escape room"
-msgstr "Une nouvelle escape room"
-
-#: pages/templates/svg/quote-left.svg:2
-msgid "Opening quote mark"
-msgstr "Guillemets ouvrants"
-
 #: pages/templates/svg/subway.svg:2
 msgid "Subway facing the screen"
 msgstr "Métro faisant face à l'écran"
-
-#: pages/templates/svg/times.svg:2
-msgid "X shaped cross"
-msgstr "Croix en forme de X"
 
 #: pages/templates/svg/tripadvisor.svg:2
 msgid "Tripadvisor"
@@ -2355,41 +2268,41 @@ msgstr ""
 msgid "Team Building – Turnkey Packages"
 msgstr "Team Building – Packs Clé en Main"
 
-#: pages/templates/teambuilding.html:73
+#: pages/templates/teambuilding.html:71
 msgid ""
 "Dans une salle d'escape game à Lille, deux collègues sont contentes de leur "
 "team building"
 msgstr ""
 
-#: pages/templates/teambuilding.html:80
+#: pages/templates/teambuilding.html:78
 msgid "La salle de séminaire avec sa baie vitrée"
 msgstr ""
 
-#: pages/templates/teambuilding.html:87
+#: pages/templates/teambuilding.html:85
 msgid "Un cocktail dinatoire réunit une équipe célèbrant un événement"
 msgstr ""
 
-#: pages/templates/teambuilding.html:94
+#: pages/templates/teambuilding.html:92
 msgid "Puzzle qui demande de la reflexion et de la communication"
 msgstr ""
 
-#: pages/templates/teambuilding.html:101
+#: pages/templates/teambuilding.html:99
 msgid "Une énigme qui demande de la cohésion d'équipe"
 msgstr ""
 
-#: pages/templates/teambuilding.html:162
+#: pages/templates/teambuilding.html:160
 msgid "Une salle de séminaire à Lille tout équipé pour des formations"
 msgstr ""
 
-#: pages/templates/teambuilding.html:193
+#: pages/templates/teambuilding.html:191
 msgid "Une grande salle de séminaire à Lille"
 msgstr ""
 
-#: pages/templates/teambuilding.html:260
+#: pages/templates/teambuilding.html:258
 msgid "Une activité immersive de murder party à Lille"
 msgstr ""
 
-#: pages/templates/teambuilding.html:281
+#: pages/templates/teambuilding.html:279
 msgid "Le centre d'escape game de Lille de Just Escape"
 msgstr ""
 
