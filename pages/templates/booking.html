@@ -19,7 +19,7 @@
           <div>
             <ol class="breadcrumb softdark py-2">
                     <li class="breadcrumb-item"><a href="/{{ lang }}" class="fill-jaffa svg-16px">{% include "svg/home.svg" %}</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Réserver</li>
+                    <li class="breadcrumb-item active" aria-current="page">{% trans "Réserver" %}</li>
             </ol>
           </div>
 
@@ -40,12 +40,6 @@
 {% endblock %}
 
 {% block post_base_js %}
-  {% if subscription_success %}
-    <script>
-      $('#newsletter-email-bar').popover('show');
-      $('#newsletter-email-bar').popover('disable');
-    </script>
-  {% endif %}
 
    <script>
    !function(e,t){var r=e.createElement(t),a=e.getElementsByTagName(t)[0],n=new Date,s=""+n.getFullYear()+("0"+(n.getMonth()+1)).slice(-2)+("0"+n.getDate()).slice(-2);r.defer=1,r.src="https://justescape.4escape.io/public/js/iframe.min.js?v="+s,a.parentNode.insertBefore(r,a)}(document,"script");

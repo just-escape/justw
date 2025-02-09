@@ -1,10 +1,12 @@
 {% extends "base.html" %}
 
-{% block title %}Une activité originale pour un EVJF réussi ? – Just Escape{% endblock %}
-{% block description %}Plus besoin de se creuser la tête pour trouver la prochaine activité d'EVJF. L'escape game pour EVJF met tout le monde d'accord de par son originalité !{% endblock %}
+{% load i18n %}
 
-{% block og_title %}Une activité originale pour un EVJF réussi ? – Just Escape{% endblock %}
-{% block og_description %}Plus besoin de se creuser la tête pour trouver la prochaine activité d'EVJF. L'escape game pour EVJF met tout le monde d'accord de par son originalité !{% endblock %}
+{% block title %}{% trans "Une activité originale pour un EVJF réussi ? – Just Escape" %}{% endblock %}
+{% block description %}{% trans "Plus besoin de se creuser la tête pour trouver la prochaine activité d'EVJF. L'escape game pour EVJF met tout le monde d'accord de par son originalité !" %}{% endblock %}
+
+{% block og_title %}{% trans "Une activité originale pour un EVJF réussi ? – Just Escape" %}{% endblock %}
+{% block og_description %}{% trans "Plus besoin de se creuser la tête pour trouver la prochaine activité d'EVJF. L'escape game pour EVJF met tout le monde d'accord de par son originalité !" %}{% endblock %}
 
 {% block pre_content %}{% endblock %}
 
@@ -17,14 +19,14 @@
       <picture>
         <source srcset="/static/img/escape-game-evjf.webp" type="image/webp">
         <source srcset="/static/img/escape-game-evjf.jpg" type="image/jpg">
-        <img class="position-absolute" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/escape-game-evjf.webp" alt="Un escape game en EVJF">
+        <img class="position-absolute" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/escape-game-evjf.webp" alt="{% trans "Un escape game en EVJF" %}">
       </picture>
     </div>
 
     <div class="container h-100">
       <div class="row h-100">
         <div class="col d-flex flex-column justify-content-end text-cover">
-          <h1 class="text-inter text-center font-weight-normal">Un escape game pour réussir votre <span class="text-mulberry">EVJF</span> ?</h1>
+                <h1 class="text-inter text-center font-weight-normal">{% trans "Un escape game pour réussir votre <span class='text-mulberry'>EVJF</span> ?" %}</h1>
         </div>
       </div>
     </div>
@@ -37,8 +39,8 @@
           <div>
             <ol class="breadcrumb dark py-2">
                     <li class="breadcrumb-item"><a href="/{{ lang }}" class="fill-jaffa svg-16px">{% include "svg/home.svg" %}</a></li>
-              <li class="breadcrumb-item active">Votre événement</li>
-              <li class="breadcrumb-item active" aria-current="page">EVJF</li>
+                    <li class="breadcrumb-item active">{% trans "Votre événement" %}</li>
+                    <li class="breadcrumb-item active" aria-current="page">{% trans "EVJF" %}</li>
             </ol>
           </div>
         </div>
@@ -46,8 +48,8 @@
 
       <div class="row mb-4">
         <div class="col text-center">
-          <h2 class="text-inter font-weight-bold">Organiser un EVJF inoubliable à Lille</h2>
-          <div class="font-weight-bold size-15 mb-2">Choisissez le pack EVJF lors de la réservation</div>
+                <h2 class="text-inter font-weight-bold">{% trans "Organiser un EVJF inoubliable à Lille" %}</h2>
+                <div class="font-weight-bold size-15 mb-2">{% trans "Choisissez le pack EVJF lors de la réservation" %}</div>
         </div>
       </div>
 
@@ -55,10 +57,10 @@
         <div class="col-12 col-lg-4 mb-4">
           <div class="card transparent border-light border-2px h-100">
             <div class="card-header">
-              <h3 class="text-center text-inter font-weight-bold mb-0">Défiez vos <span class="text-mulberry">limites</span> !</h3>
+                    <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "Défiez vos <span class='text-mulberry'>limites</span> !" %}</h3>
             </div>
             <div class="card-body size-11 text-center lh-12 pt-0">
-              <div>Relevez des défis stimulants et originaux qui exigent collaboration et créativité pour être résolus. Un véritable défi attend toutes les participantes, mettant à l'épreuve leurs compétences.</div>
+                    <div>{% trans "Relevez des défis stimulants et originaux qui exigent collaboration et créativité pour être résolus. Un véritable défi attend toutes les participantes, mettant à l'épreuve leurs compétences." %}</div>
             </div>
           </div>
         </div>
@@ -66,13 +68,13 @@
         <div class="col-12 col-lg-4 mb-4">
           <div class="card transparent border-light border-2px h-100">
             <div class="card-header">
-              <h3 class="text-center text-inter font-weight-bold mb-0">L'originalité est le meilleur moyen de :</h3>
+                    <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "L'originalité est le meilleur moyen de :" %}</h3>
             </div>
             <div class="card-body size-11 text-center lh-12 pt-0">
               <ul>
-                <li>Créer des souvenirs mémorables</li>
-                <li>Rendre la future mariée unique !</li>
-                <li>Vivre une expérience ludique et pimenter votre EVJF</li>
+                      <li>{% trans "Créer des souvenirs mémorables" %}</li>
+                      <li>{% trans "Rendre la future mariée unique !" %}</li>
+                      <li>{% trans "Vivre une expérience ludique et pimenter votre EVJF" %}</li>
               </ul>
             </div>
           </div>
@@ -81,10 +83,10 @@
         <div class="col-12 col-lg-4 mb-4">
           <div class="card transparent border-light border-2px h-100">
             <div class="card-header">
-              <h3 class="text-center text-inter font-weight-bold mb-0">Pour que la mariée s'en souvienne</h3>
+                    <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "Pour que la mariée s'en souvienne" %}</h3>
             </div>
             <div class="card-body size-11 text-center lh-12 pt-0">
-              <p>C'est le moment idéal pour s'éclater entre amies... Entre énigmes à résoudre et fous-rire, nous vous accueillons pour vous faire vivre un moment inoubliable lors d'une session de jeu.</p>
+                    <p>{% trans "C'est le moment idéal pour s'éclater entre amies... Entre énigmes à résoudre et fous-rire, nous vous accueillons pour vous faire vivre un moment inoubliable lors d'une session de jeu." %}</p>
             </div>
           </div>
         </div>
@@ -92,13 +94,13 @@
         <div class="col-12 mb-4">
           <div class="card transparent border-light border-2px h-100">
             <div class="card-header">
-              <h3 class="text-center text-inter font-weight-bold mb-0">Inclus dans la formule</h3>
+                    <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "Inclus dans la formule" %}</h3>
             </div>
             <div class="card-body size-11 text-center lh-12 pt-0">
-              <p>Boisson rafraîchissante par personne pendant l'enquête.</p>
-              <p>Privatisation de la salle de réception et accès à des jeux de société avant ou après la session.</p>
-              <p>Collations adaptées selon le moment de la journée (apéritif, goûter).</p>
-              <p>Petit cadeau spécial pour la mariée.</p>
+                    <p>{% trans "Boisson rafraîchissante par personne pendant l'enquête." %}</p>
+                    <p>{% trans "Privatisation de la salle de réception et accès à des jeux de société avant ou après la session." %}</p>
+                    <p>{% trans "Collations adaptées selon le moment de la journée (apéritif, goûter)." %}</p>
+                    <p>{% trans "Petit cadeau spécial pour la mariée." %}</p>
             </div>
           </div>
         </div>
@@ -106,10 +108,10 @@
         <div class="col-12 mb-4">
           <div class="card transparent border-light border-2px h-100">
             <div class="card-header">
-              <h3 class="text-center text-inter font-weight-bold mb-0">Une aventure unique vous attend</h3>
+                    <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "Une aventure unique vous attend" %}</h3>
             </div>
             <div class="card-body size-11 text-center lh-12 pt-0">
-                    <p>Créez des <b>souvenirs inoubliables</b> avec notre équipe passionnée. Que vous optiez pour un <b>événement clé en main ou personnalisé</b>, nous nous occupons de tout pour <b>rendre la journée de la future mariée spéciale</b>. Profitez de nos expériences uniques, et choisissez nos packs EVJF. Une journée mémorable alliant <b>défis</b> d'équipe et moments <b>délirants</b> entre copines vous attend !</p>
+                    {% trans "<p>Créez des <b>souvenirs inoubliables</b> avec notre équipe passionnée. Que vous optiez pour un <b>événement clé en main ou personnalisé</b>, nous nous occupons de tout pour <b>rendre la journée de la future mariée spéciale</b>. Profitez de nos expériences uniques, et choisissez nos packs EVJF. Une journée mémorable alliant <b>défis</b> d'équipe et moments <b>délirants</b> entre copines vous attend !</p>" %}
             </div>
           </div>
         </div>
@@ -117,7 +119,7 @@
 
       <div class="row justify-content-center mb-5">
         <div class="col-12 col-lg-6 text-center">
-                <a href="/{{ lang }}reserver" class="btn btn-primary p-3 size-12 d-flex flex-column justify-content-center"><span><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/calendar-check.svg" %}</span>Je réserve une séance</span></a>
+                <a href="/{{ lang }}reserver" class="btn btn-primary p-3 size-12 d-flex flex-column justify-content-center"><span><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/calendar-check.svg" %}</span>{% trans "Je réserve une séance" %}</span></a>
         </div>
       </div>
     </div>
@@ -132,7 +134,7 @@
       </div>
 
       <div class="row">
-        <h2>Une question sur un événement EVJF ? Consultez notre FAQ</h2>
+              <h2>{% trans "Une question sur un événement EVJF ? Consultez notre FAQ" %}</h2>
       </div>
 
       <div class="row">
@@ -141,15 +143,15 @@
           <div class="p-3 border-solid border-light rounded mb-3" id="qa-04" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div id="question-04" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-04" aria-expanded="false" aria-controls="answer-04" itemprop="name" role="button">
               <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Y a-t-il des réductions pour les groupes lors de la réservation d'une activité EVJF ?
+              {% trans "Y a-t-il des réductions pour les groupes lors de la réservation d'une activité EVJF ?" %}
             </div>
             <div id="answer-04" class="collapse" aria-labelledby="question-04" data-parent="#qa-04" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p class="mt-3">
-                  Oui, nous proposons souvent des tarifs de groupe pour les activités EVJF.
+                {% trans "Oui, nous proposons souvent des tarifs de groupe pour les activités EVJF." %}
                 </p>
                 <p class="mb-0">
-                <a href="/{{ lang }}contact" rel="nofollow">Contactez-nous</a> directement pour en savoir plus.
+                {% trans "<a href='/contact' rel='nofollow'>Contactez-nous</a> directement pour en savoir plus." %}
                 </p>
               </div>
             </div>
@@ -160,20 +162,20 @@
           <div class="p-3 border-solid border-light rounded mb-3" id="qa-03" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div id="question-03" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-03" aria-expanded="false" aria-controls="answer-03" itemprop="name" role="button">
               <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Quelle activité choisir pour un EVJF ?
+              {% trans "Quelle activité choisir pour un EVJF ?" %}
             </div>
             <div id="answer-03" class="collapse" aria-labelledby="question-03" data-parent="#qa-03" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p class="mt-3">
-                  Le choix de l'activité est important pour réussir un EVJF. C'est pourquoi vous pouvez choisir entre différents jeux.
+                {% trans "Le choix de l'activité est important pour réussir un EVJF. C'est pourquoi vous pouvez choisir entre différents jeux." %}
                 </p>
                 <p class="mb-0">
                   <ul>
-                          <li>La <a href="/{{ lang }}murder-party-redrock-saloon">Murder Party Western</a> : Cluedo grandeur nature</li>
-                          <li><a href="/{{ lang }}murder-party-le-tournoi-des-sorciers">Le tournoi des Sorciers</a> : Murder Party dans des décors de 100m²</li>
-                          <li>La <a href="/{{ lang }}killer-party">Killer Party</a> : Among Us dans un escape game</li>
-                          <li>L'<a href="/{{ lang }}salles">Escape Game</a> : Escape room ambiance star wars</li>
-                          <li>La <a href="/{{ lang }}murder-dinner">Murder Dinner</a> : Trahisons autour d'un repas</li>
+                          <li>{% trans "La <a href='/murder-party-redrock-saloon'>Murder Party Western</a> : Cluedo grandeur nature" %}</li>
+                          <li>{% trans "<a href='/murder-party-le-tournoi-des-sorciers'>Le tournoi des Sorciers</a> : Murder Party dans des décors de 100m²" %}</li>
+                          <li>{% trans "La <a href='/killer-party'>Killer Party</a> : Among Us dans un escape game" %}</li>
+                          <li>{% trans "L'<a href='/salles'>Escape Game</a> : Escape room ambiance star wars" %}</li>
+                          <li>{% trans "La <a href='/murder-dinner'>Murder Dinner</a> : Trahisons autour d'un repas" %}</li>
                   </ul>
                 </p>
               </div>
@@ -185,12 +187,12 @@
           <div class="p-3 border-solid border-light rounded mb-3" id="qa-02" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div id="question-02" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-02" aria-expanded="false" aria-controls="answer-02" itemprop="name" role="button">
               <span class="transition-03s fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              À combien peut-on faire un EVJF ?
+              {% trans "À combien peut-on faire un EVJF ?" %}
             </div>
             <div id="answer-02" class="collapse" aria-labelledby="question-02" data-parent="#qa-02" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p class="mt-3">
-                  Jouable de 2 à 120 joueurs, nos activités s'adaptent à tous les âges et sont idéales pour toutes les occasions telles qu'un EVJF/EVG.
+                {% trans "Jouable de 2 à 120 joueurs, nos activités s'adaptent à tous les âges et sont idéales pour toutes les occasions telles qu'un EVJF/EVG." %}
                 </p>
               </div>
             </div>
@@ -205,8 +207,8 @@
     <div class="container">
       <div class="row justify-content-center mb-3">
         <div class="col text-center">
-          <h2 class="text-inter font-weight-bold mb-0">Les activités originales de Just Escape</h2>
-          <div class="text-inter size-15">Organiser un <strong>EVJF de rêve</strong></div>
+                <h2 class="text-inter font-weight-bold mb-0">{% trans "Les activités originales de Just Escape" %}</h2>
+                <div class="text-inter size-15">{% trans "Organiser un <strong>EVJF de rêve</strong>" %}</div>
         </div>
       </div>
 
@@ -238,7 +240,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 mb-4 text-center">
-          <p>Pour toute question ou demande d'information supplémentaire, contactez-nous.</p>
+                <p>{% trans "Pour toute question ou demande d'information supplémentaire, contactez-nous." %}</p>
           <div class="card transparent border-light border-2px h-100">
             <div class="card-header">
               <h3 class="text-center text-inter text-jaffa font-weight-bold mb-0">Contact</h3>
@@ -292,13 +294,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Just Escape",
-                "item": "https://just-escape.fr/"
+                "item": "https://just-escape.fr/{{ lang }}"
             },
             {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Escape Game EVJF",
-                "item": "https://just-escape.fr/escape-game-evjf"
+                "item": "https://just-escape.fr/{{ lang }}escape-game-evjf"
             }
         ]
     }

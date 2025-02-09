@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-09 12:24+0100\n"
+"POT-Creation-Date: 2025-02-09 15:05+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -91,11 +91,15 @@ msgstr "Réserver ⚡"
 msgid "Book an escape room"
 msgstr "Réservez une escape room"
 
+#: pages/templates/booking.html:22
+msgid "Réserver"
+msgstr ""
+
 #: pages/templates/booking.html:26 pages/templates/room.html:159
 msgid "Booking form"
 msgstr "Formulaire de réservation"
 
-#: pages/templates/booking.html:68 pages/templates/gift-voucher.html:66
+#: pages/templates/booking.html:62 pages/templates/gift-voucher.html:66
 #: pages/templates/header.html:32
 msgid "Booking"
 msgstr "Je réserve"
@@ -644,6 +648,211 @@ msgstr "marmitron@justescape.fr"
 msgid "Subscribe"
 msgstr "Je m&#39;abonne"
 
+#: pages/templates/escape_game_evjf.html:5
+#: pages/templates/escape_game_evjf.html:8
+msgid "Une activité originale pour un EVJF réussi ? – Just Escape"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:6
+#: pages/templates/escape_game_evjf.html:9
+msgid ""
+"Plus besoin de se creuser la tête pour trouver la prochaine activité d'EVJF. "
+"L'escape game pour EVJF met tout le monde d'accord de par son originalité !"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:22
+#, fuzzy
+#| msgid "Escape game EVJF"
+msgid "Un escape game en EVJF"
+msgstr "Escape game EVJF"
+
+#: pages/templates/escape_game_evjf.html:29
+#, fuzzy
+#| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+msgid ""
+"Un escape game pour réussir votre <span class='text-mulberry'>EVJF</span> ?"
+msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+
+#: pages/templates/escape_game_evjf.html:42
+msgid "Votre événement"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:43 pages/templates/header.html:53
+msgid "EVJF"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:51
+msgid "Organiser un EVJF inoubliable à Lille"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:52
+msgid "Choisissez le pack EVJF lors de la réservation"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:60
+#, fuzzy
+#| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+msgid "Défiez vos <span class='text-mulberry'>limites</span> !"
+msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+
+#: pages/templates/escape_game_evjf.html:63
+msgid ""
+"Relevez des défis stimulants et originaux qui exigent collaboration et "
+"créativité pour être résolus. Un véritable défi attend toutes les "
+"participantes, mettant à l'épreuve leurs compétences."
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:71
+msgid "L'originalité est le meilleur moyen de :"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:75
+msgid "Créer des souvenirs mémorables"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:76
+msgid "Rendre la future mariée unique !"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:77
+msgid "Vivre une expérience ludique et pimenter votre EVJF"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:86
+msgid "Pour que la mariée s'en souvienne"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:89
+msgid ""
+"C'est le moment idéal pour s'éclater entre amies... Entre énigmes à résoudre "
+"et fous-rire, nous vous accueillons pour vous faire vivre un moment "
+"inoubliable lors d'une session de jeu."
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:97
+msgid "Inclus dans la formule"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:100
+msgid "Boisson rafraîchissante par personne pendant l'enquête."
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:101
+msgid ""
+"Privatisation de la salle de réception et accès à des jeux de société avant "
+"ou après la session."
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:102
+msgid "Collations adaptées selon le moment de la journée (apéritif, goûter)."
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:103
+msgid "Petit cadeau spécial pour la mariée."
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:111
+msgid "Une aventure unique vous attend"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:114
+msgid ""
+"<p>Créez des <b>souvenirs inoubliables</b> avec notre équipe passionnée. Que "
+"vous optiez pour un <b>événement clé en main ou personnalisé</b>, nous nous "
+"occupons de tout pour <b>rendre la journée de la future mariée spéciale</b>. "
+"Profitez de nos expériences uniques, et choisissez nos packs EVJF. Une "
+"journée mémorable alliant <b>défis</b> d'équipe et moments <b>délirants</b> "
+"entre copines vous attend !</p>"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:122 pages/templates/header.html:173
+#: pages/templates/home.html:37 pages/templates/home.html:191
+#: pages/templates/home.html:925
+msgid "Je réserve une séance"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:137
+msgid "Une question sur un événement EVJF ? Consultez notre FAQ"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:146
+msgid ""
+"Y a-t-il des réductions pour les groupes lors de la réservation d'une "
+"activité EVJF ?"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:151
+msgid ""
+"Oui, nous proposons souvent des tarifs de groupe pour les activités EVJF."
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:154
+msgid ""
+"<a href='/contact' rel='nofollow'>Contactez-nous</a> directement pour en "
+"savoir plus."
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:165
+msgid "Quelle activité choisir pour un EVJF ?"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:170
+msgid ""
+"Le choix de l'activité est important pour réussir un EVJF. C'est pourquoi "
+"vous pouvez choisir entre différents jeux."
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:174
+msgid ""
+"La <a href='/murder-party-redrock-saloon'>Murder Party Western</a> : Cluedo "
+"grandeur nature"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:175
+msgid ""
+"<a href='/murder-party-le-tournoi-des-sorciers'>Le tournoi des Sorciers</"
+"a> : Murder Party dans des décors de 100m²"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:176
+msgid ""
+"La <a href='/killer-party'>Killer Party</a> : Among Us dans un escape game"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:177
+msgid "L'<a href='/salles'>Escape Game</a> : Escape room ambiance star wars"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:178
+msgid ""
+"La <a href='/murder-dinner'>Murder Dinner</a> : Trahisons autour d'un repas"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:190
+msgid "À combien peut-on faire un EVJF ?"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:195
+msgid ""
+"Jouable de 2 à 120 joueurs, nos activités s'adaptent à tous les âges et sont "
+"idéales pour toutes les occasions telles qu'un EVJF/EVG."
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:210
+#, fuzzy
+#| msgid "La création de Just Escape"
+msgid "Les activités originales de Just Escape"
+msgstr "La création de Just Escape"
+
+#: pages/templates/escape_game_evjf.html:211
+msgid "Organiser un <strong>EVJF de rêve</strong>"
+msgstr ""
+
+#: pages/templates/escape_game_evjf.html:243 pages/templates/room.html:223
+msgid ""
+"Pour toute question ou demande d'information supplémentaire, contactez-nous."
+msgstr ""
+
 #: pages/templates/faq.html:7
 msgid "FAQ – Escape Game Lille – Just Escape"
 msgstr "FAQ – Escape Game Lille – Just Escape"
@@ -1143,10 +1352,6 @@ msgstr "Escape rooms"
 msgid "Team Building"
 msgstr "Team Building"
 
-#: pages/templates/header.html:53
-msgid "EVJF"
-msgstr ""
-
 #: pages/templates/header.html:56
 msgid "EVG"
 msgstr ""
@@ -1185,11 +1390,6 @@ msgstr ""
 
 #: pages/templates/header.html:157
 msgid "Activités Anniversaire"
-msgstr ""
-
-#: pages/templates/header.html:173 pages/templates/home.html:37
-#: pages/templates/home.html:191 pages/templates/home.html:925
-msgid "Je réserve une séance"
 msgstr ""
 
 #: pages/templates/header.html:196 pages/templates/pricing.html:67
@@ -2120,11 +2320,6 @@ msgid ""
 "généralement des options de stationnement à proximité de notre emplacement. "
 "Nous vous recommandons de vérifier les possibilités de stationnement dans "
 "les environs avant votre visite."
-msgstr ""
-
-#: pages/templates/room.html:223
-msgid ""
-"Pour toute question ou demande d'information supplémentaire, contactez-nous."
 msgstr ""
 
 #: pages/templates/room.html:228
