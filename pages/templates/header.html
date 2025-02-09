@@ -50,16 +50,16 @@
               <div class="d-flex flex-column flex-sm-row justify-content-md-end justify-content-sm-between ml-3 ml-lg-0 my-1">
                 <ul class="d-flex flex-column flex-sm-row ul-no-style pl-0 my-2 my-sm-0">
                   <li>
-                    <a class="size-reductible-nav-bis text-hover-mulberry mr-4" href="/escape-game-evjf">{% trans "EVJF" %}</a>
+                          <a class="size-reductible-nav-bis text-hover-mulberry mr-4" href="/{{ lang }}escape-game-evjf">{% trans "EVJF" %}</a>
                   </li>
                   <li>
-                    <a class="size-reductible-nav-bis text-hover-mulberry mr-4" href="/escape-game-evg">{% trans "EVG" %}</a>
+                          <a class="size-reductible-nav-bis text-hover-mulberry mr-4" href="/{{ lang }}escape-game-evg">{% trans "EVG" %}</a>
                   </li>
                   <li>
-                    <a class="size-reductible-nav-bis text-hover-mulberry mr-4" href="/escape-game-anniversaire">{% trans "Anniversaire" %}</a>
+                          <a class="size-reductible-nav-bis text-hover-mulberry mr-4" href="/{{ lang }}escape-game-anniversaire">{% trans "Anniversaire" %}</a>
                   </li>
                   <li>
-                    <a class="size-reductible-nav-bis text-hover-mulberry mr-4" href="/carte-cadeau">{% trans "Carte cadeau" %}</a>
+                          <a class="size-reductible-nav-bis text-hover-mulberry mr-4" href="/{{ lang }}carte-cadeau">{% trans "Carte cadeau" %}</a>
                   </li>
                   <li>
                     <a class="size-reductible-nav-bis text-hover-mulberry mr-4" href="/{{ lang }}faq">{% trans "FAQ" %}</a>
@@ -143,32 +143,32 @@
     <div class="container dark w-100 collapse" id="navbarToggle">
       <div class="row text-inter py-2">
         <div class="col-12 py-1">
-          <a href="/escape-game-evjf">
+                <a href="/{{ lang }}escape-game-evjf">
             {% trans "Activités EVJF" %}
           </a>
         </div>
         <div class="col-12 py-1">
-          <a href="/escape-game-evg">
+                <a href="/{{ lang }}escape-game-evg">
             {% trans "Activités EVG" %}
           </a>
         </div>
         <div class="col-12 py-1">
-          <a href="/escape-game-anniversaire">
+                <a href="/{{ lang }}escape-game-anniversaire">
             {% trans "Activités Anniversaire" %}
           </a>
         </div>
         <div class="col-12 py-1">
-          <a href="/team-building">
+                <a href="/{{ lang }}team-building">
             {% trans "Team Building" %}
           </a>
         </div>
         <div class="col-12 py-1">
-          <a href="/carte-cadeau">
+                <a href="/{{ lang }}carte-cadeau">
             {% trans "Carte cadeau" %}
           </a>
         </div>
         <div class="col-12 py-1">
-          <a class="btn btn-primary" href="/reserver">
+                <a class="btn btn-primary" href="/{{ lang }}reserver">
             <span>
             {% trans "Je réserve une séance" %}
             </span>
@@ -206,7 +206,7 @@
           </button>
         </div>
         <div class="col px-0 py-2 mobile-tile-hover">
-          <a href="/murder-party" class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <a href="/{{ lang }}murder-party" class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
             <span class="d-inline-block svg-24px fill-jaffa mb-1">{% include "svg/masks-theater.svg" %}</span>
             <div class="text-inter text-center" style="font-size: 12px">
               {% trans "Murder party" %}

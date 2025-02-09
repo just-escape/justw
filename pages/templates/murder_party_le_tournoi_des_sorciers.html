@@ -25,8 +25,8 @@
         <div class="col">
           <div>
             <ol class="breadcrumb softdark py-2">
-              <li class="breadcrumb-item"><a href="/" class="fill-jaffa svg-16px">{% include "svg/home.svg" %}</a></li>
-              <li class="breadcrumb-item"><a href="/murder-party" class="text-jaffa">Murder Party</a></li>
+                    <li class="breadcrumb-item"><a href="/{{ lang }}" class="fill-jaffa svg-16px">{% include "svg/home.svg" %}</a></li>
+                    <li class="breadcrumb-item"><a href="/{{ lang }}murder-party" class="text-jaffa">Murder Party</a></li>
               <li class="breadcrumb-item active" aria-current="page">Le Tournoi des Sorciers</li>
             </ol>
           </div>
@@ -173,7 +173,7 @@
           <div class="forescape mb-4" data-subdomain="justescape" data-type="bookings" data-rooms="677d306bc9e6d4b7e7f4467b"></div>
 
           <div class="text-center">
-            <a href="/team-building#devis" class="btn btn-primary px-5">
+                  <a href="/{{ lang }}team-building#devis" class="btn btn-primary px-5">
               <span>Je demande un devis</span>
             </a>
           </div>
@@ -268,7 +268,7 @@
     {% include "component/discover_as_well.html" with label="d'autres scénarios" what="redrock_saloon,digimiam" %}
 
     <div class="text-center">
-      <a href="/murder-party">Je retourne à la liste des murder party</a>
+            <a href="/{{ lang }}murder-party">Je retourne à la liste des murder party</a>
     </div>
   </div>
 </section>

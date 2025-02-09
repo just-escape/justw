@@ -257,7 +257,7 @@ def escape_game_evjf(request):
     data = {
         'current_page': 'escape-game-evjf',
         'lang': get_lang(request),
-        'localized': False,
+        'localized': True,
         'cover': True,
         'cover_max_transparency': True,
     }
@@ -271,7 +271,7 @@ def escape_game_evg(request):
     data = {
         'current_page': 'escape-game-evg',
         'lang': get_lang(request),
-        'localized': False,
+        'localized': True,
         'cover': True,
         'cover_max_transparency': True,
     }
@@ -285,7 +285,7 @@ def escape_game_anniversaire(request):
     data = {
         'current_page': 'escape-game-anniversaire',
         'lang': get_lang(request),
-        'localized': False,
+        'localized': True,
         'cover': True,
         'cover_max_transparency': True,
     }
@@ -300,7 +300,7 @@ def murder_party(request):
 
     data = {
         'current_page': 'murder-party',
-        'localized': False,
+        'localized': True,
         'form': form,
         'unexpected_error': error,
         'subscription_success': success,
@@ -314,7 +314,7 @@ def murder_party_redrock_saloon(request):
     data = {
         'current_page': 'murder-party-redrock-saloon',
         'lang': get_lang(request),
-        'localized': False,
+        'localized': True,
         'form': form,
         'unexpected_error': error,
         'salesquote_success': success,
@@ -328,7 +328,7 @@ def murder_party_le_tournoi_des_sorciers(request):
     data = {
         'current_page': 'murder-party-le-tournoi-des-sorciers',
         'lang': get_lang(request),
-        'localized': False,
+        'localized': True,
         'form': form,
         'unexpected_error': error,
         'salesquote_success': success,
@@ -342,7 +342,7 @@ def killer_party(request):
     data = {
         'current_page': 'killer-party',
         'lang': get_lang(request),
-        'localized': False,
+        'localized': True,
         'form': form,
         'unexpected_error': error,
         'salesquote_success': success,
@@ -356,7 +356,7 @@ def murder_dinner(request):
     data = {
         'current_page': 'murder-dinner',
         'lang': get_lang(request),
-        'localized': False,
+        'localized': True,
         'form': form,
         'unexpected_error': error,
         'salesquote_success': success,
@@ -370,7 +370,7 @@ def two_rooms(request):
     data = {
         'current_page': 'two-rooms',
         'lang': get_lang(request),
-        'localized': False,
+        'localized': True,
         'form': form,
         'unexpected_error': error,
         'salesquote_success': success,
@@ -384,7 +384,7 @@ def sherlock_vs_moriarty(request):
     data = {
         'current_page': 'sherlock-vs-moriarty',
         'lang': get_lang(request),
-        'localized': False,
+        'localized': True,
         'form': form,
         'unexpected_error': error,
         'salesquote_success': success,
@@ -396,7 +396,7 @@ def qu_est_ce_qu_une_murder_party(request):
     data = {
         'current_page': 'qu-est-ce-qu-une-murder-party',
         'lang': get_lang(request),
-        'localized': False,
+        'localized': True,
         'cover': True,
         'cover_max_transparency': True,
     }
@@ -460,7 +460,7 @@ def teambuilding(request):
     data = {
         'current_page': 'team-building',
         'lang': get_lang(request),
-        'localized': False,
+        'localized': True,
         'form': form,
         'unexpected_error': error,
         'salesquote_success': success,

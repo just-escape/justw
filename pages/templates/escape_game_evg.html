@@ -36,31 +36,13 @@
         <div class="col">
           <div>
             <ol class="breadcrumb dark py-2">
-              <li class="breadcrumb-item"><a href="/" class="fill-jaffa svg-16px">{% include "svg/home.svg" %}</a></li>
+                    <li class="breadcrumb-item"><a href="/{{ lang }}" class="fill-jaffa svg-16px">{% include "svg/home.svg" %}</a></li>
               <li class="breadcrumb-item active">Votre événement</li>
               <li class="breadcrumb-item active" aria-current="page">EVG</li>
             </ol>
           </div>
         </div>
       </div>
-
-      <!--
-      <div class="row justify-content-center mb-4">
-        <div class="col-12 col-lg-6 text-center">
-          <picture>
-            <source srcset="https://www.robespourmariage.fr/blog/wp-content/uploads/2019/05/bachelorette-party.jpg" type="image/webp">
-            <source srcset="https://www.robespourmariage.fr/blog/wp-content/uploads/2019/05/bachelorette-party.jpg" type="image/jpg">
-            <img loading="lazy" class="img-fluid w-100" src="https://www.robespourmariage.fr/blog/wp-content/uploads/2019/05/bachelorette-party.jpg" alt="">
-          </picture>
-        </div>
-      </div>
-
-      <div class="row justify-content-center mb-5">
-        <div class="col-12 col-lg-6 text-center">
-          <a href="/reserver" class="btn btn-primary p-3 size-12 d-flex flex-column justify-content-center"><span><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/calendar-check.svg" %}</span>Je réserve une séance</span></a>
-        </div>
-      </div>
-      -->
 
       <div class="row mb-4">
         <div class="col text-center">
@@ -131,7 +113,7 @@
 
       <div class="row justify-content-center mb-5">
         <div class="col-12 col-lg-6 text-center">
-          <a href="/reserver" class="btn btn-primary p-3 size-12 d-flex flex-column justify-content-center"><span><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/calendar-check.svg" %}</span>Je réserve une séance</span></a>
+                <a href="/{{ lang }}reserver" class="btn btn-primary p-3 size-12 d-flex flex-column justify-content-center"><span><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/calendar-check.svg" %}</span>Je réserve une séance</span></a>
         </div>
       </div>
     </div>
@@ -163,7 +145,7 @@
                   Oui, nous proposons souvent des tarifs de groupe pour les activités EVG.
                 </p>
                 <p class="mb-0">
-                  <a href="/contact" rel="nofollow">Contactez-nous</a> directement pour en savoir plus.
+                <a href="/{{ lang }}contact" rel="nofollow">Contactez-nous</a> directement pour en savoir plus.
                 </p>
               </div>
             </div>
@@ -432,7 +414,7 @@
             <source src="/static/vid/carte-cadeau-2-joueurs-lille.webm" type="video/webm"/>
             <p>Videos are not supported by this browser</p>
           </video>
-          <a href="/carte-cadeau" class="text-inter btn btn-light size-1">Je veux une <strong>carte cadeau</strong></a>
+          <a href="/{{ lang }}carte-cadeau" class="text-inter btn btn-light size-1">Je veux une <strong>carte cadeau</strong></a>
         </div>
       </div>
 
