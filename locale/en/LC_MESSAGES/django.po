@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-08 21:12+0100\n"
+"POT-Creation-Date: 2025-02-09 11:51+0100\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -126,10 +126,10 @@ msgid ""
 "routine à bord d'un vaisseau de transport, un des ingénieurs est retrouvé "
 "mort..."
 msgstr ""
-"In the distant future, artificial intelligences are fully integrated into our"
-"daily lives. A group of engineers are invited to check that these AIs are"
-"working properly. During a routine check aboard a transport ship, one of the"
-"engineers is found dead..."
+"In the distant future, artificial intelligences are fully integrated into "
+"ourdaily lives. A group of engineers are invited to check that these AIs "
+"areworking properly. During a routine check aboard a transport ship, one of "
+"theengineers is found dead..."
 
 #: pages/templates/component/card_killer_party.html:33
 #: pages/templates/component/card_le_tournoi_des_sorciers.html:33
@@ -197,7 +197,9 @@ msgid ""
 "expérience immersive au coeur d'un décor plus vrai que nature. Laissez la "
 "magie naître en vous et laissez le hasard choisir votre maison."
 msgstr ""
-"Get ready to put your investigative skills to the test in an immersive experience set against a larger-than-life backdrop. Let the magic begin and let chance choose your home."
+"Get ready to put your investigative skills to the test in an immersive "
+"experience set against a larger-than-life backdrop. Let the magic begin and "
+"let chance choose your home."
 
 #: pages/templates/component/card_murder_dinner.html:7
 #: pages/templates/component/card_sm_murder_dinner.html:7
@@ -230,7 +232,10 @@ msgid ""
 "repas permettra peut-être d'éclaircir la vérité. Zeus va sûrement faire "
 "entendre sa colère !"
 msgstr ""
-"Zeus invites many gods to his table. All were present. All of them... but it seems that two extra seats are taken. Could it be humans who have slipped in among Zeus' guests? Perhaps the meal will shed some light on the truth. Zeus is sure to let his anger be heard!"
+"Zeus invites many gods to his table. All were present. All of them... but it "
+"seems that two extra seats are taken. Could it be humans who have slipped in "
+"among Zeus' guests? Perhaps the meal will shed some light on the truth. Zeus "
+"is sure to let his anger be heard!"
 
 #: pages/templates/component/card_murder_dinner.html:35
 msgid "+ prix du repas"
@@ -269,7 +274,11 @@ msgid ""
 "présence d'étrangers, les vieux conflits de terre et les jeux de cartes "
 "douteux forment une atmosphère tendue..."
 msgstr ""
-"On a spring evening in 1884 on the west coast, the residents of Silver Town are preparing to celebrate the town's birthday. But appearances are deceiving. Between the sheriff, the judge, the saloon girls and the friendly Indians, not everyone is there to celebrate. The presence of strangers, old land disputes and dubious card games create a tense atmosphere..."
+"On a spring evening in 1884 on the west coast, the residents of Silver Town "
+"are preparing to celebrate the town's birthday. But appearances are "
+"deceiving. Between the sheriff, the judge, the saloon girls and the friendly "
+"Indians, not everyone is there to celebrate. The presence of strangers, old "
+"land disputes and dubious card games create a tense atmosphere..."
 
 #: pages/templates/component/card_sherlock_vs_moriarty.html:7
 #: pages/templates/component/card_sm_sherlock_vs_moriarty.html:7
@@ -299,7 +308,10 @@ msgid ""
 "rejoindre l'un d'entre eux. Préparez-vous à résoudre un maximum d'énigmes et "
 "à prouver que votre détective préféré est le meilleur."
 msgstr ""
-"Choose your side! The two greatest detectives in history go head-to-head on an exceptional evening, and you have the chance to join one of them. Get ready to solve as many puzzles as you can and prove that your favourite detective is the best."
+"Choose your side! The two greatest detectives in history go head-to-head on "
+"an exceptional evening, and you have the chance to join one of them. Get "
+"ready to solve as many puzzles as you can and prove that your favourite "
+"detective is the best."
 
 #: pages/templates/component/card_sm_killer_party.html:7
 msgid "La Killer party"
@@ -322,7 +334,9 @@ msgid ""
 "cet environnement hostile dépendra de votre stratégie et votre capacité de "
 "déduction."
 msgstr ""
-"As an engineer, you are faced with the constant threat of elimination by androids. Tensions are running high. Your survival in this hostile environment will depend on your strategy and deductive skills."
+"As an engineer, you are faced with the constant threat of elimination by "
+"androids. Tensions are running high. Your survival in this hostile "
+"environment will depend on your strategy and deductive skills."
 
 #: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:25
 #: pages/templates/component/card_sm_redrock_saloon.html:25
@@ -343,7 +357,9 @@ msgid ""
 "infiltrés. Incarnez un rôle divin et dévoilez les imposteurs. Une expérience "
 "immersive de pouvoirs, intrigues et secrets divins pour découvrir la vérité."
 msgstr ""
-"Take part in Zeus' divine banquet with deities and two human infiltrators. Play a divine role and expose the imposters. An immersive experience of divine powers, intrigue and secrets to uncover the truth."
+"Take part in Zeus' divine banquet with deities and two human infiltrators. "
+"Play a divine role and expose the imposters. An immersive experience of "
+"divine powers, intrigue and secrets to uncover the truth."
 
 #: pages/templates/component/card_sm_murder_dinner.html:31
 msgid "+ repas"
@@ -355,7 +371,9 @@ msgid ""
 "indiens. Le shérif et son adjoint enquêtent pour éviter une guerre "
 "imminente. Secrets, mensonges et trahisons dans l'ouest sauvage."
 msgstr ""
-"A murder at a gala evening raises tensions between settlers and Indians. The sheriff and his deputy investigate to avert an imminent war. Secrets, lies and betrayal in the Wild West."
+"A murder at a gala evening raises tensions between settlers and Indians. The "
+"sheriff and his deputy investigate to avert an imminent war. Secrets, lies "
+"and betrayal in the Wild West."
 
 #: pages/templates/component/card_sm_two_rooms.html:7
 #: pages/templates/component/card_two_rooms.html:7
@@ -380,7 +398,9 @@ msgid ""
 "Two rooms : jeu de bluff et de négociation. Les joueurs se divisent en deux "
 "clans, négocient, échangent des informations et forment des alliances pour "
 "atteindre leurs objectifs."
-msgstr "Two rooms: a game of bluff and negotiation. Players divide into two clans, negotiate, exchange information and form alliances to achieve their goals."
+msgstr ""
+"Two rooms: a game of bluff and negotiation. Players divide into two clans, "
+"negotiate, exchange information and form alliances to achieve their goals."
 
 #: pages/templates/component/card_two_rooms.html:8
 msgid "Le loup-garou mais sans mourir"
@@ -395,10 +415,13 @@ msgid ""
 "Plongez dans cet univers ultime de complots et de bluff. Les assassins et "
 "les citoyens s'affrontent dans des décors d'escape game pour se démasquer "
 "les uns les autres. Allez-vous sauvez l'empereur ?"
-msgstr "Dive into the ultimate world of conspiracy and bluff. Assassins and citizens clash in escape game settings to unmask each other. Will you save the emperor?"
+msgstr ""
+"Dive into the ultimate world of conspiracy and bluff. Assassins and citizens "
+"clash in escape game settings to unmask each other. Will you save the "
+"emperor?"
 
 #: pages/templates/component/quote_form.html:10
-#: pages/templates/contact.html:152 pages/templates/unsubscribe.html:24
+#: pages/templates/contact.html:152
 msgid "An unexpected error happened. Please contact us directly."
 msgstr "An unexpected error happened. Please contact us directly."
 
@@ -651,11 +674,11 @@ msgstr ""
 msgid "Newsletter"
 msgstr "Newsletter"
 
-#: pages/templates/contact.html:159 pages/templates/unsubscribe.html:31
+#: pages/templates/contact.html:159
 msgid "Thank you and see you soon!"
 msgstr "Thank you and see you soon!"
 
-#: pages/templates/contact.html:162 pages/templates/unsubscribe.html:34
+#: pages/templates/contact.html:162
 msgid "marmitron@justescape.fr"
 msgstr "marmitron@justescape.fr"
 
@@ -741,15 +764,15 @@ msgstr "Can your escape rooms be played in english?"
 msgid "Not yet, but we are working on it."
 msgstr "Not yet, but we are working on it."
 
-#: pages/templates/faq.html:125
+#: pages/templates/faq.html:86
 msgid "The booking process"
 msgstr "The booking process"
 
-#: pages/templates/faq.html:129
+#: pages/templates/faq.html:90
 msgid "Is there an age limit to play?"
 msgstr "Is there an age limit to play?"
 
-#: pages/templates/faq.html:134
+#: pages/templates/faq.html:95
 msgid ""
 "We advise you not to come with children under the age of 10. Completing a "
 "puzzle requires focus."
@@ -757,7 +780,7 @@ msgstr ""
 "We advise you not to come with children under the age of 10. Completing a "
 "puzzle requires focus."
 
-#: pages/templates/faq.html:137
+#: pages/templates/faq.html:98
 msgid ""
 "Groups with children under the age of 15 are accepted with at least one "
 "adult in the team."
@@ -765,11 +788,11 @@ msgstr ""
 "Groups with children under the age of 15 are accepted with at least one "
 "adult in the team."
 
-#: pages/templates/faq.html:168
+#: pages/templates/faq.html:107
 msgid "Do you have 2-player suited escape rooms?"
 msgstr "Do you have 2-player suited escape rooms?"
 
-#: pages/templates/faq.html:173
+#: pages/templates/faq.html:112
 msgid ""
 "Yes, Just Escape offers you a scenario specially designed for couples or "
 "duos, both in terms of gameplay and price."
@@ -777,7 +800,7 @@ msgstr ""
 "Yes, Just Escape offers you a scenario specially designed for couples or "
 "duos, both in terms of gameplay and price."
 
-#: pages/templates/faq.html:176
+#: pages/templates/faq.html:115
 msgid ""
 "<a href='/en/salles?show=d1#digimiam' class='text-underline text-hover-"
 "mulberry'>The room <span class='font-italic'>Cybercity</span></a> is adapted "
@@ -787,15 +810,15 @@ msgstr ""
 "mulberry'>The room <span class='font-italic'>Cybercity</span></a> is adapted "
 "for two players. This room can accomodate up to 4 players."
 
-#: pages/templates/faq.html:179
+#: pages/templates/faq.html:118
 msgid "Other scenarios tolerate 2 players but do not recommend it."
 msgstr "Other scenarios tolerate 2 players but do not recommend it."
 
-#: pages/templates/faq.html:188
+#: pages/templates/faq.html:127
 msgid "Can we change the size of the group?"
 msgstr "Can we change the size of the group?"
 
-#: pages/templates/faq.html:193
+#: pages/templates/faq.html:132
 msgid ""
 "Yes, if you did not pay the full amount when you booked, you may change your "
 "group until the game begins."
@@ -803,7 +826,7 @@ msgstr ""
 "Yes, if you did not pay the full amount when you booked, you may change your "
 "group until the game begins."
 
-#: pages/templates/faq.html:196
+#: pages/templates/faq.html:135
 msgid ""
 "If you have already paid for everything, you can replace a player who "
 "canceled at the last minute because the reservation is not nominative."
@@ -811,7 +834,7 @@ msgstr ""
 "If you have already paid for everything, you can replace a player who "
 "canceled at the last minute because the reservation is not nominative."
 
-#: pages/templates/faq.html:199
+#: pages/templates/faq.html:138
 msgid ""
 "However, if you have purchased 4 tickets and you come to 3, we will not "
 "refund you. We will offer you a gift certificate for one place."
@@ -819,19 +842,19 @@ msgstr ""
 "However, if you have purchased 4 tickets and you come to 3, we will not "
 "refund you. We will offer you a gift certificate for one place."
 
-#: pages/templates/faq.html:235
+#: pages/templates/faq.html:152
 msgid "The escape game session"
 msgstr "The escape game session"
 
-#: pages/templates/faq.html:239
+#: pages/templates/faq.html:156
 msgid "At what time should we arrive?"
 msgstr "At what time should we arrive?"
 
-#: pages/templates/faq.html:244
+#: pages/templates/faq.html:161
 msgid "As a courtesy to other groups, we ask you to be punctual."
 msgstr "As a courtesy to other groups, we ask you to be punctual."
 
-#: pages/templates/faq.html:247
+#: pages/templates/faq.html:164
 msgid ""
 "In case of delay we reserve the right to penalize the duration of your "
 "escape game, or even to cancel it. No claims can be made."
@@ -839,11 +862,11 @@ msgstr ""
 "In case of delay we reserve the right to penalize the duration of your "
 "escape game, or even to cancel it. No claims can be made."
 
-#: pages/templates/faq.html:281
+#: pages/templates/faq.html:173
 msgid "Is it true that we are being filmed?"
 msgstr "Is it true that we are being filmed?"
 
-#: pages/templates/faq.html:286
+#: pages/templates/faq.html:178
 msgid ""
 "Cameras and microphones placed in rooms will follow you throughout the game. "
 "A game master will ensure your safety and progress. He can give you clues to "
@@ -853,11 +876,11 @@ msgstr ""
 "A game master will ensure your safety and progress. He can give you clues to "
 "help you."
 
-#: pages/templates/faq.html:295
+#: pages/templates/faq.html:187
 msgid "Where is located Just Escape?"
 msgstr "Where is located Just Escape?"
 
-#: pages/templates/faq.html:300
+#: pages/templates/faq.html:192
 msgid ""
 "The estate is located at 26 rue d&#39;Arras in Lille, at the crossroads of "
 "rue Solférino and the Jean-Baptiste Lebas square. It is close to the Lille "
@@ -867,7 +890,7 @@ msgstr ""
 "rue Solférino and the Jean-Baptiste Lebas square. It is close to the Lille "
 "Grand Palais metro station."
 
-#: pages/templates/faq.html:303
+#: pages/templates/faq.html:195
 msgid ""
 "There are more info on our <a href='/en/contact#venir' class='text-underline "
 "text-hover-mulberry'>contact page</a>."
@@ -875,11 +898,11 @@ msgstr ""
 "There are more info on our <a href='/en/contact#venir' class='text-underline "
 "text-hover-mulberry'>contact page</a>."
 
-#: pages/templates/faq.html:312
+#: pages/templates/faq.html:204
 msgid "Do I have to prepare to come?"
 msgstr "Do I have to prepare to come?"
 
-#: pages/templates/faq.html:317
+#: pages/templates/faq.html:209
 msgid ""
 "Come as you are. At Just Escape we are here to have fun! You don&#39;t need "
 "to prepare yourself or nor to have prior knowledge to play."
@@ -887,15 +910,15 @@ msgstr ""
 "Come as you are. At Just Escape we are here to have fun! You don&#39;t need "
 "to prepare yourself or nor to have prior knowledge to play."
 
-#: pages/templates/faq.html:325
+#: pages/templates/faq.html:217
 msgid "Occasions (Team Building)"
 msgstr "Occasions (Team Building)"
 
-#: pages/templates/faq.html:329
+#: pages/templates/faq.html:221
 msgid "Can I organize a birthday, stag&nbsp;/ hen&nbsp;/ bachelor party?"
 msgstr "Can I organize a birthday, stag&nbsp;/ hen&nbsp;/ bachelor party?"
 
-#: pages/templates/faq.html:334
+#: pages/templates/faq.html:226
 msgid ""
 "We will be happy to welcome you for <a href='/en/tarifs' class='text-"
 "underline text-hover-mulberry'>your bachelor parties and other celebrations "
@@ -905,17 +928,17 @@ msgstr ""
 "underline text-hover-mulberry'>your bachelor parties and other celebrations "
 "with family and friends</a>."
 
-#: pages/templates/faq.html:337
+#: pages/templates/faq.html:229
 msgid ""
 "After the game, we will invite you to the reception room to spend some time."
 msgstr ""
 "After the game, we will invite you to the reception room to spend some time."
 
-#: pages/templates/faq.html:346
+#: pages/templates/faq.html:238
 msgid "Do you have special rates for companies?"
 msgstr "Do you have special rates for companies?"
 
-#: pages/templates/faq.html:351
+#: pages/templates/faq.html:243
 msgid ""
 "Yes, we offer additional services for <a href='/en/team-building' "
 "class='text-underline text-hover-mulberry'>your team building events</a>."
@@ -923,7 +946,7 @@ msgstr ""
 "Yes, we offer additional services for <a href='/en/team-building' "
 "class='text-underline text-hover-mulberry'>your team building events</a>."
 
-#: pages/templates/faq.html:354
+#: pages/templates/faq.html:246
 msgid ""
 "Contact us if you wish to make available advantageous rates for your "
 "employees."
@@ -931,11 +954,11 @@ msgstr ""
 "Contact us if you wish to make available advantageous rates for your "
 "employees."
 
-#: pages/templates/faq.html:363
+#: pages/templates/faq.html:255
 msgid "How many players can play?"
 msgstr "How many players can play?"
 
-#: pages/templates/faq.html:368
+#: pages/templates/faq.html:260
 msgid ""
 "<a href='/en/salles?show=d1#digimiam' class='text-underline text-hover-"
 "mulberry'>The escape room <span class='font-italic'>Cybercity</span></a> can "
@@ -947,7 +970,7 @@ msgstr ""
 "accommodate up to 4 players. As this room is duplicated, you can play up to "
 "8 simultaneously."
 
-#: pages/templates/faq.html:371
+#: pages/templates/faq.html:263
 msgid ""
 "If there are more of you (up to 16), one group will play the room while the "
 "others play board games in the reception area."
@@ -955,7 +978,7 @@ msgstr ""
 "If there are more of you (up to 16), one group will play the room while the "
 "others play board games in the reception area."
 
-#: pages/templates/faq.html:374
+#: pages/templates/faq.html:266
 msgid ""
 "We invite companies to fill in <a href='/en/team-building#devis' class='text-"
 "underline text-hover-mulberry'>the quote form</a>."
@@ -963,11 +986,11 @@ msgstr ""
 "We invite companies to fill in <a href='/en/team-building#devis' class='text-"
 "underline text-hover-mulberry'>the quote form</a>."
 
-#: pages/templates/faq.html:402
+#: pages/templates/faq.html:275
 msgid "How to use gift cards?"
 msgstr "How to use gift cards?"
 
-#: pages/templates/faq.html:407
+#: pages/templates/faq.html:280
 msgid ""
 "The <a href='/en/carte-cadeau' class='text-underline text-hover-"
 "mulberry'>gift card</a> can be used during the <a href='/en/reserver' "
@@ -977,11 +1000,11 @@ msgstr ""
 "mulberry'>gift card</a> can be used during the <a href='/en/reserver' "
 "class='text-underline text-hover-mulberry'>online booking</a>."
 
-#: pages/templates/faq.html:410
+#: pages/templates/faq.html:283
 msgid "A gift voucher is only valid for one year. Hurry up and come and play!"
 msgstr "A gift voucher is only valid for one year. Hurry up and come and play!"
 
-#: pages/templates/faq.html:480
+#: pages/templates/faq.html:341
 msgid "Frequently Asked Questions"
 msgstr "Frequently Asked Questions"
 
@@ -1099,7 +1122,7 @@ msgid "FAQ"
 msgstr "FAQ"
 
 #: pages/templates/footer.html:81 pages/templates/pricing.html:8
-#: pages/templates/pricing.html:215
+#: pages/templates/pricing.html:92
 msgid "Pricing"
 msgstr "Pricing"
 
@@ -1201,7 +1224,7 @@ msgstr "Birthday party activities"
 msgid "Je réserve une séance"
 msgstr "Book now"
 
-#: pages/templates/header.html:196 pages/templates/pricing.html:109
+#: pages/templates/header.html:196 pages/templates/pricing.html:67
 #: pages/templates/room.html:54 pages/templates/room.html:118
 msgid "Book now"
 msgstr "Book now"
@@ -1263,7 +1286,10 @@ msgid ""
 "Devenez <strong>enquêteur</strong>, <strong>suspect</strong> ou "
 "<strong>coupable</strong> dans une intrigue criminelle où le doute et les "
 "suspicions vous feront perdre pied."
-msgstr "Become an <strong>investigator</strong>, <strong>suspect</strong> or <strong>culprit</strong> in a criminal intrigue where doubt and suspicion will sweep you off your feet."
+msgstr ""
+"Become an <strong>investigator</strong>, <strong>suspect</strong> or "
+"<strong>culprit</strong> in a criminal intrigue where doubt and suspicion "
+"will sweep you off your feet."
 
 #: pages/templates/home.html:69
 msgid "Vivez une expérience immersive"
@@ -1274,7 +1300,10 @@ msgid ""
 "Offrez-vous le droit de rêver et de devenir l'<strong>acteur principal</"
 "strong> de votre thriller. Découvrez <strong>des décors</strong> et "
 "<strong>des mises en scène immersives</strong>."
-msgstr "Give yourself the right to dream and become the <strong>lead actor</strong> in your own thriller. Discover <strong>immersive sets</strong> and <strong>staging</strong>."
+msgstr ""
+"Give yourself the right to dream and become the <strong>lead actor</strong> "
+"in your own thriller. Discover <strong>immersive sets</strong> and "
+"<strong>staging</strong>."
 
 #: pages/templates/home.html:79
 msgid "Pour tous les types de sorties"
@@ -1285,7 +1314,10 @@ msgid ""
 "<strong>En famille</strong>, en <strong>team-building</strong>, pour un "
 "<strong>enterrement de vie de jeune fille ou de jeune garçon</strong>, ou "
 "simplement pour profiter d'un bon moment, nos activités sont idéales."
-msgstr "Our activities are ideal for <strong>families</strong>, <strong>team-building</strong> events, <strong>hen or stag parties</strong> or just to enjoy a good time."
+msgstr ""
+"Our activities are ideal for <strong>families</strong>, <strong>team-"
+"building</strong> events, <strong>hen or stag parties</strong> or just to "
+"enjoy a good time."
 
 #: pages/templates/home.html:97
 msgid "Escape room"
@@ -1413,7 +1445,10 @@ msgid ""
 "Attention : à 2 joueurs, c'est plus difficile. Si vous n'avez pas encore "
 "joué à beaucoup d'escapes rooms, venez plus nombreux pour résoudre plus "
 "facilement les énigmes."
-msgstr "Warning: it's more difficult with 2 players. If you haven't played many escape rooms before, you'll find it easier to solve the puzzles if you come in larger numbers."
+msgstr ""
+"Warning: it's more difficult with 2 players. If you haven't played many "
+"escape rooms before, you'll find it easier to solve the puzzles if you come "
+"in larger numbers."
 
 #: pages/templates/home.html:247
 msgid "Peut-on participer à une session d'escape game en anglais ?"
@@ -1488,14 +1523,21 @@ msgid ""
 "plonge dans une intrigue à démêler. Le temps d'une soirée, chaque "
 "participant s'oublie pour incarner <strong>un personnage avec ses propres "
 "traits de caractère et ses propres objectifs</strong>."
-msgstr "<strong>A murder party is a fantastic story</strong> that plunges you into an intrigue to be unravelled. Over the course of an evening, each participant forgets themselves and takes on the role of a <strong>character with their own personality traits and objectives</strong>."
+msgstr ""
+"<strong>A murder party is a fantastic story</strong> that plunges you into "
+"an intrigue to be unravelled. Over the course of an evening, each "
+"participant forgets themselves and takes on the role of a <strong>character "
+"with their own personality traits and objectives</strong>."
 
 #: pages/templates/home.html:330
 msgid ""
 "La murder party est une activité fun, ludique et insolite qui permet à des "
 "grands groupes de joueurs de se découvrir autrement et de <strong>partager "
 "un moment de complicité</strong>."
-msgstr "The murder party is a fun, playful and unusual activity that allows large groups of players to get to know each other in a different way and <strong>share a moment of complicity</strong>."
+msgstr ""
+"The murder party is a fun, playful and unusual activity that allows large "
+"groups of players to get to know each other in a different way and "
+"<strong>share a moment of complicity</strong>."
 
 #: pages/templates/home.html:333
 msgid ""
@@ -1515,13 +1557,17 @@ msgstr "Yes!"
 msgid ""
 "Inscrivez chaque personne qui souhaite participer sur la liste d'attente. "
 "Vous recevrez des invitations pour participer à nos sessions ouvertes."
-msgstr "Put everyone who wants to take part on the waiting list. You will receive invitations to attend our open sessions."
+msgstr ""
+"Put everyone who wants to take part on the waiting list. You will receive "
+"invitations to attend our open sessions."
 
 #: pages/templates/home.html:354
 msgid ""
 "Les sessions ouvertes sont idéales pour <strong>rencontrer des nouvelles "
 "personnes</strong> et s'amuser."
-msgstr "Open sessions are ideal for <strong>meeting new people</strong> and having fun."
+msgstr ""
+"Open sessions are ideal for <strong>meeting new people</strong> and having "
+"fun."
 
 #: pages/templates/home.html:364
 msgid "À partir de quel âge peut-on jouer à une murder party ?"
@@ -2147,7 +2193,7 @@ msgstr ""
 msgid "Birthday, Christmas, Money&nbsp;pot, Lottery"
 msgstr "Birthday, Christmas, Money&nbsp;pot, Lottery"
 
-#: pages/templates/pricing.html:111
+#: pages/templates/pricing.html:69
 msgid "Company quote"
 msgstr "Company quote"
 
@@ -2433,7 +2479,8 @@ msgstr ""
 
 #: pages/templates/svg/question-circle.svg:2
 msgid "Question mark inside a circle inviting you to click if you're wondering"
-msgstr "Question mark inside a circle inviting you to click if you're wondering"
+msgstr ""
+"Question mark inside a circle inviting you to click if you're wondering"
 
 #: pages/templates/svg/question-mark.svg:3
 msgid "A new escape room"
@@ -2463,7 +2510,9 @@ msgstr "Twitter"
 msgid ""
 "Chest plan of a person wearing a costume and a tie getting prepared for team "
 "building"
-msgstr "Chest plan of a person wearing a costume and a tie getting prepared for team building"
+msgstr ""
+"Chest plan of a person wearing a costume and a tie getting prepared for team "
+"building"
 
 #: pages/templates/svg/users.svg:2
 msgid "Group of 3 persons"
@@ -3055,30 +3104,6 @@ msgstr ""
 "photographs will be sent to the BUYER by email. Just Escape SARL staff will "
 "explicitly ask for the USERS' consent verbally and will remind them of the "
 "conditions mentioned above. USERS will be free to refuse to be photographed."
-
-#: pages/templates/unsubscribe.html:5
-msgid "Unsubscribe – Escape Game Lille – Just Escape"
-msgstr "Unsubscribe – Escape Game Lille – Just Escape"
-
-#: pages/templates/unsubscribe.html:6
-msgid "Unsubscribe from the newsletter ✉ We will miss you 😢"
-msgstr "Unsubscribe from the newsletter ✉ We will miss you 😢"
-
-#: pages/templates/unsubscribe.html:8
-msgid "Unsubscribe from the newsletter ✉"
-msgstr "Unsubscribe from the newsletter ✉"
-
-#: pages/templates/unsubscribe.html:9
-msgid "We will miss you 😢"
-msgstr "We will miss you 😢"
-
-#: pages/templates/unsubscribe.html:17
-msgid "Unsubscribe from the newsletter"
-msgstr "Unsubscribe from the newsletter"
-
-#: pages/templates/unsubscribe.html:36
-msgid "Unsubscribe"
-msgstr "Unsubscribe"
 
 #: salesquote/forms.py:16
 msgid "You can ask for this service tomorrow at least."
