@@ -51,7 +51,6 @@ urlpatterns = i18n_patterns(
     path('blog/guide-indispensable-passionnes-escape-games', views.blog_guide_indispensable_passionnes, name='blog-guide-indispensable-passionnes-escape-games'),
     path('404', views.error404, name='404'),
     path('confirmation', views.confirmation, name='confirmation'),
-    path('partenaires', views.partners, name='partners'),
     path('contact', views.contact, name='contact'),
     path('desabonnement', views.unsubscribe, name='unsubscribe'),
     path('cgv', views.terms, name='terms'),

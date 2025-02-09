@@ -585,11 +585,6 @@ def confirmation(request):
     return r
 
 
-def partners(request):
-    data = {'current_page': 'partenaires', 'lang': '', 'localized': False}
-    return render(request, 'partners.html', data)
-
-
 def contact(request):
     form, error, success = handle_subscription(request)
 
