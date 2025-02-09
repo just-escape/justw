@@ -416,34 +416,6 @@ def booking(request):
     return render(request, 'booking.html', data)
 
 
-def booking_murder_party(request):
-    data = {
-        'current_page': 'reserver-murder-party',
-        'lang': get_lang(request),
-        'localized': False,
-        'noindex': True,
-    }
-
-    r = render(request, 'booking_murder_party.html', data)
-    r['X-Robots-Tag'] = 'noindex'
-
-    return r
-
-
-def booking_cyber_party(request):
-    data = {
-        'current_page': 'reserver-cyber-party',
-        'lang': get_lang(request),
-        'localized': False,
-        'noindex': True,
-    }
-
-    r = render(request, 'booking_cyber_party.html', data)
-    r['X-Robots-Tag'] = 'noindex'
-
-    return r
-
-
 def gift_voucher(request):
     data = {'current_page': 'carte-cadeau', 'lang': get_lang(request), 'localized': True}
     return render(request, 'gift-voucher.html', data)
