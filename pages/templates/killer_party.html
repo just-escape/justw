@@ -223,7 +223,8 @@
 
 <section>
   <div class="jumbotron light position-relative py-5">
-    {% include "component/discover_as_well.html" with label="d'autres scénarios" what="redrock_saloon,le_tournoi_des_sorciers" %}
+    {% trans "Découvrez aussi d'autres scénarios" as translated_label %}
+    {% include "component/discover_as_well.html" with label=translated_label what="redrock_saloon,le_tournoi_des_sorciers" %}
 
     <div class="text-center">
             <a href="/{{ lang }}murder-party">Je retourne à la liste des murder party</a>

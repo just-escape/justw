@@ -1,17 +1,19 @@
+{% load i18n %}
+
 <a href="/{{ lang }}reserver">
 <div class="card deepdark position-relative px-0 w-100 h-100">
   <div class="card-header d-flex flex-column flex-lg-row justify-content-between">
     <div class="d-flex flex-column mb-3 mb-md-0 justify-content-top">
-      <div class="text-inter font-weight-bold lh-1 text-jaffa size-15">Cybercity</div>
-      <div class="lh-1">Restaurant du futur</div>
+            <div class="text-inter font-weight-bold lh-1 text-jaffa size-15">{% trans "Cybercity" %}</div>
+            <div class="lh-1">{% trans "Restaurant du futur" %}</div>
     </div>
     <div class="d-flex flex-column align-items-end justify-content-center">
       <div class="lh-16px">
-        <span class="size-09 lh-16px">2 à 10 joueurs (sur deux salles)</span>
+              <span class="size-09 lh-16px">{% trans "2 à 10 joueurs (sur deux salles)" %}</span>
         <span class="d-inline-block lh-16px svg-16px fill-light align-top">{% include "svg/users.svg" %}</span>
       </div>
       <div class="lh-16px">
-        <span class="size-09 lh-16px">60 minutes</span>
+              <span class="size-09 lh-16px">{% trans "60 minutes" %}</span>
         <span class="d-inline-block lh-16px svg-16px fill-light align-top">{% include "svg/chrono.svg" %}</span>
       </div>
     </div>
@@ -22,16 +24,16 @@
       <source srcset="/static/img/escape-game-375.png" type="image/png">
       <img loading="lazy" class="img-fluid mx-auto d-block mb-2" src="/static/img/escape-game-375.webp" alt="Logo escape game">
     </picture>
-    <p class="size-09 mb-0">Plongez à Lille en 2080. L'IA culinaire de cybercity est désactivée. Encore une panne mystérieuse. Les néons sont éteints, laissant le Digimiam dans l'obscurité. Quelque chose d'illégal se passe dans ce restaurant. Parviendrez-vous à faire la lumière sur cette histoire ?</p>
+    <p class="size-09 mb-0">{% trans "Plongez à Lille en 2080. L'IA culinaire de cybercity est désactivée. Encore une panne mystérieuse. Les néons sont éteints, laissant le Digimiam dans l'obscurité. Quelque chose d'illégal se passe dans ce restaurant. Parviendrez-vous à faire la lumière sur cette histoire ?" %}</p>
   </div>
   <div class="card-footer d-flex flex-column flex-md-row justify-content-between">
     <div class="d-flex flex-row align-items-center mb-4 mb-md-0">
-      <div class="lh-1 size-09 mr-1">À partir de</div><div class="text-inter font-weight-bold lh-1 size-15">25€</div>
+            <div class="lh-1 size-09 mr-1">{% trans "À partir de" %}</div><div class="text-inter font-weight-bold lh-1 size-15">25€</div>
     </div>
 
     <div class="d-flex flex-column justify-content-center">
       <div class="text-center mb-2">
-              <div class="btn btn-primary"><span>Je réserve une séance</span></div>
+              <div class="btn btn-primary"><span>{% trans "Je réserve une séance" %}</span></div>
       </div>
     </div>
   </div>

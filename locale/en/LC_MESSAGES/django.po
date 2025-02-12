@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-12 21:22+0100\n"
+"POT-Creation-Date: 2025-02-12 21:42+0100\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -140,6 +140,7 @@ msgstr ""
 #: pages/templates/component/card_murder_dinner.html:33
 #: pages/templates/component/card_redrock_saloon.html:33
 #: pages/templates/component/card_sherlock_vs_moriarty.html:33
+#: pages/templates/component/card_sm_digimiam.html:31
 #: pages/templates/component/card_sm_killer_party.html:31
 #: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:31
 #: pages/templates/component/card_sm_murder_dinner.html:31
@@ -179,7 +180,7 @@ msgstr "Tell me more"
 #: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:7
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:30
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:35
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:303
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:304
 msgid "Le Tournoi des Sorciers"
 msgstr "The Wizard's Tournament"
 
@@ -320,6 +321,44 @@ msgstr ""
 "an exceptional evening, and you have the chance to join one of them. Get "
 "ready to solve as many puzzles as you can and prove that your favourite "
 "detective is the best."
+
+#: pages/templates/component/card_sm_digimiam.html:7
+#: pages/templates/home.html:107 pages/templates/room.html:34
+msgid "Cybercity"
+msgstr "Cybercity"
+
+#: pages/templates/component/card_sm_digimiam.html:8
+msgid "Restaurant du futur"
+msgstr "Futuristic restaurant"
+
+#: pages/templates/component/card_sm_digimiam.html:12
+msgid "2 à 10 joueurs (sur deux salles)"
+msgstr "2 - 10 players (on 2 rooms)"
+
+#: pages/templates/component/card_sm_digimiam.html:16
+#: pages/templates/home.html:116 pages/templates/room.html:97
+msgid "60 minutes"
+msgstr "60 minutes"
+
+#: pages/templates/component/card_sm_digimiam.html:27
+#: pages/templates/home.html:182
+msgid ""
+"Plongez à Lille en 2080. L'IA culinaire de cybercity est désactivée. Encore "
+"une panne mystérieuse. Les néons sont éteints, laissant le Digimiam dans "
+"l'obscurité. Quelque chose d'illégal se passe dans ce restaurant. "
+"Parviendrez-vous à faire la lumière sur cette histoire ?"
+msgstr ""
+"Immerse yourself in Lille in 2080. Cybercity's culinary AI is deactivated. "
+"Another mysterious breakdown. The neon lights are out, leaving the Digimiam "
+"in darkness. Something illegal is going on in this restaurant. Will you "
+"manage to shed the light on this case?"
+
+#: pages/templates/component/card_sm_digimiam.html:36
+#: pages/templates/escape_game_evjf.html:122 pages/templates/header.html:173
+#: pages/templates/home.html:37 pages/templates/home.html:191
+#: pages/templates/home.html:925
+msgid "Je réserve une séance"
+msgstr "Book now"
 
 #: pages/templates/component/card_sm_killer_party.html:7
 msgid "La Killer party"
@@ -816,12 +855,6 @@ msgstr ""
 "our unique experiences, and choose our EVJF packages. A memorable day "
 "combining team <b>challenges</b> and <b>crazy</b> moments with your "
 "girlfriends awaits you!</p>"
-
-#: pages/templates/escape_game_evjf.html:122 pages/templates/header.html:173
-#: pages/templates/home.html:37 pages/templates/home.html:191
-#: pages/templates/home.html:925
-msgid "Je réserve une séance"
-msgstr "Book now"
 
 #: pages/templates/escape_game_evjf.html:137
 msgid "Une question sur un événement EVJF ? Consultez notre FAQ"
@@ -1555,10 +1588,6 @@ msgstr "Escape room"
 msgid "Découvrez le <strong>scénario</strong>"
 msgstr "Discover the <strong>scenario</strong>"
 
-#: pages/templates/home.html:107 pages/templates/room.html:34
-msgid "Cybercity"
-msgstr "Cybercity"
-
 #: pages/templates/home.html:108
 msgid "Escape room ambiance star wars"
 msgstr "Star wars-themed escape room"
@@ -1566,10 +1595,6 @@ msgstr "Star wars-themed escape room"
 #: pages/templates/home.html:112
 msgid "2 à 10 joueurs (sur 2 salles)"
 msgstr "2 - 10 players (on 2 rooms)"
-
-#: pages/templates/home.html:116 pages/templates/room.html:97
-msgid "60 minutes"
-msgstr "60 minutes"
 
 #: pages/templates/home.html:120
 msgid "FR / EN"
@@ -1602,18 +1627,6 @@ msgstr "Previous"
 #: pages/templates/home.html:178 pages/templates/teambuilding.html:109
 msgid "Next"
 msgstr "Next"
-
-#: pages/templates/home.html:182
-msgid ""
-"Plongez à Lille en 2080. L'IA culinaire de cybercity est désactivée. Encore "
-"une panne mystérieuse. Les néons sont éteints, laissant le Digimiam dans "
-"l'obscurité. Quelque chose d'illégal se passe dans ce restaurant. "
-"Parviendrez-vous à faire la lumière sur cette histoire ?"
-msgstr ""
-"Immerse yourself in Lille in 2080. Cybercity's culinary AI is deactivated. "
-"Another mysterious breakdown. The neon lights are out, leaving the Digimiam "
-"in darkness. Something illegal is going on in this restaurant. Will you "
-"manage to shed the light on this case?"
 
 #: pages/templates/home.html:187 pages/templates/home.html:449
 #: pages/templates/pricing.html:43
@@ -1733,7 +1746,7 @@ msgstr ""
 "2 people in a room, it is inevitably a little <strong>more difficult</"
 "strong>! "
 
-#: pages/templates/home.html:286
+#: pages/templates/home.html:286 pages/templates/room.html:242
 msgid "Découvrez aussi nos scénarios de murder party"
 msgstr "Discover our murder party scenarios as well"
 
@@ -2332,6 +2345,18 @@ msgstr ""
 "recommend that you always have at least one player in your team who is not "
 "hearing or visually impaired."
 
+#: pages/templates/killer_party.html:226 pages/templates/murder_dinner.html:208
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:268
+#: pages/templates/murder_party_redrock_saloon.html:265
+#: pages/templates/sherlock_vs_moriarty.html:262
+#: pages/templates/two_rooms.html:165
+msgid "Découvrez aussi d'autres scénarios"
+msgstr "Discover other scenarios as well"
+
+#: pages/templates/murder_party.html:234
+msgid "Découvrez aussi nos scénarios d'escape game"
+msgstr "Discover our escape room scenarios as well"
+
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:5
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:8
 msgid "Murder Party Lille – Just Escape"
@@ -2536,7 +2561,7 @@ msgstr ""
 "get the hang of. You'll play with a difficulty level that suits you, and the "
 "instructors will adjust their support according to your level."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:271
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:272
 msgid "Je retourne à la liste des murder party"
 msgstr "I go back to the list of murder parties"
 
@@ -2770,7 +2795,7 @@ msgstr "Tel:&nbsp;"
 msgid "Mail :&nbsp;"
 msgstr "Mail:&nbsp;"
 
-#: pages/templates/room.html:267
+#: pages/templates/room.html:268
 msgid "Rooms"
 msgstr "Rooms"
 

@@ -265,7 +265,8 @@
 
 <section>
   <div class="jumbotron light position-relative py-5">
-    {% include "component/discover_as_well.html" with label="d'autres scénarios" what="redrock_saloon,digimiam" %}
+    {% trans "Découvrez aussi d'autres scénarios" as translated_label %}
+    {% include "component/discover_as_well.html" with label=translated_label what="redrock_saloon,digimiam" %}
 
     <div class="text-center">
             <a href="/{{ lang }}murder-party">{% trans "Je retourne à la liste des murder party" %}</a>

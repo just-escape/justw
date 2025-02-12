@@ -239,7 +239,8 @@
   <div class="jumbotron light position-relative py-5">
     <div class="light extension extension-top extension-corner-bottom-right">
     </div>
-    {% include "component/discover_as_well.html" with label="nos scénarios de murder party" what="redrock_saloon,le_tournoi_des_sorciers" %}
+    {% trans "Découvrez aussi nos scénarios de murder party" as translated_label %}
+    {% include "component/discover_as_well.html" with label=translated_label what="redrock_saloon,le_tournoi_des_sorciers" %}
   </div>
   {% endif %}
 

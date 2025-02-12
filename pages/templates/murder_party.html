@@ -231,7 +231,8 @@
 
 <section>
   <div class="jumbotron light position-relative py-5">
-    {% include "component/discover_as_well.html" with label="nos scénarios d'escape game" what="digimiam" %}
+    {% trans "Découvrez aussi nos scénarios d'escape game" as translated_label %}
+    {% include "component/discover_as_well.html" with label=translated_label what="digimiam" %}
   </div>
 </section>
 
