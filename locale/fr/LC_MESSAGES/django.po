@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-11 09:41+0100\n"
+"POT-Creation-Date: 2025-02-12 21:22+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -2264,6 +2264,8 @@ msgid "Formulaire de réservation"
 msgstr ""
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:177
+#: pages/templates/teambuilding.html:135 pages/templates/teambuilding.html:212
+#: pages/templates/teambuilding.html:322
 msgid "Je demande un devis"
 msgstr ""
 
@@ -2671,6 +2673,10 @@ msgstr ""
 msgid "Team Building – Turnkey Packages"
 msgstr "Team Building – Packs Clé en Main"
 
+#: pages/templates/teambuilding.html:42
+msgid "Une activité de team building ou de séminaire originale&nbsp;?"
+msgstr ""
+
 #: pages/templates/teambuilding.html:71
 msgid ""
 "Dans une salle d'escape game à Lille, deux collègues sont contentes de leur "
@@ -2693,20 +2699,341 @@ msgstr ""
 msgid "Une énigme qui demande de la cohésion d'équipe"
 msgstr ""
 
+#: pages/templates/teambuilding.html:115
+msgid ""
+"Centre d'escape game avec salle de réunion&nbsp;: le team building parfait"
+msgstr ""
+
+#: pages/templates/teambuilding.html:116
+msgid ""
+"Vous recherchez une activité originale pour un afterwork entre "
+"collègues&nbsp;? Souhaitez organiser un séminaire d'entreprise "
+"mémorable&nbsp;? Just Escape Lille organisera l'événement qu'il vous "
+"faut&nbsp;:"
+msgstr ""
+
+#: pages/templates/teambuilding.html:118
+msgid ""
+"Salle d'escape game sans cadenas. Les énigmes sont des créations originales "
+"de Just Escape, inédites à Lille."
+msgstr ""
+
+#: pages/templates/teambuilding.html:119
+msgid ""
+"Organisation de journée ou de soirée sur mesure&nbsp;: salle de réception, "
+"cocktail apéritif, cocktail dinatoire, collation sucrée, escape game, jeu "
+"d'immersion à thème et bien plus encore."
+msgstr ""
+
+#: pages/templates/teambuilding.html:131
+msgid "Mes salles de séminaire : 2 à 60 personnes"
+msgstr ""
+
+#: pages/templates/teambuilding.html:144
+msgid "La petite salle"
+msgstr ""
+
+#: pages/templates/teambuilding.html:147
+msgid ""
+"Éclairée par deux grandes baies vitrées, cette salle entièrement équipée "
+"fait près de 40m² :"
+msgstr ""
+
+#: pages/templates/teambuilding.html:149 pages/templates/teambuilding.html:179
+msgid "vidéoprojecteur"
+msgstr ""
+
+#: pages/templates/teambuilding.html:150 pages/templates/teambuilding.html:180
+msgid "paperboard"
+msgstr ""
+
+#: pages/templates/teambuilding.html:151 pages/templates/teambuilding.html:181
+msgid "machine à café"
+msgstr ""
+
+#: pages/templates/teambuilding.html:152 pages/templates/teambuilding.html:182
+msgid "wifi haut débit"
+msgstr ""
+
+#: pages/templates/teambuilding.html:153 pages/templates/teambuilding.html:183
+msgid "salle privative"
+msgstr ""
+
+#: pages/templates/teambuilding.html:155
+msgid ""
+"C'est un lieu idéal pour des petits groupes, un petit déjeuner ou pour un "
+"cocktail après une partie d'escape game."
+msgstr ""
+
 #: pages/templates/teambuilding.html:160
 msgid "Une salle de séminaire à Lille tout équipé pour des formations"
+msgstr ""
+
+#: pages/templates/teambuilding.html:164
+msgid "De 2 à 15 personnes"
+msgstr ""
+
+#: pages/templates/teambuilding.html:165 pages/templates/teambuilding.html:242
+#: pages/templates/teambuilding.html:263 pages/templates/teambuilding.html:284
+msgid "En savoir plus"
+msgstr ""
+
+#: pages/templates/teambuilding.html:173
+msgid "La grande salle"
+msgstr ""
+
+#: pages/templates/teambuilding.html:177
+msgid "Une salle agréable et spacieuse de près de 60 m² entièrement équipée :"
+msgstr ""
+
+#: pages/templates/teambuilding.html:185
+msgid ""
+"C'est un lieu idéal pour les grands groupes, une réunion, un séminaire, une "
+"formation ou un atelier de cohésion."
 msgstr ""
 
 #: pages/templates/teambuilding.html:191
 msgid "Une grande salle de séminaire à Lille"
 msgstr ""
 
+#: pages/templates/teambuilding.html:195
+msgid "De 2 à 60 personnes"
+msgstr ""
+
+#: pages/templates/teambuilding.html:208
+msgid "Faites participer de 2 à 150 personnes avec nos activités immersives"
+msgstr ""
+
+#: pages/templates/teambuilding.html:221
+msgid "Séminaire personnalisé"
+msgstr ""
+
+#: pages/templates/teambuilding.html:224
+msgid ""
+"Vous souhaitez réaliser un séminaire avec des activités originales ? "
+"Décrivez votre besoin et Just Escape se charge d'organiser votre événement "
+"personnalisé."
+msgstr ""
+
+#: pages/templates/teambuilding.html:226
+msgid "Diner à thème"
+msgstr ""
+
+#: pages/templates/teambuilding.html:227
+#, fuzzy
+#| msgid "Escape game 2 joueurs"
+msgid "Escape game pour grand groupe"
+msgstr "Escape game 2 joueurs"
+
+#: pages/templates/teambuilding.html:228
+msgid "Salle de réunion et collation"
+msgstr ""
+
+#: pages/templates/teambuilding.html:229
+msgid "Cluedo géant"
+msgstr ""
+
+#: pages/templates/teambuilding.html:230
+msgid "Activité à domicile"
+msgstr ""
+
+#: pages/templates/teambuilding.html:231
+msgid "Atelier d'improvisation théâtrale"
+msgstr ""
+
+#: pages/templates/teambuilding.html:241 pages/templates/teambuilding.html:262
+#, fuzzy
+#| msgid "8 à 24 joueurs"
+msgid "Jusqu'à 150 joueurs"
+msgstr "8 à 24 joueurs"
+
+#: pages/templates/teambuilding.html:250
+msgid "Jeu d'immersion : murder party"
+msgstr ""
+
+#: pages/templates/teambuilding.html:253
+msgid ""
+"Vous recherchez une activité ludique et insolite pour des groupes jusqu'à 50 "
+"personnes sur Lille ? Optez pour un jeu d'immersion grandeur nature, dans "
+"notre centre d'escape game ou dans vos locaux. Chaque joueur incarne un "
+"personnage et doit faire preuve de négociation, de diplomatie et "
+"d'improvisation pour parvenir à ses fins. C'est l'occasion parfaite de "
+"renforcer la complicité ou de briser la glace. Des comédiens réalisent une "
+"mise en situation, puis c'est à vous de jouer !"
+msgstr ""
+
 #: pages/templates/teambuilding.html:258
 msgid "Une activité immersive de murder party à Lille"
 msgstr ""
 
+#: pages/templates/teambuilding.html:271
+#, fuzzy
+#| msgid "Escape game 2 joueurs"
+msgid "Escape game pour entreprise"
+msgstr "Escape game 2 joueurs"
+
+#: pages/templates/teambuilding.html:274
+msgid ""
+"Cybercity est un scénario original, jouable dans le centre de Lille, qui "
+"mêle un univers high-tech à la culture culinaire flamande. Vous allez avoir "
+"besoin de coordination et de communication pour résoudre les énigmes en "
+"équipe. L'immersion dans une escape room est une excellente occasion de "
+"découvrir ses collègues en dehors du contexte professionnel."
+msgstr ""
+
 #: pages/templates/teambuilding.html:279
 msgid "Le centre d'escape game de Lille de Just Escape"
+msgstr ""
+
+#: pages/templates/teambuilding.html:283
+#, fuzzy
+#| msgid "8 à 24 joueurs"
+msgid "De 2 à 10 joueurs"
+msgstr "8 à 24 joueurs"
+
+#: pages/templates/teambuilding.html:294
+msgid "J'appelle pour organiser mon événement : 07 89 05 37 90"
+msgstr ""
+
+#: pages/templates/teambuilding.html:302
+msgid ""
+"Organiser un escape game à Lille pour votre entreprise présente de nombreux "
+"avantages&nbsp;:"
+msgstr ""
+
+#: pages/templates/teambuilding.html:305
+msgid ""
+"Tout d'abord, cela permet de créer un moment de détente et de divertissement "
+"pour les employés, ce qui peut contribuer à améliorer le bien être au "
+"travail. En effet, en s'amusant ensemble, les employés peuvent se détendre "
+"et oublier le stress quotidien lié à leur travail."
+msgstr ""
+
+#: pages/templates/teambuilding.html:306
+msgid ""
+"De plus, les escape games ou murder party sont des activités ludiques qui "
+"permettent de développer la créativité et la capacité de travail en équipe. "
+"En effet, pour réussir une mission d'escape game, il est nécessaire de "
+"communiquer et de collaborer avec les autres membres de l'équipe. Cela peut "
+"être bénéfique pour l'entreprise, car cela peut renforcer la coopération au "
+"sein de l'équipe et améliorer la performance de celle-ci."
+msgstr ""
+
+#: pages/templates/teambuilding.html:307
+msgid ""
+"Un autre avantage du team building est qu'il permet de créer des liens entre "
+"les employés et de développer la solidarité au sein de l'entreprise. En "
+"effet, en travaillant ensemble pour résoudre des énigmes et réussir une "
+"mission, les employés peuvent mieux se connaître et renforcer leur esprit "
+"d'équipe."
+msgstr ""
+
+#: pages/templates/teambuilding.html:308
+msgid ""
+"Enfin, un team building en escape game est une activité originale et "
+"inoubliable qui peut être très appréciée par les employés. Cela peut être un "
+"moyen pour l'entreprise de montrer sa reconnaissance envers ses employés et "
+"leur offrir une expérience unique."
+msgstr ""
+
+#: pages/templates/teambuilding.html:310
+msgid ""
+"En résumé, organiser un escape game à Lille pour votre entreprise présente "
+"de nombreux avantages, tels que le développement de la créativité et de la "
+"cohésion d'équipe. Cela est bénéfique pour l'entreprise en termes de "
+"performance et de bien être au travail."
+msgstr ""
+
+#: pages/templates/teambuilding.html:342
+msgid "Team building à Lille et activités d'entreprise à Villeneuve d'Ascq"
+msgstr ""
+
+#: pages/templates/teambuilding.html:347
+msgid "Introduction"
+msgstr ""
+
+#: pages/templates/teambuilding.html:348
+msgid ""
+"Bienvenue à Lille et Villeneuve d’Ascq, deux villes dynamiques et idéales "
+"pour organiser vos événements d’entreprise. Que ce soit pour des séminaires, "
+"des réunions, des formations, ou des activités de team building à Lille, "
+"nous avons tout ce dont vous avez besoin pour rendre votre événement "
+"mémorable et réussi."
+msgstr ""
+
+#: pages/templates/teambuilding.html:353
+msgid "Team Building à Lille et Villeneuve d'Ascq"
+msgstr ""
+
+#: pages/templates/teambuilding.html:354
+msgid ""
+"Vous recherchez des activités de team building à Lille originales à Lille et "
+"Villeneuve d’Ascq ? Ne cherchez pas plus loin ! Notre agence spécialisée "
+"vous propose une variété d’activités stimulantes qui renforceront la "
+"cohésion et l’esprit d’équipe au sein de votre entreprise. Du team building "
+"traditionnel aux défis innovants, nous avons les meilleures idées pour vous."
+msgstr ""
+
+#: pages/templates/teambuilding.html:355
+msgid ""
+"Optez pour un escape game en entreprise, une escape room pour votre "
+"séminaire, ou encore des jeux de team building qui sortent de l’ordinaire."
+msgstr ""
+
+#: pages/templates/teambuilding.html:360
+msgid "Idée animation Noël en entreprise"
+msgstr ""
+
+#: pages/templates/teambuilding.html:361
+msgid ""
+"La fête de fin d’année approchent, et c’est le moment idéal pour organiser "
+"une animation de Noël pour votre entreprise. Surprenez vos collaborateurs "
+"avec des repas de Noël festifs, des soirées animées, ou des activités "
+"spéciales qui crééront une ambiance chaleureuse et conviviale."
+msgstr ""
+
+#: pages/templates/teambuilding.html:366
+msgid "Séminaire d'entreprise à Lille et Villeneuve d'Ascq"
+msgstr ""
+
+#: pages/templates/teambuilding.html:367
+msgid ""
+"Besoin de trouver le lieu idéal pour votre prochain séminaire d’entreprise ? "
+"Nos salles de réunion à Lille et Villeneuve d’Ascq offrent un cadre propice "
+"à la réflexion, à l’apprentissage, et à la productivité. Avec des espaces "
+"atypiques et des aménagements sur mesure, nous vous garantissons une "
+"organisation de séminaire réussie. Laissez-nous vous guider dans la "
+"planification de votre événement, du choix des activités au déroulement de "
+"la journée."
+msgstr ""
+
+#: pages/templates/teambuilding.html:372
+#, fuzzy
+#| msgid "Scénario d'escape game à Lille"
+msgid "Location de salle de réunion à Lille"
+msgstr "Escape Game Lille"
+
+#: pages/templates/teambuilding.html:373
+msgid ""
+"Pour vos réunions d’entreprise, nous proposons des salles de réunion "
+"modernes et bien équipées à Lille. Que ce soit pour une réunion d’équipe, "
+"une journée d’étude, ou une réunion stratégiques, nos espaces de réunion "
+"sont parfaitement adaptés à vos besoins. Réservez dès maintenant et "
+"bénéficiez de tarifs avantageux pour la location de salle de réunion."
+msgstr ""
+
+#: pages/templates/teambuilding.html:378
+msgid "Conclusion"
+msgstr ""
+
+#: pages/templates/teambuilding.html:379
+msgid ""
+"Quelle que soit votre demande, notre équipe expérimentée est là pour vous "
+"aider à organiser des événements d’entreprise inoubliables à Lille et "
+"Villeneuve d’Ascq. Contactez-nous dès aujourd’hui pour obtenir des idées "
+"d’activités de team building à Lille, des animations pour la fêtes de fin "
+"d’année, ou pour réserver une salle de réunion ou un lieu pour votre "
+"prochain séminaire d’entreprise."
 msgstr ""
 
 #: pages/templates/terms.html:5
