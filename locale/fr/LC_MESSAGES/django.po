@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-09 15:27+0100\n"
+"POT-Creation-Date: 2025-02-11 09:41+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -173,9 +173,9 @@ msgstr ""
 
 #: pages/templates/component/card_le_tournoi_des_sorciers.html:7
 #: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:7
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:28
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:33
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:301
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:30
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:35
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:303
 msgid "Le Tournoi des Sorciers"
 msgstr ""
 
@@ -186,7 +186,7 @@ msgstr ""
 
 #: pages/templates/component/card_le_tournoi_des_sorciers.html:12
 #: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:12
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:108
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:110
 msgid "8 à 24 joueurs"
 msgstr "8 à 24 joueurs"
 
@@ -652,13 +652,13 @@ msgstr "marmitron@justescape.fr"
 msgid "Subscribe"
 msgstr "Je m&#39;abonne"
 
-#: pages/templates/escape_game_anniversaire.html:489
+#: pages/templates/escape_game_anniversaire.html:491
 #, fuzzy
 #| msgid "Escape game anniversaire"
 msgid "Escape Game Anniversaire"
 msgstr "Escape game anniversaire"
 
-#: pages/templates/escape_game_evg.html:288
+#: pages/templates/escape_game_evg.html:290
 #, fuzzy
 #| msgid "Escape game EVJF"
 msgid "Escape Game EVG"
@@ -865,7 +865,7 @@ msgid "Organiser un <strong>EVJF de rêve</strong>"
 msgstr ""
 
 #: pages/templates/escape_game_evjf.html:243
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:248
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:250
 #: pages/templates/room.html:223
 msgid ""
 "Pour toute question ou demande d'information supplémentaire, contactez-nous."
@@ -1297,7 +1297,7 @@ msgid "Murder party"
 msgstr ""
 
 #: pages/templates/footer.html:71
-#: pages/templates/qu_est_ce_qu_une_murder_party.html:185
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:187
 msgid "Qu'est-ce qu'une murder party ?"
 msgstr ""
 
@@ -2143,56 +2143,56 @@ msgid ""
 "soit pas malentendant ou malvoyant dans votre équipe."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:3
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:6
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:5
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:8
 #, fuzzy
 #| msgid "Price – Escape Game Lille – Just Escape"
 msgid "Murder Party Lille – Just Escape"
 msgstr "Prix – Escape Game Lille – Just Escape"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:4
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:7
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:6
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:9
 msgid ""
 "Découvrez le tournoi des sorciers, une murder party dans une école de magie. "
 "Amusez-vous grâce à cette activité complètement insolite !"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:15
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:17
 msgid "Murder Party avec des décors à Lille"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:34
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:36
 msgid "Une compétition de magie"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:44
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:46
 msgid "Une murder party avec des décors immersifs à Lille"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:52
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:54
 msgid "J'appelle pour réserver : 07 89 05 37 90"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:61
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:63
 #, fuzzy
 #| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
 msgid "Apprenez à faire de la <span class='text-mulberry'>sorcellerie</span>"
 msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:64
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:66
 msgid ""
 "Des duels magiques, des portes qui s'ouvrent d'un coup de baguette magique, "
 "des défis autour de pierres aux vertus rares... Tous ces éléments réunis "
 "pour vous faire vivre la plus magique des aventures."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:71
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:73
 #, fuzzy
 #| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
 msgid "Un <span class='text-mulberry'>univers magique</span> vous attend"
 msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:74
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:76
 msgid ""
 "Une expérience immersive dans 100m² de décors spécialement conçus pour "
 "l'occasion est prévue. Une salle des potions plus vraie que nature, une "
@@ -2200,82 +2200,82 @@ msgid ""
 "y attendent."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:81
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:83
 msgid "Au coeur du tournoi des sorciers"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:84
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:86
 msgid ""
 "Endossez vos couleurs et représentez fièrement votre maison lors d'une "
 "compétition mêlant lecture de sortilèges et identification de plantes "
 "mystérieuses. Rejoignez les rangs des grands vainqueurs."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:94
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:96
 msgid "Détails de l'événement"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:100
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:102
 msgid "26 rue d'Arras, près de la rue Solférino, Lille"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:104
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:106
 msgid "90 minutes de jeu"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:112
-msgid "À partir de 40€ par personne"
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:114
+msgid "À partir de 35€ par personne"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:122
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:124
 msgid "Inclus dans le prix"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:126
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:128
 msgid "Une boisson par participant parmis une sélection"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:127
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:129
 msgid ""
 "Un acteur pour un groupe allant jusqu'à 15 personnes et un deuxième au delà"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:128
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:130
 msgid "Des costumes sont mis à disposition"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:140
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:142
 msgid ""
 "Participants plongés dans une enquête criminelle lors d'une murder party à "
 "Lille"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:147
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:149
 msgid "Scénario intrigant et indices cachés pendant une murder party à Lille"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:154
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:156
 msgid ""
 "Joueurs analysant une scène de crime fictive lors d'une murder party à Lille"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:170
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:172
 msgid "Formulaire de réservation"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:175
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:177
 msgid "Je demande un devis"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:184
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:186
 msgid "Une question sur cette murder party ? Consultez notre FAQ"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:194
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:196
 msgid "Les enfants sont-ils acceptés ?"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:199
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:201
 msgid ""
 "Oui, les enfants sont acceptés dans notre Murder Party ! Une version "
 "simplifiée du scénario est spécialement conçue pour les plus jeunes. "
@@ -2284,45 +2284,45 @@ msgid ""
 "de 9 ans."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:209
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:211
 msgid "Peut-on jouer en anglais ?"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:214
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:216
 msgid "Une version anglaise est disponible <b>sur demande</b>."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:217
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:219
 msgid ""
 "Afin de garantir une expérience optimale, veuillez nous informer de votre "
 "préférence linguistique lors de la réservation <b>via les commentaires ou "
 "par e-mail à contact@justescape.fr</b>."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:220
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:222
 msgid ""
 "Que vous préfériez le français ou l'anglais, préparez-vous à une soirée "
 "immersive pleine de mystère, d'indices et de stratégies."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:230
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:232
 msgid "Est-ce accessible pour tous les niveaux ?"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:235
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:237
 msgid ""
 "Que vous soyez débutant ou déjà expérimenté, la Murder Party s'adapte "
 "parfaitement à tous les niveaux."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:238
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:240
 msgid ""
 "Elle a été conçue pour être accessible à tous, permettant à chacun de la "
 "prendre en main facilement. Vous jouerez avec une difficulté adaptée, et les "
 "animateurs ajusteront leur accompagnement en fonction de votre niveau."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:269
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:271
 msgid "Je retourne à la liste des murder party"
 msgstr ""
 
