@@ -2,11 +2,11 @@
 
 {% load i18n %}
 
-{% block title %}Murder Party Lille – Just Escape{% endblock %}
-{% block description %}Découvrez le RedRock saloon, une murder party dans un village western. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
+{% block title %}{% trans "Murder Party Lille – Just Escape" %}{% endblock %}
+{% block description %}{% trans "Découvrez le RedRock saloon, une murder party dans un village western. Amusez-vous grâce à cette activité complètement insolite !" %}{% endblock %}
 
-{% block og_title %}Murder Party Lille – Just Escape{% endblock %}
-{% block og_description %}Découvrez le RedRock saloon, une murder party dans un village western. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
+{% block og_title %}{% trans "Murder Party Lille – Just Escape" %}{% endblock %}
+{% block og_description %}{% trans "Découvrez le RedRock saloon, une murder party dans un village western. Amusez-vous grâce à cette activité complètement insolite !" %}{% endblock %}
 
 {% block extra_css %}
   <style rel="stylesheet">{% include "css/fa-solid-5.8.1.min.css" %}</style>
@@ -14,7 +14,7 @@
   <style rel="stylesheet">{% include "css/fontawesome-5.8.1.min.css" %}</style>
 {% endblock %}
 
-{% block h1 %}Scénarios de Murder Party à Lille{% endblock %}
+{% block h1 %}{% trans "Scénarios de Murder Party à Lille" %}{% endblock %}
 
 {% block content %}
 
@@ -26,14 +26,14 @@
           <div>
             <ol class="breadcrumb softdark py-2">
                     <li class="breadcrumb-item"><a href="/{{ lang }}" class="fill-jaffa svg-16px">{% include "svg/home.svg" %}</a></li>
-                    <li class="breadcrumb-item"><a href="/{{ lang }}murder-party" class="text-jaffa">Murder Party</a></li>
-              <li class="breadcrumb-item active" aria-current="page">La Murder Party</li>
+                    <li class="breadcrumb-item"><a href="/{{ lang }}murder-party" class="text-jaffa">{% trans "Murder Party" %}</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{% trans "La Murder Party" %}</li>
             </ol>
           </div>
 
           <div class="d-flex flex-column mb-2">
-            <h2 class="text-jaffa mb-0">La Murder Party</h2>
-            <div class="text-inter font-weight-bold size-12 mb-2">Plus immersif qu'un escape game</div>
+                  <h2 class="text-jaffa mb-0">{% trans "La Murder Party" %}</h2>
+                  <div class="text-inter font-weight-bold size-12 mb-2">{% trans "Plus immersif qu'un escape game" %}</div>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
             <picture>
               <source srcset="/static/img/murder-party.webp" type="image/webp">
               <source srcset="/static/img/murder-party.png" type="image/png">
-              <img class="img-fluid w-100 mb-3" src="/static/img/murder-party.webp" alt="Des personnages sont dans une intrigue de murder party">
+              <img class="img-fluid w-100 mb-3" src="/static/img/murder-party.webp" alt="{% trans "Des personnages sont dans une intrigue de murder party" %}">
             </picture>
           </div>
         </div>
@@ -51,7 +51,7 @@
       <div class="row">
         <div class="col text-center mb-5">
           <a href="tel:+33789053790" class="btn btn-primary px-5">
-            <span>J'appelle pour réserver : 07 89 05 37 90</span>
+                  <span>{% trans "J'appelle pour réserver : 07 89 05 37 90" %}</span>
           </a>
         </div>
       </div>
@@ -60,30 +60,30 @@
         <div class="col-12 col-lg-4 mb-4 mb-lg-2">
           <div class="card transparent border-jaffa h-100">
             <div class="card-header">
-              <h3>Pour les fans du <span class="text-mulberry">cluedo</span></h3>
+                    <h3>{% trans "Pour les fans du <span class='text-mulberry'>cluedo</span>" %}</h3>
             </div>
             <div class="card-body pt-0">
-              L'intrigue de l'incontournable jeu de plateau "Cluedo" se mélange à une ambiance western, le tout dans la vraie vie ! Découvrez les tenants et aboutissants d'un mystérieux meurtre et tentez de résoudre l'enquête.
+                    {% trans "L'intrigue de l'incontournable jeu de plateau 'Cluedo' se mélange à une ambiance western, le tout dans la vraie vie ! Découvrez les tenants et aboutissants d'un mystérieux meurtre et tentez de résoudre l'enquête." %}
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-4 mb-4 mb-lg-2">
           <div class="card transparent border-jaffa h-100">
             <div class="card-header">
-              <h3>Plus d'énigmes que dans un escape game</h3>
+                    <h3>{% trans "Plus d'énigmes que dans un escape game" %}</h3>
             </div>
             <div class="card-body pt-0">
-              Contrairement aux escape games dans lesquels les énigmes sont linéaires, notre Murder Party favorise une interaction constante. Les acteurs apportent des éléments nouveaux à chaque instant.
+                    {% trans "Contrairement aux escape games dans lesquels les énigmes sont linéaires, notre Murder Party favorise une interaction constante. Les acteurs apportent des éléments nouveaux à chaque instant." %}
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-4 mb-4 mb-lg-2">
           <div class="card transparent border-jaffa h-100">
             <div class="card-header">
-              <h3>Faites de nouvelles rencontres</h3>
+                    <h3>{% trans "Faites de nouvelles rencontres" %}</h3>
             </div>
             <div class="card-body pt-0">
-              Testez un concept unique de sessions libres qui permettent à des petits groupes de jouer avec d'autres passionnés.
+                    {% trans "Testez un concept unique de sessions libres qui permettent à des petits groupes de jouer avec d'autres passionnés." %}
             </div>
           </div>
         </div>
@@ -93,25 +93,25 @@
         <div class="col-12 col-lg-6">
           <div class="card transparent border-light h-100">
             <div class="card-header text-inter font-weight-bold text-center">
-              Détails de l'événement
+                    {% trans "Détails de l'événement" %}
             </div>
             <div class="card-body size-11 lh-12 pt-0">
               <ul class="list-unstyled">
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/map-marker.svg" %}</span>
-                  <span class="lh-24px">26 rue d'Arras, près de la rue de Solférino, Lille</span>
+                  <span class="lh-24px">{% trans "26 rue d'Arras, près de la rue de Solférino, Lille" %}</span>
                 </li>
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
-                  <span class="lh-24px">2 heures</span>
+                  <span class="lh-24px">{% trans "2 heures" %}</span>
                 </li>
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
-                  <span class="lh-24px">6 à 23 joueurs</span>
+                  <span class="lh-24px">{% trans "6 à 23 joueurs" %}</span>
                 </li>
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/euro.svg" %}</span>
-                  <span class="lh-24px">À partir de 30€ par personne</span>
+                  <span class="lh-24px">{% trans "À partir de 30€ par personne" %}</span>
                 </li>
               </ul>
             </div>
@@ -121,13 +121,13 @@
         <div class="col-12 col-lg-6">
           <div class="card transparent border-light h-100">
             <div class="card-header text-inter font-weight-bold text-center">
-              <div>Inclus dans le prix</div>
+                    <div>{% trans "Inclus dans le prix" %}</div>
             </div>
             <div class="card-body size-11 lh-12 pt-0">
               <ul>
-                <li>Une boisson par personne pour vous rafraîchir pendant l'enquête</li>
-                <li>Des costumes et accessoires pour plonger pleinement dans l'ambiance du Fast West</li>
-                <li>La présence de deux acteurs professionnels qui donneront vie aux personnages clés de l'intrigue</li>
+                      <li>{% trans "Une boisson par personne pour vous rafraîchir pendant l'enquête" %}</li>
+                      <li>{% trans "Des costumes et accessoires pour plonger pleinement dans l'ambiance du Fast West" %}</li>
+                      <li>{% trans "La présence de deux acteurs professionnels qui donneront vie aux personnages clés de l'intrigue" %}</li>
               </ul>
             </div>
           </div>
@@ -136,7 +136,7 @@
 
       <div class="row">
         <div class="col">
-                <p class="text-center"><a href="/{{ lang }}murder-party/qu-est-ce-qu-une-murder-party" class="btn btn-primary p-3"><span>Qu'est-ce qu'une murder party ?</span></a></p>
+                <p class="text-center"><a href="/{{ lang }}murder-party/qu-est-ce-qu-une-murder-party" class="btn btn-primary p-3"><span>{% trans "Qu'est-ce qu'une murder party ?" %}</span></a></p>
         </div>
       </div>
 
@@ -151,12 +151,12 @@
         <div class="col">
           <span id="devis" class="anchor">&nbsp;</span>
           <span id="inscription" class="anchor">&nbsp;</span>
-          <h2 class="text-jaffa">Formulaire de réservation</h2>
+          <h2 class="text-jaffa">{% trans "Formulaire de réservation" %}</h2>
           <div class="forescape mb-4" data-subdomain="justescape" data-type="bookings" data-rooms="64481c0fed643ccf79244297,652d0f2dec8a84d68cdc8085"></div>
 
           <div class="text-center">
                   <a href="/{{ lang }}team-building#devis" class="btn btn-primary px-5">
-              <span>Je demande un devis</span>
+                          <span>{% trans "Je demande un devis" %}</span>
             </a>
           </div>
   
@@ -165,7 +165,7 @@
 
       <div class="row">
         <div class="col">
-          <h2>Une question sur cette murder party ? Consultez notre FAQ</h2>
+                <h2>{% trans "Une question sur cette murder party ? Consultez notre FAQ" %}</h2>
         </div>
       </div>
 
@@ -175,15 +175,15 @@
           <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
               <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Comment se déroule une murder party ?
+              {% trans "Comment se déroule une murder party ?" %}
             </div>
             <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p class="mt-3">
-                  Une Murder Party est un jeu de rôle grandeur nature dans lequel les joueurs endossent les rôles des personnages d'une histoire. À chaque joueur sera distributé une fiche personnage, ainsi que des éléments et accessoires de costume.
+                {% trans "Une Murder Party est un jeu de rôle grandeur nature dans lequel les joueurs endossent les rôles des personnages d'une histoire. À chaque joueur sera distributé une fiche personnage, ainsi que des éléments et accessoires de costume." %}
                 </p>
                 <p class="mb-0">
-                  La Murder Party se déroule dans les locaux de Just Escape, où des éléments de décors seront installés.
+                {% trans "La Murder Party se déroule dans les locaux de Just Escape, où des éléments de décors seront installés." %}
                 </p>
               </div>
             </div>
@@ -193,12 +193,12 @@
           <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
               <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Des acteurs sont-ils inclus dans la murder party ?
+              {% trans "Des acteurs sont-ils inclus dans la murder party ?" %}
             </div>
             <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p class="mt-3 mb-0">
-                  Des acteurs sont inclus dans le scénario de la Murder Party. Ils sont présents pour vous aider en cas de difficulté, mais ils sont également essentiels à la bonne continuité du jeu.
+                {% trans "Des acteurs sont inclus dans le scénario de la Murder Party. Ils sont présents pour vous aider en cas de difficulté, mais ils sont également essentiels à la bonne continuité du jeu." %}
                 </p>
               </div>
             </div>
@@ -208,15 +208,15 @@
           <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
               <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              La murder party est-elle adaptée pour un EVJF ou un EVG ?
+              {% trans "La murder party est-elle adaptée pour un EVJF ou un EVG ?" %}
             </div>
             <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p class="mt-3">
-                  Vous pouvez proposer, lors d'une organisation d'EVJF ou d'EVG une activité originale en proposant une Murder Party. Idéal pour des grands groupes d'ami(e)s, la Murder Party peut surprendre votre groupe.
+                {% trans "Vous pouvez proposer, lors d'une organisation d'EVJF ou d'EVG une activité originale en proposant une Murder Party. Idéal pour des grands groupes d'ami(e)s, la Murder Party peut surprendre votre groupe." %}
                 </p>
                 <p class="mb-0">
-                Dans le cas où certaines personnes ne seraient pas à l'aise en public, nous vous conseillons de <a href="/{{ lang }}reserver">réserver un escape game</a> pour avoir une activité clé en main et adaptée pour tout type de personnalité.
+                {% trans "Dans le cas où certaines personnes ne seraient pas à l'aise en public, nous vous conseillons de <a href='/fr/reserver'>réserver un escape game</a> pour avoir une activité clé en main et adaptée pour tout type de personnalité." %}
                 </p>
               </div>
             </div>
@@ -226,15 +226,15 @@
           <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
               <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Qu'est-ce qu'une Murder Party en session libre ?
+              {% trans "Qu'est-ce qu'une Murder Party en session libre ?" %}
             </div>
             <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p class="mt-3">
-                  Les sessions libres sont faites pour les groupes qui n'ont pas assez de participants. Formez une équipe avec d'autres joueurs aussi passionnés que vous.
+                {% trans "Les sessions libres sont faites pour les groupes qui n'ont pas assez de participants. Formez une équipe avec d'autres joueurs aussi passionnés que vous." %}
                 </p>
                 <p class="mb-0">
-                  Chaque session est l'opportunité de découvrir de nouvelles personnes. Cette diversité rend votre session libre unique et imprévisible.
+                {% trans "Chaque session est l'opportunité de découvrir de nouvelles personnes. Cette diversité rend votre session libre unique et imprévisible." %}
                 </p>
               </div>
             </div>
@@ -244,12 +244,12 @@
 
       <div class="row">
         <div class="col">
-          <div class="text-center font-weight-bold mb-3">Pour toute question ou demande d'information supplémentaire, contactez-nous.</div>
+                <div class="text-center font-weight-bold mb-3">{% trans "Pour toute question ou demande d'information supplémentaire, contactez-nous." %}</div>
 
           <div class="text-center p-3 border-jaffa border-solid rounded d-flex justify-content-center flex-column">
-                  <div class="text-jaffa text-inter font-weight-bold size-12">Contact</div>
+                  <div class="text-jaffa text-inter font-weight-bold size-12">{% trans "Contact" %}</div>
             <div class="d-flex flex-column">
-                    <div><span class="text-jaffa">Tel :&nbsp;</span>07 89 05 37 90</div>
+                    <div><span class="text-jaffa">Tel :&nbsp;</span>{% trans "07 89 05 37 90" %}</div>
                     <div><span class="text-jaffa">Mail :&nbsp;</span>contact@justescape.fr</div>
             </div>
           </div>
@@ -266,7 +266,7 @@
     {% include "component/discover_as_well.html" with label=translated_label what="le_tournoi_des_sorciers,killer_party" %}
 
     <div class="text-center">
-            <a href="/{{ lang }}murder-party">Je retourne à la liste des murder party</a>
+            <a href="/{{ lang }}murder-party">{% trans "Je retourne à la liste des murder party" %}</a>
     </div>
   </div>
 </section>

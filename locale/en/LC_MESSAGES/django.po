@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-12 21:42+0100\n"
+"POT-Creation-Date: 2025-02-16 22:44+0100\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -252,6 +252,8 @@ msgstr "+ price of the meal"
 
 #: pages/templates/component/card_redrock_saloon.html:7
 #: pages/templates/component/card_sm_redrock_saloon.html:7
+#: pages/templates/murder_party_redrock_saloon.html:30
+#: pages/templates/murder_party_redrock_saloon.html:35
 msgid "La Murder Party"
 msgstr "The Murder Party"
 
@@ -262,11 +264,13 @@ msgstr "Western Murder Party"
 
 #: pages/templates/component/card_redrock_saloon.html:12
 #: pages/templates/component/card_sm_redrock_saloon.html:12
+#: pages/templates/murder_party_redrock_saloon.html:110
 msgid "6 à 23 joueurs"
 msgstr "6 to 23 players"
 
 #: pages/templates/component/card_redrock_saloon.html:16
 #: pages/templates/component/card_sm_redrock_saloon.html:16
+#: pages/templates/murder_party_redrock_saloon.html:106
 msgid "2 heures"
 msgstr "2 hours"
 
@@ -588,6 +592,7 @@ msgstr ""
 #: pages/templates/contact.html:8 pages/templates/contact.html:55
 #: pages/templates/contact.html:224 pages/templates/footer.html:80
 #: pages/templates/header.html:68 pages/templates/home.html:781
+#: pages/templates/murder_party_redrock_saloon.html:250
 #: pages/templates/room.html:226
 msgid "Contact"
 msgstr "Contact"
@@ -945,6 +950,7 @@ msgstr "I organize a <strong>dream hen party</strong>"
 
 #: pages/templates/escape_game_evjf.html:243
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:250
+#: pages/templates/murder_party_redrock_saloon.html:247
 #: pages/templates/room.html:223
 msgid ""
 "Pour toute question ou demande d'information supplémentaire, contactez-nous."
@@ -1365,6 +1371,7 @@ msgid "Murder party"
 msgstr "Murder party"
 
 #: pages/templates/footer.html:71
+#: pages/templates/murder_party_redrock_saloon.html:139
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:187
 msgid "Qu'est-ce qu'une murder party ?"
 msgstr "What is a murder party&nbsp;?"
@@ -1469,7 +1476,9 @@ msgstr "Air-conditioned rooms"
 msgid "tel:0789053790"
 msgstr "tel:0789053790"
 
-#: pages/templates/header.html:134 pages/templates/room.html:228
+#: pages/templates/header.html:134
+#: pages/templates/murder_party_redrock_saloon.html:252
+#: pages/templates/room.html:228
 msgid "07 89 05 37 90"
 msgstr "+33 7 89 05 37 90"
 
@@ -2359,6 +2368,8 @@ msgstr "Discover our escape room scenarios as well"
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:5
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:8
+#: pages/templates/murder_party_redrock_saloon.html:5
+#: pages/templates/murder_party_redrock_saloon.html:8
 msgid "Murder Party Lille – Just Escape"
 msgstr "Murder Party Lille – Just Escape"
 
@@ -2384,6 +2395,7 @@ msgid "Une murder party avec des décors immersifs à Lille"
 msgstr "A murder party with immersive scenery in Lille"
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:54
+#: pages/templates/murder_party_redrock_saloon.html:54
 msgid "J'appelle pour réserver : 07 89 05 37 90"
 msgstr "I call to book: +33 7 89 05 37 90"
 
@@ -2431,6 +2443,7 @@ msgstr ""
 "the ranks of the great winners."
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:96
+#: pages/templates/murder_party_redrock_saloon.html:96
 msgid "Détails de l'événement"
 msgstr "Details of the event"
 
@@ -2447,6 +2460,7 @@ msgid "À partir de 35€ par personne"
 msgstr "From 35€ per person"
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:124
+#: pages/templates/murder_party_redrock_saloon.html:124
 msgid "Inclus dans le prix"
 msgstr "Included in the price"
 
@@ -2482,16 +2496,19 @@ msgid ""
 msgstr "Players analysing a fictitious crime scene at a murder party in Lille"
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:172
+#: pages/templates/murder_party_redrock_saloon.html:154
 msgid "Formulaire de réservation"
 msgstr "Booking form"
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:177
+#: pages/templates/murder_party_redrock_saloon.html:159
 #: pages/templates/teambuilding.html:135 pages/templates/teambuilding.html:212
 #: pages/templates/teambuilding.html:322
 msgid "Je demande un devis"
 msgstr "I request a quote"
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:186
+#: pages/templates/murder_party_redrock_saloon.html:168
 msgid "Une question sur cette murder party ? Consultez notre FAQ"
 msgstr ""
 "Do you have a question about this murder party in Lille? Check out our FAQ"
@@ -2562,8 +2579,182 @@ msgstr ""
 "instructors will adjust their support according to your level."
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:272
+#: pages/templates/murder_party_redrock_saloon.html:269
 msgid "Je retourne à la liste des murder party"
 msgstr "I go back to the list of murder parties"
+
+#: pages/templates/murder_party_redrock_saloon.html:6
+#: pages/templates/murder_party_redrock_saloon.html:9
+msgid ""
+"Découvrez le RedRock saloon, une murder party dans un village western. "
+"Amusez-vous grâce à cette activité complètement insolite !"
+msgstr ""
+"Discover the RedRock saloon, a murder party in a western village. Have fun "
+"with this completely unusual activity!"
+
+#: pages/templates/murder_party_redrock_saloon.html:17
+msgid "Scénarios de Murder Party à Lille"
+msgstr "Murder Party scenarios in Lille"
+
+#: pages/templates/murder_party_redrock_saloon.html:29
+msgid "Murder Party"
+msgstr "Murder Party"
+
+#: pages/templates/murder_party_redrock_saloon.html:36
+msgid "Plus immersif qu'un escape game"
+msgstr "More immersive than an escape game"
+
+#: pages/templates/murder_party_redrock_saloon.html:46
+msgid "Des personnages sont dans une intrigue de murder party"
+msgstr "Characters are involved in a murder party plot"
+
+#: pages/templates/murder_party_redrock_saloon.html:63
+msgid "Pour les fans du <span class='text-mulberry'>cluedo</span>"
+msgstr "For <span class='text-mulberry'>cluedo</span> fans!"
+
+#: pages/templates/murder_party_redrock_saloon.html:66
+msgid ""
+"L'intrigue de l'incontournable jeu de plateau 'Cluedo' se mélange à une "
+"ambiance western, le tout dans la vraie vie ! Découvrez les tenants et "
+"aboutissants d'un mystérieux meurtre et tentez de résoudre l'enquête."
+msgstr ""
+"The plot of the classic board game 'Cluedo' blends with a western "
+"atmosphere, all set in real life! Discover the ins and outs of a mysterious "
+"murder and try to solve the case."
+
+#: pages/templates/murder_party_redrock_saloon.html:73
+msgid "Plus d'énigmes que dans un escape game"
+msgstr "More riddles than in an escape room"
+
+#: pages/templates/murder_party_redrock_saloon.html:76
+msgid ""
+"Contrairement aux escape games dans lesquels les énigmes sont linéaires, "
+"notre Murder Party favorise une interaction constante. Les acteurs apportent "
+"des éléments nouveaux à chaque instant."
+msgstr ""
+"Unlike escape games where the puzzles are linear, our Murder Party "
+"encourages constant interaction. The players add new elements at every "
+"moment."
+
+#: pages/templates/murder_party_redrock_saloon.html:83
+msgid "Faites de nouvelles rencontres"
+msgstr "Meet new people"
+
+#: pages/templates/murder_party_redrock_saloon.html:86
+msgid ""
+"Testez un concept unique de sessions libres qui permettent à des petits "
+"groupes de jouer avec d'autres passionnés."
+msgstr ""
+"Try out a unique concept of free sessions that allow small groups to play "
+"with other enthusiasts."
+
+#: pages/templates/murder_party_redrock_saloon.html:102
+msgid "26 rue d'Arras, près de la rue de Solférino, Lille"
+msgstr "26 rue d'Arras, near rue Solférino, Lille"
+
+#: pages/templates/murder_party_redrock_saloon.html:114
+msgid "À partir de 30€ par personne"
+msgstr "From 30€ per person"
+
+#: pages/templates/murder_party_redrock_saloon.html:128
+msgid "Une boisson par personne pour vous rafraîchir pendant l'enquête"
+msgstr "A refreshing beverage per person during the investigation."
+
+#: pages/templates/murder_party_redrock_saloon.html:129
+msgid ""
+"Des costumes et accessoires pour plonger pleinement dans l'ambiance du Fast "
+"West"
+msgstr "Costumes and accessories to give you the full Fast West feel"
+
+#: pages/templates/murder_party_redrock_saloon.html:130
+msgid ""
+"La présence de deux acteurs professionnels qui donneront vie aux personnages "
+"clés de l'intrigue"
+msgstr ""
+"The presence of two professional actors who will bring to life the key "
+"characters in the plot"
+
+#: pages/templates/murder_party_redrock_saloon.html:178
+msgid "Comment se déroule une murder party ?"
+msgstr "How does a murder party work?"
+
+#: pages/templates/murder_party_redrock_saloon.html:183
+msgid ""
+"Une Murder Party est un jeu de rôle grandeur nature dans lequel les joueurs "
+"endossent les rôles des personnages d'une histoire. À chaque joueur sera "
+"distributé une fiche personnage, ainsi que des éléments et accessoires de "
+"costume."
+msgstr ""
+"A Murder Party is a life-size role-playing game in which players take on the "
+"roles of characters in a story. Each player will be given a character sheet, "
+"as well as costume elements and accessories."
+
+#: pages/templates/murder_party_redrock_saloon.html:186
+msgid ""
+"La Murder Party se déroule dans les locaux de Just Escape, où des éléments "
+"de décors seront installés."
+msgstr ""
+"The Murder Party will take place on the Just Escape premises, where the "
+"decor will be set up."
+
+#: pages/templates/murder_party_redrock_saloon.html:196
+msgid "Des acteurs sont-ils inclus dans la murder party ?"
+msgstr "Are actors included in the murder party?"
+
+#: pages/templates/murder_party_redrock_saloon.html:201
+msgid ""
+"Des acteurs sont inclus dans le scénario de la Murder Party. Ils sont "
+"présents pour vous aider en cas de difficulté, mais ils sont également "
+"essentiels à la bonne continuité du jeu."
+msgstr ""
+"Actors are included in the Murder Party script. They're there to help you if "
+"you run into difficulties, but they're also essential to the continuity of "
+"the game."
+
+#: pages/templates/murder_party_redrock_saloon.html:211
+msgid "La murder party est-elle adaptée pour un EVJF ou un EVG ?"
+msgstr "Is a murder party suitable for a stag or hen party?"
+
+#: pages/templates/murder_party_redrock_saloon.html:216
+msgid ""
+"Vous pouvez proposer, lors d'une organisation d'EVJF ou d'EVG une activité "
+"originale en proposant une Murder Party. Idéal pour des grands groupes "
+"d'ami(e)s, la Murder Party peut surprendre votre groupe."
+msgstr ""
+"When organising a stag or hen party, you can offer an original activity by "
+"proposing a Murder Party. Ideal for large groups of friends, the Murder "
+"Party can surprise your group."
+
+#: pages/templates/murder_party_redrock_saloon.html:219
+msgid ""
+"Dans le cas où certaines personnes ne seraient pas à l'aise en public, nous "
+"vous conseillons de <a href='/fr/reserver'>réserver un escape game</a> pour "
+"avoir une activité clé en main et adaptée pour tout type de personnalité."
+msgstr ""
+"In the event that some people are not comfortable in public, we advise you "
+"to <a href=‘/en/reserver’>book an escape room</a> for a turnkey activity "
+"suitable for all personality types."
+
+#: pages/templates/murder_party_redrock_saloon.html:229
+msgid "Qu'est-ce qu'une Murder Party en session libre ?"
+msgstr "What is a murder party open session?"
+
+#: pages/templates/murder_party_redrock_saloon.html:234
+msgid ""
+"Les sessions libres sont faites pour les groupes qui n'ont pas assez de "
+"participants. Formez une équipe avec d'autres joueurs aussi passionnés que "
+"vous."
+msgstr ""
+"Open sessions are for groups that don't have enough participants. Form a "
+"team with other players who are as passionate as you are."
+
+#: pages/templates/murder_party_redrock_saloon.html:237
+msgid ""
+"Chaque session est l'opportunité de découvrir de nouvelles personnes. Cette "
+"diversité rend votre session libre unique et imprévisible."
+msgstr ""
+"Each session is an opportunity to meet new people. This diversity makes your "
+"free session unique and unpredictable."
 
 #: pages/templates/order-confirmed.html:11
 msgid "Order confirmed – Escape Game Lille – Just Escape"

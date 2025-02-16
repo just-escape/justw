@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-12 21:42+0100\n"
+"POT-Creation-Date: 2025-02-16 22:44+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -241,6 +241,8 @@ msgstr ""
 
 #: pages/templates/component/card_redrock_saloon.html:7
 #: pages/templates/component/card_sm_redrock_saloon.html:7
+#: pages/templates/murder_party_redrock_saloon.html:30
+#: pages/templates/murder_party_redrock_saloon.html:35
 msgid "La Murder Party"
 msgstr ""
 
@@ -251,11 +253,13 @@ msgstr ""
 
 #: pages/templates/component/card_redrock_saloon.html:12
 #: pages/templates/component/card_sm_redrock_saloon.html:12
+#: pages/templates/murder_party_redrock_saloon.html:110
 msgid "6 à 23 joueurs"
 msgstr "6 à 23 joueurs"
 
 #: pages/templates/component/card_redrock_saloon.html:16
 #: pages/templates/component/card_sm_redrock_saloon.html:16
+#: pages/templates/murder_party_redrock_saloon.html:106
 msgid "2 heures"
 msgstr ""
 
@@ -552,6 +556,7 @@ msgstr ""
 #: pages/templates/contact.html:8 pages/templates/contact.html:55
 #: pages/templates/contact.html:224 pages/templates/footer.html:80
 #: pages/templates/header.html:68 pages/templates/home.html:781
+#: pages/templates/murder_party_redrock_saloon.html:250
 #: pages/templates/room.html:226
 msgid "Contact"
 msgstr "Contact"
@@ -895,6 +900,7 @@ msgstr ""
 
 #: pages/templates/escape_game_evjf.html:243
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:250
+#: pages/templates/murder_party_redrock_saloon.html:247
 #: pages/templates/room.html:223
 msgid ""
 "Pour toute question ou demande d'information supplémentaire, contactez-nous."
@@ -1326,6 +1332,7 @@ msgid "Murder party"
 msgstr ""
 
 #: pages/templates/footer.html:71
+#: pages/templates/murder_party_redrock_saloon.html:139
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:187
 msgid "Qu'est-ce qu'une murder party ?"
 msgstr ""
@@ -1430,7 +1437,9 @@ msgstr ""
 msgid "tel:0789053790"
 msgstr ""
 
-#: pages/templates/header.html:134 pages/templates/room.html:228
+#: pages/templates/header.html:134
+#: pages/templates/murder_party_redrock_saloon.html:252
+#: pages/templates/room.html:228
 msgid "07 89 05 37 90"
 msgstr ""
 
@@ -2170,6 +2179,8 @@ msgstr ""
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:5
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:8
+#: pages/templates/murder_party_redrock_saloon.html:5
+#: pages/templates/murder_party_redrock_saloon.html:8
 #, fuzzy
 #| msgid "Price – Escape Game Lille – Just Escape"
 msgid "Murder Party Lille – Just Escape"
@@ -2195,6 +2206,7 @@ msgid "Une murder party avec des décors immersifs à Lille"
 msgstr ""
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:54
+#: pages/templates/murder_party_redrock_saloon.html:54
 msgid "J'appelle pour réserver : 07 89 05 37 90"
 msgstr ""
 
@@ -2237,6 +2249,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:96
+#: pages/templates/murder_party_redrock_saloon.html:96
 msgid "Détails de l'événement"
 msgstr ""
 
@@ -2253,6 +2266,7 @@ msgid "À partir de 35€ par personne"
 msgstr ""
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:124
+#: pages/templates/murder_party_redrock_saloon.html:124
 msgid "Inclus dans le prix"
 msgstr ""
 
@@ -2285,16 +2299,19 @@ msgid ""
 msgstr ""
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:172
+#: pages/templates/murder_party_redrock_saloon.html:154
 msgid "Formulaire de réservation"
 msgstr ""
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:177
+#: pages/templates/murder_party_redrock_saloon.html:159
 #: pages/templates/teambuilding.html:135 pages/templates/teambuilding.html:212
 #: pages/templates/teambuilding.html:322
 msgid "Je demande un devis"
 msgstr ""
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:186
+#: pages/templates/murder_party_redrock_saloon.html:168
 msgid "Une question sur cette murder party ? Consultez notre FAQ"
 msgstr ""
 
@@ -2350,7 +2367,159 @@ msgid ""
 msgstr ""
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:272
+#: pages/templates/murder_party_redrock_saloon.html:269
 msgid "Je retourne à la liste des murder party"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:6
+#: pages/templates/murder_party_redrock_saloon.html:9
+msgid ""
+"Découvrez le RedRock saloon, une murder party dans un village western. "
+"Amusez-vous grâce à cette activité complètement insolite !"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:17
+#, fuzzy
+#| msgid "Scénario d'escape game à Lille"
+msgid "Scénarios de Murder Party à Lille"
+msgstr "Escape Game Lille"
+
+#: pages/templates/murder_party_redrock_saloon.html:29
+msgid "Murder Party"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:36
+#, fuzzy
+#| msgid "Among Us dans un escape game"
+msgid "Plus immersif qu'un escape game"
+msgstr "Among Us dans un escape game"
+
+#: pages/templates/murder_party_redrock_saloon.html:46
+msgid "Des personnages sont dans une intrigue de murder party"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:63
+#, fuzzy
+#| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+msgid "Pour les fans du <span class='text-mulberry'>cluedo</span>"
+msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+
+#: pages/templates/murder_party_redrock_saloon.html:66
+msgid ""
+"L'intrigue de l'incontournable jeu de plateau 'Cluedo' se mélange à une "
+"ambiance western, le tout dans la vraie vie ! Découvrez les tenants et "
+"aboutissants d'un mystérieux meurtre et tentez de résoudre l'enquête."
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:73
+#, fuzzy
+#| msgid "Among Us dans un escape game"
+msgid "Plus d'énigmes que dans un escape game"
+msgstr "Among Us dans un escape game"
+
+#: pages/templates/murder_party_redrock_saloon.html:76
+msgid ""
+"Contrairement aux escape games dans lesquels les énigmes sont linéaires, "
+"notre Murder Party favorise une interaction constante. Les acteurs apportent "
+"des éléments nouveaux à chaque instant."
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:83
+msgid "Faites de nouvelles rencontres"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:86
+msgid ""
+"Testez un concept unique de sessions libres qui permettent à des petits "
+"groupes de jouer avec d'autres passionnés."
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:102
+msgid "26 rue d'Arras, près de la rue de Solférino, Lille"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:114
+msgid "À partir de 30€ par personne"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:128
+msgid "Une boisson par personne pour vous rafraîchir pendant l'enquête"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:129
+msgid ""
+"Des costumes et accessoires pour plonger pleinement dans l'ambiance du Fast "
+"West"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:130
+msgid ""
+"La présence de deux acteurs professionnels qui donneront vie aux personnages "
+"clés de l'intrigue"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:178
+msgid "Comment se déroule une murder party ?"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:183
+msgid ""
+"Une Murder Party est un jeu de rôle grandeur nature dans lequel les joueurs "
+"endossent les rôles des personnages d'une histoire. À chaque joueur sera "
+"distributé une fiche personnage, ainsi que des éléments et accessoires de "
+"costume."
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:186
+msgid ""
+"La Murder Party se déroule dans les locaux de Just Escape, où des éléments "
+"de décors seront installés."
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:196
+msgid "Des acteurs sont-ils inclus dans la murder party ?"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:201
+msgid ""
+"Des acteurs sont inclus dans le scénario de la Murder Party. Ils sont "
+"présents pour vous aider en cas de difficulté, mais ils sont également "
+"essentiels à la bonne continuité du jeu."
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:211
+msgid "La murder party est-elle adaptée pour un EVJF ou un EVG ?"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:216
+msgid ""
+"Vous pouvez proposer, lors d'une organisation d'EVJF ou d'EVG une activité "
+"originale en proposant une Murder Party. Idéal pour des grands groupes "
+"d'ami(e)s, la Murder Party peut surprendre votre groupe."
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:219
+msgid ""
+"Dans le cas où certaines personnes ne seraient pas à l'aise en public, nous "
+"vous conseillons de <a href='/fr/reserver'>réserver un escape game</a> pour "
+"avoir une activité clé en main et adaptée pour tout type de personnalité."
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:229
+msgid "Qu'est-ce qu'une Murder Party en session libre ?"
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:234
+msgid ""
+"Les sessions libres sont faites pour les groupes qui n'ont pas assez de "
+"participants. Formez une équipe avec d'autres joueurs aussi passionnés que "
+"vous."
+msgstr ""
+
+#: pages/templates/murder_party_redrock_saloon.html:237
+msgid ""
+"Chaque session est l'opportunité de découvrir de nouvelles personnes. Cette "
+"diversité rend votre session libre unique et imprévisible."
 msgstr ""
 
 #: pages/templates/order-confirmed.html:11
