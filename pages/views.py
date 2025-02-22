@@ -300,6 +300,7 @@ def murder_party(request):
 
     data = {
         'current_page': 'murder-party',
+        'lang': get_lang(request),
         'localized': True,
         'form': form,
         'unexpected_error': error,
