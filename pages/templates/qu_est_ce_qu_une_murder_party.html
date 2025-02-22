@@ -2,11 +2,11 @@
 
 {% load i18n %}
 
-{% block title %}Qu'est-ce qu'une Murder Party ? – Just Escape{% endblock %}
-{% block description %}Une murder party est une jeu d'immersion grandeur nature dans lequel vous incarnez les personnages de l'histoire. Découvrez tout le piquant de ce genre de jeu original...{% endblock %}
+{% block title %}{% trans "Qu'est-ce qu'une Murder Party ? – Just Escape" %}{% endblock %}
+{% block description %}{% trans "Une murder party est une jeu d'immersion grandeur nature dans lequel vous incarnez les personnages de l'histoire. Découvrez tout le piquant de ce genre de jeu original..." %}{% endblock %}
 
-{% block og_title %}Qu'est-ce qu'une Murder Party ? – Just Escape{% endblock %}
-{% block og_description %}Une murder party est une jeu d'immersion grandeur nature dans lequel vous incarnez les personnages de l'histoire. Découvrez tout le piquant de ce genre de jeu original...{% endblock %}
+{% block og_title %}{% trans "Qu'est-ce qu'une Murder Party ? – Just Escape" %}{% endblock %}
+{% block og_description %}{% trans "Une murder party est une jeu d'immersion grandeur nature dans lequel vous incarnez les personnages de l'histoire. Découvrez tout le piquant de ce genre de jeu original..." %}{% endblock %}
 
 {% block pre_content %}{% endblock %}
 
@@ -19,15 +19,15 @@
       <picture>
         <source srcset="/static/img/qu-est-ce-qu-une-murder-party.jpg" type="image/jpg">
         <source srcset="/static/img/qu-est-ce-qu-une-murder-party.webp" type="image/webp">
-        <img class="position-absolute" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/qu-est-ce-qu-une-murder-party.webp" alt="L'affiche du film murder party">
+        <img class="position-absolute" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/qu-est-ce-qu-une-murder-party.webp" alt="{% trans "L'affiche du film murder party" %}">
       </picture>
     </div>
 
     <div class="container h-100">
       <div class="row h-100">
         <div class="col d-flex flex-column justify-content-end text-cover">
-          <h1 class="text-jaffa text-inter text-center dark">Qu'est-ce qu'une murder party ?</h1>
-          <div class="text-light text-inter text-center font-weight-bold dark">Lisez la suite pour tout savoir sur le <span class="text-mulberry">piquant</span> de cette activité <span class="text-mulberry">terriblement insolite</span></div>
+                <h1 class="text-jaffa text-inter text-center dark">{% trans "Qu'est-ce qu'une murder party ?" %}</h1>
+                <div class="text-light text-inter text-center font-weight-bold dark">{% trans "Lisez la suite pour tout savoir sur le <span class='text-mulberry'>piquant</span> de cette activité <span class='text-mulberry'>terriblement insolite</span>" %}</div>
         </div>
       </div>
     </div>
@@ -40,15 +40,15 @@
           <div>
             <ol class="breadcrumb softdark py-2">
                     <li class="breadcrumb-item"><a href="/{{ lang }}" class="fill-jaffa svg-16px">{% include "svg/home.svg" %}</a></li>
-                    <li class="breadcrumb-item"><a href="/{{ lang }}murder-party" class="text-jaffa">Murder Party</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Qu'est-ce qu'une murder party ?</li>
+                    <li class="breadcrumb-item"><a href="/{{ lang }}murder-party" class="text-jaffa">{% trans "Murder Party" %}</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{% trans "Qu'est-ce qu'une murder party ?" %}</li>
             </ol>
           </div>
 
-          <div class="text-jaffa size-15 text-inter font-weight-bold text-center">Qu'est-ce qu'une murder party ? En bref</div>
+          <div class="text-jaffa size-15 text-inter font-weight-bold text-center">{% trans "Qu'est-ce qu'une murder party ? En bref" %}</div>
 
-          <p class="text-center">Une murder party, parfois appelé soirée enquête, soirée meurtre et mystère, murder diner, est une jeu d'immersion grandeur nature à huis clos dans lequel vous incarnez les personnages de l'histoire.</p>
-          <p class="text-center">Souvent, vous devez résoudre une intrigue policière, d'où le nom de “murder party”. Des comédiens vous accompagnent dans le scénario en jouant des personnages secondaires pour s'assurer que votre personnage progresse dans la bonne direction.</p>
+          <p class="text-center">{% trans "Une murder party, parfois appelé soirée enquête, soirée meurtre et mystère, murder diner, est une jeu d'immersion grandeur nature à huis clos dans lequel vous incarnez les personnages de l'histoire." %}</p>
+          <p class="text-center">{% trans "Souvent, vous devez résoudre une intrigue policière, d'où le nom de “murder party”. Des comédiens vous accompagnent dans le scénario en jouant des personnages secondaires pour s'assurer que votre personnage progresse dans la bonne direction." %}</p>
 
           <div class="row justify-content-center">
             <div class="col col-lg-8">
@@ -56,36 +56,36 @@
                 <picture>
                   <source srcset="/static/img/murder-party-soiree-enquete.webp" type="image/webp">
                   <source srcset="/static/img/murder-party-soiree-enquete.jpg" type="image/jpg">
-                  <img loading="lazy" class="img-fluid mb-1" src="/static/img/murder-party-soiree-enquete.jpg" alt="Des joueurs dans une murder party jouent lors d'une soirée enquête">
+                  <img loading="lazy" class="img-fluid mb-1" src="/static/img/murder-party-soiree-enquete.jpg" alt="{% trans "Des joueurs dans une murder party jouent lors d'une soirée enquête" %}">
                 </picture>
                 <figcaption>
-                  Qu'est-ce qu'une murder party ? Lisez la suite pour le découvrir
+                        {% trans "Qu'est-ce qu'une murder party ? Lisez la suite pour le découvrir" %}
                 </figcaption>
               </figure>
             </div>
           </div>
 
-          <h2 class="text-jaffa">Comment jouer à une murder party ?</h2>
-          <p>Au début de la partie vous recevez des informations sur votre personnage :</p>
+          <h2 class="text-jaffa">{% trans "Comment jouer à une murder party ?" %}</h2>
+          <p>{% trans "Au début de la partie vous recevez des informations sur votre personnage :" %}</p>
           <ul>
-            <li>Votre identité</li>
-            <li>Vos relations avec les autres : complicités, conflits, liaison secrète...</li>
-            <li>Vos objectifs, ce que vous devez accomplir pendant la soirée</li>
+                  <li>{% trans "Votre identité" %}</li>
+                  <li>{% trans "Vos relations avec les autres : complicités, conflits, liaison secrète..." %}</li>
+                  <li>{% trans "Vos objectifs, ce que vous devez accomplir pendant la soirée" %}</li>
           </ul>
 
-          <p>Chaque participant incarne un personnage avec ses propres traits de caractères et ses propres objectifs. Vos objectifs peuvent être partiellement compatibles avec les autres personnages. <span class="text-jaffa font-weight-bold">C'est ce qui rend la murder party très fun</span>. Il faudra donc faire des alliances, puis les trahir au bon moment !</p>
+          <p>{% trans "Chaque participant incarne un personnage avec ses propres traits de caractères et ses propres objectifs. Vos objectifs peuvent être partiellement compatibles avec les autres personnages. <span class='text-jaffa font-weight-bold'>C'est ce qui rend la murder party très fun</span>. Il faudra donc faire des alliances, puis les trahir au bon moment !" %}</p>
 
-          <p>On peut dire qu'une murder party est un mélange entre théâtre, improvisation, escape game, jeu d'enquête. On retrouve de plus en plus de mécanismes d'escape game intégrés à l'histoire, comme des coffres à ouvrir pour récupérer des indices !
+          <p>{% trans "On peut dire qu'une murder party est un mélange entre théâtre, improvisation, escape game, jeu d'enquête. On retrouve de plus en plus de mécanismes d'escape game intégrés à l'histoire, comme des coffres à ouvrir pour récupérer des indices !" %}
 </p>
-          <p class="text-jaffa text-inter mb-0">Est-ce que je dois jouer comme sur une scène de théâtre ?</p>
-          <p class="mb-0">Il est recommandé aux joueurs de jouer, voire de surjouer leur personnage pour rendre les interactions amusantes.</p>
-          <p class="mb-0">D'un autre côté, si vous vous sentez gêné à l'idée de devoir jouer théâtralement votre rôle au milieu de tout le monde : pas de panique. Vous pouvez passer toute la partie à comploter secrètement.</p>
-          <p>L'important est que vos actions soient cohérentes avec votre personnage.</p>
-          <p class="font-italic">Exemple : si vous jouez le rôle d'un banquier cupide, vous devez agir pour accumuler un maximum d'argent</p>
+<p class="text-jaffa text-inter mb-0">{% trans "Est-ce que je dois jouer comme sur une scène de théâtre ?" %}</p>
+<p class="mb-0">{% trans "Il est recommandé aux joueurs de jouer, voire de surjouer leur personnage pour rendre les interactions amusantes." %}</p>
+<p class="mb-0">{% trans "D'un autre côté, si vous vous sentez gêné à l'idée de devoir jouer théâtralement votre rôle au milieu de tout le monde : pas de panique. Vous pouvez passer toute la partie à comploter secrètement." %}</p>
+<p>{% trans "L'important est que vos actions soient cohérentes avec votre personnage." %}</p>
+<p class="font-italic">{% trans "Exemple : si vous jouez le rôle d'un banquier cupide, vous devez agir pour accumuler un maximum d'argent" %}</p>
 
-          <p class="text-jaffa text-inter mb-0">Est-ce que je dois me déguiser ?</p>
-          <p class="mb-0">Les personnages reçoivent généralement des accessoires utilisables pendant la partie (sac à main, chapeau, vêtement supplémentaire). En fonction du thème, l'organisateur peut envoyer aux joueurs des suggestions vestimentaires pour améliorer l'immersion. Il arrive exceptionnellement que l'organisateur fournisse des costumes spécialement conçus pour la murder party (mais cela reste rare car cela pose des problèmes logistiques).</p>
-          <p>Encore une fois, rien n'est obligatoire. La plupart des murder parties se jouent avec des accessoires très légers.</p>
+<p class="text-jaffa text-inter mb-0">{% trans "Est-ce que je dois me déguiser ?" %}</p>
+<p class="mb-0">{% trans "Les personnages reçoivent généralement des accessoires utilisables pendant la partie (sac à main, chapeau, vêtement supplémentaire). En fonction du thème, l'organisateur peut envoyer aux joueurs des suggestions vestimentaires pour améliorer l'immersion. Il arrive exceptionnellement que l'organisateur fournisse des costumes spécialement conçus pour la murder party (mais cela reste rare car cela pose des problèmes logistiques)." %}</p>
+<p>{% trans "Encore une fois, rien n'est obligatoire. La plupart des murder parties se jouent avec des accessoires très légers." %}</p>
           <i class="fa-fw far fa-check" style="color: green"></i>
 
           <div class="row justify-content-center">
@@ -94,22 +94,22 @@
                 <picture>
                   <source srcset="/static/img/murder-party-costume-suggere.webp" type="image/webp">
                   <source srcset="/static/img/murder-party-costume-suggere.jpg" type="image/jpg">
-                  <img loading="lazy" src="/static/img/murder-party-costume-suggere.webp" class="img-fluid mb-1" alt="Des joueurs de murder party avec différents costumes plus ou moins adaptés">
+                  <img loading="lazy" src="/static/img/murder-party-costume-suggere.webp" class="img-fluid mb-1" alt="{% trans "Des joueurs de murder party avec différents costumes plus ou moins adaptés" %}">
                 </picture>
                 <figcaption>
-                  Exemple de costume suggéré pour une murder party sur un <div class="text-jaffa font-weight-bold">thème far west</div>
+                        {% trans "Exemple de costume suggéré pour une murder party sur un <div class='text-jaffa font-weight-bold'>thème far west</div>" %}
                 </figcaption>
               </figure>
             </div>
           </div>
 
-          <p class="text-jaffa text-inter mb-0">Combien de temps dure une murder party ?</p>
-          <p>Une murder party dure entre 2 et 3 heures. Certains scénarios sont pensés pour durer environ 1 heure et d’autres peuvent durer jusqu’à 10 heures, voire un week-end complet.</p>
+          <p class="text-jaffa text-inter mb-0">{% trans "Combien de temps dure une murder party ?" %}</p>
+          <p>{% trans "Une murder party dure entre 2 et 3 heures. Certains scénarios sont pensés pour durer environ 1 heure et d’autres peuvent durer jusqu’à 10 heures, voire un week-end complet." %}</p>
 
-          <p class="text-jaffa text-inter mb-0">Où se passe une murder party ?</p>
-          <p class="mb-0">Vous progressez en huis clos.</p>
-          <p class="mb-0">Une murder party peut être organisée n'importe où. Dans ce cas il est nécessaire que le scénario soit bien travaillé pour éviter que les joueurs ne se dispersent.</p>
-          <p>Les murder parties sont en général associées aux lieux insolites comme les châteaux ou les monuments historiques pour bénéficier des décors immersifs.</p>
+          <p class="text-jaffa text-inter mb-0">{% trans "Où se passe une murder party ?" %}</p>
+          <p class="mb-0">{% trans "Vous progressez en huis clos." %}</p>
+          <p class="mb-0">{% trans "Une murder party peut être organisée n'importe où. Dans ce cas il est nécessaire que le scénario soit bien travaillé pour éviter que les joueurs ne se dispersent." %}</p>
+          <p>{% trans "Les murder parties sont en général associées aux lieux insolites comme les châteaux ou les monuments historiques pour bénéficier des décors immersifs." %}</p>
 
           <div class="row justify-content-center">
             <div class="col col-lg-8">
@@ -117,44 +117,44 @@
                 <picture>
                   <source srcset="/static/img/devis-escape-game-murder-party.webp" type="image/webp">
                   <source srcset="/static/img/devis-escape-game-murder-party.jpg" type="image/jpg">
-                  <img loading="lazy" src="/static/img/devis-escape-game-murder-party.webp" class="img-fluid mb-1" alt="Un événement privé de murder party">
+                  <img loading="lazy" src="/static/img/devis-escape-game-murder-party.webp" class="img-fluid mb-1" alt="{% trans "Un événement privé de murder party" %}">
                 </picture>
                 <figcaption>
-                  La décoration de la salle de réception de Just Escape est idéale pour une murder party dans un saloon
+                        {% trans "La décoration de la salle de réception de Just Escape est idéale pour une murder party dans un saloon" %}
                 </figcaption>
               </figure>
             </div>
           </div>
 
-          <p class="text-jaffa text-inter mb-0">Événements</p>
-          <p>Les événements sont une mécanique de jeu courante dans les murder parties. Il s'agit de rassembler tous les joueurs pour assister à une confrontation entre deux personnages, comme une joute verbale, un duel, une déclaration tragique. Le scénario peut prévoir des événements, connus à l'avance par les joueurs, ou au contraire qui vont arriver sans que personne ne soit au courant. Les joueurs peuvent aussi créer par eux-mêmes des événements.</p>
-          <p class="font-italic">Exemple : Un jugement va avoir lieu dans une heure. Les personnages concernés par ce jugement vont devoir convaincre le juge de trancher en leur faveur.</p>
+          <p class="text-jaffa text-inter mb-0">{% trans "Événements" %}</p>
+          <p>{% trans "Les événements sont une mécanique de jeu courante dans les murder parties. Il s'agit de rassembler tous les joueurs pour assister à une confrontation entre deux personnages, comme une joute verbale, un duel, une déclaration tragique. Le scénario peut prévoir des événements, connus à l'avance par les joueurs, ou au contraire qui vont arriver sans que personne ne soit au courant. Les joueurs peuvent aussi créer par eux-mêmes des événements." %}</p>
+          <p class="font-italic">{% trans "Exemple : Un jugement va avoir lieu dans une heure. Les personnages concernés par ce jugement vont devoir convaincre le juge de trancher en leur faveur." %}</p>
 
-          <p class="text-jaffa text-inter mb-0">Plot twists</p>
-          <p>Dans un scénario de plusieurs heures, vous allez vivre des rebondissements. Les plot twists peuvent être soit prévus à l'origine dans le scénario, soit amenés par les joueurs.</p>
-          <p class="font-italic">Exemple : Un personnage central de l'histoire meurt pendant la partie... Toutes les cartes sont rebattues. Si vous comptiez sur ce personnage pour réussir vos objectifs, il va falloir trouver d'autres solutions. Qu'allez-vous faire !?</p>
+          <p class="text-jaffa text-inter mb-0">{% trans "Plot twists" %}</p>
+          <p>{% trans "Dans un scénario de plusieurs heures, vous allez vivre des rebondissements. Les plot twists peuvent être soit prévus à l'origine dans le scénario, soit amenés par les joueurs." %}</p>
+          <p class="font-italic">{% trans "Exemple : Un personnage central de l'histoire meurt pendant la partie... Toutes les cartes sont rebattues. Si vous comptiez sur ce personnage pour réussir vos objectifs, il va falloir trouver d'autres solutions. Qu'allez-vous faire !?" %}</p>
 
-          <p class="text-jaffa text-inter mb-0">Une murder party c'est comme un escape game ?</p>
-          <p>La murder party et l'escape game sont tous les deux des gens immersifs grandeur nature. Dans un escape game vous interagissez surtout avec des objets. Tandis que dans la murder party vous interagissez surtout avec les autres personnes.</p>
+          <p class="text-jaffa text-inter mb-0">{% trans "Une murder party c'est comme un escape game ?" %}</p>
+          <p>{% trans "La murder party et l'escape game sont tous les deux des gens immersifs grandeur nature. Dans un escape game vous interagissez surtout avec des objets. Tandis que dans la murder party vous interagissez surtout avec les autres personnes." %}</p>
 
-          <h2 class="text-jaffa">Organiser une <a href="/{{ lang }}murder-party">murder party</a></h2>
+          <h2 class="text-jaffa">{% trans "Organiser une <a href='/fr/murder-party'>murder party</a>" %}</h2>
 
-          <p class="text-jaffa text-inter mb-0">Est-ce que Just Escape organise des murder parties ?</p>
-          <p>Oui ! Découvrez <a href="/{{ lang }}murder-party-redrock-saloon">le scénario de murder party le Redrock Saloon</a>, dans une ambiance western, jouable de 6 à 23 joueurs.</p>
-          <p>Si vous préférez l'ambiance école de magie, <a href="/{{ lang }}murder-party-le-tournoi-des-sorciers">le tournoi des sorciers</a> est jouable de 8 à 24 joueurs dans des décors de 100m² !</p>
-          <p>Les scénarios ont été pensés pour tout le monde : débutants et confirmés.</p>
+          <p class="text-jaffa text-inter mb-0">{% trans "Est-ce que Just Escape organise des murder parties ?" %}</p>
+          <p>{% trans "Oui ! Découvrez <a href='/fr/murder-party-redrock-saloon'>le scénario de murder party le Redrock Saloon</a>, dans une ambiance western, jouable de 6 à 23 joueurs." %}</p>
+          <p>{% trans "Si vous préférez l'ambiance école de magie, <a href='/fr/murder-party-le-tournoi-des-sorciers'>le tournoi des sorciers</a> est jouable de 8 à 24 joueurs dans des décors de 100m² !" %}</p>
+          <p>{% trans "Les scénarios ont été pensés pour tout le monde : débutants et confirmés." %}</p>
 
-          <p class="text-jaffa text-inter mb-0">Je voudrais organiser une murder party dans un cadre professionnel. Pouvez-vous m'envoyer un devis ?</p>
-          <p class="mb-0">Bonne idée ! La murder party est idéale pour :</p>
+          <p class="text-jaffa text-inter mb-0">{% trans "Je voudrais organiser une murder party dans un cadre professionnel. Pouvez-vous m'envoyer un devis ?" %}</p>
+          <p class="mb-0">{% trans "Bonne idée ! La murder party est idéale pour :" %}</p>
           <ul>
-            <li>Clore un séminaire sur une <span class="text-mulberry">touche de grandiose</a></li>
-            <li>Célébrer un événement en oubliant votre place hiérarchique le temps d'une soirée</li>
-            <li>Rapprocher vos collaborateurs en créant des conditions parfaites pour <span class="text-mulberry">briser la glace</span></li>
+                  <li>{% trans "Clore un séminaire sur une <span class='text-mulberry'>touche de grandiose</a>" %}</li>
+                  <li>{% trans "Célébrer un événement en oubliant votre place hiérarchique le temps d'une soirée" %}</li>
+                  <li>{% trans "Rapprocher vos collaborateurs en créant des conditions parfaites pour <span class='text-mulberry'>briser la glace</span>" %}</li>
           </ul>
-          <p>Remplissez dès maintenant le <a href="/{{ lang }}team-building#devis">formulaire de devis sur la page dédiée au team building</a></p>
+          <p>{% trans "Remplissez dès maintenant le <a href='/fr/team-building#devis'>formulaire de devis sur la page dédiée au team building</a>" %}</p>
 
-          <p class="text-jaffa text-inter mb-0">Je souhaite organiser une murder party pour un anniversaire</p>
-          <p>C'est un cadeau très original qui va laisser des souvenirs à tous les invités ! <a href="/{{ lang }}contact">Contactez-nous</a> directement pour plus d'informations.</p>
+          <p class="text-jaffa text-inter mb-0">{% trans "Je souhaite organiser une murder party pour un anniversaire" %}</p>
+          <p>{% trans "C'est un cadeau très original qui va laisser des souvenirs à tous les invités ! <a href='/fr/contact'>Contactez-nous</a> directement pour plus d'informations." %}</p>
         </div>
       </div>
 

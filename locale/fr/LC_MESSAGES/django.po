@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-22 19:42+0100\n"
+"POT-Creation-Date: 2025-02-22 20:19+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -1335,6 +1335,8 @@ msgstr ""
 
 #: pages/templates/footer.html:71 pages/templates/murder_party.html:141
 #: pages/templates/murder_party_redrock_saloon.html:139
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:29
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:44
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:187
 msgid "Qu'est-ce qu'une murder party ?"
 msgstr ""
@@ -2206,6 +2208,7 @@ msgstr "Escape Game Lille"
 
 #: pages/templates/murder_party.html:23
 #: pages/templates/murder_party_redrock_saloon.html:29
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:43
 msgid "Murder Party"
 msgstr ""
 
@@ -2850,6 +2853,325 @@ msgstr "Anniversaire, Noël, Cagnotte, Tombola"
 #: pages/templates/pricing.html:69
 msgid "Company quote"
 msgstr "Devis entreprise"
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:5
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:8
+#, fuzzy
+#| msgid "Price – Escape Game Lille – Just Escape"
+msgid "Qu'est-ce qu'une Murder Party ? – Just Escape"
+msgstr "Prix – Escape Game Lille – Just Escape"
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:6
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:9
+msgid ""
+"Une murder party est une jeu d'immersion grandeur nature dans lequel vous "
+"incarnez les personnages de l'histoire. Découvrez tout le piquant de ce "
+"genre de jeu original..."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:22
+msgid "L'affiche du film murder party"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:30
+msgid ""
+"Lisez la suite pour tout savoir sur le <span class='text-mulberry'>piquant</"
+"span> de cette activité <span class='text-mulberry'>terriblement insolite</"
+"span>"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:48
+msgid "Qu'est-ce qu'une murder party ? En bref"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:50
+msgid ""
+"Une murder party, parfois appelé soirée enquête, soirée meurtre et mystère, "
+"murder diner, est une jeu d'immersion grandeur nature à huis clos dans "
+"lequel vous incarnez les personnages de l'histoire."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:51
+msgid ""
+"Souvent, vous devez résoudre une intrigue policière, d'où le nom de “murder "
+"party”. Des comédiens vous accompagnent dans le scénario en jouant des "
+"personnages secondaires pour s'assurer que votre personnage progresse dans "
+"la bonne direction."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:59
+msgid "Des joueurs dans une murder party jouent lors d'une soirée enquête"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:62
+msgid "Qu'est-ce qu'une murder party ? Lisez la suite pour le découvrir"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:68
+msgid "Comment jouer à une murder party ?"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:69
+msgid ""
+"Au début de la partie vous recevez des informations sur votre personnage :"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:71
+msgid "Votre identité"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:72
+msgid ""
+"Vos relations avec les autres : complicités, conflits, liaison secrète..."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:73
+msgid "Vos objectifs, ce que vous devez accomplir pendant la soirée"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:76
+msgid ""
+"Chaque participant incarne un personnage avec ses propres traits de "
+"caractères et ses propres objectifs. Vos objectifs peuvent être "
+"partiellement compatibles avec les autres personnages. <span class='text-"
+"jaffa font-weight-bold'>C'est ce qui rend la murder party très fun</span>. "
+"Il faudra donc faire des alliances, puis les trahir au bon moment !"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:78
+msgid ""
+"On peut dire qu'une murder party est un mélange entre théâtre, "
+"improvisation, escape game, jeu d'enquête. On retrouve de plus en plus de "
+"mécanismes d'escape game intégrés à l'histoire, comme des coffres à ouvrir "
+"pour récupérer des indices !"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:80
+msgid "Est-ce que je dois jouer comme sur une scène de théâtre ?"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:81
+msgid ""
+"Il est recommandé aux joueurs de jouer, voire de surjouer leur personnage "
+"pour rendre les interactions amusantes."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:82
+msgid ""
+"D'un autre côté, si vous vous sentez gêné à l'idée de devoir jouer "
+"théâtralement votre rôle au milieu de tout le monde : pas de panique. Vous "
+"pouvez passer toute la partie à comploter secrètement."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:83
+msgid ""
+"L'important est que vos actions soient cohérentes avec votre personnage."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:84
+msgid ""
+"Exemple : si vous jouez le rôle d'un banquier cupide, vous devez agir pour "
+"accumuler un maximum d'argent"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:86
+msgid "Est-ce que je dois me déguiser ?"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:87
+msgid ""
+"Les personnages reçoivent généralement des accessoires utilisables pendant "
+"la partie (sac à main, chapeau, vêtement supplémentaire). En fonction du "
+"thème, l'organisateur peut envoyer aux joueurs des suggestions "
+"vestimentaires pour améliorer l'immersion. Il arrive exceptionnellement que "
+"l'organisateur fournisse des costumes spécialement conçus pour la murder "
+"party (mais cela reste rare car cela pose des problèmes logistiques)."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:88
+msgid ""
+"Encore une fois, rien n'est obligatoire. La plupart des murder parties se "
+"jouent avec des accessoires très légers."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:97
+msgid ""
+"Des joueurs de murder party avec différents costumes plus ou moins adaptés"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:100
+msgid ""
+"Exemple de costume suggéré pour une murder party sur un <div class='text-"
+"jaffa font-weight-bold'>thème far west</div>"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:106
+msgid "Combien de temps dure une murder party ?"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:107
+msgid ""
+"Une murder party dure entre 2 et 3 heures. Certains scénarios sont pensés "
+"pour durer environ 1 heure et d’autres peuvent durer jusqu’à 10 heures, "
+"voire un week-end complet."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:109
+msgid "Où se passe une murder party ?"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:110
+msgid "Vous progressez en huis clos."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:111
+msgid ""
+"Une murder party peut être organisée n'importe où. Dans ce cas il est "
+"nécessaire que le scénario soit bien travaillé pour éviter que les joueurs "
+"ne se dispersent."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:112
+msgid ""
+"Les murder parties sont en général associées aux lieux insolites comme les "
+"châteaux ou les monuments historiques pour bénéficier des décors immersifs."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:120
+msgid "Un événement privé de murder party"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:123
+msgid ""
+"La décoration de la salle de réception de Just Escape est idéale pour une "
+"murder party dans un saloon"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:129
+msgid "Événements"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:130
+msgid ""
+"Les événements sont une mécanique de jeu courante dans les murder parties. "
+"Il s'agit de rassembler tous les joueurs pour assister à une confrontation "
+"entre deux personnages, comme une joute verbale, un duel, une déclaration "
+"tragique. Le scénario peut prévoir des événements, connus à l'avance par les "
+"joueurs, ou au contraire qui vont arriver sans que personne ne soit au "
+"courant. Les joueurs peuvent aussi créer par eux-mêmes des événements."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:131
+msgid ""
+"Exemple : Un jugement va avoir lieu dans une heure. Les personnages "
+"concernés par ce jugement vont devoir convaincre le juge de trancher en leur "
+"faveur."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:133
+msgid "Plot twists"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:134
+msgid ""
+"Dans un scénario de plusieurs heures, vous allez vivre des rebondissements. "
+"Les plot twists peuvent être soit prévus à l'origine dans le scénario, soit "
+"amenés par les joueurs."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:135
+msgid ""
+"Exemple : Un personnage central de l'histoire meurt pendant la partie... "
+"Toutes les cartes sont rebattues. Si vous comptiez sur ce personnage pour "
+"réussir vos objectifs, il va falloir trouver d'autres solutions. Qu'allez-"
+"vous faire !?"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:137
+msgid "Une murder party c'est comme un escape game ?"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:138
+msgid ""
+"La murder party et l'escape game sont tous les deux des gens immersifs "
+"grandeur nature. Dans un escape game vous interagissez surtout avec des "
+"objets. Tandis que dans la murder party vous interagissez surtout avec les "
+"autres personnes."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:140
+msgid "Organiser une <a href='/fr/murder-party'>murder party</a>"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:142
+msgid "Est-ce que Just Escape organise des murder parties ?"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:143
+msgid ""
+"Oui ! Découvrez <a href='/fr/murder-party-redrock-saloon'>le scénario de "
+"murder party le Redrock Saloon</a>, dans une ambiance western, jouable de 6 "
+"à 23 joueurs."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:144
+msgid ""
+"Si vous préférez l'ambiance école de magie, <a href='/fr/murder-party-le-"
+"tournoi-des-sorciers'>le tournoi des sorciers</a> est jouable de 8 à 24 "
+"joueurs dans des décors de 100m² !"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:145
+msgid ""
+"Les scénarios ont été pensés pour tout le monde : débutants et confirmés."
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:147
+msgid ""
+"Je voudrais organiser une murder party dans un cadre professionnel. Pouvez-"
+"vous m'envoyer un devis ?"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:148
+msgid "Bonne idée ! La murder party est idéale pour :"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:150
+#, fuzzy
+#| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+msgid ""
+"Clore un séminaire sur une <span class='text-mulberry'>touche de grandiose</"
+"a>"
+msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:151
+msgid ""
+"Célébrer un événement en oubliant votre place hiérarchique le temps d'une "
+"soirée"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:152
+msgid ""
+"Rapprocher vos collaborateurs en créant des conditions parfaites pour <span "
+"class='text-mulberry'>briser la glace</span>"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:154
+msgid ""
+"Remplissez dès maintenant le <a href='/fr/team-building#devis'>formulaire de "
+"devis sur la page dédiée au team building</a>"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:156
+msgid "Je souhaite organiser une murder party pour un anniversaire"
+msgstr ""
+
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:157
+msgid ""
+"C'est un cadeau très original qui va laisser des souvenirs à tous les "
+"invités ! <a href='/fr/contact'>Contactez-nous</a> directement pour plus "
+"d'informations."
+msgstr ""
 
 #: pages/templates/room.html:5
 msgid "Escape Rooms – Escape Game Lille – Just Escape"
