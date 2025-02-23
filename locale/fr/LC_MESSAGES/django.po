@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-23 14:25+0100\n"
+"POT-Creation-Date: 2025-02-23 15:46+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -574,7 +574,7 @@ msgstr ""
 #: pages/templates/contact.html:8 pages/templates/contact.html:55
 #: pages/templates/contact.html:224 pages/templates/escape_game_evg.html:234
 #: pages/templates/footer.html:80 pages/templates/header.html:68
-#: pages/templates/home.html:781 pages/templates/murder_party.html:219
+#: pages/templates/home.html:781 pages/templates/murder_party.html:235
 #: pages/templates/murder_party_redrock_saloon.html:250
 #: pages/templates/room.html:226
 msgid "Contact"
@@ -1166,7 +1166,7 @@ msgstr ""
 #: pages/templates/escape_game_evg.html:231
 #: pages/templates/escape_game_evjf.html:243
 #: pages/templates/killer_party.html:208 pages/templates/murder_dinner.html:190
-#: pages/templates/murder_party.html:216
+#: pages/templates/murder_party.html:232
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:250
 #: pages/templates/murder_party_redrock_saloon.html:247
 #: pages/templates/room.html:223
@@ -1177,7 +1177,7 @@ msgstr ""
 #: pages/templates/escape_game_evg.html:237
 #: pages/templates/escape_game_evjf.html:249 pages/templates/header.html:134
 #: pages/templates/killer_party.html:213 pages/templates/murder_dinner.html:195
-#: pages/templates/murder_party.html:221
+#: pages/templates/murder_party.html:237
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:255
 #: pages/templates/murder_party_redrock_saloon.html:252
 #: pages/templates/room.html:228
@@ -1781,7 +1781,7 @@ msgstr ""
 msgid "Murder party"
 msgstr ""
 
-#: pages/templates/footer.html:71 pages/templates/murder_party.html:141
+#: pages/templates/footer.html:71 pages/templates/murder_party.html:157
 #: pages/templates/murder_party_redrock_saloon.html:139
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:29
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:44
@@ -2652,7 +2652,7 @@ msgid "Des personnages sont dans une intrigue de killer party"
 msgstr ""
 
 #: pages/templates/killer_party.html:54 pages/templates/murder_dinner.html:54
-#: pages/templates/murder_party.html:68
+#: pages/templates/murder_party.html:84
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:54
 #: pages/templates/murder_party_redrock_saloon.html:54
 #: pages/templates/sherlock_vs_moriarty.html:66
@@ -2906,58 +2906,79 @@ msgid ""
 "loup-garou. Choisissez votre activité complètement insolite !"
 msgstr ""
 
-#: pages/templates/murder_party.html:28
-msgid "Une alternative excitante aux escape games"
+#: pages/templates/murder_party.html:30
+#, fuzzy
+#| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+msgid "Qu'est-ce qu'une <span class='text-mulberry'>murder party</span> ?"
+msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+
+#: pages/templates/murder_party.html:34
+msgid ""
+"Une Murder Party est un jeu d'<b>enquête</b> s'inspirant du <b>Cluedo</b>, "
+"dans lequel les participants incarnent un rôle et tentent d'élucider un "
+"meurtre. Ils devront faire preuve de <b>déduction</b> et de <b>logique</b> "
+"et tenter de ne pas se faire accuser à tort."
 msgstr ""
 
 #: pages/templates/murder_party.html:37
+msgid ""
+"À la manière d'un <b>escape game</b>, les joueurs sont plongés au coeur d'un "
+"<b>décor immersif</b> rempli de surprises, rendant leur <b>expérience "
+"dépaysante</b> et plein de rebondissements."
+msgstr ""
+
+#: pages/templates/murder_party.html:44
+msgid "Une alternative excitante aux escape games"
+msgstr ""
+
+#: pages/templates/murder_party.html:53
 #, fuzzy
 #| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
 msgid ""
 "<span class='text-mulberry'>Des incontournables</span> dans la vraie vie"
 msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
 
-#: pages/templates/murder_party.html:40
+#: pages/templates/murder_party.html:56
 msgid ""
 "Découvrez au travers de nos Murder Party des concepts comme le Loup-Garou, "
 "le Cluedo ou encore Among Us en Grandeur Nature."
 msgstr ""
 
-#: pages/templates/murder_party.html:47
+#: pages/templates/murder_party.html:63
 #, fuzzy
 #| msgid "Among Us dans un escape game"
 msgid "L'immersion d'un escape game"
 msgstr "Among Us dans un escape game"
 
-#: pages/templates/murder_party.html:50
+#: pages/templates/murder_party.html:66
 msgid ""
 "L'immersion d'une Murder Party passe par une intrigue scénaristique dans "
 "laquelle vous allez être plongés, accompagnés d'acteurs compétents."
 msgstr ""
 
-#: pages/templates/murder_party.html:57
+#: pages/templates/murder_party.html:73
 #, fuzzy
 #| msgid "Escape game 2 joueurs"
 msgid "Une activité pour des grands groupes"
 msgstr "Escape game 2 joueurs"
 
-#: pages/templates/murder_party.html:60
+#: pages/templates/murder_party.html:76
 msgid ""
 "Nous disposons de différents concepts de Murder Party pouvant se jouer de 5 "
 "à 40 personnes, idéaux pour animer des événements spéciaux."
 msgstr ""
 
-#: pages/templates/murder_party.html:109
+#: pages/templates/murder_party.html:125
 #, fuzzy
 #| msgid "Scénario d'escape game à Lille"
 msgid "Bienvenue dans nos activités de Murder Party à Lille"
 msgstr "Escape Game Lille"
 
-#: pages/templates/murder_party.html:114
+#: pages/templates/murder_party.html:130
 msgid "Plongez dans une intrigue captivante avec notre murder party à Lille"
 msgstr ""
 
-#: pages/templates/murder_party.html:115
+#: pages/templates/murder_party.html:131
 msgid ""
 "Vous recherchez une animation immersive et captivante pour fédérer votre "
 "équipe lors d'un événement d'entreprise à Lille ? Découvrez notre murder "
@@ -2967,13 +2988,13 @@ msgid ""
 "ludique et engageante."
 msgstr ""
 
-#: pages/templates/murder_party.html:116
+#: pages/templates/murder_party.html:132
 #, fuzzy
 #| msgid "Scénario d'escape game à Lille"
 msgid "Découvrez une expérience immersive lors de notre Murder Party à Lille"
 msgstr "Escape Game Lille"
 
-#: pages/templates/murder_party.html:117
+#: pages/templates/murder_party.html:133
 msgid ""
 "Notre murder party à Lille est conçue comme un jeu collaboratif, parfait "
 "pour les activités de team building. Les jeux d'équipe et les activités de "
@@ -2983,13 +3004,13 @@ msgid ""
 "interactive unique qui stimulera le team spirit."
 msgstr ""
 
-#: pages/templates/murder_party.html:118
+#: pages/templates/murder_party.html:134
 msgid ""
 "Explorez une intrigue mystérieuse lors de notre animation de Murder Party à "
 "Lille"
 msgstr ""
 
-#: pages/templates/murder_party.html:119
+#: pages/templates/murder_party.html:135
 msgid ""
 "Nous vous proposons des idées de team building originales pour votre "
 "entreprise à Lille, telles que notre animation de murder party. Cette "
@@ -2999,11 +3020,11 @@ msgid ""
 "dynamiser une réunion d'équipe et maximiser l'engagement des participants."
 msgstr ""
 
-#: pages/templates/murder_party.html:120
+#: pages/templates/murder_party.html:136
 msgid "Expérimentez une activité originale avec notre Murder Party à Lille"
 msgstr ""
 
-#: pages/templates/murder_party.html:121
+#: pages/templates/murder_party.html:137
 msgid ""
 "Lors de notre animation de murder party à Lille, nous vous offrons "
 "l'opportunité d'intégrer votre équipe dans une expérience immersive où "
@@ -3013,13 +3034,13 @@ msgid ""
 "séminaire, une soirée d'entreprise ou une journée de cohésion de groupe."
 msgstr ""
 
-#: pages/templates/murder_party.html:122
+#: pages/templates/murder_party.html:138
 msgid ""
 "Profitez d’une animation interactive unique lors de notre Murder Party à "
 "Lille"
 msgstr ""
 
-#: pages/templates/murder_party.html:123
+#: pages/templates/murder_party.html:139
 msgid ""
 "En plus de notre murder party à Lille, nous proposons une large gamme "
 "d'animations pour vos événements d'entreprise. Que ce soit une soirée "
@@ -3030,13 +3051,13 @@ msgid ""
 "personnalisées qui correspondent à vos objectifs."
 msgstr ""
 
-#: pages/templates/murder_party.html:124
+#: pages/templates/murder_party.html:140
 msgid ""
 "Contactez-nous dès aujourd’hui pour discuter de notre animation de Murde "
 "Party à Lille"
 msgstr ""
 
-#: pages/templates/murder_party.html:125
+#: pages/templates/murder_party.html:141
 msgid ""
 "Ne cherchez plus, contactez-nous dès aujourd'hui pour discuter de vos "
 "besoins en matière d'animation d'événements d'entreprise à Lille. Nous "
@@ -3046,77 +3067,77 @@ msgid ""
 "d'entreprise."
 msgstr ""
 
-#: pages/templates/murder_party.html:131
+#: pages/templates/murder_party.html:147
 msgid "Une question sur les murder party ?"
 msgstr ""
 
-#: pages/templates/murder_party.html:132
+#: pages/templates/murder_party.html:148
 msgid "Consultez notre FAQ"
 msgstr ""
 
-#: pages/templates/murder_party.html:146
+#: pages/templates/murder_party.html:162
 msgid ""
 "La Murder Party à Lille est une activité immersive et captivante qui mêle "
 "jeu d'enquête, scénario policier et jeu de rôle grandeur nature."
 msgstr ""
 
-#: pages/templates/murder_party.html:149
+#: pages/templates/murder_party.html:165
 msgid ""
 "Elle offre une expérience interactive unique où les participants plongent au "
 "coeur d'une intrigue mystérieuse."
 msgstr ""
 
-#: pages/templates/murder_party.html:159
+#: pages/templates/murder_party.html:175
 msgid "Est-ce que Just Escape est loin du centre de Lille ?"
 msgstr ""
 
-#: pages/templates/murder_party.html:164
+#: pages/templates/murder_party.html:180
 msgid ""
 "Just Escape se situe à 10 minutes à pied du centre de Lille et à côté du "
 "parc Jean-Baptiste Lebas."
 msgstr ""
 
-#: pages/templates/murder_party.html:167
+#: pages/templates/murder_party.html:183
 msgid ""
 "Notez que toutes nos Murder Party peuvent être jouées sur le lieu de votre "
 "choix."
 msgstr ""
 
-#: pages/templates/murder_party.html:177
+#: pages/templates/murder_party.html:193
 msgid "Quelle murder party est la plus adaptée pour un groupe d'enfants ?"
 msgstr ""
 
-#: pages/templates/murder_party.html:182
+#: pages/templates/murder_party.html:198
 msgid ""
 "Pour un groupe d'enfants, Two Rooms est le jeu le plus adapté en raison de "
 "la simplicité des règles et de son scénario. La Killer Party est également "
 "possible."
 msgstr ""
 
-#: pages/templates/murder_party.html:192
+#: pages/templates/murder_party.html:208
 msgid "Quelle murder party choisir pour un événement d'entreprise ?"
 msgstr ""
 
-#: pages/templates/murder_party.html:197
+#: pages/templates/murder_party.html:213
 msgid ""
 "Si vous souhaitez renforcer la cohésion au sein de votre groupe la Murder "
 "Party classique reste la meilleure option pour un team building."
 msgstr ""
 
-#: pages/templates/murder_party.html:200
+#: pages/templates/murder_party.html:216
 msgid ""
 "Les Murder Party sont des jeux interactifs qui encouragent la collaboration, "
 "la communication et la coopération entre les participants, favorisant ainsi "
 "le renforcement de l’esprit d’équipe au sein de l’entreprise."
 msgstr ""
 
-#: pages/templates/murder_party.html:203
+#: pages/templates/murder_party.html:219
 msgid ""
 "Elles suscitent l’engagement des participants et créent une atmosphère "
 "conviviale et amusante lors de l’événement."
 msgstr ""
 
-#: pages/templates/murder_party.html:206
+#: pages/templates/murder_party.html:222
 msgid ""
 "Les Murder Party mettent les participants au défi de résoudre des énigmes, "
 "de trouver des indices et de démasquer le coupable. Cela encourage le "
@@ -3124,7 +3145,7 @@ msgid ""
 "décision."
 msgstr ""
 
-#: pages/templates/murder_party.html:234
+#: pages/templates/murder_party.html:250
 msgid "Découvrez aussi nos scénarios d'escape game"
 msgstr ""
 
