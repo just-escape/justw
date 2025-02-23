@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-22 20:19+0100\n"
+"POT-Creation-Date: 2025-02-23 14:25+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -105,6 +105,7 @@ msgid "Booking"
 msgstr "Je réserve"
 
 #: pages/templates/component/card_killer_party.html:7
+#: pages/templates/killer_party.html:35
 msgid "La killer party"
 msgstr ""
 
@@ -115,6 +116,7 @@ msgstr "Among Us dans un escape game"
 
 #: pages/templates/component/card_killer_party.html:12
 #: pages/templates/component/card_sm_killer_party.html:12
+#: pages/templates/killer_party.html:110
 msgid "7 à 15 joueurs"
 msgstr ""
 
@@ -205,15 +207,18 @@ msgstr ""
 
 #: pages/templates/component/card_murder_dinner.html:7
 #: pages/templates/component/card_sm_murder_dinner.html:7
+#: pages/templates/murder_dinner.html:35
 msgid "La murder dinner"
 msgstr ""
 
 #: pages/templates/component/card_murder_dinner.html:8
 #: pages/templates/component/card_sm_murder_dinner.html:8
+#: pages/templates/murder_dinner.html:36
 msgid "Trahissez-vous autour d'un repas"
 msgstr ""
 
 #: pages/templates/component/card_murder_dinner.html:12
+#: pages/templates/murder_dinner.html:110
 msgid "5 à 9 joueurs"
 msgstr ""
 
@@ -279,6 +284,8 @@ msgstr ""
 
 #: pages/templates/component/card_sherlock_vs_moriarty.html:7
 #: pages/templates/component/card_sm_sherlock_vs_moriarty.html:7
+#: pages/templates/sherlock_vs_moriarty.html:30
+#: pages/templates/sherlock_vs_moriarty.html:36
 msgid "Sherlock vs Moriarty"
 msgstr ""
 
@@ -289,11 +296,13 @@ msgstr ""
 
 #: pages/templates/component/card_sherlock_vs_moriarty.html:12
 #: pages/templates/component/card_sm_sherlock_vs_moriarty.html:12
+#: pages/templates/sherlock_vs_moriarty.html:41
 msgid "20 à 150 joueurs"
 msgstr ""
 
 #: pages/templates/component/card_sherlock_vs_moriarty.html:25
 #: pages/templates/component/card_sm_sherlock_vs_moriarty.html:25
+#: pages/templates/sherlock_vs_moriarty.html:58
 msgid "Logo de sherlock vs moriarty"
 msgstr ""
 
@@ -334,6 +343,9 @@ msgid ""
 msgstr ""
 
 #: pages/templates/component/card_sm_digimiam.html:36
+#: pages/templates/escape_game_anniversaire.html:115
+#: pages/templates/escape_game_anniversaire.html:204
+#: pages/templates/escape_game_evg.html:118
 #: pages/templates/escape_game_evjf.html:122 pages/templates/header.html:173
 #: pages/templates/home.html:37 pages/templates/home.html:191
 #: pages/templates/home.html:925
@@ -347,6 +359,8 @@ msgstr ""
 #: pages/templates/component/card_sm_killer_party.html:16
 #: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:16
 #: pages/templates/component/card_sm_two_rooms.html:16
+#: pages/templates/sherlock_vs_moriarty.html:45
+#: pages/templates/two_rooms.html:45
 msgid "90 minutes"
 msgstr ""
 
@@ -395,6 +409,7 @@ msgstr ""
 
 #: pages/templates/component/card_sm_two_rooms.html:7
 #: pages/templates/component/card_two_rooms.html:7
+#: pages/templates/two_rooms.html:36
 msgid "Two rooms"
 msgstr ""
 
@@ -404,6 +419,7 @@ msgstr ""
 
 #: pages/templates/component/card_sm_two_rooms.html:12
 #: pages/templates/component/card_two_rooms.html:12
+#: pages/templates/two_rooms.html:41 pages/templates/two_rooms.html:122
 msgid "15 à 30 joueurs"
 msgstr ""
 
@@ -419,10 +435,12 @@ msgid ""
 msgstr ""
 
 #: pages/templates/component/card_two_rooms.html:8
+#: pages/templates/two_rooms.html:37
 msgid "Le loup-garou mais sans mourir"
 msgstr ""
 
 #: pages/templates/component/card_two_rooms.html:25
+#: pages/templates/two_rooms.html:58
 msgid "Logo de two rooms"
 msgstr ""
 
@@ -554,9 +572,9 @@ msgstr ""
 "89 05 37 90"
 
 #: pages/templates/contact.html:8 pages/templates/contact.html:55
-#: pages/templates/contact.html:224 pages/templates/footer.html:80
-#: pages/templates/header.html:68 pages/templates/home.html:781
-#: pages/templates/murder_party.html:219
+#: pages/templates/contact.html:224 pages/templates/escape_game_evg.html:234
+#: pages/templates/footer.html:80 pages/templates/header.html:68
+#: pages/templates/home.html:781 pages/templates/murder_party.html:219
 #: pages/templates/murder_party_redrock_saloon.html:250
 #: pages/templates/room.html:226
 msgid "Contact"
@@ -693,11 +711,478 @@ msgstr "marmitron@justescape.fr"
 msgid "Subscribe"
 msgstr "Je m&#39;abonne"
 
+#: pages/templates/escape_game_anniversaire.html:5
+#: pages/templates/escape_game_anniversaire.html:8
+#, fuzzy
+#| msgid "La création de Just Escape"
+msgid "Une activité originale pour un anniversaire réussi ? – Just Escape"
+msgstr "La création de Just Escape"
+
+#: pages/templates/escape_game_anniversaire.html:6
+#: pages/templates/escape_game_anniversaire.html:9
+msgid ""
+"Plus besoin de se creuser la tête pour trouver la prochaine activité "
+"d'anniversaire. L'escape game pour anniversaire met tout le monde d'accord "
+"de par son originalité !"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:22
+#, fuzzy
+#| msgid "Escape game anniversaire"
+msgid "Un escape game pendant un anniversaire"
+msgstr "Escape game anniversaire"
+
+#: pages/templates/escape_game_anniversaire.html:29
+#, fuzzy
+#| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+msgid ""
+"Un escape game pour réussir votre <span class='text-red'>ANNIVERSAIRE</"
+"span> ?"
+msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+
+#: pages/templates/escape_game_anniversaire.html:42
+#: pages/templates/escape_game_evg.html:42
+#: pages/templates/escape_game_evjf.html:42
+msgid "Votre événement"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:43
+#: pages/templates/header.html:59
+msgid "Anniversaire"
+msgstr "Anniversaire"
+
+#: pages/templates/escape_game_anniversaire.html:51
+msgid "Célébrez votre anniversaire d'une manière unique avec notre escape game"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:53
+msgid "Fêtez avec style"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:59
+msgid "Pour votre anniversaire : énigmes, mystère et surprises vous attendent"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:60
+msgid "Choisissez le pack anniversaire lors de la réservation"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:68
+msgid "Une expérience unique et originale"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:71
+msgid ""
+"Plongez dans une aventure palpitante et tentez de vous échapper de notre "
+"escape game !"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:72
+msgid ""
+"Énigmes, fouilles, codes secrets... Vous devrez faire preuve de cohésion et "
+"de réflexion pour sortir victorieux !"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:80
+msgid "Prenez-vous au jeu"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:83
+msgid ""
+"Vous serez confronté à des énigmes, des mystères et des défis stimulants. "
+"Vous devrez utiliser votre logique, votre raisonnement et votre intuition "
+"pour résoudre des problèmes et avancer dans le jeu."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:91
+msgid "Réservez dès maintenant"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:94
+msgid ""
+"Souhaitez-vous une fête d'anniversaire incroyablement amusante et unique ?"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:95
+msgid ""
+"Nous avons hâte de vous accueillir et de vous offrir une expérience "
+"inoubliable !"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:103
+msgid "Un anniversaire que vos amis n'oublieront pas"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:106
+msgid ""
+"Une expérience immersive, des énigmes stimulantes et une dose d'adrénaline, "
+"le tout dans une ambiance festive."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:107
+msgid ""
+"Réservez dès maintenant et faites de cet anniversaire un événement mémorable."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:125
+#, fuzzy
+#| msgid "Escape game anniversaire"
+msgid "Nos jeux pour votre anniversaire"
+msgstr "Escape game anniversaire"
+
+#: pages/templates/escape_game_anniversaire.html:126
+#, fuzzy
+#| msgid "La création de Just Escape"
+msgid "Des activités originales"
+msgstr "La création de Just Escape"
+
+#: pages/templates/escape_game_anniversaire.html:161
+msgid "Quels sont les types de packs anniversaire proposés ?"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:166
+msgid ""
+"Nous proposons un pack anniversaire comprenant : une boisson par personne, "
+"une photo unique et la privatisation de notre salle de réception."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:169
+msgid "Choisissez l'option anniversaire lors de votre réservation."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:180
+msgid "Y a-t-il des restrictions d'âge pour les participants aux activités ?"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:185
+msgid ""
+"Nous n'imposons pas de restriction d'âge. Nous demandons à ce que les plus "
+"jeunes soient sous la surveillance d'un adulte."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:196
+msgid "Comment réserver une activité anniversaire ?"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:201
+msgid ""
+"Pour réserver une session d'escape game pour votre anniversaire vous pouvez "
+"le faire directement depuis le formulaire de réservation. Choissiez le pack "
+"anniversaire."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:207
+msgid ""
+"Pour avoir des informations sur les autres activités proposées, <a href='/fr/"
+"contact' rel='nofollow'>contactez-nous</a> directement."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:218
+msgid "Jusqu'à combien de personnes peut accueillir la salle de réception ?"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:223
+msgid ""
+"La mise à disposition de notre salle de réception privée, inclue dans le "
+"pack anniversaire, peut accueillir jusqu'à 20 personnes assises."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:226
+msgid ""
+"Des jeux de société sont mis à disposition et vous avez la possibilité de "
+"commander des choses à boire et à manger."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:305
+msgid "Des activités pour tous les goûts et tous les âges !"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:308
+msgid "Trouvez l'originalité dans nos activités funs et uniques."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:309
+msgid "Les petits comme les grands, vous êtes les bienvenus."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:310
+msgid "Venez fêtez votre anniversaire en grand !"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:311
+msgid "Des moments forts vous attendent dans notre salle d'escape game."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:312
+msgid "Épatez vos amis avec une fête d'anniversaire hors du commun !"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:320
+msgid "Découvrez les cartes cadeaux"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:321
+msgid "Offrir une carte cadeau"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:322
+msgid "Que diriez-vous d'un bon cadeau original et unique en son genre ?"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:328
+msgid "Une carte cadeau pour un escape game sur Lille"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:332
+#: pages/templates/home.html:486
+msgid "Je veux une <strong>carte cadeau</strong>"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:341
+msgid "Ils sont venus et nous ont validés"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:364
+msgid "On répond à vos questions"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:371
+msgid "Combien de temps durent les activités ?"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:376
+msgid ""
+"La durée des activités varie en fonction de l'activité choisie. Certaines "
+"activités peuvent durer quelques heures, tandis que d'autres peuvent durer "
+"toute la journée. Nous avons également des options pour les activités de "
+"courte durée pour ceux qui ont un emploi du temps chargé."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:387
+msgid "Quel est le prix des activités ?"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:406
+msgid "Où se déroulent les activités ?"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:411
+msgid ""
+"Toutes nos activités se déroulent dans les locaux de Just Escape, à Lille."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:414
+msgid ""
+"Certaines de ces activités peuvent être organisées dans un lieu de votre "
+"choix."
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:425
+msgid "Quels types de packs proposez-vous ?"
+msgstr ""
+
+#: pages/templates/escape_game_anniversaire.html:430
+msgid ""
+"Nous proposons une variété de packs pour tous les âges et les "
+"intérêts&nbsp;: pour les enfants comme pour les adultes. Nous avons des "
+"packs pour tous les budgets et toutes les tailles de groupes."
+msgstr ""
+
 #: pages/templates/escape_game_anniversaire.html:491
 #, fuzzy
 #| msgid "Escape game anniversaire"
 msgid "Escape Game Anniversaire"
 msgstr "Escape game anniversaire"
+
+#: pages/templates/escape_game_evg.html:5
+#: pages/templates/escape_game_evg.html:8
+#, fuzzy
+#| msgid "La création de Just Escape"
+msgid "Une activité originale pour un EVG réussi ? – Just Escape"
+msgstr "La création de Just Escape"
+
+#: pages/templates/escape_game_evg.html:6
+#: pages/templates/escape_game_evg.html:9
+msgid ""
+"Plus besoin de se creuser la tête pour trouver la prochaine activité d'EVG. "
+"L'escape game pour EVG met tout le monde d'accord de par son originalité !"
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:22
+#, fuzzy
+#| msgid "Escape game EVJF"
+msgid "Un escape game en EVG"
+msgstr "Escape game EVJF"
+
+#: pages/templates/escape_game_evg.html:29
+#, fuzzy
+#| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+msgid "Un escape game pour le meilleur des <span class='text-red'>EVG</span> ?"
+msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+
+#: pages/templates/escape_game_evg.html:43 pages/templates/header.html:56
+msgid "EVG"
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:51
+msgid "Organiser un enterrement de vie de garçon original à Lille"
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:52
+msgid "Choisissez le pack EVG lors de la réservation"
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:60
+#, fuzzy
+#| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+msgid "Une aventure <span class='text-mulberry'>mémorable</span>"
+msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+
+#: pages/templates/escape_game_evg.html:63
+msgid ""
+"Choisissez nos activités pour un EVG des plus amusants et qui correspond le "
+"mieux au jeune marié pour une journée mémorable. Faites de ce moment un "
+"moment unique."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:71
+msgid "Un EVG qui lui ressemble"
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:74
+msgid ""
+"Choisissez la murder party et ses histoires ou un escape game pour une "
+"expérience mémorable dans des décors réalistes et une immersion totale dans "
+"différentes époques."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:82
+#, fuzzy
+#| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+msgid ""
+"<span class='text-mulberry'>Coopérez</span> ou <span class='text-"
+"mulberry'>rivalisez</span>"
+msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+
+#: pages/templates/escape_game_evg.html:85
+msgid ""
+"Un jeu d'évasion avec de la fouille, contre ou en équipe, nos game masters "
+"expérimentés rendront l'expérience Just Escape inoubliable."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:93
+#: pages/templates/escape_game_evjf.html:97
+msgid "Inclus dans la formule"
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:96
+#: pages/templates/escape_game_evjf.html:100
+msgid "Boisson rafraîchissante par personne pendant l'enquête."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:97
+#: pages/templates/escape_game_evjf.html:101
+msgid ""
+"Privatisation de la salle de réception et accès à des jeux de société avant "
+"ou après la session."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:98
+#: pages/templates/escape_game_evjf.html:102
+msgid "Collations adaptées selon le moment de la journée (apéritif, goûter)."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:99
+msgid "Petit cadeau spécial pour le marié."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:107
+msgid "Un challenge réussi"
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:110
+msgid ""
+"Préparer un <b>enterrement de vie de garçon</b> peut sembler être un vrai "
+"casse-tête. Pas de panique, nous sommes là pour transformer une simple "
+"activité de groupe en une <b>expérience inoubliable</b>. Optez pour un "
+"<b>Escape Game palpitant ou un Jeu de rôle captivant</b>."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:133
+msgid "Une question sur un événement EVG ? Consultez notre FAQ"
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:142
+msgid ""
+"Y a-t-il des réductions pour les groupes lors de la réservation d'une "
+"activité EVG ?"
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:147
+msgid ""
+"Oui, nous proposons souvent des tarifs de groupe pour les activités EVG."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:150
+msgid ""
+"<a href='/fr/contact' rel='nofollow'>Contactez-nous</a> directement pour en "
+"savoir plus."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:161
+msgid "Quelle activité choisir pour un EVG ?"
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:166
+msgid ""
+"Nous proposons une grande variété d'activités pour un EVG, tel que des jeux "
+"de rôle grandeur nature, c'est idéal pour les grands groupes. Un escape game "
+"futuriste pour les passionnés de technologie etc."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:168
+msgid "Consultez notre page dédiée pour découvrir toutes nos offres."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:178
+msgid "À combien peut-on faire un EVG ?"
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:183
+#: pages/templates/escape_game_evjf.html:195
+msgid ""
+"Jouable de 2 à 120 joueurs, nos activités s'adaptent à tous les âges et sont "
+"idéales pour toutes les occasions telles qu'un EVJF/EVG."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:198
+msgid "Nos propositions pour une activité EVG"
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:199
+msgid "Plein de défis <strong>vous attendent</strong>"
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:231
+#: pages/templates/escape_game_evjf.html:243
+#: pages/templates/killer_party.html:208 pages/templates/murder_dinner.html:190
+#: pages/templates/murder_party.html:216
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:250
+#: pages/templates/murder_party_redrock_saloon.html:247
+#: pages/templates/room.html:223
+msgid ""
+"Pour toute question ou demande d'information supplémentaire, contactez-nous."
+msgstr ""
+
+#: pages/templates/escape_game_evg.html:237
+#: pages/templates/escape_game_evjf.html:249 pages/templates/header.html:134
+#: pages/templates/killer_party.html:213 pages/templates/murder_dinner.html:195
+#: pages/templates/murder_party.html:221
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:255
+#: pages/templates/murder_party_redrock_saloon.html:252
+#: pages/templates/room.html:228
+msgid "07 89 05 37 90"
+msgstr ""
 
 #: pages/templates/escape_game_evg.html:290
 #, fuzzy
@@ -729,10 +1214,6 @@ msgstr "Escape game EVJF"
 msgid ""
 "Un escape game pour réussir votre <span class='text-mulberry'>EVJF</span> ?"
 msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
-
-#: pages/templates/escape_game_evjf.html:42
-msgid "Votre événement"
-msgstr ""
 
 #: pages/templates/escape_game_evjf.html:43 pages/templates/header.html:53
 msgid "EVJF"
@@ -784,24 +1265,6 @@ msgid ""
 "C'est le moment idéal pour s'éclater entre amies... Entre énigmes à résoudre "
 "et fous-rire, nous vous accueillons pour vous faire vivre un moment "
 "inoubliable lors d'une session de jeu."
-msgstr ""
-
-#: pages/templates/escape_game_evjf.html:97
-msgid "Inclus dans la formule"
-msgstr ""
-
-#: pages/templates/escape_game_evjf.html:100
-msgid "Boisson rafraîchissante par personne pendant l'enquête."
-msgstr ""
-
-#: pages/templates/escape_game_evjf.html:101
-msgid ""
-"Privatisation de la salle de réception et accès à des jeux de société avant "
-"ou après la session."
-msgstr ""
-
-#: pages/templates/escape_game_evjf.html:102
-msgid "Collations adaptées selon le moment de la journée (apéritif, goûter)."
 msgstr ""
 
 #: pages/templates/escape_game_evjf.html:103
@@ -883,12 +1346,6 @@ msgstr ""
 msgid "À combien peut-on faire un EVJF ?"
 msgstr ""
 
-#: pages/templates/escape_game_evjf.html:195
-msgid ""
-"Jouable de 2 à 120 joueurs, nos activités s'adaptent à tous les âges et sont "
-"idéales pour toutes les occasions telles qu'un EVJF/EVG."
-msgstr ""
-
 #: pages/templates/escape_game_evjf.html:210
 #, fuzzy
 #| msgid "La création de Just Escape"
@@ -897,15 +1354,6 @@ msgstr "La création de Just Escape"
 
 #: pages/templates/escape_game_evjf.html:211
 msgid "Organiser un <strong>EVJF de rêve</strong>"
-msgstr ""
-
-#: pages/templates/escape_game_evjf.html:243
-#: pages/templates/murder_party.html:216
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:250
-#: pages/templates/murder_party_redrock_saloon.html:247
-#: pages/templates/room.html:223
-msgid ""
-"Pour toute question ou demande d'information supplémentaire, contactez-nous."
 msgstr ""
 
 #: pages/templates/escape_game_evjf.html:302
@@ -1417,14 +1865,6 @@ msgstr "Escape rooms"
 msgid "Team Building"
 msgstr "Team Building"
 
-#: pages/templates/header.html:56
-msgid "EVG"
-msgstr ""
-
-#: pages/templates/header.html:59
-msgid "Anniversaire"
-msgstr "Anniversaire"
-
 #: pages/templates/header.html:80 pages/templates/header.html:119
 msgid "EN"
 msgstr "EN"
@@ -1439,12 +1879,6 @@ msgstr ""
 
 #: pages/templates/header.html:132
 msgid "tel:0789053790"
-msgstr ""
-
-#: pages/templates/header.html:134 pages/templates/murder_party.html:221
-#: pages/templates/murder_party_redrock_saloon.html:252
-#: pages/templates/room.html:228
-msgid "07 89 05 37 90"
 msgstr ""
 
 #: pages/templates/header.html:147
@@ -1838,10 +2272,6 @@ msgid ""
 "servir de lot."
 msgstr ""
 
-#: pages/templates/home.html:486
-msgid "Je veux une <strong>carte cadeau</strong>"
-msgstr ""
-
 #: pages/templates/home.html:494
 msgid "Formation, séminaire, atelier, journée d'étude"
 msgstr ""
@@ -2169,12 +2599,289 @@ msgid ""
 "soit pas malentendant ou malvoyant dans votre équipe."
 msgstr ""
 
+#: pages/templates/killer_party.html:5 pages/templates/killer_party.html:8
+#, fuzzy
+#| msgid "Price – Escape Game Lille – Just Escape"
+msgid "Killer Party Lille – Just Escape"
+msgstr "Prix – Escape Game Lille – Just Escape"
+
+#: pages/templates/killer_party.html:6
+msgid ""
+"Découvrez la killer party : une murder party orientée action. Vous avez déjà "
+"joué à Among Us ? Découvrez son adaptation dans un escape game grandeur "
+"nature. Amusez-vous grâce à cette activité complètement insolite !"
+msgstr ""
+
+#: pages/templates/killer_party.html:9
+msgid ""
+"Découvrez la killer party : une murder party orientée action. Vous "
+"connaissez Among Us ? Découvrez son adaptation dans un escape game grandeur "
+"nature. Amusez-vous grâce à cette activité complètement insolite !"
+msgstr ""
+
+#: pages/templates/killer_party.html:17 pages/templates/murder_dinner.html:17
+#: pages/templates/murder_party.html:11
+#: pages/templates/murder_party_redrock_saloon.html:17
+#: pages/templates/two_rooms.html:17
+#, fuzzy
+#| msgid "Scénario d'escape game à Lille"
+msgid "Scénarios de Murder Party à Lille"
+msgstr "Escape Game Lille"
+
+#: pages/templates/killer_party.html:29 pages/templates/murder_dinner.html:29
+#: pages/templates/murder_party.html:23
+#: pages/templates/murder_party_redrock_saloon.html:29
+#: pages/templates/qu_est_ce_qu_une_murder_party.html:43
+#: pages/templates/sherlock_vs_moriarty.html:29
+#: pages/templates/two_rooms.html:29
+msgid "Murder Party"
+msgstr ""
+
+#: pages/templates/killer_party.html:30
+msgid "La Killer Party"
+msgstr ""
+
+#: pages/templates/killer_party.html:36
+#, fuzzy
+#| msgid "Among Us dans un escape game"
+msgid "Among Us in real life"
+msgstr "Among Us dans un escape game"
+
+#: pages/templates/killer_party.html:46
+msgid "Des personnages sont dans une intrigue de killer party"
+msgstr ""
+
+#: pages/templates/killer_party.html:54 pages/templates/murder_dinner.html:54
+#: pages/templates/murder_party.html:68
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:54
+#: pages/templates/murder_party_redrock_saloon.html:54
+#: pages/templates/sherlock_vs_moriarty.html:66
+#: pages/templates/sherlock_vs_moriarty.html:187
+#: pages/templates/two_rooms.html:66
+msgid "J'appelle pour réserver : 07 89 05 37 90"
+msgstr ""
+
+#: pages/templates/killer_party.html:63
+#, fuzzy
+#| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+msgid "<span class='text-mulberry'>Among Us</span> dans un escape game"
+msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+
+#: pages/templates/killer_party.html:66
+msgid ""
+"Pour les fans du jeu mobile à succès Among Us, venez découvrir cet "
+"incontournable du jeu de rôle dans la vraie vie au sein des décors futuriste "
+"de notre escape game. Une atmosphère de suspicion règne tout au long de la "
+"partie."
+msgstr ""
+
+#: pages/templates/killer_party.html:73
+#, fuzzy
+#| msgid "Escape game 2 joueurs"
+msgid "L'activité pour tous"
+msgstr "Escape game 2 joueurs"
+
+#: pages/templates/killer_party.html:76
+msgid ""
+"Jouable de 7 à 15 joueurs, cette activité s'adapte à tous les âges et est "
+"idéale pour toutes les occasions telles que : un événement d'entreprise, un "
+"EVJF/EVG ou pour fêter un anniversaire en beauté."
+msgstr ""
+
+#: pages/templates/killer_party.html:83 pages/templates/two_rooms.html:95
+msgid "Chaque partie est différente"
+msgstr ""
+
+#: pages/templates/killer_party.html:86
+msgid ""
+"Aucune partie ne se ressemble ! Avec la diversité des rôles proposés par la "
+"Killer Party, vous redécouvrirez le jeu à chaque partie. Soyez un fin "
+"stratège afin de démêler l'intrigue qui se cache derrière de nombreuses "
+"suspicions."
+msgstr ""
+
+#: pages/templates/killer_party.html:96 pages/templates/murder_dinner.html:96
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:96
+#: pages/templates/murder_party_redrock_saloon.html:96
+#: pages/templates/sherlock_vs_moriarty.html:108
+#: pages/templates/two_rooms.html:108
+msgid "Détails de l'événement"
+msgstr ""
+
+#: pages/templates/killer_party.html:102 pages/templates/murder_dinner.html:102
+#: pages/templates/murder_party_redrock_saloon.html:102
+#: pages/templates/two_rooms.html:114
+msgid "26 rue d'Arras, près de la rue de Solférino, Lille"
+msgstr ""
+
+#: pages/templates/killer_party.html:114 pages/templates/two_rooms.html:126
+msgid "À partir de 25€ par personne"
+msgstr ""
+
+#: pages/templates/killer_party.html:117 pages/templates/two_rooms.html:129
+msgid "Possibilité de consommer des boissons vendues sur place"
+msgstr ""
+
+#: pages/templates/killer_party.html:135
+msgid "Je souhaite m'inscrire à cette killer party"
+msgstr ""
+
+#: pages/templates/killer_party.html:150
+msgid "Une question sur cette killer party ? Consultez notre FAQ"
+msgstr ""
+
+#: pages/templates/killer_party.html:160
+msgid "Est-ce qu'une killer party convient aux enfants ?"
+msgstr ""
+
+#: pages/templates/killer_party.html:165
+msgid ""
+"Une Killer Party est recommandée pour les joueurs âgés de 16 ans et plus en "
+"raison de la complexité des énigmes et du niveau de déduction requis. "
+"Cependant, des versions adaptées pour les enfants peuvent être organisées "
+"sur demande."
+msgstr ""
+
+#: pages/templates/killer_party.html:177
+msgid ""
+"Est-ce que je peux jouer à la killer party si je ne connais pas le jeu Among "
+"Us ?"
+msgstr ""
+
+#: pages/templates/killer_party.html:182
+msgid ""
+"Oui, absolument ! Vous n'avez pas besoin de connaître le jeu Among Us pour "
+"profiter de la killer party. Les règles et les mécanismes du jeu seront "
+"expliqués en début de partie pour que tout le monde puisse participer."
+msgstr ""
+
+#: pages/templates/killer_party.html:192
+msgid "Comment se déroule la répartition des rôles dans la killer party ?"
+msgstr ""
+
+#: pages/templates/killer_party.html:197
+msgid ""
+"Les rôles dans la killer party sont répartis de manière aléatoire à chaque "
+"partie. Lors de chaque session, les participants auront la possibilité "
+"d'essayer différents rôles, qu'ils soient ingénieurs ou qu'ils incarnent un "
+"androïde. Nos animateurs gèrent la répartition des rôles pour assurer une "
+"répartition équitable et surprenante à chaque partie."
+msgstr ""
+
 #: pages/templates/killer_party.html:226 pages/templates/murder_dinner.html:208
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:268
 #: pages/templates/murder_party_redrock_saloon.html:265
-#: pages/templates/sherlock_vs_moriarty.html:262
+#: pages/templates/sherlock_vs_moriarty.html:197
 #: pages/templates/two_rooms.html:165
 msgid "Découvrez aussi d'autres scénarios"
+msgstr ""
+
+#: pages/templates/killer_party.html:230 pages/templates/murder_dinner.html:212
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:272
+#: pages/templates/murder_party_redrock_saloon.html:269
+#: pages/templates/sherlock_vs_moriarty.html:201
+#: pages/templates/two_rooms.html:169
+msgid "Je retourne à la liste des murder party"
+msgstr ""
+
+#: pages/templates/murder_dinner.html:5 pages/templates/murder_dinner.html:8
+#, fuzzy
+#| msgid "Price – Escape Game Lille – Just Escape"
+msgid "Murder Dinner Lille – Just Escape"
+msgstr "Prix – Escape Game Lille – Just Escape"
+
+#: pages/templates/murder_dinner.html:6 pages/templates/murder_dinner.html:9
+msgid ""
+"Trahissez-vous autour d'un repas. Découvrez la murder dinner : une murder "
+"party qui se joue autour d'un diner mythologique. Amusez-vous grâce à cette "
+"activité complètement insolite !"
+msgstr ""
+
+#: pages/templates/murder_dinner.html:30
+msgid "La Murder Dinner"
+msgstr ""
+
+#: pages/templates/murder_dinner.html:46
+msgid "Logo de la murder dinner, une murder party autour d'un repas"
+msgstr ""
+
+#: pages/templates/murder_dinner.html:63
+#, fuzzy
+#| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+msgid "<span class='text-mulberry'>Trahissez vous</span> en mangeant"
+msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+
+#: pages/templates/murder_dinner.html:66
+msgid ""
+"Quoi de mieux que de profiter d'un bon repas dans la bonne humeur ? Pour "
+"cette activité, nous vous proposons de profiter d'un repas divin à la table "
+"de Zeus. Êtes-vous prêts à incarner un dieu et à résoudre un mystère ?"
+msgstr ""
+
+#: pages/templates/murder_dinner.html:73
+msgid "Des restaurants partenaires"
+msgstr ""
+
+#: pages/templates/murder_dinner.html:76
+msgid ""
+"Pour agrémenter votre expérience lors de notre Murder Dinner, nous vous "
+"proposons de découvrir quelques restaurants lillois qui se feront le plaisir "
+"de vous concocter un délicieux repas accompagné de boissons locales."
+msgstr ""
+
+#: pages/templates/murder_dinner.html:83
+msgid "Un acteur à votre table"
+msgstr ""
+
+#: pages/templates/murder_dinner.html:86
+msgid ""
+"Effectivement, pour vous guider lors de l'activité, un acteur sera présent "
+"pendant la durée du repas. Il saura faire de votre repas une véritable "
+"opportunité pour vous confronter les uns aux autres lors de challenges "
+"déjantés."
+msgstr ""
+
+#: pages/templates/murder_dinner.html:114
+msgid "À partir de 28€ par personne + prix du repas"
+msgstr ""
+
+#: pages/templates/murder_dinner.html:117
+msgid ""
+"Découvrez une palette de délices culinaires adaptée à toutes les envies, "
+"allant de l'ambiance décontractée à la brasserie aux saveurs raffinées d'un "
+"repas semi-gastronomique."
+msgstr ""
+
+#: pages/templates/murder_dinner.html:135
+msgid "Je souhaite réserver une partie de murder dinner"
+msgstr ""
+
+#: pages/templates/murder_dinner.html:150
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:186
+#: pages/templates/murder_party_redrock_saloon.html:168
+msgid "Une question sur cette murder party ? Consultez notre FAQ"
+msgstr ""
+
+#: pages/templates/murder_dinner.html:160
+msgid "À combien peut-on jouer à la murder dinner ?"
+msgstr ""
+
+#: pages/templates/murder_dinner.html:165
+msgid ""
+"La murder dinner peut accueillir jusqu'à 9 personnes par table. Chez Just "
+"Escape, nous pouvons installer plusieurs tables dans nos locaux afin que "
+"plusieurs personnes puissent jouer."
+msgstr ""
+
+#: pages/templates/murder_dinner.html:175
+msgid "Sommes-nous déguisés pendant la murder dinner ?"
+msgstr ""
+
+#: pages/templates/murder_dinner.html:180
+msgid ""
+"Un dressage de table sur le thème de l'Olympe sera mis en place. Pour ceux "
+"qui le souhaitent, des accessoires ainsi que des pièces de costumes seront "
+"fournies pour vous plonger au mieux dans l'ambiance."
 msgstr ""
 
 #: pages/templates/murder_party.html:5 pages/templates/murder_party.html:8
@@ -2197,19 +2904,6 @@ msgstr ""
 msgid ""
 "Découvrez nos murder party : classique, killer party, murder dinner, type "
 "loup-garou. Choisissez votre activité complètement insolite !"
-msgstr ""
-
-#: pages/templates/murder_party.html:11
-#: pages/templates/murder_party_redrock_saloon.html:17
-#, fuzzy
-#| msgid "Scénario d'escape game à Lille"
-msgid "Scénarios de Murder Party à Lille"
-msgstr "Escape Game Lille"
-
-#: pages/templates/murder_party.html:23
-#: pages/templates/murder_party_redrock_saloon.html:29
-#: pages/templates/qu_est_ce_qu_une_murder_party.html:43
-msgid "Murder Party"
 msgstr ""
 
 #: pages/templates/murder_party.html:28
@@ -2251,12 +2945,6 @@ msgstr "Escape game 2 joueurs"
 msgid ""
 "Nous disposons de différents concepts de Murder Party pouvant se jouer de 5 "
 "à 40 personnes, idéaux pour animer des événements spéciaux."
-msgstr ""
-
-#: pages/templates/murder_party.html:68
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:54
-#: pages/templates/murder_party_redrock_saloon.html:54
-msgid "J'appelle pour réserver : 07 89 05 37 90"
 msgstr ""
 
 #: pages/templates/murder_party.html:109
@@ -2497,11 +3185,6 @@ msgid ""
 "mystérieuses. Rejoignez les rangs des grands vainqueurs."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:96
-#: pages/templates/murder_party_redrock_saloon.html:96
-msgid "Détails de l'événement"
-msgstr ""
-
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:102
 msgid "26 rue d'Arras, près de la rue Solférino, Lille"
 msgstr ""
@@ -2511,6 +3194,7 @@ msgid "90 minutes de jeu"
 msgstr ""
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:114
+#: pages/templates/sherlock_vs_moriarty.html:115
 msgid "À partir de 35€ par personne"
 msgstr ""
 
@@ -2557,11 +3241,6 @@ msgstr ""
 #: pages/templates/teambuilding.html:135 pages/templates/teambuilding.html:212
 #: pages/templates/teambuilding.html:322
 msgid "Je demande un devis"
-msgstr ""
-
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:186
-#: pages/templates/murder_party_redrock_saloon.html:168
-msgid "Une question sur cette murder party ? Consultez notre FAQ"
 msgstr ""
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:196
@@ -2615,11 +3294,6 @@ msgid ""
 "animateurs ajusteront leur accompagnement en fonction de votre niveau."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:272
-#: pages/templates/murder_party_redrock_saloon.html:269
-msgid "Je retourne à la liste des murder party"
-msgstr ""
-
 #: pages/templates/murder_party_redrock_saloon.html:6
 #: pages/templates/murder_party_redrock_saloon.html:9
 msgid ""
@@ -2671,10 +3345,6 @@ msgstr ""
 msgid ""
 "Testez un concept unique de sessions libres qui permettent à des petits "
 "groupes de jouer avec d'autres passionnés."
-msgstr ""
-
-#: pages/templates/murder_party_redrock_saloon.html:102
-msgid "26 rue d'Arras, près de la rue de Solférino, Lille"
 msgstr ""
 
 #: pages/templates/murder_party_redrock_saloon.html:114
@@ -3295,6 +3965,121 @@ msgstr ""
 #: pages/templates/room.html:268
 msgid "Rooms"
 msgstr "Salles"
+
+#: pages/templates/sherlock_vs_moriarty.html:5
+#: pages/templates/sherlock_vs_moriarty.html:8
+#, fuzzy
+#| msgid "Price – Escape Game Lille – Just Escape"
+msgid "Sherlock vs Moriarty – Just Escape"
+msgstr "Prix – Escape Game Lille – Just Escape"
+
+#: pages/templates/sherlock_vs_moriarty.html:6
+#: pages/templates/sherlock_vs_moriarty.html:9
+msgid ""
+"Sherlock vs Moriarty est un format de murder party jusqu'à plusieurs "
+"centaines de joueurs en simultané. Amusez-vous grâce à cette activité tout "
+"public et inédite."
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:17
+#, fuzzy
+#| msgid "Scénario d'escape game à Lille"
+msgid "Murder Party 150 joueurs à Lille"
+msgstr "Escape Game Lille"
+
+#: pages/templates/sherlock_vs_moriarty.html:37
+msgid "Murder Party nouvelle génération"
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:75
+msgid "Boostez votre équipe"
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:78
+msgid ""
+"Soyez stratégique, communiquez avec vos collègues, montrez votre dévouement "
+"et plongez au coeur d'une intrigue captivante. Découvrez comment notre "
+"approche unique favorise la collaboration et le plaisir au sein de votre "
+"groupe dans une Murder Party géante."
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:85
+msgid "Un lieu historique pour les décors"
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:88
+msgid ""
+"Que serait l'époque victorienne sans ses briques rouges et son vin ? Nous "
+"sommes fiers de collaborer avec le fort de Mons, un lieu historique "
+"magnifique. Laissez-vous transporter par l'architecture, offrant une "
+"immersion totale dans l'atmosphère de l'époque."
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:95
+#: pages/templates/sherlock_vs_moriarty.html:114
+#, fuzzy
+#| msgid "8 à 24 joueurs"
+msgid "De 20 à 150 joueurs"
+msgstr "8 à 24 joueurs"
+
+#: pages/templates/sherlock_vs_moriarty.html:98
+msgid ""
+"Que ce soit pour un événement d'entreprise avec 50 collègues ou un "
+"anniversaire réunissant toute votre famille, notre Murder Party est conçue "
+"pour les grands groupes. Impliquez tout le monde, de vos collègues aux "
+"membres de votre famille, dans une aventure interactive."
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:112
+msgid ""
+"4 rue de Normandie, 59370 Mons-en-Baroeul (Fort de Mons) ou au 26 rue "
+"d'Arras, 59000 Lille"
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:113
+msgid "1h30 de jeu"
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:127
+msgid "Pourquoi faire cette murder party pour mon événement d'entreprise ?"
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:132
+msgid ""
+"Organiser une Murder Party pour votre événement d'entreprise offre une "
+"expérience unique et immersive qui va bien au-delà des activités "
+"traditionnelles de team building."
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:135
+msgid ""
+"Cette approche novatrice combine le plaisir d'un jeu interactif avec les "
+"objectifs spécifiques de renforcement d'équipe et de développement "
+"professionnel."
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:145
+msgid "L'activité va-t-elle plaire à mes collaborateurs ?"
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:150
+msgid ""
+"La façon dont la Murder Party a été créée fait en sorte qu'elle parle au "
+"plus grand nombre. En effet, si vos collaborateurs apprécient des moments "
+"conviviaux et une journée de pause dans leur travail, alors, ils devraient "
+"apprécier le concept."
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:153
+msgid ""
+"Quoi de mieux qu'un lieu chaleureux, une activité facile à prendre en main "
+"et une équipe d'animateurs présents pour répondre à vos questions et même, "
+"pourquoi pas, quelque chose à manger et à boire."
+msgstr ""
+
+#: pages/templates/sherlock_vs_moriarty.html:171
+msgid "Je souhaite réserver une session de Sherlock vs Moriarty"
+msgstr ""
 
 #: pages/templates/svg/address.svg:2
 msgid "Visit card displaying a person and lines of text"
@@ -4328,6 +5113,59 @@ msgstr ""
 "explicitement le consentement des UTILISATEURS à l'oral et leur rappellera "
 "les conditions mentionnées ci-dessus. Les UTILISATEURS seront libres de "
 "refuser d'être photographiés."
+
+#: pages/templates/two_rooms.html:5 pages/templates/two_rooms.html:8
+#, fuzzy
+#| msgid "Just Escape"
+msgid "Two Rooms – Just Escape"
+msgstr "Just Escape"
+
+#: pages/templates/two_rooms.html:6 pages/templates/two_rooms.html:9
+msgid ""
+"Two Rooms c'est le loup-garou mais sans mourir. Amusez-vous grâce à cette "
+"activité complètement insolite !"
+msgstr ""
+
+#: pages/templates/two_rooms.html:30
+#, fuzzy
+#| msgid "Rooms"
+msgid "Two Rooms"
+msgstr "Salles"
+
+#: pages/templates/two_rooms.html:75
+#, fuzzy
+#| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+msgid "<span class='text-inter'>Le loup-garou</span> version 2.0"
+msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
+
+#: pages/templates/two_rooms.html:78
+msgid ""
+"Qui n'a jamais joué à ce jeu qui traverse les générations ? Dans Two rooms, "
+"les règles sont conçues pour que tout le monde joue sans mourir."
+msgstr ""
+
+#: pages/templates/two_rooms.html:85
+msgid "Adapté pour tous les âges"
+msgstr ""
+
+#: pages/templates/two_rooms.html:88
+msgid ""
+"Tout comme le Loup-Garou, Two rooms est adapté pour tous les âges, à partir "
+"d'un minimum de 8 ans. Cette activité est idéale pour fêter un anniversaire, "
+"ou pour découvrir une nouvelle version du Loup Garou."
+msgstr ""
+
+#: pages/templates/two_rooms.html:98
+msgid ""
+"Une partie de Two Rooms dure 1h30 et est constituée de 3 manches, où dans "
+"chacune d'elles s'ajoutent des rôles différents pour pimenter la partie. De "
+"nouveaux objectifs s'ajoutent à chaque manche, ainsi que des nouvelles "
+"stratégies."
+msgstr ""
+
+#: pages/templates/two_rooms.html:147
+msgid "Je souhaite réserver une partie de two rooms"
+msgstr ""
 
 #: salesquote/forms.py:16
 msgid "You can ask for this service tomorrow at least."

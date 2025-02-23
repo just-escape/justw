@@ -2,11 +2,11 @@
 
 {% load i18n %}
 
-{% block title %}Murder Dinner Lille – Just Escape{% endblock %}
-{% block description %}Trahissez-vous autour d'un repas. Découvrez la murder dinner : une murder party qui se joue autour d'un diner mythologique. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
+{% block title %}{% trans "Murder Dinner Lille – Just Escape" %}{% endblock %}
+{% block description %}{% trans "Trahissez-vous autour d'un repas. Découvrez la murder dinner : une murder party qui se joue autour d'un diner mythologique. Amusez-vous grâce à cette activité complètement insolite !" %}{% endblock %}
 
-{% block og_title %}Murder Dinner Lille – Just Escape{% endblock %}
-{% block og_description %}Trahissez-vous autour d'un repas. Découvrez la murder dinner : une murder party qui se joue autour d'un diner mythologique. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
+{% block og_title %}{% trans "Murder Dinner Lille – Just Escape" %}{% endblock %}
+{% block og_description %}{% trans "Trahissez-vous autour d'un repas. Découvrez la murder dinner : une murder party qui se joue autour d'un diner mythologique. Amusez-vous grâce à cette activité complètement insolite !" %}{% endblock %}
 
 {% block extra_css %}
   <style rel="stylesheet">{% include "css/fa-solid-5.8.1.min.css" %}</style>
@@ -14,7 +14,7 @@
   <style rel="stylesheet">{% include "css/fontawesome-5.8.1.min.css" %}</style>
 {% endblock %}
 
-{% block h1 %}Scénarios de Murder Party à Lille{% endblock %}
+{% block h1 %}{% trans "Scénarios de Murder Party à Lille" %}{% endblock %}
 
 {% block content %}
 
@@ -26,14 +26,14 @@
           <div>
             <ol class="breadcrumb softdark py-2">
                     <li class="breadcrumb-item"><a href="/{{ lang }}" class="fill-jaffa svg-16px">{% include "svg/home.svg" %}</a></li>
-                    <li class="breadcrumb-item"><a href="/{{ lang }}murder-party" class="text-jaffa">Murder Party</a></li>
-              <li class="breadcrumb-item active" aria-current="page">La Murder Dinner</li>
+                    <li class="breadcrumb-item"><a href="/{{ lang }}murder-party" class="text-jaffa">{% trans "Murder Party" %}</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{% trans "La Murder Dinner" %}</li>
             </ol>
           </div>
 
           <div class="d-flex flex-column mb-2">
-            <h2 class="text-jaffa mb-0">La murder dinner</h2>
-            <div class="text-inter font-weight-bold size-12 mb-2">Trahissez-vous autour d'un repas</div>
+                  <h2 class="text-jaffa mb-0">{% trans "La murder dinner" %}</h2>
+                  <div class="text-inter font-weight-bold size-12 mb-2">{% trans "Trahissez-vous autour d'un repas" %}</div>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
             <picture>
               <source srcset="/static/img/murder-dinner.webp" type="image/webp">
               <source srcset="/static/img/murder-dinner.png" type="image/png">
-              <img class="img-fluid w-100 mb-3" src="/static/img/murder-dinner.webp" alt="Logo de la murder dinner, une murder party autour d'un repas">
+              <img class="img-fluid w-100 mb-3" src="/static/img/murder-dinner.webp" alt="{% trans "Logo de la murder dinner, une murder party autour d'un repas" %}">
             </picture>
           </div>
         </div>
@@ -51,7 +51,7 @@
       <div class="row">
         <div class="col text-center mb-5">
           <a href="tel:+33789053790" class="btn btn-primary px-5">
-            <span>J'appelle pour réserver : 07 89 05 37 90</span>
+                  <span>{% trans "J'appelle pour réserver : 07 89 05 37 90" %}</span>
           </a>
         </div>
       </div>
@@ -60,30 +60,30 @@
         <div class="col-12 col-lg-4 mb-4 mb-lg-2">
           <div class="card transparent border-jaffa h-100">
             <div class="card-header">
-              <h3><span class="text-mulberry">Trahissez vous</span> en mangeant</h3>
+                    <h3>{% trans "<span class='text-mulberry'>Trahissez vous</span> en mangeant" %}</h3>
             </div>
             <div class="card-body pt-0">
-              Quoi de mieux que de profiter d'un bon repas dans la bonne humeur ? Pour cette activité, nous vous proposons de profiter d'un repas divin à la table de Zeus. Êtes-vous prêts à incarner un dieu et à résoudre un mystère ?
+                    {% trans "Quoi de mieux que de profiter d'un bon repas dans la bonne humeur ? Pour cette activité, nous vous proposons de profiter d'un repas divin à la table de Zeus. Êtes-vous prêts à incarner un dieu et à résoudre un mystère ?" %}
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-4 mb-4 mb-lg-2">
           <div class="card transparent border-jaffa h-100">
             <div class="card-header">
-              <h3>Des restaurants partenaires</h3>
+                    <h3>{% trans "Des restaurants partenaires" %}</h3>
             </div>
             <div class="card-body pt-0">
-              Pour agrémenter votre expérience lors de notre Murder Dinner, nous vous proposons de découvrir quelques restaurants lillois qui se feront le plaisir de vous concocter un délicieux repas accompagné de boissons locales.
+                    {% trans "Pour agrémenter votre expérience lors de notre Murder Dinner, nous vous proposons de découvrir quelques restaurants lillois qui se feront le plaisir de vous concocter un délicieux repas accompagné de boissons locales." %}
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-4 mb-4 mb-lg-2">
           <div class="card transparent border-jaffa h-100">
             <div class="card-header">
-              <h3>Un acteur à votre table</h3>
+                    <h3>{% trans "Un acteur à votre table" %}</h3>
             </div>
             <div class="card-body pt-0">
-              Effectivement, pour vous guider lors de l'activité, un acteur sera présent pendant la durée du repas. Il saura faire de votre repas une véritable opportunité pour vous confronter les uns aux autres lors de challenges déjantés.
+                    {% trans "Effectivement, pour vous guider lors de l'activité, un acteur sera présent pendant la durée du repas. Il saura faire de votre repas une véritable opportunité pour vous confronter les uns aux autres lors de challenges déjantés." %}
             </div>
           </div>
         </div>
@@ -93,13 +93,13 @@
         <div class="col-12 col-lg-6">
           <div class="card transparent border-light h-100">
             <div class="card-header text-inter font-weight-bold text-center">
-              Détails de l'événement
+                    {% trans "Détails de l'événement" %}
             </div>
             <div class="card-body size-11 lh-12 pt-0">
               <ul class="list-unstyled">
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/map-marker.svg" %}</span>
-                  <span class="lh-24px">26 rue d'Arras, près de la rue de Solférino, Lille</span>
+                  <span class="lh-24px">{% trans "26 rue d'Arras, près de la rue de Solférino, Lille" %}</span>
                 </li>
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
@@ -107,14 +107,14 @@
                 </li>
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
-                  <span class="lh-24px">5 à 9 joueurs</span>
+                  <span class="lh-24px">{% trans "5 à 9 joueurs" %}</span>
                 </li>
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/euro.svg" %}</span>
-                  <span class="lh-24px">À partir de 28€ par personne + prix du repas</span>
+                  <span class="lh-24px">{% trans "À partir de 28€ par personne + prix du repas" %}</span>
                 </li>
                 <li>
-                  <span>Découvrez une palette de délices culinaires adaptée à toutes les envies, allant de l'ambiance décontractée à la brasserie aux saveurs raffinées d'un repas semi-gastronomique.</span>
+                        <span>{% trans "Découvrez une palette de délices culinaires adaptée à toutes les envies, allant de l'ambiance décontractée à la brasserie aux saveurs raffinées d'un repas semi-gastronomique." %}</span>
                 </li>
               </ul>
             </div>
@@ -132,7 +132,7 @@
       <div class="row mb-5">
         <div class="col">
           <span id="devis" class="anchor">&nbsp;</span>
-          <h2 class="text-jaffa">Je souhaite réserver une partie de murder dinner</h2>
+          <h2 class="text-jaffa">{% trans "Je souhaite réserver une partie de murder dinner" %}</h2>
 
   <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
   <script>
@@ -147,7 +147,7 @@
 
       <div class="row">
         <div class="col">
-          <h2>Une question sur cette murder party ? Consultez notre FAQ</h2>
+                <h2>{% trans "Une question sur cette murder party ? Consultez notre FAQ" %}</h2>
         </div>
       </div>
 
@@ -157,12 +157,12 @@
           <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
               <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              À combien peut-on jouer à la murder dinner ?
+              {% trans "À combien peut-on jouer à la murder dinner ?" %}
             </div>
             <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p class="mt-3 mb-0">
-                  La murder dinner peut accueillir jusqu'à 9 personnes par table. Chez Just Escape, nous pouvons installer plusieurs tables dans nos locaux afin que plusieurs personnes puissent jouer.
+                {% trans "La murder dinner peut accueillir jusqu'à 9 personnes par table. Chez Just Escape, nous pouvons installer plusieurs tables dans nos locaux afin que plusieurs personnes puissent jouer." %}
                 </p>
               </div>
             </div>
@@ -172,12 +172,12 @@
           <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
               <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Sommes-nous déguisés pendant la murder dinner ?
+              {% trans "Sommes-nous déguisés pendant la murder dinner ?" %}
             </div>
             <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p class="mt-3 mb-0">
-                  Un dressage de table sur le thème de l'Olympe sera mis en place. Pour ceux qui le souhaitent, des accessoires ainsi que des pièces de costumes seront fournies pour vous plonger au mieux dans l'ambiance.
+                {% trans "Un dressage de table sur le thème de l'Olympe sera mis en place. Pour ceux qui le souhaitent, des accessoires ainsi que des pièces de costumes seront fournies pour vous plonger au mieux dans l'ambiance." %}
                 </p>
               </div>
             </div>
@@ -187,12 +187,12 @@
 
       <div class="row">
         <div class="col">
-          <div class="text-center font-weight-bold mb-3">Pour toute question ou demande d'information supplémentaire, contactez-nous.</div>
+                <div class="text-center font-weight-bold mb-3">{% trans "Pour toute question ou demande d'information supplémentaire, contactez-nous." %}</div>
 
           <div class="text-center p-3 border-jaffa border-solid rounded d-flex justify-content-center flex-column">
                   <div class="text-jaffa text-inter font-weight-bold size-12">Contact</div>
             <div class="d-flex flex-column">
-                    <div><span class="text-jaffa">Tel :&nbsp;</span>07 89 05 37 90</div>
+                    <div><span class="text-jaffa">Tel :&nbsp;</span>{% trans "07 89 05 37 90" %}</div>
                     <div><span class="text-jaffa">Mail :&nbsp;</span>contact@justescape.fr</div>
             </div>
           </div>
@@ -209,7 +209,7 @@
     {% include "component/discover_as_well.html" with label=translated_label what="redrock_saloon,le_tournoi_des_sorciers" %}
 
     <div class="text-center">
-            <a href="/{{ lang }}murder-party">Je retourne à la liste des murder party</a>
+            <a href="/{{ lang }}murder-party">{% trans "Je retourne à la liste des murder party" %}</a>
     </div>
   </div>
 </section>

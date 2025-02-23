@@ -2,11 +2,11 @@
 
 {% load i18n %}
 
-{% block title %}Killer Party Lille – Just Escape{% endblock %}
-{% block description %}Découvrez la killer party : une murder party orientée action. Vous avez déjà joué à Among Us ? Découvrez son adaptation dans un escape game grandeur nature. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
+{% block title %}{% trans "Killer Party Lille – Just Escape" %}{% endblock %}
+{% block description %}{% trans "Découvrez la killer party : une murder party orientée action. Vous avez déjà joué à Among Us ? Découvrez son adaptation dans un escape game grandeur nature. Amusez-vous grâce à cette activité complètement insolite !" %}{% endblock %}
 
-{% block og_title %}Killer Party Lille – Just Escape{% endblock %}
-{% block og_description %}Découvrez la killer party : une murder party orientée action. Vous connaissez Among Us ? Découvrez son adaptation dans un escape game grandeur nature. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
+{% block og_title %}{% trans "Killer Party Lille – Just Escape" %}{% endblock %}
+{% block og_description %}{% trans "Découvrez la killer party : une murder party orientée action. Vous connaissez Among Us ? Découvrez son adaptation dans un escape game grandeur nature. Amusez-vous grâce à cette activité complètement insolite !" %}{% endblock %}
 
 {% block extra_css %}
   <style rel="stylesheet">{% include "css/fa-solid-5.8.1.min.css" %}</style>
@@ -14,7 +14,7 @@
   <style rel="stylesheet">{% include "css/fontawesome-5.8.1.min.css" %}</style>
 {% endblock %}
 
-{% block h1 %}Scénarios de Murder Party à Lille{% endblock %}
+{% block h1 %}{% trans "Scénarios de Murder Party à Lille" %}{% endblock %}
 
 {% block content %}
 
@@ -26,14 +26,14 @@
           <div>
             <ol class="breadcrumb softdark py-2">
                     <li class="breadcrumb-item"><a href="/{{ lang }}" class="fill-jaffa svg-16px">{% include "svg/home.svg" %}</a></li>
-                    <li class="breadcrumb-item"><a href="/{{ lang }}murder-party" class="text-jaffa">Murder Party</a></li>
-              <li class="breadcrumb-item active" aria-current="page">La Killer Party</li>
+                    <li class="breadcrumb-item"><a href="/{{ lang }}murder-party" class="text-jaffa">{% trans "Murder Party" %}</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{% trans "La Killer Party" %}</li>
             </ol>
           </div>
 
           <div class="d-flex flex-column mb-2">
-            <h2 class="text-jaffa mb-0">La killer party</h2>
-            <div class="text-inter font-weight-bold size-12 mb-2">Among Us in real life</div>
+                  <h2 class="text-jaffa mb-0">{% trans "La killer party" %}</h2>
+                  <div class="text-inter font-weight-bold size-12 mb-2">{% trans "Among Us in real life" %}</div>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
             <picture>
               <source srcset="/static/img/killer-party.webp" type="image/webp">
               <source srcset="/static/img/killer-party.png" type="image/png">
-              <img class="img-fluid w-100 mb-3" src="/static/img/killer-party.webp" alt="Des personnages sont dans une intrigue de killer party">
+              <img class="img-fluid w-100 mb-3" src="/static/img/killer-party.webp" alt="{% trans "Des personnages sont dans une intrigue de killer party" %}">
             </picture>
           </div>
         </div>
@@ -51,7 +51,7 @@
       <div class="row">
         <div class="col text-center mb-5">
           <a href="tel:+33789053790" class="btn btn-primary px-5">
-            <span>J'appelle pour réserver : 07 89 05 37 90</span>
+                  <span>{% trans "J'appelle pour réserver : 07 89 05 37 90" %}</span>
           </a>
         </div>
       </div>
@@ -60,30 +60,30 @@
         <div class="col-12 col-lg-4 mb-4 mb-lg-2">
           <div class="card transparent border-jaffa h-100">
             <div class="card-header">
-              <h3><span class="text-mulberry">Among Us</span> dans un escape game</h3>
+                    <h3>{% trans "<span class='text-mulberry'>Among Us</span> dans un escape game" %}</h3>
             </div>
             <div class="card-body pt-0">
-              Pour les fans du jeu mobile à succès Among Us, venez découvrir cet incontournable du jeu de rôle dans la vraie vie au sein des décors futuriste de notre escape game. Une atmosphère de suspicion règne tout au long de la partie.
+                    {% trans "Pour les fans du jeu mobile à succès Among Us, venez découvrir cet incontournable du jeu de rôle dans la vraie vie au sein des décors futuriste de notre escape game. Une atmosphère de suspicion règne tout au long de la partie." %}
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-4 mb-4 mb-lg-2">
           <div class="card transparent border-jaffa h-100">
             <div class="card-header">
-              <h3>L'activité pour tous</h3>
+                    <h3>{% trans "L'activité pour tous" %}</h3>
             </div>
             <div class="card-body pt-0">
-              Jouable de 7 à 15 joueurs, cette activité s'adapte à tous les âges et est idéale pour toutes les occasions telles que : un événement d'entreprise, un EVJF/EVG ou pour fêter un anniversaire en beauté.
+                    {% trans "Jouable de 7 à 15 joueurs, cette activité s'adapte à tous les âges et est idéale pour toutes les occasions telles que : un événement d'entreprise, un EVJF/EVG ou pour fêter un anniversaire en beauté." %}
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-4 mb-4 mb-lg-2">
           <div class="card transparent border-jaffa h-100">
             <div class="card-header">
-              <h3>Chaque partie est différente</h3>
+                    <h3>{% trans "Chaque partie est différente" %}</h3>
             </div>
             <div class="card-body pt-0">
-              Aucune partie ne se ressemble ! Avec la diversité des rôles proposés par la Killer Party, vous redécouvrirez le jeu à chaque partie. Soyez un fin stratège afin de démêler l'intrigue qui se cache derrière de nombreuses suspicions.
+                    {% trans "Aucune partie ne se ressemble ! Avec la diversité des rôles proposés par la Killer Party, vous redécouvrirez le jeu à chaque partie. Soyez un fin stratège afin de démêler l'intrigue qui se cache derrière de nombreuses suspicions." %}
             </div>
           </div>
         </div>
@@ -93,13 +93,13 @@
         <div class="col-12 col-lg-6">
           <div class="card transparent border-light h-100">
             <div class="card-header text-inter font-weight-bold text-center">
-              Détails de l'événement
+                    {% trans "Détails de l'événement" %}
             </div>
             <div class="card-body size-11 lh-12 pt-0">
               <ul class="list-unstyled">
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/map-marker.svg" %}</span>
-                  <span class="lh-24px">26 rue d'Arras, près de la rue de Solférino, Lille</span>
+                  <span class="lh-24px">{% trans "26 rue d'Arras, près de la rue de Solférino, Lille" %}</span>
                 </li>
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
@@ -107,14 +107,14 @@
                 </li>
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
-                  <span class="lh-24px">7 à 15 joueurs</span>
+                  <span class="lh-24px">{% trans "7 à 15 joueurs" %}</span>
                 </li>
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/euro.svg" %}</span>
-                  <span class="lh-24px">À partir de 25€ par personne</span>
+                  <span class="lh-24px">{% trans "À partir de 25€ par personne" %}</span>
                 </li>
                 <li>
-                  <span>Possibilité de consommer des boissons vendues sur place</span>
+                        <span>{% trans "Possibilité de consommer des boissons vendues sur place" %}</span>
                 </li>
               </ul>
             </div>
@@ -132,7 +132,7 @@
       <div class="row mb-5">
         <div class="col">
           <span id="devis" class="anchor">&nbsp;</span>
-          <h2 class="text-jaffa">Je souhaite m'inscrire à cette killer party</h2>
+          <h2 class="text-jaffa">{% trans "Je souhaite m'inscrire à cette killer party" %}</h2>
 
   <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
   <script>
@@ -147,7 +147,7 @@
 
       <div class="row">
         <div class="col">
-          <h2>Une question sur cette killer party ? Consultez notre FAQ</h2>
+                <h2>{% trans "Une question sur cette killer party ? Consultez notre FAQ" %}</h2>
         </div>
       </div>
 
@@ -157,12 +157,12 @@
           <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
               <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Est-ce qu'une killer party convient aux enfants ?
+              {% trans "Est-ce qu'une killer party convient aux enfants ?" %}
             </div>
             <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p class="mt-3">
-                  Une Killer Party est recommandée pour les joueurs âgés de 16 ans et plus en raison de la complexité des énigmes et du niveau de déduction requis. Cependant, des versions adaptées pour les enfants peuvent être organisées sur demande.
+                {% trans "Une Killer Party est recommandée pour les joueurs âgés de 16 ans et plus en raison de la complexité des énigmes et du niveau de déduction requis. Cependant, des versions adaptées pour les enfants peuvent être organisées sur demande." %}
                 </p>
                 <p class="mb-0">
                 </p>
@@ -174,12 +174,12 @@
           <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
               <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Est-ce que je peux jouer à la killer party si je ne connais pas le jeu Among Us ?
+              {% trans "Est-ce que je peux jouer à la killer party si je ne connais pas le jeu Among Us ?" %}
             </div>
             <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p class="mt-3 mb-0">
-                  Oui, absolument ! Vous n'avez pas besoin de connaître le jeu Among Us pour profiter de la killer party. Les règles et les mécanismes du jeu seront expliqués en début de partie pour que tout le monde puisse participer.
+                {% trans "Oui, absolument ! Vous n'avez pas besoin de connaître le jeu Among Us pour profiter de la killer party. Les règles et les mécanismes du jeu seront expliqués en début de partie pour que tout le monde puisse participer." %}
                 </p>
               </div>
             </div>
@@ -189,12 +189,12 @@
           <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
               <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              Comment se déroule la répartition des rôles dans la killer party ?
+              {% trans "Comment se déroule la répartition des rôles dans la killer party ?" %}
             </div>
             <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p class="mt-3 mb-0">
-                  Les rôles dans la killer party sont répartis de manière aléatoire à chaque partie. Lors de chaque session, les participants auront la possibilité d'essayer différents rôles, qu'ils soient ingénieurs ou qu'ils incarnent un androïde. Nos animateurs gèrent la répartition des rôles pour assurer une répartition équitable et surprenante à chaque partie.
+                {% trans "Les rôles dans la killer party sont répartis de manière aléatoire à chaque partie. Lors de chaque session, les participants auront la possibilité d'essayer différents rôles, qu'ils soient ingénieurs ou qu'ils incarnent un androïde. Nos animateurs gèrent la répartition des rôles pour assurer une répartition équitable et surprenante à chaque partie." %}
                 </p>
               </div>
             </div>
@@ -205,12 +205,12 @@
 
       <div class="row">
         <div class="col">
-          <div class="text-center font-weight-bold mb-3">Pour toute question ou demande d'information supplémentaire, contactez-nous.</div>
+                <div class="text-center font-weight-bold mb-3">{% trans "Pour toute question ou demande d'information supplémentaire, contactez-nous." %}</div>
 
           <div class="text-center p-3 border-jaffa border-solid rounded d-flex justify-content-center flex-column">
                   <div class="text-jaffa text-inter font-weight-bold size-12">Contact</div>
             <div class="d-flex flex-column">
-                    <div><span class="text-jaffa">Tel :&nbsp;</span>07 89 05 37 90</div>
+                    <div><span class="text-jaffa">Tel :&nbsp;</span>{% trans "07 89 05 37 90" %}</div>
                     <div><span class="text-jaffa">Mail :&nbsp;</span>contact@justescape.fr</div>
             </div>
           </div>
@@ -227,7 +227,7 @@
     {% include "component/discover_as_well.html" with label=translated_label what="redrock_saloon,le_tournoi_des_sorciers" %}
 
     <div class="text-center">
-            <a href="/{{ lang }}murder-party">Je retourne à la liste des murder party</a>
+            <a href="/{{ lang }}murder-party">{% trans "Je retourne à la liste des murder party" %}</a>
     </div>
   </div>
 </section>

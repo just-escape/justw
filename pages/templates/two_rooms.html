@@ -2,11 +2,11 @@
 
 {% load i18n %}
 
-{% block title %}Two Rooms – Just Escape{% endblock %}
-{% block description %}Two Rooms c'est le loup-garou mais sans mourir. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
+{% block title %}{% trans "Two Rooms – Just Escape" %}{% endblock %}
+{% block description %}{% trans "Two Rooms c'est le loup-garou mais sans mourir. Amusez-vous grâce à cette activité complètement insolite !" %}{% endblock %}
 
-{% block og_title %}Two Rooms – Just Escape{% endblock %}
-{% block og_description %}Two Rooms c'est le loup-garou mais sans mourir. Amusez-vous grâce à cette activité complètement insolite !{% endblock %}
+{% block og_title %}{% trans "Two Rooms – Just Escape" %}{% endblock %}
+{% block og_description %}{% trans "Two Rooms c'est le loup-garou mais sans mourir. Amusez-vous grâce à cette activité complètement insolite !" %}{% endblock %}
 
 {% block extra_css %}
   <style rel="stylesheet">{% include "css/fa-solid-5.8.1.min.css" %}</style>
@@ -14,7 +14,7 @@
   <style rel="stylesheet">{% include "css/fontawesome-5.8.1.min.css" %}</style>
 {% endblock %}
 
-{% block h1 %}Scénarios de Murder Party à Lille{% endblock %}
+{% block h1 %}{% trans "Scénarios de Murder Party à Lille" %}{% endblock %}
 
 {% block content %}
 
@@ -26,23 +26,23 @@
           <div>
             <ol class="breadcrumb softdark py-2">
                     <li class="breadcrumb-item"><a href="/{{ lang }}" class="fill-jaffa svg-16px">{% include "svg/home.svg" %}</a></li>
-                    <li class="breadcrumb-item"><a href="/{{ lang }}murder-party" class="text-jaffa">Murder Party</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Two Rooms</li>
+                    <li class="breadcrumb-item"><a href="/{{ lang }}murder-party" class="text-jaffa">{% trans "Murder Party" %}</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{% trans "Two Rooms" %}</li>
             </ol>
           </div>
 
           <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
             <div class="d-flex flex-column mb-0">
-              <h2 class="text-jaffa mb-0">Two rooms</h2>
-              <div class="text-inter font-weight-bold size-12 mb-2">Le loup-garou mais sans mourir</div>
+                    <h2 class="text-jaffa mb-0">{% trans "Two rooms" %}</h2>
+                    <div class="text-inter font-weight-bold size-12 mb-2">{% trans "Le loup-garou mais sans mourir" %}</div>
             </div>
             <div class="d-flex flex-column align-items-end">
               <div>
-                <span class="lh-24px">15 à 30 joueurs</span>
+                      <span class="lh-24px">{% trans "15 à 30 joueurs" %}</span>
                 <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
               </div>
               <div>
-                <span class="lh-24px">90 minutes</span>
+                      <span class="lh-24px">{% trans "90 minutes" %}</span>
                 <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
               </div>
             </div>
@@ -55,7 +55,7 @@
             <picture>
               <source srcset="/static/img/two-rooms.webp" type="image/webp">
               <source srcset="/static/img/two-rooms.png" type="image/png">
-              <img class="img-fluid w-100 mb-3" src="/static/img/two-rooms.webp" alt="Logo de two rooms">
+              <img class="img-fluid w-100 mb-3" src="/static/img/two-rooms.webp" alt="{% trans "Logo de two rooms" %}">
             </picture>
           </div>
         </div>
@@ -63,7 +63,7 @@
       <div class="row">
         <div class="col text-center mb-5">
           <a href="tel:+33789053790" class="btn btn-primary px-5">
-            <span>J'appelle pour réserver : 07 89 05 37 90</span>
+                  <span>{% trans "J'appelle pour réserver : 07 89 05 37 90" %}</span>
           </a>
         </div>
       </div>
@@ -72,30 +72,30 @@
         <div class="col-12 col-lg-4 mb-4 mb-lg-2">
           <div class="card transparent border-jaffa h-100">
             <div class="card-header">
-              <h3><span class="text-inter">Le loup-garou</span> version 2.0</h3>
+                    <h3>{% trans "<span class='text-inter'>Le loup-garou</span> version 2.0" %}</h3>
             </div>
             <div class="card-body pt-0">
-              Qui n'a jamais joué à ce jeu qui traverse les générations ? Dans Two rooms, les règles sont conçues pour que tout le monde joue sans mourir.
+                    {% trans "Qui n'a jamais joué à ce jeu qui traverse les générations ? Dans Two rooms, les règles sont conçues pour que tout le monde joue sans mourir." %}
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-4 mb-4 mb-lg-2">
           <div class="card transparent border-jaffa h-100">
             <div class="card-header">
-              <h3>Adapté pour tous les âges</h3>
+                    <h3>{% trans "Adapté pour tous les âges" %}</h3>
             </div>
             <div class="card-body pt-0">
-              Tout comme le Loup-Garou, Two rooms est adapté pour tous les âges, à partir d'un minimum de 8 ans. Cette activité est idéale pour fêter un anniversaire, ou pour découvrir une nouvelle version du Loup Garou.
+                    {% trans "Tout comme le Loup-Garou, Two rooms est adapté pour tous les âges, à partir d'un minimum de 8 ans. Cette activité est idéale pour fêter un anniversaire, ou pour découvrir une nouvelle version du Loup Garou." %}
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-4 mb-4 mb-lg-2">
           <div class="card transparent border-jaffa h-100">
             <div class="card-header">
-              <h3>Chaque partie est différente</h3>
+                    <h3>{% trans "Chaque partie est différente" %}</h3>
             </div>
             <div class="card-body pt-0">
-              Une partie de Two Rooms dure 1h30 et est constituée de 3 manches, où dans chacune d'elles s'ajoutent des rôles différents pour pimenter la partie. De nouveaux objectifs s'ajoutent à chaque manche, ainsi que des nouvelles stratégies.
+                    {% trans "Une partie de Two Rooms dure 1h30 et est constituée de 3 manches, où dans chacune d'elles s'ajoutent des rôles différents pour pimenter la partie. De nouveaux objectifs s'ajoutent à chaque manche, ainsi que des nouvelles stratégies." %}
             </div>
           </div>
         </div>
@@ -105,13 +105,13 @@
         <div class="col-12 col-lg-6">
           <div class="card transparent border-light h-100">
             <div class="card-header text-inter font-weight-bold text-center">
-              Détails de l'événement
+                    {% trans "Détails de l'événement" %}
             </div>
             <div class="card-body size-11 lh-12 pt-0">
               <ul class="list-unstyled">
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/map-marker.svg" %}</span>
-                  <span class="lh-24px">26 rue d'Arras, près de la rue de Solférino, Lille</span>
+                  <span class="lh-24px">{% trans "26 rue d'Arras, près de la rue de Solférino, Lille" %}</span>
                 </li>
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
@@ -119,14 +119,14 @@
                 </li>
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
-                  <span class="lh-24px">15 à 30 joueurs</span>
+                  <span class="lh-24px">{% trans "15 à 30 joueurs" %}</span>
                 </li>
                 <li class="mb-1">
                   <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/euro.svg" %}</span>
-                  <span class="lh-24px">À partir de 25€ par personne</span>
+                  <span class="lh-24px">{% trans "À partir de 25€ par personne" %}</span>
                 </li>
                 <li>
-                  <span>Possibilité de consommer des boissons vendues sur place</span>
+                        <span>{% trans "Possibilité de consommer des boissons vendues sur place" %}</span>
                 </li>
               </ul>
             </div>
@@ -144,7 +144,7 @@
       <div class="row">
         <div class="col">
           <span id="devis" class="anchor">&nbsp;</span>
-          <h2 class="text-jaffa">Je souhaite réserver une partie de two rooms</h2>
+          <h2 class="text-jaffa">{% trans "Je souhaite réserver une partie de two rooms" %}</h2>
 
   <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
   <script>
@@ -166,7 +166,7 @@
     {% include "component/discover_as_well.html" with label=translated_label what="redrock_saloon,le_tournoi_des_sorciers" %}
 
     <div class="text-center">
-            <a href="/{{ lang }}murder-party">Je retourne à la liste des murder party</a>
+            <a href="/{{ lang }}murder-party">{% trans "Je retourne à la liste des murder party" %}</a>
     </div>
   </div>
 </section>
