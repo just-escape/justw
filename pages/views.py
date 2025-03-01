@@ -305,6 +305,8 @@ def murder_party(request):
         'form': form,
         'unexpected_error': error,
         'subscription_success': success,
+        'cover': True,
+        'cover_max_transparency': True,
     }
     return render(request, 'murder_party.html', data)
 
@@ -333,6 +335,8 @@ def murder_party_le_tournoi_des_sorciers(request):
         'form': form,
         'unexpected_error': error,
         'salesquote_success': success,
+        'cover': True,
+        'cover_max_transparency': True,
     }
     return render(request, 'murder_party_le_tournoi_des_sorciers.html', data)
 

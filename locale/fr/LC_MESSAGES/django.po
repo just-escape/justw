@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-23 15:46+0100\n"
+"POT-Creation-Date: 2025-03-01 12:06+0100\n"
 "PO-Revision-Date: 2019-03-12 11:33+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: FRENCH <contact@justescape.fr>\n"
@@ -176,9 +176,9 @@ msgstr ""
 
 #: pages/templates/component/card_le_tournoi_des_sorciers.html:7
 #: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:7
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:30
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:35
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:304
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:33
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:65
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:316
 msgid "Le Tournoi des Sorciers"
 msgstr ""
 
@@ -189,7 +189,7 @@ msgstr ""
 
 #: pages/templates/component/card_le_tournoi_des_sorciers.html:12
 #: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:12
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:110
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:122
 msgid "8 à 24 joueurs"
 msgstr "8 à 24 joueurs"
 
@@ -574,7 +574,7 @@ msgstr ""
 #: pages/templates/contact.html:8 pages/templates/contact.html:55
 #: pages/templates/contact.html:224 pages/templates/escape_game_evg.html:234
 #: pages/templates/footer.html:80 pages/templates/header.html:68
-#: pages/templates/home.html:781 pages/templates/murder_party.html:235
+#: pages/templates/home.html:781 pages/templates/murder_party.html:234
 #: pages/templates/murder_party_redrock_saloon.html:250
 #: pages/templates/room.html:226
 msgid "Contact"
@@ -1166,8 +1166,8 @@ msgstr ""
 #: pages/templates/escape_game_evg.html:231
 #: pages/templates/escape_game_evjf.html:243
 #: pages/templates/killer_party.html:208 pages/templates/murder_dinner.html:190
-#: pages/templates/murder_party.html:232
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:250
+#: pages/templates/murder_party.html:231
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:262
 #: pages/templates/murder_party_redrock_saloon.html:247
 #: pages/templates/room.html:223
 msgid ""
@@ -1177,8 +1177,8 @@ msgstr ""
 #: pages/templates/escape_game_evg.html:237
 #: pages/templates/escape_game_evjf.html:249 pages/templates/header.html:134
 #: pages/templates/killer_party.html:213 pages/templates/murder_dinner.html:195
-#: pages/templates/murder_party.html:237
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:255
+#: pages/templates/murder_party.html:236
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:267
 #: pages/templates/murder_party_redrock_saloon.html:252
 #: pages/templates/room.html:228
 msgid "07 89 05 37 90"
@@ -1781,7 +1781,7 @@ msgstr ""
 msgid "Murder party"
 msgstr ""
 
-#: pages/templates/footer.html:71 pages/templates/murder_party.html:157
+#: pages/templates/footer.html:71 pages/templates/murder_party.html:156
 #: pages/templates/murder_party_redrock_saloon.html:139
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:29
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:44
@@ -2620,7 +2620,6 @@ msgid ""
 msgstr ""
 
 #: pages/templates/killer_party.html:17 pages/templates/murder_dinner.html:17
-#: pages/templates/murder_party.html:11
 #: pages/templates/murder_party_redrock_saloon.html:17
 #: pages/templates/two_rooms.html:17
 #, fuzzy
@@ -2629,7 +2628,7 @@ msgid "Scénarios de Murder Party à Lille"
 msgstr "Escape Game Lille"
 
 #: pages/templates/killer_party.html:29 pages/templates/murder_dinner.html:29
-#: pages/templates/murder_party.html:23
+#: pages/templates/murder_party.html:58
 #: pages/templates/murder_party_redrock_saloon.html:29
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:43
 #: pages/templates/sherlock_vs_moriarty.html:29
@@ -2652,8 +2651,8 @@ msgid "Des personnages sont dans une intrigue de killer party"
 msgstr ""
 
 #: pages/templates/killer_party.html:54 pages/templates/murder_dinner.html:54
-#: pages/templates/murder_party.html:84
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:54
+#: pages/templates/murder_party.html:43 pages/templates/murder_party.html:83
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:49
 #: pages/templates/murder_party_redrock_saloon.html:54
 #: pages/templates/sherlock_vs_moriarty.html:66
 #: pages/templates/sherlock_vs_moriarty.html:187
@@ -2701,7 +2700,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/killer_party.html:96 pages/templates/murder_dinner.html:96
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:96
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:108
 #: pages/templates/murder_party_redrock_saloon.html:96
 #: pages/templates/sherlock_vs_moriarty.html:108
 #: pages/templates/two_rooms.html:108
@@ -2769,7 +2768,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/killer_party.html:226 pages/templates/murder_dinner.html:208
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:268
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:280
 #: pages/templates/murder_party_redrock_saloon.html:265
 #: pages/templates/sherlock_vs_moriarty.html:197
 #: pages/templates/two_rooms.html:165
@@ -2777,7 +2776,7 @@ msgid "Découvrez aussi d'autres scénarios"
 msgstr ""
 
 #: pages/templates/killer_party.html:230 pages/templates/murder_dinner.html:212
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:272
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:284
 #: pages/templates/murder_party_redrock_saloon.html:269
 #: pages/templates/sherlock_vs_moriarty.html:201
 #: pages/templates/two_rooms.html:169
@@ -2857,7 +2856,7 @@ msgid "Je souhaite réserver une partie de murder dinner"
 msgstr ""
 
 #: pages/templates/murder_dinner.html:150
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:186
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:198
 #: pages/templates/murder_party_redrock_saloon.html:168
 msgid "Une question sur cette murder party ? Consultez notre FAQ"
 msgstr ""
@@ -2906,13 +2905,28 @@ msgid ""
 "loup-garou. Choisissez votre activité complètement insolite !"
 msgstr ""
 
-#: pages/templates/murder_party.html:30
+#: pages/templates/murder_party.html:27
+#, fuzzy
+#| msgid "Scénario d'escape game à Lille"
+msgid "Scénarios de murder party à Lille"
+msgstr "Escape Game Lille"
+
+#: pages/templates/murder_party.html:28
+msgid "Découvrez nos cluedo géants"
+msgstr ""
+
+#: pages/templates/murder_party.html:36
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:42
+msgid "Une murder party avec des décors immersifs à Lille"
+msgstr ""
+
+#: pages/templates/murder_party.html:65
 #, fuzzy
 #| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
 msgid "Qu'est-ce qu'une <span class='text-mulberry'>murder party</span> ?"
 msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
 
-#: pages/templates/murder_party.html:34
+#: pages/templates/murder_party.html:69
 msgid ""
 "Une Murder Party est un jeu d'<b>enquête</b> s'inspirant du <b>Cluedo</b>, "
 "dans lequel les participants incarnent un rôle et tentent d'élucider un "
@@ -2920,65 +2934,24 @@ msgid ""
 "et tenter de ne pas se faire accuser à tort."
 msgstr ""
 
-#: pages/templates/murder_party.html:37
+#: pages/templates/murder_party.html:72
 msgid ""
 "À la manière d'un <b>escape game</b>, les joueurs sont plongés au coeur d'un "
 "<b>décor immersif</b> rempli de surprises, rendant leur <b>expérience "
 "dépaysante</b> et plein de rebondissements."
 msgstr ""
 
-#: pages/templates/murder_party.html:44
-msgid "Une alternative excitante aux escape games"
-msgstr ""
-
-#: pages/templates/murder_party.html:53
-#, fuzzy
-#| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
-msgid ""
-"<span class='text-mulberry'>Des incontournables</span> dans la vraie vie"
-msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
-
-#: pages/templates/murder_party.html:56
-msgid ""
-"Découvrez au travers de nos Murder Party des concepts comme le Loup-Garou, "
-"le Cluedo ou encore Among Us en Grandeur Nature."
-msgstr ""
-
-#: pages/templates/murder_party.html:63
-#, fuzzy
-#| msgid "Among Us dans un escape game"
-msgid "L'immersion d'un escape game"
-msgstr "Among Us dans un escape game"
-
-#: pages/templates/murder_party.html:66
-msgid ""
-"L'immersion d'une Murder Party passe par une intrigue scénaristique dans "
-"laquelle vous allez être plongés, accompagnés d'acteurs compétents."
-msgstr ""
-
-#: pages/templates/murder_party.html:73
-#, fuzzy
-#| msgid "Escape game 2 joueurs"
-msgid "Une activité pour des grands groupes"
-msgstr "Escape game 2 joueurs"
-
-#: pages/templates/murder_party.html:76
-msgid ""
-"Nous disposons de différents concepts de Murder Party pouvant se jouer de 5 "
-"à 40 personnes, idéaux pour animer des événements spéciaux."
-msgstr ""
-
-#: pages/templates/murder_party.html:125
+#: pages/templates/murder_party.html:124
 #, fuzzy
 #| msgid "Scénario d'escape game à Lille"
 msgid "Bienvenue dans nos activités de Murder Party à Lille"
 msgstr "Escape Game Lille"
 
-#: pages/templates/murder_party.html:130
+#: pages/templates/murder_party.html:129
 msgid "Plongez dans une intrigue captivante avec notre murder party à Lille"
 msgstr ""
 
-#: pages/templates/murder_party.html:131
+#: pages/templates/murder_party.html:130
 msgid ""
 "Vous recherchez une animation immersive et captivante pour fédérer votre "
 "équipe lors d'un événement d'entreprise à Lille ? Découvrez notre murder "
@@ -2988,13 +2961,13 @@ msgid ""
 "ludique et engageante."
 msgstr ""
 
-#: pages/templates/murder_party.html:132
+#: pages/templates/murder_party.html:131
 #, fuzzy
 #| msgid "Scénario d'escape game à Lille"
 msgid "Découvrez une expérience immersive lors de notre Murder Party à Lille"
 msgstr "Escape Game Lille"
 
-#: pages/templates/murder_party.html:133
+#: pages/templates/murder_party.html:132
 msgid ""
 "Notre murder party à Lille est conçue comme un jeu collaboratif, parfait "
 "pour les activités de team building. Les jeux d'équipe et les activités de "
@@ -3004,13 +2977,13 @@ msgid ""
 "interactive unique qui stimulera le team spirit."
 msgstr ""
 
-#: pages/templates/murder_party.html:134
+#: pages/templates/murder_party.html:133
 msgid ""
 "Explorez une intrigue mystérieuse lors de notre animation de Murder Party à "
 "Lille"
 msgstr ""
 
-#: pages/templates/murder_party.html:135
+#: pages/templates/murder_party.html:134
 msgid ""
 "Nous vous proposons des idées de team building originales pour votre "
 "entreprise à Lille, telles que notre animation de murder party. Cette "
@@ -3020,11 +2993,11 @@ msgid ""
 "dynamiser une réunion d'équipe et maximiser l'engagement des participants."
 msgstr ""
 
-#: pages/templates/murder_party.html:136
+#: pages/templates/murder_party.html:135
 msgid "Expérimentez une activité originale avec notre Murder Party à Lille"
 msgstr ""
 
-#: pages/templates/murder_party.html:137
+#: pages/templates/murder_party.html:136
 msgid ""
 "Lors de notre animation de murder party à Lille, nous vous offrons "
 "l'opportunité d'intégrer votre équipe dans une expérience immersive où "
@@ -3034,13 +3007,13 @@ msgid ""
 "séminaire, une soirée d'entreprise ou une journée de cohésion de groupe."
 msgstr ""
 
-#: pages/templates/murder_party.html:138
+#: pages/templates/murder_party.html:137
 msgid ""
 "Profitez d’une animation interactive unique lors de notre Murder Party à "
 "Lille"
 msgstr ""
 
-#: pages/templates/murder_party.html:139
+#: pages/templates/murder_party.html:138
 msgid ""
 "En plus de notre murder party à Lille, nous proposons une large gamme "
 "d'animations pour vos événements d'entreprise. Que ce soit une soirée "
@@ -3051,13 +3024,13 @@ msgid ""
 "personnalisées qui correspondent à vos objectifs."
 msgstr ""
 
-#: pages/templates/murder_party.html:140
+#: pages/templates/murder_party.html:139
 msgid ""
 "Contactez-nous dès aujourd’hui pour discuter de notre animation de Murde "
 "Party à Lille"
 msgstr ""
 
-#: pages/templates/murder_party.html:141
+#: pages/templates/murder_party.html:140
 msgid ""
 "Ne cherchez plus, contactez-nous dès aujourd'hui pour discuter de vos "
 "besoins en matière d'animation d'événements d'entreprise à Lille. Nous "
@@ -3067,77 +3040,77 @@ msgid ""
 "d'entreprise."
 msgstr ""
 
-#: pages/templates/murder_party.html:147
+#: pages/templates/murder_party.html:146
 msgid "Une question sur les murder party ?"
 msgstr ""
 
-#: pages/templates/murder_party.html:148
+#: pages/templates/murder_party.html:147
 msgid "Consultez notre FAQ"
 msgstr ""
 
-#: pages/templates/murder_party.html:162
+#: pages/templates/murder_party.html:161
 msgid ""
 "La Murder Party à Lille est une activité immersive et captivante qui mêle "
 "jeu d'enquête, scénario policier et jeu de rôle grandeur nature."
 msgstr ""
 
-#: pages/templates/murder_party.html:165
+#: pages/templates/murder_party.html:164
 msgid ""
 "Elle offre une expérience interactive unique où les participants plongent au "
 "coeur d'une intrigue mystérieuse."
 msgstr ""
 
-#: pages/templates/murder_party.html:175
+#: pages/templates/murder_party.html:174
 msgid "Est-ce que Just Escape est loin du centre de Lille ?"
 msgstr ""
 
-#: pages/templates/murder_party.html:180
+#: pages/templates/murder_party.html:179
 msgid ""
 "Just Escape se situe à 10 minutes à pied du centre de Lille et à côté du "
 "parc Jean-Baptiste Lebas."
 msgstr ""
 
-#: pages/templates/murder_party.html:183
+#: pages/templates/murder_party.html:182
 msgid ""
 "Notez que toutes nos Murder Party peuvent être jouées sur le lieu de votre "
 "choix."
 msgstr ""
 
-#: pages/templates/murder_party.html:193
+#: pages/templates/murder_party.html:192
 msgid "Quelle murder party est la plus adaptée pour un groupe d'enfants ?"
 msgstr ""
 
-#: pages/templates/murder_party.html:198
+#: pages/templates/murder_party.html:197
 msgid ""
 "Pour un groupe d'enfants, Two Rooms est le jeu le plus adapté en raison de "
 "la simplicité des règles et de son scénario. La Killer Party est également "
 "possible."
 msgstr ""
 
-#: pages/templates/murder_party.html:208
+#: pages/templates/murder_party.html:207
 msgid "Quelle murder party choisir pour un événement d'entreprise ?"
 msgstr ""
 
-#: pages/templates/murder_party.html:213
+#: pages/templates/murder_party.html:212
 msgid ""
 "Si vous souhaitez renforcer la cohésion au sein de votre groupe la Murder "
 "Party classique reste la meilleure option pour un team building."
 msgstr ""
 
-#: pages/templates/murder_party.html:216
+#: pages/templates/murder_party.html:215
 msgid ""
 "Les Murder Party sont des jeux interactifs qui encouragent la collaboration, "
 "la communication et la coopération entre les participants, favorisant ainsi "
 "le renforcement de l’esprit d’équipe au sein de l’entreprise."
 msgstr ""
 
-#: pages/templates/murder_party.html:219
+#: pages/templates/murder_party.html:218
 msgid ""
 "Elles suscitent l’engagement des participants et créent une atmosphère "
 "conviviale et amusante lors de l’événement."
 msgstr ""
 
-#: pages/templates/murder_party.html:222
+#: pages/templates/murder_party.html:221
 msgid ""
 "Les Murder Party mettent les participants au défi de résoudre des énigmes, "
 "de trouver des indices et de démasquer le coupable. Cela encourage le "
@@ -3145,7 +3118,7 @@ msgid ""
 "décision."
 msgstr ""
 
-#: pages/templates/murder_party.html:250
+#: pages/templates/murder_party.html:249
 msgid "Découvrez aussi nos scénarios d'escape game"
 msgstr ""
 
@@ -3156,38 +3129,30 @@ msgid ""
 "Amusez-vous grâce à cette activité complètement insolite !"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:17
-msgid "Murder Party avec des décors à Lille"
-msgstr ""
-
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:36
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:34
 msgid "Une compétition de magie"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:46
-msgid "Une murder party avec des décors immersifs à Lille"
-msgstr ""
-
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:63
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:75
 #, fuzzy
 #| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
 msgid "Apprenez à faire de la <span class='text-mulberry'>sorcellerie</span>"
 msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:66
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:78
 msgid ""
 "Des duels magiques, des portes qui s'ouvrent d'un coup de baguette magique, "
 "des défis autour de pierres aux vertus rares... Tous ces éléments réunis "
 "pour vous faire vivre la plus magique des aventures."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:73
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:85
 #, fuzzy
 #| msgid "<span class='text-mulberry'>Star Wars</span> pour de vrai"
 msgid "Un <span class='text-mulberry'>univers magique</span> vous attend"
 msgstr "<span class='text-mulberry'>Star Wars</span> pour de vrai"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:76
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:88
 msgid ""
 "Une expérience immersive dans 100m² de décors spécialement conçus pour "
 "l'occasion est prévue. Une salle des potions plus vraie que nature, une "
@@ -3195,80 +3160,80 @@ msgid ""
 "y attendent."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:83
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:95
 msgid "Au coeur du tournoi des sorciers"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:86
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:98
 msgid ""
 "Endossez vos couleurs et représentez fièrement votre maison lors d'une "
 "compétition mêlant lecture de sortilèges et identification de plantes "
 "mystérieuses. Rejoignez les rangs des grands vainqueurs."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:102
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:114
 msgid "26 rue d'Arras, près de la rue Solférino, Lille"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:106
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:118
 msgid "90 minutes de jeu"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:114
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:126
 #: pages/templates/sherlock_vs_moriarty.html:115
 msgid "À partir de 35€ par personne"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:124
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:136
 #: pages/templates/murder_party_redrock_saloon.html:124
 msgid "Inclus dans le prix"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:128
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:140
 msgid "Une boisson par participant parmis une sélection"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:129
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:141
 msgid ""
 "Un acteur pour un groupe allant jusqu'à 15 personnes et un deuxième au delà"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:130
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:142
 msgid "Des costumes sont mis à disposition"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:142
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:154
 msgid ""
 "Participants plongés dans une enquête criminelle lors d'une murder party à "
 "Lille"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:149
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:161
 msgid "Scénario intrigant et indices cachés pendant une murder party à Lille"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:156
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:168
 msgid ""
 "Joueurs analysant une scène de crime fictive lors d'une murder party à Lille"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:172
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:184
 #: pages/templates/murder_party_redrock_saloon.html:154
 msgid "Formulaire de réservation"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:177
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:189
 #: pages/templates/murder_party_redrock_saloon.html:159
 #: pages/templates/teambuilding.html:135 pages/templates/teambuilding.html:212
 #: pages/templates/teambuilding.html:322
 msgid "Je demande un devis"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:196
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:208
 msgid "Les enfants sont-ils acceptés ?"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:201
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:213
 msgid ""
 "Oui, les enfants sont acceptés dans notre Murder Party ! Une version "
 "simplifiée du scénario est spécialement conçue pour les plus jeunes. "
@@ -3277,38 +3242,38 @@ msgid ""
 "de 9 ans."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:211
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:223
 msgid "Peut-on jouer en anglais ?"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:216
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:228
 msgid "Une version anglaise est disponible <b>sur demande</b>."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:219
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:231
 msgid ""
 "Afin de garantir une expérience optimale, veuillez nous informer de votre "
 "préférence linguistique lors de la réservation <b>via les commentaires ou "
 "par e-mail à contact@justescape.fr</b>."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:222
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:234
 msgid ""
 "Que vous préfériez le français ou l'anglais, préparez-vous à une soirée "
 "immersive pleine de mystère, d'indices et de stratégies."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:232
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:244
 msgid "Est-ce accessible pour tous les niveaux ?"
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:237
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:249
 msgid ""
 "Que vous soyez débutant ou déjà expérimenté, la Murder Party s'adapte "
 "parfaitement à tous les niveaux."
 msgstr ""
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:240
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:252
 msgid ""
 "Elle a été conçue pour être accessible à tous, permettant à chacun de la "
 "prendre en main facilement. Vous jouerez avec une difficulté adaptée, et les "

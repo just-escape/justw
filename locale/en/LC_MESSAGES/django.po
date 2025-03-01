@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-23 15:46+0100\n"
+"POT-Creation-Date: 2025-03-01 12:06+0100\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -180,9 +180,9 @@ msgstr "Tell me more"
 
 #: pages/templates/component/card_le_tournoi_des_sorciers.html:7
 #: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:7
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:30
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:35
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:304
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:33
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:65
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:316
 msgid "Le Tournoi des Sorciers"
 msgstr "The Wizard's Tournament"
 
@@ -193,7 +193,7 @@ msgstr "Immersive Murder Party"
 
 #: pages/templates/component/card_le_tournoi_des_sorciers.html:12
 #: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:12
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:110
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:122
 msgid "8 à 24 joueurs"
 msgstr "8 to 24 players"
 
@@ -610,7 +610,7 @@ msgstr ""
 #: pages/templates/contact.html:8 pages/templates/contact.html:55
 #: pages/templates/contact.html:224 pages/templates/escape_game_evg.html:234
 #: pages/templates/footer.html:80 pages/templates/header.html:68
-#: pages/templates/home.html:781 pages/templates/murder_party.html:235
+#: pages/templates/home.html:781 pages/templates/murder_party.html:234
 #: pages/templates/murder_party_redrock_saloon.html:250
 #: pages/templates/room.html:226
 msgid "Contact"
@@ -1229,8 +1229,8 @@ msgstr "A whole host of challenges <strong>await you</strong>"
 #: pages/templates/escape_game_evg.html:231
 #: pages/templates/escape_game_evjf.html:243
 #: pages/templates/killer_party.html:208 pages/templates/murder_dinner.html:190
-#: pages/templates/murder_party.html:232
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:250
+#: pages/templates/murder_party.html:231
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:262
 #: pages/templates/murder_party_redrock_saloon.html:247
 #: pages/templates/room.html:223
 msgid ""
@@ -1241,8 +1241,8 @@ msgstr ""
 #: pages/templates/escape_game_evg.html:237
 #: pages/templates/escape_game_evjf.html:249 pages/templates/header.html:134
 #: pages/templates/killer_party.html:213 pages/templates/murder_dinner.html:195
-#: pages/templates/murder_party.html:237
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:255
+#: pages/templates/murder_party.html:236
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:267
 #: pages/templates/murder_party_redrock_saloon.html:252
 #: pages/templates/room.html:228
 msgid "07 89 05 37 90"
@@ -1848,7 +1848,7 @@ msgstr "Discover"
 msgid "Murder party"
 msgstr "Murder party"
 
-#: pages/templates/footer.html:71 pages/templates/murder_party.html:157
+#: pages/templates/footer.html:71 pages/templates/murder_party.html:156
 #: pages/templates/murder_party_redrock_saloon.html:139
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:29
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:44
@@ -2841,14 +2841,13 @@ msgstr ""
 "this completely unusual activity!"
 
 #: pages/templates/killer_party.html:17 pages/templates/murder_dinner.html:17
-#: pages/templates/murder_party.html:11
 #: pages/templates/murder_party_redrock_saloon.html:17
 #: pages/templates/two_rooms.html:17
 msgid "Scénarios de Murder Party à Lille"
 msgstr "Murder Party scenarios in Lille"
 
 #: pages/templates/killer_party.html:29 pages/templates/murder_dinner.html:29
-#: pages/templates/murder_party.html:23
+#: pages/templates/murder_party.html:58
 #: pages/templates/murder_party_redrock_saloon.html:29
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:43
 #: pages/templates/sherlock_vs_moriarty.html:29
@@ -2869,8 +2868,8 @@ msgid "Des personnages sont dans une intrigue de killer party"
 msgstr "Characters in a killer party plot"
 
 #: pages/templates/killer_party.html:54 pages/templates/murder_dinner.html:54
-#: pages/templates/murder_party.html:84
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:54
+#: pages/templates/murder_party.html:43 pages/templates/murder_party.html:83
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:49
 #: pages/templates/murder_party_redrock_saloon.html:54
 #: pages/templates/sherlock_vs_moriarty.html:66
 #: pages/templates/sherlock_vs_moriarty.html:187
@@ -2923,7 +2922,7 @@ msgstr ""
 "strategist to unravel the intrigue behind the many suspicions."
 
 #: pages/templates/killer_party.html:96 pages/templates/murder_dinner.html:96
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:96
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:108
 #: pages/templates/murder_party_redrock_saloon.html:96
 #: pages/templates/sherlock_vs_moriarty.html:108
 #: pages/templates/two_rooms.html:108
@@ -3003,7 +3002,7 @@ msgstr ""
 "party."
 
 #: pages/templates/killer_party.html:226 pages/templates/murder_dinner.html:208
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:268
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:280
 #: pages/templates/murder_party_redrock_saloon.html:265
 #: pages/templates/sherlock_vs_moriarty.html:197
 #: pages/templates/two_rooms.html:165
@@ -3011,7 +3010,7 @@ msgid "Découvrez aussi d'autres scénarios"
 msgstr "Discover other scenarios as well"
 
 #: pages/templates/killer_party.html:230 pages/templates/murder_dinner.html:212
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:272
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:284
 #: pages/templates/murder_party_redrock_saloon.html:269
 #: pages/templates/sherlock_vs_moriarty.html:201
 #: pages/templates/two_rooms.html:169
@@ -3101,7 +3100,7 @@ msgid "Je souhaite réserver une partie de murder dinner"
 msgstr "I would like to book a murder dinner"
 
 #: pages/templates/murder_dinner.html:150
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:186
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:198
 #: pages/templates/murder_party_redrock_saloon.html:168
 msgid "Une question sur cette murder party ? Consultez notre FAQ"
 msgstr ""
@@ -3157,11 +3156,24 @@ msgstr ""
 "Discover our murder parties: classic, killer party, murder dinner, werewolf "
 "type. Choose your completely unusual activity!"
 
-#: pages/templates/murder_party.html:30
+#: pages/templates/murder_party.html:27
+msgid "Scénarios de murder party à Lille"
+msgstr "Murder Party scenarios in Lille"
+
+#: pages/templates/murder_party.html:28
+msgid "Découvrez nos cluedo géants"
+msgstr "Discover our giant cluedos"
+
+#: pages/templates/murder_party.html:36
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:42
+msgid "Une murder party avec des décors immersifs à Lille"
+msgstr "A murder party with immersive scenery in Lille"
+
+#: pages/templates/murder_party.html:65
 msgid "Qu'est-ce qu'une <span class='text-mulberry'>murder party</span> ?"
 msgstr "What is a <span class='text-mulberry'>murder party</span>?"
 
-#: pages/templates/murder_party.html:34
+#: pages/templates/murder_party.html:69
 msgid ""
 "Une Murder Party est un jeu d'<b>enquête</b> s'inspirant du <b>Cluedo</b>, "
 "dans lequel les participants incarnent un rôle et tentent d'élucider un "
@@ -3172,7 +3184,7 @@ msgstr ""
 "which participants take on a role and try to solve a murder. They will have "
 "to use <b>deduction</b> and <b>logic</b> and try not to be falsely accused."
 
-#: pages/templates/murder_party.html:37
+#: pages/templates/murder_party.html:72
 msgid ""
 "À la manière d'un <b>escape game</b>, les joueurs sont plongés au coeur d'un "
 "<b>décor immersif</b> rempli de surprises, rendant leur <b>expérience "
@@ -3182,56 +3194,15 @@ msgstr ""
 "<b>immersive setting</b> full of surprises, making their <b>experience "
 "exotic</b> and full of twists and turns."
 
-#: pages/templates/murder_party.html:44
-msgid "Une alternative excitante aux escape games"
-msgstr "An exciting alternative to escape games"
-
-#: pages/templates/murder_party.html:53
-msgid ""
-"<span class='text-mulberry'>Des incontournables</span> dans la vraie vie"
-msgstr "<span class='text-mulberry'>Must-play</span> in real life"
-
-#: pages/templates/murder_party.html:56
-msgid ""
-"Découvrez au travers de nos Murder Party des concepts comme le Loup-Garou, "
-"le Cluedo ou encore Among Us en Grandeur Nature."
-msgstr ""
-"Our Murder Parties feature concepts such as Werewolf, Cluedo and Life Size "
-"Among Us."
-
-#: pages/templates/murder_party.html:63
-msgid "L'immersion d'un escape game"
-msgstr "The immersion of an escape game"
-
-#: pages/templates/murder_party.html:66
-msgid ""
-"L'immersion d'une Murder Party passe par une intrigue scénaristique dans "
-"laquelle vous allez être plongés, accompagnés d'acteurs compétents."
-msgstr ""
-"The immersion of a Murder Party is based on a storyline in which you will be "
-"immersed, accompanied by competent actors."
-
-#: pages/templates/murder_party.html:73
-msgid "Une activité pour des grands groupes"
-msgstr "An activity for large groups"
-
-#: pages/templates/murder_party.html:76
-msgid ""
-"Nous disposons de différents concepts de Murder Party pouvant se jouer de 5 "
-"à 40 personnes, idéaux pour animer des événements spéciaux."
-msgstr ""
-"We have a range of Murder Party concepts for 5 to 40 people, ideal for "
-"special events."
-
-#: pages/templates/murder_party.html:125
+#: pages/templates/murder_party.html:124
 msgid "Bienvenue dans nos activités de Murder Party à Lille"
 msgstr "Welcome to our Murder Party activities in Lille"
 
-#: pages/templates/murder_party.html:130
+#: pages/templates/murder_party.html:129
 msgid "Plongez dans une intrigue captivante avec notre murder party à Lille"
 msgstr "Immerse yourself in a captivating plot with our murder party in Lille"
 
-#: pages/templates/murder_party.html:131
+#: pages/templates/murder_party.html:130
 msgid ""
 "Vous recherchez une animation immersive et captivante pour fédérer votre "
 "équipe lors d'un événement d'entreprise à Lille ? Découvrez notre murder "
@@ -3246,11 +3217,11 @@ msgstr ""
 "life-size role-playing. Plunge into the heart of a mysterious plot at our "
 "murder party in Lille and strengthen team cohesion in a fun and engaging way."
 
-#: pages/templates/murder_party.html:132
+#: pages/templates/murder_party.html:131
 msgid "Découvrez une expérience immersive lors de notre Murder Party à Lille"
 msgstr "Discover an immersive experience at our Murder Party in Lille"
 
-#: pages/templates/murder_party.html:133
+#: pages/templates/murder_party.html:132
 msgid ""
 "Notre murder party à Lille est conçue comme un jeu collaboratif, parfait "
 "pour les activités de team building. Les jeux d'équipe et les activités de "
@@ -3265,13 +3236,13 @@ msgstr ""
 "totally immersed in the captivating plot and take part in a unique "
 "interactive experience that will stimulate team spirit."
 
-#: pages/templates/murder_party.html:134
+#: pages/templates/murder_party.html:133
 msgid ""
 "Explorez une intrigue mystérieuse lors de notre animation de Murder Party à "
 "Lille"
 msgstr "Explore a mysterious plot at our Murder Party in Lille"
 
-#: pages/templates/murder_party.html:135
+#: pages/templates/murder_party.html:134
 msgid ""
 "Nous vous proposons des idées de team building originales pour votre "
 "entreprise à Lille, telles que notre animation de murder party. Cette "
@@ -3286,11 +3257,11 @@ msgstr ""
 "Our team building techniques are designed to energise a team meeting and "
 "maximise participant engagement."
 
-#: pages/templates/murder_party.html:136
+#: pages/templates/murder_party.html:135
 msgid "Expérimentez une activité originale avec notre Murder Party à Lille"
 msgstr "Experience an original activity with our Murder Party in Lille"
 
-#: pages/templates/murder_party.html:137
+#: pages/templates/murder_party.html:136
 msgid ""
 "Lors de notre animation de murder party à Lille, nous vous offrons "
 "l'opportunité d'intégrer votre équipe dans une expérience immersive où "
@@ -3305,13 +3276,13 @@ msgstr ""
 "complex enigmas together. This activity can be adapted to your specific "
 "needs, whether for a seminar, a company evening or a group bonding day."
 
-#: pages/templates/murder_party.html:138
+#: pages/templates/murder_party.html:137
 msgid ""
 "Profitez d’une animation interactive unique lors de notre Murder Party à "
 "Lille"
 msgstr "Enjoy unique interactive entertainment at our Murder Party in Lille"
 
-#: pages/templates/murder_party.html:139
+#: pages/templates/murder_party.html:138
 msgid ""
 "En plus de notre murder party à Lille, nous proposons une large gamme "
 "d'animations pour vos événements d'entreprise. Que ce soit une soirée "
@@ -3328,13 +3299,13 @@ msgstr ""
 "event and incentive entertainment will enable you to organise personalised "
 "activities that meet your objectives."
 
-#: pages/templates/murder_party.html:140
+#: pages/templates/murder_party.html:139
 msgid ""
 "Contactez-nous dès aujourd’hui pour discuter de notre animation de Murde "
 "Party à Lille"
 msgstr "Contact us today to discuss our Murde Party entertainment in Lille"
 
-#: pages/templates/murder_party.html:141
+#: pages/templates/murder_party.html:140
 msgid ""
 "Ne cherchez plus, contactez-nous dès aujourd'hui pour discuter de vos "
 "besoins en matière d'animation d'événements d'entreprise à Lille. Nous "
@@ -3349,15 +3320,15 @@ msgstr ""
 "meetings and create unique experiences during your corporate evenings and "
 "seminars."
 
-#: pages/templates/murder_party.html:147
+#: pages/templates/murder_party.html:146
 msgid "Une question sur les murder party ?"
 msgstr "Do you have a question about murder parties?"
 
-#: pages/templates/murder_party.html:148
+#: pages/templates/murder_party.html:147
 msgid "Consultez notre FAQ"
 msgstr "Consult our FAQ"
 
-#: pages/templates/murder_party.html:162
+#: pages/templates/murder_party.html:161
 msgid ""
 "La Murder Party à Lille est une activité immersive et captivante qui mêle "
 "jeu d'enquête, scénario policier et jeu de rôle grandeur nature."
@@ -3365,7 +3336,7 @@ msgstr ""
 "The Murder Party in Lille is an immersive and captivating activity that "
 "combines investigative games, detective scenarios and life-size role-playing."
 
-#: pages/templates/murder_party.html:165
+#: pages/templates/murder_party.html:164
 msgid ""
 "Elle offre une expérience interactive unique où les participants plongent au "
 "coeur d'une intrigue mystérieuse."
@@ -3373,11 +3344,11 @@ msgstr ""
 "It offers a unique interactive experience where participants plunge into the "
 "heart of a mysterious plot."
 
-#: pages/templates/murder_party.html:175
+#: pages/templates/murder_party.html:174
 msgid "Est-ce que Just Escape est loin du centre de Lille ?"
 msgstr "Is Just Escape far from the centre of Lille?"
 
-#: pages/templates/murder_party.html:180
+#: pages/templates/murder_party.html:179
 msgid ""
 "Just Escape se situe à 10 minutes à pied du centre de Lille et à côté du "
 "parc Jean-Baptiste Lebas."
@@ -3385,7 +3356,7 @@ msgstr ""
 "Just Escape is a 10-minute walk from the centre of Lille and next to Parc "
 "Jean-Baptiste Lebas."
 
-#: pages/templates/murder_party.html:183
+#: pages/templates/murder_party.html:182
 msgid ""
 "Notez que toutes nos Murder Party peuvent être jouées sur le lieu de votre "
 "choix."
@@ -3393,11 +3364,11 @@ msgstr ""
 "Please note that all our Murder Parties can be played at the venue of your "
 "choice."
 
-#: pages/templates/murder_party.html:193
+#: pages/templates/murder_party.html:192
 msgid "Quelle murder party est la plus adaptée pour un groupe d'enfants ?"
 msgstr "Is a murder party suitable for a group of children?"
 
-#: pages/templates/murder_party.html:198
+#: pages/templates/murder_party.html:197
 msgid ""
 "Pour un groupe d'enfants, Two Rooms est le jeu le plus adapté en raison de "
 "la simplicité des règles et de son scénario. La Killer Party est également "
@@ -3406,11 +3377,11 @@ msgstr ""
 "For a group of children, Two Rooms is the most suitable game because of the "
 "simplicity of the rules and the scenario. Killer Party is also possible."
 
-#: pages/templates/murder_party.html:208
+#: pages/templates/murder_party.html:207
 msgid "Quelle murder party choisir pour un événement d'entreprise ?"
 msgstr "Which murder party should you choose for a corporate event?"
 
-#: pages/templates/murder_party.html:213
+#: pages/templates/murder_party.html:212
 msgid ""
 "Si vous souhaitez renforcer la cohésion au sein de votre groupe la Murder "
 "Party classique reste la meilleure option pour un team building."
@@ -3418,7 +3389,7 @@ msgstr ""
 "If you want to strengthen cohesion within your group, the classic Murder "
 "Party is still the best option for team building."
 
-#: pages/templates/murder_party.html:216
+#: pages/templates/murder_party.html:215
 msgid ""
 "Les Murder Party sont des jeux interactifs qui encouragent la collaboration, "
 "la communication et la coopération entre les participants, favorisant ainsi "
@@ -3428,14 +3399,14 @@ msgstr ""
 "communication and cooperation between participants, helping to strengthen "
 "team spirit within the company."
 
-#: pages/templates/murder_party.html:219
+#: pages/templates/murder_party.html:218
 msgid ""
 "Elles suscitent l’engagement des participants et créent une atmosphère "
 "conviviale et amusante lors de l’événement."
 msgstr ""
 "They engage participants and create a friendly, fun atmosphere at the event."
 
-#: pages/templates/murder_party.html:222
+#: pages/templates/murder_party.html:221
 msgid ""
 "Les Murder Party mettent les participants au défi de résoudre des énigmes, "
 "de trouver des indices et de démasquer le coupable. Cela encourage le "
@@ -3446,7 +3417,7 @@ msgstr ""
 "unmask the culprit. This encourages the development of problem-solving and "
 "decision-making skills."
 
-#: pages/templates/murder_party.html:250
+#: pages/templates/murder_party.html:249
 msgid "Découvrez aussi nos scénarios d'escape game"
 msgstr "Discover our escape room scenarios as well"
 
@@ -3459,23 +3430,15 @@ msgstr ""
 "Discover the wizards' tournament, a murder party at a magic school. Have fun "
 "with this completely unusual activity!"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:17
-msgid "Murder Party avec des décors à Lille"
-msgstr "Murder Party with scenery in Lille"
-
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:36
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:34
 msgid "Une compétition de magie"
 msgstr "A magic competition"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:46
-msgid "Une murder party avec des décors immersifs à Lille"
-msgstr "A murder party with immersive scenery in Lille"
-
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:63
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:75
 msgid "Apprenez à faire de la <span class='text-mulberry'>sorcellerie</span>"
 msgstr "Learn how to perform <span class='text-mulberry'>witchcraft</span>!"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:66
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:78
 msgid ""
 "Des duels magiques, des portes qui s'ouvrent d'un coup de baguette magique, "
 "des défis autour de pierres aux vertus rares... Tous ces éléments réunis "
@@ -3485,11 +3448,11 @@ msgstr ""
 "involving stones with rare virtues... All these elements come together to "
 "bring you the most magical of adventures."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:73
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:85
 msgid "Un <span class='text-mulberry'>univers magique</span> vous attend"
 msgstr "A <span class='text-mulberry'>magical world</span> awaits you"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:76
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:88
 msgid ""
 "Une expérience immersive dans 100m² de décors spécialement conçus pour "
 "l'occasion est prévue. Une salle des potions plus vraie que nature, une "
@@ -3500,11 +3463,11 @@ msgstr ""
 "scenery. A larger-than-life potions room, a library containing forbidden "
 "books and many other surprises await you."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:83
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:95
 msgid "Au coeur du tournoi des sorciers"
 msgstr "At the heart of the wizard's tournament"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:86
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:98
 msgid ""
 "Endossez vos couleurs et représentez fièrement votre maison lors d'une "
 "compétition mêlant lecture de sortilèges et identification de plantes "
@@ -3514,72 +3477,72 @@ msgstr ""
 "combining spell reading and the identification of mysterious plants. Join "
 "the ranks of the great winners."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:102
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:114
 msgid "26 rue d'Arras, près de la rue Solférino, Lille"
 msgstr "26 rue d'Arras, near rue Solférino, Lille"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:106
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:118
 msgid "90 minutes de jeu"
 msgstr "90 minutes of game"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:114
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:126
 #: pages/templates/sherlock_vs_moriarty.html:115
 msgid "À partir de 35€ par personne"
 msgstr "From 35€ per person"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:124
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:136
 #: pages/templates/murder_party_redrock_saloon.html:124
 msgid "Inclus dans le prix"
 msgstr "Included in the price"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:128
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:140
 msgid "Une boisson par participant parmis une sélection"
 msgstr "One beverage per participant from a selection"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:129
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:141
 msgid ""
 "Un acteur pour un groupe allant jusqu'à 15 personnes et un deuxième au delà"
 msgstr ""
 "One actor for groups of up to 15 people and a second actor for groups of "
 "more than 15 people."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:130
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:142
 msgid "Des costumes sont mis à disposition"
 msgstr "Costumes are at your disposal"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:142
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:154
 msgid ""
 "Participants plongés dans une enquête criminelle lors d'une murder party à "
 "Lille"
 msgstr ""
 "Participants immersed in a criminal investigation at a murder party in Lille"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:149
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:161
 msgid "Scénario intrigant et indices cachés pendant une murder party à Lille"
 msgstr "Intriguing scenario and hidden clues during a murder party in Lille"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:156
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:168
 msgid ""
 "Joueurs analysant une scène de crime fictive lors d'une murder party à Lille"
 msgstr "Players analysing a fictitious crime scene at a murder party in Lille"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:172
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:184
 #: pages/templates/murder_party_redrock_saloon.html:154
 msgid "Formulaire de réservation"
 msgstr "Booking form"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:177
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:189
 #: pages/templates/murder_party_redrock_saloon.html:159
 #: pages/templates/teambuilding.html:135 pages/templates/teambuilding.html:212
 #: pages/templates/teambuilding.html:322
 msgid "Je demande un devis"
 msgstr "I request a quote"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:196
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:208
 msgid "Les enfants sont-ils acceptés ?"
 msgstr "Are children accepted?"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:201
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:213
 msgid ""
 "Oui, les enfants sont acceptés dans notre Murder Party ! Une version "
 "simplifiée du scénario est spécialement conçue pour les plus jeunes. "
@@ -3592,15 +3555,15 @@ msgstr ""
 "recommended that they be accompanied by an adult for a more comfortable and "
 "enjoyable experience. The minimum age for participation is 9."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:211
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:223
 msgid "Peut-on jouer en anglais ?"
 msgstr "Can we play in english?"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:216
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:228
 msgid "Une version anglaise est disponible <b>sur demande</b>."
 msgstr "An english version is available <b>on demand</b>."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:219
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:231
 msgid ""
 "Afin de garantir une expérience optimale, veuillez nous informer de votre "
 "préférence linguistique lors de la réservation <b>via les commentaires ou "
@@ -3610,7 +3573,7 @@ msgstr ""
 "preference at the time of booking via the <b>comments section or by e-mail "
 "to contact@justescape.fr</b>."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:222
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:234
 msgid ""
 "Que vous préfériez le français ou l'anglais, préparez-vous à une soirée "
 "immersive pleine de mystère, d'indices et de stratégies."
@@ -3618,11 +3581,11 @@ msgstr ""
 "Whether you prefer french or english, get ready for an immersive evening "
 "full of mystery, clues and strategies."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:232
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:244
 msgid "Est-ce accessible pour tous les niveaux ?"
 msgstr "Is it accessible to players of all levels?"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:237
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:249
 msgid ""
 "Que vous soyez débutant ou déjà expérimenté, la Murder Party s'adapte "
 "parfaitement à tous les niveaux."
@@ -3630,7 +3593,7 @@ msgstr ""
 "Whether you're a beginner or an experienced player, the Murder Party is "
 "perfect for all levels."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:240
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:252
 msgid ""
 "Elle a été conçue pour être accessible à tous, permettant à chacun de la "
 "prendre en main facilement. Vous jouerez avec une difficulté adaptée, et les "

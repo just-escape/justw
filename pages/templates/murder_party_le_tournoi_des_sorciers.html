@@ -14,9 +14,44 @@
   <style rel="stylesheet">{% include "css/fontawesome-5.8.1.min.css" %}</style>
 {% endblock %}
 
-{% block h1 %}{% trans "Murder Party avec des décors à Lille" %}{% endblock %}
+{% block pre_content %}{% endblock %}
+
+{% block main_header %}{% endblock %}
 
 {% block content %}
+
+  <div class="jumbotron-fluid">
+    <video autoplay muted loop class="d-block" style="max-width: 100%;" poster="/static/img/murder_party_phone_cover.jpg" title="Video de la murder party">
+      <source src="/static/vid/murder_party_phone.webm" type="video/webm" media="(max-width: 991.98px)"/>
+      <source src="/static/vid/murder_party_computer.webm" type="video/webm"/>
+      <p>Videos are not supported by this browser</p>
+    </video>
+
+    <div class="position-absolute w-100" style="top: 180px;">
+      <div class="row">
+        <div class="col d-flex flex-column">
+          <h1 class="text-jaffa text-inter text-center">{% trans "Le Tournoi des Sorciers" %}</h1>
+          <div class="text-inter font-weight-bold size-12 mb-2 text-center">{% trans "Une compétition de magie" %}</div>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-4">
+        <div class="col-6 col-lg-2">
+            <picture>
+              <source srcset="/static/img/le-tournoi-des-sorciers.webp" type="image/webp">
+              <source srcset="/static/img/le-tournoi-des-sorciers.png" type="image/png">
+              <img class="img-fluid h-100 mb-3" src="/static/img/le-tournoi-des-sorciers.webp" alt="{% trans "Une murder party avec des décors immersifs à Lille" %}">
+            </picture>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center mb-5">
+          <a href="tel:+33789053790" class="btn btn-primary px-5">
+                  <span>{% trans "J'appelle pour réserver : 07 89 05 37 90" %}</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <section>
   <div class="jumbotron py-5 mb-4">
@@ -30,29 +65,6 @@
                     <li class="breadcrumb-item active" aria-current="page">{% trans "Le Tournoi des Sorciers" %}</li>
             </ol>
           </div>
-
-          <div class="d-flex flex-column mb-2">
-                  <h2 class="text-jaffa mb-0">{% trans "Le Tournoi des Sorciers" %}</h2>
-                  <div class="text-inter font-weight-bold size-12 mb-2">{% trans "Une compétition de magie" %}</div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-12 col-lg-6">
-          <div class="position-relative">
-            <picture>
-              <source srcset="/static/img/le-tournoi-des-sorciers.webp" type="image/webp">
-              <source srcset="/static/img/le-tournoi-des-sorciers.png" type="image/png">
-              <img class="img-fluid w-100 mb-3" src="/static/img/le-tournoi-des-sorciers.webp" alt="{% trans "Une murder party avec des décors immersifs à Lille" %}">
-            </picture>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center mb-5">
-          <a href="tel:+33789053790" class="btn btn-primary px-5">
-                  <span>{% trans "J'appelle pour réserver : 07 89 05 37 90" %}</span>
-          </a>
         </div>
       </div>
 

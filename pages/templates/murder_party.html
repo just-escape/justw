@@ -8,9 +8,44 @@
 {% block og_title %}{% trans "Murder Party Lille – Just Escape" %}{% endblock %}
 {% block og_description %}{% trans "Découvrez nos murder party : classique, killer party, murder dinner, type loup-garou. Choisissez votre activité complètement insolite !" %}{% endblock %}
 
-{% block h1 %}{% trans "Scénarios de Murder Party à Lille" %}{% endblock %}
+{% block pre_content %}{% endblock %}
+
+{% block main_header %}{% endblock %}
 
 {% block content %}
+
+  <div class="jumbotron-fluid">
+    <video autoplay muted loop class="d-block" style="max-width: 100%;" poster="/static/img/murder_party_phone_cover.jpg" title="Video de la murder party">
+      <source src="/static/vid/murder_party_phone.webm" type="video/webm" media="(max-width: 991.98px)"/>
+      <source src="/static/vid/murder_party_computer.webm" type="video/webm"/>
+      <p>Videos are not supported by this browser</p>
+    </video>
+
+    <div class="position-absolute w-100" style="top: 180px;">
+      <div class="row">
+        <div class="col d-flex flex-column">
+          <h1 class="text-jaffa text-inter text-center">{% trans "Scénarios de murder party à Lille" %}</h1>
+          <div class="text-inter font-weight-bold size-12 mb-2 text-center">{% trans "Découvrez nos cluedo géants" %}</div>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-4">
+        <div class="col-6 col-lg-2">
+            <picture>
+              <source srcset="/static/img/le-tournoi-des-sorciers.webp" type="image/webp">
+              <source srcset="/static/img/le-tournoi-des-sorciers.png" type="image/png">
+              <img class="img-fluid h-100 mb-3" src="/static/img/le-tournoi-des-sorciers.webp" alt="{% trans "Une murder party avec des décors immersifs à Lille" %}">
+            </picture>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center mb-5">
+          <a href="tel:+33789053790" class="btn btn-primary px-5">
+                  <span>{% trans "J'appelle pour réserver : 07 89 05 37 90" %}</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <section>
   <div class="jumbotron py-5 deepdark">
@@ -39,45 +74,9 @@
               </div>
             </div>
           </div>
-
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
-                  <h2 class="text-jaffa mb-0">{% trans "Une alternative excitante aux escape games" %}</h2>
-          </div>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-12 col-lg-4 mb-4">
-          <div class="card deepdark border-light text-center h-100">
-            <div class="card-header">
-                    <h3 class="mb-0">{% trans "<span class='text-mulberry'>Des incontournables</span> dans la vraie vie" %}</h3>
-            </div>
-            <div class="card-body">
-                    <div>{% trans "Découvrez au travers de nos Murder Party des concepts comme le Loup-Garou, le Cluedo ou encore Among Us en Grandeur Nature." %}</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-4 mb-4">
-          <div class="card deepdark border-light text-center h-100">
-            <div class="card-header">
-                    <h3 class="mb-0">{% trans "L'immersion d'un escape game" %}</h3>
-            </div>
-            <div class="card-body">
-                    <div>{% trans "L'immersion d'une Murder Party passe par une intrigue scénaristique dans laquelle vous allez être plongés, accompagnés d'acteurs compétents." %}</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-4 mb-4">
-          <div class="card deepdark border-light text-center h-100">
-            <div class="card-header">
-                    <h3 class="mb-0">{% trans "Une activité pour des grands groupes" %}</h3>
-            </div>
-            <div class="card-body">
-                    <p>{% trans "Nous disposons de différents concepts de Murder Party pouvant se jouer de 5 à 40 personnes, idéaux pour animer des événements spéciaux." %}</p>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="row">
         <div class="col text-center mb-4">
           <a href="tel:+33789053790" class="btn btn-primary px-5">
