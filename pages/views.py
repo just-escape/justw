@@ -397,6 +397,20 @@ def sherlock_vs_moriarty(request):
     return render(request, 'sherlock_vs_moriarty.html', data)
 
 
+def qui_est_loup_garou(request):
+    form, error, success = handle_salesquote(request, "Qui est loup-garou ?")
+
+    data = {
+        'current_page': 'qui-est-loup-garou',
+        'lang': get_lang(request),
+        'localized': True,
+        'form': form,
+        'unexpected_error': error,
+        'salesquote_success': success,
+    }
+    return render(request, 'qui_est_loup_garou.html', data)
+
+
 def qu_est_ce_qu_une_murder_party(request):
     data = {
         'current_page': 'qu-est-ce-qu-une-murder-party',

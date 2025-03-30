@@ -15,6 +15,7 @@ urlpatterns = i18n_patterns(
     path('murder-dinner', views.murder_dinner, name='murder-dinner'),
     path('two-rooms', views.two_rooms, name='two-rooms'),
     path('sherlock-vs-moriarty', views.sherlock_vs_moriarty, name='sherlock-vs-moriarty'),
+    path('qui-est-loup-garou', views.qui_est_loup_garou, name='qui_est_loup_garou'),
     path('escape-game-evjf', views.escape_game_evjf, name='escape-game-evjf'),
     path('escape-game-evg', views.escape_game_evg, name='escape-game-evg'),
     path('escape-game-anniversaire', views.escape_game_anniversaire, name='escape-game-anniversaire'),
