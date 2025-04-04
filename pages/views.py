@@ -590,6 +590,11 @@ def blog_guide_indispensable_passionnes(request):
     return render(request, 'blog_guide_indispensable_passionnes_escape_game.html', data)
 
 
+def blog_murder_party_evjf(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_murder_party_evjf.html', data)
+
+
 def error404(request):
     data = {'current_page': '404', 'noindex': True, 'lang': get_lang(request), 'localized': True}
     r = render(request, '404.html', data)
