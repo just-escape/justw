@@ -94,207 +94,107 @@
     <div class="container px-0" style="margin-top: 40px">
       <div class="row">
         <div class="col">
-          <h2 class="text-inter font-weight-bold mb-0 text-center">{% trans "Escape room" %}</h2>
-          <div class="text-inter text-center size-12 mb-5">{% trans "Découvrez le <strong>scénario</strong>" %}</div>
+          <h2 class="text-inter font-weight-bold mb-0 text-center">{% trans "Murder party" %}</h2>
+          <div class="text-inter text-center size-12 mb-5">{% trans "Découvrez les <strong>scénarios</strong>" %}</div>
         </div>
       </div>
 
-      <div class="row justify-content-center mb-4">
-        <div class="col-12 col-lg-10 col-xl-8">
-          <div class="card deepdark py-4 px-0 px-sm-4">
-            <div class="card-header d-flex flex-column flex-md-row justify-content-between">
-              <div class="d-flex flex-column mb-3 mb-md-0 justify-content-center">
-                <div class="text-inter font-weight-bold lh-1 size-2">{% trans "Cybercity" %}</div>
-                <div class="size-15 lh-1">{% trans "Escape room ambiance star wars" %}</div>
-              </div>
-              <div class="d-flex flex-column align-items-end justify-content-center">
-                <div>
-                  <span class="lh-24px">{% trans "2 à 10 joueurs (sur 2 salles)" %}</span>
-                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/users.svg" %}</span>
-                </div>
-                <div>
-                  <span class="lh-24px">{% trans "60 minutes" %}</span>
-                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/chrono.svg" %}</span>
-                </div>
-                <div>
-                  <span class="lh-24px">{% trans "FR / EN" %}</span>
-                  <span class="d-inline-block svg-24px fill-light align-top">{% include "svg/lang.svg" %}</span>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-
-              <div id="carousel-digimiam" class="carousel carousel-zoom-in slide mb-3" data-ride="carousel" data-interval="3000">
-                <ol class="carousel-indicators">
-                  <li data-target="#carousel-digimiam" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel-digimiam" data-slide-to="1"></li>
-                  <li data-target="#carousel-digimiam" data-slide-to="2"></li>
-                  <li data-target="#carousel-digimiam" data-slide-to="3"></li>
-                  <li data-target="#carousel-digimiam" data-slide-to="4"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <picture>
-                      <source srcset="/static/img/escape-game-lille-joueurs.webp" type="image/webp">
-                      <source srcset="/static/img/escape-game-lille-joueurs.jpg" type="image/jpg">
-                      <img loading="lazy" class="img-fluid w-100" src="/static/img/escape-game-lille-joueurs.jpg" alt="{% trans "Une famille de trois joueurs viennent de débuter l'aventure" %}" >
-                    </picture>
-                  </div>
-                  <div class="carousel-item">
-                    <picture>
-                      <source srcset="/static/img/escape-game-lille-enigme.webp" type="image/webp">
-                      <source srcset="/static/img/escape-game-lille-enigme.jpg" type="image/jpg">
-                      <img loading="lazy" class="img-fluid w-100" src="/static/img/escape-game-lille-enigme.jpg" alt="{% trans "Deux personnes en train de résoudre une énigme" %}" >
-                    </picture>
-                  </div>
-                  <div class="carousel-item">
-                    <picture>
-                      <source srcset="/static/img/escape-game-lille-room.webp" type="image/webp">
-                      <source srcset="/static/img/escape-game-lille-room.jpg" type="image/jpg">
-                      <img loading="lazy" class="img-fluid w-100" src="/static/img/escape-game-lille-room.jpg" alt="{% trans "Vue de la salle avec ses décors immersifs" %}" >
-                    </picture>
-                  </div>
-                  <div class="carousel-item">
-                    <picture>
-                      <source srcset="/static/img/escape-game-lille-manipulation.webp" type="image/webp">
-                      <source srcset="/static/img/escape-game-lille-manipulation.jpg" type="image/jpg">
-                      <img loading="lazy" class="img-fluid w-100" src="/static/img/escape-game-lille-manipulation.jpg" alt="{% trans "Un agent en pleine fouille et réflexion" %}" >
-                    </picture>
-                  </div>
-                  <div class="carousel-item">
-                    <picture>
-                      <source srcset="/static/img/escape-game-lille-laser.webp" type="image/webp">
-                      <source srcset="/static/img/escape-game-lille-laser.jpg" type="image/jpg">
-                      <img loading="lazy" class="img-fluid w-100" src="/static/img/escape-game-lille-laser.jpg" alt="{% trans "Un laser met en difficulté l'équipe" %}" >
-                    </picture>
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carousel-digimiam" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">{% trans "Previous" %}</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel-digimiam" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">{% trans "Next" %}</span>
-                </a>
-              </div>
-
-              <p class="size-11 mb-0">{% trans "Plongez à Lille en 2080. L'IA culinaire de cybercity est désactivée. Encore une panne mystérieuse. Les néons sont éteints, laissant le Digimiam dans l'obscurité. Quelque chose d'illégal se passe dans ce restaurant. Parviendrez-vous à faire la lumière sur cette histoire ?" %}</p>
-            </div>
-            <div class="card-footer d-flex flex-column flex-md-row justify-content-between">
-              <div class="d-flex flex-column align-items-center mb-4 mb-md-0">
-                <div class="lh-1 size-09">{% trans "À partir de" %}</div>
-                <div class="text-inter font-weight-bold lh-1 size-2">{% trans "25€" %}</div>
-                <div class="lh-1 size-09">{% trans "par joueur" %}</div>
-              </div>
-
-              <a href="/{{ lang }}reserver" class="btn btn-primary p-3 size-12 d-flex flex-column justify-content-center"><span><span class="d-inline-block svg-24px fill-light align-text-bottom mr-3">{% include "svg/calendar-check.svg" %}</span>{% trans "Je réserve une séance" %}</span></a>
-            </div>
-          </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6 d-flex align-items-stretch">
+          {% include "component/card_le_tournoi_des_sorciers.html" %}
         </div>
       </div>
 
       <div class="row">
         <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-dark rounded mb-3" id="qa-01" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-01" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-01" aria-expanded="false" aria-controls="answer-01" itemprop="name" role="button">
+          <div class="p-3 border-solid border-dark rounded mb-3" id="qa-21" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div id="question-21" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-21" aria-expanded="false" aria-controls="answer-21" itemprop="name" role="button">
               <span class="transition-03s fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              {% trans "<strong>Qu'est-ce qu'un escape game ?</strong>" %}
+              {% trans "<strong>Qu'est-ce qu'une murder party ?</strong>" %}
             </div>
-            <div id="answer-01" class="collapse" aria-labelledby="question-01" data-parent="#qa-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div id="answer-21" class="collapse" aria-labelledby="question-21" data-parent="#qa-21" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p class="mt-3">
-                {% trans "Un <strong>escape game, ou jeu d'évasion</strong>, est un jeu d'équipe qui consiste à enfermer un groupe dans une <strong>escape room, une salle remplie d'énigmes</strong>. Le groupe de joueurs dispose de <strong>60 minutes pour trouver les indices dissimulés dans la pièce</strong>." %}
+                {% trans "<strong>Une murder party est une histoire rocambolesque</strong> qui vous plonge dans une intrigue à démêler. Le temps d'une soirée, chaque participant s'oublie pour incarner <strong>un personnage avec ses propres traits de caractère et ses propres objectifs</strong>." %}
                 </p>
-                <p>
-                  {% trans "Pour réussir la mission, les participants doivent faire preuve d'esprit d'équipe, de logique et d'un bon sens de la communication." %}
+                <p class="mt-3">
+                {% trans "La murder party est une activité fun, ludique et insolite qui permet à des grands groupes de joueurs de se découvrir autrement et de <strong>partager un moment de complicité</strong>." %}
                 </p>
                 <p class="mb-0">
-                  {% trans "Le concept d'escape game est idéal pour se défier entre amis. Différents thèmes sont proposés aux joueurs." %}
+                {% trans "<strong>Les scénarios de Just Escape sont accessibles pour tout le monde.</strong>" %}
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-dark rounded mb-3" id="qa-10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-10" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-10" aria-expanded="false" aria-controls="answer-10" itemprop="name" role="button">
-              <span class="transition-03s fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              {% trans "Peut-on jouer à deux à un escape game ?" %}
-            </div>
-            <div id="answer-10" class="collapse" aria-labelledby="question-10" data-parent="#qa-10" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3">
-                  {% trans "Oui, <strong>nos scénarios peuvent se jouer à deux</strong>." %}
-                </p>
-                <p>
-                  {% trans "Nous sommes le premier <strong>escape game de Lille</strong> spécialement conçu pour les couples et duos." %}
-                </p>
-                <p class="mb-0">
-                  {% trans "Attention : à 2 joueurs, c'est plus difficile. Si vous n'avez pas encore joué à beaucoup d'escapes rooms, venez plus nombreux pour résoudre plus facilement les énigmes." %}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="row mb-5">
         <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-dark rounded mb-3" id="qa-03" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-03" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-03" aria-expanded="false" aria-controls="answer-03" itemprop="name" role="button">
+          <div class="p-3 border-solid border-dark rounded mb-3" id="qa-23" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div id="question-23" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-23" aria-expanded="false" aria-controls="answer-23" itemprop="name" role="button">
               <span class="transition-03s fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              {% trans "Peut-on participer à une session d'escape game en anglais ?" %}
+              {% trans "À partir de quel âge peut-on jouer à une murder party ?" %}
             </div>
-            <div id="answer-03" class="collapse" aria-labelledby="question-03" data-parent="#qa-03" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div id="answer-23" class="collapse" aria-labelledby="question-23" data-parent="#qa-23" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
-                <p class="mt-3">
-                  {% trans "Yes." %}
-                </p>
-                <p class="mb-0">
-                {% trans "Notre <strong>escape game à Lille est jouable en anglais</strong>." %}
+                <p class="mt-3 mb-0">
+                {% trans "Nous demandons à tous les participants d'être âgés de 16 ans minimum." %}
                 </p>
               </div>
             </div>
           </div>
         </div>
+
         <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-dark rounded mb-3" id="qa-20" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-20" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-20" aria-expanded="false" aria-controls="answer-20" itemprop="name" role="button">
+          <div class="p-3 border-solid border-dark rounded mb-3" id="qa-24" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div id="question-24" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-24" aria-expanded="false" aria-controls="answer-24" itemprop="name" role="button">
               <span class="transition-03s fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              {% trans "Quelle est la taille de groupe idéale pour jouer à l'escape game ?" %}
+              {% trans "À combien peut-on jouer à une murder party ?" %}
             </div>
-            <div id="answer-20" class="collapse" aria-labelledby="question-20" data-parent="#qa-20" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div id="answer-24" class="collapse" aria-labelledby="question-24" data-parent="#qa-24" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
-                <p class="mt-3">
-                {% trans "Vous avez joué à <strong>moins de trois escape games</strong> ? Alors venez à <strong>3, 4 ou 5 personnes</strong>. Vous augmenterez vos chances de <strong>trouver les solutions aux énigmes sans indice</strong>." %}
-                </p>
-                <p class="mt-3">
-                {% trans "Vous êtes une <strong>famille</strong> ? Jouez tous ensemble ! Les familles sont les groupes dans lesquels il y a le plus de cohésion. <strong>Les parents et les enfants</strong> apportent toujours quelque chose de différent pour <strong>résoudre les énigmes</strong>. L'ambiance futuriste de Cybercity plait beaucoup à la jeune génération. Tandis que les références à la culture flamande amusent les personnes plus âgées." %}
-                </p>
-                <p class="mb-0">
-                {% trans "Vous êtes un <strong>couple et habitué aux jeux d'évasion ou jeux de logique</strong> ? C'est l'occasion de tester à 2 ! Notre salle Cybercity a été spécialement pensée pour être jouée à <strong>2 joueurs</strong>. À 2 personnes dans une salle, c'est forcément un peu <strong>plus difficile</strong> !" %}
+                <p class="mt-3 mb-0">
+                {% trans "Le nombre de joueurs varie selon le scénario choisi. Nous proposons des murder parties de 6 à 24 joueurs pour garantir une expérience fluide et immersive. Pour des groupes plus grands, nous pouvons adapter l'animation." %}
                 </p>
               </div>
             </div>
           </div>
         </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" id="qa-25" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div id="question-25" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-25" aria-expanded="false" aria-controls="answer-25" itemprop="name" role="button">
+              <span class="transition-03s fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Quelle est la différence entre une murder party et un escape game ?" %}
+            </div>
+            <div id="answer-25" class="collapse" aria-labelledby="question-25" data-parent="#qa-25" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                {% trans "Bien que ces deux expériences soient immersives, elles sont très différentes :" %}
+                </p>
+                <ul>
+                  <li>{% trans "Murder Party : un jeu de rôle où chaque participant incarne un personnage avec une histoire et des objectifs propres. L'interaction entre joueurs est au coeur de l'enquête." %}</li>
+                  <li>{% trans "Escape Game : un jeu d'énigmes où l'objectif principal est de résoudre des puzzles et de sortir d'une pièce en un temps limité, sans forcément de rôle à jouer." %}</li>
+                </ul>
+                <p class="mb-0">
+                {% trans "Nos murder parties offrent une immersion unique où la communication, la déduction et jeu d'acteur sont essentiels." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <div class="row">
         <div class="col">
           <h2 class="text-inter font-weight-bold mb-0 text-center">{% trans "Découvrez aussi nos scénarios de murder party" %}</h2>
-          <div class="text-inter text-center size-12 mb-5">{% trans "Une activité complètement <strong>insolite</strong>" %}</div>
+          <div class="text-inter text-center size-12 mb-5">{% trans "Des activités complètement <strong>insolites</strong>" %}</div>
         </div>
       </div>
 
       <div class="row justify-content-center mb-4">
         <div class="col-12 col-lg-6 d-flex align-items-stretch">
           {% include "component/card_redrock_saloon.html" %}
-        </div>
-
-        <div class="col-12 col-lg-6 d-flex align-items-stretch">
-          {% include "component/card_le_tournoi_des_sorciers.html" %}
         </div>
 
         <div class="col-12 col-lg-6 d-flex align-items-stretch">
@@ -319,27 +219,6 @@
       </div>
 
       <div class="row mb-5">
-        <div class="col-12">
-          <div class="p-3 border-solid border-dark rounded mb-3" id="qa-21" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-21" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-21" aria-expanded="false" aria-controls="answer-21" itemprop="name" role="button">
-              <span class="transition-03s fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              {% trans "<strong>Qu'est-ce qu'une murder party ?</strong>" %}
-            </div>
-            <div id="answer-21" class="collapse" aria-labelledby="question-21" data-parent="#qa-21" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3">
-                {% trans "<strong>Une murder party est une histoire rocambolesque</strong> qui vous plonge dans une intrigue à démêler. Le temps d'une soirée, chaque participant s'oublie pour incarner <strong>un personnage avec ses propres traits de caractère et ses propres objectifs</strong>." %}
-                </p>
-                <p class="mt-3">
-                {% trans "La murder party est une activité fun, ludique et insolite qui permet à des grands groupes de joueurs de se découvrir autrement et de <strong>partager un moment de complicité</strong>." %}
-                </p>
-                <p class="mb-0">
-                {% trans "<strong>Les scénarios de Just Escape sont accessibles pour tout le monde.</strong>" %}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="col-12 col-lg-6">
           <div class="p-3 border-solid border-dark rounded mb-3" id="qa-22" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div id="question-22" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-22" aria-expanded="false" aria-controls="answer-22" itemprop="name" role="button">
@@ -356,21 +235,6 @@
                 </p>
                 <p class="mb-0">
                 {% trans "Les sessions ouvertes sont idéales pour <strong>rencontrer des nouvelles personnes</strong> et s'amuser." %}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-dark rounded mb-3" id="qa-23" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-23" class="pointer size-1 mb-0 question" data-toggle="collapse" data-target="#answer-23" aria-expanded="false" aria-controls="answer-23" itemprop="name" role="button">
-              <span class="transition-03s fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              {% trans "À partir de quel âge peut-on jouer à une murder party ?" %}
-            </div>
-            <div id="answer-23" class="collapse" aria-labelledby="question-23" data-parent="#qa-23" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3 mb-0">
-                {% trans "Nous demandons à tous les participants d'être âgés de 16 ans minimum." %}
                 </p>
               </div>
             </div>
@@ -974,12 +838,8 @@
 
 {% block post_base_js %}
   <script>
-    $("#answer-01").on("show.bs.collapse", function() {$("#question-01 span").addClass("rotate-90");})
-    $("#answer-01").on("hide.bs.collapse", function() {$("#question-01 span").removeClass("rotate-90");})
     $("#answer-02").on("show.bs.collapse", function() {$("#question-02 span").addClass("rotate-90");})
     $("#answer-02").on("hide.bs.collapse", function() {$("#question-02 span").removeClass("rotate-90");})
-    $("#answer-03").on("show.bs.collapse", function() {$("#question-03 span").addClass("rotate-90");})
-    $("#answer-03").on("hide.bs.collapse", function() {$("#question-03 span").removeClass("rotate-90");})
     $("#answer-04").on("show.bs.collapse", function() {$("#question-04 span").addClass("rotate-90");})
     $("#answer-04").on("hide.bs.collapse", function() {$("#question-04 span").removeClass("rotate-90");})
     {% if lang == '' %}
@@ -994,8 +854,6 @@
     $("#answer-08").on("hide.bs.collapse", function() {$("#question-08 span").removeClass("rotate-90");})
     $("#answer-09").on("show.bs.collapse", function() {$("#question-09 span").addClass("rotate-90");})
     $("#answer-09").on("hide.bs.collapse", function() {$("#question-09 span").removeClass("rotate-90");})
-    $("#answer-10").on("show.bs.collapse", function() {$("#question-10 span").addClass("rotate-90");})
-    $("#answer-10").on("hide.bs.collapse", function() {$("#question-10 span").removeClass("rotate-90");})
     $("#answer-11").on("show.bs.collapse", function() {$("#question-11 span").addClass("rotate-90");})
     $("#answer-11").on("hide.bs.collapse", function() {$("#question-11 span").removeClass("rotate-90");})
     $("#answer-12").on("show.bs.collapse", function() {$("#question-12 span").addClass("rotate-90");})
@@ -1014,16 +872,16 @@
     $("#answer-18").on("hide.bs.collapse", function() {$("#question-18 span").removeClass("rotate-90");})
     $("#answer-19").on("show.bs.collapse", function() {$("#question-19 span").addClass("rotate-90");})
     $("#answer-19").on("hide.bs.collapse", function() {$("#question-19 span").removeClass("rotate-90");})
-    $("#answer-20").on("show.bs.collapse", function() {$("#question-20 span").addClass("rotate-90");})
-    $("#answer-20").on("hide.bs.collapse", function() {$("#question-20 span").removeClass("rotate-90");})
-    {% if lang == '' %}
     $("#answer-21").on("show.bs.collapse", function() {$("#question-21 span").addClass("rotate-90");})
     $("#answer-21").on("hide.bs.collapse", function() {$("#question-21 span").removeClass("rotate-90");})
     $("#answer-22").on("show.bs.collapse", function() {$("#question-22 span").addClass("rotate-90");})
     $("#answer-22").on("hide.bs.collapse", function() {$("#question-22 span").removeClass("rotate-90");})
     $("#answer-23").on("show.bs.collapse", function() {$("#question-23 span").addClass("rotate-90");})
     $("#answer-23").on("hide.bs.collapse", function() {$("#question-23 span").removeClass("rotate-90");})
-    {% endif %}
+    $("#answer-24").on("show.bs.collapse", function() {$("#question-24 span").addClass("rotate-90");})
+    $("#answer-24").on("hide.bs.collapse", function() {$("#question-24 span").removeClass("rotate-90");})
+    $("#answer-25").on("show.bs.collapse", function() {$("#question-25 span").addClass("rotate-90");})
+    $("#answer-25").on("hide.bs.collapse", function() {$("#question-25 span").removeClass("rotate-90");})
   </script>
 
   <script>
