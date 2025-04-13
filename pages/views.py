@@ -595,6 +595,16 @@ def blog_murder_party_evjf(request):
     return render(request, 'blog_murder_party_evjf.html', data)
 
 
+def blog_murder_party_ou_escape_game_evjf(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_murder_party_ou_escape_game_evjf.html', data)
+
+
+def blog_meilleures_activites_evjf_lille(request):
+    data = {'lang': '', 'localized': False}
+    return render(request, 'blog_meilleures_activites_evjf_lille.html', data)
+
+
 def error404(request):
     data = {'current_page': '404', 'noindex': True, 'lang': get_lang(request), 'localized': True}
     r = render(request, '404.html', data)
