@@ -641,6 +641,13 @@ def conditions(request):
     return r
 
 
+def order_confirmed_murder_party(request):
+    data = {'current_page': 'murder-party/confirmation', 'noindex': True, 'lang': get_lang(request), 'localized': True}
+    r = render(request, 'order-confirmed-murder-party.html', data)
+    r['X-Robots-Tag'] = 'noindex'
+    return r
+
+
 def order_confirmed(request):
     data = {'current_page': 'confirmation-de-commande', 'noindex': True, 'lang': get_lang(request), 'localized': True}
     r = render(request, 'order-confirmed.html', data)

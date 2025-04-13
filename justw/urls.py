@@ -58,6 +58,7 @@ urlpatterns = i18n_patterns(
     path('cgv', views.terms, name='terms'),
     path('cgu', views.conditions, name='conditions'),
     path('confirmation-de-commande', views.order_confirmed, name='order_confirmed'),
+    path('murder-party/confirmation', views.order_confirmed_murder_party, name='order_confirmed_murder_party'),
 
     prefix_default_language=False,
 )
