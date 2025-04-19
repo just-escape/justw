@@ -355,6 +355,20 @@ def murder_party_le_tournoi_des_sorciers(request):
     return render(request, 'murder_party_le_tournoi_des_sorciers.html', data)
 
 
+def murder_party_post_mortem(request):
+    form, error, success = handle_salesquote(request, "Post Mortem")
+
+    data = {
+        'current_page': 'murder-party-post-mortem',
+        'lang': get_lang(request),
+        'localized': True,
+        'form': form,
+        'unexpected_error': error,
+        'salesquote_success': success,
+    }
+    return render(request, 'murder_party_post_mortem.html', data)
+
+
 def killer_party(request):
     form, error, success = handle_salesquote(request, "Killer Party")
 

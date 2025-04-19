@@ -11,6 +11,7 @@ urlpatterns = i18n_patterns(
     path('murder-party', views.murder_party, name='murder-party'),
     path('murder-party-redrock-saloon', views.murder_party_redrock_saloon, name='murder-party-redrock-saloon'),
     path('murder-party-le-tournoi-des-sorciers', views.murder_party_le_tournoi_des_sorciers, name='murder-party-le-tournoi-des-sorciers'),
+    path('murder-party-post-mortem', views.murder_party_post_mortem, name='murder-party-post-mortem'),
     path('killer-party', views.killer_party, name='killer-party'),
     path('murder-dinner', views.murder_dinner, name='murder-dinner'),
     path('two-rooms', views.two_rooms, name='two-rooms'),
