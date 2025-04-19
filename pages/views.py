@@ -295,6 +295,20 @@ def escape_game_anniversaire(request):
     return r
 
 
+def escape_game_enfants(request):
+    data = {
+        'current_page': 'escape-game-enfants',
+        'lang': get_lang(request),
+        'localized': True,
+        'cover': True,
+        'cover_max_transparency': True,
+    }
+
+    r = render(request, 'escape_game_enfants.html', data)
+
+    return r
+
+
 def murder_party(request):
     form, error, success = handle_murder_subscription(request)
 

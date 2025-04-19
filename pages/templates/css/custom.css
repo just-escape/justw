@@ -730,6 +730,27 @@ nav a, #blog a, .mobile-bar a, #mobile-header a, a.btn, .breadcrumb-item a {
 /* navheader */
 
 /* button */
+.pill {
+    background-color: #f38d40;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+    display: inline-block;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+
+.pill-light {
+    background-color: #f8f9fa;
+    color: #3c3c3e;
+}
+
 .btn > span, .nav-button > span {
     z-index: 3;
     position: relative;

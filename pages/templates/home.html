@@ -95,13 +95,36 @@
       <div class="row">
         <div class="col">
           <h2 class="text-inter font-weight-bold mb-0 text-center">{% trans "Murder party" %}</h2>
-          <div class="text-inter text-center size-12 mb-5">{% trans "Découvrez les <strong>scénarios</strong>" %}</div>
+          <div class="text-inter text-center size-12 mb-5">{% trans "Découvrez notre <strong>nouveau scénario</strong>" %}</div>
         </div>
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-12 col-lg-6 d-flex align-items-stretch">
-          {% include "component/card_le_tournoi_des_sorciers.html" %}
+        <div class="col-12 col-lg-6 d-flex align-items-stretch mb-4">
+          {% include "component/card_sm_le_tournoi_des_sorciers.html" %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 mb-4">
+          <div class="card transparent border-dark border-2px h-100">
+            <div class="card-header">
+              <h3 class="text-center text-inter font-weight-bold mb-0">
+                {% trans "<strong>Pourquoi jouer à cette nouvelle murder party, le tournoi des sorciers ?</strong>" %}
+              </h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+              <p class="mt-3">
+              {% trans "Depuis 2020, <strong>5000 joueurs</strong> ont découvert le genre des murder parties avec histoire immersive grâce à Just Escape. 75% des sont des amis ou des familles et 25% sont des collègues en team building. Après avoir organisé <strong>400 murder parties</strong>, nous sommes à notre connaissance le centre de loisirs sur Lille qui a le plus d'expérience avec cette activité." %}
+              </p>
+              <p class="mt-3">
+              {% trans "Le Tournoi des Sorciers est le tout dernier scénario de Just Escape, disponible depuis février 2025. Ce scénario a été pensé après avoir analysé nos sessions, réussies et moins réussies. Nous nous sommes efforcés de créer une expérience vibrante, riche en suspense, en rebondissements et en <strong>fous rires</strong>." %}
+              </p>
+              <p class="mb-0">
+              {% trans "L'univers <strong>école de magie</strong> est idéal pour des sessions entre amis ou en famille. Si vous êtes une entreprise, nous vous recommandons le scénario du Redrock Saloon, dans une ambiance western." %}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -187,34 +210,34 @@
 
       <div class="row">
         <div class="col">
-          <h2 class="text-inter font-weight-bold mb-0 text-center">{% trans "Découvrez aussi nos scénarios de murder party" %}</h2>
-          <div class="text-inter text-center size-12 mb-5">{% trans "Des activités complètement <strong>insolites</strong>" %}</div>
+          <h2 class="text-inter font-weight-bold mb-0 text-center">{% trans "Découvrez aussi nos autres scénarios de murder party" %}</h2>
+          <div class="text-inter text-center size-12 mb-5">{% trans "<strong>Vivez des expériences</strong> insolites" %}</div>
         </div>
       </div>
 
       <div class="row justify-content-center mb-4">
-        <div class="col-12 col-lg-6 d-flex align-items-stretch">
-          {% include "component/card_redrock_saloon.html" %}
+        <div class="col-12 col-lg-6 d-flex align-items-stretch mb-4">
+          {% include "component/card_sm_redrock_saloon.html" %}
         </div>
 
-        <div class="col-12 col-lg-6 d-flex align-items-stretch">
-          {% include "component/card_sherlock_vs_moriarty.html" %}
+        <div class="col-12 col-lg-6 d-flex align-items-stretch mb-4">
+          {% include "component/card_sm_sherlock_vs_moriarty.html" %}
         </div>
 
-        <div class="col-12 col-lg-6 d-flex align-items-stretch">
-          {% include "component/card_qui_est_loup_garou.html" %}
+        <div class="col-12 col-lg-6 d-flex align-items-stretch mb-4">
+          {% include "component/card_sm_qui_est_loup_garou.html" %}
         </div>
 
-        <div class="col-12 col-lg-6 d-flex align-items-stretch">
-          {% include "component/card_killer_party.html" %}
+        <div class="col-12 col-lg-6 d-flex align-items-stretch mb-4">
+          {% include "component/card_sm_killer_party.html" %}
         </div>
 
-        <div class="col-12 col-lg-6 d-flex align-items-stretch">
-          {% include "component/card_murder_dinner.html" %}
+        <div class="col-12 col-lg-6 d-flex align-items-stretch mb-4">
+          {% include "component/card_sm_murder_dinner.html" %}
         </div>
 
-        <div class="col-12 col-lg-6 d-flex align-items-stretch">
-          {% include "component/card_two_rooms.html" %}
+        <div class="col-12 col-lg-6 d-flex align-items-stretch mb-4">
+          {% include "component/card_sm_two_rooms.html" %}
         </div>
       </div>
 

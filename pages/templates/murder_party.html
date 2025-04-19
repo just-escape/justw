@@ -24,8 +24,8 @@
     <div class="position-absolute w-100" style="top: 180px;">
       <div class="row mb-4">
         <div class="col d-flex flex-column">
-          <h1 class="text-jaffa text-inter text-center">{% trans "Scénarios de murder party à Lille" %}</h1>
-          <div class="text-inter font-weight-bold size-12 mb-2 text-center">{% trans "Découvrez nos cluedo géants" %}</div>
+          <h1 class="text-jaffa text-inter text-center" style="font-size: 3.5rem">{% trans "Scénarios de murder party à Lille" %}</h1>
+          <div class="text-inter font-weight-bold size-2 mb-2 text-center">{% trans "Découvrez nos cluedo géants" %}</div>
         </div>
       </div>
       <div class="row">
@@ -49,21 +49,34 @@
                     <li class="breadcrumb-item active" aria-current="page">{% trans "Murder Party" %}</li>
             </ol>
           </div>
+        </div>
+      </div>
 
-          <div class="d-flex justify-content-center mb-5">
-            <div class="col-12 col-lg-7 card deepdark border-light text-center">
-              <div class="card-header">
-                      <h2 class="mb-0">{% trans "Qu'est-ce qu'une <span class='text-mulberry'>murder party</span> ?" %}</h2>
-              </div>
-              <div class="card-body">
-                <p>
-                {% trans "Une Murder Party est un jeu d'<b>enquête</b> s'inspirant du <b>Cluedo</b>, dans lequel les participants incarnent un rôle et tentent d'élucider un meurtre. Ils devront faire preuve de <b>déduction</b> et de <b>logique</b> et tenter de ne pas se faire accuser à tort." %}
-                </p>
-                <p>
-                {% trans "À la manière d'un <b>escape game</b>, les joueurs sont plongés au coeur d'un <b>décor immersif</b> rempli de surprises, rendant leur <b>expérience dépaysante</b> et plein de rebondissements." %}
-                </p>
-              </div>
-            </div>
+      <div class="row mb-5">
+        <div class="col-12 col-lg-6 card deepdark border-light text-center">
+          <div class="card-header">
+                  <h2 class="mb-0">{% trans "Qu'est-ce qu'une <span class='text-mulberry'>murder party</span> ?" %}</h2>
+          </div>
+          <div class="card-body">
+            <p>
+            {% trans "Une Murder Party est un jeu d'<b>enquête</b> s'inspirant du <b>Cluedo</b>, dans lequel les participants incarnent un rôle et tentent d'élucider un meurtre. Ils devront faire preuve de <b>déduction</b> et de <b>logique</b> et tenter de ne pas se faire accuser à tort." %}
+            </p>
+            <p>
+            {% trans "À la manière d'un <b>escape game</b>, les joueurs sont plongés au coeur d'un <b>décor immersif</b> rempli de surprises, rendant leur <b>expérience dépaysante</b> et plein de rebondissements." %}
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 card deepdark border-light text-center">
+          <div class="card-header">
+                  <h2 class="mb-0">{% trans "Pourquoi jouer à une murder party ?" %}</h2>
+          </div>
+          <div class="card-body">
+            <p>
+            {% trans "Pensez-vous que votre entourage <i>aurait</i> combattu à la place de son père comme Mulan ? <i>Aurait</i> volé aux riches comme Robin des bois ? <i>Aurait</i> attendu leur Ulysse comme Pénélope ? La vérité c'est que vous connaissez mal vos proches. Vous vous racontez des histoires sur eux." %}
+            </p>
+            <p>
+              {% trans "Plongez-les au coeur d'une murder party. Ajoutez un soupçon d'adrénaline. Observez ce qu'ils font. Méfiez-vous de ce qu'ils vous racontent. Confrontez-les à leurs mensonges. Et découvrez le meilleur... comme le pire, avec une bonne dose de fous rire !" %}
+            </p>
           </div>
         </div>
       </div>
@@ -81,34 +94,101 @@
   <div class="jumbotron light">
     <div class="container px-0">
       <div class="row justify-content-center">
-        <div class="col-12 col-lg-6 mb-4 d-flex align-items-stretch">
-          {% include "component/card_sm_redrock_saloon.html" %}
+        <div class="col">
+          <h2 class="text-center">{% trans "Nos scénarios de murder party" %}</h2>
+          <div class="text-inter text-center size-12 mb-5">{% trans "Vivez des expériences inédites" %}</div>
         </div>
-
-        <div class="col-12 col-lg-6 mb-4 d-flex align-items-stretch">
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6 mb-5">
           {% include "component/card_sm_le_tournoi_des_sorciers.html" %}
         </div>
 
-        <div class="col-12 col-lg-6 mb-4 d-flex align-items-stretch">
-          {% include "component/card_sm_sherlock_vs_moriarty.html" %}
-        </div>
-
-        <div class="col-12 col-lg-6 mb-4 d-flex align-items-stretch">
-          {% include "component/card_sm_qui_est_loup_garou.html" %}
-        </div>
-
-        <div class="col-12 col-lg-6 mb-4 d-flex align-items-stretch">
-          {% include "component/card_sm_killer_party.html" %}
-        </div>
-
-        <div class="col-12 col-lg-6 mb-4 d-flex align-items-stretch">
-          {% include "component/card_sm_murder_dinner.html" %}
-        </div>
-
-        <div class="col-12 col-lg-6 mb-4 d-flex align-items-stretch">
-          {% include "component/card_sm_two_rooms.html" %}
+        <div class="col-12 col-lg-6 mb-5">
+          {% include "component/card_sm_redrock_saloon.html" %}
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Quel scénario de murder party choisir ?" %}
+            </div>
+            <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                {% trans "Le Tournoi des Sorciers est idéal entre amis ou en famille pour s'immerger dans son univers école de magie." %}
+                </p>
+                <p class="mb-0">
+                {% trans "Choisissez le Redrock Saloon dans un cadre pro comme un teambuilding. L'ambiance village western est accessible au grand nombre." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Jusqu'à combien de joueurs peuvent jouer ?" %}
+            </div>
+            <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                {% trans "Just Escape organise régulièrement des événements à 30, 50 voire 150 joueurs pour des team building ambitieux ou des mariages originaux." %}
+                </p>
+                <p class="mb-0">
+                {% trans "Certaines activités pourraient être plus adaptées comme:" %}
+                </p>
+                <ul>
+                  <li><a href="/{{ lang }}sherlock-vs-moriarty">Sherlock vs Moriarty</a> : un jeu d'énigmes jusqu'à 150 personnes. Parfait pendant un cocktail dinatoire.</li>
+                  <li>Deux murder party en simultané pour jouer jusqu'à 50.</li>
+                  <li><a href="/{{ lang }}two-rooms">Two Rooms</a> : une sorte de loup-garou amélioré jusqu'à 30 joueurs.</li>
+                </ul>
+                <p class="mb-0">
+                {% trans "Appelez-nous au 07 89 05 37 90 pour en discuter." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Est-ce que Just Escape est loin du centre de Lille ?" %}
+            </div>
+            <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3">
+                {% trans "Just Escape se situe à 10 minutes à pied du centre de Lille et à côté du parc Jean-Baptiste Lebas." %}
+                </p>
+                <p class="mb-0">
+                {% trans "Notez que toutes nos Murder Party peuvent être jouées sur le lieu de votre choix." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Quelle murder party est la plus adaptée pour un groupe d'enfants ?" %}
+            </div>
+            <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p class="mt-3 mb-0">
+                {% trans "Pour un groupe d'enfants, Two Rooms est le jeu le plus adapté en raison de la simplicité des règles et de son scénario. La Killer Party est également possible." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -166,39 +246,6 @@
           <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
               <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              {% trans "Est-ce que Just Escape est loin du centre de Lille ?" %}
-            </div>
-            <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3">
-                {% trans "Just Escape se situe à 10 minutes à pied du centre de Lille et à côté du parc Jean-Baptiste Lebas." %}
-                </p>
-                <p class="mb-0">
-                {% trans "Notez que toutes nos Murder Party peuvent être jouées sur le lieu de votre choix." %}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
-              <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              {% trans "Quelle murder party est la plus adaptée pour un groupe d'enfants ?" %}
-            </div>
-            <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3 mb-0">
-                {% trans "Pour un groupe d'enfants, Two Rooms est le jeu le plus adapté en raison de la simplicité des règles et de son scénario. La Killer Party est également possible." %}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6">
-          <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
-              <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
               {% trans "Quelle murder party choisir pour un événement d'entreprise ?" %}
             </div>
             <div id="answer-01" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
@@ -241,8 +288,8 @@
 
 <section>
   <div class="jumbotron light position-relative py-5">
-    {% trans "Découvrez aussi nos scénarios d'escape game" as translated_label %}
-    {% include "component/discover_as_well.html" with label=translated_label what="digimiam" %}
+    {% trans "Découvrez aussi nos autres scénarios" as translated_label %}
+    {% include "component/discover_as_well.html" with label=translated_label what="digimiam,sherlock_vs_moriarty,killer_party,murder_dinner,two_rooms" %}
   </div>
 </section>
 

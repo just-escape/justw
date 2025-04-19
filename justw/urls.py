@@ -19,6 +19,7 @@ urlpatterns = i18n_patterns(
     path('escape-game-evjf', views.escape_game_evjf, name='escape-game-evjf'),
     path('escape-game-evg', views.escape_game_evg, name='escape-game-evg'),
     path('escape-game-anniversaire', views.escape_game_anniversaire, name='escape-game-anniversaire'),
+    path('escape-game-enfants', views.escape_game_enfants, name='escape-game-enfants'),
     path('murder-party/qu-est-ce-qu-une-murder-party', views.qu_est_ce_qu_une_murder_party, name='qu-est-ce-qu-une-murder-party'),
     path('reserver', views.booking, name='booking'),
     path('carte-cadeau', views.gift_voucher, name='gift-voucher'),

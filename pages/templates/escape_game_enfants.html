@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block title %}{% trans "Une activité originale avec des enfants ? – Just Escape" %}{% endblock %}
+{% block description %}{% trans "Plus besoin de se creuser la tête pour trouver la prochaine activité pour enfants. L'escape game pour enfants met tout le monde d'accord de par son originalité !" %}{% endblock %}
+
+{% block og_title %}{% trans "Une activité originale avec des enfants ? – Just Escape" %}{% endblock %}
+{% block og_description %}{% trans "Plus besoin de se creuser la tête pour trouver la prochaine activité pour enfants. L'escape game pour enfants met tout le monde d'accord de par son originalité !" %}{% endblock %}
+
+{% block pre_content %}{% endblock %}
+
+{% block main_header %}{% endblock %}
+
+{% block content %}
+
+  <div class="jumbotron-fluid content-cover position-relative">
+    <div>
+       <picture>
+         <source media="(max-width: 599.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-600x780.webp" type="image/webp">
+         <source media="(max-width: 599.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-600x780.jpg" type="image/jpg">
+         <source media="(min-width: 600px) and (max-width: 991.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1820x1120.webp" type="image/webp">
+         <source media="(min-width: 600px) and (max-width: 991.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1820x1120.jpg" type="image/jpg">
+         <source media="(min-width: 992px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1700x900.webp" type="image/webp">
+         <source media="(min-width: 992px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1700x900.jpg" type="image/jpg">
+         <img class="position-absolute" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/escape-game-lille-nouvelle-generation-1820x1120.webp" alt="{% trans "Un escape game avec des enfants" %}">
+       </picture>
+    </div>
+
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col d-flex flex-column justify-content-end text-cover">
+                <h1 class="text-inter text-center font-weight-normal">{% trans "Un escape game avec des <span class='text-mulberry'>enfants</span> ?" %}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron px-0 deepdark py-3">
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col">
+          <div>
+            <ol class="breadcrumb dark py-2">
+                    <li class="breadcrumb-item"><a href="/{{ lang }}" class="fill-jaffa svg-16px">{% include "svg/home.svg" %}</a></li>
+                    <li class="breadcrumb-item active">{% trans "Votre événement" %}</li>
+                    <li class="breadcrumb-item active" aria-current="page">{% trans "Pour enfants" %}</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h2 class="text-jaffa">Activités pour enfants dans notre centre d'escape game</h2>
+          <p>Pour votre activité avec des enfants, découvrez :</p>
+          <ul>
+                  <li><a href="/{{ lang }}salles">Cybercity</a>, un scénario d'escape game. 2 à 10 joueurs.</li>
+                  <li><a href="/{{ lang }}murder-party-le-tournoi-des-sorciers">Le Tournoi des Sorciers</a>, un scénario de murder party. Version adaptée pour enfants. 8 à 24 joueurs.</li>
+                  <li><a href="/{{ lang }}qui-est-loup-garou">Qui est loup-garou ?</a> Un jeu avec des énigmes dans des décors de chateau de 100m². Version adaptée pour enfants. 5 à 12 joueurs.</li>
+                  <li><a href="/{{ lang }}two-rooms">Two Rooms</a>, un jeu de bluff qui ressemble au loup-garou. Les règles sont amusantes et simples pour les plus jeunes. 15 à 30 joueurs.</li>
+          </ul>
+          <p>Pendant que la page est en cours de construction, <span class="text-mulberry">appelez-nous au 07 89 05 37 90 pour toute demande de précision</span>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+{% endblock %}
+
+{% block post_base_js %}
+   <script>
+   !function(e,t){var r=e.createElement(t),a=e.getElementsByTagName(t)[0],n=new Date,s=""+n.getFullYear()+("0"+(n.getMonth()+1)).slice(-2)+("0"+n.getDate()).slice(-2);r.defer=1,r.src="https://justescape.4escape.io/public/js/iframe.min.js?v="+s,a.parentNode.insertBefore(r,a)}(document,"script");
+   </script>
+
+  <script>
+    async function loadFile() {
+      await new Promise((resolve, reject) => {
+        const scriptTag = document.createElement('script');
+        scriptTag.type = 'text/javascript';
+        scriptTag.src = "https://apps.elfsight.com/p/platform.js";
+        scriptTag.setAttribute('data-use-service-core', '');
+        scriptTag.onload = () => resolve();
+        document.body.appendChild(scriptTag);
+      })
+    }
+    setTimeout(loadFile, 3000);
+  </script>
+
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Just Escape",
+                "item": "https://just-escape.fr/{{ lang }}"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "{% trans "Escape Game Enfants" %}",
+                "item": "https://just-escape.fr/{{ lang }}escape-game-enfants"
+            }
+        ]
+    }
+  </script>
+{% endblock %}

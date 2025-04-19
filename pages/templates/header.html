@@ -50,6 +50,9 @@
               <div class="d-flex flex-column flex-sm-row justify-content-md-end justify-content-sm-between ml-3 ml-lg-0 my-1">
                 <ul class="d-flex flex-column flex-sm-row ul-no-style pl-0 my-2 my-sm-0">
                   <li>
+                          <a class="size-reductible-nav-bis text-hover-mulberry mr-4" href="/{{ lang }}escape-game-enfants">{% trans "Pour enfants" %}</a>
+                  </li>
+                  <li>
                           <a class="size-reductible-nav-bis text-hover-mulberry mr-4" href="/{{ lang }}escape-game-evjf">{% trans "EVJF" %}</a>
                   </li>
                   <li>
@@ -143,7 +146,12 @@
     <div class="container dark w-100 collapse" id="navbarToggle">
       <div class="row text-inter py-2">
         <div class="col-12 py-1">
-                <a href="/{{ lang }}escape-game-evjf">
+          <a href="/{{ lang }}escape-game-enfants">
+            {% trans "Activités pour enfants" %}
+          </a>
+        </div>
+        <div class="col-12 py-1">
+          <a href="/{{ lang }}escape-game-evjf">
             {% trans "Activités EVJF" %}
           </a>
         </div>
