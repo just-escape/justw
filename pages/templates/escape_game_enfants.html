@@ -14,23 +14,23 @@
 
 {% block content %}
 
+  <!--TODO: "Une autre. Une autre."-->
+
   <div class="jumbotron-fluid content-cover position-relative">
     <div>
+         <img class="position-absolute" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/escape-game-lille-nouvelle-generation-1820x1120.webp" alt="{% trans "Un escape game avec des enfants à Lille" %}">
        <picture>
-         <source media="(max-width: 599.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-600x780.webp" type="image/webp">
-         <source media="(max-width: 599.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-600x780.jpg" type="image/jpg">
-         <source media="(min-width: 600px) and (max-width: 991.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1820x1120.webp" type="image/webp">
-         <source media="(min-width: 600px) and (max-width: 991.98px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1820x1120.jpg" type="image/jpg">
-         <source media="(min-width: 992px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1700x900.webp" type="image/webp">
-         <source media="(min-width: 992px)" srcset="/static/img/escape-game-lille-nouvelle-generation-1700x900.jpg" type="image/jpg">
-         <img class="position-absolute" style="top: 0px; height: 100%; object-fit: cover; width: 100%" src="/static/img/escape-game-lille-nouvelle-generation-1820x1120.webp" alt="{% trans "Un escape game avec des enfants" %}">
+         <source srcset="/static/img/escape-game-enfants-lille.webp" type="image/webp">
+         <source srcset="/static/img/escape-game-enfants-lille.jpg" type="image/jpg">
+         <img src="/static/img/escape-game-enfants-lille.webp" class="position-absolute" style="top: 0px; height: 100%; object-fit: cover; width: 100%" alt="{% trans "Escape game enfants lille murder party" %}">
        </picture>
     </div>
 
     <div class="container h-100">
       <div class="row h-100">
         <div class="col d-flex flex-column justify-content-end text-cover">
-                <h1 class="text-inter text-center font-weight-normal">{% trans "Un escape game avec des <span class='text-mulberry'>enfants</span> ?" %}</h1>
+                <h1 class="text-inter text-center font-weight-normal dark">{% trans "Escape game <span class='text-mulberry'>enfants</span> Lille" %}</h1>
+                <div class="text-light text-inter text-center font-weight-bold dark">{% trans "Faites briller leurs yeux sans les galères" %}</div>
         </div>
       </div>
     </div>
@@ -52,15 +52,324 @@
 
       <div class="row">
         <div class="col">
-          <h2 class="text-jaffa">Activités pour enfants dans notre centre d'escape game</h2>
-          <p>Pour votre activité avec des enfants, découvrez :</p>
+          <h2 class="text-jaffa my-4">Pourquoi organiser une activité pour enfants dans notre centre d'escape game ?</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-header">
+                    <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "<span class='text-mulberry'>Faites briller leurs yeux</span>" %}</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+                    <p>{% trans "Vous voulez voir vos enfants sourire avec les yeux ? Qu'ils regardent leurs super parents avec fierté ?" %}</p>
+                    <p>{% trans "Offrez leur une activité royale. Leur frisson. Leur moment de gloire." %}</p>
+                    <p>{% trans "La mission de nos animateurs est d'expliquer avec clarté et de cadrer avec enthousiasme." %}</p>
+            </div>
+            <div class="card-footer transparent text-center" style="border-width: 0px">
+              <picture>
+                <source srcset="/static/img/escape-game-enfants-lille-sourires-aventure.webp" type="image/webp">
+                <source srcset="/static/img/escape-game-enfants-lille-sourires-aventure.jpg" type="image/jpg">
+                <img loading="lazy" src="/static/img/escape-game-enfants-lille-sourires-aventure.webp" class="img-fluid mb-3" alt="{% trans "Enfants souriants en pleine partie d'escape game, concentrés sur une énigme dans un décors immersif" %}">
+              </picture>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-header">
+                    <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "Profitez du spectacle l'esprit tranquille" %}</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+                    <p>{% trans "Vous redoutez le bazar ? Le chaos des imprévus ? Simplifiez-vous la vie." %}</p>
+                    <p>{% trans "Laissez nos game masters canaliser l'énergie de vos petits monstres." %}</p>
+                    <p>{% trans "Préparez-vous au <span class='text-mulberry'>sentiment d'avoir assuré</span>. (Et aux compliments des autres parents !)" %}</p>
+            </div>
+            <div class="card-footer transparent text-center" style="border-width: 0px">
+              <picture>
+                <source srcset="/static/img/animateur-escape-game-explication-enfant.webp" type="image/webp">
+                <source srcset="/static/img/animateur-escape-game-explication-enfant.jpg" type="image/jpg">
+                <img loading="lazy" src="/static/img/animateur-escape-game-explication-enfant.webp" class="img-fluid mb-3" alt="{% trans "Animateur d'escape game expliquant les règles à un groupe d'enfants attentifs avant le début du jeu" %}">
+              </picture>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-light border-2px h-100">
+            <div class="card-header">
+                    <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "<span class='text-mulberry'>100%</span> testé et <span class='text-mulberry'>approuvé par des enfants</span>" %}</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+                    <p>{% trans "Vous craignez des énigmes trop difficiles ? Qu'ils s'ennuient ? Qu'ils ne comprennent pas ?" %}</p>
+                    <p>{% trans "<span class='text-mulberry'>Un pédagogue qui aime les enfants</span> a retravaillé nos histoires et énigmes." %}</p>
+                    <p>{% trans "Découvrez nos murder party ludiques adaptées pour enfants." %}</p>
+            </div>
+            <div class="card-footer transparent text-center" style="border-width: 0px">
+              <picture>
+                <source srcset="/static/img/murder-party-enfants-lille-magie-sorciers.webp" type="image/webp">
+                <source srcset="/static/img/murder-party-enfants-lille-magie-sorciers.jpg" type="image/jpg">
+                <img loading="lazy" src="/static/img/murder-party-enfants-lille-magie-sorciers.webp" class="img-fluid mb-3" alt="{% trans "Animation de murder party pour enfants dans un univers école de magie, avec costumes et baguettes magiques" %}">
+              </picture>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col text-center">
+                <p class="font-italic">{% trans "Une activité pour enfants chez Just Escape c'est le bon équilibre d'efficacité et de <span class='text-mulberry'>tendresse</span>." %}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron px-0 light py-3">
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-jaffa my-4">Quelle activité pour enfant choisir ? Escape room ou murder party à Lille</h2>
           <ul>
-                  <li><a href="/{{ lang }}salles">Cybercity</a>, un scénario d'escape game. 2 à 10 joueurs.</li>
-                  <li><a href="/{{ lang }}murder-party-le-tournoi-des-sorciers">Le Tournoi des Sorciers</a>, un scénario de murder party. Version adaptée pour enfants. 8 à 24 joueurs.</li>
-                  <li><a href="/{{ lang }}qui-est-loup-garou">Qui est loup-garou ?</a> Un jeu avec des énigmes dans des décors de chateau de 100m². Version adaptée pour enfants. 5 à 12 joueurs.</li>
-                  <li><a href="/{{ lang }}two-rooms">Two Rooms</a>, un jeu de bluff qui ressemble au loup-garou. Les règles sont amusantes et simples pour les plus jeunes. 15 à 30 joueurs.</li>
+                  <li><b>Entre 8 et 24 enfants</b> : Optez pour <a href='/{{ lang }}murder-party-le-tournoi-des-sorciers'>Le Tournoi des Sorciers</a>. Le scénario de cette murder party est adapté pour enfants. L'univers école de magie dans 100m² de décors est immersif pour les plus jeunes. Idéal pour un anniversaire, une sortie scolaire, un centre aéré.</li>
+                  <li><b>Entre 5 et 12 joueurs</b> : Découvrez le jeu d'énigmes <a href='/{{ lang }}qui-est-loup-garou'>Qui est Loup-Garou ?</a> Ce format original créé par Just Escape dispose d'une adaptation pour enfants. Il se joue dans le même château de 100m² que Le Tournoi des Sorciers. Adapté pour une famille, des amis.</li>
+                  <li><b>Entre 2 et 4 personnes</b> : Le scénario d'escape game <a href='/{{ lang }}salles'>Cybercity</a> est la seule activité capable d'accuellir un petit nombre de joueurs. Pour ceux veulent le format escape game, pour les familles, les amis.</li>
+                  <li><b>Entre 15 et 30 enfants</b> : Découvrez <a href='{{ lang }}two-rooms'>Two Rooms</a>, jeu de bluff, d'alliance et de négociation. Combinez simplicité, fun et originalité. Idéal pour une sortie scolaire, un centre aéré ou un petit budget.</li>
           </ul>
-          <p>Pendant que la page est en cours de construction, <span class="text-mulberry">appelez-nous au 07 89 05 37 90 pour toute demande de précision</span>.</p>
+          <p>Pour votre cas particulier ou plus de précisions <span class="text-mulberry">appelez-nous au 07 89 05 37 90</span>.</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-4">
+        <div class="col-12 col-lg-6 d-flex align-items-stretch mb-4">
+          {% include "component/card_sm_le_tournoi_des_sorciers.html" %}
+        </div>
+
+        <div class="col-12 col-lg-6 d-flex align-items-stretch mb-4">
+          {% include "component/card_sm_qui_est_loup_garou.html" %}
+        </div>
+
+        <div class="col-12 col-lg-6 d-flex align-items-stretch mb-4">
+          {% include "component/card_sm_digimiam.html" %}
+        </div>
+
+        <div class="col-12 col-lg-6 d-flex align-items-stretch mb-4">
+          {% include "component/card_sm_two_rooms.html" %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Qu'est-ce qu'une murder party ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "Une murder party est une histoire rocambolesque qui vous plonge dans une intrigue à démêler. Le temps d'une soirée, chaque participant s'oublie pour incarner un personnage avec ses propres objectifs à résoudre." %}
+                </p>
+                <p>
+                {% trans "La murder party est une activité fun, ludique et insolite. C'est le seul loisir d'intérieur permettant à un grand groupe de s'amuser ensemble à la même activité." %}
+                </p>
+                <p>
+                {% trans "Les scénarios de Just Escape s'efforcent d'être accessibles au plus grand nombre. <i>Le Tournoi des Sorciers</i> dispose d'une version adaptée pour enfants." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Quelle est la différence entre une murder party et un escape game ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "Un escape game est un format codifié : les joueurs sont enfermés dans une salle et doivent résoudre des énigmes pour en sortir en moins d'une heure." %}
+                </p>
+                <p>
+                {% trans "La murder party est un jeu de rôle orienté histoire. Chaque participant incarne un personnage avec des objectifs propres. Elle favorise d'avantage les interactions entre les joueurs." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Quelle est la liste exacte des activités spécialement adaptées pour enfant ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "Deux activités diposent d'une version adaptée pour enfants : <a href='/{{ lang }}murder-party-le-tournoi-des-sorciers'>Le Tournoi des Sorciers</a> et <a href='/{{ lang }}qui-est-loup-garou'>Qui est Loup Garou ?</a>" %}
+                </p>
+                <p>
+                Le scénario adapté est simplifié pour sécuriser les enfants. Il remplace certains thèmes que les plus jeunes auraient du mal à comprendre.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Les adultes peuvent-ils jouer avec les enfants ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "Oui : vous pouvez jouer avec vos enfants si vous le souhaitez." %}
+                </p>
+                <p>
+                {% trans "Certains parents ou membres de la famille préfèrent s'offrir une pause." %}
+                </p>
+                <p>
+                {% trans "D'autres préfèrent la joie de les voir résoudre des énigmes ou de les aider à les résoudre." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "À partir de quel âge les enfants peuvent jouer ? Quel est la tranche d'âge idéale ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "D'après notre expérience, l'âge minimum que nous recommandons est de 10 ans." %}
+                </p>
+                <p>
+                {% trans "En tant que parent vous êtes libre d'inclure ou d'exclure votre enfant si vous estimez qu'il est mature pour son âge." %}
+                </p>
+                <p>
+                {% trans "À titre de comparaison, un scénario de Murder Party non-adapté pour enfants comme <a href='/{{ lang }}murder-party-redrock-saloon'>Le Redrock Saloon</a> est conseillé à partir de 16 ans." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Est-ce que je peux prendre des photos des enfants pendant qu'ils jouent ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "Bien sûr : vous pouvez les photographier ou les filmer dans les décors. Puis, vous pourrez diffuser vos clichés sur les réseaux sociaux." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Puis-je organiser une session en famille avec petits et grands ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "Oui : Just Escape reçoit régulièrement des familles pour réaliser une activité fun ensemble." %}
+                </p>
+                <p>
+                {% trans "Nous vous recommandons le jeu d'énigmes <i>Qui est Loup-Garou ?</i> adapté à tout public. <i>Le Tournoi des Sorciers</i> est un bon choix si les adultes sont réceptifs à l'univers école de magie." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Est-ce que je peux organiser un anniversaire ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "Oui : vous pouvez organiser un anniversaire." %}
+                </p>
+                <p>
+                {% trans "Choisissez l'option anniversaire au moment de la réservation pour obtenir :" %}
+                </p>
+                <ul>
+                  <li>Privatisation de la salle de réception (20 personnes assises)</li>
+                  <li>Une boisson par personne</li>
+                  <li>Une photo unique</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Jusqu'à combien d'enfants peuvent jouer en même temps ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "L'ensemble de nos activités pour enfants accueillent des groupes entre 2 et 24 joueurs." %}
+                </p>
+                <p>
+                {% trans "Pour un groupe plus grand, <span class='text-mulberry'>appelez-nous au 07 89 05 37 90</span> pour trouver une solution sur mesure." %}
+                </p>
+                <p>
+                {% trans "La Murder Party est le seul loisir d'intérieur permettant à un groupe d'une vingtaine de s'amuser ensemble à la même activité." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Est-ce que je dois surveiller mes enfants ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "Vous pouvez au choix les surveiller ou de vous offrir un break en les confiant à nos animateurs." %}
+                </p>
+                <p>
+                {% trans "Les game masters de Just Escape sont habitués à cadrer les petites terreurs. Vos enfants sont en sécurité. Ils ne risquent pas de se blesser." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <blockquote class="citation">
+                  <p>Une autre !</p>
+</blockquote>
         </div>
       </div>
     </div>

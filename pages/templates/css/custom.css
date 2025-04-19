@@ -141,6 +141,10 @@ body {
     border-bottom: 0px solid transparent;
 }
 
+.card > .card-body > p:last-child {
+  margin-bottom: 0rem !important;
+}
+
 .light {
     background-color: #f8f9fa;
     color: #3c3c3e;
@@ -218,6 +222,14 @@ h3, h4 {
 .question {
     font-family: "Inter", "Helvetica", "Arial", "sans-serif";
     text-transform: uppercase;
+}
+
+div[itemprop="text"] > p:first-child {
+  margin-top: 1rem !important;
+}
+
+div[itemprop="text"] > p:last-child {
+  margin-bottom: 0rem !important;
 }
 
 .text-inter {
@@ -1478,3 +1490,31 @@ ul.errorlist {
     transform: rotate(45deg);
 }
 /* custom checkbox */
+
+.citation {
+  position: relative;
+  font-style: italic;
+  font-size: 1.3rem;
+  color: #333;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 1em 1.5em;
+  background-color: #f9f9f9;
+}
+
+.citation::before {
+  content: "“";
+  font-size: 4rem;
+  color: #ccc;
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  line-height: 1;
+  font-family: Georgia, serif;
+}
+
+.citation p {
+  margin: 0;
+}
+
