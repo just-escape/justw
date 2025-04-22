@@ -39,7 +39,8 @@
 <div class="jumbotron-fluid dark">
   <div class="container py-3">
     <div class="mx-auto text-center">
-            <h1 class="size-15 text-inter lh-12" style="font-weight: normal">{% trans "Une activité de team building ou de séminaire originale&nbsp;?" %}</h1>
+            <h1 class="size-15 text-inter lh-12" style="font-weight: normal">{% trans "Team building ou séminaire lille clé en main" %}</h1>
+             <div class="text-inter">Une parenthèse joyeuse pour créer des liens authentiques</div>
     </div>
   </div>
 </div>
@@ -49,27 +50,25 @@
 
   <div class="jumbotron-fluid light position-relative">
     <div class="position-absolute w-100 dark" style="top: 0px; height: 20px"></div>
-    <div class="position-absolute w-100 dark" style="bottom: 0px; height: 80px"></div>
 
     <div class="container px-md-0">
       <div class="row">
 
         <div class="col-12 col-lg-6">
-          <div id="carousel-team-building" class="carousel carousel-zoom-in slide mb-3" data-ride="carousel" data-interval="3000">
+          <picture>
+            <source srcset="/static/img/team-building-lille-escape-game.webp" type="image/webp">
+            <source srcset="/static/img/team-building-lille-escape-game.jpg" type="image/jpg">
+            <img src="/static/img/team-building-lille-escape-game.webp" class="img-fluid mb-3" alt="{% trans "Dans une salle d'escape game à Lille, deux collègues sont contentes de leur team building" %}">
+          </picture>
+          <!--<div id="carousel-team-building" class="carousel carousel-zoom-in slide mb-3" data-ride="carousel" data-interval="3000">
             <ol class="carousel-indicators">
               <li data-target="#carousel-team-building" data-slide-to="0" class="active"></li>
               <li data-target="#carousel-team-building" data-slide-to="1"></li>
               <li data-target="#carousel-team-building" data-slide-to="2"></li>
               <li data-target="#carousel-team-building" data-slide-to="3"></li>
-              <li data-target="#carousel-team-building" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <picture>
-                  <source srcset="/static/img/team-building-lille-escape-game.webp" type="image/webp">
-                  <source srcset="/static/img/team-building-lille-escape-game.jpg" type="image/jpg">
-                  <img src="/static/img/team-building-lille-escape-game.webp" class="img-fluid mb-3" alt="{% trans "Dans une salle d'escape game à Lille, deux collègues sont contentes de leur team building" %}">
-                </picture>
               </div>
               <div class="carousel-item">
                 <picture>
@@ -83,13 +82,6 @@
                   <source srcset="/static/img/cocktail-dinatoire-escape-game-lille.webp" type="image/webp">
                   <source srcset="/static/img/cocktail-dinatoire-escape-game-lille.jpg" type="image/jpg">
                   <img loading="lazy" src="/static/img/cocktail-dinatoire-escape-game-lille.webp" class="img-fluid mb-3" alt="{% trans "Un cocktail dinatoire réunit une équipe célèbrant un événement" %}">
-                </picture>
-              </div>
-              <div class="carousel-item">
-                <picture>
-                  <source srcset="/static/img/communication-reflexion-puzzle.webp" type="image/webp">
-                  <source srcset="/static/img/communication-reflexion-puzzle.jpg" type="image/jpg">
-                  <img loading="lazy" src="/static/img/communication-reflexion-puzzle.webp" class="img-fluid mb-3" alt="{% trans "Puzzle qui demande de la reflexion et de la communication" %}">
                 </picture>
               </div>
               <div class="carousel-item">
@@ -108,33 +100,316 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">{% trans "Next" %}</span>
             </a>
-          </div>
+          </div>-->
         </div>
 
         <div class="col-12 col-lg-6">
-                <h2 class="text-jaffa mt-4">{% trans "Centre d'escape game avec salle de réunion&nbsp;: le team building parfait" %}</h2>
-                <p class="mb-0">{% trans "Vous recherchez une activité originale pour un afterwork entre collègues&nbsp;? Souhaitez organiser un séminaire d'entreprise mémorable&nbsp;? Just Escape Lille organisera l'événement qu'il vous faut&nbsp;:" %}</p>
+                <h2 class="text-jaffa mt-4">{% trans "Centre d'escape game avec salle de réunion&nbsp;: le team building avec une touche de grandiose" %}</h2>
+                <p class="mb-0">{% trans "Vous recherchez une activité originale pour un cocktail dinatoire à Lille ? Un séminaire d'entreprise mémorable&nbsp;? Un afterwork entre collègue ? Just Escape Lille organisera l'événement qu'il vous faut&nbsp;:" %}</p>
           <ul class="mb-5">
-                  <li>{% trans "Salle d'escape game sans cadenas. Les énigmes sont des créations originales de Just Escape, inédites à Lille." %}</li>
-                  <li>{% trans "Organisation de journée ou de soirée sur mesure&nbsp;: salle de réception, cocktail apéritif, cocktail dinatoire, collation sucrée, escape game, jeu d'immersion à thème et bien plus encore." %}</li>
+                  <li>{% trans "Salle d'escape game à Lille jusqu'à 10 joueurs" %}</li>
+                  <li>{% trans "Murder party pour team building à Lille <b>jusqu'à 50 joueurs</b>" %}</li>
+                  <li>{% trans "Jeu d'énigmes pour cocktail dinatoire <b>jusqu'à 150 personnes</b>" %}</li>
+                  <li>{% trans "Événement clé en main sur mesure&nbsp;: salle de réception, salle de réunion, cocktail apéritif, cocktail dinatoire, animation, collation sucrée, journée d'inauguration, jeu de pistes, escape game, etc." %}</li>
           </ul>
         </div>
 
       </div>
-    </div>
-  </div>
-
-  <div class="jumbotron pb-0 pt-3">
-    <div class="container px-0">
 
       <div class="row d-flex flex-column align-items-center px-3 mb-4">
-              <h3 class="size-15 text-jaffa">{% trans "Mes salles de séminaire : 2 à 60 personnes" %}</h3>
-
         <div>
-          <a href="#devis" class="btn btn-primary px-5">
+          <a href="#devis" class="btn btn-primary px-5 mb-4">
                   <span>{% trans "Je demande un devis" %}</span>
           </a>
         </div>
+      </div>
+    </div>
+  </div>
+  <!--
+      <div class="row">
+        <div class="col">
+          <p>
+          {% trans "Organiser un escape game à Lille pour votre entreprise présente de nombreux avantages&nbsp;:" %}
+          </p>
+          <ul>
+                  <li>{% trans "Tout d'abord, cela permet de créer un moment de détente et de divertissement pour les employés, ce qui peut contribuer à améliorer le bien être au travail. En effet, en s'amusant ensemble, les employés peuvent se détendre et oublier le stress quotidien lié à leur travail." %}</li>
+                  <li>{% trans "De plus, les escape games ou murder party sont des activités ludiques qui permettent de développer la créativité et la capacité de travail en équipe. En effet, pour réussir une mission d'escape game, il est nécessaire de communiquer et de collaborer avec les autres membres de l'équipe. Cela peut être bénéfique pour l'entreprise, car cela peut renforcer la coopération au sein de l'équipe et améliorer la performance de celle-ci." %}</li>
+                  <li>{% trans "Un autre avantage du team building est qu'il permet de créer des liens entre les employés et de développer la solidarité au sein de l'entreprise. En effet, en travaillant ensemble pour résoudre des énigmes et réussir une mission, les employés peuvent mieux se connaître et renforcer leur esprit d'équipe." %}</li>
+                  <li>{% trans "Enfin, un team building en escape game est une activité originale et inoubliable qui peut être très appréciée par les employés. Cela peut être un moyen pour l'entreprise de montrer sa reconnaissance envers ses employés et leur offrir une expérience unique." %}</li>
+          </ul>
+          <p>{% trans "En résumé, organiser un escape game à Lille pour votre entreprise présente de nombreux avantages, tels que le développement de la créativité et de la cohésion d'équipe. Cela est bénéfique pour l'entreprise en termes de performance et de bien être au travail." %}</p>
+        </div>
+      </div>
+  -->
+
+  <div class="jumbotron pb-0 pt-3">
+    <div class="container px-0">
+      <div class="row">
+        <div class="col">
+          <h2 class="my-4">Pourquoi organiser un team building à Lille avec Just Escape ?</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-jaffa h-100">
+            <div class="card-header">
+                    <h3 class="text-center text-inter text-jaffa font-weight-bold mb-0">{% trans "Nouez des liens authentiques" %}</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+                    <p>{% trans "50% de nos clients (300 entreprises) ont renforcé leurs liens avec une murder party." %}</p>
+                    <p>{% trans "Les sessions de murder party favorisent les connections d'une manière unique." %}</p>
+                    <p>{% trans "Jouez avec vos collègues plutôt qu'avec des cadenas." %}</p>
+            </div>
+            <div class="card-footer transparent text-center" style="border-width: 0px">
+              <picture>
+                <source srcset="/static/img/team_building_murder_party.webp" type="image/webp">
+                <source srcset="/static/img/team_building_murder_party.jpg" type="image/jpg">
+                <img loading="lazy" src="/static/img/team_building_murder_party.webp" class="img-fluid mb-3" alt="{% trans "Graphique illustrant que 50% des teambuilding chez Just Escape sont des murder party" %}">
+              </picture>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-jaffa h-100">
+            <div class="card-header">
+                    <h3 class="text-center text-inter font-weight-bold mb-0">{% trans "<span class='text-jaffa'>Participez à la même activité</span>" %}</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+                    <p>{% trans "Vous cherchez une activité à vivre ensemble qui parle à tout le monde ?" %}</p>
+                    <p>{% trans "Nos murder party et jeux d'énigmes spécial teambuilding s'adaptent aux groupes de 20, 30, 50, 150 joueurs." %}</p>
+                    <p>{% trans "Laissez-les exprimer leurs émotions naturelles." %}</p>
+            </div>
+            <div class="card-footer transparent text-center" style="border-width: 0px">
+              <picture>
+                <source srcset="/static/img/teambuilding_activite_grand_public.webp" type="image/webp">
+                <source srcset="/static/img/teambuilding_activite_grand_public.jpg" type="image/jpg">
+                <img loading="lazy" src="/static/img/teambuilding_activite_grand_public.webp" class="img-fluid mb-3" alt="{% trans "Teambuilding grand public entre collègues pour tous les profils" %}">
+              </picture>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card transparent border-jaffa h-100">
+            <div class="card-header">
+                    <h3 class="text-center text-inter text-jaffa font-weight-bold mb-0">{% trans "Simple à organiser, Clé en main, Sur mesure" %}</h3>
+            </div>
+            <div class="card-body size-11 text-center lh-12 pt-0">
+                    <p>{% trans "Vous avez besoin de précision ? Besoin d'un séminaire personnalisé ?" %}</p>
+                    <p>{% trans "Loïs, notre directeur des événements team building, est à votre écoute (il a le sourire)." %}</p>
+                    <p>{% trans "Réussissez votre teambuilding de qualité sans la charge mentale." %}</p>
+            </div>
+            <div class="card-footer transparent text-center" style="border-width: 0px">
+              <picture>
+                <source srcset="/static/img/activite-team-building-escape-room-lille.webp" type="image/webp">
+                <source srcset="/static/img/activite-team-building-escape-room-lille.jpg" type="image/jpg">
+                <img loading="lazy" src="/static/img/activite-team-building-escape-room-lille.webp" class="img-fluid mb-3" alt="{% trans "Un team building à Lille sur mesure et clé en main pour un séminaire" %}">
+              </picture>
+            <!--
+                    6000 collaborateurs
+                    Vivez l'émotion humaine à l'état brut.
+                    Effet rideau théâtral.
+                    On ressort changé.
+                    Émotions simples et vraies.
+                    Lien entre les membres.
+                    Uppercut de beauté et de réflexion.
+                    Sentiment Accomplissement.
+                    le coeur serré.
+                    laissez les exprimer leurs émotions.
+                    Laisser une trace.
+                    Chaleur d'une histoire avec la difficulté enquête énigmes.
+                    ressortez exalté
+            -->
+            </div>
+          </div>
+        </div>
+
+        <!--<div class="row">
+          <div class="col">
+                  Vous recherchez une activité ludique et insolite pour des groupes jusqu'à 50 personnes sur Lille ? Optez pour un jeu d'immersion grandeur nature, dans notre centre d'escape game ou dans vos locaux. Chaque joueur incarne un personnage et doit faire preuve de négociation, de diplomatie et d'improvisation pour parvenir à ses fins. C'est l'occasion parfaite de renforcer la complicité ou de briser la glace. Des comédiens réalisent une mise en situation, puis c'est à vous de jouer !
+          </div>
+        </div>-->
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Qu'est-ce qu'une murder party ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "Une murder party est une histoire rocambolesque qui vous plonge dans une intrigue à démêler. Le temps d'une soirée, chaque participant s'oublie pour incarner un personnage avec ses propres objectifs à résoudre." %}
+                </p>
+                <p>
+                {% trans "La murder party est une activité fun, ludique et insolite. C'est le seul loisir d'intérieur permettant à un grand groupe de s'amuser ensemble à la même activité." %}
+                </p>
+                <p>
+                {% trans "Les scénarios de Just Escape s'efforcent d'être accessibles au plus grand nombre. <i>Le Tournoi des Sorciers</i> dispose d'une version adaptée pour enfants." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-light rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-light svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Quelle est la différence entre une murder party et un escape game ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "Un escape game est un format codifié : les joueurs sont enfermés dans une salle et doivent résoudre des énigmes pour en sortir en moins d'une heure." %}
+                </p>
+                <p>
+                {% trans "La murder party est un jeu de rôle orienté histoire. Chaque participant incarne un personnage avec des objectifs propres. Elle favorise d'avantage les interactions entre les joueurs." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="jumbotron-fluid light">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="my-4">Quelle activité choisir pour son teambuilding ? Escape game ? Murder party ? Jeux d'énigmes ?</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6 mb-5">
+          {% include "component/card_sm_post_mortem.html" %}
+        </div>
+
+        <div class="col-12 col-lg-6 mb-5">
+          {% include "component/card_sm_redrock_saloon.html" %}
+        </div>
+
+        <div class="col-12 col-lg-6 mb-5">
+          {% include "component/card_sm_sherlock_vs_moriarty.html" %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Pouvez-vous vous déplacer dans mes locaux ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "Oui. 10% de nos clients nous demandent ce service." %}
+                </p>
+                <p>
+                {% trans "Just Escape a l'habitude d'organiser des escape games, murder party ou jeux d'énigmes :" %}
+                </p>
+                <ul>
+                  <li>Sur une péniche</li>
+                  <li>À lille ou en région</li>
+                  <li>Dans vos nouveaux bureaux à inaugurer</li>
+                  <li>À l'intérieur d'un monument (Fort de Mons)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Organisez-vous des activités sur mesure ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>
+                {% trans "Vous souhaitez organiser un séminaire personalisé avec des activités originales ?" %}
+                </p>
+                <p>
+                {% trans "Parlez-nous de votre besoin. Just Escape propose des événements de teambuilding clé en main." %}
+                </p>
+                <ul>
+                  <li>Diner à thème</li>
+                  <li>Activité à domicile</li>
+                  <li>Salle de réunion et collation</li>
+                  <li>Escape game pour grand groupe</li>
+                  <li>Scénario de murder party personalisé</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Pourquoi choisir une murder party en team building ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>{% trans "Faites l'expérience d'énigmes chaleureuses." %}</p>
+                <p>{% trans "L'immersion dans une murder party est une excellente occasion de briser la glace et découvrir ses collègues en dehors du contexte professionnel." %}</p>
+                <picture>
+                  <source srcset="/static/img/team-building-escape-game-lille.webp" type="image/webp">
+                  <source srcset="/static/img/team-building-escape-game-lille.jpg" type="image/jpg">
+                  <img loading="lazy" src="/static/img/team-building-escape-game-lille.webp" class="img-fluid" alt="{% trans "Team building pour entreprise dans un escape game" %}">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="p-3 border-solid border-dark rounded mb-3" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="size-1 mb-0 question font-weight-bold" itemprop="name" role="button">
+              <span class="fill-dark svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
+              {% trans "Pourquoi choisir une murder party en team building ?" %}
+            </div>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>{% trans "80% de nos murder party accueillent 18 à 26 joueurs en team building." %}</p>
+                <p>{% trans "Nous avons remarqué qu'une vingtaine de joueurs rend les parties idéales." %}</p>
+                <p>{% trans "Nos scénarios ont été spécialement conçus pour s'adapter à des groupes d'une dizaine jusqu'à une cinquantaine de joueurs." %}</p>
+                <p>{% trans "À partir de 30, 40, 50 joueurs, le jeux d'énigmes grand public <a href='/sherlock-vs-moriarty'>Sherlock vs Moriarty</a> pourrait correspondre à votre besoin." %}</p>
+                <picture>
+                  <source srcset="/static/img/teambuilding_murder_party_nombre_joueurs.webp" type="image/webp">
+                  <source srcset="/static/img/teambuilding_murder_party_nombre_joueurs.jpg" type="image/jpg">
+                  <img loading="lazy" src="/static/img/teambuilding_murder_party_nombre_joueurs.webp" class="img-fluid" alt="{% trans "Histogramme de répartition des sessions team building : escape game, murder party, jeux d'énigmes" %}">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row py-5">
+        <div class="col text-center">
+          <a href="tel:+33789053790" class="btn btn-primary px-5">
+                  <span>{% trans "J'appelle pour organiser mon événement : 07 89 05 37 90" %}</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron-fluid dark">
+    <div class="container">
+      <div class="row d-flex flex-column px-3 mt-4">
+              <h2 class="my-4">{% trans "Mes salles de séminaire à Lille : 2 à 60 personnes" %}</h3>
       </div>
 
       <div class="row">
@@ -201,118 +476,6 @@
     </div>
   </div>
 
-  <div class="jumbotron">
-    <div class="container px-0">
-
-      <div class="row d-flex flex-column align-items-center px-3 mb-4">
-              <h4 class="size-15 text-jaffa">{% trans "Faites participer de 2 à 150 personnes avec nos activités immersives" %}</h4>
-
-        <div>
-          <a href="#devis" class="btn btn-primary px-5">
-                  <span>{% trans "Je demande un devis" %}</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 col-lg-6 mb-4">
-          <div class="card deepdark border-jaffa h-100">
-            <div class="card-header">
-                    <h4 class="text-jaffa text-center mb-0">{% trans "Séminaire personnalisé" %}</h4>
-            </div>
-            <div class="card-body">
-                    <div>{% trans "Vous souhaitez réaliser un séminaire avec des activités originales ? Décrivez votre besoin et Just Escape se charge d'organiser votre événement personnalisé." %}</div>
-              <ul class="mb-3">
-                      <li>{% trans "Diner à thème" %}</li>
-                      <li>{% trans "Escape game pour grand groupe" %}</li>
-                      <li>{% trans "Salle de réunion et collation" %}</li>
-                      <li>{% trans "Cluedo géant" %}</li>
-                      <li>{% trans "Activité à domicile" %}</li>
-                      <li>{% trans "Atelier d'improvisation théâtrale" %}</li>
-              </ul>
-
-              <picture>
-                <source srcset="/static/img/team-building-escape-game-lille.webp" type="image/webp">
-                <source srcset="/static/img/team-building-escape-game-lille.jpg" type="image/jpg">
-                <img loading="lazy" src="/static/img/team-building-escape-game-lille.webp" class="img-fluid" alt="{% trans "Team building pour entreprise dans un escape game" %}">
-              </picture>
-            </div>
-            <div class="card-footer d-flex flex-row justify-content-around align-items-center">
-                    <div class="text-jaffa text-center">{% trans "Jusqu'à 150 joueurs" %}</div>
-                    <a href='/blog/seminaire-entreprise-escape-game' class="btn btn-primary px-3"><span>{% trans "En savoir plus" %}</span></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-6 mb-4">
-          <div class="card deepdark border-jaffa h-100">
-            <div class="card-header">
-                    <h4 class="text-jaffa text-center mb-0">{% trans "Jeu d'immersion : murder party" %}</h4>
-            </div>
-            <div class="card-body d-flex flex-column justify-content-between">
-                    <p>{% trans "Vous recherchez une activité ludique et insolite pour des groupes jusqu'à 50 personnes sur Lille ? Optez pour un jeu d'immersion grandeur nature, dans notre centre d'escape game ou dans vos locaux. Chaque joueur incarne un personnage et doit faire preuve de négociation, de diplomatie et d'improvisation pour parvenir à ses fins. C'est l'occasion parfaite de renforcer la complicité ou de briser la glace. Des comédiens réalisent une mise en situation, puis c'est à vous de jouer !" %}</p>
-
-              <picture>
-                <source srcset="/static/img/immersion-murder-party-lille.webp" type="image/webp">
-                <source srcset="/static/img/immersion-murder-party-lille.jpg" type="image/jpg">
-                <img loading="lazy" src="/static/img/immersion-murder-party-lille.webp" class="img-fluid" alt="{% trans "Une activité immersive de murder party à Lille" %}">
-              </picture>
-            </div>
-            <div class="card-footer d-flex flex-row justify-content-around align-items-center">
-                    <div class="text-jaffa text-center">{% trans "Jusqu'à 150 joueurs" %}</div>
-                    <a href='/blog/activite-team-building-escape-game-lille' class="btn btn-primary px-3"><span>{% trans "En savoir plus" %}</span></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-6 mb-4">
-          <div class="card deepdark border-jaffa h-100">
-            <div class="card-header">
-                    <h3 class="text-jaffa text-center mb-0">{% trans "Escape game pour entreprise" %}</h3>
-            </div>
-            <div class="card-body">
-                    <p class="mb-3">{% trans "Cybercity est un scénario original, jouable dans le centre de Lille, qui mêle un univers high-tech à la culture culinaire flamande. Vous allez avoir besoin de coordination et de communication pour résoudre les énigmes en équipe. L'immersion dans une escape room est une excellente occasion de découvrir ses collègues en dehors du contexte professionnel." %}</p>
-
-              <picture>
-                <source srcset="/static/img/centre-escape-game-lille.webp" type="image/webp">
-                <source srcset="/static/img/centre-escape-game-lille.jpg" type="image/jpg">
-                <img loading="lazy" src="/static/img/centre-escape-game-lille.webp" class="img-fluid" alt="{% trans "Le centre d'escape game de Lille de Just Escape" %}">
-              </picture>
-            </div>
-            <div class="card-footer d-flex flex-row justify-content-around align-items-center">
-                    <div class="text-jaffa text-center">{% trans "De 2 à 10 joueurs" %}</div>
-                    <a href='/blog/escape-game-entreprise' class="btn btn-primary px-3"><span>{% trans "En savoir plus" %}</span></a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row mb-5">
-        <div class="col d-flex justify-content-center">
-          <a href="tel:+33789053790" class="btn btn-primary px-5">
-                  <span>{% trans "J'appelle pour organiser mon événement : 07 89 05 37 90" %}</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col">
-          <p>
-          {% trans "Organiser un escape game à Lille pour votre entreprise présente de nombreux avantages&nbsp;:" %}
-          </p>
-          <ul>
-                  <li>{% trans "Tout d'abord, cela permet de créer un moment de détente et de divertissement pour les employés, ce qui peut contribuer à améliorer le bien être au travail. En effet, en s'amusant ensemble, les employés peuvent se détendre et oublier le stress quotidien lié à leur travail." %}</li>
-                  <li>{% trans "De plus, les escape games ou murder party sont des activités ludiques qui permettent de développer la créativité et la capacité de travail en équipe. En effet, pour réussir une mission d'escape game, il est nécessaire de communiquer et de collaborer avec les autres membres de l'équipe. Cela peut être bénéfique pour l'entreprise, car cela peut renforcer la coopération au sein de l'équipe et améliorer la performance de celle-ci." %}</li>
-                  <li>{% trans "Un autre avantage du team building est qu'il permet de créer des liens entre les employés et de développer la solidarité au sein de l'entreprise. En effet, en travaillant ensemble pour résoudre des énigmes et réussir une mission, les employés peuvent mieux se connaître et renforcer leur esprit d'équipe." %}</li>
-                  <li>{% trans "Enfin, un team building en escape game est une activité originale et inoubliable qui peut être très appréciée par les employés. Cela peut être un moyen pour l'entreprise de montrer sa reconnaissance envers ses employés et leur offrir une expérience unique." %}</li>
-          </ul>
-          <p>{% trans "En résumé, organiser un escape game à Lille pour votre entreprise présente de nombreux avantages, tels que le développement de la créativité et de la cohésion d'équipe. Cela est bénéfique pour l'entreprise en termes de performance et de bien être au travail." %}</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
 
   <div class="jumbotron softdark">
     <div class="container">
