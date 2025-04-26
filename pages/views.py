@@ -383,20 +383,6 @@ def killer_party(request):
     return render(request, 'killer_party.html', data)
 
 
-def murder_dinner(request):
-    form, error, success = handle_salesquote(request, "Murder Dinner")
-
-    data = {
-        'current_page': 'murder-dinner',
-        'lang': get_lang(request),
-        'localized': True,
-        'form': form,
-        'unexpected_error': error,
-        'salesquote_success': success,
-    }
-    return render(request, 'murder_dinner.html', data)
-
-
 def two_rooms(request):
     form, error, success = handle_salesquote(request, "Two Rooms")
 
