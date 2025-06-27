@@ -65,11 +65,11 @@ msgstr "Just Escape est en cours de création et ouvrira bientôt™"
 
 #: pages/templates/base.html:129
 msgid ""
-"<a href='tel:+33789053790' class='text-hover-mulberry text-underline'>+33 7 "
+"<a href='tel:+33644810499' class='text-hover-mulberry text-underline'>+33 7 "
 "89 05 37 90</a><br>"
 msgstr ""
-"<span class='text-jaffa'>Tel :</span> <a href='tel:0789053790' class='text-"
-"hover-mulberry text-underline'>07 89 05 37 90</a><br>"
+"<span class='text-jaffa'>Tel :</span> <a href='tel:0644810499' class='text-"
+"hover-mulberry text-underline'>06 44 81 04 99</a><br>"
 
 #: pages/templates/base.html:146
 msgid "One of the most immersive live escape games in&nbsp;Lille"
@@ -621,11 +621,11 @@ msgstr "<span class='text-jaffa'>Lundi-dimanche :</span> 10h-23h"
 
 #: pages/templates/contact.html:57 pages/templates/home.html:674
 msgid ""
-"<span class='text-jaffa'>Tel:</span> <a href='tel:+33789053790' class='text-"
-"hover-mulberry text-underline'>+33 7 89 05 37 90</a><br>"
+"<span class='text-jaffa'>Tel:</span> <a href='tel:+33644810499' class='text-"
+"hover-mulberry text-underline'>+33 6 44 81 04 99</a><br>"
 msgstr ""
-"<span class='text-jaffa'>Tel :</span> <a href='tel:0789053790' class='text-"
-"hover-mulberry text-underline'>07 89 05 37 90</a><br>"
+"<span class='text-jaffa'>Tel :</span> <a href='tel:0644810499' class='text-"
+"hover-mulberry text-underline'>06 44 81 04 99</a><br>"
 
 #: pages/templates/contact.html:58 pages/templates/home.html:675
 msgid ""
@@ -1531,7 +1531,7 @@ msgstr ""
 #: pages/templates/murder_party_post_mortem.html:236
 #: pages/templates/murder_party_redrock_saloon.html:252
 #: pages/templates/room.html:228
-msgid "07 89 05 37 90"
+msgid "06 44 81 04 99"
 msgstr ""
 
 #: pages/templates/escape_game_evg.html:290
@@ -2219,7 +2219,7 @@ msgid "Salles climatisées"
 msgstr ""
 
 #: pages/templates/header.html:135
-msgid "tel:0789053790"
+msgid "tel:0644810499"
 msgstr ""
 
 #: pages/templates/header.html:170
@@ -2938,7 +2938,7 @@ msgstr ""
 #: pages/templates/sherlock_vs_moriarty.html:66
 #: pages/templates/sherlock_vs_moriarty.html:187
 #: pages/templates/two_rooms.html:66
-msgid "J'appelle pour réserver : 07 89 05 37 90"
+msgid "J'appelle pour réserver : 06 44 81 04 99"
 msgstr ""
 
 #: pages/templates/killer_party.html:63
@@ -3190,7 +3190,7 @@ msgid "Certaines activités pourraient être plus adaptées comme:"
 msgstr ""
 
 #: pages/templates/murder_party.html:155
-msgid "Appelez-nous au 07 89 05 37 90 pour en discuter."
+msgid "Appelez-nous au 06 44 81 04 99 pour en discuter."
 msgstr ""
 
 #: pages/templates/murder_party.html:165
@@ -4248,7 +4248,7 @@ msgid "De 5 à 12 joueurs"
 msgstr "8 à 24 joueurs"
 
 #: pages/templates/qui_est_loup_garou.html:118
-msgid "Je contacte l'équipe au 07 89 05 37 90"
+msgid "Je contacte l'équipe au 06 44 81 04 99"
 msgstr ""
 
 #: pages/templates/qui_est_loup_garou.html:128
@@ -4907,7 +4907,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/teambuilding.html:382
-msgid "J'appelle pour organiser mon événement : 07 89 05 37 90"
+msgid "J'appelle pour organiser mon événement : 06 44 81 04 99"
 msgstr ""
 
 #: pages/templates/teambuilding.html:392
