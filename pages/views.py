@@ -460,15 +460,11 @@ def pricing(request):
 
 
 def teambuilding(request):
-    form, error, success = handle_salesquote(request, "Team Building")
-
     data = {
         'current_page': 'team-building',
         'lang': get_lang(request),
-        'localized': True,
-        'form': form,
-        'unexpected_error': error,
-        'salesquote_success': success,
+        'localized': False,
+        'cover': True,
     }
 
     return render(request, 'teambuilding.html', data)
