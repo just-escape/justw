@@ -24,15 +24,27 @@
     <div class="position-absolute w-100" style="top: 180px;">
       <div class="row mb-4">
         <div class="col d-flex flex-column">
-          <h1 class="text-jaffa text-inter text-center" style="font-size: 3.5rem">{% trans "Scénarios de murder party à Lille" %}</h1>
-          <div class="text-inter font-weight-bold size-2 mb-2 text-center">{% trans "Découvrez nos cluedo géants" %}</div>
+          <h1 class="text-jaffa text-inter text-center" style="font-size: 2rem">{% trans "Scénarios de murder party à Lille" %}</h1>
+          <div class="text-inter font-weight-bold size-15 mb-2 text-center">{% trans "Découvrez nos cluedo géants" %}</div>
         </div>
       </div>
       <div class="row">
-        <div class="col text-center mb-5">
-          <a href="tel:+33789053790" class="btn btn-primary px-5">
-                  <span>{% trans "J'appelle pour réserver : 07 89 05 37 90" %}</span>
+        <div class="col text-center mb-3">
+          <a href="/reserver" class="btn btn-primary px-5">
+                  <span>{% trans "Je réserve" %}</span>
           </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center mb-3">
+          <a href="tel:+33789053790" class="btn btn-light px-5">
+                  <span>{% trans "J'appelle : 07 89 05 37 90" %}</span>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col px-3 text-center">
+          Nous proposons également un <b>Loup-Garou</b> immersif et un <b>Among Us</b> grandeur nature. De nombreuses surprises n'attendent que vous.
         </div>
       </div>
     </div>
@@ -53,30 +65,34 @@
       </div>
 
       <div class="row mb-5">
-        <div class="col-12 col-lg-6 card deepdark border-light text-center">
-          <div class="card-header">
-                  <h2 class="mb-0">{% trans "Qu'est-ce qu'une <span class='text-mulberry'>murder party</span> ?" %}</h2>
-          </div>
-          <div class="card-body">
-            <p>
-            {% trans "Une Murder Party est un jeu d'<b>enquête</b> s'inspirant du <b>Cluedo</b>, dans lequel les participants incarnent un rôle et tentent d'élucider un meurtre. Ils devront faire preuve de <b>déduction</b> et de <b>logique</b> et tenter de ne pas se faire accuser à tort." %}
-            </p>
-            <p>
-            {% trans "À la manière d'un <b>escape game</b>, les joueurs sont plongés au coeur d'un <b>décor immersif</b> rempli de surprises, rendant leur <b>expérience dépaysante</b> et plein de rebondissements." %}
-            </p>
+        <div class="col-12 col-lg-6 mb-3 mb-lg-0 d-flex">
+          <div class="card deepdark border-light text-center flex-fill">
+            <div class="card-header">
+                    <h2 class="mb-0">{% trans "Qu'est-ce qu'une <span class='text-mulberry'>murder party</span> ?" %}</h2>
+            </div>
+            <div class="card-body">
+              <p>
+              {% trans "Une Murder Party est un jeu d'<b>enquête</b> s'inspirant du <b>Cluedo</b>, dans lequel les participants incarnent un rôle et tentent d'élucider un meurtre. Ils devront faire preuve de <b>déduction</b> et de <b>logique</b> et tenter de ne pas se faire accuser à tort." %}
+              </p>
+              <p>
+              {% trans "À la manière d'un <b>escape game</b>, les joueurs sont plongés au coeur d'un <b>décor immersif</b> rempli de surprises, rendant leur <b>expérience dépaysante</b> et plein de rebondissements." %}
+              </p>
+            </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 card deepdark border-light text-center">
-          <div class="card-header">
-                  <h2 class="mb-0">{% trans "Pourquoi jouer à une murder party ?" %}</h2>
-          </div>
-          <div class="card-body">
-            <p>
-            {% trans "Pensez-vous que votre entourage <i>aurait</i> combattu à la place de son père comme Mulan ? <i>Aurait</i> volé aux riches comme Robin des bois ? <i>Aurait</i> attendu leur Ulysse comme Pénélope ? La vérité c'est que vous connaissez mal vos proches. Vous vous racontez des histoires sur eux." %}
-            </p>
-            <p>
-              {% trans "Plongez-les au coeur d'une murder party. Ajoutez un soupçon d'adrénaline. Observez ce qu'ils font. Méfiez-vous de ce qu'ils vous racontent. Confrontez-les à leurs mensonges. Et découvrez le meilleur... comme le pire, avec une bonne dose de fous rire !" %}
-            </p>
+        <div class="col-12 col-lg-6 d-flex">
+          <div class="card deepdark border-light text-center flex-fill">
+            <div class="card-header">
+                    <h2 class="mb-0">{% trans "Pourquoi jouer à une murder party ?" %}</h2>
+            </div>
+            <div class="card-body">
+              <p>
+              Entre enquête, improvisation et théâtre, elle permet de vivre une histoire de l'intérieur, de stimuler son imagination, d'affûter son sens de l'observation et de favoriser les échanges entre joueurs.
+              </p>
+              <p>
+              Ludique, immersive et souvent pleine d'humour, c'est une expérience sociale et créative qui mêle suspense, stratégie et convivialité.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -101,15 +117,30 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-12 col-lg-6 mb-5">
-          {% include "component/card_sm_le_tournoi_des_sorciers.html" %}
-        </div>
-
-        <div class="col-12 col-lg-6 mb-5">
           {% include "component/card_sm_post_mortem.html" %}
         </div>
 
         <div class="col-12 col-lg-6 mb-5">
+          {% include "component/card_sm_le_tournoi_des_sorciers.html" %}
+        </div>
+
+        <div class="col-12 col-lg-6 mb-5">
           {% include "component/card_sm_redrock_saloon.html" %}
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col">
+          <h2 class="text-center">{% trans "Nos autres jeux sur le même thème" %}</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6 mb-5">
+          {% include "component/card_sm_qui_est_loup_garou.html" %}
+        </div>
+
+        <div class="col-12 col-lg-6 mb-5">
+          {% include "component/card_sm_killer_party.html" %}
         </div>
       </div>
 
@@ -271,7 +302,7 @@
 <section>
   <div class="jumbotron light position-relative py-5">
     {% trans "Découvrez aussi nos autres scénarios" as translated_label %}
-    {% include "component/discover_as_well.html" with label=translated_label what="digimiam,sherlock_vs_moriarty,qui_est_loup_garou,killer_party,murder_dinner,two_rooms" %}
+    {% include "component/discover_as_well.html" with label=translated_label what="digimiam,sherlock_vs_moriarty,two_rooms" %}
   </div>
 </section>
 
