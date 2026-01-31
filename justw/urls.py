@@ -22,7 +22,6 @@ urlpatterns = i18n_patterns(
     path('escape-game-enfants', views.escape_game_enfants, name='escape-game-enfants'),
     path('murder-party/qu-est-ce-qu-une-murder-party', views.qu_est_ce_qu_une_murder_party, name='qu-est-ce-qu-une-murder-party'),
     path('reserver', views.booking, name='booking'),
-    path('carte-cadeau', views.gift_voucher, name='gift-voucher'),
     path('tarifs', views.pricing, name='pricing'),
     path('team-building', views.teambuilding, name='teambuilding'),
     path('faq', views.faq, name='faq'),

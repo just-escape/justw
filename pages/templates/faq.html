@@ -268,23 +268,6 @@
               </div>
             </div>
           </div>
-
-          <div class="p-3 border-solid border-jaffa rounded mb-3" id="qa-20" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <div id="question-20" class="text-jaffa pointer question mb-0" data-toggle="collapse" data-target="#answer-20" aria-expanded="false" aria-controls="answer-20" itemprop="name">
-              <span class="transition-03s fill-jaffa svg-16px d-inline-block mr-2">{% include "svg/arrow-right.svg" %}</span>
-              {% trans "How to use gift cards?" %}
-            </div>
-            <div id="answer-20" class="collapse" aria-labelledby="question-20" data-parent="#qa-20" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                <p class="mt-3">
-                  {% trans "The <a href='/en/carte-cadeau' class='text-underline text-hover-mulberry'>gift card</a> can be used during the <a href='/en/reserver' class='text-underline text-hover-mulberry'>online booking</a>." %}
-                </p>
-                <p class="mb-0">
-                  {% trans "A gift voucher is only valid for one year. Hurry up and come and play!" %}
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -320,8 +303,6 @@
     $("#answer-17").on("hide.bs.collapse", function() {$("#question-17 span").removeClass("rotate-90");})
     $("#answer-18").on("show.bs.collapse", function() {$("#question-18 span").addClass("rotate-90");})
     $("#answer-18").on("hide.bs.collapse", function() {$("#question-18 span").removeClass("rotate-90");})
-    $("#answer-20").on("show.bs.collapse", function() {$("#question-20 span").addClass("rotate-90");})
-    $("#answer-20").on("hide.bs.collapse", function() {$("#question-20 span").removeClass("rotate-90");})
   </script>
 
   <script type="application/ld+json">

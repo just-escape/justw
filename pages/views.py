@@ -449,11 +449,6 @@ def booking(request):
     return render(request, 'booking.html', data)
 
 
-def gift_voucher(request):
-    data = {'current_page': 'carte-cadeau', 'lang': get_lang(request), 'localized': True}
-    return render(request, 'gift-voucher.html', data)
-
-
 def pricing(request):
     data = {'current_page': 'tarifs', 'lang': get_lang(request), 'localized': True}
     return render(request, 'pricing.html', data)

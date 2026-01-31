@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-26 21:10+0200\n"
+"POT-Creation-Date: 2026-01-31 15:21+0100\n"
 "PO-Revision-Date: 2019-03-12 12:15+0000\n"
 "Last-Translator: Jean-Baptiste Braun <braun@justescape.fr>\n"
 "Language-Team: ENGLISH <contact@justescape.fr>\n"
@@ -99,235 +99,9 @@ msgstr ""
 msgid "Booking form"
 msgstr "Booking form"
 
-#: pages/templates/booking.html:62 pages/templates/gift-voucher.html:66
-#: pages/templates/header.html:32
+#: pages/templates/booking.html:62 pages/templates/header.html:32
 msgid "Booking"
 msgstr "Booking"
-
-#: pages/templates/component/card_killer_party.html:7
-#: pages/templates/killer_party.html:35
-msgid "La killer party"
-msgstr "The killer party"
-
-#: pages/templates/component/card_killer_party.html:8
-#: pages/templates/component/card_sm_killer_party.html:8
-msgid "Among Us dans un escape game"
-msgstr "Among Us in an escape room"
-
-#: pages/templates/component/card_killer_party.html:12
-#: pages/templates/component/card_sm_killer_party.html:12
-#: pages/templates/killer_party.html:110
-msgid "7 à 15 joueurs"
-msgstr "7 to 15 players"
-
-#: pages/templates/component/card_killer_party.html:25
-msgid "Logo de la killer party"
-msgstr "Logo of the killer party"
-
-#: pages/templates/component/card_killer_party.html:28
-msgid ""
-"Dans un futur lointain, les intelligences artificielles sont pleinement "
-"intégrées à notre vie quotidienne. Un groupe d'ingénieurs est convié à "
-"vérifier le bon fonctionnement de ces IAs. Lors d'une vérification de "
-"routine à bord d'un vaisseau de transport, un des ingénieurs est retrouvé "
-"mort..."
-msgstr ""
-"In the distant future, artificial intelligences are fully integrated into "
-"ourdaily lives. A group of engineers are invited to check that these AIs "
-"areworking properly. During a routine check aboard a transport ship, one of "
-"theengineers is found dead..."
-
-#: pages/templates/component/card_killer_party.html:33
-#: pages/templates/component/card_le_tournoi_des_sorciers.html:34
-#: pages/templates/component/card_qui_est_loup_garou.html:33
-#: pages/templates/component/card_redrock_saloon.html:33
-#: pages/templates/component/card_sherlock_vs_moriarty.html:33
-#: pages/templates/component/card_sm_digimiam.html:32
-#: pages/templates/component/card_sm_killer_party.html:31
-#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:33
-#: pages/templates/component/card_sm_post_mortem.html:32
-#: pages/templates/component/card_sm_qui_est_loup_garou.html:31
-#: pages/templates/component/card_sm_redrock_saloon.html:32
-#: pages/templates/component/card_sm_sherlock_vs_moriarty.html:32
-#: pages/templates/component/card_sm_two_rooms.html:32
-#: pages/templates/component/card_two_rooms.html:33
-#: pages/templates/pricing.html:42
-msgid "À partir de"
-msgstr "From"
-
-#: pages/templates/component/card_killer_party.html:35
-#: pages/templates/component/card_le_tournoi_des_sorciers.html:36
-#: pages/templates/component/card_qui_est_loup_garou.html:35
-#: pages/templates/component/card_redrock_saloon.html:35
-#: pages/templates/component/card_sherlock_vs_moriarty.html:35
-#: pages/templates/component/card_two_rooms.html:35
-msgid "par joueur"
-msgstr "by player"
-
-#: pages/templates/component/card_killer_party.html:38
-#: pages/templates/component/card_le_tournoi_des_sorciers.html:39
-#: pages/templates/component/card_qui_est_loup_garou.html:38
-#: pages/templates/component/card_redrock_saloon.html:38
-#: pages/templates/component/card_sherlock_vs_moriarty.html:38
-#: pages/templates/component/card_sm_killer_party.html:34
-#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:36
-#: pages/templates/component/card_sm_post_mortem.html:35
-#: pages/templates/component/card_sm_qui_est_loup_garou.html:34
-#: pages/templates/component/card_sm_redrock_saloon.html:35
-#: pages/templates/component/card_sm_sherlock_vs_moriarty.html:35
-#: pages/templates/component/card_sm_two_rooms.html:35
-#: pages/templates/component/card_two_rooms.html:38
-msgid "Je veux en savoir plus"
-msgstr "Tell me more"
-
-#: pages/templates/component/card_le_tournoi_des_sorciers.html:5
-#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:5
-msgid "NOUVEAU"
-msgstr ""
-
-#: pages/templates/component/card_le_tournoi_des_sorciers.html:8
-#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:8
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:33
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:65
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:347
-msgid "Le Tournoi des Sorciers"
-msgstr "The Wizard's Tournament"
-
-#: pages/templates/component/card_le_tournoi_des_sorciers.html:9
-msgid "Murder Party dans une école de magie de 100m²"
-msgstr "Murder Party in a 100m² magic school"
-
-#: pages/templates/component/card_le_tournoi_des_sorciers.html:13
-#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:13
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:140
-msgid "8 à 24 joueurs"
-msgstr "8 to 24 players"
-
-#: pages/templates/component/card_le_tournoi_des_sorciers.html:26
-msgid "Logo de la murder party dans des décors immersifs"
-msgstr "Logo of the murder party in immersive scenery"
-
-#: pages/templates/component/card_le_tournoi_des_sorciers.html:29
-#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:28
-msgid ""
-"Enquêtez dans les décors de 100 m² d'une école de magie. Préparez des "
-"potions, retrouvez des sortilèges interdits et laissez le hasard choisir "
-"votre maison."
-msgstr ""
-"Investigate the 100 m² setting of a magic school. Prepare potions, find "
-"forbidden spells and let chance choose your home."
-
-#: pages/templates/component/card_qui_est_loup_garou.html:7
-#: pages/templates/component/card_sm_qui_est_loup_garou.html:7
-#: pages/templates/qui_est_loup_garou.html:30
-#: pages/templates/qui_est_loup_garou.html:36
-msgid "Qui est loup-garou ?"
-msgstr ""
-
-#: pages/templates/component/card_qui_est_loup_garou.html:8
-#: pages/templates/component/card_sm_qui_est_loup_garou.html:8
-#, fuzzy
-#| msgid "Cluedo géant"
-msgid "Loup-garou géant"
-msgstr "Giant Cluedo"
-
-#: pages/templates/component/card_qui_est_loup_garou.html:12
-#: pages/templates/component/card_sm_qui_est_loup_garou.html:12
-#: pages/templates/qui_est_loup_garou.html:41
-#, fuzzy
-#| msgid "5 à 9 joueurs"
-msgid "5 à 12 joueurs"
-msgstr "5 to 9 players"
-
-#: pages/templates/component/card_qui_est_loup_garou.html:25
-#: pages/templates/component/card_sm_qui_est_loup_garou.html:25
-msgid "Logo qui est loup-garou"
-msgstr ""
-
-#: pages/templates/component/card_qui_est_loup_garou.html:28
-#: pages/templates/component/card_sm_qui_est_loup_garou.html:27
-msgid ""
-"Plongez au coeur d'une expérience immersive où mystère et tension règnent en "
-"maîtres. Chaque ombre cache un secret, chaque regard est suspect... Saurez-"
-"vous démêler le vrai du faux avant que le loup-garou ne frappe à nouveau ?"
-msgstr ""
-
-#: pages/templates/component/card_redrock_saloon.html:7
-#: pages/templates/component/card_sm_redrock_saloon.html:7
-#: pages/templates/murder_party_redrock_saloon.html:30
-msgid "Le Redrock Saloon"
-msgstr ""
-
-#: pages/templates/component/card_redrock_saloon.html:8
-msgid "Murder Party Western"
-msgstr "Western Murder Party"
-
-#: pages/templates/component/card_redrock_saloon.html:12
-#: pages/templates/component/card_sm_redrock_saloon.html:12
-#: pages/templates/murder_party_redrock_saloon.html:110
-msgid "6 à 23 joueurs"
-msgstr "6 to 23 players"
-
-#: pages/templates/component/card_redrock_saloon.html:16
-#: pages/templates/component/card_sm_redrock_saloon.html:16
-#: pages/templates/murder_party_redrock_saloon.html:106
-msgid "2 heures"
-msgstr "2 hours"
-
-#: pages/templates/component/card_redrock_saloon.html:25
-msgid "Logo de la murder party"
-msgstr "Logo of the murder party"
-
-#: pages/templates/component/card_redrock_saloon.html:28
-msgid ""
-"Un soir de printemps 1884, sur la côte ouest, les habitants de Silver Town "
-"se préparent à célébrer l'anniversaire de la ville. Mais les apparences sont "
-"trompeuses. Entre le shérif, le juge, les filles du saloon et les "
-"sympathiques indiens, tout le monde n'est pas là pour faire la fête. La "
-"présence d'étrangers, les vieux conflits de terre et les jeux de cartes "
-"douteux forment une atmosphère tendue..."
-msgstr ""
-"On a spring evening in 1884 on the west coast, the residents of Silver Town "
-"are preparing to celebrate the town's birthday. But appearances are "
-"deceiving. Between the sheriff, the judge, the saloon girls and the friendly "
-"Indians, not everyone is there to celebrate. The presence of strangers, old "
-"land disputes and dubious card games create a tense atmosphere..."
-
-#: pages/templates/component/card_sherlock_vs_moriarty.html:7
-#: pages/templates/component/card_sm_sherlock_vs_moriarty.html:7
-#: pages/templates/sherlock_vs_moriarty.html:30
-#: pages/templates/sherlock_vs_moriarty.html:36
-msgid "Sherlock vs Moriarty"
-msgstr "Sherlock vs Moriarty"
-
-#: pages/templates/component/card_sherlock_vs_moriarty.html:8
-msgid "Murder Party 2.0"
-msgstr "Murder Party 2.0"
-
-#: pages/templates/component/card_sherlock_vs_moriarty.html:12
-#: pages/templates/component/card_sm_sherlock_vs_moriarty.html:12
-#: pages/templates/sherlock_vs_moriarty.html:41
-msgid "20 à 150 joueurs"
-msgstr "2 to 150 players"
-
-#: pages/templates/component/card_sherlock_vs_moriarty.html:25
-#: pages/templates/component/card_sm_sherlock_vs_moriarty.html:25
-#: pages/templates/sherlock_vs_moriarty.html:58
-msgid "Logo de sherlock vs moriarty"
-msgstr "Logo of sherlock vs moriarty"
-
-#: pages/templates/component/card_sherlock_vs_moriarty.html:28
-#: pages/templates/component/card_sm_sherlock_vs_moriarty.html:27
-msgid ""
-"Choisissez votre camp ! Les deux plus grands détectives de l'histoire "
-"s'affrontent lors d'une soirée exceptionnelle, et vous avez la chance de "
-"rejoindre l'un d'entre eux. Préparez-vous à résoudre un maximum d'énigmes et "
-"à prouver que votre détective préféré est le meilleur."
-msgstr ""
-"Choose your side! The two greatest detectives in history go head-to-head on "
-"an exceptional evening, and you have the chance to join one of them. Get "
-"ready to solve as many puzzles as you can and prove that your favourite "
-"detective is the best."
 
 #: pages/templates/component/card_sm_digimiam.html:7
 #: pages/templates/room.html:34
@@ -359,12 +133,24 @@ msgstr ""
 "in darkness. Something illegal is going on in this restaurant. Will you "
 "manage to shed the light on this case?"
 
+#: pages/templates/component/card_sm_digimiam.html:32
+#: pages/templates/component/card_sm_killer_party.html:31
+#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:32
+#: pages/templates/component/card_sm_post_mortem.html:32
+#: pages/templates/component/card_sm_qui_est_loup_garou.html:31
+#: pages/templates/component/card_sm_redrock_saloon.html:32
+#: pages/templates/component/card_sm_sherlock_vs_moriarty.html:32
+#: pages/templates/component/card_sm_two_rooms.html:32
+#: pages/templates/pricing.html:42
+msgid "À partir de"
+msgstr "From"
+
 #: pages/templates/component/card_sm_digimiam.html:37
 #: pages/templates/escape_game_anniversaire.html:115
 #: pages/templates/escape_game_anniversaire.html:204
 #: pages/templates/escape_game_evg.html:118
-#: pages/templates/escape_game_evjf.html:122 pages/templates/header.html:181
-#: pages/templates/home.html:37 pages/templates/home.html:816
+#: pages/templates/escape_game_evjf.html:122 pages/templates/header.html:173
+#: pages/templates/home.html:37 pages/templates/home.html:771
 msgid "Je réserve une séance"
 msgstr "Book now"
 
@@ -372,12 +158,18 @@ msgstr "Book now"
 msgid "La Killer party"
 msgstr "The Killer party"
 
+#: pages/templates/component/card_sm_killer_party.html:8
+msgid "Among Us dans un escape game"
+msgstr "Among Us in an escape room"
+
+#: pages/templates/component/card_sm_killer_party.html:12
+#: pages/templates/killer_party.html:110
+msgid "7 à 15 joueurs"
+msgstr "7 to 15 players"
+
 #: pages/templates/component/card_sm_killer_party.html:16
-#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:17
-#: pages/templates/component/card_sm_post_mortem.html:17
 #: pages/templates/component/card_sm_qui_est_loup_garou.html:16
 #: pages/templates/component/card_sm_two_rooms.html:16
-#: pages/templates/murder_party_post_mortem.html:106
 #: pages/templates/qui_est_loup_garou.html:45
 #: pages/templates/sherlock_vs_moriarty.html:45
 #: pages/templates/two_rooms.html:45
@@ -399,21 +191,61 @@ msgstr ""
 "androids. Tensions are running high. Your survival in this hostile "
 "environment will depend on your strategy and deductive skills."
 
+#: pages/templates/component/card_sm_killer_party.html:34
+#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:35
+#: pages/templates/component/card_sm_post_mortem.html:35
+#: pages/templates/component/card_sm_qui_est_loup_garou.html:34
+#: pages/templates/component/card_sm_redrock_saloon.html:35
+#: pages/templates/component/card_sm_sherlock_vs_moriarty.html:35
+#: pages/templates/component/card_sm_two_rooms.html:35
+msgid "Je veux en savoir plus"
+msgstr "Tell me more"
+
+#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:5
+#: pages/templates/component/card_sm_post_mortem.html:5
+msgid "NOUVEAU"
+msgstr ""
+
+#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:8
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:33
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:65
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:346
+msgid "Le Tournoi des Sorciers"
+msgstr "The Wizard's Tournament"
+
 #: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:9
 #, fuzzy
 #| msgid "Murder Party dans une école de magie de 100m²"
 msgid "École de magie de 100m²"
 msgstr "Murder Party in a 100m² magic school"
 
+#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:13
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:140
+msgid "8 à 24 joueurs"
+msgstr "8 to 24 players"
+
+#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:17
+#: pages/templates/component/card_sm_post_mortem.html:17
+#: pages/templates/component/card_sm_redrock_saloon.html:16
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:136
+#: pages/templates/murder_party_post_mortem.html:106
+#: pages/templates/murder_party_redrock_saloon.html:106
+msgid "2 heures"
+msgstr "2 hours"
+
 #: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:26
 #: pages/templates/component/card_sm_redrock_saloon.html:25
 msgid "Logo murder party"
 msgstr "Logo of the murder party"
 
-#: pages/templates/component/card_sm_post_mortem.html:5
-#: pages/templates/murder_party_post_mortem.html:143
-msgid "Avant-première"
+#: pages/templates/component/card_sm_le_tournoi_des_sorciers.html:28
+msgid ""
+"Enquêtez dans les décors de 100 m² d'une école de magie. Préparez des "
+"potions, retrouvez des sortilèges interdits et laissez le hasard choisir "
+"votre maison."
 msgstr ""
+"Investigate the 100 m² setting of a magic school. Prepare potions, find "
+"forbidden spells and let chance choose your home."
 
 #: pages/templates/component/card_sm_post_mortem.html:8
 #: pages/templates/murder_party_post_mortem.html:30
@@ -422,14 +254,16 @@ msgstr ""
 
 #: pages/templates/component/card_sm_post_mortem.html:9
 #: pages/templates/murder_party_post_mortem.html:36
-msgid "Cluedo dans un manoir"
-msgstr ""
+#, fuzzy
+#| msgid "Murder Party Western"
+msgid "Murder Party Agatha Christie"
+msgstr "Western Murder Party"
 
 #: pages/templates/component/card_sm_post_mortem.html:13
 #: pages/templates/murder_party_post_mortem.html:110
 #, fuzzy
 #| msgid "20 à 150 joueurs"
-msgid "8 à 50 joueurs"
+msgid "7 à 50 joueurs"
 msgstr "2 to 150 players"
 
 #: pages/templates/component/card_sm_post_mortem.html:26
@@ -440,15 +274,54 @@ msgstr "Logo of two rooms"
 
 #: pages/templates/component/card_sm_post_mortem.html:28
 msgid ""
-"Exposition universelle de 1937. Une réception mondaine dans un pavillon "
-"chic. Incarnez un invité chez Lord Rubis, un collectionneur d'art fasciné "
-"par l'occulte... sauf que la soirée vire au cauchemard lorsqu'il meurt pour "
-"de vrai."
+"Une réception mondaine dans un pavillon chic. Incarnez un invité chez Lord "
+"Rubis, un collectionneur d'art fasciné par l'occulte... sauf que la soirée "
+"vire au cauchemard lorsqu'il meurt pour de vrai."
+msgstr ""
+
+#: pages/templates/component/card_sm_qui_est_loup_garou.html:7
+#: pages/templates/qui_est_loup_garou.html:30
+#: pages/templates/qui_est_loup_garou.html:36
+msgid "Qui est loup-garou ?"
+msgstr ""
+
+#: pages/templates/component/card_sm_qui_est_loup_garou.html:8
+#, fuzzy
+#| msgid "Le loup-garou mais sans mourir"
+msgid "Loup-garou immersif"
+msgstr "The werewolf game but without dying"
+
+#: pages/templates/component/card_sm_qui_est_loup_garou.html:12
+#: pages/templates/qui_est_loup_garou.html:41
+#, fuzzy
+#| msgid "5 à 9 joueurs"
+msgid "5 à 12 joueurs"
+msgstr "5 to 9 players"
+
+#: pages/templates/component/card_sm_qui_est_loup_garou.html:25
+msgid "Logo qui est loup-garou"
+msgstr ""
+
+#: pages/templates/component/card_sm_qui_est_loup_garou.html:27
+msgid ""
+"Plongez au coeur d'une expérience immersive où mystère et tension règnent en "
+"maîtres. Chaque ombre cache un secret, chaque regard est suspect... Saurez-"
+"vous démêler le vrai du faux avant que le loup-garou ne frappe à nouveau ?"
+msgstr ""
+
+#: pages/templates/component/card_sm_redrock_saloon.html:7
+#: pages/templates/murder_party_redrock_saloon.html:30
+msgid "Le Redrock Saloon"
 msgstr ""
 
 #: pages/templates/component/card_sm_redrock_saloon.html:8
 msgid "Cluedo dans un Village Western"
 msgstr ""
+
+#: pages/templates/component/card_sm_redrock_saloon.html:12
+#: pages/templates/murder_party_redrock_saloon.html:110
+msgid "6 à 23 joueurs"
+msgstr "6 to 23 players"
 
 #: pages/templates/component/card_sm_redrock_saloon.html:27
 msgid ""
@@ -460,12 +333,39 @@ msgstr ""
 "sheriff and his deputy investigate to avert an imminent war. Secrets, lies "
 "and betrayal in the Wild West."
 
+#: pages/templates/component/card_sm_sherlock_vs_moriarty.html:7
+#: pages/templates/sherlock_vs_moriarty.html:30
+#: pages/templates/sherlock_vs_moriarty.html:36
+msgid "Sherlock vs Moriarty"
+msgstr "Sherlock vs Moriarty"
+
 #: pages/templates/component/card_sm_sherlock_vs_moriarty.html:8
 msgid "Jeux d'énigmes pour cocktail dinatoire"
 msgstr ""
 
+#: pages/templates/component/card_sm_sherlock_vs_moriarty.html:12
+#: pages/templates/sherlock_vs_moriarty.html:41
+msgid "20 à 150 joueurs"
+msgstr "2 to 150 players"
+
+#: pages/templates/component/card_sm_sherlock_vs_moriarty.html:25
+#: pages/templates/sherlock_vs_moriarty.html:58
+msgid "Logo de sherlock vs moriarty"
+msgstr "Logo of sherlock vs moriarty"
+
+#: pages/templates/component/card_sm_sherlock_vs_moriarty.html:27
+msgid ""
+"Choisissez votre camp ! Les deux plus grands détectives de l'histoire "
+"s'affrontent lors d'une soirée exceptionnelle, et vous avez la chance de "
+"rejoindre l'un d'entre eux. Préparez-vous à résoudre un maximum d'énigmes et "
+"à prouver que votre détective préféré est le meilleur."
+msgstr ""
+"Choose your side! The two greatest detectives in history go head-to-head on "
+"an exceptional evening, and you have the chance to join one of them. Get "
+"ready to solve as many puzzles as you can and prove that your favourite "
+"detective is the best."
+
 #: pages/templates/component/card_sm_two_rooms.html:7
-#: pages/templates/component/card_two_rooms.html:7
 #: pages/templates/two_rooms.html:36
 msgid "Two rooms"
 msgstr "Two rooms"
@@ -475,7 +375,6 @@ msgid "Le loup garou mais sans mourir"
 msgstr "The werewolf game but without dying"
 
 #: pages/templates/component/card_sm_two_rooms.html:12
-#: pages/templates/component/card_two_rooms.html:12
 #: pages/templates/two_rooms.html:41 pages/templates/two_rooms.html:122
 msgid "15 à 30 joueurs"
 msgstr "15 to 30 players"
@@ -497,26 +396,6 @@ msgid ""
 msgstr ""
 "Two rooms: a game of bluff and negotiation. Players divide into two clans, "
 "negotiate, exchange information and form alliances to achieve their goals."
-
-#: pages/templates/component/card_two_rooms.html:8
-#: pages/templates/two_rooms.html:37
-msgid "Le loup-garou mais sans mourir"
-msgstr "The werewolf game but without dying"
-
-#: pages/templates/component/card_two_rooms.html:25
-#: pages/templates/two_rooms.html:58
-msgid "Logo de two rooms"
-msgstr "The logo of two rooms"
-
-#: pages/templates/component/card_two_rooms.html:28
-msgid ""
-"Plongez dans cet univers ultime de complots et de bluff. Les assassins et "
-"les citoyens s'affrontent dans des décors d'escape game pour se démasquer "
-"les uns les autres. Allez-vous sauvez l'empereur ?"
-msgstr ""
-"Dive into the ultimate world of conspiracy and bluff. Assassins and citizens "
-"clash in escape game settings to unmask each other. Will you save the "
-"emperor?"
 
 #: pages/templates/conditions.html:5
 msgid "Conditions of Use – Escape Game Lille – Just Escape"
@@ -638,10 +517,10 @@ msgstr ""
 
 #: pages/templates/contact.html:8 pages/templates/contact.html:55
 #: pages/templates/contact.html:224 pages/templates/escape_game_evg.html:234
-#: pages/templates/footer.html:80 pages/templates/header.html:71
-#: pages/templates/home.html:672 pages/templates/murder_party.html:280
-#: pages/templates/murder_party_post_mortem.html:234
-#: pages/templates/murder_party_redrock_saloon.html:250
+#: pages/templates/footer.html:79 pages/templates/header.html:68
+#: pages/templates/home.html:627 pages/templates/murder_party.html:289
+#: pages/templates/murder_party_post_mortem.html:233
+#: pages/templates/murder_party_redrock_saloon.html:249
 #: pages/templates/room.html:226
 msgid "Contact"
 msgstr "Contact"
@@ -654,11 +533,11 @@ msgstr "How to contact us"
 msgid "Opening hours"
 msgstr "Opening hours"
 
-#: pages/templates/contact.html:39 pages/templates/home.html:656
+#: pages/templates/contact.html:39 pages/templates/home.html:611
 msgid "<span class='text-jaffa'>Monday-sunday:</span> 10AM-11PM"
 msgstr "<span class='text-jaffa'>Monday-sunday:</span> 10AM-11PM"
 
-#: pages/templates/contact.html:57 pages/templates/home.html:674
+#: pages/templates/contact.html:57 pages/templates/home.html:629
 msgid ""
 "<span class='text-jaffa'>Tel:</span> <a href='tel:+33789053790' class='text-"
 "hover-mulberry text-underline'>+33 7 89 05 37 90</a><br>"
@@ -666,7 +545,7 @@ msgstr ""
 "<span class='text-jaffa'>Tel:</span> <a href='tel:+33789053790' class='text-"
 "hover-mulberry text-underline'>+33 7 89 05 37 90</a><br>"
 
-#: pages/templates/contact.html:58 pages/templates/home.html:675
+#: pages/templates/contact.html:58 pages/templates/home.html:630
 msgid ""
 "<span class='text-jaffa'>Mail:</span> c<span hidden></span>ontac<span "
 "hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
@@ -676,11 +555,11 @@ msgstr ""
 "hidden></span>t@<span hidden></span>justes<span hidden></span>cape<span "
 "hidden></span>.fr"
 
-#: pages/templates/contact.html:74 pages/templates/home.html:691
+#: pages/templates/contact.html:74 pages/templates/home.html:646
 msgid "Address"
 msgstr "Address"
 
-#: pages/templates/contact.html:76 pages/templates/home.html:693
+#: pages/templates/contact.html:76 pages/templates/home.html:648
 msgid "26 rue d&#39;Arras<br> 59000 Lille, France"
 msgstr "26 rue d&#39;Arras<br> 59000 Lille, France"
 
@@ -810,7 +689,7 @@ msgid "Votre événement"
 msgstr "Your event"
 
 #: pages/templates/escape_game_anniversaire.html:43
-#: pages/templates/header.html:62 pages/templates/header.html:165
+#: pages/templates/header.html:62 pages/templates/header.html:162
 msgid "Anniversaire"
 msgstr "Birthday party"
 
@@ -995,40 +874,19 @@ msgstr "Great moments await you in our escape game room."
 msgid "Épatez vos amis avec une fête d'anniversaire hors du commun !"
 msgstr "Amaze your friends with an extraordinary birthday party!"
 
-#: pages/templates/escape_game_anniversaire.html:320
-msgid "Découvrez les cartes cadeaux"
-msgstr "Discover Just Escape's gift cards"
-
-#: pages/templates/escape_game_anniversaire.html:321
-msgid "Offrir une carte cadeau"
-msgstr "Offer a gift card"
-
-#: pages/templates/escape_game_anniversaire.html:322
-msgid "Que diriez-vous d'un bon cadeau original et unique en son genre ?"
-msgstr "How about an original and unique gift voucher?"
-
-#: pages/templates/escape_game_anniversaire.html:328
-msgid "Une carte cadeau pour un escape game sur Lille"
-msgstr "A gift card for an escape game in Lille"
-
-#: pages/templates/escape_game_anniversaire.html:332
-#: pages/templates/home.html:377
-msgid "Je veux une <strong>carte cadeau</strong>"
-msgstr "I want a <strong>gift card</strong>"
-
-#: pages/templates/escape_game_anniversaire.html:341
+#: pages/templates/escape_game_anniversaire.html:323
 msgid "Ils sont venus et nous ont validés"
 msgstr "They came and validated us"
 
-#: pages/templates/escape_game_anniversaire.html:364
+#: pages/templates/escape_game_anniversaire.html:346
 msgid "On répond à vos questions"
 msgstr "We answer your questions"
 
-#: pages/templates/escape_game_anniversaire.html:371
+#: pages/templates/escape_game_anniversaire.html:353
 msgid "Combien de temps durent les activités ?"
 msgstr "How long do the activities last?"
 
-#: pages/templates/escape_game_anniversaire.html:376
+#: pages/templates/escape_game_anniversaire.html:358
 msgid ""
 "La durée des activités varie en fonction de l'activité choisie. Certaines "
 "activités peuvent durer quelques heures, tandis que d'autres peuvent durer "
@@ -1039,30 +897,30 @@ msgstr ""
 "activities can last a few hours, while others can last all day. We also have "
 "options for short activities for those with busy schedules."
 
-#: pages/templates/escape_game_anniversaire.html:387
+#: pages/templates/escape_game_anniversaire.html:369
 msgid "Quel est le prix des activités ?"
 msgstr "How much do the activities cost?"
 
-#: pages/templates/escape_game_anniversaire.html:406
+#: pages/templates/escape_game_anniversaire.html:388
 msgid "Où se déroulent les activités ?"
 msgstr "Where do the activities take place?"
 
-#: pages/templates/escape_game_anniversaire.html:411
+#: pages/templates/escape_game_anniversaire.html:393
 msgid ""
 "Toutes nos activités se déroulent dans les locaux de Just Escape, à Lille."
 msgstr "All our activities take place on the Just Escape premises in Lille."
 
-#: pages/templates/escape_game_anniversaire.html:414
+#: pages/templates/escape_game_anniversaire.html:396
 msgid ""
 "Certaines de ces activités peuvent être organisées dans un lieu de votre "
 "choix."
 msgstr "Some of these activities can be organised at a venue of your choice."
 
-#: pages/templates/escape_game_anniversaire.html:425
+#: pages/templates/escape_game_anniversaire.html:407
 msgid "Quels types de packs proposez-vous ?"
 msgstr "What types of packs do you offer?"
 
-#: pages/templates/escape_game_anniversaire.html:430
+#: pages/templates/escape_game_anniversaire.html:412
 msgid ""
 "Nous proposons une variété de packs pour tous les âges et les "
 "intérêts&nbsp;: pour les enfants comme pour les adultes. Nous avons des "
@@ -1071,7 +929,7 @@ msgstr ""
 "We offer a variety of packs for all ages and interests: for children and "
 "adults alike. We have packs to suit all budgets and group sizes."
 
-#: pages/templates/escape_game_anniversaire.html:491
+#: pages/templates/escape_game_anniversaire.html:473
 msgid "Escape Game Anniversaire"
 msgstr "Escape room birthday"
 
@@ -1112,7 +970,7 @@ msgid "Faites briller les yeux de vos kids sans les galères"
 msgstr ""
 
 #: pages/templates/escape_game_enfants.html:44 pages/templates/header.html:53
-#: pages/templates/header.html:150
+#: pages/templates/header.html:147
 msgid "Pour enfants"
 msgstr ""
 
@@ -1212,18 +1070,17 @@ msgid ""
 msgstr ""
 
 #: pages/templates/escape_game_enfants.html:162 pages/templates/footer.html:71
-#: pages/templates/murder_party.html:235
-#: pages/templates/murder_party_post_mortem.html:139
-#: pages/templates/murder_party_redrock_saloon.html:139
+#: pages/templates/murder_party.html:244
+#: pages/templates/murder_party_post_mortem.html:138
+#: pages/templates/murder_party_redrock_saloon.html:138
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:29
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:44
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:187
-#: pages/templates/teambuilding.html:221
+#: pages/templates/teambuilding_old.html:221
 msgid "Qu'est-ce qu'une murder party ?"
 msgstr "What is a murder party&nbsp;?"
 
 #: pages/templates/escape_game_enfants.html:167
-#: pages/templates/teambuilding.html:226
 #, fuzzy
 #| msgid ""
 #| "<strong>Une murder party est une histoire rocambolesque</strong> qui vous "
@@ -1241,7 +1098,6 @@ msgstr ""
 "with their own personality traits and objectives</strong>."
 
 #: pages/templates/escape_game_enfants.html:170
-#: pages/templates/teambuilding.html:229
 #, fuzzy
 #| msgid ""
 #| "La murder party est une activité fun, ludique et insolite qui permet à "
@@ -1257,7 +1113,6 @@ msgstr ""
 "<strong>share a moment of complicity</strong>."
 
 #: pages/templates/escape_game_enfants.html:173
-#: pages/templates/teambuilding.html:232
 msgid ""
 "Les scénarios de Just Escape s'efforcent d'être accessibles au plus grand "
 "nombre. <i>Le Tournoi des Sorciers</i> dispose d'une version adaptée pour "
@@ -1265,21 +1120,20 @@ msgid ""
 msgstr ""
 
 #: pages/templates/escape_game_enfants.html:184 pages/templates/home.html:194
-#: pages/templates/teambuilding.html:243
+#: pages/templates/teambuilding_old.html:243
 #, fuzzy
 #| msgid "Quelle est la taille de groupe idéale pour jouer à l'escape game ?"
 msgid "Quelle est la différence entre une murder party et un escape game ?"
 msgstr "What is the ideal group size for this escape game?"
 
 #: pages/templates/escape_game_enfants.html:189
-#: pages/templates/teambuilding.html:248
 msgid ""
 "Un escape game est un format codifié : les joueurs sont enfermés dans une "
 "salle et doivent résoudre des énigmes pour en sortir en moins d'une heure."
 msgstr ""
 
 #: pages/templates/escape_game_enfants.html:192
-#: pages/templates/teambuilding.html:251
+#: pages/templates/teambuilding_old.html:251
 msgid ""
 "La murder party est un jeu de rôle orienté histoire. Chaque participant "
 "incarne un personnage avec des objectifs propres. Elle favorise d'avantage "
@@ -1461,7 +1315,7 @@ msgstr ""
 "An escape room for the best <span class='text-mulberry'>stag party</span>?"
 
 #: pages/templates/escape_game_evg.html:43 pages/templates/header.html:59
-#: pages/templates/header.html:160
+#: pages/templates/header.html:157
 msgid "EVG"
 msgstr "Stag party"
 
@@ -1622,10 +1476,10 @@ msgstr "A whole host of challenges <strong>await you</strong>"
 
 #: pages/templates/escape_game_evg.html:231
 #: pages/templates/escape_game_evjf.html:242
-#: pages/templates/killer_party.html:208 pages/templates/murder_party.html:277
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:293
-#: pages/templates/murder_party_post_mortem.html:231
-#: pages/templates/murder_party_redrock_saloon.html:247
+#: pages/templates/killer_party.html:208 pages/templates/murder_party.html:286
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:292
+#: pages/templates/murder_party_post_mortem.html:230
+#: pages/templates/murder_party_redrock_saloon.html:246
 #: pages/templates/room.html:223
 msgid ""
 "Pour toute question ou demande d'information supplémentaire, contactez-nous."
@@ -1633,11 +1487,11 @@ msgstr ""
 "If you have any questions or require further information, please contact us."
 
 #: pages/templates/escape_game_evg.html:237
-#: pages/templates/escape_game_evjf.html:248 pages/templates/header.html:137
-#: pages/templates/killer_party.html:213 pages/templates/murder_party.html:282
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:298
-#: pages/templates/murder_party_post_mortem.html:236
-#: pages/templates/murder_party_redrock_saloon.html:252
+#: pages/templates/escape_game_evjf.html:248 pages/templates/header.html:134
+#: pages/templates/killer_party.html:213 pages/templates/murder_party.html:291
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:297
+#: pages/templates/murder_party_post_mortem.html:235
+#: pages/templates/murder_party_redrock_saloon.html:251
 #: pages/templates/room.html:228
 msgid "07 89 05 37 90"
 msgstr "+33 7 89 05 37 90"
@@ -1671,7 +1525,7 @@ msgstr ""
 "An escape room for a successful <span class='text-mulberry'>hen party</span>?"
 
 #: pages/templates/escape_game_evjf.html:43 pages/templates/header.html:56
-#: pages/templates/header.html:155
+#: pages/templates/header.html:152
 msgid "EVJF"
 msgstr "Hen party"
 
@@ -2128,25 +1982,7 @@ msgstr ""
 "We invite companies to fill in <a href='/en/team-building#devis' class='text-"
 "underline text-hover-mulberry'>the quote form</a>."
 
-#: pages/templates/faq.html:275
-msgid "How to use gift cards?"
-msgstr "How to use gift cards?"
-
-#: pages/templates/faq.html:280
-msgid ""
-"The <a href='/en/carte-cadeau' class='text-underline text-hover-"
-"mulberry'>gift card</a> can be used during the <a href='/en/reserver' "
-"class='text-underline text-hover-mulberry'>online booking</a>."
-msgstr ""
-"The <a href='/en/carte-cadeau' class='text-underline text-hover-"
-"mulberry'>gift card</a> can be used during the <a href='/en/reserver' "
-"class='text-underline text-hover-mulberry'>online booking</a>."
-
-#: pages/templates/faq.html:283
-msgid "A gift voucher is only valid for one year. Hurry up and come and play!"
-msgstr "A gift voucher is only valid for one year. Hurry up and come and play!"
-
-#: pages/templates/faq.html:341
+#: pages/templates/faq.html:322
 msgid "Frequently Asked Questions"
 msgstr "Frequently Asked Questions"
 
@@ -2209,7 +2045,7 @@ msgstr "Escape room 2 players"
 msgid "Entreprises"
 msgstr "Companies"
 
-#: pages/templates/footer.html:58 pages/templates/home.html:384
+#: pages/templates/footer.html:58 pages/templates/home.html:339
 msgid "Teambuilding"
 msgstr "Teambuilding"
 
@@ -2242,72 +2078,38 @@ msgid "Découvrir"
 msgstr "Discover"
 
 #: pages/templates/footer.html:70 pages/templates/header.html:37
-#: pages/templates/header.html:220 pages/templates/home.html:98
+#: pages/templates/header.html:212 pages/templates/home.html:98
 msgid "Murder party"
 msgstr "Murder party"
 
-#: pages/templates/footer.html:72 pages/templates/gift-voucher.html:22
-#: pages/templates/header.html:65 pages/templates/header.html:175
-#: pages/templates/home.html:366
-msgid "Carte cadeau"
-msgstr "Gift card"
-
-#: pages/templates/footer.html:73 pages/templates/header.html:74
+#: pages/templates/footer.html:72 pages/templates/header.html:71
 msgid "Blog"
 msgstr "Blog"
 
-#: pages/templates/footer.html:74
+#: pages/templates/footer.html:73
 msgid "La création de Just Escape"
 msgstr "The fondation of Just Escape"
 
-#: pages/templates/footer.html:77
+#: pages/templates/footer.html:76
 msgid "Pratique"
 msgstr "Practical"
 
-#: pages/templates/footer.html:79 pages/templates/header.html:68
+#: pages/templates/footer.html:78 pages/templates/header.html:65
 msgid "FAQ"
 msgstr "FAQ"
 
-#: pages/templates/footer.html:81 pages/templates/pricing.html:8
-#: pages/templates/pricing.html:92
+#: pages/templates/footer.html:80 pages/templates/pricing.html:8
+#: pages/templates/pricing.html:89
 msgid "Pricing"
 msgstr "Pricing"
 
-#: pages/templates/footer.html:82
+#: pages/templates/footer.html:81
 msgid "Terms"
 msgstr "Terms"
 
-#: pages/templates/footer.html:83
+#: pages/templates/footer.html:82
 msgid "Conditions"
 msgstr "Conditions"
-
-#: pages/templates/gift-voucher.html:5
-msgid "Gift Voucher – Escape Game Lille – Just Escape"
-msgstr "Gift Voucher – Escape Game Lille – Just Escape"
-
-#: pages/templates/gift-voucher.html:6
-msgid "Your friends and family will love you with this gift box 🎁😍"
-msgstr "Your friends and family will love you with this gift box 🎁😍"
-
-#: pages/templates/gift-voucher.html:8
-msgid "Gift Voucher 🎁"
-msgstr "Gift Voucher 🎁"
-
-#: pages/templates/gift-voucher.html:9
-msgid "Your friends and family will love you with this gift box 😍"
-msgstr "Your friends and family will love you with this gift box 😍"
-
-#: pages/templates/gift-voucher.html:11
-msgid "Offer a gift card"
-msgstr "Offer a gift card"
-
-#: pages/templates/gift-voucher.html:32 pages/templates/home.html:375
-msgid "Videos are not supported by this browser"
-msgstr "Videos are not supported by this browser"
-
-#: pages/templates/gift-voucher.html:72
-msgid "Gift voucher"
-msgstr "Gift voucher"
 
 #: pages/templates/header.html:18
 #, fuzzy
@@ -2315,43 +2117,43 @@ msgstr "Gift voucher"
 msgid "Escape Game & Murder Party Lille"
 msgstr "Murder Party Lille"
 
-#: pages/templates/header.html:29 pages/templates/header.html:196
+#: pages/templates/header.html:29 pages/templates/header.html:188
 msgid "Escape rooms"
 msgstr "Escape rooms"
 
-#: pages/templates/header.html:40 pages/templates/header.html:228
-#: pages/templates/teambuilding.html:546
+#: pages/templates/header.html:40 pages/templates/header.html:220
+#: pages/templates/teambuilding_old.html:546
 msgid "Team Building"
 msgstr "Team Building"
 
-#: pages/templates/header.html:83 pages/templates/header.html:122
+#: pages/templates/header.html:80 pages/templates/header.html:119
 msgid "EN"
 msgstr "EN"
 
-#: pages/templates/header.html:83 pages/templates/header.html:122
+#: pages/templates/header.html:80 pages/templates/header.html:119
 msgid "FR"
 msgstr "FR"
 
-#: pages/templates/header.html:100 pages/templates/header.html:132
+#: pages/templates/header.html:97 pages/templates/header.html:129
 msgid "Salles climatisées"
 msgstr "Air-conditioned rooms"
 
-#: pages/templates/header.html:135
+#: pages/templates/header.html:132
 msgid "tel:0789053790"
 msgstr "tel:0789053790"
 
-#: pages/templates/header.html:170
+#: pages/templates/header.html:167
 #, fuzzy
 #| msgid "Seminar, Workshop, Teambuilding"
 msgid "Entreprise, team building"
 msgstr "Seminar, Workshop, Teambuilding"
 
-#: pages/templates/header.html:204 pages/templates/pricing.html:67
+#: pages/templates/header.html:196 pages/templates/pricing.html:64
 #: pages/templates/room.html:54 pages/templates/room.html:118
 msgid "Book now"
 msgstr "Book now"
 
-#: pages/templates/header.html:212
+#: pages/templates/header.html:204
 msgid "Menu"
 msgstr "Menu"
 
@@ -2606,69 +2408,27 @@ msgstr ""
 msgid "Les avis des joueurs : ce qu'ils pensent de Just Escape"
 msgstr "Player reviews: what they think of Just Escape"
 
-#: pages/templates/home.html:297
-msgid ""
-"Comment offrir un <strong>escape game</strong> ? Avez-vous des "
-"<strong>cartes cadeau ?</strong>"
-msgstr ""
-"How to offer an <strong>escape game</strong>? Do you have <strong>gift "
-"cards</strong>?"
-
 #: pages/templates/home.html:302
-msgid ""
-"Vous pouvez <a class='text-underline text-hover-mulberry' href='/carte-"
-"cadeau'>offrir un escape game grâce à la carte cadeau</a> à un proche."
-msgstr ""
-"You can <a class='text-underline text-hover-mulberry' href='/en/carte-"
-"cadeau'>offer an escape game with the gift card</a> to a loved one."
-
-#: pages/templates/home.html:305
-msgid ""
-"Vous commandez votre bon directement en ligne, pour une mission selon le "
-"nombre de joueurs souhaité."
-msgstr ""
-"You order your voucher directly online, for a mission according to the "
-"number of players desired."
-
-#: pages/templates/home.html:308
-msgid ""
-"Vous recevez alors un email de confirmation avec votre code de réservation. "
-"Vous pouvez également recevoir par courrier une carte aux reflets "
-"métalliques dorés."
-msgstr ""
-"You will then receive a confirmation email with your booking code. You can "
-"also receive a card in the post with a golden metallic sheen."
-
-#: pages/templates/home.html:311
-msgid ""
-"Le titulaire de la <strong>carte cadeau</strong> peut compléter son bon pour "
-"<strong>inviter des détectives supplémentaires</strong>. Le bon est valable "
-"un an pour une partie."
-msgstr ""
-"The <strong>gift card</strong> holder can <strong>add additional detectives</"
-"strong> to the game. The voucher is valid for one year for one game."
-
-#: pages/templates/home.html:329
 msgid "Combien coûte un escape game&nbsp;?"
 msgstr "How much is it for an escape&nbsp;game?"
 
-#: pages/templates/home.html:330
+#: pages/templates/home.html:303
 msgid "Découvrez les tarifs de Just Escape"
 msgstr "Discover Just Escape's prices"
 
-#: pages/templates/home.html:339
+#: pages/templates/home.html:312
 msgid "À partir de "
 msgstr "From "
 
-#: pages/templates/home.html:340 pages/templates/pricing.html:43
+#: pages/templates/home.html:313 pages/templates/pricing.html:43
 msgid "25€"
 msgstr "25€"
 
-#: pages/templates/home.html:341
+#: pages/templates/home.html:314
 msgid " par joueur"
 msgstr " by player"
 
-#: pages/templates/home.html:344
+#: pages/templates/home.html:317
 msgid ""
 "Les <strong>escape games</strong> sont une sortie à faire <strong>en famille "
 "avec les enfants, entre amis ou en couple</strong>."
@@ -2676,7 +2436,7 @@ msgstr ""
 "<strong>Escape games</strong> are a great way to spend time with "
 "<strong>family, friends or couples</strong>."
 
-#: pages/templates/home.html:347
+#: pages/templates/home.html:320
 msgid ""
 "Le scénario peut être <strong>joué à deux personnes</strong> à prix "
 "abordable."
@@ -2684,7 +2444,7 @@ msgstr ""
 "The scenario can be <strong>played by two people</strong> at an affordable "
 "price."
 
-#: pages/templates/home.html:350
+#: pages/templates/home.html:323
 msgid ""
 "Vous organisez un événement comme un <strong>anniversaire, un EVG ou un "
 "EVJF&nbsp;</strong>? Après la partie, vous pourrez rester gratuitement dans "
@@ -2694,40 +2454,19 @@ msgstr ""
 "a bachelorette party</strong>? After the game, you can stay for free on the "
 "sofas in the <strong>reception room</strong>!"
 
-#: pages/templates/home.html:357
+#: pages/templates/home.html:330
 msgid "Salle avec des jeux de société, des tables et des canapés"
 msgstr "Room with board games, tables and sofas"
 
-#: pages/templates/home.html:359
+#: pages/templates/home.html:332
 msgid "Je regarde les horaires"
 msgstr "Check availabilities"
 
-#: pages/templates/home.html:367
-msgid "Vous ne savez jamais quoi offrir&nbsp;?"
-msgstr "Never know what to give?"
-
-#: pages/templates/home.html:368
-msgid "Que diriez-vous d'un bon cadeau original et unique en son genre&nbsp;?"
-msgstr "How about an original and unique gift voucher?"
-
-#: pages/templates/home.html:369
-msgid ""
-"Vos proches vont adorer passer noël ou leur anniversaire avec vous&nbsp;!"
-msgstr ""
-"Your loved ones will love spending Christmas or their birthday with you!"
-
-#: pages/templates/home.html:370
-msgid ""
-"Vous organisez une tombola ou une cagnotte ? Demandez à en recevoir pour "
-"servir de lot."
-msgstr ""
-"Are you organising a tombola or a prize draw? Ask to receive them as a prize."
-
-#: pages/templates/home.html:385
+#: pages/templates/home.html:340
 msgid "Formation, séminaire, atelier, journée d'étude"
 msgstr "Training, seminar, workshop"
 
-#: pages/templates/home.html:386
+#: pages/templates/home.html:341
 msgid ""
 "Le <strong>live escape game</strong> combine le travail d'équipe, la "
 "communication et la logique. C'est une excellente occasion de "
@@ -2737,7 +2476,7 @@ msgstr ""
 "logic. It is an excellent opportunity to <strong>strengthen the cohesion of "
 "a group</strong>."
 
-#: pages/templates/home.html:387
+#: pages/templates/home.html:342
 msgid ""
 "Découvrez des <strong>solutions clé en main pour team building</strong> : "
 "<strong>salle de séminaire</strong>, apéritif dinatoire, etc."
@@ -2745,30 +2484,30 @@ msgstr ""
 "Discover <strong>turnkey solutions for team building</strong>: "
 "<strong>seminar room</strong>, aperitif, etc."
 
-#: pages/templates/home.html:388
+#: pages/templates/home.html:343
 msgid ""
 "Choisissez la formule qu'il vous faut, que vous soyez 2 personnes ou jusqu'à "
 "50 collaborateurs."
 msgstr ""
 "Choose the formula you need, whether you are 2 people or up to 50 employees."
 
-#: pages/templates/home.html:394 pages/templates/teambuilding.html:349
+#: pages/templates/home.html:349 pages/templates/teambuilding_old.html:349
 msgid "Team building pour entreprise dans un escape game"
 msgstr "Team building for compagnies in an escape game"
 
-#: pages/templates/home.html:396
+#: pages/templates/home.html:351
 msgid "J'organise un <strong>team building</strong>"
 msgstr "I organize a <strong>teambuilding</strong>"
 
-#: pages/templates/home.html:459
+#: pages/templates/home.html:414
 msgid "Qu'est-ce qu'un escape game&nbsp;?"
 msgstr "What is an escape game&nbsp;?"
 
-#: pages/templates/home.html:460
+#: pages/templates/home.html:415
 msgid "Mais au fait..."
 msgstr "By the way..."
 
-#: pages/templates/home.html:464
+#: pages/templates/home.html:419
 msgid ""
 "Le principe des <strong>jeux d'évasion grandeur nature</strong> est "
 "d'enfermer un groupe de joueurs dans une <strong>escape room</strong> à "
@@ -2779,11 +2518,11 @@ msgstr ""
 "players in a themed <strong>escape room</strong>. The challenge is to "
 "<strong>solve puzzles as a team</strong> to escape in less than an hour."
 
-#: pages/templates/home.html:467
+#: pages/templates/home.html:422
 msgid "Un maître du jeu veille sur vous pour s'assurer que tout se passe bien."
 msgstr "A game master watches over you to make sure everything runs smoothly."
 
-#: pages/templates/home.html:470
+#: pages/templates/home.html:425
 msgid ""
 "Le jeu d'évasion est un loisir à découvrir <strong>entre amis</strong>, "
 "<strong>en famille avec les enfants</strong> ou <strong>en couple à partir "
@@ -2793,11 +2532,11 @@ msgstr ""
 "strong>, <strong>family</strong> or <strong>in couple from 2 players</"
 "strong>."
 
-#: pages/templates/home.html:480
+#: pages/templates/home.html:435
 msgid "Est-on vraiment enfermé dans l'escape room ?"
 msgstr "Are we really locked in the escape room?"
 
-#: pages/templates/home.html:485
+#: pages/templates/home.html:440
 msgid ""
 "Le principe de l'<strong>escape game</strong> est de <strong>résoudre des "
 "énigmes</strong> dans un temps imparti sans sortir de l'<strong>escape room</"
@@ -2807,7 +2546,7 @@ msgstr ""
 "puzzles</strong> within a given time without leaving the <strong>escape "
 "room</strong>."
 
-#: pages/templates/home.html:488
+#: pages/templates/home.html:443
 msgid ""
 "Bien sûr, en cas de malaise et d'urgence, notre équipe peut évacuer les "
 "joueurs. Un maître du jeu surveille le déroulement de la mission à l'aide de "
@@ -2817,7 +2556,7 @@ msgstr ""
 "A game master monitors the progress of the mission with cameras and "
 "microphones."
 
-#: pages/templates/home.html:491
+#: pages/templates/home.html:446
 msgid ""
 "Le groupe n'est donc ni enfermé ni bloqué à l'intérieur de l'<strong>escape "
 "room</strong>."
@@ -2825,11 +2564,11 @@ msgstr ""
 "The group is therefore neither locked up nor blocked inside the "
 "<strong>escape room</strong>."
 
-#: pages/templates/home.html:501
+#: pages/templates/home.html:456
 msgid "Les joueurs sont-ils filmés dans l'escape room ?"
 msgstr "Are the players filmed in the escape room?"
 
-#: pages/templates/home.html:506
+#: pages/templates/home.html:461
 msgid ""
 "Nous équipons nos <strong>escape rooms</strong> de micros et de caméras pour "
 "surveiller la progression des joueurs pendant la partie. Le rôle du maître "
@@ -2839,23 +2578,23 @@ msgstr ""
 "monitor the players' progress during the game. The role of the game master "
 "is to give you clues."
 
-#: pages/templates/home.html:509
+#: pages/templates/home.html:464
 msgid ""
 "Nos caméras n'enregistrent pas, mais permettent d'assurer la sécurité du "
 "groupe."
 msgstr "Our cameras do not record, but ensure the safety of the group."
 
-#: pages/templates/home.html:519
+#: pages/templates/home.html:474
 msgid "Combien de joueurs peuvent participer à un escape game ?"
 msgstr "How many players can participate in an escape game?"
 
-#: pages/templates/home.html:524
+#: pages/templates/home.html:479
 msgid ""
 "Nos <strong>escape rooms</strong> peuvent accueillir un maximum de 5 joueurs."
 msgstr ""
 "Our <strong>escape rooms</strong> can accommodate a maximum of 5 players."
 
-#: pages/templates/home.html:527
+#: pages/templates/home.html:482
 msgid ""
 "Grâce au système de <strong>salles dupliquées</strong>, vous pouvez venir "
 "jusqu'à 10 joueurs en simultané."
@@ -2863,7 +2602,7 @@ msgstr ""
 "Thanks to the <strong>duplicate room system</strong>, you can bring up to 10 "
 "players at the same time."
 
-#: pages/templates/home.html:530
+#: pages/templates/home.html:485
 msgid ""
 "En cas de groupe plus nombreux (20 personnes maximum), nous ferons un "
 "groupe, tandis que les autres participants pourront jouer à des jeux de "
@@ -2873,15 +2612,15 @@ msgstr ""
 "the other participants can play board games in the <strong>reception room</"
 "strong> (and vice versa)."
 
-#: pages/templates/home.html:540
+#: pages/templates/home.html:495
 msgid "À partir de quel âge peut-on participer à un escape game ?"
 msgstr "From what age is it possible to participate in an escape game?"
 
-#: pages/templates/home.html:545
+#: pages/templates/home.html:500
 msgid "Résoudre des énigmes demande de la logique et de la concentration."
 msgstr "Solving puzzles requires thinking and communication"
 
-#: pages/templates/home.html:548
+#: pages/templates/home.html:503
 msgid ""
 "Nous recommandons un âge minimum de 10 ans pour pouvoir participer. Si les "
 "parents le souhaitent, ils peuvent venir avec des enfants plus jeunes."
@@ -2889,11 +2628,11 @@ msgstr ""
 "We recommend a minimum age of 10 years to participate. If parents wish, they "
 "can bring younger children."
 
-#: pages/templates/home.html:551
+#: pages/templates/home.html:506
 msgid "Les enfants de moins de 15 ans doivent être accompagnés par un adulte."
 msgstr "Children under 15 years of age must be accompanied by an adult."
 
-#: pages/templates/home.html:596
+#: pages/templates/home.html:551
 msgid ""
 "Peut-on organiser <strong>un anniversaire, un EVJF ou un EVG</strong> dans "
 "vos <strong>escape rooms</strong> ?"
@@ -2901,7 +2640,7 @@ msgstr ""
 "Can we organise a <strong>birthday party, a bachelor or a bachelorette "
 "party</strong> in your <strong>escape rooms</strong>?"
 
-#: pages/templates/home.html:601
+#: pages/templates/home.html:556
 msgid ""
 "Notre équipe se fera un plaisir de vous accueillir pour votre "
 "<strong>anniversaire</strong>, <strong>un enterrement de vie de jeune fille</"
@@ -2912,7 +2651,7 @@ msgstr ""
 "<strong>bachelor/bachelorette party</strong>, or any other celebration with "
 "your loved ones."
 
-#: pages/templates/home.html:604
+#: pages/templates/home.html:559
 msgid ""
 "Après votre partie, nous vous invitons à passer un bon moment tous ensemble "
 "dans notre <strong>salle de réception</strong>."
@@ -2920,17 +2659,17 @@ msgstr ""
 "After your game, we invite you to spend some time together in our "
 "<strong>reception room</strong>."
 
-#: pages/templates/home.html:614
+#: pages/templates/home.html:569
 msgid "Y a-t-il des tarifs spéciaux pour les entreprises ?"
 msgstr "Are there special rates for companies?"
 
-#: pages/templates/home.html:619
+#: pages/templates/home.html:574
 msgid ""
 "Oui, nous proposons des prestations spéciales pour les sociétés et leurs "
 "événements."
 msgstr "Yes, we offer special services for companies and their events."
 
-#: pages/templates/home.html:622
+#: pages/templates/home.html:577
 msgid ""
 "Pour les activités de <strong>team building des entreprises ou les BDE</"
 "strong>, nous proposons un <a class='text-underline text-hover-mulberry' "
@@ -2940,7 +2679,7 @@ msgstr ""
 "strong>, we have a <a class='text-underline text-hover-mulberry' href='/en/"
 "team-building#devis'>quote form</a>. "
 
-#: pages/templates/home.html:625
+#: pages/templates/home.html:580
 msgid ""
 "Vous pouvez également nous contacter si vous voulez faire profiter vos "
 "collaborateurs de tarifs préférentiels à titre privé, dans le cadre de votre "
@@ -2949,19 +2688,19 @@ msgstr ""
 "You can also contact us if you want your employees to benefit from "
 "preferential rates on a private basis, as part of your works council."
 
-#: pages/templates/home.html:640
+#: pages/templates/home.html:595
 msgid "Comment rejoindre le centre à&nbsp;Lille&nbsp;?"
 msgstr "How to get to the center in&nbsp;Lille&nbsp;?"
 
-#: pages/templates/home.html:654
+#: pages/templates/home.html:609
 msgid "Horaires d'ouverture"
 msgstr "Opening hours"
 
-#: pages/templates/home.html:708
+#: pages/templates/home.html:663
 msgid "Où se situe <strong>Just Escape</strong> ?"
 msgstr "Where is <strong>Just Escape</strong> located?"
 
-#: pages/templates/home.html:713
+#: pages/templates/home.html:668
 msgid ""
 "Notre local d'<strong>escape game à Lille</strong> se situe au 26 rue "
 "d'Arras."
@@ -2969,7 +2708,7 @@ msgstr ""
 "Our <strong>escape game centre in Lille</strong> is located at 26 rue "
 "d'Arras."
 
-#: pages/templates/home.html:716
+#: pages/templates/home.html:671
 msgid ""
 "Notre local se situe au croisement de la rue Solférino et du parc Jean-"
 "Baptiste Lebas."
@@ -2977,7 +2716,7 @@ msgstr ""
 "Our center is located at the intersection of rue Solférino and Parc Jean-"
 "Baptiste Lebas."
 
-#: pages/templates/home.html:719
+#: pages/templates/home.html:674
 msgid ""
 "Si vous venez en transports en commun, la station de métro Lille Grand "
 "Palais est la plus proche."
@@ -2985,11 +2724,11 @@ msgstr ""
 "If you come by public transport, the Lille Grand Palais metro station is the "
 "nearest."
 
-#: pages/templates/home.html:729
+#: pages/templates/home.html:684
 msgid "Comment se préparer à votre <strong>escape game à Lille</strong> ?"
 msgstr "How to prepare for your <strong>escape game in Lille</strong>?"
 
-#: pages/templates/home.html:734
+#: pages/templates/home.html:689
 msgid ""
 "Venez simplement avec bonne humeur ! Nos <strong>escape games</strong> sont "
 "conçus pour vous faire passer un bon moment."
@@ -2997,18 +2736,18 @@ msgstr ""
 "Just come with good humour! Our <strong>escape games</strong> are designed "
 "to give you a good time."
 
-#: pages/templates/home.html:737
+#: pages/templates/home.html:692
 msgid ""
 "Vous n'avez besoin d'aucune préparation particulière ni de connaissance "
 "préalable pour pouvoir participer."
 msgstr ""
 "You do not need any special preparation or prior knowledge to participate."
 
-#: pages/templates/home.html:747
+#: pages/templates/home.html:702
 msgid "Peut-on modifier sa réservation ?"
 msgstr "Can I change my booking?"
 
-#: pages/templates/home.html:752
+#: pages/templates/home.html:707
 msgid ""
 "Tant que vous n'avez pas réglé la totalité de la réservation, vous pouvez "
 "modifier la taille du groupe, et ce, jusqu'au début de la partie."
@@ -3016,7 +2755,7 @@ msgstr ""
 "As long as you have not paid the full amount of the reservation, you can "
 "change the group size until the start of the game."
 
-#: pages/templates/home.html:755
+#: pages/templates/home.html:710
 msgid ""
 "Si vous avez déjà payé la réservation dans sa totalité, vous pouvez toujours "
 "remplacer un joueur par un autre. La réservation n'est pas nominative."
@@ -3024,7 +2763,7 @@ msgstr ""
 "If you have already paid for the reservation in full, you can always replace "
 "one player with another. The reservation is not nominative."
 
-#: pages/templates/home.html:758
+#: pages/templates/home.html:713
 msgid ""
 "En revanche, si vous réservez 4 places et ne venez qu'à 3 joueurs, nous ne "
 "pourrons pas vous rembourser. Nous vous proposerons un chèque cadeau valable "
@@ -3033,18 +2772,18 @@ msgstr ""
 "However, if you book 4 places and only come with 3 players, we will not be "
 "able to refund you. We will offer you a gift voucher valid for one seat."
 
-#: pages/templates/home.html:768
+#: pages/templates/home.html:723
 msgid "Comment faire si je n'ai pas reçu d'email de confirmation ?"
 msgstr "What if I haven't received a confirmation email?"
 
-#: pages/templates/home.html:773
+#: pages/templates/home.html:728
 msgid ""
 "Pas de panique ! L'envoi de l'email de confirmation peut prendre quelques "
 "minutes."
 msgstr ""
 "Don't panic! It may take a few minutes for the confirmation email to be sent."
 
-#: pages/templates/home.html:776
+#: pages/templates/home.html:731
 msgid ""
 "Pensez à bien vérifier vos spams, ou courriers indésirables. Si l'adresse "
 "email associée à la réservation est erronnée, nous vous invitons à <a "
@@ -3055,11 +2794,11 @@ msgstr ""
 "the booking is incorrect, we invite you to <a class='text-hover-mulberry' "
 "href='/en/contact'>contact our team</a> directly."
 
-#: pages/templates/home.html:786
+#: pages/templates/home.html:741
 msgid "Que se passe-t-il en cas de retard ?"
 msgstr "What happens if I am late?"
 
-#: pages/templates/home.html:791
+#: pages/templates/home.html:746
 msgid ""
 "Pour des raisons d'organisation, présentez-vous à l'heure indiquée dans le "
 "mail de réservation pour jouer votre partie."
@@ -3067,7 +2806,7 @@ msgstr ""
 "For organisational reasons, please arrive at the time indicated in the "
 "booking email to play your game."
 
-#: pages/templates/home.html:794
+#: pages/templates/home.html:749
 msgid ""
 "Par souci de respect et de courtoisie envers les autres groupes, soyez "
 "ponctuels."
@@ -3075,7 +2814,7 @@ msgstr ""
 "For the sake of respect and courtesy towards other groups, please be "
 "punctual."
 
-#: pages/templates/home.html:797
+#: pages/templates/home.html:752
 msgid ""
 "Tout retard pourra être réduit de votre temps de jeu. Au delà de 30 minutes "
 "de retard, votre partie peut être annulée, sans possibilité de réclamation, "
@@ -3085,13 +2824,13 @@ msgstr ""
 "minutes late, your game may be cancelled, with no possibility of claim, "
 "refund or credit."
 
-#: pages/templates/home.html:824
+#: pages/templates/home.html:779
 msgid ""
 "Peut-on participer à un <strong>escape game</strong> quand on est enceinte ?"
 msgstr ""
 "Can you participate in an <strong>escape game</strong> when you are pregnant?"
 
-#: pages/templates/home.html:829
+#: pages/templates/home.html:784
 msgid ""
 "Les femmes enceintes peuvent participer sans problème à notre <strong>escape "
 "game à Lille</strong>."
@@ -3099,7 +2838,7 @@ msgstr ""
 "Pregnant women can participate in our <strong>escape game in Lille</strong> "
 "without any problem."
 
-#: pages/templates/home.html:832
+#: pages/templates/home.html:787
 msgid ""
 "Nos jeux sont conçus pour tout le monde, sans élément effrayants ni activité "
 "physique."
@@ -3107,11 +2846,11 @@ msgstr ""
 "Our games are designed for everyone, without scary elements or physical "
 "activity."
 
-#: pages/templates/home.html:842
+#: pages/templates/home.html:797
 msgid "Les personnes malentendantes peuvent-elles participer ?"
 msgstr "Can people with hearing impairments participate?"
 
-#: pages/templates/home.html:847
+#: pages/templates/home.html:802
 msgid ""
 "Le maître du jeu vous accompagne tout au long de votre partie avec des "
 "indices visuels et sonores."
@@ -3119,7 +2858,7 @@ msgstr ""
 "The game master accompanies you throughout the game with visual and audio "
 "clues."
 
-#: pages/templates/home.html:850
+#: pages/templates/home.html:805
 msgid ""
 "Les personnes avec un handicap auditif ou visuel peuvent prendre part à la "
 "mission. Nous vous recommandons d'avoir toujours au moins un joueur qui ne "
@@ -3159,7 +2898,7 @@ msgstr ""
 msgid "Scénarios de Murder Party à Lille"
 msgstr "Murder Party scenarios in Lille"
 
-#: pages/templates/killer_party.html:29 pages/templates/murder_party.html:49
+#: pages/templates/killer_party.html:29 pages/templates/murder_party.html:61
 #: pages/templates/murder_party_post_mortem.html:29
 #: pages/templates/murder_party_redrock_saloon.html:29
 #: pages/templates/qu_est_ce_qu_une_murder_party.html:43
@@ -3173,6 +2912,10 @@ msgstr "Murder Party"
 msgid "La Killer Party"
 msgstr "The Killer party"
 
+#: pages/templates/killer_party.html:35
+msgid "La killer party"
+msgstr "The killer party"
+
 #: pages/templates/killer_party.html:36
 msgid "Among Us in real life"
 msgstr "Among Us in an escape room"
@@ -3181,8 +2924,7 @@ msgstr "Among Us in an escape room"
 msgid "Des personnages sont dans une intrigue de killer party"
 msgstr "Characters in a killer party plot"
 
-#: pages/templates/killer_party.html:54 pages/templates/murder_party.html:34
-#: pages/templates/murder_party.html:87
+#: pages/templates/killer_party.html:54 pages/templates/murder_party.html:103
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:49
 #: pages/templates/murder_party_post_mortem.html:54
 #: pages/templates/murder_party_redrock_saloon.html:54
@@ -3322,9 +3064,9 @@ msgstr ""
 "party."
 
 #: pages/templates/killer_party.html:226
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:311
-#: pages/templates/murder_party_post_mortem.html:249
-#: pages/templates/murder_party_redrock_saloon.html:265
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:310
+#: pages/templates/murder_party_post_mortem.html:248
+#: pages/templates/murder_party_redrock_saloon.html:264
 #: pages/templates/qui_est_loup_garou.html:160
 #: pages/templates/sherlock_vs_moriarty.html:197
 #: pages/templates/two_rooms.html:165
@@ -3332,9 +3074,9 @@ msgid "Découvrez aussi d'autres scénarios"
 msgstr "Discover other scenarios as well"
 
 #: pages/templates/killer_party.html:230
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:315
-#: pages/templates/murder_party_post_mortem.html:253
-#: pages/templates/murder_party_redrock_saloon.html:269
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:314
+#: pages/templates/murder_party_post_mortem.html:252
+#: pages/templates/murder_party_redrock_saloon.html:268
 #: pages/templates/qui_est_loup_garou.html:164
 #: pages/templates/sherlock_vs_moriarty.html:201
 #: pages/templates/two_rooms.html:169
@@ -3375,11 +3117,23 @@ msgstr "Murder Party scenarios in Lille"
 msgid "Découvrez nos cluedo géants"
 msgstr "Discover our giant cluedos"
 
-#: pages/templates/murder_party.html:58
+#: pages/templates/murder_party.html:34
+#, fuzzy
+#| msgid "Je réserve une séance"
+msgid "Je réserve"
+msgstr "Book now"
+
+#: pages/templates/murder_party.html:41
+#, fuzzy
+#| msgid "J'appelle pour réserver : 07 89 05 37 90"
+msgid "J'appelle : 07 89 05 37 90"
+msgstr "I call to book: +33 7 89 05 37 90"
+
+#: pages/templates/murder_party.html:71
 msgid "Qu'est-ce qu'une <span class='text-mulberry'>murder party</span> ?"
 msgstr "What is a <span class='text-mulberry'>murder party</span>?"
 
-#: pages/templates/murder_party.html:62
+#: pages/templates/murder_party.html:75
 msgid ""
 "Une Murder Party est un jeu d'<b>enquête</b> s'inspirant du <b>Cluedo</b>, "
 "dans lequel les participants incarnent un rôle et tentent d'élucider un "
@@ -3390,7 +3144,7 @@ msgstr ""
 "which participants take on a role and try to solve a murder. They will have "
 "to use <b>deduction</b> and <b>logic</b> and try not to be falsely accused."
 
-#: pages/templates/murder_party.html:65
+#: pages/templates/murder_party.html:78
 msgid ""
 "À la manière d'un <b>escape game</b>, les joueurs sont plongés au coeur d'un "
 "<b>décor immersif</b> rempli de surprises, rendant leur <b>expérience "
@@ -3400,83 +3154,71 @@ msgstr ""
 "<b>immersive setting</b> full of surprises, making their <b>experience "
 "exotic</b> and full of twists and turns."
 
-#: pages/templates/murder_party.html:71
+#: pages/templates/murder_party.html:86
 #, fuzzy
 #| msgid "Comment jouer à une murder party ?"
 msgid "Pourquoi jouer à une murder party ?"
 msgstr "How do you play a murder party?"
 
-#: pages/templates/murder_party.html:75
-msgid ""
-"Pensez-vous que votre entourage <i>aurait</i> combattu à la place de son "
-"père comme Mulan ? <i>Aurait</i> volé aux riches comme Robin des bois ? "
-"<i>Aurait</i> attendu leur Ulysse comme Pénélope ? La vérité c'est que vous "
-"connaissez mal vos proches. Vous vous racontez des histoires sur eux."
-msgstr ""
-
-#: pages/templates/murder_party.html:78
-msgid ""
-"Plongez-les au coeur d'une murder party. Ajoutez un soupçon d'adrénaline. "
-"Observez ce qu'ils font. Méfiez-vous de ce qu'ils vous racontent. Confrontez-"
-"les à leurs mensonges. Et découvrez le meilleur... comme le pire, avec une "
-"bonne dose de fous rire !"
-msgstr ""
-
-#: pages/templates/murder_party.html:98
+#: pages/templates/murder_party.html:114
 #, fuzzy
 #| msgid "Scénarios de murder party à Lille"
 msgid "Nos scénarios de murder party"
 msgstr "Murder Party scenarios in Lille"
 
-#: pages/templates/murder_party.html:99
+#: pages/templates/murder_party.html:115
 #, fuzzy
 #| msgid "Vivez une expérience immersive"
 msgid "Vivez des expériences inédites"
 msgstr "Enjoy an immersive experience"
 
-#: pages/templates/murder_party.html:121
+#: pages/templates/murder_party.html:134
+msgid "Nos autres jeux sur le même thème"
+msgstr ""
+
+#: pages/templates/murder_party.html:152
 #, fuzzy
 #| msgid "Scénarios de murder party à Lille"
 msgid "Quel scénario de murder party choisir ?"
 msgstr "Murder Party scenarios in Lille"
 
-#: pages/templates/murder_party.html:126
+#: pages/templates/murder_party.html:157
 msgid ""
 "Le Tournoi des Sorciers est idéal entre amis ou en famille pour s'immerger "
 "dans son univers école de magie."
 msgstr ""
 
-#: pages/templates/murder_party.html:129
+#: pages/templates/murder_party.html:160
 msgid ""
 "Choisissez le Redrock Saloon dans un cadre pro comme un teambuilding. "
 "L'ambiance village western est accessible au grand nombre."
 msgstr ""
 
-#: pages/templates/murder_party.html:139
+#: pages/templates/murder_party.html:170
 #, fuzzy
 #| msgid "Jusqu'à combien de personnes peut accueillir la salle de réception ?"
 msgid "Jusqu'à combien de joueurs peuvent jouer ?"
 msgstr "How many people can the reception room accommodate?"
 
-#: pages/templates/murder_party.html:144
+#: pages/templates/murder_party.html:175
 msgid ""
 "Just Escape organise régulièrement des événements à 30, 50 voire 150 joueurs "
 "pour des team building ambitieux ou des mariages originaux."
 msgstr ""
 
-#: pages/templates/murder_party.html:147
+#: pages/templates/murder_party.html:178
 msgid "Certaines activités pourraient être plus adaptées comme:"
 msgstr ""
 
-#: pages/templates/murder_party.html:155
+#: pages/templates/murder_party.html:186
 msgid "Appelez-nous au 07 89 05 37 90 pour en discuter."
 msgstr ""
 
-#: pages/templates/murder_party.html:165
+#: pages/templates/murder_party.html:196
 msgid "Est-ce que Just Escape est loin du centre de Lille ?"
 msgstr "Is Just Escape far from the centre of Lille?"
 
-#: pages/templates/murder_party.html:170
+#: pages/templates/murder_party.html:201
 msgid ""
 "Just Escape se situe à 10 minutes à pied du centre de Lille et à côté du "
 "parc Jean-Baptiste Lebas."
@@ -3484,7 +3226,7 @@ msgstr ""
 "Just Escape is a 10-minute walk from the centre of Lille and next to Parc "
 "Jean-Baptiste Lebas."
 
-#: pages/templates/murder_party.html:173
+#: pages/templates/murder_party.html:204
 msgid ""
 "Notez que toutes nos Murder Party peuvent être jouées sur le lieu de votre "
 "choix."
@@ -3492,11 +3234,11 @@ msgstr ""
 "Please note that all our Murder Parties can be played at the venue of your "
 "choice."
 
-#: pages/templates/murder_party.html:183
+#: pages/templates/murder_party.html:214
 msgid "Quelle murder party est la plus adaptée pour un groupe d'enfants ?"
 msgstr "Is a murder party suitable for a group of children?"
 
-#: pages/templates/murder_party.html:188
+#: pages/templates/murder_party.html:219
 msgid ""
 "Pour un groupe d'enfants, Two Rooms est le jeu le plus adapté en raison de "
 "la simplicité des règles et de son scénario. La Killer Party est également "
@@ -3505,141 +3247,15 @@ msgstr ""
 "For a group of children, Two Rooms is the most suitable game because of the "
 "simplicity of the rules and the scenario. Killer Party is also possible."
 
-#: pages/templates/murder_party.html:203
-msgid "Bienvenue dans nos activités de Murder Party à Lille"
-msgstr "Welcome to our Murder Party activities in Lille"
-
-#: pages/templates/murder_party.html:208
-msgid "Plongez dans une intrigue captivante avec notre murder party à Lille"
-msgstr "Immerse yourself in a captivating plot with our murder party in Lille"
-
-#: pages/templates/murder_party.html:209
-msgid ""
-"Vous recherchez une animation immersive et captivante pour fédérer votre "
-"équipe lors d'un événement d'entreprise à Lille ? Découvrez notre murder "
-"party, une activité originale mêlant jeu d'enquête, scénario policier et jeu "
-"de rôle grandeur nature. Plongez au cœur d'une intrigue mystérieuse lors de "
-"notre murder party à Lille et renforcez la cohésion d'équipe de manière "
-"ludique et engageante."
-msgstr ""
-"Are you looking for an immersive and captivating activity to bring your team "
-"together at a corporate event in Lille? Discover our murder party, an "
-"original activity combining investigation games, detective scenarios and "
-"life-size role-playing. Plunge into the heart of a mysterious plot at our "
-"murder party in Lille and strengthen team cohesion in a fun and engaging way."
-
-#: pages/templates/murder_party.html:210
-msgid "Découvrez une expérience immersive lors de notre Murder Party à Lille"
-msgstr "Discover an immersive experience at our Murder Party in Lille"
-
-#: pages/templates/murder_party.html:211
-msgid ""
-"Notre murder party à Lille est conçue comme un jeu collaboratif, parfait "
-"pour les activités de team building. Les jeux d'équipe et les activités de "
-"cohésion d'équipe sont intégrés tout au long de l'animation, favorisant "
-"ainsi la collaboration et le travail d'équipe. Vous serez totalement "
-"immergés dans l'intrigue captivante et participerez à une expérience "
-"interactive unique qui stimulera le team spirit."
-msgstr ""
-"Our murder party in Lille is designed as a collaborative game, perfect for "
-"team building activities. Team games and team-building activities are "
-"integrated throughout, encouraging collaboration and teamwork. You'll be "
-"totally immersed in the captivating plot and take part in a unique "
-"interactive experience that will stimulate team spirit."
-
-#: pages/templates/murder_party.html:212
-msgid ""
-"Explorez une intrigue mystérieuse lors de notre animation de Murder Party à "
-"Lille"
-msgstr "Explore a mysterious plot at our Murder Party in Lille"
-
-#: pages/templates/murder_party.html:213
-msgid ""
-"Nous vous proposons des idées de team building originales pour votre "
-"entreprise à Lille, telles que notre animation de murder party. Cette "
-"activité permet de renforcer les liens au sein de votre équipe tout en "
-"développant des compétences de résolution de problèmes, de communication et "
-"de collaboration. Nos techniques de team building sont conçues pour "
-"dynamiser une réunion d'équipe et maximiser l'engagement des participants."
-msgstr ""
-"We offer original team building ideas for your company in Lille, such as our "
-"murder party activity. This activity strengthens bonds within your team "
-"while developing problem-solving, communication and collaboration skills. "
-"Our team building techniques are designed to energise a team meeting and "
-"maximise participant engagement."
-
-#: pages/templates/murder_party.html:214
-msgid "Expérimentez une activité originale avec notre Murder Party à Lille"
-msgstr "Experience an original activity with our Murder Party in Lille"
-
-#: pages/templates/murder_party.html:215
-msgid ""
-"Lors de notre animation de murder party à Lille, nous vous offrons "
-"l'opportunité d'intégrer votre équipe dans une expérience immersive où "
-"chacun a un rôle essentiel à jouer. C'est également une occasion de relever "
-"des défis en équipe et de résoudre ensemble des énigmes complexes. Cette "
-"animation peut être adaptée à vos besoins spécifiques, que ce soit pour un "
-"séminaire, une soirée d'entreprise ou une journée de cohésion de groupe."
-msgstr ""
-"During our murder party in Lille, we offer you the opportunity to integrate "
-"your team into an immersive experience where everyone has an essential role "
-"to play. It's also an opportunity to take up challenges as a team and solve "
-"complex enigmas together. This activity can be adapted to your specific "
-"needs, whether for a seminar, a company evening or a group bonding day."
-
-#: pages/templates/murder_party.html:216
-msgid ""
-"Profitez d’une animation interactive unique lors de notre Murder Party à "
-"Lille"
-msgstr "Enjoy unique interactive entertainment at our Murder Party in Lille"
-
-#: pages/templates/murder_party.html:217
-msgid ""
-"En plus de notre murder party à Lille, nous proposons une large gamme "
-"d'animations pour vos événements d'entreprise. Que ce soit une soirée "
-"entreprise, un séminaire ou une journée d'intégration, nous pouvons vous "
-"fournir des idées d'animation originales et des concepts innovants pour "
-"rendre votre événement mémorable. Notre expertise en animation "
-"événementielle et incentive vous permettra d'organiser des activités "
-"personnalisées qui correspondent à vos objectifs."
-msgstr ""
-"In addition to our murder party in Lille, we offer a wide range of "
-"entertainment for your corporate events. Whether it's a corporate evening, a "
-"seminar or an induction day, we can provide you with original entertainment "
-"ideas and innovative concepts to make your event memorable. Our expertise in "
-"event and incentive entertainment will enable you to organise personalised "
-"activities that meet your objectives."
-
-#: pages/templates/murder_party.html:218
-msgid ""
-"Contactez-nous dès aujourd’hui pour discuter de notre animation de Murde "
-"Party à Lille"
-msgstr "Contact us today to discuss our Murde Party entertainment in Lille"
-
-#: pages/templates/murder_party.html:219
-msgid ""
-"Ne cherchez plus, contactez-nous dès aujourd'hui pour discuter de vos "
-"besoins en matière d'animation d'événements d'entreprise à Lille. Nous "
-"pouvons vous proposer des idées d'organisation, des concepts originaux et "
-"des animations adaptées pour renforcer la cohésion d'équipe, dynamiser vos "
-"réunions et créer des expériences uniques lors de vos soirées et séminaires "
-"d'entreprise."
-msgstr ""
-"Contact us today to discuss your corporate event entertainment needs in "
-"Lille. We can provide you with organisational ideas, original concepts and "
-"appropriate entertainment to strengthen team cohesion, energise your "
-"meetings and create unique experiences during your corporate evenings and "
-"seminars."
-
-#: pages/templates/murder_party.html:225
+#: pages/templates/murder_party.html:234
 msgid "Une question sur les murder party ?"
 msgstr "Do you have a question about murder parties?"
 
-#: pages/templates/murder_party.html:226
+#: pages/templates/murder_party.html:235
 msgid "Consultez notre FAQ"
 msgstr "Consult our FAQ"
 
-#: pages/templates/murder_party.html:240
+#: pages/templates/murder_party.html:249
 msgid ""
 "La Murder Party à Lille est une activité immersive et captivante qui mêle "
 "jeu d'enquête, scénario policier et jeu de rôle grandeur nature."
@@ -3647,7 +3263,7 @@ msgstr ""
 "The Murder Party in Lille is an immersive and captivating activity that "
 "combines investigative games, detective scenarios and life-size role-playing."
 
-#: pages/templates/murder_party.html:243
+#: pages/templates/murder_party.html:252
 msgid ""
 "Elle offre une expérience interactive unique où les participants plongent au "
 "coeur d'une intrigue mystérieuse."
@@ -3655,11 +3271,11 @@ msgstr ""
 "It offers a unique interactive experience where participants plunge into the "
 "heart of a mysterious plot."
 
-#: pages/templates/murder_party.html:253
+#: pages/templates/murder_party.html:262
 msgid "Quelle murder party choisir pour un événement d'entreprise ?"
 msgstr "Which murder party should you choose for a corporate event?"
 
-#: pages/templates/murder_party.html:258
+#: pages/templates/murder_party.html:267
 msgid ""
 "Si vous souhaitez renforcer la cohésion au sein de votre groupe la Murder "
 "Party classique reste la meilleure option pour un team building."
@@ -3667,7 +3283,7 @@ msgstr ""
 "If you want to strengthen cohesion within your group, the classic Murder "
 "Party is still the best option for team building."
 
-#: pages/templates/murder_party.html:261
+#: pages/templates/murder_party.html:270
 msgid ""
 "Les Murder Party sont des jeux interactifs qui encouragent la collaboration, "
 "la communication et la coopération entre les participants, favorisant ainsi "
@@ -3677,14 +3293,14 @@ msgstr ""
 "communication and cooperation between participants, helping to strengthen "
 "team spirit within the company."
 
-#: pages/templates/murder_party.html:264
+#: pages/templates/murder_party.html:273
 msgid ""
 "Elles suscitent l’engagement des participants et créent une atmosphère "
 "conviviale et amusante lors de l’événement."
 msgstr ""
 "They engage participants and create a friendly, fun atmosphere at the event."
 
-#: pages/templates/murder_party.html:267
+#: pages/templates/murder_party.html:276
 msgid ""
 "Les Murder Party mettent les participants au défi de résoudre des énigmes, "
 "de trouver des indices et de démasquer le coupable. Cela encourage le "
@@ -3695,7 +3311,7 @@ msgstr ""
 "unmask the culprit. This encourages the development of problem-solving and "
 "decision-making skills."
 
-#: pages/templates/murder_party.html:295
+#: pages/templates/murder_party.html:304
 #, fuzzy
 #| msgid "Découvrez aussi d'autres scénarios"
 msgid "Découvrez aussi nos autres scénarios"
@@ -3783,10 +3399,6 @@ msgstr ""
 msgid "26 rue d'Arras, près de la rue Solférino, Lille"
 msgstr "26 rue d'Arras, near rue Solférino, Lille"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:136
-msgid "90 minutes de jeu"
-msgstr "90 minutes of game"
-
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:144
 #: pages/templates/murder_party_post_mortem.html:114
 #: pages/templates/sherlock_vs_moriarty.html:115
@@ -3800,61 +3412,58 @@ msgid "Inclus dans le prix"
 msgstr "Included in the price"
 
 #: pages/templates/murder_party_le_tournoi_des_sorciers.html:158
-msgid "Une boisson par participant parmis une sélection"
-msgstr "One beverage per participant from a selection"
-
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:159
 msgid ""
 "Un acteur pour un groupe allant jusqu'à 15 personnes et un deuxième au delà"
 msgstr ""
 "One actor for groups of up to 15 people and a second actor for groups of "
 "more than 15 people."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:160
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:159
 msgid "Des costumes sont mis à disposition"
 msgstr "Costumes are at your disposal"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:172
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:171
 msgid ""
 "Participants plongés dans une enquête criminelle lors d'une murder party à "
 "Lille"
 msgstr ""
 "Participants immersed in a criminal investigation at a murder party in Lille"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:179
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:178
 msgid "Scénario intrigant et indices cachés pendant une murder party à Lille"
 msgstr "Intriguing scenario and hidden clues during a murder party in Lille"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:186
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:185
 msgid ""
 "Joueurs analysant une scène de crime fictive lors d'une murder party à Lille"
 msgstr "Players analysing a fictitious crime scene at a murder party in Lille"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:215
-#: pages/templates/murder_party_post_mortem.html:155
-#: pages/templates/murder_party_redrock_saloon.html:154
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:214
+#: pages/templates/murder_party_post_mortem.html:154
+#: pages/templates/murder_party_redrock_saloon.html:153
 msgid "Formulaire de réservation"
 msgstr "Booking form"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:220
-#: pages/templates/murder_party_post_mortem.html:160
-#: pages/templates/murder_party_redrock_saloon.html:159
-#: pages/templates/teambuilding.html:102 pages/templates/teambuilding.html:465
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:219
+#: pages/templates/murder_party_post_mortem.html:159
+#: pages/templates/murder_party_redrock_saloon.html:158
+#: pages/templates/teambuilding_old.html:102
+#: pages/templates/teambuilding_old.html:465
 msgid "Je demande un devis"
 msgstr "I request a quote"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:229
-#: pages/templates/murder_party_post_mortem.html:170
-#: pages/templates/murder_party_redrock_saloon.html:168
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:228
+#: pages/templates/murder_party_post_mortem.html:169
+#: pages/templates/murder_party_redrock_saloon.html:167
 msgid "Une question sur cette murder party ? Consultez notre FAQ"
 msgstr ""
 "Do you have a question about this murder party in Lille? Check out our FAQ"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:239
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:238
 msgid "Les enfants sont-ils acceptés ?"
 msgstr "Are children accepted?"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:244
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:243
 msgid ""
 "Oui, les enfants sont acceptés dans notre Murder Party ! Une version "
 "simplifiée du scénario est spécialement conçue pour les plus jeunes. "
@@ -3867,15 +3476,15 @@ msgstr ""
 "recommended that they be accompanied by an adult for a more comfortable and "
 "enjoyable experience. The minimum age for participation is 9."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:254
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:253
 msgid "Peut-on jouer en anglais ?"
 msgstr "Can we play in english?"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:259
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:258
 msgid "Une version anglaise est disponible <b>sur demande</b>."
 msgstr "An english version is available <b>on demand</b>."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:262
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:261
 msgid ""
 "Afin de garantir une expérience optimale, veuillez nous informer de votre "
 "préférence linguistique lors de la réservation <b>via les commentaires ou "
@@ -3885,7 +3494,7 @@ msgstr ""
 "preference at the time of booking via the <b>comments section or by e-mail "
 "to contact@justescape.fr</b>."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:265
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:264
 msgid ""
 "Que vous préfériez le français ou l'anglais, préparez-vous à une soirée "
 "immersive pleine de mystère, d'indices et de stratégies."
@@ -3893,11 +3502,11 @@ msgstr ""
 "Whether you prefer french or english, get ready for an immersive evening "
 "full of mystery, clues and strategies."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:275
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:274
 msgid "Est-ce accessible pour tous les niveaux ?"
 msgstr "Is it accessible to players of all levels?"
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:280
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:279
 msgid ""
 "Que vous soyez débutant ou déjà expérimenté, la Murder Party s'adapte "
 "parfaitement à tous les niveaux."
@@ -3905,7 +3514,7 @@ msgstr ""
 "Whether you're a beginner or an experienced player, the Murder Party is "
 "perfect for all levels."
 
-#: pages/templates/murder_party_le_tournoi_des_sorciers.html:283
+#: pages/templates/murder_party_le_tournoi_des_sorciers.html:282
 msgid ""
 "Elle a été conçue pour être accessible à tous, permettant à chacun de la "
 "prendre en main facilement. Vous jouerez avec une difficulté adaptée, et les "
@@ -3940,7 +3549,7 @@ msgstr ""
 "with this completely unusual activity!"
 
 #: pages/templates/murder_party_post_mortem.html:35
-msgid "Scénario : Post Mortem (sortie prochaine)"
+msgid "Scénario : Post Mortem"
 msgstr ""
 
 #: pages/templates/murder_party_post_mortem.html:46
@@ -3952,23 +3561,41 @@ msgid ""
 msgstr "Characters are involved in a murder party plot"
 
 #: pages/templates/murder_party_post_mortem.html:63
-#: pages/templates/murder_party_post_mortem.html:73
-#: pages/templates/murder_party_post_mortem.html:83
-msgid "???"
+msgid "Pour les fans du cluedo"
 msgstr ""
 
 #: pages/templates/murder_party_post_mortem.html:66
+msgid ""
+"Idéal pour les fans de Cluedo et des romans d’Agatha Christie, ce scénario "
+"recrée un huis clos palpitant où chacun devient suspect et détective à la "
+"fois. Vivez un bon polar avec vos proches."
+msgstr ""
+
+#: pages/templates/murder_party_post_mortem.html:73
+msgid "Scénario grand public"
+msgstr ""
+
 #: pages/templates/murder_party_post_mortem.html:76
+msgid ""
+"L’époque de Post Mortem est un début de XXᵉ siècle teinté de victorien "
+"finissant, où la modernité côtoie encore les superstitions. Cette ambiance "
+"réaliste est parfaite pour une immersion légère, adaptée au grand public."
+msgstr ""
+
+#: pages/templates/murder_party_post_mortem.html:83
+#, fuzzy
+#| msgid "Jusqu'à 150 joueurs"
+msgid "Jusqu'à 50 joueurs"
+msgstr "Up to 150 players"
+
 #: pages/templates/murder_party_post_mortem.html:86
-msgid "Sortie prochaine. Page en cours de construction."
+msgid ""
+"Grâce à un nouveau système de jeu innovant, ce scénario a la capacité "
+"d'accueillir jusqu'à 50 joueurs ! (Ce qui est normalement quasi impossible "
+"pour une murder party classique)"
 msgstr ""
 
 #: pages/templates/murder_party_post_mortem.html:128
-#: pages/templates/murder_party_redrock_saloon.html:128
-msgid "Une boisson par personne pour vous rafraîchir pendant l'enquête"
-msgstr "A refreshing beverage per person during the investigation."
-
-#: pages/templates/murder_party_post_mortem.html:129
 #, fuzzy
 #| msgid ""
 #| "Des costumes et accessoires pour plonger pleinement dans l'ambiance du "
@@ -3978,7 +3605,7 @@ msgid ""
 "scénario"
 msgstr "Costumes and accessories to give you the full Fast West feel"
 
-#: pages/templates/murder_party_post_mortem.html:130
+#: pages/templates/murder_party_post_mortem.html:129
 #, fuzzy
 #| msgid ""
 #| "La présence de deux acteurs professionnels qui donneront vie aux "
@@ -3990,13 +3617,17 @@ msgstr ""
 "The presence of two professional actors who will bring to life the key "
 "characters in the plot"
 
-#: pages/templates/murder_party_post_mortem.html:180
-#: pages/templates/murder_party_redrock_saloon.html:178
+#: pages/templates/murder_party_post_mortem.html:142
+msgid "Avant-première"
+msgstr ""
+
+#: pages/templates/murder_party_post_mortem.html:179
+#: pages/templates/murder_party_redrock_saloon.html:177
 msgid "Comment se déroule une murder party ?"
 msgstr "How does a murder party work?"
 
-#: pages/templates/murder_party_post_mortem.html:185
-#: pages/templates/murder_party_redrock_saloon.html:183
+#: pages/templates/murder_party_post_mortem.html:184
+#: pages/templates/murder_party_redrock_saloon.html:182
 msgid ""
 "Une Murder Party est un jeu de rôle grandeur nature dans lequel les joueurs "
 "endossent les rôles des personnages d'une histoire. À chaque joueur sera "
@@ -4007,8 +3638,8 @@ msgstr ""
 "roles of characters in a story. Each player will be given a character sheet, "
 "as well as costume elements and accessories."
 
-#: pages/templates/murder_party_post_mortem.html:188
-#: pages/templates/murder_party_redrock_saloon.html:186
+#: pages/templates/murder_party_post_mortem.html:187
+#: pages/templates/murder_party_redrock_saloon.html:185
 msgid ""
 "La Murder Party se déroule dans les locaux de Just Escape, où des éléments "
 "de décors seront installés."
@@ -4016,13 +3647,13 @@ msgstr ""
 "The Murder Party will take place on the Just Escape premises, where the "
 "decor will be set up."
 
-#: pages/templates/murder_party_post_mortem.html:198
-#: pages/templates/murder_party_redrock_saloon.html:196
+#: pages/templates/murder_party_post_mortem.html:197
+#: pages/templates/murder_party_redrock_saloon.html:195
 msgid "Des acteurs sont-ils inclus dans la murder party ?"
 msgstr "Are actors included in the murder party?"
 
-#: pages/templates/murder_party_post_mortem.html:203
-#: pages/templates/murder_party_redrock_saloon.html:201
+#: pages/templates/murder_party_post_mortem.html:202
+#: pages/templates/murder_party_redrock_saloon.html:200
 msgid ""
 "Des acteurs sont inclus dans le scénario de la Murder Party. Ils sont "
 "présents pour vous aider en cas de difficulté, mais ils sont également "
@@ -4032,13 +3663,13 @@ msgstr ""
 "you run into difficulties, but they're also essential to the continuity of "
 "the game."
 
-#: pages/templates/murder_party_post_mortem.html:213
-#: pages/templates/murder_party_redrock_saloon.html:211
+#: pages/templates/murder_party_post_mortem.html:212
+#: pages/templates/murder_party_redrock_saloon.html:210
 msgid "La murder party est-elle adaptée pour un EVJF ou un EVG ?"
 msgstr "Is a murder party suitable for a stag or hen party?"
 
-#: pages/templates/murder_party_post_mortem.html:218
-#: pages/templates/murder_party_redrock_saloon.html:216
+#: pages/templates/murder_party_post_mortem.html:217
+#: pages/templates/murder_party_redrock_saloon.html:215
 msgid ""
 "Vous pouvez proposer, lors d'une organisation d'EVJF ou d'EVG une activité "
 "originale en proposant une Murder Party. Idéal pour des grands groupes "
@@ -4048,8 +3679,8 @@ msgstr ""
 "proposing a Murder Party. Ideal for large groups of friends, the Murder "
 "Party can surprise your group."
 
-#: pages/templates/murder_party_post_mortem.html:221
-#: pages/templates/murder_party_redrock_saloon.html:219
+#: pages/templates/murder_party_post_mortem.html:220
+#: pages/templates/murder_party_redrock_saloon.html:218
 msgid ""
 "Dans le cas où certaines personnes ne seraient pas à l'aise en public, nous "
 "vous conseillons de <a href='/fr/reserver'>réserver un escape game</a> pour "
@@ -4130,13 +3761,13 @@ msgstr ""
 msgid "À partir de 30€ par personne"
 msgstr "From 30€ per person"
 
-#: pages/templates/murder_party_redrock_saloon.html:129
+#: pages/templates/murder_party_redrock_saloon.html:128
 msgid ""
 "Des costumes et accessoires pour plonger pleinement dans l'ambiance du Fast "
 "West"
 msgstr "Costumes and accessories to give you the full Fast West feel"
 
-#: pages/templates/murder_party_redrock_saloon.html:130
+#: pages/templates/murder_party_redrock_saloon.html:129
 msgid ""
 "La présence de deux acteurs professionnels qui donneront vie aux personnages "
 "clés de l'intrigue"
@@ -4144,11 +3775,11 @@ msgstr ""
 "The presence of two professional actors who will bring to life the key "
 "characters in the plot"
 
-#: pages/templates/murder_party_redrock_saloon.html:229
+#: pages/templates/murder_party_redrock_saloon.html:228
 msgid "Qu'est-ce qu'une Murder Party en session libre ?"
 msgstr "What is a murder party open session?"
 
-#: pages/templates/murder_party_redrock_saloon.html:234
+#: pages/templates/murder_party_redrock_saloon.html:233
 msgid ""
 "Les sessions libres sont faites pour les groupes qui n'ont pas assez de "
 "participants. Formez une équipe avec d'autres joueurs aussi passionnés que "
@@ -4157,7 +3788,7 @@ msgstr ""
 "Open sessions are for groups that don't have enough participants. Form a "
 "team with other players who are as passionate as you are."
 
-#: pages/templates/murder_party_redrock_saloon.html:237
+#: pages/templates/murder_party_redrock_saloon.html:236
 msgid ""
 "Chaque session est l'opportunité de découvrir de nouvelles personnes. Cette "
 "diversité rend votre session libre unique et imprévisible."
@@ -4231,7 +3862,7 @@ msgstr ""
 "Fortunately, we have <a class='text-underline text-hover-mulberry' href='/en/"
 "team-building'>turnkey Team&nbsp;Building packages</a>."
 
-#: pages/templates/pricing.html:34 pages/templates/pricing.html:58
+#: pages/templates/pricing.html:34 pages/templates/pricing.html:55
 msgid "<span class='text-jaffa'>Suggested for:</span>"
 msgstr "<span class='text-jaffa'>Suggested for:</span>"
 
@@ -4248,18 +3879,10 @@ msgid "Gift card"
 msgstr "Gift card"
 
 #: pages/templates/pricing.html:55
-msgid ""
-"Your friends and family will love you with this <a href='/en/carte-cadeau' "
-"class='text-underline text-hover-mulberry'>gift&nbsp;box</a>."
-msgstr ""
-"Your friends and family will love you with this <a href='/en/carte-cadeau' "
-"class='text-underline text-hover-mulberry'>gift&nbsp;box</a>."
-
-#: pages/templates/pricing.html:58
 msgid "Birthday, Christmas, Money&nbsp;pot, Lottery"
 msgstr "Birthday, Christmas, Money&nbsp;pot, Lottery"
 
-#: pages/templates/pricing.html:69
+#: pages/templates/pricing.html:66
 msgid "Company quote"
 msgstr "Company quote"
 
@@ -5160,11 +4783,12 @@ msgstr "A person walking, seen from the side"
 msgid "Yelp"
 msgstr "Yelp"
 
-#: pages/templates/teambuilding.html:6
+#: pages/templates/teambuilding_old.html:6
 msgid "Team Building – Escape Game Lille – Just Escape"
 msgstr "Team Building – Escape Game Lille – Just Escape"
 
-#: pages/templates/teambuilding.html:7 pages/templates/teambuilding.html:10
+#: pages/templates/teambuilding_old.html:7
+#: pages/templates/teambuilding_old.html:10
 msgid ""
 "Turnkey packages: Breakfast ☕ Cocktail 🍸 Dinner Aperitif 🍻 Workshop 📈 "
 "Privatization 🤵"
@@ -5172,42 +4796,42 @@ msgstr ""
 "Turnkey packages: Breakfast ☕ Cocktail 🍸 Dinner Aperitif 🍻 Workshop 📈 "
 "Privatization 🤵"
 
-#: pages/templates/teambuilding.html:9
+#: pages/templates/teambuilding_old.html:9
 msgid "Team Building – Turnkey Packages"
 msgstr "Team Building – Turnkey Packages"
 
-#: pages/templates/teambuilding.html:22
+#: pages/templates/teambuilding_old.html:22
 msgid "Team building ou séminaire lille clé en main"
 msgstr ""
 
-#: pages/templates/teambuilding.html:41
+#: pages/templates/teambuilding_old.html:41
 msgid ""
 "Dans une salle d'escape game à Lille, deux collègues sont contentes de leur "
 "team building"
 msgstr ""
 "In an escape room in Lille, two colleagues are enjoying their teambuilding"
 
-#: pages/templates/teambuilding.html:57
+#: pages/templates/teambuilding_old.html:57
 msgid "La salle de séminaire avec sa baie vitrée"
 msgstr "The seminar room with its bay window"
 
-#: pages/templates/teambuilding.html:64
+#: pages/templates/teambuilding_old.html:64
 msgid "Un cocktail dinatoire réunit une équipe célèbrant un événement"
 msgstr "A cocktail party brings together a team celebrating an event"
 
-#: pages/templates/teambuilding.html:71
+#: pages/templates/teambuilding_old.html:71
 msgid "Une énigme qui demande de la cohésion d'équipe"
 msgstr "A puzzle that requires teamwork"
 
-#: pages/templates/teambuilding.html:77
+#: pages/templates/teambuilding_old.html:77
 msgid "Previous"
 msgstr "Previous"
 
-#: pages/templates/teambuilding.html:81
+#: pages/templates/teambuilding_old.html:81
 msgid "Next"
 msgstr "Next"
 
-#: pages/templates/teambuilding.html:87
+#: pages/templates/teambuilding_old.html:87
 #, fuzzy
 #| msgid ""
 #| "Centre d'escape game avec salle de réunion&nbsp;: le team building parfait"
@@ -5217,7 +4841,7 @@ msgid ""
 msgstr ""
 "Escape game centre with meeting room: the perfect team building experience"
 
-#: pages/templates/teambuilding.html:88
+#: pages/templates/teambuilding_old.html:88
 #, fuzzy
 #| msgid ""
 #| "Vous recherchez une activité originale pour un afterwork entre "
@@ -5233,21 +4857,21 @@ msgstr ""
 "Would you like to organise a memorable company seminar? Just Escape Lille "
 "will organise the right event for you:"
 
-#: pages/templates/teambuilding.html:90
+#: pages/templates/teambuilding_old.html:90
 #, fuzzy
 #| msgid "Escape Game Lille – De 2 à 50 joueurs"
 msgid "Salle d'escape game à Lille jusqu'à 10 joueurs"
 msgstr "Escape Game Lille - From 2 to 50 players"
 
-#: pages/templates/teambuilding.html:91
+#: pages/templates/teambuilding_old.html:91
 msgid "Murder party pour team building à Lille <b>jusqu'à 50 joueurs</b>"
 msgstr ""
 
-#: pages/templates/teambuilding.html:92
+#: pages/templates/teambuilding_old.html:92
 msgid "Jeu d'énigmes pour cocktail dinatoire <b>jusqu'à 150 personnes</b>"
 msgstr ""
 
-#: pages/templates/teambuilding.html:93
+#: pages/templates/teambuilding_old.html:93
 #, fuzzy
 #| msgid ""
 #| "Organisation de journée ou de soirée sur mesure&nbsp;: salle de "
@@ -5262,7 +4886,7 @@ msgstr ""
 "cocktail dinners, sweet snacks, escape games, themed immersion games and "
 "much more."
 
-#: pages/templates/teambuilding.html:112
+#: pages/templates/teambuilding_old.html:112
 msgid ""
 "Organiser un escape game à Lille pour votre entreprise présente de nombreux "
 "avantages&nbsp;:"
@@ -5270,7 +4894,7 @@ msgstr ""
 "Organising an escape game in Lille for your company has a number of "
 "advantages:"
 
-#: pages/templates/teambuilding.html:115
+#: pages/templates/teambuilding_old.html:115
 msgid ""
 "Tout d'abord, cela permet de créer un moment de détente et de divertissement "
 "pour les employés, ce qui peut contribuer à améliorer le bien être au "
@@ -5282,7 +4906,7 @@ msgstr ""
 "together, employees can relax and forget the daily stress associated with "
 "their work."
 
-#: pages/templates/teambuilding.html:116
+#: pages/templates/teambuilding_old.html:116
 msgid ""
 "De plus, les escape games ou murder party sont des activités ludiques qui "
 "permettent de développer la créativité et la capacité de travail en équipe. "
@@ -5297,7 +4921,7 @@ msgstr ""
 "members of the team. This can be beneficial for the company, as it can "
 "strengthen cooperation within the team and improve its performance."
 
-#: pages/templates/teambuilding.html:117
+#: pages/templates/teambuilding_old.html:117
 msgid ""
 "Un autre avantage du team building est qu'il permet de créer des liens entre "
 "les employés et de développer la solidarité au sein de l'entreprise. En "
@@ -5310,7 +4934,7 @@ msgstr ""
 "together to solve puzzles and succeed in a mission, employees can get to "
 "know each other better and strengthen their team spirit."
 
-#: pages/templates/teambuilding.html:118
+#: pages/templates/teambuilding_old.html:118
 msgid ""
 "Enfin, un team building en escape game est une activité originale et "
 "inoubliable qui peut être très appréciée par les employés. Cela peut être un "
@@ -5322,7 +4946,7 @@ msgstr ""
 "the company to show its appreciation of its employees and offer them a "
 "unique experience."
 
-#: pages/templates/teambuilding.html:120
+#: pages/templates/teambuilding_old.html:120
 msgid ""
 "En résumé, organiser un escape game à Lille pour votre entreprise présente "
 "de nombreux avantages, tels que le développement de la créativité et de la "
@@ -5333,170 +4957,205 @@ msgstr ""
 "advantages, such as developing creativity and team cohesion. This benefits "
 "the company in terms of performance and well-being at work."
 
-#: pages/templates/teambuilding.html:137
+#: pages/templates/teambuilding_old.html:137
 msgid "Nouez des liens authentiques"
 msgstr ""
 
-#: pages/templates/teambuilding.html:140
+#: pages/templates/teambuilding_old.html:140
 #, python-format
 msgid ""
 "50%% de nos clients (300 entreprises) ont renforcé leurs liens avec une "
 "murder party."
 msgstr ""
 
-#: pages/templates/teambuilding.html:141
+#: pages/templates/teambuilding_old.html:141
 #, fuzzy
 #| msgid "Des joueurs dans une murder party jouent lors d'une soirée enquête"
 msgid ""
 "Les sessions de murder party favorisent les connections d'une manière unique."
 msgstr "Murder party players take part in an evening of investigation"
 
-#: pages/templates/teambuilding.html:142
+#: pages/templates/teambuilding_old.html:142
 msgid "Jouez avec vos collègues plutôt qu'avec des cadenas."
 msgstr ""
 
-#: pages/templates/teambuilding.html:148
+#: pages/templates/teambuilding_old.html:148
 #, python-format
 msgid ""
 "Graphique illustrant que 50%% des teambuilding chez Just Escape sont des "
 "murder party"
 msgstr ""
 
-#: pages/templates/teambuilding.html:157
+#: pages/templates/teambuilding_old.html:157
 #, fuzzy
 #| msgid "<span class='text-jaffa'>Suggested for:</span>"
 msgid "<span class='text-jaffa'>Participez à la même activité</span>"
 msgstr "<span class='text-jaffa'>Suggested for:</span>"
 
-#: pages/templates/teambuilding.html:160
+#: pages/templates/teambuilding_old.html:160
 msgid "Vous cherchez une activité à vivre ensemble qui parle à tout le monde ?"
 msgstr ""
 
-#: pages/templates/teambuilding.html:161
+#: pages/templates/teambuilding_old.html:161
 msgid ""
 "Nos murder party et jeux d'énigmes spécial teambuilding s'adaptent aux "
 "groupes de 20, 30, 50, 150 joueurs."
 msgstr ""
 
-#: pages/templates/teambuilding.html:162
+#: pages/templates/teambuilding_old.html:162
 msgid "Laissez-les exprimer leurs émotions naturelles."
 msgstr ""
 
-#: pages/templates/teambuilding.html:168
+#: pages/templates/teambuilding_old.html:168
 msgid "Teambuilding grand public entre collègues pour tous les profils"
 msgstr ""
 
-#: pages/templates/teambuilding.html:177
+#: pages/templates/teambuilding_old.html:177
 msgid "Simple à organiser, Clé en main, Sur mesure"
 msgstr ""
 
-#: pages/templates/teambuilding.html:180
+#: pages/templates/teambuilding_old.html:180
 msgid "Vous avez besoin de précision ? Besoin d'un séminaire personnalisé ?"
 msgstr ""
 
-#: pages/templates/teambuilding.html:181
+#: pages/templates/teambuilding_old.html:181
 msgid ""
 "Loïs, notre directeur des événements team building, est à votre écoute (il a "
 "le sourire)."
 msgstr ""
 
-#: pages/templates/teambuilding.html:182
+#: pages/templates/teambuilding_old.html:182
 msgid "Réussissez votre teambuilding de qualité sans la charge mentale."
 msgstr ""
 
-#: pages/templates/teambuilding.html:188
+#: pages/templates/teambuilding_old.html:188
 msgid "Un team building à Lille sur mesure et clé en main pour un séminaire"
 msgstr ""
 
-#: pages/templates/teambuilding.html:289
+#: pages/templates/teambuilding_old.html:226
+msgid ""
+"Le temps d'une soirée, chaque participant s'oublie pour incarner un "
+"personnage d'une histoire. Il apprend à négocier avec ses collègues, à nouer "
+"des alliances. Le but de la murder party est de retrouver le coupable dans "
+"une enquête, comme au cluedo."
+msgstr ""
+
+#: pages/templates/teambuilding_old.html:229
+#, fuzzy
+#| msgid ""
+#| "La murder party est une activité fun, ludique et insolite qui permet à "
+#| "des grands groupes de joueurs de se découvrir autrement et de "
+#| "<strong>partager un moment de complicité</strong>."
+msgid ""
+"La murder party est la seule activité d'intérieur permettant à un grand "
+"groupe de s'amuser ensemble à la même activité."
+msgstr ""
+"The murder party is a fun, playful and unusual activity that allows large "
+"groups of players to get to know each other in a different way and "
+"<strong>share a moment of complicity</strong>."
+
+#: pages/templates/teambuilding_old.html:232
+msgid ""
+"C'est une occasion parfaite de briser la glace ou se rapprocher de ses "
+"collaborateurs sans la hiérarchie."
+msgstr ""
+
+#: pages/templates/teambuilding_old.html:248
+msgid ""
+"Un escape game est un format dans lequel les joueurs sont enfermés dans une "
+"salle et doivent résoudre des énigmes pour en sortir en moins d'une heure."
+msgstr ""
+
+#: pages/templates/teambuilding_old.html:289
 msgid "Pouvez-vous vous déplacer dans mes locaux ?"
 msgstr ""
 
-#: pages/templates/teambuilding.html:294
+#: pages/templates/teambuilding_old.html:294
 #, python-format
 msgid "Oui. 10%% de nos clients nous demandent ce service."
 msgstr ""
 
-#: pages/templates/teambuilding.html:297
+#: pages/templates/teambuilding_old.html:297
 msgid ""
 "Just Escape a l'habitude d'organiser des escape games, murder party ou jeux "
 "d'énigmes :"
 msgstr ""
 
-#: pages/templates/teambuilding.html:314
+#: pages/templates/teambuilding_old.html:314
 msgid "Organisez-vous des activités sur mesure ?"
 msgstr ""
 
-#: pages/templates/teambuilding.html:319
+#: pages/templates/teambuilding_old.html:319
 msgid ""
 "Vous souhaitez organiser un séminaire personalisé avec des activités "
 "originales ?"
 msgstr ""
 
-#: pages/templates/teambuilding.html:322
+#: pages/templates/teambuilding_old.html:322
 msgid ""
 "Parlez-nous de votre besoin. Just Escape propose des événements de "
 "teambuilding clé en main."
 msgstr ""
 
-#: pages/templates/teambuilding.html:340 pages/templates/teambuilding.html:360
+#: pages/templates/teambuilding_old.html:340
+#: pages/templates/teambuilding_old.html:360
 msgid "Pourquoi choisir une murder party en team building ?"
 msgstr ""
 
-#: pages/templates/teambuilding.html:344
+#: pages/templates/teambuilding_old.html:344
 msgid "Faites l'expérience d'énigmes chaleureuses."
 msgstr ""
 
-#: pages/templates/teambuilding.html:345
+#: pages/templates/teambuilding_old.html:345
 msgid ""
 "L'immersion dans une murder party est une excellente occasion de briser la "
 "glace et découvrir ses collègues en dehors du contexte professionnel."
 msgstr ""
 
-#: pages/templates/teambuilding.html:364
+#: pages/templates/teambuilding_old.html:364
 #, python-format
 msgid "80%% de nos murder party accueillent 18 à 26 joueurs en team building."
 msgstr ""
 
-#: pages/templates/teambuilding.html:365
+#: pages/templates/teambuilding_old.html:365
 msgid ""
 "Nous avons remarqué qu'une vingtaine de joueurs rend les parties idéales."
 msgstr ""
 
-#: pages/templates/teambuilding.html:366
+#: pages/templates/teambuilding_old.html:366
 msgid ""
 "Nos scénarios ont été spécialement conçus pour s'adapter à des groupes d'une "
 "dizaine jusqu'à une cinquantaine de joueurs."
 msgstr ""
 
-#: pages/templates/teambuilding.html:367
+#: pages/templates/teambuilding_old.html:367
 msgid ""
 "À partir de 30, 40, 50 joueurs, le jeux d'énigmes grand public <a href='/"
 "sherlock-vs-moriarty'>Sherlock vs Moriarty</a> pourrait correspondre à votre "
 "besoin."
 msgstr ""
 
-#: pages/templates/teambuilding.html:371
+#: pages/templates/teambuilding_old.html:371
 msgid ""
 "Histogramme de répartition des sessions team building : escape game, murder "
 "party, jeux d'énigmes"
 msgstr ""
 
-#: pages/templates/teambuilding.html:382
+#: pages/templates/teambuilding_old.html:382
 msgid "J'appelle pour organiser mon événement : 07 89 05 37 90"
 msgstr "I call to organize my event: +33 7 89 05 37 90"
 
-#: pages/templates/teambuilding.html:392
+#: pages/templates/teambuilding_old.html:392
 #, fuzzy
 #| msgid "Mes salles de séminaire : 2 à 60 personnes"
 msgid "Mes salles de séminaire à Lille : 2 à 60 personnes"
 msgstr "My seminar rooms: 2 to 60 people"
 
-#: pages/templates/teambuilding.html:399
+#: pages/templates/teambuilding_old.html:399
 msgid "La petite salle"
 msgstr "The small room"
 
-#: pages/templates/teambuilding.html:402
+#: pages/templates/teambuilding_old.html:402
 msgid ""
 "Éclairée par deux grandes baies vitrées, cette salle entièrement équipée "
 "fait près de 40m² :"
@@ -5504,27 +5163,32 @@ msgstr ""
 "Illuminated by two large picture windows, this fully equipped room is almost "
 "40m² in size:"
 
-#: pages/templates/teambuilding.html:404 pages/templates/teambuilding.html:434
+#: pages/templates/teambuilding_old.html:404
+#: pages/templates/teambuilding_old.html:434
 msgid "vidéoprojecteur"
 msgstr "projector"
 
-#: pages/templates/teambuilding.html:405 pages/templates/teambuilding.html:435
+#: pages/templates/teambuilding_old.html:405
+#: pages/templates/teambuilding_old.html:435
 msgid "paperboard"
 msgstr "paperboard"
 
-#: pages/templates/teambuilding.html:406 pages/templates/teambuilding.html:436
+#: pages/templates/teambuilding_old.html:406
+#: pages/templates/teambuilding_old.html:436
 msgid "machine à café"
 msgstr "coffee machine"
 
-#: pages/templates/teambuilding.html:407 pages/templates/teambuilding.html:437
+#: pages/templates/teambuilding_old.html:407
+#: pages/templates/teambuilding_old.html:437
 msgid "wifi haut débit"
 msgstr "broadband wifi"
 
-#: pages/templates/teambuilding.html:408 pages/templates/teambuilding.html:438
+#: pages/templates/teambuilding_old.html:408
+#: pages/templates/teambuilding_old.html:438
 msgid "salle privative"
 msgstr "private room"
 
-#: pages/templates/teambuilding.html:410
+#: pages/templates/teambuilding_old.html:410
 msgid ""
 "C'est un lieu idéal pour des petits groupes, un petit déjeuner ou pour un "
 "cocktail après une partie d'escape game."
@@ -5532,27 +5196,27 @@ msgstr ""
 "It's an ideal place for small groups, for breakfast or for a cocktail after "
 "an escape game."
 
-#: pages/templates/teambuilding.html:415
+#: pages/templates/teambuilding_old.html:415
 msgid "Une salle de séminaire à Lille tout équipé pour des formations"
 msgstr "A fully equipped seminar room in Lille for training"
 
-#: pages/templates/teambuilding.html:419
+#: pages/templates/teambuilding_old.html:419
 msgid "De 2 à 15 personnes"
 msgstr "From 2 to 15 people"
 
-#: pages/templates/teambuilding.html:420
+#: pages/templates/teambuilding_old.html:420
 msgid "En savoir plus"
 msgstr "Tell me more"
 
-#: pages/templates/teambuilding.html:428
+#: pages/templates/teambuilding_old.html:428
 msgid "La grande salle"
 msgstr "The big room"
 
-#: pages/templates/teambuilding.html:432
+#: pages/templates/teambuilding_old.html:432
 msgid "Une salle agréable et spacieuse de près de 60 m² entièrement équipée :"
 msgstr "A pleasant and spacious room of almost 60 m², fully equipped:"
 
-#: pages/templates/teambuilding.html:440
+#: pages/templates/teambuilding_old.html:440
 msgid ""
 "C'est un lieu idéal pour les grands groupes, une réunion, un séminaire, une "
 "formation ou un atelier de cohésion."
@@ -5560,23 +5224,23 @@ msgstr ""
 "It's an ideal venue for large groups, meetings, seminars, training sessions "
 "or team-building workshops."
 
-#: pages/templates/teambuilding.html:446
+#: pages/templates/teambuilding_old.html:446
 msgid "Une grande salle de séminaire à Lille"
 msgstr "The great seminar room with its bay window"
 
-#: pages/templates/teambuilding.html:450
+#: pages/templates/teambuilding_old.html:450
 msgid "De 2 à 60 personnes"
 msgstr "From 2 to 60 people"
 
-#: pages/templates/teambuilding.html:485
+#: pages/templates/teambuilding_old.html:485
 msgid "Team building à Lille et activités d'entreprise à Villeneuve d'Ascq"
 msgstr "Team building in Lille and corporate activities in Villeneuve d'Ascq"
 
-#: pages/templates/teambuilding.html:490
+#: pages/templates/teambuilding_old.html:490
 msgid "Introduction"
 msgstr "Introduction"
 
-#: pages/templates/teambuilding.html:491
+#: pages/templates/teambuilding_old.html:491
 msgid ""
 "Bienvenue à Lille et Villeneuve d’Ascq, deux villes dynamiques et idéales "
 "pour organiser vos événements d’entreprise. Que ce soit pour des séminaires, "
@@ -5589,11 +5253,11 @@ msgstr ""
 "training courses or team building activities in Lille, we have everything "
 "you need to make your event memorable and successful."
 
-#: pages/templates/teambuilding.html:496
+#: pages/templates/teambuilding_old.html:496
 msgid "Team Building à Lille et Villeneuve d'Ascq"
 msgstr "Team Building in Lille and Villeneuve d'ascq"
 
-#: pages/templates/teambuilding.html:497
+#: pages/templates/teambuilding_old.html:497
 msgid ""
 "Vous recherchez des activités de team building à Lille originales à Lille et "
 "Villeneuve d’Ascq ? Ne cherchez pas plus loin ! Notre agence spécialisée "
@@ -5607,7 +5271,7 @@ msgstr ""
 "your company. From traditional team building to innovative challenges, we "
 "have the best ideas for you."
 
-#: pages/templates/teambuilding.html:498
+#: pages/templates/teambuilding_old.html:498
 msgid ""
 "Optez pour un escape game en entreprise, une escape room pour votre "
 "séminaire, ou encore des jeux de team building qui sortent de l’ordinaire."
@@ -5615,11 +5279,11 @@ msgstr ""
 "Choose a corporate escape game, an escape room for your seminar, or team "
 "building games that are out of the ordinary."
 
-#: pages/templates/teambuilding.html:503
+#: pages/templates/teambuilding_old.html:503
 msgid "Idée animation Noël en entreprise"
 msgstr "Christmas entertainment ideas for companies"
 
-#: pages/templates/teambuilding.html:504
+#: pages/templates/teambuilding_old.html:504
 msgid ""
 "La fête de fin d’année approchent, et c’est le moment idéal pour organiser "
 "une animation de Noël pour votre entreprise. Surprenez vos collaborateurs "
@@ -5631,11 +5295,11 @@ msgstr ""
 "festive Christmas meals, lively evenings or special activities that will "
 "create a warm and friendly atmosphere."
 
-#: pages/templates/teambuilding.html:509
+#: pages/templates/teambuilding_old.html:509
 msgid "Séminaire d'entreprise à Lille et Villeneuve d'Ascq"
 msgstr "Company seminars in Lille and Villeneuve d'Ascq"
 
-#: pages/templates/teambuilding.html:510
+#: pages/templates/teambuilding_old.html:510
 msgid ""
 "Besoin de trouver le lieu idéal pour votre prochain séminaire d’entreprise ? "
 "Nos salles de réunion à Lille et Villeneuve d’Ascq offrent un cadre propice "
@@ -5652,11 +5316,11 @@ msgstr ""
 "guide you in planning your event, from the choice of activities to the way "
 "the day unfolds."
 
-#: pages/templates/teambuilding.html:515
+#: pages/templates/teambuilding_old.html:515
 msgid "Location de salle de réunion à Lille"
 msgstr "Meeting room rental in Lille"
 
-#: pages/templates/teambuilding.html:516
+#: pages/templates/teambuilding_old.html:516
 msgid ""
 "Pour vos réunions d’entreprise, nous proposons des salles de réunion "
 "modernes et bien équipées à Lille. Que ce soit pour une réunion d’équipe, "
@@ -5669,11 +5333,11 @@ msgstr ""
 "our meeting spaces are perfectly suited to your needs. Book now and benefit "
 "from attractive meeting room hire rates."
 
-#: pages/templates/teambuilding.html:521
+#: pages/templates/teambuilding_old.html:521
 msgid "Conclusion"
 msgstr "Conclusion"
 
-#: pages/templates/teambuilding.html:522
+#: pages/templates/teambuilding_old.html:522
 msgid ""
 "Quelle que soit votre demande, notre équipe expérimentée est là pour vous "
 "aider à organiser des événements d’entreprise inoubliables à Lille et "
@@ -6228,6 +5892,14 @@ msgstr ""
 msgid "Two Rooms"
 msgstr "Two Rooms"
 
+#: pages/templates/two_rooms.html:37
+msgid "Le loup-garou mais sans mourir"
+msgstr "The werewolf game but without dying"
+
+#: pages/templates/two_rooms.html:58
+msgid "Logo de two rooms"
+msgstr "The logo of two rooms"
+
 #: pages/templates/two_rooms.html:75
 msgid "<span class='text-inter'>Le loup-garou</span> version 2.0"
 msgstr "<span class='text-mulberry'>Werewolf</span> version 2.0"
@@ -6324,6 +5996,312 @@ msgid ""
 msgstr ""
 "If you have any request or if there is anything that can help us improve "
 "your experience"
+
+#~ msgid "Logo de la killer party"
+#~ msgstr "Logo of the killer party"
+
+#~ msgid ""
+#~ "Dans un futur lointain, les intelligences artificielles sont pleinement "
+#~ "intégrées à notre vie quotidienne. Un groupe d'ingénieurs est convié à "
+#~ "vérifier le bon fonctionnement de ces IAs. Lors d'une vérification de "
+#~ "routine à bord d'un vaisseau de transport, un des ingénieurs est retrouvé "
+#~ "mort..."
+#~ msgstr ""
+#~ "In the distant future, artificial intelligences are fully integrated into "
+#~ "ourdaily lives. A group of engineers are invited to check that these AIs "
+#~ "areworking properly. During a routine check aboard a transport ship, one "
+#~ "of theengineers is found dead..."
+
+#~ msgid "par joueur"
+#~ msgstr "by player"
+
+#~ msgid "Murder Party dans une école de magie de 100m²"
+#~ msgstr "Murder Party in a 100m² magic school"
+
+#~ msgid "Logo de la murder party dans des décors immersifs"
+#~ msgstr "Logo of the murder party in immersive scenery"
+
+#, fuzzy
+#~| msgid "Cluedo géant"
+#~ msgid "Loup-garou géant"
+#~ msgstr "Giant Cluedo"
+
+#~ msgid "Logo de la murder party"
+#~ msgstr "Logo of the murder party"
+
+#~ msgid ""
+#~ "Un soir de printemps 1884, sur la côte ouest, les habitants de Silver "
+#~ "Town se préparent à célébrer l'anniversaire de la ville. Mais les "
+#~ "apparences sont trompeuses. Entre le shérif, le juge, les filles du "
+#~ "saloon et les sympathiques indiens, tout le monde n'est pas là pour faire "
+#~ "la fête. La présence d'étrangers, les vieux conflits de terre et les jeux "
+#~ "de cartes douteux forment une atmosphère tendue..."
+#~ msgstr ""
+#~ "On a spring evening in 1884 on the west coast, the residents of Silver "
+#~ "Town are preparing to celebrate the town's birthday. But appearances are "
+#~ "deceiving. Between the sheriff, the judge, the saloon girls and the "
+#~ "friendly Indians, not everyone is there to celebrate. The presence of "
+#~ "strangers, old land disputes and dubious card games create a tense "
+#~ "atmosphere..."
+
+#~ msgid "Murder Party 2.0"
+#~ msgstr "Murder Party 2.0"
+
+#~ msgid ""
+#~ "Plongez dans cet univers ultime de complots et de bluff. Les assassins et "
+#~ "les citoyens s'affrontent dans des décors d'escape game pour se démasquer "
+#~ "les uns les autres. Allez-vous sauvez l'empereur ?"
+#~ msgstr ""
+#~ "Dive into the ultimate world of conspiracy and bluff. Assassins and "
+#~ "citizens clash in escape game settings to unmask each other. Will you "
+#~ "save the emperor?"
+
+#~ msgid "Découvrez les cartes cadeaux"
+#~ msgstr "Discover Just Escape's gift cards"
+
+#~ msgid "Offrir une carte cadeau"
+#~ msgstr "Offer a gift card"
+
+#~ msgid "Que diriez-vous d'un bon cadeau original et unique en son genre ?"
+#~ msgstr "How about an original and unique gift voucher?"
+
+#~ msgid "Une carte cadeau pour un escape game sur Lille"
+#~ msgstr "A gift card for an escape game in Lille"
+
+#~ msgid "Je veux une <strong>carte cadeau</strong>"
+#~ msgstr "I want a <strong>gift card</strong>"
+
+#~ msgid "How to use gift cards?"
+#~ msgstr "How to use gift cards?"
+
+#~ msgid ""
+#~ "The <a href='/en/carte-cadeau' class='text-underline text-hover-"
+#~ "mulberry'>gift card</a> can be used during the <a href='/en/reserver' "
+#~ "class='text-underline text-hover-mulberry'>online booking</a>."
+#~ msgstr ""
+#~ "The <a href='/en/carte-cadeau' class='text-underline text-hover-"
+#~ "mulberry'>gift card</a> can be used during the <a href='/en/reserver' "
+#~ "class='text-underline text-hover-mulberry'>online booking</a>."
+
+#~ msgid ""
+#~ "A gift voucher is only valid for one year. Hurry up and come and play!"
+#~ msgstr ""
+#~ "A gift voucher is only valid for one year. Hurry up and come and play!"
+
+#~ msgid "Carte cadeau"
+#~ msgstr "Gift card"
+
+#~ msgid "Gift Voucher – Escape Game Lille – Just Escape"
+#~ msgstr "Gift Voucher – Escape Game Lille – Just Escape"
+
+#~ msgid "Your friends and family will love you with this gift box 🎁😍"
+#~ msgstr "Your friends and family will love you with this gift box 🎁😍"
+
+#~ msgid "Gift Voucher 🎁"
+#~ msgstr "Gift Voucher 🎁"
+
+#~ msgid "Your friends and family will love you with this gift box 😍"
+#~ msgstr "Your friends and family will love you with this gift box 😍"
+
+#~ msgid "Offer a gift card"
+#~ msgstr "Offer a gift card"
+
+#~ msgid "Videos are not supported by this browser"
+#~ msgstr "Videos are not supported by this browser"
+
+#~ msgid "Gift voucher"
+#~ msgstr "Gift voucher"
+
+#~ msgid ""
+#~ "Comment offrir un <strong>escape game</strong> ? Avez-vous des "
+#~ "<strong>cartes cadeau ?</strong>"
+#~ msgstr ""
+#~ "How to offer an <strong>escape game</strong>? Do you have <strong>gift "
+#~ "cards</strong>?"
+
+#~ msgid ""
+#~ "Vous pouvez <a class='text-underline text-hover-mulberry' href='/carte-"
+#~ "cadeau'>offrir un escape game grâce à la carte cadeau</a> à un proche."
+#~ msgstr ""
+#~ "You can <a class='text-underline text-hover-mulberry' href='/en/carte-"
+#~ "cadeau'>offer an escape game with the gift card</a> to a loved one."
+
+#~ msgid ""
+#~ "Vous commandez votre bon directement en ligne, pour une mission selon le "
+#~ "nombre de joueurs souhaité."
+#~ msgstr ""
+#~ "You order your voucher directly online, for a mission according to the "
+#~ "number of players desired."
+
+#~ msgid ""
+#~ "Vous recevez alors un email de confirmation avec votre code de "
+#~ "réservation. Vous pouvez également recevoir par courrier une carte aux "
+#~ "reflets métalliques dorés."
+#~ msgstr ""
+#~ "You will then receive a confirmation email with your booking code. You "
+#~ "can also receive a card in the post with a golden metallic sheen."
+
+#~ msgid ""
+#~ "Le titulaire de la <strong>carte cadeau</strong> peut compléter son bon "
+#~ "pour <strong>inviter des détectives supplémentaires</strong>. Le bon est "
+#~ "valable un an pour une partie."
+#~ msgstr ""
+#~ "The <strong>gift card</strong> holder can <strong>add additional "
+#~ "detectives</strong> to the game. The voucher is valid for one year for "
+#~ "one game."
+
+#~ msgid "Vous ne savez jamais quoi offrir&nbsp;?"
+#~ msgstr "Never know what to give?"
+
+#~ msgid ""
+#~ "Que diriez-vous d'un bon cadeau original et unique en son genre&nbsp;?"
+#~ msgstr "How about an original and unique gift voucher?"
+
+#~ msgid ""
+#~ "Vos proches vont adorer passer noël ou leur anniversaire avec vous&nbsp;!"
+#~ msgstr ""
+#~ "Your loved ones will love spending Christmas or their birthday with you!"
+
+#~ msgid ""
+#~ "Vous organisez une tombola ou une cagnotte ? Demandez à en recevoir pour "
+#~ "servir de lot."
+#~ msgstr ""
+#~ "Are you organising a tombola or a prize draw? Ask to receive them as a "
+#~ "prize."
+
+#~ msgid "Bienvenue dans nos activités de Murder Party à Lille"
+#~ msgstr "Welcome to our Murder Party activities in Lille"
+
+#~ msgid "Plongez dans une intrigue captivante avec notre murder party à Lille"
+#~ msgstr ""
+#~ "Immerse yourself in a captivating plot with our murder party in Lille"
+
+#~ msgid ""
+#~ "Vous recherchez une animation immersive et captivante pour fédérer votre "
+#~ "équipe lors d'un événement d'entreprise à Lille ? Découvrez notre murder "
+#~ "party, une activité originale mêlant jeu d'enquête, scénario policier et "
+#~ "jeu de rôle grandeur nature. Plongez au cœur d'une intrigue mystérieuse "
+#~ "lors de notre murder party à Lille et renforcez la cohésion d'équipe de "
+#~ "manière ludique et engageante."
+#~ msgstr ""
+#~ "Are you looking for an immersive and captivating activity to bring your "
+#~ "team together at a corporate event in Lille? Discover our murder party, "
+#~ "an original activity combining investigation games, detective scenarios "
+#~ "and life-size role-playing. Plunge into the heart of a mysterious plot at "
+#~ "our murder party in Lille and strengthen team cohesion in a fun and "
+#~ "engaging way."
+
+#~ msgid ""
+#~ "Découvrez une expérience immersive lors de notre Murder Party à Lille"
+#~ msgstr "Discover an immersive experience at our Murder Party in Lille"
+
+#~ msgid ""
+#~ "Notre murder party à Lille est conçue comme un jeu collaboratif, parfait "
+#~ "pour les activités de team building. Les jeux d'équipe et les activités "
+#~ "de cohésion d'équipe sont intégrés tout au long de l'animation, "
+#~ "favorisant ainsi la collaboration et le travail d'équipe. Vous serez "
+#~ "totalement immergés dans l'intrigue captivante et participerez à une "
+#~ "expérience interactive unique qui stimulera le team spirit."
+#~ msgstr ""
+#~ "Our murder party in Lille is designed as a collaborative game, perfect "
+#~ "for team building activities. Team games and team-building activities are "
+#~ "integrated throughout, encouraging collaboration and teamwork. You'll be "
+#~ "totally immersed in the captivating plot and take part in a unique "
+#~ "interactive experience that will stimulate team spirit."
+
+#~ msgid ""
+#~ "Explorez une intrigue mystérieuse lors de notre animation de Murder Party "
+#~ "à Lille"
+#~ msgstr "Explore a mysterious plot at our Murder Party in Lille"
+
+#~ msgid ""
+#~ "Nous vous proposons des idées de team building originales pour votre "
+#~ "entreprise à Lille, telles que notre animation de murder party. Cette "
+#~ "activité permet de renforcer les liens au sein de votre équipe tout en "
+#~ "développant des compétences de résolution de problèmes, de communication "
+#~ "et de collaboration. Nos techniques de team building sont conçues pour "
+#~ "dynamiser une réunion d'équipe et maximiser l'engagement des participants."
+#~ msgstr ""
+#~ "We offer original team building ideas for your company in Lille, such as "
+#~ "our murder party activity. This activity strengthens bonds within your "
+#~ "team while developing problem-solving, communication and collaboration "
+#~ "skills. Our team building techniques are designed to energise a team "
+#~ "meeting and maximise participant engagement."
+
+#~ msgid "Expérimentez une activité originale avec notre Murder Party à Lille"
+#~ msgstr "Experience an original activity with our Murder Party in Lille"
+
+#~ msgid ""
+#~ "Lors de notre animation de murder party à Lille, nous vous offrons "
+#~ "l'opportunité d'intégrer votre équipe dans une expérience immersive où "
+#~ "chacun a un rôle essentiel à jouer. C'est également une occasion de "
+#~ "relever des défis en équipe et de résoudre ensemble des énigmes "
+#~ "complexes. Cette animation peut être adaptée à vos besoins spécifiques, "
+#~ "que ce soit pour un séminaire, une soirée d'entreprise ou une journée de "
+#~ "cohésion de groupe."
+#~ msgstr ""
+#~ "During our murder party in Lille, we offer you the opportunity to "
+#~ "integrate your team into an immersive experience where everyone has an "
+#~ "essential role to play. It's also an opportunity to take up challenges as "
+#~ "a team and solve complex enigmas together. This activity can be adapted "
+#~ "to your specific needs, whether for a seminar, a company evening or a "
+#~ "group bonding day."
+
+#~ msgid ""
+#~ "Profitez d’une animation interactive unique lors de notre Murder Party à "
+#~ "Lille"
+#~ msgstr "Enjoy unique interactive entertainment at our Murder Party in Lille"
+
+#~ msgid ""
+#~ "En plus de notre murder party à Lille, nous proposons une large gamme "
+#~ "d'animations pour vos événements d'entreprise. Que ce soit une soirée "
+#~ "entreprise, un séminaire ou une journée d'intégration, nous pouvons vous "
+#~ "fournir des idées d'animation originales et des concepts innovants pour "
+#~ "rendre votre événement mémorable. Notre expertise en animation "
+#~ "événementielle et incentive vous permettra d'organiser des activités "
+#~ "personnalisées qui correspondent à vos objectifs."
+#~ msgstr ""
+#~ "In addition to our murder party in Lille, we offer a wide range of "
+#~ "entertainment for your corporate events. Whether it's a corporate "
+#~ "evening, a seminar or an induction day, we can provide you with original "
+#~ "entertainment ideas and innovative concepts to make your event memorable. "
+#~ "Our expertise in event and incentive entertainment will enable you to "
+#~ "organise personalised activities that meet your objectives."
+
+#~ msgid ""
+#~ "Contactez-nous dès aujourd’hui pour discuter de notre animation de Murde "
+#~ "Party à Lille"
+#~ msgstr "Contact us today to discuss our Murde Party entertainment in Lille"
+
+#~ msgid ""
+#~ "Ne cherchez plus, contactez-nous dès aujourd'hui pour discuter de vos "
+#~ "besoins en matière d'animation d'événements d'entreprise à Lille. Nous "
+#~ "pouvons vous proposer des idées d'organisation, des concepts originaux et "
+#~ "des animations adaptées pour renforcer la cohésion d'équipe, dynamiser "
+#~ "vos réunions et créer des expériences uniques lors de vos soirées et "
+#~ "séminaires d'entreprise."
+#~ msgstr ""
+#~ "Contact us today to discuss your corporate event entertainment needs in "
+#~ "Lille. We can provide you with organisational ideas, original concepts "
+#~ "and appropriate entertainment to strengthen team cohesion, energise your "
+#~ "meetings and create unique experiences during your corporate evenings and "
+#~ "seminars."
+
+#~ msgid "90 minutes de jeu"
+#~ msgstr "90 minutes of game"
+
+#~ msgid "Une boisson par participant parmis une sélection"
+#~ msgstr "One beverage per participant from a selection"
+
+#~ msgid "Une boisson par personne pour vous rafraîchir pendant l'enquête"
+#~ msgstr "A refreshing beverage per person during the investigation."
+
+#~ msgid ""
+#~ "Your friends and family will love you with this <a href='/en/carte-"
+#~ "cadeau' class='text-underline text-hover-mulberry'>gift&nbsp;box</a>."
+#~ msgstr ""
+#~ "Your friends and family will love you with this <a href='/en/carte-"
+#~ "cadeau' class='text-underline text-hover-mulberry'>gift&nbsp;box</a>."
 
 #~ msgid "La murder dinner"
 #~ msgstr "The murder dinner"
@@ -6642,9 +6620,6 @@ msgstr ""
 
 #~ msgid "Atelier d'improvisation théâtrale"
 #~ msgstr "Improvisational theatre workshop"
-
-#~ msgid "Jusqu'à 150 joueurs"
-#~ msgstr "Up to 150 players"
 
 #~ msgid "Jeu d'immersion : murder party"
 #~ msgstr "Immersion game: murder party"
